@@ -2,9 +2,9 @@
 
 > Book introduction here.
 
-## Live Demo
+## Apuntes
 
-[Check demo!](http://crguezl.github.io/ull-esit-1617)
+[apuntes!](http://crguezl.github.io/ull-esit-1617)
 
 ## Background
 
