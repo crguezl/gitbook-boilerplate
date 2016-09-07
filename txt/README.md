@@ -4,7 +4,7 @@
 
 ## Live Demo
 
-[Check demo!](http://my-user.github.io/my-repo)
+[Check demo!](http://crguezl.github.io/ull-esit-1617)
 
 ## Background
 

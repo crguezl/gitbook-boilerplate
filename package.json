@@ -15,8 +15,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/enten/gitbook-boilerplate.git",
-    "wiki": "https://github.com/enten/gitbook-boilerplate.wiki.git"
+    "url": "git@github.com:crguezl/ull-esit-1617.git",
+    "wiki": "https://github.com/crguezl/ull-esit-1617.wiki.git"
   },
   "keywords": [
     "gitbook",
