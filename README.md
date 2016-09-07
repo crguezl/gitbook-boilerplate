@@ -25,3 +25,6 @@ npm run deploy
 # npm run deploy-gitbook && npm run deploy-wiki
 ```
 __Important__: Wiki must be created on Github
+
+* [Apuntes](https://crguezl.github.io/ull-esit-1617)
+* [Wiki](https://github.com/crguezl/ull-esit-1617/wiki)
