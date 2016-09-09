@@ -7,6 +7,7 @@
     "generate-gitbook": "./scripts/losh generate-gitbook",
     "generate-wiki": "./scripts/losh generate-wiki",
     "build": "npm install && npm i gitbook-cli && npm run generate-gitbook && npm run generate-wiki",
+    "serve": "gitbook serve txt gh-pages",
     "deploy-gitbook": "./scripts/losh deploy-gitbook",
     "deploy-togbsio": "./scripts/losh deploy-gitbook",
     "deploy-wiki": "./scripts/losh deploy-togbsio",

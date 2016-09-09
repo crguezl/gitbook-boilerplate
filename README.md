@@ -26,5 +26,6 @@ npm run deploy
 ```
 __Important__: Wiki must be created on Github
 
-* [Apuntes](https://crguezl.github.io/ull-esit-1617)
-* [Wiki](https://github.com/crguezl/ull-esit-1617/wiki)
+* [Apuntes del Curso 16/17 en crguezl.github.io](https://crguezl.github.io/ull-esit-1617)
+* [Apuntes del Curso 16/17 en gitbook.com](https://www.gitbook.com/book/casianorodriguezleon/ull-esit-1617/details)
+* [Wiki del curso 16/17 en GitHub](https://github.com/crguezl/ull-esit-1617/wiki)

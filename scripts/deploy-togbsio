@@ -1,0 +1,28 @@
+#!/bin/bash
+# source: 
+# this script expects that a txt/ dir exists already
+
+CMDDESC="Deploy to gitbooks"
+
+REPO=$(node -e "console.log(require('./package.json').repository.gburl);")
+
+echo $REPO
+
+rm -fR gbs/*
+cp -R txt/ gbs
+
+cd gbs
+# Remove possible existing git repo. We'll replace entire wiki
+rm -rf .git
+# Init new repo
+git init
+# The first and only commit to this new Git repo contains all the
+# files present with the commit message "Deploy to GitBook".
+git add .
+git commit -m "Deploy to GitBook"
+# Add origin
+git remote add origin $REPO
+# Force push from the current repo's master branch to the remote
+# (All previous history on the master branch will be lost, since we are overwriting it.)
+git push --force origin master:master
+
