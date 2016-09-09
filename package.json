@@ -4,13 +4,13 @@
   "description": "GitBook Boilerplate",
   "main": "index.js",
   "scripts": {
-    "generate-gitbook": "./scripts/losh generate-gitbook",
+    "generate-gitbook": "./scripts/generate-gitbook",
     "generate-wiki": "./scripts/losh generate-wiki",
     "build": "npm install && npm i gitbook-cli && npm run generate-gitbook && npm run generate-wiki",
     "serve": "gitbook serve txt gh-pages",
     "deploy-gitbook": "./scripts/losh deploy-gitbook",
-    "deploy-togbsio": "./scripts/losh deploy-gitbook",
-    "deploy-wiki": "./scripts/losh deploy-togbsio",
+    "deploy-togbsio": "./scripts/losh deploy-togbsio",
+    "deploy-wiki": "./scripts/losh deploy-wiki",
     "deploy": "npm run build && npm run deploy-gitbook && npm run deploy-wiki",
     "version": "./scripts/losh version",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -36,7 +36,9 @@
     "async": "^1.4.0",
     "fs-extra": "^0.22.1",
     "gh-pages": "^0.3.1",
+    "gitbook": "^2.1.0",
     "gitbook-cli": "^0.3.4",
-    "gitbook": "^2.1.0"
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2"
   }
 }
