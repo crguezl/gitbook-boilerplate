@@ -12,3 +12,7 @@ gulp.task('build', function() {
   return gulp.src('').pipe(shell(['./scripts/generate-gitbook']));
 });
 
+// "serve": "gitbook serve txt gh-pages",
+gulp.task('serve', function() {
+  return gulp.src('').pipe(shell(['gitbook serve txt gh-pages']));
+});
