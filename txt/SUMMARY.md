@@ -6,3 +6,6 @@ This is the summary of my book.
     * [example 1](section1/example1.md)
     * [example 2](section1/example2.md)
 * [Recursos](recursos/README.md)
+* [Prácticas](practicas/README.md)
+  * [Práctica: Tareas Iniciales](practicas/practicagitbook.md)
+  * [Práctica: OOP](practicas/practicaoop.md)

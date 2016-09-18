@@ -2,7 +2,7 @@ var gulp  = require('gulp');
 var shell = require('gulp-shell');
 
 //  "deploy-gitbook": "./scripts/losh deploy-gitbook",
-gulp.task('deploy', function () {
+gulp.task('deploy', [ 'build'], function () {
   return gulp.src('').pipe(shell(["./scripts/losh deploy-gitbook"]));
 });
 
