@@ -6,6 +6,11 @@ gulp.task('deploy', [ 'build'], function () {
   return gulp.src('').pipe(shell(["./scripts/losh deploy-gitbook"]));
 });
 
+//  "deploy-togbsio": "./scripts/losh deploy-togbsio",
+gulp.task('deploygb', [ 'build'], function () {
+  return gulp.src('').pipe(shell(["./scripts/losh deploy-togbsio"]));
+});
+
 // npm install -g http-server
 //  "generate-gitbook": "./scripts/generate-gitbook",
 gulp.task('build', function() {
@@ -26,4 +31,9 @@ gulp.task('opengh', function() {
 // open browser at https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/
 gulp.task('open', function() {
   return gulp.src('').pipe(shell(['open https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/']));
+});
+
+// open browser at local
+gulp.task('open', function() {
+  return gulp.src('').pipe(shell(['open localhost:4000']));
 });

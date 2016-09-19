@@ -8,17 +8,18 @@ REPO=$(node -e "console.log(require('./package.json').repository.gburl);")
 
 echo $REPO
 
+MYFILES=`git ls-files | grep '^txt/' | sed 's/^txt\///g'`
 rm -fR gbs/*
 cp -R txt/ gbs
 
 cd gbs
-# Remove possible existing git repo. We'll replace entire wiki
+# Remove possible existing git repo.
 rm -rf .git
 # Init new repo
 git init
 # The first and only commit to this new Git repo contains all the
 # files present with the commit message "Deploy to GitBook".
-git add .
+git add $MYFILES
 git commit -m "Deploy to GitBook"
 # Add origin
 git remote add origin $REPO
