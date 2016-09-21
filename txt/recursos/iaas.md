@@ -1,6 +1,6 @@
 ### SERVICIO IAAS de la ULL
 
-#### El Servicia iaas.ull.es
+#### El Servicio iaas.ull.es
 
 * [Web del servicio https://iaas.ull.es](https://iaas.ull.es)
 * [Información general del IaaS](https://docs.google.com/document/d/1BYVULfCekK4oJosWAPu8C1AEMUVbIvtztLjVziNHVjk/edit#heading=h.gppwv2l7qycn). Se describe el proyecto y el producto.
@@ -15,7 +15,7 @@
   * [Manual de uso de la aplicación de gestión de pools de iaas.ull.es](https://docs.google.com/document/d/13vP4bd5LhnfNJvV6ncz20ZNTXfeg8ehWbw_ECkn4MAY/edit#) (URL larga)
 * [RT ULL para soporte](https://usuarios.ull.es/rt/cas/login?next=/rt/)
 
-#### Tutorial
+#### Tutorial para El Alumno
 
 * [Como Desplegar una Aplicación Web en iaas.ull.es](https://github.com/SYTW/iaas-ull-es)
 
