@@ -11,6 +11,15 @@ gulp.task('deploygb', [ 'build'], function () {
   return gulp.src('').pipe(shell(["./scripts/losh deploy-togbsio"]));
 });
 
+//"generate-wiki": "./scripts/losh generate-wiki"
+//"deploy-wiki": "./scripts/losh deploy-wiki"
+gulp.task('deployw', function() {
+  return gulp.src('').pipe(shell([
+     "./scripts/losh generate-wiki",
+     "./scripts/losh deploy-wiki"
+     ]))
+});
+
 // npm install -g http-server
 //  "generate-gitbook": "./scripts/generate-gitbook",
 gulp.task('build', function() {
