@@ -1,7 +1,7 @@
 # Curso 2016/2017.
 
-* Escuela
-* Sistemas y Tecnologías Web
+* [Grado en Ingeniería Informática de la ULL](http://www.ull.es/view/centros/etsii/Grado_en_Ingenieria_Informatica/es)
+* [Sistemas y Tecnologías Web en el Campus Virtual](https://campusvirtual.ull.es/1617/course/view.php?id=1175)
 * Procesadores de Lenguajes
 * Desarrollo de Sistemas Informáticos
 
