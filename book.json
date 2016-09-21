@@ -23,7 +23,7 @@
           "footerPath" : "layouts/footer.html"
         },
         "autocover": {
-            "title": "Apuntes del Curso 2015/2016: Procesadores de Lenguajes, Desarrollo de Sistemas Informáticos y Sistemas y Tecnologías Web",
+            "title": "Apuntes del Curso 2016/2017: Procesadores de Lenguajes, Desarrollo de Sistemas Informáticos y Sistemas y Tecnologías Web",
             "author": "Casiano",
             "pluginsConfig": {
                 "autocover": {
