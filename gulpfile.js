@@ -2,12 +2,12 @@ var gulp  = require('gulp');
 var shell = require('gulp-shell');
 
 //  "deploy-gitbook": "./scripts/losh deploy-gitbook",
-gulp.task('deploy', [ 'build'], function () {
+gulp.task('deploy', function () {
   return gulp.src('').pipe(shell(["./scripts/losh deploy-gitbook"]));
 });
 
 //  "deploy-togbsio": "./scripts/losh deploy-togbsio",
-gulp.task('deploygb', [ 'build'], function () {
+gulp.task('deploygb', function () {
   return gulp.src('').pipe(shell(["./scripts/losh deploy-togbsio"]));
 });
 

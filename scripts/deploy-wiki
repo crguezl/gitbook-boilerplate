@@ -13,6 +13,7 @@ REPO=$(node -e "console.log(require('./package.json').repository.wiki);")
 cd wiki
 # Remove possible existing git repo. We'll replace entire wiki
 rm -rf .git
+rm apuntescurso1516
 # Init new repo
 git init
 # The first and only commit to this new Git repo contains all the
