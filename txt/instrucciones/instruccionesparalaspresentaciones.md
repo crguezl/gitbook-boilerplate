@@ -1,4 +1,4 @@
-JavaScript, HTML y CSS
+## JavaScript, HTML y CSS
 
 -   Gráficos
     -   Canvas
@@ -36,22 +36,25 @@ JavaScript, HTML y CSS
     -   PhantomJS
     -   Otros
 
-Software Social y Colaborativo
+## Software Social y Colaborativo
 
 -   GitHub Avanzado
 -   Cloud 9 (c9.io)
 -   Otros
 
-Comercio Electrónico
+## Comercio Electrónico
 
 -   Shopify
 -   Magento
 -   Otros
 
-Medios y librerias Digitales
+## Medios y librerias Digitales
 
 -   Gestores Documentales: Alfresco, etc.
--   Edición de Vídeos
+-   Generación de libros digitales: GitBook, etc.
+-   Creación y Distribución de colecciones de bibliotecas digitales: Greenstone, etc.
+-   [Software para la gestión de recursos digitales](http://tecnologiasweb.jsenso.es/software-open-source-para-la-gestion-de-recursos-digitales/)
+-   Creación, Edición, Reproducción de Vídeos
     -   Camtasia
     -   iMovie
     -   VLC Media Player

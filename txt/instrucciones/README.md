@@ -1,6 +1,6 @@
 # Instrucciones Generales para el Funcionamiento de la Asignatura
 
-* [classroom](classroom.md)
-* [instrucciones para el envio](instruccionesparaelenvio.md)
-* [instrucciones para la evaluacion](instruccionesparalaevaluacion.md)
-* [instrucciones para las presentaciones de SYTW](instruccionesparalaspresentaciones.md)
+* [Instrucciones para classroom](classroom.md)
+* [Instrucciones para el envio](instruccionesparaelenvio.md)
+* [Instrucciones para la evaluacion](instruccionesparalaevaluacion.md)
+* [Instrucciones para las presentaciones de SYTW](instruccionesparalaspresentaciones.md)
