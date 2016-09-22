@@ -4,9 +4,11 @@
   * [Instrucciones para GitHub ClassRoom](instrucciones/classroom.md)
   * [Instrucciones para los envíos de tareas](instrucciones/instruccionesparaelenvio.md)
   * [Instrucciones para la evaluación](instrucciones/instruccionesparalaevaluacion.md)
+  * [Instrucciones para las Presentaciones de SYTW](instrucciones/instruccionesparalaspresentaciones.md)
 * [Apuntes](apuntes/README.md)
   * [Gulp](apuntes/gulp/README.md)
 * [Recursos](recursos/README.md)
+  * [GitHub Education](recursos/README.md#github-education)
   * Servicios en la Nube
     * [iaas.ull.es](recursos/iaas.md)
     * [Yellow Circle](recursos/yellow.md)
