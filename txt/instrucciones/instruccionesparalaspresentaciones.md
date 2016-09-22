@@ -42,6 +42,13 @@
 -   Cloud 9 (c9.io)
 -   Otros
 
+## Arquitecturas orientadas a servicios
+
+- REST: Representational State Transfer o Transferencia de Estado Representacional
+- WSDL: Web Services Description Language
+- SOAP: Simple Object Access Protocol
+- UDDI: Universal Description, Discovery and Integration. 
+
 ## Comercio Electrónico
 
 -   Shopify
