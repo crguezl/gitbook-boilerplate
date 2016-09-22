@@ -45,6 +45,8 @@
 ## Arquitecturas orientadas a servicios
 
 - REST: Representational State Transfer o Transferencia de Estado Representacional
+  - [Cómo crear un api REST usando node.js, express y mongodb](https://carlosazaustre.es/blog/como-crear-una-api-rest-usando-node-js/)
+  - [Servicios web con JavaScript Por JJ Merelo](http://geneura.ugr.es/~jmerelo/tutoriales/servicios-web/)
 - WSDL: Web Services Description Language
 - SOAP: Simple Object Access Protocol
 - UDDI: Universal Description, Discovery and Integration. 
