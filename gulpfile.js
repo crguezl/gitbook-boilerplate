@@ -28,7 +28,7 @@ gulp.task('build', function() {
 
 // "serve": "gitbook serve txt gh-pages",
 gulp.task('serve', function() {
-  return gulp.src('').pipe(shell(['gitbook serve txt gh-pages']));
+  return gulp.src('').pipe(shell(['gitbook serve `pwd` gh-pages']));
 });
 
 
