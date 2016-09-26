@@ -1,5 +1,5 @@
 #!/bin/bash
-# source: 
+# source:
 # this script expects that a txt/ dir exists already
 
 CMDDESC="Deploy to gitbooks"
@@ -11,6 +11,7 @@ echo $REPO
 MYFILES=`git ls-files | grep '^txt/' | sed 's/^txt\///g'`
 rm -fR gbs/*
 cp -R txt/ gbs
+cp book.json gbs/
 
 cd gbs
 # Remove possible existing git repo.
@@ -19,11 +20,10 @@ rm -rf .git
 git init
 # The first and only commit to this new Git repo contains all the
 # files present with the commit message "Deploy to GitBook".
-git add $MYFILES
+git add $MYFILES book.json
 git commit -m "Deploy to GitBook"
 # Add origin
 git remote add origin $REPO
 # Force push from the current repo's master branch to the remote
 # (All previous history on the master branch will be lost, since we are overwriting it.)
 git push --force origin master:master
-
