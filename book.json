@@ -1,4 +1,5 @@
 {
+    "root" : "txt",
     "plugins": [
         "include",
         "-autocover",
@@ -6,7 +7,7 @@
         "youtube",
         "highlight",
         "-code-highlighter",
-        "ace", 
+        "ace",
         "copy-code-button",
         "toc",
         "latex-codecogs",
