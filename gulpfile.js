@@ -8,7 +8,10 @@ gulp.task('deploy', function () {
 
 //  "deploy-togbsio": "./scripts/losh deploy-togbsio",
 gulp.task('deploygb', function () {
-  return gulp.src('').pipe(shell(["./scripts/losh deploy-togbsio"]));
+  return gulp.src('').pipe(shell([
+    "git ci -am 'deploy to gitbooks'",
+    "./scripts/losh deploy-togbsio"
+  ]));
 });
 
 //"generate-wiki": "./scripts/losh generate-wiki"
