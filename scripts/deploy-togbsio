@@ -1,2 +1,10 @@
 ## Just put as remote the gitbook url and be sure in book.json
 ## the "root" property is defined
+
+[~/local/src/githubclassroom/ull-esit-1617(master)]$ git remote -v
+gbs	https://git.gitbook.com/casianorodriguezleon/ull-esit-1617.git (fetch)
+gbs	https://git.gitbook.com/casianorodriguezleon/ull-esit-1617.git (push)
+origin	git@github.com:crguezl/ull-esit-1617.git (fetch)
+origin	git@github.com:crguezl/ull-esit-1617.git (push)
+
+a push will suffice

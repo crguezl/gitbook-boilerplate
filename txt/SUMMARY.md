@@ -17,3 +17,4 @@
 * [Prácticas](practicas/README.md)
   * [Práctica: Tareas Iniciales](practicas/practicagitbook.md)
   * [Práctica: OOP](practicas/practicaoop.md)
+  * [Práctica: Creación de un Paquete NPM](practicas/practicanm.md)
