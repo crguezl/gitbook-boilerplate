@@ -7,9 +7,11 @@
   * [Instrucciones para las Presentaciones de SYTW](instrucciones/instruccionesparalaspresentaciones.md)
 * [Apuntes](apuntes/README.md)
   * [Gulp](apuntes/gulp/README.md)
+    * [gulp gh pages](apuntes/gulp/gulpghpages.md)
+    * [gulp-linting](apuntes/gulp/gulplinting.md)
   * [Creación de Paquetes y Módulos en NodeJS](apuntes/nodejspackages.md)
   * [Sobre GitBook](apuntes/gitbooknotes/README.md)
-  * [File System/Sistema de Archivos](apuntes/gitbooknotes/fs.md)
+  * [Sistema de Archivos](apuntes/fs.md)
 * [Recursos](recursos/README.md)
   * [GitHub Education](recursos/README.md#github-education)
   * Servicios en la Nube

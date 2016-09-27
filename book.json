@@ -1,18 +1,18 @@
 {
     "root" : "txt",
     "plugins": [
-        "include",
+        "-include",
         "-autocover",
         "-layout",
         "youtube",
         "highlight",
-        "-code-highlighter",
+        "code-highlighter",
         "ace",
-        "copy-code-button",
-        "toc",
-        "latex-codecogs",
-        "emphasize",
-        "jazer"
+        "-copy-code-button",
+        "-toc",
+        "-latex-codecogs",
+        "-emphasize",
+        "-jazer"
     ],
     "pluginsConfig": {
         "toc": {
