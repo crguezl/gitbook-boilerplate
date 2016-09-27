@@ -7,7 +7,7 @@
 * Califiquen cada uno de los apartados especificados en la rúbrica. proveída por el profesor
 * Intenten ayudar a sus compañeros con el mensaje de retroalimentación indicando en que pueden mejorar.
 * Quien se encarga de pasar la rúbrica de evaluación al Moodle es el jefe de proyecto
-* El profesor replica (y modifica según su criterio) las notas otorgadas equipo a cada uno de sus miembros
+* El profesor replica (y modifica según su criterio) las notas otorgadas al equipo a cada uno de sus miembros
 
 ### Criterios Genéricos
 

@@ -16,6 +16,7 @@ el código que haya desarrollado en la práctica anterior.
   2. [`https://www.gitbook.com/`](https://www.gitbook.com/)
 * Como deberán darse de alta en el site de [npm](https://www.npmjs.com) asegúrense de ponerle a su paquete un nombre único que no coincida con el de los otros alumnos, por ejemplo `gitbook-start-team-name`
 * Añada a los otros miembros del equipo como `contributors`. Véase [las seccion people fields de package.json](https://docs.npmjs.com/files/package.json#people-fields-author-contributors)
+* Intente que su paquete funcione independientemente del Sistema Operativo (Linux, MacOS X, Windows, etc.)
 
 ### Referencias
 
@@ -23,3 +24,6 @@ el código que haya desarrollado en la práctica anterior.
 [Creación de Paquetes y Módulos en NodeJS](../apuntes/nodejspackages.md)
 * Véase la sección
 [Gulp](../apuntes/gulp/README.md)
+* Estudie el paquete [ejs](https://www.npmjs.com/package/ejs)
+para la creación de plantillas
+* Estudie [los paquetes - como `fs` - para el manejo de archivos en Node.JS](../apuntes/fs.md)
