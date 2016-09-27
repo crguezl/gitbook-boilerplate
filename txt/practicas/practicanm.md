@@ -1,8 +1,9 @@
 ## Práctica: Creación de un Paquete NPM
 
-### ClassRoom
+<!-- ### ClassRoom
 
 * [Enlace de Aceptación de la Tarea en ClassRoom](https://classroom.github.com/group-assignment-invitations/4aeed7c8f3f0d7ebdb27e1c129a68b57)
+-->
 
 ### Descripción
 
