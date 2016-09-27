@@ -1,4 +1,8 @@
-## Práctica: Módulos y Packages
+## Práctica: Creación de un Paquete NPM
+
+### ClassRoom
+
+* [Enlace de Aceptación de la Tarea en ClassRoom](https://classroom.github.com/group-assignment-invitations/4aeed7c8f3f0d7ebdb27e1c129a68b57)
 
 ### Descripción
 
@@ -9,7 +13,7 @@ el código que haya desarrollado en la práctica anterior.
 * Este ejecutable construye una plantilla con la estructura inicial del libro y provee a partir de los argumentos que se le pasen los mecanismos para su fácil despliegue en  
   1. GitHub `gh-pages` y en
   2. [`https://www.gitbook.com/`](https://www.gitbook.com/)
-* Como debe de darse de alta en npm](https://www.npmjs.com) asegúrese de ponerle a su paquete un nombre único, por ejemplo `gitbook-start-team-name`
+* Como deberán darse de alta en el site de [npm](https://www.npmjs.com) asegúrense de ponerle a su paquete un nombre único que no coincida con el de los otros alumnos, por ejemplo `gitbook-start-team-name`
 * Añada a los otros miembros del equipo como `contributors`. Véase [las seccion people fields de package.json](https://docs.npmjs.com/files/package.json#people-fields-author-contributors)
 
 ### Referencias
