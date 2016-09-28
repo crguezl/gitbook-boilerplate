@@ -1,17 +1,35 @@
 var gulp  = require('gulp');
 var shell = require('gulp-shell');
 
+var deploygh = function() {
+  "use strict";
+  let gh = require('gh-pages');
+
+  //process.env.CMDDESC="Deploy GitBook on Github";
+
+  let json = require('./package.json');
+  let REPO = json.repository.url;
+  console.log(REPO);
+
+  gh.publish('./gh-pages', { repo: REPO, logger: function(m) { console.error(m); } });
+}
+
+//  "deploy-gitbook": "./scripts/losh deploy-gitbook",
+gulp.task('deploy', deploygh);
+
+/*
 //  "deploy-gitbook": "./scripts/losh deploy-gitbook",
 gulp.task('deploy', function () {
   return gulp.src('').pipe(shell(["./scripts/losh deploy-gitbook"]));
 });
+*/
 
 //  "deploy-togbsio": "./scripts/losh deploy-togbsio",
-gulp.task('deploygb', 
+gulp.task('deploygb',
   shell.task(
     "git ci -am 'deploy to gitbooks'"+
     ";"+
-    "git push gbs master", 
+    "git push gbs master",
     { verbose: true }
   )
 );
@@ -43,7 +61,7 @@ gulp.task('opengh', function() {
 });
 
 // open browser at https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/
-gulp.task('open', function() {
+gulp.task('opengb', function() {
   return gulp.src('').pipe(shell(['open https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/']));
 });
 
@@ -51,8 +69,3 @@ gulp.task('open', function() {
 gulp.task('open', function() {
   return gulp.src('').pipe(shell(['open localhost:4000']));
 });
-
-gulp.task('shorthand', shell.task([
-  'echo hello',
-  'echo world'
-]))

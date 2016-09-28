@@ -14,6 +14,7 @@ el código que haya desarrollado en la práctica anterior.
 * Este ejecutable construye una plantilla con la estructura inicial del libro y provee a partir de los argumentos que se le pasen los mecanismos para su fácil despliegue en  
   1. GitHub `gh-pages` y en
   2. [`https://www.gitbook.com/`](https://www.gitbook.com/)
+* Para analizar los argumentos pasados en línea de comandos un buen módulo es [minimist](https://github.com/substack/minimist)
 * Como deberán darse de alta en el site de [npm](https://www.npmjs.com) asegúrense de ponerle a su paquete un nombre único que no coincida con el de los otros alumnos, por ejemplo `gitbook-start-team-name`
 * Añada a los otros miembros del equipo como `contributors`. Véase [las seccion people fields de package.json](https://docs.npmjs.com/files/package.json#people-fields-author-contributors)
 * Intente que su paquete funcione independientemente del Sistema Operativo (Linux, MacOS X, Windows, etc.)
