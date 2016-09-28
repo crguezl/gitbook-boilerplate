@@ -7,13 +7,14 @@ gulp.task('deploy', function () {
 });
 
 //  "deploy-togbsio": "./scripts/losh deploy-togbsio",
-gulp.task('deploygb', function () {
-  return gulp.src('').pipe(shell([
+gulp.task('deploygb', 
+  shell.task(
     "git ci -am 'deploy to gitbooks'"+
     ";"+
-    "git push gbs master"
-  ]));
-});
+    "git push gbs master", 
+    { verbose: true }
+  )
+);
 
 //"generate-wiki": "./scripts/losh generate-wiki"
 //"deploy-wiki": "./scripts/losh deploy-wiki"
@@ -50,3 +51,8 @@ gulp.task('open', function() {
 gulp.task('open', function() {
   return gulp.src('').pipe(shell(['open localhost:4000']));
 });
+
+gulp.task('shorthand', shell.task([
+  'echo hello',
+  'echo world'
+]))
