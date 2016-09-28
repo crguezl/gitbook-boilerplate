@@ -10,7 +10,7 @@ gulp.task('deploy', function () {
 gulp.task('deploygb', function () {
   return gulp.src('').pipe(shell([
     "git ci -am 'deploy to gitbooks'"+
-    "||"+
+    ";"+
     "git push gbs master"
   ]));
 });
