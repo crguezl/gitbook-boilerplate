@@ -9,7 +9,8 @@ gulp.task('deploy', function () {
 //  "deploy-togbsio": "./scripts/losh deploy-togbsio",
 gulp.task('deploygb', function () {
   return gulp.src('').pipe(shell([
-    "git ci -am 'deploy to gitbooks'",
+    "git ci -am 'deploy to gitbooks'"+
+    "||"+
     "git push gbs master"
   ]));
 });
