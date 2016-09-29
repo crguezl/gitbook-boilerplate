@@ -15,5 +15,8 @@
 ## Plugins
 
 * [Plugins for GitBook](https://plugins.gitbook.com/)
+
+## Tópicos y Preguntas
+
 * [Highlighting Rows In Code Blocks #433](https://github.com/GitbookIO/gitbook/issues/433)
   * [Code Highlighter plugin](https://plugins.gitbook.com/plugin/code-highlighter)

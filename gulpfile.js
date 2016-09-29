@@ -15,7 +15,7 @@ var deploygh = function() {
 }
 
 //  "deploy-gitbook": "./scripts/losh deploy-gitbook",
-gulp.task('deploy', [ 'build'], deploygh);
+gulp.task('deploy', [ 'build', 'push'], deploygh);
 
 /*
 //  "deploy-gitbook": "./scripts/losh deploy-gitbook",
@@ -30,6 +30,16 @@ gulp.task('deploygb',
     "git ci -am 'deploy to gitbooks'"+
     ";"+
     "git push gbs master",
+    { verbose: true }
+  )
+);
+
+//  "deploy-togbsio": "./scripts/losh deploy-togbsio",
+gulp.task('push',
+  shell.task(
+    "git ci -am 'deploy to github'"+
+    ";"+
+    "git push origin master",
     { verbose: true }
   )
 );
