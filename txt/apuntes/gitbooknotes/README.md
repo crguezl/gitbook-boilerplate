@@ -5,8 +5,6 @@
 * [Gitboook help center](https://help.gitbook.com/)
 * [GitBook documentation](https://www.gitbook.com/book/gitbookio/documentation/details)
 * [Documentation for developers (API & Plugins)](developer.gitbook.com)
-
-
 * [Can I host my GitBook content on GitHub?](https://help.gitbook.com/github/can-i-host-on-github.html)
 
 ## Tutoriales
@@ -16,5 +14,6 @@
 
 ## Plugins
 
+* [Plugins for GitBook](https://plugins.gitbook.com/)
 * [Highlighting Rows In Code Blocks #433](https://github.com/GitbookIO/gitbook/issues/433)
   * [Code Highlighter plugin](https://plugins.gitbook.com/plugin/code-highlighter)

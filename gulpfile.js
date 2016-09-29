@@ -15,7 +15,7 @@ var deploygh = function() {
 }
 
 //  "deploy-gitbook": "./scripts/losh deploy-gitbook",
-gulp.task('deploy', deploygh);
+gulp.task('deploy', [ 'build'], deploygh);
 
 /*
 //  "deploy-gitbook": "./scripts/losh deploy-gitbook",
