@@ -9,7 +9,7 @@
         "code-highlighter",
         "ace",
         "-copy-code-button",
-        "-toc",
+        "toc",
         "-latex-codecogs",
         "-emphasize",
         "-jazer"

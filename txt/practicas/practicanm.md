@@ -1,10 +1,5 @@
 ## Práctica: Creación de un Paquete NPM
 
-<!-- ### ClassRoom
-
-* [Enlace de Aceptación de la Tarea en ClassRoom](https://classroom.github.com/group-assignment-invitations/4aeed7c8f3f0d7ebdb27e1c129a68b57)
--->
-
 ### Descripción
 
 El objetivo de esta práctica  es crear un package NodeJS y publicarlo en [npm](https://www.npmjs.com). El paquete se construye a partir de
