@@ -2,7 +2,7 @@
 
 ### Descripción
 
-El objetivo de esta práctica  es proporcionar un mecanismo de despligue de un [gitbook](../apuntes/gitbooknotas/README.md) de manera que
+El objetivo de esta práctica  es proporcionar un mecanismo de despligue de un libro [gitbook](../apuntes/gitbooknotas/README.md) de manera que
 un `deploy` a github produzca la actualización
 automática de los otros sites de despliegue: [gitboook.com](https://help.gitbook.com/),
 [Heroku](../recursos/heroku.md)
