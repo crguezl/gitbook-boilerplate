@@ -2,26 +2,38 @@
 
 ### Descripción
 
-El objetivo de esta práctica  es crear un package NodeJS y publicarlo en [npm](https://www.npmjs.com). El paquete se construye a partir de
-el código que haya desarrollado en la práctica anterior.
+El objetivo de esta práctica  es proporcionar un mecanismo de despligue de un [gitbook](../apuntes/gitbooknotas/README.md) de manera que
+un `deploy` a github produzca la actualización
+automática de los otros sites de despliegue: [gitboook.com](https://help.gitbook.com/),
+[Heroku](../recursos/heroku.md)
+  e [iaas.ull.es](../recursos/iaas.md).
 
-* Se trata de añadir un ejecutable `gitbook-start` (Véase [seccion `bin`en `package.json`](https://docs.npmjs.com/files/package.json#bin))
-* Este ejecutable construye una plantilla con la estructura inicial del libro y provee a partir de los argumentos que se le pasen los mecanismos para su fácil despliegue en  
-  1. GitHub `gh-pages` y en
-  2. [`https://www.gitbook.com/`](https://www.gitbook.com/)
-* Para analizar los argumentos pasados en línea de comandos un buen módulo es [minimist](https://github.com/substack/minimist)
-* Como deberán darse de alta en el site de [npm](https://www.npmjs.com) asegúrense de ponerle a su paquete un nombre único que no coincida con el de los otros alumnos, por ejemplo `gitbook-start-team-name`
-* Añada a los otros miembros del equipo como `contributors`. Véase [las seccion people fields de package.json](https://docs.npmjs.com/files/package.json#people-fields-author-contributors)
-* Intente que su paquete funcione independientemente del Sistema Operativo (Linux, MacOS X, Windows, etc.)
+* Para lograr este objetivo usaremos la técnica descrita
+en el artículo [Colaboración: The Perfect Work-flow with Git, GitHub, and SSH](../apuntes/colaboracion/README.md).
+
+* En el tutorial [Colaboración: The Perfect Work-flow with Git, GitHub, and SSH](../apuntes/colaboracion/README.md) se usa PHP para el código del servidor (que en nuestro caso vamos a hacer que se ejecute en Heroku e iaas). Utilice NodeJS y  [Express](../apuntes/express/README.md) para escribir el servidor.
+
+
+
+Parta de los códigos escritos en las prácticas anteriores.
+
 
 ### Referencias
 
 * [Colaboración: The Perfect Work-flow with Git, GitHub, and SSH](../apuntes/colaboracion/README.md)
   * [The Perfect Workflow, with Git, GitHub, and SSH](https://code.tutsplus.com/tutorials/the-perfect-workflow-with-git-github-and-ssh--net-19564)
-* Véase la sección
-[Creación de Paquetes y Módulos en NodeJS](../apuntes/nodejspackages.md)
-* Véase la sección
-[Gulp](../apuntes/gulp/README.md)
+* [Express](../apuntes/express/README.md)
+* [Procesos: Ejecutando comandos Unix](../apuntes/processes/README.md)
+* [Heroku](../recursos/heroku.md)
+
+
+Además repase las secciones utilizadas en las prácticas anteriores:
+
+* [Creación de Paquetes y Módulos en NodeJS](../apuntes/nodejspackages.md)
+* [Gulp](../apuntes/gulp/README.md)
 * Estudie el paquete [ejs](https://www.npmjs.com/package/ejs)
 para la creación de plantillas
 * Estudie [los paquetes - como `fs` - para el manejo de archivos en Node.JS](../apuntes/fs.md)
+* Como se usa el módulo [gh-pages](https://www.npmjs.com/package/gh-pages) para automatizar el despliegue en `gh-pages`
+* Como se despliega un libro en [www.gitbook.com](www.gitbook.com),
+* [GitBook Plugins](https://plugins.gitbook.com/)
