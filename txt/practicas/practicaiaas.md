@@ -18,7 +18,7 @@ en el artículo [Colaboración: The Perfect Work-flow with Git, GitHub, and SSH]
 no funciona.
 * Para sincronizar con [iaas.ull.es](../recursos/iaas.md) disponga un script que utilice `ssh` y/o `scp` para actualizar los ficheros necesarios al repositorio del libro en la máquina virtual.
 
-* Este comando ejemplo sugiere una forma de hacerlo:
+* Este comando `ssh` ejemplo sugiere una forma de hacerlo:
 
 ```bash
 [~/apuntesgitbook(master)]$ ssh sytw 'cd src/express-start; git ls-files'
