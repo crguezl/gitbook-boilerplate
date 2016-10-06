@@ -18,7 +18,7 @@ en el artículo [Colaboración: The Perfect Work-flow with Git, GitHub, and SSH]
 no funciona.
 * Para sincronizar con [iaas.ull.es](../recursos/iaas.md) disponga un script que utilice `ssh` y/o `scp` para actualizar los ficheros necesarios al repositorio del libro en la máquina virtual.
 
-* Este comando `ssh` ejemplo sugiere una forma de hacerlo:
+* Este ejemplo usando el comando `ssh` sugiere una forma de hacerlo:
 
 ```bash
 [~/apuntesgitbook(master)]$ ssh sytw 'cd src/express-start; git ls-files'
@@ -34,7 +34,7 @@ routes/gulpfile.js
 routes/package.json
 routes/public/images/kitten.jpg
 ```
-usando este comando nos coenctamos a la máquina `sytw` (alias configurado en `~/.ssh/config`) y ejecutamos en la misma un comando que nos posiciona en el directorio adecuado y llama al comando `git`
+usando este comando nos coenctamos a la máquina virtual iaas `sytw` (previamente hemos hecho un alias configurado en `~/.ssh/config`) y ejecutamos en la misma un comando que nos posiciona en el directorio adecuado y llama al comando `git`
 * Si se tiene establecida una pareja de claves SSH privada-pública entre la máquina de desarrollo (que se supone en la red de la ULL) y la máquina virtual, es posible usar `ssh` para conectarse a la máquina virtual y hacer un `git pull` en el directorio adecuado. Esta solución tampoco trabaja si se está desarrollando en c9, ya que las máquinas de c9 no están en la red de la ULL.
 
 
