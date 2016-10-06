@@ -34,7 +34,7 @@ routes/gulpfile.js
 routes/package.json
 routes/public/images/kitten.jpg
 ```
-usando este comando nos conectamos a la máquina virtual iaas `sytw` (previamente hemos hecho un alias configurado en `~/.ssh/config`) y ejecutamos en la misma un comando que nos posiciona en el directorio adecuado y llama al comando `git`
+usando este comando nos conectamos a la máquina virtual iaas `sytw` (previamente hemos hecho un alias ide la IP a `sytw` configurado en `~/.ssh/config`) y ejecutamos en la misma un comando que nos posiciona en el directorio adecuado y llama al comando `git`
 * Si se tiene establecida una pareja de claves SSH privada-pública entre la máquina de desarrollo (que se supone en la red de la ULL) y la máquina virtual, es posible usar `ssh` para conectarse a la máquina virtual y hacer un `git pull` en el directorio adecuado.
 * Esta solución tampoco trabaja si se está desarrollando en c9, ya que las máquinas de c9 no están en la red de la ULL.
 
