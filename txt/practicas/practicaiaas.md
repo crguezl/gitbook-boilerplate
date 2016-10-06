@@ -25,6 +25,8 @@ Parta de los códigos escritos en las prácticas anteriores.
 * [Express](../apuntes/express/README.md)
 * [Procesos: Ejecutando comandos Unix](../apuntes/processes/README.md)
 * [Heroku](../recursos/heroku.md)
+* [iaas](../recursos/iaas.md)
+
 
 
 Además repase las secciones utilizadas en las prácticas anteriores:
