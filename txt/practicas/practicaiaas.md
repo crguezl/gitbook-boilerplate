@@ -4,16 +4,21 @@
 
 El objetivo de esta práctica  es proporcionar un mecanismo de despligue de un libro [gitbook](../apuntes/gitbooknotas/README.md) de manera que
 un `deploy` a github produzca la actualización
-automática de los otros sites de despliegue: [gitboook.com](https://help.gitbook.com/),
-[Heroku](../recursos/heroku.md)
-  e [iaas.ull.es](../recursos/iaas.md).
+automática de los otros sites de despliegue:
+* [gitboook.com](https://help.gitbook.com/),
+* [Heroku](../recursos/heroku.md)
 
 * Para lograr este objetivo usaremos la técnica descrita
 en el artículo [Colaboración: The Perfect Work-flow with Git, GitHub, and SSH](../apuntes/colaboracion/README.md).
 
 * En el tutorial [Colaboración: The Perfect Work-flow with Git, GitHub, and SSH](../apuntes/colaboracion/README.md) se usa PHP para el código del servidor (que en nuestro caso vamos a hacer que se ejecute en Heroku e iaas). Utilice NodeJS y  [Express](../apuntes/express/README.md) para escribir el servidor.
 
+* En [iaas.ull.es](../recursos/iaas.md), debido a que la IP de la máquina virtual es privada a la red de la ULL, la estrategia explicada en
+[Colaboración: The Perfect Work-flow with Git, GitHub, and SSH](../apuntes/colaboracion/README.md)
+no funciona.
 
+Para sincronizar con [iaas.ull.es](../recursos/iaas.md) disponga un script que utilice `ssh` y `scp` para enviar los ficheros necesarios
+al repositorio del libro en la máquina virtual.
 
 Parta de los códigos escritos en las prácticas anteriores.
 
