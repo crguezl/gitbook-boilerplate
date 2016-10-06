@@ -16,8 +16,7 @@ en el artículo [Colaboración: The Perfect Work-flow with Git, GitHub, and SSH]
 * En [iaas.ull.es](../recursos/iaas.md), debido a que la IP de la máquina virtual es privada a la red de la ULL, la estrategia explicada en
 [Colaboración: The Perfect Work-flow with Git, GitHub, and SSH](../apuntes/colaboracion/README.md)
 no funciona.
-
-Para sincronizar con [iaas.ull.es](../recursos/iaas.md) disponga un script que utilice `ssh` y `scp` para enviar los ficheros necesarios
+* Para sincronizar con [iaas.ull.es](../recursos/iaas.md) disponga un script que utilice `ssh` y `scp` para enviar los ficheros necesarios
 al repositorio del libro en la máquina virtual.
 
 Parta de los códigos escritos en las prácticas anteriores.
