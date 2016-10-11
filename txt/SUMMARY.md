@@ -16,6 +16,7 @@
   * [Colaboración](apuntes/colaboracion/README.md)  
   * [Express](apuntes/express/README.md)  
   * [Procesos](apuntes/processes/README.md)  
+  * [Code Smells](apuntes/patterns/codesmell.md)
   * [Patrones de Diseño](apuntes/patterns/README.md)  
     * [Strategy Pattern](apuntes/patterns/strategypattern.md)
     * [Dependency Injection Pattern](apuntes/patterns/dependencyinjectionpattern.md)
