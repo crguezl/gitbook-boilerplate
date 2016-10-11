@@ -17,9 +17,9 @@
   * [Express](apuntes/express/README.md)  
   * [Procesos](apuntes/processes/README.md)  
   * [Patrones de Diseño](apuntes/patterns/README.md)  
-    * [Strategy Pattern](strategypattern.md)
-    * [Dependency Injection Pattern](dependencyinjectionpattern.md)
-    * [Inversion of Control Pattern](inversionofcontrolpattern.md)
+    * [Strategy Pattern](apuntes/patterns/strategypattern.md)
+    * [Dependency Injection Pattern](apuntes/patterns/dependencyinjectionpattern.md)
+    * [Inversion of Control Pattern](apuntes/patterns/inversionofcontrolpattern.md)
 * [Recursos](recursos/README.md)
   * [GitHub Education](recursos/README.md#github-education)
   * Servicios en la Nube
