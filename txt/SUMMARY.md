@@ -17,6 +17,7 @@
   * [Express](apuntes/express/README.md)  
   * [Procesos](apuntes/processes/README.md)  
   * [Code Smells](apuntes/patterns/codesmell.md)
+  * [Principios de Diseño](apuntes/patterns/designprinciples.md)
   * [Patrones de Diseño](apuntes/patterns/README.md)  
     * [Strategy Pattern](apuntes/patterns/strategypattern.md)
     * [Dependency Injection Pattern](apuntes/patterns/dependencyinjectionpattern.md)
