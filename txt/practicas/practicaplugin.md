@@ -45,7 +45,7 @@ despliega el libro en la máquina virtual de `iaas.ull.es`
   - Salida por `stderr`en la máquina remota
   - Códigos de error si los hubiera
   - etc.
-* El método `deploy()` recibe un argumento con toda la información que hayamos podido recopilar sobre el objeto libro (por ejemplo: autor, email, título, directorio del template, etc.)
+* El método `deploy()` recibe un argumento con toda el estado: esto es, la información que hayamos podido recopilar sobre el objeto libro (por ejemplo: autor, email, título, directorio del template, etc.) y que sea necesario para preparar el código de despliegue
 
 ### Referencias
 
