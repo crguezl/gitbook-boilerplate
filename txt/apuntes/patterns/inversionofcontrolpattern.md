@@ -10,3 +10,6 @@ In the  first case, we have a more specific component (the one providing the new
 
 Instead of the custom code controlling the infrastructure, the infrastructure controls the custom code.
 This is also known as the Hollywood principle or *"don't call us, we'll call you"*.
+
+
+* [Wikipedia: Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control)
