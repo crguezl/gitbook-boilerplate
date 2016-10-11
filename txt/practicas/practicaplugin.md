@@ -41,12 +41,8 @@ var result = iaas.deploy();
 ```
 se despliega el libro en la máquina virtual de `iaas.ull.es`
 * Observe que hay dos fases en este proceso:
-  1. cuando se construye por `gitbook-start` la estructura para el libro y
-  2. cuando el autor escribe y despliega el libro
-
-La llamada a `gulp deploy-...` ocurre en la segunda fase.
-
-El despliegue hace un `require` de los plugins que implementan los despliegues solicitados.
+  1. cuando se construye la estructura inicial por `gitbook-start` la jerarquía de directorios conteniendo los scripts y ficheros markdown para el libro y
+  2. cuando el autor escribe y despliega el libro llamando a `gulp`. Las llamadas a `gulp deploy-...` ocurren en esta segunda fase. El despliegue hace un `require` de los plugins que implementan los despliegues solicitados.
 
 * Es conveniente que el método `deploy()` proveído por el plugin retorne un objeto describiendo los resultados del despliegue como
   - Salida por `stdout` en la máquina remota
@@ -54,7 +50,9 @@ El despliegue hace un `require` de los plugins que implementan los despliegues s
   - Códigos de error si los hubiera
   - etc. Cualquier información adicional que considere conveniente.
 
-* El método `deploy()` puede obtener información sobre el libro a partir del `packag.json`generado. También si lo prefieren pueden pasarle un argumento con todo el estado del libro: esto es, la información/estado que hayamos podido recopilar sobre el objeto libro (por ejemplo: autor, email, título, url de github, el directorio a desplegar, etc. en general, con todas las opciones que se pasaron por línea de comandos). Esto es, enviarle toda la información que necesita para realizar el despliegue del libro al servidor
+* El método `deploy()` puede obtener información sobre el libro a partir del `package.json` generado. También si lo prefieren pueden pasarle un argumento con la información/estado que hayamos podido recopilar sobre el objeto resultante del `package.json`
+
+* Los plugins deben estar correctamente documentados. Por ejemplo, el plugin del `iaas-ull-es` necesita al menos saber la dirección de la máquina virtual y el camino en dicha máquina hasta el repositorio que contiene el libro
 
 ### Referencias
 
