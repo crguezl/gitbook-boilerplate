@@ -66,11 +66,11 @@ para la creación de plantillas
 
 ### Preguntas y Respuestas
 
-1.- No entendemos cómo debemos estructurar el directorio de nuestra app y cómo disponer el gitbook en él: ¿debemos poner dentro del directorio `public/` las carpetas `scripts/`, `txt/``, `README.md`, etc?
+1.- *No entendemos cómo debemos estructurar el directorio de nuestra app y cómo disponer el gitbook en él: ¿debemos poner dentro del directorio `public/` las carpetas `scripts/`, `txt/`, `README.md`, etc?*
 
-No. Lo que sirves son los HTML que están en el directorio gh-pages.
+No. Lo que sirves son los HTML que están en el directorio `gh-pages`.
 
-Ejecutas el servidor sirviendo como directorio de estáticos el directorio gh-pages que has generado con el build
+Ejecutas el servidor sirviendo como directorio de estáticos el directorio `gh-pages` que has generado con el `build`
 
 En el servidor escribes:
 
