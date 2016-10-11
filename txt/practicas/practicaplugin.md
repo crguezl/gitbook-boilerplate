@@ -52,7 +52,13 @@ se despliega el libro en la máquina virtual de `iaas.ull.es`
 
 * El método `deploy()` puede obtener información sobre el libro a partir del `package.json` generado. También si lo prefieren pueden pasarle un argumento con la información/estado que hayamos podido recopilar sobre el objeto resultante del `package.json`
 
-* Los plugins deben estar correctamente documentados. Por ejemplo, el plugin del `iaas-ull-es` necesita al menos saber la dirección de la máquina virtual y el camino en dicha máquina hasta el repositorio que contiene el libro
+* Los plugins deben estar correctamente documentados.
+  - Por ejemplo, el plugin del `iaas-ull-es` necesita al menos saber la dirección de la máquina virtual y el camino en dicha máquina hasta el repositorio que contiene el libro
+  - Pueden aceptar argumentos adicionales en línea de comandos para esta información
+
+  `$ gitbook-start -d iaas-ull-es, --iaas-IP 127.0.25.5 --iaas-path src/chuchu`
+  - O bien simplemente que el usuario las añada en el `package.json`
+  En cualquier caso debe aparecer en la documentación lo que hay que hacer
 
 ### Referencias
 
