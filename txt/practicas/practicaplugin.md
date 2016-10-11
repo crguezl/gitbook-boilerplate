@@ -55,18 +55,20 @@ se despliega el libro en la máquina virtual de `iaas.ull.es`
 * Los plugins deben estar correctamente documentados.
   - Por ejemplo, el plugin del `iaas-ull-es` necesita al menos saber la dirección de la máquina virtual y el camino en dicha máquina hasta el repositorio que contiene el libro
   - Pueden optar por aceptar argumentos adicionales en línea de comandos para esta información
+
   ```bash
   $ gitbook-start -d iaas-ull-es, --iaas-IP 127.0.25.5 --iaas-path src/chuchu
   ```
   - O bien pueden optar porque simplemente el usuario añada los correspondientes campos en el `package.json`
-```javascript
+
+  ```javascript
   {
     ...
     "iaas-IP", "127.0.25.5",
     "iaas-path", "src/chuchu",
     ...
   }
-```
+  ```
   En cualquier caso debe aparecer en la documentación lo que hay que hacer
 
 ### Referencias
