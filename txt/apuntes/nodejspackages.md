@@ -16,6 +16,9 @@
 * [Your first Node.js package  por Elijah Insua](https://nodesource.com/blog/your-first-nodejs-package/)
 * [Creating and Publishing a Node.js Module](https://quickleft.com/blog/creating-and-publishing-a-node-js-module/) por Brent Ertz
 * [npm documentation: Creating Node.js modules](https://docs.npmjs.com/getting-started/creating-node-modules)
+* [NODE.JS module patterns
+using simple examples](https://darrenderidder.github.io/talks/ModulePatterns)
+  - Trasparencias. Muestra muchos ejemplos/patrones de exportación-importación
 
 ### Package.json
 

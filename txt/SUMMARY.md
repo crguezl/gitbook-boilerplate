@@ -27,3 +27,4 @@
   * [Práctica: OOP](practicas/practicaoop.md)
   * [Práctica: Creación de un Paquete NPM](practicas/practicanm.md)
   * [Práctica: Despliegues en iaas y heroku](practicas/practicaiaas.md)
+  * [Práctica: Añadiendo plugins para los despliegues](practicas/practicaplugin.md)
