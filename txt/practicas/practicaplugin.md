@@ -37,7 +37,7 @@ Esto es, deberán existir plugins `gitbook-start-plugin-iaas-ull-es` y
 método `deploy()`, de manera que si desde el código principal se llama a un código como este:
 ```bash
 var iaas = require("book-start-plugin-iaas-ull-es");
-var result = iaas.deploy();
+var result = iaas.deploy(book);
 ```
 despliega el libro en la máquina virtual de `iaas.ull.es`
 * El método `deploy()`proveído por el plugin deberá retornar un objeto describiendo los resultados del despliegue como
@@ -45,7 +45,7 @@ despliega el libro en la máquina virtual de `iaas.ull.es`
   - Salida por `stderr`en la máquina remota
   - Códigos de error si los hubiera
   - etc.
-* El método `deploy()` recibe un argumento con toda el estado: esto es, la información que hayamos podido recopilar sobre el objeto libro (por ejemplo: autor, email, título, directorio del template, etc.) y que sea necesario para preparar el código de despliegue
+* El método `deploy(book)` recibe un argumento con toda el estado del libro: esto es, la información/estado que hayamos podido recopilar sobre el objeto libro (por ejemplo: autor, email, título, url de github, el directorio a desplegar, etc. en general, con todas las opciones que se pasaron por línea de comandos). Esto es, toda la información que sea necesaria para preparar el código de despliegue
 
 ### Referencias
 
