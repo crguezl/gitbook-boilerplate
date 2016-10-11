@@ -1,3 +1,3 @@
-!include "codesmell.md"
+!INCLUDE "codesmell.md"
 
-!include "strategypattern.md"
+!INCLUDE "strategypattern.md"
