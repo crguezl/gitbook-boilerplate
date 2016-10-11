@@ -16,6 +16,7 @@
   * [Colaboración](apuntes/colaboracion/README.md)  
   * [Express](apuntes/express/README.md)  
   * [Procesos](apuntes/processes/README.md)  
+  * [Patrones de Diseño](apuntes/patterns/README.md)  
 * [Recursos](recursos/README.md)
   * [GitHub Education](recursos/README.md#github-education)
   * Servicios en la Nube
