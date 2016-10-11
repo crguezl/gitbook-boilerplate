@@ -1,14 +1,14 @@
-### El principio *Open/Closed*
+## El principio *Open/Closed*
 
 * "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification"*;
 that is, such an entity can allow its behaviour to be extended without modifying its source code.
 
-### Solución: `Strategy Design Pattern`
+## Strategy Design Pattern
 
-  La solución es usar el `strategy design pattern`. Vea como hacerlo en este vídeo.
-  Preste especial atención al *code smell* **Switch Statement Smell** desde el minuto 11:37 al 29:15.
+La solución es usar el `strategy design pattern`. Vea como hacerlo en este vídeo.
+Preste especial atención al *code smell* **Switch Statement Smell** desde el minuto 11:37 al 29:15.
 
-  {% youtube %}https://www.youtube.com/watch?v=JVlfj7mQZPo{% endyoutube %}
+{% youtube %}https://www.youtube.com/watch?v=JVlfj7mQZPo{% endyoutube %}
 
 The basic idea  of the `strategy design pattern` is to **delegate tasks to encapsulated algorithms which are interchangable at runtime**.
 

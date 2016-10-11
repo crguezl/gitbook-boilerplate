@@ -1,4 +1,7 @@
 <!-- toc -->
+
+## Code Smells
+
 ### Definición de *Code Smell* de la Wikipedia:
 
 According to Martin Fowler, *"a **code smell** is a surface indication that usually corresponds to a deeper problem in the system"*.
@@ -8,6 +11,7 @@ Smells are certain structures in the code that indicate violation of fundamental
 Code smells **are usually not bugs**. They are not technically incorrect and do not currently prevent the program from functioning. Instead, **they indicate weaknesses in design** that may be slowing down development or increasing the risk of bugs or failures in the future.
 
 ### Clasificación de Code Smells
+
 #### Application-level smells:
 * **Duplicated code:** identical or very similar code exists in more than one location.
 * **Contrived complexity:** forced usage of overcomplicated design patterns where simpler design would suffice.
@@ -37,14 +41,7 @@ Code smells **are usually not bugs**. They are not technically incorrect and do 
 
  Viola el principio *Open/Closed*.
 
-
-### El principio *Open/Closed*
-
-* "software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification"*;
-that is, such an entity can allow its behaviour to be extended without modifying its source code.
-
 ### Eliminate JavaScript Code Smells
-
 Vea el Vídeo  de Elijah Manor.
 
 Presta especial atención al *code smell* **Switch Statement Smell** desde el minuto 11:37 al 29:15.
