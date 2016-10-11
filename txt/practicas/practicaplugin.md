@@ -23,7 +23,8 @@ o bien
 ```bash
 $ gitbook-start -deploy ull-iaas-es --deploy heroku
 ```
-Que indica que nuestro usuario quiere que se le provea de tareas `gulp` denominadas `deploy-ull-iaas-es` y `deploy-heroku` que despliegan el libro en los diferentes  sites.
+Que indica que nuestro usuario quiere que se le provea de tareas `gulp` denominadas `deploy-ull-iaas-es` y `deploy-heroku` que despliegan el libro en los diferentes  sites. Esto supone que existen módulos [npm](https://www.npmjs.com/) con nombres `gitbook-start-plugin-iaas-ull-es`  y `gitbook-start-plugin-heroku`
+
 
 #### Sugerencias
 
@@ -31,21 +32,29 @@ Que indica que nuestro usuario quiere que se le provea de tareas `gulp` denomina
 ```bash
 $ gitbook-start -d ull-iaas-es --d heroku
 ```
-El ejecutable hace un `require` de los plugins que implementan los despliegues solicitados.
 Esto es, deberán existir plugins `gitbook-start-plugin-iaas-ull-es` y
 `gitbook-start-plugin-heroku` que exportan un objeto que dispone de un
-método `deploy()`, de manera que si desde el código principal se llama a un código como este:
+método `deploy()`, de manera que si desde un código principal se llama a un código como este:
 ```bash
 var iaas = require("book-start-plugin-iaas-ull-es");
-var result = iaas.deploy(book);
+var result = iaas.deploy();
 ```
-despliega el libro en la máquina virtual de `iaas.ull.es`
-* El método `deploy()`proveído por el plugin deberá retornar un objeto describiendo los resultados del despliegue como
+se despliega el libro en la máquina virtual de `iaas.ull.es`
+* Observe que hay dos fases en este proceso:
+  1. cuando se construye por `gitbook-start` la estructura para el libro y
+  2. cuando el autor escribe y despliega el libro
+
+La llamada a `gulp deploy-...` ocurre en la segunda fase.
+
+El despliegue hace un `require` de los plugins que implementan los despliegues solicitados.
+
+* Es conveniente que el método `deploy()` proveído por el plugin retorne un objeto describiendo los resultados del despliegue como
   - Salida por `stdout` en la máquina remota
   - Salida por `stderr`en la máquina remota
   - Códigos de error si los hubiera
-  - etc.
-* El método `deploy(book)` recibe un argumento con toda el estado del libro: esto es, la información/estado que hayamos podido recopilar sobre el objeto libro (por ejemplo: autor, email, título, url de github, el directorio a desplegar, etc. en general, con todas las opciones que se pasaron por línea de comandos). Esto es, toda la información que sea necesaria para preparar el código de despliegue
+  - etc. Cualquier información adicional que considere conveniente.
+
+* El método `deploy()` puede obtener información sobre el libro a partir del `packag.json`generado. También si lo prefieren pueden pasarle un argumento con todo el estado del libro: esto es, la información/estado que hayamos podido recopilar sobre el objeto libro (por ejemplo: autor, email, título, url de github, el directorio a desplegar, etc. en general, con todas las opciones que se pasaron por línea de comandos). Esto es, enviarle toda la información que necesita para realizar el despliegue del libro al servidor
 
 ### Referencias
 
