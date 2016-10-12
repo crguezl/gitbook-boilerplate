@@ -13,6 +13,10 @@
 ](https://youtu.be/x2fd8HHk5xM)
 * [Charla de JJ Merelo sobre Node y la API de GitHub](https://youtu.be/P8nkBfysdZU)
 
+## OAuth
+
+* [Introducción a OAuth](http://nereida.deioc.ull.es/~lpp/perlexamples/node773.html) (Apuntes del profesor)
+
 ## GitHub API
 
 * [Octonode](https://github.com/pksunkara/octonode): octonode is a library for nodejs to access the [github v3 api](https://developer.github.com/)
