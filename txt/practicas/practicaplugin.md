@@ -73,13 +73,13 @@ se despliega el libro en la máquina virtual de `iaas.ull.es`
 
 ### Referencias
 
-* [Code Smells](../apuntes/patterns/codesmell.md)
-* [Patrones de Diseño](../apuntes/patterns/README.md)
-  * [Dependency Injection Pattern](../apuntes/patterns/dependencyinjection.md)
-  * [Inversion of Control Pattern](../apuntes/patterns/inversionofcontrol.md)
-  * [Strategy Pattern](../apuntes/patterns/strategypattern.md)
-* [Creación de Paquetes y Módulos en NodeJS](../apuntes/nodejspackages.md)
-* [Gulp](../apuntes/gulp/README.md)
+* [Code Smells](/apuntes/patterns/codesmell.md)
+* [Patrones de Diseño](/apuntes/patterns/README.md)
+  * [Dependency Injection Pattern](/apuntes/patterns/dependencyinjection.md)
+  * [Inversion of Control Pattern](/apuntes/patterns/inversionofcontrol.md)
+  * [Strategy Pattern](/apuntes/patterns/strategypattern.md)
+* [Creación de Paquetes y Módulos en NodeJS](/apuntes/nodejspackages.md)
+* [Gulp](/apuntes/gulp/README.md)
 * [ejs](https://www.npmjs.com/package/ejs)
 para la creación de plantillas
-* [Paquetes - como `fs` - para el manejo de archivos en Node.JS](../apuntes/fs.md)
+* [Paquetes - como `fs` - para el manejo de archivos en Node.JS](/apuntes/fs.md)
