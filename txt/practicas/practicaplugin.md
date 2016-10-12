@@ -26,7 +26,7 @@ $ gitbook-start -deploy ull-iaas-es --deploy heroku
 Que indica que nuestro usuario quiere que se le provea de tareas `gulp` denominadas `deploy-ull-iaas-es` y `deploy-heroku` que despliegan el libro en los diferentes  sites. Esto supone que existen módulos [npm](https://www.npmjs.com/) con nombres `gitbook-start-plugin-iaas-ull-es`  y `gitbook-start-plugin-heroku`
 
 
-#### Sugerencias
+#### Como Hacerlo
 
 *  Para implementar la ejecución de la llamada en línea de comandos:
 ```bash
@@ -73,9 +73,11 @@ se despliega el libro en la máquina virtual de `iaas.ull.es`
 
 ### Referencias
 
-* [Dependency Injection Pattern](../apuntes/patterns/dependencyinjection.md)
-* [Inversion of Control Pattern](../apuntes/patterns/inversionofcontrol.md)
-* [Strategy Pattern](../apuntes/patterns/strategypattern.md)
+* [Code Smells](../apuntes/patterns/codesmell.md)
+* [Patrones de Diseño](../apuntes/patterns/README.md)
+  * [Dependency Injection Pattern](../apuntes/patterns/dependencyinjection.md)
+  * [Inversion of Control Pattern](../apuntes/patterns/inversionofcontrol.md)
+  * [Strategy Pattern](../apuntes/patterns/strategypattern.md)
 * [Creación de Paquetes y Módulos en NodeJS](../apuntes/nodejspackages.md)
 * [Gulp](../apuntes/gulp/README.md)
 * [ejs](https://www.npmjs.com/package/ejs)
