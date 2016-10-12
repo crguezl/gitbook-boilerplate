@@ -4,7 +4,7 @@
 
 #### Objetivo
 
-El objetivo de esta práctica  es extender el [package NodeJS  publicado](practicanm.md) en [npm](https://www.npmjs.com) con una nueva funcionalidad
+El objetivo de esta práctica  es extender el [package NodeJS  publicado](practicanm.md) en [npm](https://www.npmjs.com) en una práctica anterior con una nueva funcionalidad
 que permita el despliegue en diferentes plataformas via plugins externos.
 
 #### Punto de partida
