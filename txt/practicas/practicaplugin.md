@@ -78,6 +78,7 @@ se despliega el libro en la máquina virtual de `iaas.ull.es`
   * [Dependency Injection Pattern](../apuntes/patterns/dependencyinjection.md)
   * [Inversion of Control Pattern](../apuntes/patterns/inversionofcontrol.md)
   * [Strategy Pattern](../apuntes/patterns/strategypattern.md)
+* [Principios de Diseño](../apuntes/patterns/designprinciples.md)
 * [Creación de Paquetes y Módulos en NodeJS](../apuntes/nodejspackages.md)
 * [Gulp](../apuntes/gulp/README.md)
 * [ejs](https://www.npmjs.com/package/ejs)

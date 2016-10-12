@@ -22,6 +22,7 @@
     * [Strategy Pattern](/apuntes/patterns/strategypattern.md)
     * [Dependency Injection Pattern](/apuntes/patterns/dependencyinjectionpattern.md)
     * [Inversion of Control Pattern](apuntes/patterns/inversionofcontrolpattern.md)
+  * [Arquitectura REST](apuntes/rest/README.md)
 * [Recursos](recursos/README.md)
   * [GitHub Education](recursos/README.md#github-education)
   * Servicios en la Nube
