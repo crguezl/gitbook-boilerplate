@@ -4,3 +4,8 @@
 * [Curso MOOC Node.JS: Introducción a REST](https://youtu.be/YTiR8chQ3zY) Video
 * [Curso MOOC Node.JS: Introducción a REST](restmiriadaX.pdf) Trasparencias en pdf
 Ejemplo de un servicio RESTfull en Sinatra](http://crguezl.github.io/apuntes-ruby/node568.html)
+
+## GitHub application
+
+* [Octonode](https://github.com/pksunkara/octonode): octonode is a library for nodejs to access the [github v3 api](https://developer.github.com/)
+* The [github v3 api](https://developer.github.com/)
