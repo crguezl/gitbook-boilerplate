@@ -13,9 +13,13 @@
 
 * [A Step-by-Step Guide: GitBook on Netlify](https://www.netlify.com/blog/2015/12/08/a-step-by-step-guide-gitbook-on-netlify/)
 * [Using Gitbook to document an open source project](https://medium.com/@gpbl/how-to-use-gitbook-to-publish-docs-for-your-open-source-npm-packages-465dd8d5bfba#.lpkgyg409)
+
+## Videos
+
 * Book publishing for developers with Gitbook by John Stevenson
   - {% youtube %}https://youtu.be/7FsJ7CKG-DM{% endyoutube %}
-
+* [A GitBook Introduction](https://youtu.be/X_npbLCNuSo)
+  - {% youtube %}https://youtu.be/X_npbLCNuSo{% endyoutube %}
 ## Plugins
 
 * [Plugins for GitBook](https://plugins.gitbook.com/)
