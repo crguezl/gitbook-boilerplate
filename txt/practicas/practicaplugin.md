@@ -17,10 +17,6 @@ El paquete se construye a partir de
 
 * Se trata de añadir al ejecutable `gitbook-start` una opción `--deploy` o `-d` que va seguida de un tipo de despliegue:
 ```bash
-$ gitbook-start -d ull-iaas-es --d heroku
-```
-o bien
-```bash
 $ gitbook-start --deploy ull-iaas-es --deploy heroku
 ```
 Que indica que nuestro usuario quiere que se le provea de tareas `gulp` denominadas `deploy-ull-iaas-es` y `deploy-heroku` que despliegan el libro en los diferentes  sites. Esto supone que existen módulos [npm](https://www.npmjs.com/) con nombres `gitbook-start-plugin-iaas-ull-es`  y `gitbook-start-plugin-heroku`
@@ -30,7 +26,7 @@ Que indica que nuestro usuario quiere que se le provea de tareas `gulp` denomina
 
 *  Para implementar la ejecución de la llamada en línea de comandos:
 ```bash
-$ gitbook-start -d ull-iaas-es --d heroku
+$ gitbook-start --deploy ull-iaas-es --deploy heroku
 ```
 Esto es, deberán existir plugins `gitbook-start-plugin-iaas-ull-es` y
 `gitbook-start-plugin-heroku` que exportan un objeto que dispone de un
@@ -44,7 +40,7 @@ se despliega el libro en la máquina virtual de `iaas.ull.es`
   1. cuando se construye la estructura inicial por `gitbook-start` la jerarquía de directorios conteniendo los scripts y ficheros markdown para el libro y
   2. cuando el autor escribe y despliega el libro llamando a `gulp`. Las llamadas a `gulp deploy-...` ocurren en esta segunda fase. El despliegue hace un `require` de los plugins que implementan los despliegues solicitados.
 
-* Es conveniente que el método `deploy()` proveído por el plugin retorne un objeto describiendo los resultados del despliegue como
+* Es conveniente que el método `deploy()` proveído por el plugin retorne un objeto con atributos describiendo los resultados del despliegue como
   - Salida por `stdout` en la máquina remota
   - Salida por `stderr`en la máquina remota
   - Códigos de error si los hubiera
