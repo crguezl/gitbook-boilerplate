@@ -66,7 +66,7 @@ para la creación de plantillas
 
 ### Preguntas y Respuestas
 
-1.- *No entendemos cómo debemos estructurar el directorio de nuestra app y cómo disponer el gitbook en él: ¿debemos poner dentro del directorio `public/` las carpetas `scripts/`, `txt/`, `README.md`, etc?*
+1. *No entendemos cómo debemos estructurar el directorio de nuestra app y cómo disponer el gitbook en él: ¿debemos poner dentro del directorio `public/` las carpetas `scripts/`, `txt/`, `README.md`, etc?*
 
 No. Lo que sirves son los HTML que están en el directorio `gh-pages`.
 
@@ -76,4 +76,22 @@ En el servidor escribes:
 
 ```javascript
 app.use(express.static('gh-pages'));
+```
+2. *¿Que URL debo poner en `settings->webhooks` de mi repo de GitHub?*
+
+Tu servidor sirve como directorio de estáticos el directorio `gh-pages` que has generado con el `build`
+
+En el servidor escribes:
+
+```javascript
+app.use(express.static('gh-pages'));
+```
+
+En tu servidor tienes una ruta que se encarga de la sincronización:
+
+```javascript
+app.get('/synchronize', (request, response) => {
+  // ... call a bash process that makes a pull
+  // to the gh-pages branch of the github repository 
+});
 ```
