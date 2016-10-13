@@ -81,6 +81,7 @@ se despliega el libro en la máquina virtual de `iaas.ull.es`
 * [Principios de Diseño](../apuntes/patterns/designprinciples.md)
 * [Creación de Paquetes y Módulos en NodeJS](../apuntes/nodejspackages.md)
 * [Gulp](../apuntes/gulp/README.md)
+* Para analizar los argumentos pasados en línea de comandos un buen módulo es [minimist](https://github.com/substack/minimist)
 * [ejs](https://www.npmjs.com/package/ejs)
 para la creación de plantillas
 * [Paquetes - como `fs` - para el manejo de archivos en Node.JS](../apuntes/fs.md)
