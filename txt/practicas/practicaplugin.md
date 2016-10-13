@@ -21,7 +21,7 @@ $ gitbook-start -d ull-iaas-es --d heroku
 ```
 o bien
 ```bash
-$ gitbook-start -deploy ull-iaas-es --deploy heroku
+$ gitbook-start --deploy ull-iaas-es --deploy heroku
 ```
 Que indica que nuestro usuario quiere que se le provea de tareas `gulp` denominadas `deploy-ull-iaas-es` y `deploy-heroku` que despliegan el libro en los diferentes  sites. Esto supone que existen módulos [npm](https://www.npmjs.com/) con nombres `gitbook-start-plugin-iaas-ull-es`  y `gitbook-start-plugin-heroku`
 
