@@ -1,17 +1,31 @@
 ## Práctica: Despliegues en iaas y heroku
 
-### Descripción
+### Objetivos
 
-El objetivo de esta práctica  es proporcionar un mecanismo de despliegue de un libro [gitbook](../apuntes/gitbooknotas/README.md) de manera que
-un `deploy` a github produzca la actualización
-automática de los otros sites de despliegue:
-* [gitboook.com](https://help.gitbook.com/),
-* [Heroku](../recursos/heroku.md)
+El objetivo de esta práctica  es proporcionar un mecanismo de despliegue de un libro [gitbook](../apuntes/gitbooknotas/README.md)
+a otros sites.
+
+### Despliegue en Heroku: Sincronización Automática con las gh-pages
+
+Se busca que un `push` a github produzca la actualización
+automática de [Heroku](../recursos/heroku.md) de manera parecida a como ocurre con gitboook.com](https://help.gitbook.com/).
 
 * Para lograr este objetivo usaremos la técnica descrita
 en el artículo [Colaboración: The Perfect Work-flow with Git, GitHub, and SSH](../apuntes/colaboracion/README.md).
 
 * En el tutorial [Colaboración: The Perfect Work-flow with Git, GitHub, and SSH](../apuntes/colaboracion/README.md) se usa PHP para el código del servidor (que en nuestro caso vamos a hacer que se ejecute en Heroku e iaas). Utilice NodeJS y  [Express](../apuntes/express/README.md) para escribir el servidor.
+
+* Escribiremos un servidor en express que sirve en Heroku los ficheros HTML estáticos generados a partir del libro y que además dispone de una ruta de sincronización
+```javascript
+app.post('/sync', (request, response) => {
+  ...
+```
+* Este servidor se añade al directorio `gh-pages` así como el `Procfile` y un `package.json` adaptados a Heroku
+* El directorio `gh-pages` se convierte así en un repo separado con dos remotos: uno en GitHub y otro en Heroku
+
+* CAda vez que se hace un Es este segundo repositorio el que se sincroniza mediante un `webhook` que apunta a la ruta `/sync`
+
+### Despliegue en iaas.ull.es
 
 * En [iaas.ull.es](../recursos/iaas.md), debido a que la IP de la máquina virtual es privada a la red de la ULL, la estrategia explicada en
 [Colaboración: The Perfect Work-flow with Git, GitHub, and SSH](../apuntes/colaboracion/README.md)
@@ -50,6 +64,9 @@ Parta de los códigos escritos en las prácticas anteriores.
 * [Procesos: Ejecutando comandos Unix](../apuntes/processes/README.md)
 * [Heroku](../recursos/heroku.md)
 * [iaas](../recursos/iaas.md)
+* Webhooks
+  * [About Webhooks](https://help.github.com/articles/about-webhooks/)
+  * [GitHub Developer: Webhooks](https://developer.github.com/webhooks/)
 
 
 
@@ -93,5 +110,7 @@ para la creación de plantillas
   app.get('/synchronize', (request, response) => {
   // ... call a bash process that makes a pull
   // to the gh-pages branch of the github repository
+  // This is executed in the heroku servers, therefore
+  // be sure the github remote is defined
   });
   ```
