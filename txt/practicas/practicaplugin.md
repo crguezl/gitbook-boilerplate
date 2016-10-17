@@ -1,7 +1,6 @@
 ## Práctica: Nueva funcionalidad para el Paquete NPM: plugins
 
 <!--sec data-title="Descripción" data-id="sectiondescripcion" data-show=true ces-->
-### Descripción
 
 #### Objetivo
 
@@ -26,7 +25,6 @@ Que indica que nuestro usuario quiere que se le provea de tareas `gulp` denomina
 <!-- endsec -->
 
 <!--sec data-title="Como Hacerlo" data-id="sectioncomohacerlo" data-show=true ces-->
-### Como Hacerlo
 
 *  Para implementar la ejecución de la llamada en línea de comandos:
 ```bash
@@ -73,7 +71,6 @@ se despliega el libro en la máquina virtual de `iaas.ull.es`
 <!--endsec-->
 
 <!--sec data-title="Referencias" data-id="sectionreferencias" data-show=true ces-->
-### Referencias
 
 * [Code Smells](../apuntes/patterns/codesmell.md)
 * [Patrones de Diseño](../apuntes/patterns/README.md)
@@ -89,15 +86,14 @@ para la creación de plantillas
 * [Paquetes - como `fs` - para el manejo de archivos en Node.JS](../apuntes/fs.md)
 <!--endsec-->
 
-<!--sec data-title="q&a" data-id="sectionpreguntasyrespuestas" data-show=true ces-->
-### Q&A: Preguntas y Respuestas
+<!--sec data-title="Q&A: Preguntas y Respuestas" data-id="sectionpreguntasyrespuestas" data-show=true ces-->
 
 1. *¿La creación de los dos plugins debe abordarse en dos repositorios diferentes e independientes para cada plugin o paquete npm? Estamos considerando la idea de partir del repositorio de la práctica 2 y modificar la funcionalidad del paquete gitbook-start-team?*
 
  Cada plugin es un paquete con un repo diferente. Asi el de `iaas` es un repo distinto del de `Heroku`. Cada plugin es un módulo `npm` diferente.
 
  Si quieren les creo un repo en la organización para el plugin del `iaas` mediante una asignación classroom o bien lo hacen en su propia cuenta de GitHub. Por supuesto en la entrega deben haber los enlaces correspondientes a los plugins en el `README.md`.
- 
+
  Además de los repos para los plugins está el repo principal que es el del módulo `gitbook-start`
 
  Para esta práctica con que hagan un repo-plugin para `iaas` es suficiente.
