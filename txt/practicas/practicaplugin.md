@@ -94,7 +94,7 @@ para la creación de plantillas
 
 1. *¿La creación de los dos plugins debe abordarse en dos repositorios diferentes e independientes para cada plugin o paquete npm? Estamos considerando la idea de partir del repositorio de la práctica 2 y modificar la funcionalidad del paquete gitbook-start-team?*
 
- Cada plugin es un paquete con un repo diferente. Asi el de `iaas` es un repo distinto del de `Heroku`.
+ Cada plugin es un paquete con un repo diferente. Asi el de `iaas` es un repo distinto del de `Heroku`. Cada plugin es un módulo `npm` diferente.
 
  Si quieren les creo un repo en la organización para el plugin del `iaas` mediante una asignación classroom o bien lo hacen en su propia cuenta de GitHub.
 
@@ -105,5 +105,5 @@ para la creación de plantillas
 2. *Cuando el usuario ejecute el comando `gitbook-start`, ¿debe crearse una estructura inicial de gitbook en el que ahora figuren nuevos archivos con respecto a la práctica 2 como, por ejemplo, `app.js`, `public/`, ...? En ese caso, entendemos que debemos ampliar el contenido del directorio `template/` con nuevos archivos.*
 
  No.  Si te he entendido `app.js`, `public` se refieren al despliegue en Heroku. Por tanto deberían estar en el repo del plugin de Heroku.
- En esta práctica basta que lo hagan para el `iaas`. Dejamos Heroku para una práctica siguiente.
+ En esta práctica basta que lo hagan para el `iaas`. Dejamos el plugin para `heroku` para una práctica siguiente.
 <!--endsec-->
