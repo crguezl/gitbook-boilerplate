@@ -3,3 +3,4 @@
   * [Práctica: Tareas Iniciales](practicagitbook.md)
   * [Práctica: Creación de un Paquete NPM](practicanm.md)
   * [Práctica: Nueva funcionalidad para el Paquete NPM: plugins](practicaplugin.md)
+  * [Práctica: Nueva funcionalidad para el Paquete NPM: crear repositorio en GitHub](practicagithubapi.md)
