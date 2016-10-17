@@ -96,8 +96,8 @@ para la creación de plantillas
 
  Cada plugin es un paquete con un repo diferente. Asi el de `iaas` es un repo distinto del de `Heroku`. Cada plugin es un módulo `npm` diferente.
 
- Si quieren les creo un repo en la organización para el plugin del `iaas` mediante una asignación classroom o bien lo hacen en su propia cuenta de GitHub.
-
+ Si quieren les creo un repo en la organización para el plugin del `iaas` mediante una asignación classroom o bien lo hacen en su propia cuenta de GitHub. Por supuesto en la entrega deben haber los enlaces correspondientes a los plugins en el `README.md`.
+ 
  Además de los repos para los plugins está el repo principal que es el del módulo `gitbook-start`
 
  Para esta práctica con que hagan un repo-plugin para `iaas` es suficiente.
