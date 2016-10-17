@@ -35,3 +35,4 @@
   * [Práctica: Creación de un Paquete NPM](practicas/practicanm.md)
   * [Práctica: Despliegues en iaas y heroku](practicas/practicaiaas.md)
   * [Práctica: Añadiendo plugins para los despliegues](practicas/practicaplugin.md)
+  * [Práctica: Nueva funcionalidad para el Paquete NPM: crear repositorio en GitHub](practicas/practicagithubapi.md)
