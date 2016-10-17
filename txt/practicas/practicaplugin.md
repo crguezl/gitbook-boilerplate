@@ -1,5 +1,6 @@
 ## Práctica: Nueva funcionalidad para el Paquete NPM: plugins
 
+<!--sec data-title="Descripción" data-id="sectiondescripcion" data-show=true ces-->
 ### Descripción
 
 #### Objetivo
@@ -20,6 +21,7 @@ El paquete se construye a partir de
 $ gitbook-start --deploy ull-iaas-es --deploy heroku
 ```
 Que indica que nuestro usuario quiere que se le provea de tareas `gulp` denominadas `deploy-ull-iaas-es` y `deploy-heroku` que despliegan el libro en los diferentes  sites. Esto supone que existen módulos [npm](https://www.npmjs.com/) con nombres `gitbook-start-plugin-iaas-ull-es`  y `gitbook-start-plugin-heroku`
+<!-- endsec -->
 
 <!--sec data-title="Como Hacerlo" data-id="sectioncomohacerlo" data-show=true ces-->
 ### Como Hacerlo
