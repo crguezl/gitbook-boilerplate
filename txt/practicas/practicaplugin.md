@@ -96,7 +96,7 @@ para la creación de plantillas
 
  Además de los repos para los plugins está el repo principal que es el del módulo `gitbook-start`
 
- Para esta práctica con que hagan un repo-plugin para `iaas` es suficiente.
+ Para esta práctica **con que hagan un repo-plugin para `iaas` es suficiente**.
 
 2. *Cuando el usuario ejecute el comando `gitbook-start`, ¿debe crearse una estructura inicial de gitbook en el que ahora figuren nuevos archivos con respecto a la práctica 2 como, por ejemplo, `app.js`, `public/`, ...? En ese caso, entendemos que debemos ampliar el contenido del directorio `template/` con nuevos archivos.*
 
