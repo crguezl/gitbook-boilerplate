@@ -1,11 +1,11 @@
-## Práctica: Plugins: Heroku
+## Práctica: Heroku plugin
 
 <!--sec data-title="Descripción" data-id="sectiondescripcion" data-show=true ces-->
 
 #### Objetivo
 
-El objetivo de esta práctica  es extender el [package NodeJS  publicado](practicanm.md) en [npm](https://www.npmjs.com) en una práctica anterior con una nueva funcionalidad
-que permita que los usuarios con conocimientos de NodeJS puedan extender la conducta del ejecutable para que este realice el despliegue en plataformas distintas de las ya consideradas.
+El objetivo de esta práctica  es extender el [package NodeJS  publicado](practicaplugin.md) en [npm](https://www.npmjs.com) en una práctica anterior con un nuevo plugin
+que permita realizar el despliegue en Heroku con un simple `gulp deploy-heroku`.
 
 **En esta práctica se pide desarrollar el plugin para Heroku**
 
