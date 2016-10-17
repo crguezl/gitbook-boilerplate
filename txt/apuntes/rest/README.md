@@ -36,4 +36,8 @@ API Client for GitBook
 
 ## Heroku API
 
+* [Getting Started with the Platform API](https://devcenter.heroku.com/articles/platform-api-quickstart)
+* [Platform API](https://devcenter.heroku.com/categories/platform-api)
+* [Heroku API reference](https://devcenter.heroku.com/articles/platform-api-reference)
 * [A wrapper around the Heroku API for Node.js https://npmjs.org/package/heroku-client](https://github.com/heroku/node-heroku-client)
+* [Create a Web App and RESTful API Server Using the MEAN Stack](https://devcenter.heroku.com/articles/mean-apps-restful-api)
