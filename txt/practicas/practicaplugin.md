@@ -102,7 +102,7 @@ para la creación de plantillas
 
  Para esta práctica con que hagan un repo-plugin para `iaas` es suficiente.
 
-2. Cuando el usuario ejecute el comando gitbook-start, ¿debe crearse una estructura inicial de gitbook en el que ahora figuren nuevos archivos con respecto a la práctica 2 como, por ejemplo, `app.js`, `public/`, ...? En ese caso, entendemos que debemos ampliar el contenido del directorio `template/` con nuevos archivos.
+2. *Cuando el usuario ejecute el comando `gitbook-start`, ¿debe crearse una estructura inicial de gitbook en el que ahora figuren nuevos archivos con respecto a la práctica 2 como, por ejemplo, `app.js`, `public/`, ...? En ese caso, entendemos que debemos ampliar el contenido del directorio `template/` con nuevos archivos.*
 
  No.  Si te he entendido `app.js`, `public` se refieren al despliegue en Heroku. Por tanto deberían estar en el repo del plugin de Heroku.
  En esta práctica basta que lo hagan para el `iaas`. Dejamos Heroku para una práctica siguiente.
