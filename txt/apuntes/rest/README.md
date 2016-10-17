@@ -8,6 +8,8 @@
 
 ### Videos sobre REST
 
+* [Lessonhttps://youtu.be/ghQa2Zx1iYI) 3: REST - Representational State Transfer (part 1) by Maurizio Marchese](https://youtu.be/6m71jmyO_cA). Universidad de Trento
+* [Lesson 4: A tutorial on REST-based services (part 1) by Maurizio Marchese](https://youtu.be/ghQa2Zx1iYI). Universidad de Trento
 * [What Is REST?](https://youtu.be/LHJk_ISxHHc)
 * [Integrating with the GitHub API - GitHub Universe 2015
 ](https://youtu.be/x2fd8HHk5xM)

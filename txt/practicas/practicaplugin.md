@@ -21,7 +21,7 @@ $ gitbook-start --deploy ull-iaas-es --deploy heroku
 ```
 Que indica que nuestro usuario quiere que se le provea de tareas `gulp` denominadas `deploy-ull-iaas-es` y `deploy-heroku` que despliegan el libro en los diferentes  sites. Esto supone que existen módulos [npm](https://www.npmjs.com/) con nombres `gitbook-start-plugin-iaas-ull-es`  y `gitbook-start-plugin-heroku`
 
-
+<!--sec data-title="Como Hacerlo" data-id="sectioncomohacerlo" data-show=true ces-->
 #### Como Hacerlo
 
 *  Para implementar la ejecución de la llamada en línea de comandos:
@@ -66,7 +66,9 @@ se despliega el libro en la máquina virtual de `iaas.ull.es`
   }
   ```
   En cualquier caso debe aparecer en la documentación lo que hay que hacer
+<!--endsec-->
 
+<!--sec data-title="Referencias" data-id="sectionreferencias" data-show=true ces-->
 ### Referencias
 
 * [Code Smells](../apuntes/patterns/codesmell.md)
@@ -81,3 +83,4 @@ se despliega el libro en la máquina virtual de `iaas.ull.es`
 * [ejs](https://www.npmjs.com/package/ejs)
 para la creación de plantillas
 * [Paquetes - como `fs` - para el manejo de archivos en Node.JS](../apuntes/fs.md)
+<!--endsec-->
