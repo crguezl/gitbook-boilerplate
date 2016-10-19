@@ -77,7 +77,7 @@ se despliega el libro en la máquina virtual de `iaas.ull.es`
   disponga de un método `initialize` que es llamado por `gitbook-start` en el tiempo de construcción de la jerarquía del libro (Fase 1). Este método puede ser usado para cosas como:
   - En el caso del plugin `iaas` - si se quiere, no se pide para esta práctica - para construir el repositorio en la máquina remota, o bien - tampoco se pide - para generar e instalar la clave y publicarla en la máquina virtual, etc.
   - En el caso del plugin `heroku` para añadir un template con el servidor express que va a correr en la máquina de Heroku, etc.
-  - Modificar el `gulpfile` a conveniencia
+  - También se puede usar `initialize`para modificar el `gulpfile` a conveniencia, de manera que sea el propio plugin el que escriba la sección `deploy-plugin` y no `gitbook-start`
 
 <!--endsec-->
 
