@@ -131,6 +131,23 @@ The -u flag sets the username, and cURL will prompt you for the password. You ca
 
 In addition to just getting more calls per hour, authentication is the key to reading and writing private information via the API.
 
+### OAuth
+
+While convenient, Basic Authentication isn't ideal because you shouldn't give your GitHub username and password to anyone. Applications that need to read or write private information using the API on behalf of another user should use OAuth.
+
+Instead of usernames and passwords, OAuth uses tokens. Tokens provide two big features:
+
+* **Revokable access:** users can revoke authorization to third party apps at any time
+* **Limited access:** users can review the specific access that a token will provide before authorizing a third party app
+
+Normally, tokens are created via a [web flow](https://developer.github.com/v3/oauth/#web-application-flow). An application sends users to GitHub to log in. GitHub then presents a dialog indicating the name of the app, as well as the level of access the app has once it's authorized by the user. After a user authorizes access, GitHub redirects the user back to the application:
+
+[!oauth  prompt](oauth_prompt.png)
+
+However, you don't need to set up the entire web flow to begin working with OAuth tokens. An easier way to get a token is to create a [personal access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) via your [Personal access tokens settings page](https://github.com/settings/tokens):
+
+[!Personal Token](personal_token.png)
+
 ```bash
 $ curl -i https://api.github.com/users/octocat/orgs
 HTTP/1.1 200 OK
