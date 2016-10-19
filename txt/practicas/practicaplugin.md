@@ -77,6 +77,7 @@ var result = iaas.initialize();
 disponga de un método `initialize` que es llamado por `gitbook-start` en el tiempo de construcción de la jerarquía del libro. Este método puede ser usado para cosas como:
 * En el caso del plugin `iaas` - si se quiere, no se pide - para construir el repositorio en la máquina remota, o bien - tampoco se pide - para generar e instalar la clave y publicarla en la máquina virtual, etc.
 * En el caso del plugin `heroku` para añadir un template con el servidor express que va a correr en la máquina de Heroku, etc.
+* Modificar el `gulpfile` a conveniencia
 
 <!--endsec-->
 
