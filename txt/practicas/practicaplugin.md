@@ -42,7 +42,7 @@ se despliega el libro en la máquina virtual de `iaas.ull.es`
   1. cuando se construye la estructura inicial por `gitbook-start` la jerarquía de directorios conteniendo los scripts y ficheros markdown para el libro y
   2. cuando el autor escribe y despliega el libro llamando a `gulp`. Las llamadas a `gulp deploy-...` ocurren en esta segunda fase. El despliegue hace un `require` de los plugins que implementan los despliegues solicitados.
 
-* Es conveniente que el método `deploy()` proveído por el plugin retorne un objeto con atributos describiendo los resultados del despliegue como
+* Es conveniente que el método `deploy()` (llamado en la Fase 2) proveído por el plugin retorne un objeto con atributos describiendo los resultados del despliegue como
   - Salida por `stdout` en la máquina remota
   - Salida por `stderr`en la máquina remota
   - Códigos de error si los hubiera
@@ -74,8 +74,8 @@ se despliega el libro en la máquina virtual de `iaas.ull.es`
   var iaas = require("book-start-plugin-iaas-ull-es");
   var result = iaas.initialize();
   ```
-  disponga de un método `initialize` que es llamado por `gitbook-start` en el tiempo de construcción de la jerarquía del libro. Este método puede ser usado para cosas como:
-  - En el caso del plugin `iaas` - si se quiere, no se pide - para construir el repositorio en la máquina remota, o bien - tampoco se pide - para generar e instalar la clave y publicarla en la máquina virtual, etc.
+  disponga de un método `initialize` que es llamado por `gitbook-start` en el tiempo de construcción de la jerarquía del libro (Fase 1). Este método puede ser usado para cosas como:
+  - En el caso del plugin `iaas` - si se quiere, no se pide para esta práctica - para construir el repositorio en la máquina remota, o bien - tampoco se pide - para generar e instalar la clave y publicarla en la máquina virtual, etc.
   - En el caso del plugin `heroku` para añadir un template con el servidor express que va a correr en la máquina de Heroku, etc.
   - Modificar el `gulpfile` a conveniencia
 
