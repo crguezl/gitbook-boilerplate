@@ -142,11 +142,11 @@ Instead of usernames and passwords, OAuth uses tokens. Tokens provide two big fe
 
 Normally, tokens are created via a [web flow](https://developer.github.com/v3/oauth/#web-application-flow). An application sends users to GitHub to log in. GitHub then presents a dialog indicating the name of the app, as well as the level of access the app has once it's authorized by the user. After a user authorizes access, GitHub redirects the user back to the application:
 
-[!oauth  prompt](oauth_prompt.png)
+![oauth  prompt](oauth_prompt.png)
 
 However, you don't need to set up the entire web flow to begin working with OAuth tokens. An easier way to get a token is to create a [personal access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) via your [Personal access tokens settings page](https://github.com/settings/tokens):
 
-[!Personal Token](personal_token.png)
+![Personal Token](personal_token.png)
 
 ```bash
 $ curl -i https://api.github.com/users/octocat/orgs
