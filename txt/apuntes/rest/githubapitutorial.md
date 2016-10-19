@@ -148,6 +148,150 @@ However, you don't need to set up the entire web flow to begin working with OAut
 
 ![Personal Token](personal_token.png)
 
+Also, the [Authorizations API](https://developer.github.com/v3/oauth_authorizations/#create-a-new-authorization) makes it simple to use Basic Authentication to create an OAuth token. Try pasting and running the following command:
+
+```bash
+$ curl -i -u crguezl -d '{"scopes": ["repo", "user"], "note": "getting-started"}' https://api.github.com/authorizations
+Enter host password for user 'crguezl':
+HTTP/1.1 201 Created
+Server: GitHub.com
+Date: Wed, 19 Oct 2016 09:37:41 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 604
+Status: 201 Created
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4987
+X-RateLimit-Reset: 1476873086
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: "2a53ed79566d7b22a5148b328609f456"
+Location: https://api.github.com/authorizations/56209313
+X-GitHub-Media-Type: github.v3
+Access-Control-Expose-Headers: ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+Vary: Accept-Encoding
+X-Served-By: 7f48e2f7761567e923121f17538d7a6d
+X-GitHub-Request-Id: C1917C49:10F88:E00C2B4:58073EE4
+
+{
+  "id": 56209313,
+  "url": "https://api.github.com/authorizations/56209313",
+  "app": {
+    "name": "getting-started",
+    "url": "https://developer.github.com/v3/oauth_authorizations/",
+    "client_id": "00000000000000000000"
+  },
+  "token": "9c85b4bd7222ea5d4579449c64983bf685cd22df",
+  "hashed_token": "2a134a902c1ec18b8beea75838843ffdd05508785e6b96fda1873de57c1a579b",
+  "token_last_eight": "85cd22df",
+  "note": "getting-started",
+  "note_url": null,
+  "created_at": "2016-10-19T09:37:41Z",
+  "updated_at": "2016-10-19T09:37:41Z",
+  "scopes": [
+    "repo",
+    "user"
+  ],
+  "fingerprint": null
+}
+```
+There's a lot going on in this one little call, so let's break it down. First, the `-d` flag indicates we're doing a `POST`, using the `application/x-www-form-urlencoded` content type (as opposed to `GET`). All `POST` requests to the GitHub API should be in `JSON`.
+
+Next, let's look at the `scopes` we're sending over in this call. When creating a new token, we include an [optional array of scopes](https://developer.github.com/v3/oauth/#scopes), or access levels, that indicate what information this token can access. In this case, we're setting up the token with
+* `repo access`, which grants access to read and write to public and private repositories, and
+* `user` scope, which grants read and write access to public and private user profile data.
+
+See the [scopes docs](https://developer.github.com/v3/oauth/#scopes) for a full list of scopes. You should only request scopes that your application actually needs, in order to not frighten users with potentially invasive actions. The `201` status code tells us that the call was successful, and the JSON returned contains the details of our new OAuth token.
+
+Now, we can use the forty character token instead of a username and password in the rest of our examples. Let's grab our own user info again, using OAuth this time:
+
+```bash
+$ curl -i -H "Authorization: token c0...9d5" https://api.github.com/user
+HTTP/1.1 200 OK
+Server: GitHub.com
+Date: Wed, 19 Oct 2016 10:23:29 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1509
+Status: 200 OK
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4984
+X-RateLimit-Reset: 1476873086
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP
+ETag: "f5809c9a8ae5621509ab890805112005"
+Last-Modified: Thu, 06 Oct 2016 19:09:04 GMT
+X-OAuth-Scopes: repo, user
+X-Accepted-OAuth-Scopes:
+X-GitHub-Media-Type: github.v3
+Access-Control-Expose-Headers: ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+Vary: Accept-Encoding
+X-Served-By: 4c8b2d4732c413f4b9aefe394bd65569
+X-GitHub-Request-Id: C1917C49:10F8A:12231537:580749A0
+
+{
+  "login": "crguezl",
+  "id": 1142554,
+  "avatar_url": "https://avatars.githubusercontent.com/u/1142554?v=3",
+  "gravatar_id": "",
+  "url": "https://api.github.com/users/crguezl",
+  "html_url": "https://github.com/crguezl",
+  "followers_url": "https://api.github.com/users/crguezl/followers",
+  "following_url": "https://api.github.com/users/crguezl/following{/other_user}",
+  "gists_url": "https://api.github.com/users/crguezl/gists{/gist_id}",
+  "starred_url": "https://api.github.com/users/crguezl/starred{/owner}{/repo}",
+  "subscriptions_url": "https://api.github.com/users/crguezl/subscriptions",
+  "organizations_url": "https://api.github.com/users/crguezl/orgs",
+  "repos_url": "https://api.github.com/users/crguezl/repos",
+  "events_url": "https://api.github.com/users/crguezl/events{/privacy}",
+  "received_events_url": "https://api.github.com/users/crguezl/received_events",
+  "type": "User",
+  "site_admin": false,
+  "name": "Casiano Rodriguez-Leon",
+  "company": "Universidad de La Laguna",
+  "blog": null,
+  "location": "La Laguna. Tenerife",
+  "email": null,
+  "hireable": null,
+  "bio": null,
+  "public_repos": 242,
+  "public_gists": 35,
+  "followers": 126,
+  "following": 151,
+  "created_at": "2011-10-21T07:00:05Z",
+  "updated_at": "2016-10-06T19:09:04Z",
+  "private_gists": 1,
+  "total_private_repos": 0,
+  "owned_private_repos": 0,
+  "disk_usage": 519546,
+  "collaborators": 0,
+  "plan": {
+    "name": "free",
+    "space": 976562499,
+    "collaborators": 0,
+    "private_repos": 0
+  }
+}
+```    
+
+
+
+
+
+
+
+
+
 ```bash
 $ curl -i https://api.github.com/users/octocat/orgs
 HTTP/1.1 200 OK
