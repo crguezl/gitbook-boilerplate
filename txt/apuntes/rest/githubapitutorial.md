@@ -283,6 +283,9 @@ X-GitHub-Request-Id: C1917C49:10F8A:12231537:580749A0
   }
 }
 ```    
+**Treat OAuth tokens like passwords!** Don't share them with other users or store them in insecure places. The tokens in these examples are fake and the names have been changed to protect the innocent.
+
+Now that we've got the hang of making authenticated calls, let's move along to the [Repositories API](https://developer.github.com/v3/repos/).
 
 
 
