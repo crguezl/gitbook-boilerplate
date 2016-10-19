@@ -9,8 +9,9 @@
 
 ### Introducción a REST
 * [What Is REST?](https://youtu.be/LHJk_ISxHHc)
+* [Charla de JJ Merelo sobre Node y la API de GitHub](https://youtu.be/P8nkBfysdZU). Video introductorio. Habla un poco de REST
 
-### Tutoriales
+### Tutoriales sobre REST
 
 * [Introducción a REST](http://crguezl.github.io/apuntes-ruby/node567.html) (Apuntes del profesor)
 * [Curso MOOC Node.JS: Introducción a REST](https://youtu.be/YTiR8chQ3zY) Video
@@ -21,21 +22,20 @@
 ## OAuth
 
 * [Introducción a OAuth](http://nereida.deioc.ull.es/~lpp/perlexamples/node773.html) (Apuntes del profesor)
+* [Example of how to use Express 4.x and Passport to authenticate users using GitHub](https://github.com/ULL-ESIT-SYTW-1617/express-4.x-github-example)
 
 ## GitHub API
 
-* [Getting Started with the GitHub API](githubapitutorial.md)
-
-### Referencias
-
-* [Getting Started with the GitHub API](https://developer.github.com/guides/getting-started/)
+* [Getting Started with the GitHub API](githubapitutorial.md) en estos apuntes
+* [Getting Started with the GitHub API](https://developer.github.com/guides/getting-started/) en GitHub
+* The [github v3 api](https://developer.github.com/)
 * [Integrating with the GitHub API - GitHub Universe 2015
-](https://youtu.be/x2fd8HHk5xM)
-* [Charla de JJ Merelo sobre Node y la API de GitHub](https://youtu.be/P8nkBfysdZU)
+](https://youtu.be/x2fd8HHk5xM) (Vídeo en Youtube)
+
+### Octonode
+
 * [Octonode](https://github.com/pksunkara/octonode): octonode is a library for nodejs to access the [github v3 api](https://developer.github.com/)
 * [Examples of how to use octonode ULL-ESIT-SYTW-1617/octonodeexamples](https://github.com/ULL-ESIT-SYTW-1617/octonodeexamples)
-* The [github v3 api](https://developer.github.com/)
-* [Example of how to use Express 4.x and Passport to authenticate users using GitHub](https://github.com/ULL-ESIT-SYTW-1617/express-4.x-github-example)
 
 ## GitBook API
 
