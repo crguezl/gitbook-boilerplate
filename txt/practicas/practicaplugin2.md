@@ -67,6 +67,16 @@ se despliega el libro en la máquina virtual de `iaas.ull.es`
   }
   ```
   En cualquier caso debe aparecer en la documentación lo que hay que hacer
+  *  El método `initialize` del objeto plugin.
+    - Es conveniente que el objeto  retornado por el `require` del plugin
+    ```javascript
+    var iaas = require("book-start-plugin-iaas-ull-es");
+    var result = iaas.initialize();
+    ```
+    disponga de un método `initialize` que es llamado por `gitbook-start` en el tiempo de construcción de la jerarquía del libro (Fase 1). Este método puede ser usado para cosas como:
+    - En el caso del plugin `iaas` - si se quiere, no se pide para esta práctica - para construir el repositorio en la máquina remota, o bien - tampoco se pide - para generar e instalar la clave y publicarla en la máquina virtual, etc.
+    - En el caso del plugin `heroku` para añadir un template con el servidor express que va a correr en la máquina de Heroku, etc.
+    - También se puede usar `initialize`para modificar el `gulpfile` a conveniencia, de manera que sea el propio plugin el que escriba la sección `deploy-plugin` y no `gitbook-start`
 <!--endsec-->
 
 <!--sec data-title="Referencias" data-id="sectionreferencias" data-show=true ces-->
