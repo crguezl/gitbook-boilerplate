@@ -23,7 +23,7 @@
     * [Dependency Injection Pattern](/apuntes/patterns/dependencyinjectionpattern.md)
     * [Inversion of Control Pattern](apuntes/patterns/inversionofcontrolpattern.md)
   * [Arquitectura REST y REST APIs](apuntes/rest/README.md)
-    * [Getting Started with the GitHub API](githubapitutorial.md)
+    * [Getting Started with the GitHub API](apuntes/rest/githubapitutorial.md)
 * [Recursos](recursos/README.md)
   * [GitHub Education](recursos/README.md#github-education)
   * Servicios en la Nube
