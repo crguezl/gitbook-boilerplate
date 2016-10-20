@@ -9,7 +9,7 @@
 
 ### Introducción a REST
 * [What Is REST?](https://youtu.be/LHJk_ISxHHc)
-* [Charla de JJ Merelo sobre Node y la API de GitHub](https://youtu.be/P8nkBfysdZU). Video introductorio. Habla un poco de REST
+* [Charla de JJ Merelo sobre Node y la API de GitHub](https://youtu.be/P8nkBfysdZU). Video introductorio. Habla un poco de REST nada de la API de GitHub
 
 ### Tutoriales sobre REST
 
