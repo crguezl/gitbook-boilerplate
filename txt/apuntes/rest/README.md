@@ -15,7 +15,7 @@
 
 * [Introducción a REST](http://crguezl.github.io/apuntes-ruby/node567.html) (Apuntes del profesor)
 * [Curso MOOC Node.JS: Introducción a REST](https://youtu.be/YTiR8chQ3zY) Video
-* [Curso MOOC Node.JS: Introducción a REST](restmiriadaX.pdf) Trasparencias en pdf
+* [Curso MOOC Node.JS: Introducción a REST](restmiriadaX.pdf) Trasparencias en pdf (transp_modulo4.pdf pág. 31)
 * [Ejemplo de un servicio RESTfull en Sinatra](http://crguezl.github.io/apuntes-ruby/node568.html)
 * [Learn REST: A Tutorial](http://rest.elkstein.org/)
 
