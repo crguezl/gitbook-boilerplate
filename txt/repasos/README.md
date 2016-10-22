@@ -223,6 +223,7 @@ etiquetas `<tbody>`:
 
 2.  Mejore este template
 
+{%raw%}
 {%ace edit=true, lang='html', check=false %}
 <li>
     <a href='supplies/<%= supplies[i] %>'>
@@ -230,6 +231,7 @@ etiquetas `<tbody>`:
     </a>
 </li>
 {%endace %}
+{% endraw %}
 
 usando un helper proveído por EJS
 <!--
