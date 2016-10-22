@@ -172,6 +172,10 @@ etiquetas `<tbody>`:
 10. Explique los pasos para desplegar una aplicación en Heroku
 11. Explique como resolver los problemas que pueden surgir cuando la aplicación desplegada en Heroku no funciona correctamente
 
+## Preguntas de SSH
+
+1. Explique como se generan las claves privada y pública y como se publica una clave. Indique como se puede configurar el cliente SSH
+
 ## Preguntas de Repaso de ECMA6
 
 1.  Observemos este ejemplo:
