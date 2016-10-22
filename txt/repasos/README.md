@@ -815,3 +815,6 @@ ficheros cargados en los navegadores?
 3. ¿A que se refiere el término IAAS?
 
 ## Preguntas sobre Heroku
+
+1. Explique los pasos para desplegar una aplicación en Heroku
+2. Explique como resolver los problemas que pueden surgir cuando la aplicación desplegada en Heroku no funciona correctamente
