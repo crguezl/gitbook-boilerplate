@@ -636,8 +636,8 @@ gulp.____('minify', function () {
         > semver.toComparators('^1.2.3')
         [ [ '_______', '______' ] ]
 ```
+10. ¿Cuales son los pasos para escribir y publicar un paquete `npm`?
 
-##XXX AÑADIR PREGUNTAS SOBRE EL DESPLIEGUE DE PAQUETES NPM
 
 
 ## Preguntas de Repaso de Karma
