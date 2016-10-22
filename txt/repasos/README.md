@@ -83,6 +83,7 @@ Complete el identificador del `<script>`, el identificador del
 `<div>` usado para la salida y la parte que falta entre las
 etiquetas `<tbody>`:
 
+{% raw %}
 {%ace edit=true, lang='html'%}
 <script type="text/html" id='_________'>
     <table>
@@ -105,6 +106,7 @@ etiquetas `<tbody>`:
 <!-- Create your target -->
 <div id="______"></div>
 {% endace %}
+{% endraw %}
 
 ## Preguntas de Repaso de localStorage
 
@@ -308,6 +310,7 @@ usando un helper proveído por EJS
 
 1.  Rellene las partes que faltan:
 
+{% raw %}
 {% ace edit=true, lang="javascript", check=false %}
 > re = /d(b+)(d)/ig
 /d(b+)(d)/gi
@@ -328,19 +331,23 @@ ______
 > result = re.exec(z)
 _____
 {% endace %}
+{% endraw %}
 
 2.  Escriba la expresión regular `r` para que produzca el resultado
     final:
 
+{% raw %}
 {% ace edit=true, lang="javascript", check=false %}
 > x = "hello"
 > r = /l(___)/
 > z = r.exec(x)
 [ 'l', index: 3, input: 'hello' ]
 {% endace %}
+{% endraw %}
 
 3.  Rellene el valor que falta:
 
+{% raw %}
 {% ace edit=true, lang="javascript", check=false %}
 > z = "dBdDBBD"
 > re = /d(b+)(d)/ig
@@ -352,7 +359,7 @@ _____
   index: 3,
   input: 'dBdDBBD' ]
 {% endace %}
-
+{% endraw %}
 4.  Conteste:
 
     1.  Explique que hace el siguiente fragmento de código:
@@ -366,7 +373,7 @@ _____
             [Function]
 
     2.  Rellene las salidas que faltan:
-
+{%raw %}
 {% ace edit=true, lang="javascript", check=false %}
 > re = /d(b+)(d)/ig
 /d(b+)(d)/gi
@@ -379,6 +386,7 @@ _____________________________________________________
 > re.bexec(z)
 _____________________________________________________
 {% endace %}
+{% endraw %}
 
 5.  Escriba una expresión JavaScript que permita reemplazar todas las
     apariciones de palabras consecutivas repetidas (como `hello hello`)
@@ -396,6 +404,7 @@ _____________________________________________________
     entidades HTML para que no sean intérpretadas como código HTML.
     Rellene las partes que faltan.
 
+{%raw %}
 {% ace edit=true, lang="javascript", check=false %}
 var entityMap = {
     "&": "&___;",
@@ -411,7 +420,7 @@ function escapeHtml(string) {
     return ____________;
   });
 {% endace %}
-
+{% endraw %}
 ## Preguntas de Repaso de JSON
 
 1.  ¿Como se llama el método que permite obtener una representación como
@@ -513,6 +522,7 @@ match
     con Mocha y Chai en la práctica de la Temperatura. Rellene las
     partes que faltan:
 
+{% raw %}
 {% ace edit=true, lang="html", check=false %}
 [~/srcPLgrado/temperature(karma)]$ cat tests/index.html
 <!DOCTYPE html>
@@ -540,10 +550,10 @@ match
   </body>
 </html>
 {% endace %}
-
+{% endraw %}
 4.  Rellene las partes que faltan del fichero con las pruebas TDD en
     Mocha y Chai para la práctica de la temperatura:
-
+{% raw %}
 {% ace edit=true, lang="javascript", check=false %}
         [~/srcPLgrado/temperature(karma)]$ cat tests/tests.js
         var assert = ____.assert;
@@ -557,6 +567,7 @@ match
             });
         });
 {% endace %}
+{% endraw %}
 
 5.  ¿Como puedo ejecutar las pruebas escritas usando Mocha y Chai usando
     el comando `npm test`?. (no se asume el uso de Karma en esta
@@ -568,6 +579,7 @@ match
     se lleva a cabo una tarea para la optimización (uglify/minify) de la
     aplicación de la práctica de la temperatura:
 
+{% raw %}
 {% ace edit=true, lang="javascript", check=false %}
 /tmp/pl-grado-temperature-converter(karma)]$ cat gulpfile.js
 var gulp    = require('gulp'),
@@ -591,6 +603,7 @@ gulp.____('minify', function () {
    .___(gulp.___('./minified/'))
         });
 {% endace %}
+{% endraw %}
 
 ## Preguntas de Repaso de npm y package.json
 
@@ -654,6 +667,7 @@ gulp.____('minify', function () {
     Mocha. ¿Como le pasamos opciones para configurar Mocha desde Karma?
     Rellene las partes que faltan:
 
+{% raw %}
 {% ace edit=true, lang="javascript", check=false %}
 client: {
   args: ['--grep', 'pattern'], // solo pruebas que casan con pattern
@@ -662,6 +676,7 @@ client: {
   }
 },
 {% endace %}
+{% endraw %}
 
 5.  Explique que debe ponerse (y que no) en la sección `files` del
     fichero de configuración de Karma ¿Donde son cargados dichos
@@ -685,6 +700,7 @@ client: {
 7.  Complete la función `setup` de las pruebas de la práctica de la
     temperatura con Mocha, Chai y Karma:
 
+{% raw %}
 {% ace edit=true, lang="javascript", check=false %}
 setup(function(){
   if (typeof ________ !== 'undefined') {
@@ -694,6 +710,7 @@ setup(function(){
   }
 });
 {% endace %}
+{% endraw %}
 
 ¿Como se llama la variable en la que se guardan los HTML de los
 ficheros cargados en los navegadores?
