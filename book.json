@@ -14,7 +14,7 @@
         "-toc",
         "-latex-codecogs",
         "-emphasize",
-        "jazer"
+        "-jazer"
     ],
     "pluginsConfig": {
         "toc": {

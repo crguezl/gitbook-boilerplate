@@ -11,7 +11,7 @@
 * [What Is REST?](https://youtu.be/LHJk_ISxHHc) Youtube. Autor: Software Architect CA
 * [Charla de JJ Merelo sobre Node y la API de GitHub](https://youtu.be/P8nkBfysdZU). Video introductorio. Habla un poco de REST nada de la API de GitHub
 * [Section 1 Module 2 Part 3: What is Rest?](https://youtu.be/e6h87rzeGJE). Vídeo introductorio en YouTube. Se concentra sólo en las partes mas usadas de REST como los esquemas de dirección a los recursos y el uso uniforme de los métodos. Autor: Jules White
-
+* [Create a REST API in JavaScript in 3 minutes](https://youtu.be/ZHw-cA9U78g) por Sven Anders Robbestad (Vídeo en YouTube)
 
 ### Tutoriales sobre REST
 
