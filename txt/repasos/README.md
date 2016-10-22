@@ -169,6 +169,8 @@ etiquetas `<tbody>`:
 
 9.  ¿Cual es la mejor forma de ejecutar en local una aplicación
     express.js que va a ser desplegada en Heroku?
+10. Explique los pasos para desplegar una aplicación en Heroku
+11. Explique como resolver los problemas que pueden surgir cuando la aplicación desplegada en Heroku no funciona correctamente
 
 ## Preguntas de Repaso de ECMA6
 
@@ -825,7 +827,3 @@ ficheros cargados en los navegadores?
   Software Architect CA
 4. Explique los pasos para desplegar una aplicación web en la máquina virtual de `iaas.ull.es`
 
-## Preguntas sobre Heroku
-
-1. Explique los pasos para desplegar una aplicación en Heroku
-2. Explique como resolver los problemas que pueden surgir cuando la aplicación desplegada en Heroku no funciona correctamente
