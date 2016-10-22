@@ -58,6 +58,7 @@
     interpolar y escapar el HTML:
 {% endraw %}
 
+{% raw %}
 {%ace edit=true, lang="javascript", check=false %}
 _.templateSettings = {
        interpolate: /____________________/gim,
@@ -65,6 +66,7 @@ _.templateSettings = {
        escape:      /____________________/gim
 }
 {% endace %}
+{% endraw %}
 4.  Queremos mostrar una lista de `items` en una tabla con dos columnas.
     En la primera columna va el número de orden y en la segunda el
     nombre del item. El template Underscore se carga desde el elemento
