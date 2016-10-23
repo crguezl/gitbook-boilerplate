@@ -8,9 +8,13 @@
 El objetivo de esta práctica  es extender el [package NodeJS  publicado](practicanm.md) en [npm](https://www.npmjs.com) en una práctica anterior con una nueva funcionalidad
 que permita
 
+* Crear un token para el programa haciendo uso de la [Authorizations API](https://developer.github.com/v3/oauth_authorizations/#create-a-new-authorization). 
+  - Repase la sección OAuth del tutorial [GitHub API: Getting Started](https://developer.github.com/guides/getting-started/). 
+  - Guarde ese token en `~/.gitbook-start/config.json` y úselo para cualesquiera posteriores comunicaciones con la API de GitHub
 * Obtener el email y el nombre del autor
 * Crear el repositorio del libro en GitHub
-* Hacer un push del repositorio inicial
+* Generar el libro
+* Hacer un push del repositorio inicial, incluyendo las `gh-pages`
 
 #### Punto de partida
 
