@@ -139,42 +139,9 @@ etiquetas `<tbody>`:
               }
             };
 ```
-## Preguntas de Repaso de Heroku
+!INCLUDE "heroku.md"
 
-1.  Una vez instalado el Heroku toolbelt nos debemos autenticar en
-    heroku con el cliente. ¿Cual es el comando para autenticarnos?
-
-2.  ¿Cual es el comando para crear nuestra aplicación en Heroku
-    (suponemos que ya esta bajo el control de `git`? ¿Qué remoto
-    tendremos definido después de crear nuestra aplicación en Heroku?
-
-3.  ¿Cual es el comando para desplegar nuestra aplicación en Heroku?
-
-4.  Si la versión que queremos publicar en heroku no está en la rama
-    `master` sino que está en la rama `tutu` ¿Como debemos modificar el
-    comando anterior?
-
-5.  ¿Con que comando puedo abrir una ventana en el navegador que visite
-    la aplicación desplegada? ¿Que formato tiene la URL para nuestra
-    aplicación?
-
-6.  ¿Con que comando puedo ver los logs de la aplicación desplegada?
-
-7.  ¿Como se debe llamar el fichero en el que explicito que comando debe
-    usarse para arrancar nuestra aplicación en Heroku?
-
-8.  Heroku se percata que nuestra aplicación es una aplicación
-    desarrollada con `Node.js` por la presencia de un cierto fichero.
-    ¿De que fichero estamos hablando?
-
-9.  ¿Cual es la mejor forma de ejecutar en local una aplicación
-    express.js que va a ser desplegada en Heroku?
-10. Explique los pasos para desplegar una aplicación en Heroku
-11. Explique como resolver los problemas que pueden surgir cuando la aplicación desplegada en Heroku no funciona correctamente
-
-## Preguntas de SSH
-
-1. Explique como se generan las claves privada y pública y como se publica una clave. Indique como se puede configurar el cliente SSH
+!INCLUDE "ssh.md"
 
 ## Preguntas de Repaso de ECMA6
 
@@ -567,83 +534,9 @@ var assert = chai.assert;
     el comando `npm test`?. (no se asume el uso de Karma en esta
     pregunta) Explique como hacerlo.
 
-## Preguntas de Repaso de Gulp
+!INCLUDE "gulp.md"
 
-1.  Complete las partes que faltan del siguiente `gulpfile.js` en el que
-    se lleva a cabo una tarea para la optimización (uglify/minify) de la
-    aplicación de la práctica de la temperatura:
-
-
-```javascript
-/tmp/pl-grado-temperature-converter(karma)]$ cat gulpfile.js
-var gulp    = require('gulp'),
-    gutil   = require('gulp-util'),
-    uglify  = require('gulp-uglify'),
-    concat  = require('gulp-concat');
-var minifyHTML = require('gulp-minify-html');
-var minifyCSS  = require('gulp-minify-css');
-
-gulp.____('minify', function () {
-  gulp.___('temperature.js')
-  .____(uglify())
-  .___(gulp.____('minified'));
-
-  gulp.__('./index.html')
-    .___(minifyHTML())
-    .___(gulp.___('./minified/'))
-
-  gulp.__('./*.css')
-   .___(minifyCSS({keepBreaks:true}))
-   .___(gulp.___('./minified/'))
-        });
-```
-
-
-## Preguntas de Repaso de npm y package.json
-
-1.  ¿Con que comando creo el fichero `package.json`?
-
-2.  Explique en consiste el versionado semántico/semantic versioning.
-    ¿Cual es el nombre en inglés de los tres números de version? ¿Como
-    cambian?
-
-3.  ¿Que se guarda en el campo `"dependencies": {}` de `package.json`?
-
-4.  ¿Que opción debo añadir al comando `npm install` para que la
-    librería instalada se añada como dependencia en el fichero
-    `package.json`?
-
-5.  ¿Que se guarda en el campo `"devDependencies": {}` de
-    `package.json`?
-
-6.  ¿Que opción debo añadir al comando `npm install` para que la
-    librería instalada se añada como `"devDependencies"` en el fichero
-    `package.json`?
-
-7.  Explique que significan en los objetos que describen las
-    dependencias dentro `package.json` las siguientes notaciones:
-
-    1.  `*`
-
-    2.  `latest`
-
-8.  ¿Cual es la salida? ¿Como actúa el operador `~`?
-
-        > var semver = require('semver')
-        undefined
-        > semver.toComparators('~1.2.3')
-        [ [ '_______', '______' ] ]
-
-9.  ¿Cual es la salida? ¿Como actúa el operador `^`?
-
-```javascript
-        > var semver = require('semver')
-        undefined
-        > semver.toComparators('^1.2.3')
-        [ [ '_______', '______' ] ]
-```
-10. ¿Cuales son los pasos para escribir y publicar un paquete `npm`?
-
+!INCLUDE "npm.json"
 
 
 ## Preguntas de Repaso de Karma
@@ -792,42 +685,4 @@ ficheros cargados en los navegadores?
     ¿En que ruta/middleware del servidor express son servidos estos
     requests?. Explique el funcionamiento de este código.
 
-
-## Preguntas de GitBook
-
-1. Explique como instalar y usar Gitbook
-2. Como se despliega un libro en GitHub
-3. Como se despliega un libro en `gitbook.com`
-4. Como se despliega un libro en Heroku
-5. Como se despliega un libro en una máquina virtual de `iaas.ull.es`
-
-## Preguntas de REST y Servicios Web
-
-1. Defina que es un servicio web
-2. Explique que es REST
-
-
-## Preguntas sobre la API de GitHub
-
-1. ¿En que URL funciona el servicio web de GitHub?
-<!-- 
-%https://api.github.com
--->
-2. Usando `curl`, muestre un ejemplo de petición `GET` al servicio de GitHub solicitando información sobre un cierto usuario. ¿Con que opción puedo ver los headers?
-<!-- % Let's add the -i flag to include headers:
-% curl -i https://api.github.com/users/defunkt
--->
-3. Explique las diversas formas de autenticarse para usar el servicio de GitHub
-4. Explique que es `octonode` y ponga un ejemplo de uso
-
-## Preguntas sobre iaas.ull.es
-
-1. ¿A que se refiere el término SAAS?
-2. ¿A que se refiere el término PAAS?
-3. ¿A que se refiere el término IAAS?
-  Véase:
-  * {% youtube %}https://youtu.be/C-DilU6FKcQ{% endyoutube %}
-  Saas vs Paas vs Iaas - My Transportation Analogy.
-  Software Architect CA
-4. Explique los pasos para desplegar una aplicación web en la máquina virtual de `iaas.ull.es`
-
+!INCLUDE "rest.md"
