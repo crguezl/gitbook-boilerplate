@@ -79,3 +79,15 @@ gulp.task('opengb', function() {
 gulp.task('open', function() {
   return gulp.src('').pipe(shell(['open localhost:4000']));
 });
+//
+// "serve": "gitbook serve txt gh-pages",
+gulp.task('exam', function() {
+  return gulp.src('').pipe(shell([
+      'pandoc txt/repasos/gulp.md -o examenes/gulp.tex',
+      'pandoc txt/repasos/npm.md -o examenes/npm.tex',
+      'pandoc txt/repasos/ssh.md -o examenes/ssh.tex',
+      'pandoc txt/repasos/heroku.md -o examenes/heroku.tex',
+      'pandoc txt/repasos/rest.md -o examenes/rest.tex',
+      'cd examenes; pdflatex template.tex examen.pdf'
+  ]));
+});
