@@ -536,7 +536,7 @@ var assert = chai.assert;
 
 !INCLUDE "gulp.md"
 
-!INCLUDE "npm.json"
+!INCLUDE "npm.md"
 
 
 ## Preguntas de Repaso de Karma
