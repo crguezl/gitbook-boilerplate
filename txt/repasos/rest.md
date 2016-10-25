@@ -15,7 +15,7 @@
 ## Preguntas sobre la API de GitHub
 
 1. ¿En que URL funciona el servicio web de GitHub?
-<!-- 
+<!--
 %https://api.github.com
 -->
 2. Usando `curl`, muestre un ejemplo de petición `GET` al servicio de GitHub solicitando información sobre un cierto usuario. ¿Con que opción puedo ver los headers?
@@ -29,11 +29,5 @@
 
 1. ¿A que se refiere el término SAAS?
 2. ¿A que se refiere el término PAAS?
-3. ¿A que se refiere el término IAAS?
-  Véase:
-  * {% youtube %}https://youtu.be/C-DilU6FKcQ{% endyoutube %}
-  Saas vs Paas vs Iaas - My Transportation Analogy.
-  Software Architect CA
+3. [¿A que se refiere el término IAAS?](../recursos/README.md)
 4. Explique los pasos para desplegar una aplicación web en la máquina virtual de `iaas.ull.es`
-
-
