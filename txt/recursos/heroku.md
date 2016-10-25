@@ -7,14 +7,14 @@
 
 {% youtube %}https://youtu.be/uLF_hmtxAsY{% endyoutube %}
 
-* Every Heroku app runs in at least two environments: 
-  1. on the Heroku platform (we’ll call that `production`) and 
-  2. on your local machine (`development`). 
+* Every Heroku app runs in at least two environments:
+  1. on the Heroku platform (we’ll call that `production`) and
+  2. on your local machine (`development`).
 
-  En este artículo [Managing Multiple Environments for an App](https://devcenter.heroku.com/articles/multiple-environments) se habla de como ahcer mas fácil el proceso de despliegue:
-  * The solution is to have a staging environment that is as similar to `production` as is possible. 
-  * This can be achieved by creating a second Heroku application that hosts your staging application. 
-  * With staging, you can check your code in a `production`-like setting before having it affect your actual users. 
+  En este artículo [Managing Multiple Environments for an App](https://devcenter.heroku.com/articles/multiple-environments) se habla de como hacer mas fácil el proceso de despliegue:
+  * The solution is to have a staging environment that is as similar to `production` as is possible.
+  * This can be achieved by creating a second Heroku application that hosts your staging application.
+  * With staging, you can check your code in a `production`-like setting before having it affect your actual users.
   * As you already deploy with git, setting up and managing these multiple remote environments is easy.
 
 * El artículo [Collaborating with Other Developers on Your App](https://devcenter.heroku.com/articles/collaborating) explica como poner a los otros miembros del equipo como colaboradores en tu app. Básicamente:
@@ -36,13 +36,26 @@
       Removing joe@example.com from theirapp collaborators... done
     ```
   Como colaborador se debe:
-  1. You should clone the app locally. The invitation email includes the name of the app. 
+  1. You should clone the app locally. The invitation email includes the name of the app.
      In this example, the app name is `theirapp`.
     ```bash
       $ heroku git:clone -a theirapp
     ```
-  2. It’s strongly recommended that you get access to the canonical source code repository for the application (for instance on GitHub) and then use 
+  2. It’s strongly recommended that you get access to the canonical source code repository for the application (for instance on GitHub) and then use
     ```bash
-      $ heroku git:remote 
+      $ heroku git:remote
     ```
     to add a git remote to your checkout
+
+### Preguntas y Respuestas
+
+2. ¿Como genero un token para hacer uso de la API de Heroku?
+```
+$ heroku auth:token
+```
+3. ¿Cómo creo una app en Heroku usando la API de Heroku?
+```
+$ curl -X POST https://api.heroku.com/apps \
+-H "Accept: application/vnd.heroku+json; version=3" \
+-H "Authorization: Bearer $TUTORIAL_KEY"
+```

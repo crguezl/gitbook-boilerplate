@@ -30,13 +30,5 @@
     express.js que va a ser desplegada en Heroku?
 10. Explique los pasos para desplegar una aplicación en Heroku
 11. Explique como resolver los problemas que pueden surgir cuando la aplicación desplegada en Heroku no funciona correctamente
-12. ¿Como genero un token para hacer uso de la API de Heroku?
-```
-$ heroku auth:token
-```
-13. ¿Cómo creo una app en Heroku usando la API de Heroku?
-```
-$ curl -X POST https://api.heroku.com/apps \
--H "Accept: application/vnd.heroku+json; version=3" \
--H "Authorization: Bearer $TUTORIAL_KEY"
-```
+12. [¿Como genero un token para hacer uso de la API de Heroku?](../recursos/heroku.md)
+13. [¿Cómo creo una app en Heroku usando la API de Heroku?](../recursos/heroku.md)
