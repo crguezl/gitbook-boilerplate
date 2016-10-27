@@ -24,6 +24,7 @@
     * [Inversion of Control Pattern](apuntes/patterns/inversionofcontrolpattern.md)
   * [Arquitectura REST y REST APIs](apuntes/rest/README.md)
     * [Getting Started with the GitHub API](apuntes/rest/githubapitutorial.md)
+  * [Authentication](apuntes/authentication/README.md)
 * [Repasos](repasos/README.md)
 * [Recursos](recursos/README.md)
   * [GitHub Education](recursos/README.md#github-education)

@@ -21,10 +21,11 @@
 * [Ejemplo de un servicio RESTfull en Sinatra](http://crguezl.github.io/apuntes-ruby/node568.html)
 * [Learn REST: A Tutorial](http://rest.elkstein.org/)
 
-## OAuth
+## OAuth y Passport
 
 * [Introducción a OAuth](http://nereida.deioc.ull.es/~lpp/perlexamples/node773.html) (Apuntes del profesor)
 * [Example of how to use Express 4.x and Passport to authenticate users using GitHub](https://github.com/ULL-ESIT-SYTW-1617/express-4.x-github-example)
+* Véase la sección sobre [OAuth](../authentication/README.md) y Passport en estos apuntes
 
 ## GitHub API
 
