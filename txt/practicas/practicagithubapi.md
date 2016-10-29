@@ -15,11 +15,14 @@ que permita
 * Crear el repositorio del libro en GitHub
 * Generar el libro
 * Hacer un push del repositorio inicial, incluyendo las `gh-pages`
+* Mejore el plugin `gitbook-start-heroku-...` para que haciendo uso de la API de Heroku cree la aplicación en Heroku, intentando prescindir del [`heroku-toolbelt`](https://devcenter.heroku.com/articles/heroku-command-line)
 
 #### Punto de partida
 
 El paquete se construye a partir de
-* El código que haya desarrollado en la [Práctica: Nueva funcionalidad para el Paquete NPM: plugins](practicaplugin.md).
+* El código que haya desarrollado en las prácticas:
+  - [Práctica: Nueva funcionalidad para el Paquete NPM: plugins](practicaplugin.md) y
+  - [Práctica: Heroku plugin](practicaplugin2.md).
 
 ### Referencias
 
