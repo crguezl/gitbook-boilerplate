@@ -43,3 +43,4 @@
   * [Práctica: Nueva funcionalidad para el Paquete NPM: crear repositorio en GitHub](practicas/practicagithubapi.md)
   * [Práctica: Autenticación OAuth con Passport](practicas/practicapassport.md)
   * [Práctica: Passport y Base de Datos: LocalStrategy](practicas/practicapassportlocal.md)
+  * [Práctica: Añadir HTTPS al servidor del libro](practicas/practicassl.md)

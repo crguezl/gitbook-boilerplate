@@ -6,6 +6,7 @@
 
 * [Gitboook help center](https://help.gitbook.com/)
 * [GitBook documentation](https://www.gitbook.com/book/gitbookio/documentation/details)
+* [GitBook Toolchain Documentation](https://toolchain.gitbook.com/): This document aims to be a comprehensive guide to GitBook
 * [Documentation for developers (API & Plugins)](developer.gitbook.com)
 * [Can I host my GitBook content on GitHub?](https://help.gitbook.com/github/can-i-host-on-github.html)
 
