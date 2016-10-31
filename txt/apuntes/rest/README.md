@@ -23,9 +23,21 @@
 
 ## OAuth y Passport
 
+### OAuth
+
 * [Introducción a OAuth](http://nereida.deioc.ull.es/~lpp/perlexamples/node773.html) (Apuntes del profesor)
+
+### Passport
+
 * [Example of how to use Express 4.x and Passport to authenticate users using GitHub](https://github.com/ULL-ESIT-SYTW-1617/express-4.x-github-example)
 * Véase la sección sobre [OAuth](../authentication/README.md) y Passport en estos apuntes
+
+
+### Authentication con Passport via GitBook
+
+* [GitbookIO/passport-gitbook](https://github.com/GitbookIO/passport-gitbook): GitBook authentication strategy for Passport and Node.js.
+* [Better internal documentation with GitBook, Express and Auth0](http://sandrinodimattia.net/better-internal-documentation-with-gitbook-express-and-auth0/)
+  - [sandrinodimattia/gitbook-express-auth0-boilerplate GitHub repo](https://github.com/sandrinodimattia/gitbook-express-auth0-boilerplate)
 
 ## GitHub API
 
