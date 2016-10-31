@@ -42,3 +42,4 @@
   * [Práctica: `gitbook-start`. Plugin para heroku](practicas/practicaplugin2.md)
   * [Práctica: Nueva funcionalidad para el Paquete NPM: crear repositorio en GitHub](practicas/practicagithubapi.md)
   * [Práctica: Autenticación OAuth con Passport](practicas/practicapassport.md)
+  * [Práctica: Passport y Base de Datos: LocalStrategy](practicas/practicapassportlocal.md)
