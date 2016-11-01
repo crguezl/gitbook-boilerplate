@@ -1,4 +1,4 @@
-## Práctica: Nueva funcionalidad para el Paquete NPM: crear repositorio en GitHub
+## Práctica: GitHub API, Heroku API y SSH en JavaScript
 
 <!--sec data-title="Descripción" data-id="sectiondescripcion" data-show=true ces-->
 ### Descripción
