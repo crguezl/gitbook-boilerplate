@@ -5,7 +5,7 @@
   * [Práctica: Nueva funcionalidad para el Paquete NPM: plugins](practicaplugin.md)
   * [Práctica: Nueva funcionalidad para el Paquete NPM: crear repositorio en GitHub](practicagithubapi.md)
   * [Práctica: gitbook-start-plugin-iaas-ull-es](practicaiaas.md)
+  * [Práctica: gitbook-start-plugin-heroku](practicaplugin2.md)
   * [Práctica: Passport y OAuth](practicapassport.md)
   * [Práctica: Passport con LocalStrategy](practicapassportlocal.md)
-  * [Práctica: gitbook-start-plugin-heroku](practicaplugin2.md)
   * [Práctica: HTTPS y SSL](practicassl.md)
