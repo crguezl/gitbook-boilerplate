@@ -38,6 +38,7 @@
 * [GitbookIO/passport-gitbook](https://github.com/GitbookIO/passport-gitbook): GitBook authentication strategy for Passport and Node.js.
 * [Better internal documentation with GitBook, Express and Auth0](http://sandrinodimattia.net/better-internal-documentation-with-gitbook-express-and-auth0/)
   - [sandrinodimattia/gitbook-express-auth0-boilerplate GitHub repo](https://github.com/sandrinodimattia/gitbook-express-auth0-boilerplate)
+* [GitBook Developer's: OAuth2](https://developer.gitbook.com/overview/oauth.html)
 
 ## GitHub API
 
