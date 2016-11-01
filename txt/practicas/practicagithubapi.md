@@ -16,6 +16,7 @@ que permita
 * Generar el libro
 * Hacer un push del repositorio inicial, incluyendo las `gh-pages`
 * Mejore el plugin `gitbook-start-heroku-...` para que haciendo uso de la API de Heroku cree la aplicación en Heroku, intentando prescindir del [`heroku-toolbelt`](https://devcenter.heroku.com/articles/heroku-command-line)
+* Mejore el plugin `gitbook-start-iaas-...` para que haga uso de versiones de `ssh` enteramente escritas en JavaScript intentando prescindir de OpenSSH y del uso de comandos de la `bash`
 
 #### Punto de partida
 
