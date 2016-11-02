@@ -21,3 +21,17 @@
 * [Easy Node Authentication: Setup and Local](https://scotch.io/tutorials/easy-node-authentication-setup-and-local)
 * [Authenticating Node.js Applications With Passport](http://code.tutsplus.com/tutorials/authenticating-nodejs-applications-with-passport--cms-21619)
   * [Repositorio con el código del tutorial](https://github.com/tutsplus/passport-mongo)
+
+### Notas sobre Facebook
+
+* [Facebook App Development Guide](https://developers.facebook.com/docs/apps/)
+  - [Facebook: Register and Configure an App](https://developers.facebook.com/docs/apps/register)
+* StackOverflow: [How to Test Facebook Connect Locally](http://stackoverflow.com/questions/2459728/how-to-test-facebook-connect-locally)
+  - Facebook → Settings → Basic:
+
+    write "localhost" in the "App Domains" field then click on "+Add Platform" choose "Web Site".
+
+    After that, in the "Site Url" field write your localhost url 
+    (e.g.: `http://localhost:3000/login/facebook/return`).
+    This will allow you to test your facebook plugins locally.
+* StackOverflow: [Facebook Site URL?](http://stackoverflow.com/questions/8107911/facebook-site-url)
