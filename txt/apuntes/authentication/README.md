@@ -22,7 +22,7 @@
 * [Authenticating Node.js Applications With Passport](http://code.tutsplus.com/tutorials/authenticating-nodejs-applications-with-passport--cms-21619)
   * [Repositorio con el código del tutorial](https://github.com/tutsplus/passport-mongo)
 
-### Notas sobre Facebook
+### Notas sobre como Configurar una WebApp en Facebook
 
 * [Facebook App Development Guide](https://developers.facebook.com/docs/apps/)
   - [Facebook: Register and Configure an App](https://developers.facebook.com/docs/apps/register)
