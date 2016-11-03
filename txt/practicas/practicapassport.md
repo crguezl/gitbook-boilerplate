@@ -28,7 +28,6 @@ del libro  pertenece  a una organización dada de GitHub (por ejemplo [ULL-ESIT-
     ```
      GET /orgs/:org/members/:username
     ```
-  - [Check membership of a user in a GitHub organization](https://developer.github.com/v3/orgs/members/#check-membership): Check if a user is, publicly or privately, a member of the GitHub organization.
 * Octonode
   - Get an organization's members (`GET /orgs/ULL-ESIT-SYTW-1617/members`)
 
