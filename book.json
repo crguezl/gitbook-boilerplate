@@ -5,6 +5,7 @@
         "-autocover",
         "-layout",
         "youtube",
+        "video",
         "highlight",
         "sectionx",
         "code-highlighter",
