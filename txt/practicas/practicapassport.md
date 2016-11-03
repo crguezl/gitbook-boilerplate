@@ -34,20 +34,20 @@ del libro  pertenece  a una organización dada de GitHub (por ejemplo [ULL-ESIT-
 
     This query supports [pagination](https://github.com/pksunkara/octonode/blob/master/#pagination).
 
-    ``js
+    ```js
     ghorg.members(callback); //array of github users
-    ``
+    ```
 
   -  Check an organization member (GET /orgs/ULL-ESIT-SYTW-1617/members/crguezl)
 
-    ``js
+    ```js
     ghorg.member('crguezl', callback); //boolean
-    ``
+    ```
 
  - Check a member's public membership in an org (GET /orgs/ULL-ESIT-SYTW-1617/public_members/crguezl)
 
-    ``js
+    ```js
     ghorg.publicMember('crguezl', callback); //boolean
-    ``
+    ```
 
 <!-- endsec -->
