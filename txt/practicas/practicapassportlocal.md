@@ -17,7 +17,7 @@ del libro  usando `LocalStrategy` y una base de datos
   - {% video %}https://vimeo.com/137368290{% endvideo %}
 * The purpose of this [tutorial](https://youtu.be/vDdJBpOhTNo) is to show the basics of hashing a user's password, Sequelize validations, hooks, and basic access control:
 
-  {% video %}https://youtu.be/vDdJBpOhTNo{% endvideo %}
+  {% video %}https://www.youtube.com/watch?v=vDdJBpOhTNo&feature=youtu.be{% endvideo %}
 
 ### Referencias
 
