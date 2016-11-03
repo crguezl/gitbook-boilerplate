@@ -13,11 +13,13 @@ del libro  pertenece  a una organización dada de GitHub (por ejemplo [ULL-ESIT-
 <!-- endsec -->
 
 <!--sec data-title="Ejemplos y Referencias" data-id="sectionreferencias" data-show=true ces-->
+
 ### Referencias
 
 * Sección [OAuth y Passport](../apuntes/authentication/README.md) en los apuntes
+* Sección [Rest y GitHub API](../apuntes/rest/README.md) en los apuntes
 
-### Ejemplos
+### Ejemplos y Ayudas
 
 * [GitHub repo demonstrating how to use Express 4.x and Passport to authenticate users using GitHub](https://github.com/ULL-ESIT-SYTW-1617/express-4.x-github-example)
 * [GitHub repo demonstrating how to use Express 4.x and Passport to authenticate users using Facebook](https://github.com/ULL-ESIT-DSI-1617/express-4.x-facebook-example)
