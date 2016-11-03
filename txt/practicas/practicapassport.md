@@ -36,11 +36,10 @@ del libro  pertenece  a una organización dada de GitHub (por ejemplo [ULL-ESIT-
 
     ```js
     var ghme           = client.me();
-    var ghuser         = client.user('pksunkara');
-    var ghrepo         = client.repo('pksunkara/hub');
+    var ghuser         = client.user('crguezl');
+    var ghrepo         = client.repo('crguezl/ull-esit-1617');
     var ghorg          = client.org('ULL-ESIT-SYTW-1617');
-var ghrepo         = client.repo(;
-var ghorg          = client.org(;
+
     ghorg.members(callback); //array of github users
     ```
 
