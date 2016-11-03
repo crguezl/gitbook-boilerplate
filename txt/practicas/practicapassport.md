@@ -30,7 +30,7 @@ del libro  pertenece  a una organización dada de GitHub (por ejemplo [ULL-ESIT-
 * GitHub API
   - [Check membership of a user in a GitHub organization](https://developer.github.com/v3/orgs/members/#check-membership): Check if a user is, publicly or privately, a member of the GitHub organization.
 * Octonode
-  - Get an organization's members (GET /orgs/ULL-ESIT-SYTW-1617/members)
+  - Get an organization's members (`GET /orgs/ULL-ESIT-SYTW-1617/members`)
 
     This query supports [pagination](https://github.com/pksunkara/octonode/blob/master/#pagination).
 
@@ -43,13 +43,13 @@ del libro  pertenece  a una organización dada de GitHub (por ejemplo [ULL-ESIT-
     ghorg.members(callback); //array of github users
     ```
 
-  -  Check an organization member (GET /orgs/ULL-ESIT-SYTW-1617/members/crguezl)
+  -  Check an organization member (`GET /orgs/ULL-ESIT-SYTW-1617/members/crguezl`)
 
     ```js
     ghorg.member('crguezl', callback); //boolean
     ```
 
- - Check a member's public membership in an org (GET /orgs/ULL-ESIT-SYTW-1617/public_members/crguezl)
+ - Check a member's public membership in an org (`GET /orgs/ULL-ESIT-SYTW-1617/public_members/crguezl`)
 
     ```js
     ghorg.publicMember('crguezl', callback); //boolean
