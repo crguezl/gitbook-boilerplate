@@ -23,8 +23,31 @@ del libro  pertenece  a una organización dada de GitHub (por ejemplo [ULL-ESIT-
 
 * [GitHub repo demonstrating how to use Express 4.x and Passport to authenticate users using GitHub](https://github.com/ULL-ESIT-SYTW-1617/express-4.x-github-example)
 * [GitHub repo demonstrating how to use Express 4.x and Passport to authenticate users using Facebook](https://github.com/ULL-ESIT-DSI-1617/express-4.x-facebook-example)
-* [Check membership](https://developer.github.com/v3/orgs/members/#check-membership): Check if a user is, publicly or privately, a member of the GitHub organization.
+* [Check membership of a user in a GitHub organization](https://developer.github.com/v3/orgs/members/#check-membership): Check if a user is, publicly or privately, a member of the GitHub organization.
   ```
    GET /orgs/:org/members/:username
   ```
+* GitHub API
+  - [Check membership of a user in a GitHub organization](https://developer.github.com/v3/orgs/members/#check-membership): Check if a user is, publicly or privately, a member of the GitHub organization.
+* Octonode
+  - Get an organization's members (GET /orgs/flatiron/members)
+
+    This query supports [pagination](#pagination).
+
+    ``js
+    ghorg.members(callback); //array of github users
+    ``
+
+  -  Check an organization member (GET /orgs/flatiron/members/pksunkara)
+
+    ``js
+    ghorg.member('pksunkara', callback); //boolean
+    ``
+
+ - Check a member's public membership in an org (GET /orgs/flatiron/public_members/pksunkara)
+
+    ``js
+    ghorg.publicMember('pksunkara', callback); //boolean
+    ``
+
 <!-- endsec -->
