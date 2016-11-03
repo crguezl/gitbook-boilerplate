@@ -23,6 +23,9 @@ del libro  usando `LocalStrategy` y una base de datos
 
 * [Authentication: OAuth y Passport](../apuntes/authentication/README.md)
 * [Bases de Datos](../apuntes/bd/README.md)
+* [Passport-Local Mongoose](https://github.com/saintedlama/passport-local-mongoose)
+  is a [Mongoose](http://mongoosejs.com/) [plugin](http://mongoosejs.com/docs/plugins.html) 
+  that simplifies building username and password login with [Passport](http://passportjs.org)
 * [passport-local-sequelize. Sequelize plugin that simplifies building username and password login with Passport](https://www.npmjs.com/package/passport-local-sequelize)
 
 
