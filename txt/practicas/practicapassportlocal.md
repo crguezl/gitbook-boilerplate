@@ -15,9 +15,9 @@ del libro  usando `LocalStrategy` y una base de datos
 * [A simple demo app using express, mongoose, passport for beginners](https://github.com/madhums/node-express-mongoose-demo). Véase el [despliegue en Heroku](http://nodejs-express-demo.herokuapp.com/)
 * [An example app using express, sequelize and passport](https://github.com/ga-wdi-lessons/express-passport-sequelize) and the corresponding [video in Vimeo](https://vimeo.com/137368290):
   - {% video %}https://vimeo.com/137368290{% endvideo %}
-* The purpose of this tutorial is to show the basics of hashing a user's password, Sequelize validations, hooks, and basic access control:
+* The purpose of this [tutorial](https://youtu.be/vDdJBpOhTNo) is to show the basics of hashing a user's password, Sequelize validations, hooks, and basic access control:
 
-  {% video %}[Node.js + Passport.js + Sequelize.js](https://youtu.be/vDdJBpOhTNo) {% endvideo %}
+  {% video %}https://youtu.be/vDdJBpOhTNo{% endvideo %}
 
 ### Referencias
 
