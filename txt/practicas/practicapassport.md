@@ -32,7 +32,7 @@ del libro  pertenece  a una organización dada de GitHub (por ejemplo [ULL-ESIT-
 * Octonode
   - Get an organization's members (GET /orgs/flatiron/members)
 
-    This query supports [pagination](#pagination).
+    This query supports [pagination](https://github.com/pksunkara/octonode/blob/master/#pagination).
 
     ``js
     ghorg.members(callback); //array of github users
