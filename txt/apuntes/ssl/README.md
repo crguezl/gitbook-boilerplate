@@ -6,7 +6,7 @@
 
   - MIT 6.858 Computer Systems Security, Fall 2014
   - View the complete course: [http://ocw.mit.edu/6-858F14](http://ocw.mit.edu/6-858F14)
-  - Instructor: Nickolai Zeldovich
+  - Instructor: [Nickolai Zeldovich](https://www.youtube.com/user/chebureka)
 
 ### Tutoriales
 
