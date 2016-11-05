@@ -4,7 +4,7 @@
 ### Objetivo:
 
 El servidor proveído por el plugin (sea `iaas`o `heroku`) deberá autenticar que el lector
-del libro  usando `LocalStrategy` y una base de datos
+del libro  usando `LocalStrategy`. Guarde la información sobre los usuarios en un fichero JSON.
 
 <!-- endsec -->
 
