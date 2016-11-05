@@ -12,11 +12,10 @@
 
 * [How to Use SSL/TLS with Node.js](https://www.sitepoint.com/how-to-use-ssltls-with-node-js/) By Florian Rappl  September 16, 2015 at SitePoint
 * [This is a working example in GitHub of a trusted-peer setup using SSL](https://github.com/coolaj86/nodejs-ssl-trusted-peer-example)
-* [express-sslify: Enforces SSL for node.js express projects. This simple module enforces HTTPS connections on any incoming GET and HEAD requests.](https://www.npmjs.com/package/express-sslify)
 
 ### Recursos
 * [Certificados SSL para máquinas IaaS de PAS/PDI](https://docs.google.com/document/d/1noIAcAEzX1PuxxSLWuiTKzkLurAm9fL6vUmZN-A-kpE/edit#heading=h.32nscii6jiop)
-* [Let's Encrypt](https://letsencrypt.org/docs/): Let’s Encrypt is a CA.
+* [Let's Encrypt](https://letsencrypt.org/docs/): Let’s Encrypt is a Certificate Authority (CA).
 
 ### Vídeos
 
@@ -28,6 +27,8 @@
 
 ### Módulos NodeJS
 * [pem](https://www.npmjs.com/package/pem):  A nodeJS module to create private keys and certificates with node.js and io.js
+* [express-sslify: Enforces SSL for node.js express projects. This simple module enforces HTTPS connections on any incoming GET and HEAD requests.](https://www.npmjs.com/package/express-sslify)
 
 ## Ejemplos en GitHub
 * [express-ssl: Enforce SSL for Express apps](https://www.npmjs.com/package/express-ssl)
+
