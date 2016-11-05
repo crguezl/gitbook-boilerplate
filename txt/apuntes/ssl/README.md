@@ -7,6 +7,7 @@
   - MIT 6.858 Computer Systems Security, Fall 2014
   - View the complete course: [http://ocw.mit.edu/6-858F14](http://ocw.mit.edu/6-858F14)
   - Instructor: Nickolai Zeldovich
+
 ### Tutoriales
 
 * [How to Use SSL/TLS with Node.js](https://www.sitepoint.com/how-to-use-ssltls-with-node-js/) By Florian Rappl  September 16, 2015 at SitePoint
@@ -15,6 +16,7 @@
 
 ### Recursos
 * [Certificados SSL para máquinas IaaS de PAS/PDI](https://docs.google.com/document/d/1noIAcAEzX1PuxxSLWuiTKzkLurAm9fL6vUmZN-A-kpE/edit#heading=h.32nscii6jiop)
+* [Let's Encrypt](https://letsencrypt.org/docs/): Let’s Encrypt is a CA.
 
 ### Vídeos
 
@@ -26,7 +28,6 @@
 
 ### Módulos NodeJS
 * [pem](https://www.npmjs.com/package/pem):  A nodeJS module to create private keys and certificates with node.js and io.js
-* [Let's Encrypt](https://letsencrypt.org/docs/): Let’s Encrypt is a CA.
 
 ## Ejemplos en GitHub
 * [express-ssl: Enforce SSL for Express apps](https://www.npmjs.com/package/express-ssl)
