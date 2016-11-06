@@ -30,7 +30,5 @@
 ### Módulos NodeJS para HTTPS
 * [pem](https://www.npmjs.com/package/pem):  A nodeJS module to create private keys and certificates with node.js and io.js
 * [express-sslify: Enforces SSL for node.js express projects. This simple module enforces HTTPS connections on any incoming GET and HEAD requests.](https://www.npmjs.com/package/express-sslify)
-
-## Ejemplos en GitHub
 * [express-ssl: Enforce SSL for Express apps](https://www.npmjs.com/package/express-ssl)
 
