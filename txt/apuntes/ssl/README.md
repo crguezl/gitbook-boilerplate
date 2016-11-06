@@ -20,9 +20,7 @@
 
 * [Walkthrough: How to set up HTTPS / SSL with node.js and name.com / RapidSSL](https://youtu.be/r92gqYHJc5c)
   - {% youtube %}https://youtu.be/r92gqYHJc5c{% endyoutube %}
-* [io.js/node.js zero-config HTTPS server example (complete with bogus TLS/SSL 2048-bit RSA certs)](https://github.com/coolaj86/nodejs-ssl-example)
-  - Walkthrough: How to set up HTTPS / SSL with node.js and name.com / RapidSSL
-    {% youtube %}https://youtu.be/r92gqYHJc5c{% endyoutube %}
+  - [GitHub repo: coolaj86/nodejs-ssl-e](https://github.com/coolaj86/nodejs-ssl-example)
 
 ### Recursos: Certificados
 
