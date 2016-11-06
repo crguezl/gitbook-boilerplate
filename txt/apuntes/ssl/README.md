@@ -19,7 +19,6 @@
 #### SSL/HTTPS con NodeJS: Vídeos
 
 * [Walkthrough: How to set up HTTPS / SSL with node.js and name.com / RapidSSL](https://youtu.be/r92gqYHJc5c)
-  - {% youtube %}https://youtu.be/r92gqYHJc5c{% endyoutube %}
   - [GitHub repo: coolaj86/nodejs-ssl-e](https://github.com/coolaj86/nodejs-ssl-example)
   - [Blog: How to create a Certificate Signing Request (CSR) for HTTPS (TLS/SSL) RSA PEMs](https://coolaj86.com/articles/how-to-create-a-csr-for-https-tls-ssl-rsa-pems/)
 
