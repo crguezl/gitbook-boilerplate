@@ -14,10 +14,6 @@
 ### Tutoriales sobre HTTPS y SSL con NodeJS
 
 * [How to Use SSL/TLS with Node.js](https://www.sitepoint.com/how-to-use-ssltls-with-node-js/) By Florian Rappl  September 16, 2015 at SitePoint
-* [This is a working example in GitHub of a trusted-peer setup using SSL](https://github.com/coolaj86/nodejs-ssl-trusted-peer-example)
-
-#### SSL/HTTPS con NodeJS: Vídeos
-
 * [Walkthrough: How to set up HTTPS / SSL with node.js and name.com / RapidSSL](https://youtu.be/r92gqYHJc5c)
   - [GitHub repo: coolaj86/nodejs-ssl-e](https://github.com/coolaj86/nodejs-ssl-example)
   - [Blog: How to create a Certificate Signing Request (CSR) for HTTPS (TLS/SSL) RSA PEMs](https://coolaj86.com/articles/how-to-create-a-csr-for-https-tls-ssl-rsa-pems/)
