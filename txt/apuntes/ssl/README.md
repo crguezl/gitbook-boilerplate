@@ -1,10 +1,9 @@
 ## SSL
 
-### Introducción
-
-{% youtube %}https://youtu.be/JCvPnwpWVUQ{% endyoutube %}
-
 ### Teoría
+
+*  Introducción
+  - {% youtube %}https://youtu.be/JCvPnwpWVUQ{% endyoutube %}
 
 * [SSL and HTTPS](https://youtu.be/S2iBR2ZlZf0) MIT OpenCourseWare
 
