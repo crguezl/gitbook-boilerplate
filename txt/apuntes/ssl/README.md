@@ -6,7 +6,7 @@
   - {% youtube %}https://youtu.be/JCvPnwpWVUQ{% endyoutube %}
 
 * [SSL and HTTPS](https://youtu.be/S2iBR2ZlZf0) MIT OpenCourseWare
-
+  - {% youtube %}https://youtu.be/S2iBR2ZlZf0{% endyoutube %}
   - MIT 6.858 Computer Systems Security, Fall 2014
   - View the complete course: [http://ocw.mit.edu/6-858F14](http://ocw.mit.edu/6-858F14)
   - Instructor: [Nickolai Zeldovich](https://www.youtube.com/user/chebureka)
