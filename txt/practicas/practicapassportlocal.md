@@ -3,8 +3,10 @@
 <!--sec data-title="Descripción" data-id="sectiondescripcion" data-show=true ces-->
 ### Objetivo:
 
-El servidor proveído por el plugin (sea `iaas`o `heroku`) deberá autenticar al lector
-del libro  usando `LocalStrategy`. Guarde la información sobre los usuarios en un fichero JSON.
+* El servidor proveído por el plugin (sea `iaas`o `heroku`) deberá autenticar al lector
+del libro  usando `LocalStrategy`. 
+  - Se supone que el autor del libro guarda la información sobre los usuarios `{login, name, password}` que pueden acceder al libro en un fichero JSON.
+  - Añada una ruta al servidor `/login/setpassword` para que el usuario pueda cambiar la clave. En esta ruta se despliega una vista con un formulario que permite al lector cambiar su clave
 
 <!-- endsec -->
 
