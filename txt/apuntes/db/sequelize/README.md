@@ -10,3 +10,12 @@
     * [Curso MOOC Node.JS. Quiz 8: Despliegue DB en Heroku](https://youtu.be/_jzjaraiE3A) YouTube
     * [Curso MOOC Node.JS. Quiz 9: Lista de preguntas](https://youtu.be/zGT8rVBe2hY) YouTube
     * [Curso MOOC Node.JS. Quiz 10: Autoload](https://youtu.be/pSDk_l_jhs0) YouTube
+
+### Video Tutorial por Code Cast
+
+1. [Sequelize: An Introduction](https://youtu.be/qsDvJrGMSUY?list=PL5ze0DjYv5DYBDfl0vF_VRxEu8JdTIHlR)
+2. [Sequelize: Getting Started](https://youtu.be/6NKNfXtKk0c?list=PL5ze0DjYv5DYBDfl0vF_VRxEu8JdTIHlR)
+3. [Sequelize: Defining Models](https://youtu.be/8W_dd3uA1Iw?list=PL5ze0DjYv5DYBDfl0vF_VRxEu8JdTIHlR)
+4. [Sequelize: Validation](https://youtu.be/Z1O9iddzcXk?list=PL5ze0DjYv5DYBDfl0vF_VRxEu8JdTIHlR)
+5. [Sequelize: Hooks](https://youtu.be/pquxHIBx8ks?list=PL5ze0DjYv5DYBDfl0vF_VRxEu8JdTIHlR)
+6. [Sequelize: Inserting Data](https://youtu.be/JAld7bV5qV8?list=PL5ze0DjYv5DYBDfl0vF_VRxEu8JdTIHlR)
