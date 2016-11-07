@@ -47,5 +47,6 @@
   * [Práctica: `gitbook-start`. Plugin para heroku](practicas/practicaplugin2.md)
   * [Práctica: GitHub API, Heroku API](practicas/practicagithubapi.md)
   * [Práctica: Autenticación OAuth con Passport](practicas/practicapassport.md)
-  * [Práctica: Passport y Base de Datos: LocalStrategy](practicas/practicapassportlocal.md)
+  * [Práctica: Passport y LocalStrategy](practicas/practicapassportlocal.md)
+  * [Práctica: LocalStrategy y Base de Datos: LocalStrategy](practicas/practicapassportlocalsequelize.md)
   * [Práctica: Añadir HTTPS al servidor del libro](practicas/practicassl.md)
