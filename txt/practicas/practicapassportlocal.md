@@ -19,7 +19,8 @@ del libro  usando `LocalStrategy`.
 ### Referencias
 
 * [Authentication: OAuth y Passport](../apuntes/authentication/README.md)
-* [credential mnpm module: 
-Easy password hashing and verification in Node. Protects against brute force, rainbow tables, and timing attacks.](https://www.npmjs.com/package/credential)
+* [credential npm module: Easy password hashing and verification in Node. Protects against brute force, rainbow tables, and timing attacks.](https://www.npmjs.com/package/credential)
+* [bcrypt: A bcrypt library for NodeJS.](https://www.npmjs.com/package/bcrypt)
+* [read: npm module para leer passwords](https://www.npmjs.com/package/read)
 
 <!-- endsec -->
