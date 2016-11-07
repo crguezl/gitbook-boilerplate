@@ -8,6 +8,7 @@ del libro  usando `LocalStrategy`.
   - Se supone que se guarda la información sobre los usuarios `{login, name, password (encrypted)}` que pueden acceder al libro en un fichero JSON.
   - Añada una ruta al servidor `/login/register` para que el usuario pueda registrarse. En esta ruta se despliega una vista con un formulario que permite al lector registrarse
   - En el caso de Heroku la volatilidad de la máquina virtual hace que esta solución tenga problemas. Se pueden hacer los cambios permanentes asegurandose que los cambios son añadidos y empujados al repo de Heroku o mas general, guardándo el fichero en algún repo privado externo 
+  - El uso de la `LocalStrategy` para autenticación debería ser opcional
 
 <!-- endsec -->
 
