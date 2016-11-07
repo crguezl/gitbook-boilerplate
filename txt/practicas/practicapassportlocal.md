@@ -21,6 +21,7 @@ del libro  usando `LocalStrategy`.
 * [Authentication: OAuth y Passport](../apuntes/authentication/README.md)
 * [credential npm module: Easy password hashing and verification in Node. Protects against brute force, rainbow tables, and timing attacks.](https://www.npmjs.com/package/credential)
 * [bcrypt: A bcrypt library for NodeJS.](https://www.npmjs.com/package/bcrypt)
+* [inquirer](https://www.npmjs.com/package/inquirer): Inquirer.js strives to be an easily embeddable and beautiful command line interface for Node.js (and perhaps the "CLI Xanadu").
 * [read: npm module para leer passwords](https://www.npmjs.com/package/read)
 
 <!-- endsec -->
