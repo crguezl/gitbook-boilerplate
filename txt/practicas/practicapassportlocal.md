@@ -19,5 +19,7 @@ del libro  usando `LocalStrategy`.
 ### Referencias
 
 * [Authentication: OAuth y Passport](../apuntes/authentication/README.md)
+* [credential mnpm module: 
+Easy password hashing and verification in Node. Protects against brute force, rainbow tables, and timing attacks.](https://www.npmjs.com/package/credential)
 
 <!-- endsec -->
