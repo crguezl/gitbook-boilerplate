@@ -1,10 +1,10 @@
-## Práctica: Passport y Base de Datos: LocalStrategy
+## Práctica: LocalStrategy y Base de Datos
 
 <!--sec data-title="Descripción" data-id="sectiondescripcion" data-show=true ces-->
 ### Objetivo:
 
 El servidor proveído por el plugin (sea `iaas`o `heroku`) deberá autenticar que el lector
-del libro  usando `LocalStrategy`. Guarde la información sobre los usuarios en un fichero JSON.
+del libro  usando `LocalStrategy` y una base de datos en la que se guarda la información acerca de los usuarios.
 
 <!-- endsec -->
 
