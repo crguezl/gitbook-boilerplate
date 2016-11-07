@@ -3,7 +3,7 @@
 <!--sec data-title="Descripción" data-id="sectiondescripcion" data-show=true ces-->
 ### Objetivo:
 
-El servidor proveído por el plugin (sea `iaas`o `heroku`) deberá autenticar que el lector
+El servidor proveído por el plugin (sea `iaas`o `heroku`) deberá autenticar al lector
 del libro  usando `LocalStrategy`. Guarde la información sobre los usuarios en un fichero JSON.
 
 <!-- endsec -->
