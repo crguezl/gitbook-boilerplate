@@ -209,11 +209,18 @@ false
 
 ##### Dropbox
 
+* [Dropbox Platform developer guide](https://www.dropbox.com/developers-v1/reference/devguide)
 * [npm: dropbox](https://www.npmjs.com/package/dropbox)
   - [Dropbox JavaScript SDK Documentation](http://dropbox.github.io/dropbox-sdk-js/)
   - [Ejemplos](https://github.com/dropbox/dropbox-sdk-js/tree/master/examples)
-  - [Dropbox Platform developer guide](https://www.dropbox.com/developers-v1/reference/devguide)
-  - [Get a token: click the "Get Token" button on the top right and copy the token](https://dropbox.github.io/dropbox-api-v2-explorer/#files_list_folder)
+    To run the examples in your development environment:
+
+    1. [Get a token: click the "Get Token" button on the top right and copy the token](https://dropbox.github.io/dropbox-api-v2-explorer/#files_list_folder)
+    2. Clone this repo
+    3. Run `npm install`
+    4. From the root of your repository, start the development server with
+       `npm start`.
+    5. Point your browser to <http://0.0.0.0:8080/>
 * [node-dropbox: A simple Dropbox API client for node.js](https://www.npmjs.com/package/node-dropbox)
 
 ##### Google
