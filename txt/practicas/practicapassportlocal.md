@@ -18,6 +18,101 @@ del libro  usando `LocalStrategy`.
 
 * [Express 4.x app using Passport for authentication with username and password](https://github.com/ULL-ESIT-SYTW-1617/express-4.x-local-example)
 
+#### Ejemplo de uso de ìnquirer`
+
+```javascript
+'use strict';
+var inquirer = require('inquirer');
+
+var questions = [
+  {
+    type: 'input',
+    name: 'first_name',
+    message: 'What\'s your first name'
+  },
+  {
+    type: 'input',
+    name: 'last_name',
+    message: 'What\'s your last name',
+    default: function () {
+      return 'Doe';
+    }
+  },
+  {
+    type: 'input',
+    name: 'phone',
+    message: 'What\'s your phone number',
+    validate: function (value) {
+      var pass = value.match(/^\d+$/i);
+      if (pass) {
+        return true;
+      }
+
+      return 'Please enter a valid phone number';
+    }
+  }
+];
+
+inquirer.prompt(questions).then(function (answers) {
+  console.log(JSON.stringify(answers, null, '  '));
+});
+```
+
+```bash
+[~/local/src/javascript/learning/use-credential(master)]$ node input.js 
+? What's your first name Casiano
+? What's your last name Doe
+? What's your phone number 111222
+{
+  "first_name": "Casiano",
+  "last_name": "Doe",
+  "phone": "111222"
+}
+```
+
+#### Ejemplo de uso de `credential` e `inquirer`
+
+```javascript
+var inquirer = require('inquirer');
+var credential = require('credential'),
+  pw = credential(),
+  pass = 'chuchu';
+
+pw.hash(pass, function (err, hash) {
+  if (err) { throw err; }
+  console.log('Store the password hash:\n', hash);
+  var questions = [{ message: "Enter your password", type: 'password', name: 'password'}];
+  inquirer.prompt(questions).then(function (userInput) {
+    console.log(userInput);
+    var userPass = userInput.password;
+    console.log(userPass);
+    pw.verify(hash, userPass, function (err, isValid) {
+      var msg;
+      if (err) { throw err; }
+      msg = isValid ? 'Passwords match!' : 'Wrong password.';
+      console.log(msg);
+    });
+  });
+});
+```
+El resultado de una ejecución es parecido a este:
+
+```bash
+[~/local/src/javascript/learning/use-credential(master)]$ node hash.js 
+Store the password hash:
+{
+  "hash":"lFPjexO2wJKgliHvoGC4hTdrb6PbwZfKskhY9DP0GA2sHS8BfkZel0JlQ4YNNKvykDox7Bwwpvdx6Pxic84L6Oby",
+  "salt":"gQ+LdSLI5Qxx9owI/ulxd/Qn5uiBfkEof1UzUCWCT8FJCA7LsCZSzn4fMxB/Lb+grqRBwPA24tE5MtKyw49PnfPo",
+  "keyLength":66,
+  "hashMethod":"pbkdf2",
+  "iterations":340230
+ }
+? Enter your password ******
+{ password: 'chuchu' }
+chuchu
+Passwords match!
+```
+
 ### Referencias
 
 * [Authentication: OAuth y Passport](../apuntes/authentication/README.md)
