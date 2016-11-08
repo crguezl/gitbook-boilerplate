@@ -180,7 +180,9 @@ false
 true
 false
 ```
+<!-- endsec -->
 
+<!--sec data-title="Referencias" data-id="sectionreferrencias" data-show=true ces-->
 ### Referencias
 
 * [Authentication: OAuth y Passport](../apuntes/authentication/README.md)
@@ -192,5 +194,4 @@ false
   - [Ejemplos](https://github.com/SBoudrias/Inquirer.js/tree/master/examples)
   - [Ejemplo de Password](https://github.com/SBoudrias/Inquirer.js/blob/master/examples/password.js)
 * [read: npm module para leer passwords](https://www.npmjs.com/package/read)
-
 <!-- endsec -->
