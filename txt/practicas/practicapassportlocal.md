@@ -206,7 +206,18 @@ false
 * [read: npm module para leer passwords](https://www.npmjs.com/package/read)
 
 #### Sistemas de Almacenamiento en la Nube
+
+##### Dropbox
+
+* [npm: dropbox](https://www.npmjs.com/package/dropbox)
+  - [Dropbox JavaScript SDK Documentation](http://dropbox.github.io/dropbox-sdk-js/)
+  - [Ejemplos](https://github.com/dropbox/dropbox-sdk-js/tree/master/examples)
+  - [Dropbox Platform developer guide](https://www.dropbox.com/developers-v1/reference/devguide)
+  - [Get a token: click the "Get Token" button on the top right and copy the token](https://dropbox.github.io/dropbox-api-v2-explorer/#files_list_folder)
 * [node-dropbox: A simple Dropbox API client for node.js](https://www.npmjs.com/package/node-dropbox)
+
+##### Google
+
 * [Google APIs Node.js Client](https://github.com/google/google-api-nodejs-client)
 * [Node.js library to access Google Drive's API](https://github.com/niftylettuce/node-google-drive)
 <!-- endsec -->
