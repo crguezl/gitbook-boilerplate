@@ -16,6 +16,8 @@ del libro  usando `LocalStrategy`.
 
 ### Ejemplos
 
+#### Express 4.x app using Passport for authentication with username and password
+
 * [Express 4.x app using Passport for authentication with username and password](https://github.com/ULL-ESIT-SYTW-1617/express-4.x-local-example)
 
 #### Ejemplo de uso de `inquirer`
