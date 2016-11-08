@@ -57,7 +57,7 @@ inquirer.prompt(questions).then(function (answers) {
   console.log(JSON.stringify(answers, null, '  '));
 });
 ```
-
+Ejemplo de ejecución:
 ```bash
 [~/local/src/javascript/learning/use-credential(master)]$ node input.js 
 ? What's your first name Casiano
