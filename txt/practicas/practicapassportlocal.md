@@ -113,6 +113,74 @@ chuchu
 Passwords match!
 ```
 
+### Ejemplo de uso de `bcrypt-nodejs`
+
+Creemos un programa como este:
+```bash
+[~/local/src/javascript/learning/use-credential(master)]$ cat use-bcrypt.js 
+```
+
+```javascript
+// Synchronous
+
+var bcrypt = require("bcrypt-nodejs");
+
+/*
+  * hashSync(data, salt)
+    - data - [REQUIRED] - the data to be encrypted.
+    - salt - [REQUIRED] - the salt to be used in encryption.
+*/
+var hash = bcrypt.hashSync("bacon");
+ 
+/*
+  * compareSync(data, encrypted)
+    - data - [REQUIRED] - data to compare.
+    - encrypted - [REQUIRED] - data to be compared to.
+*/
+var ra = bcrypt.compareSync("bacon", hash); // true
+console.log(ra);
+var wa = bcrypt.compareSync("veggies", hash); // false
+console.log(wa);
+
+// Asynchronous
+
+/*
+  * hash(data, salt, progress, cb)
+    - data - [REQUIRED] - the data to be encrypted.
+    - salt - [REQUIRED] - the salt to be used to hash the password.
+    - progress - a callback to be called during the hash calculation to signify progress
+    - callback - [REQUIRED] - a callback to be fired once the data has been encrypted.
+    - error - First parameter to the callback detailing any errors.
+    - result - Second parameter to the callback providing the encrypted form.
+*/
+bcrypt.hash("bacon", null, null, function(err, hash) {
+  /*
+    * compare(data, encrypted, cb)
+      - data - [REQUIRED] - data to compare.
+      - encrypted - [REQUIRED] - data to be compared to.
+      - callback - [REQUIRED] - a callback to be fired once the data has been compared.
+      - error - First parameter to the callback detailing any errors.
+      - result - Second parameter to the callback providing whether the data and encrypted forms match [true | false].
+  */
+  bcrypt.compare("bacon", hash, function(err, res) {
+    console.log(res); // res == true
+  });
+   
+  bcrypt.compare("veggies", hash, function(err, res) {
+    console.log(res); // res = false
+  });
+});
+```
+Ejecución:
+
+```bash
+[~/local/src/javascript/learning/use-credential(master)]$ node use-bcrypt.js 
+true
+false
+true
+false
+```
+
 ### Referencias
 
 * [Authentication: OAuth y Passport](../apuntes/authentication/README.md)
