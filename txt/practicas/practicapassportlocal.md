@@ -12,7 +12,7 @@ del libro  usando `LocalStrategy`.
 
 <!-- endsec -->
 
-<!--sec data-title="Ejemplos y Referencias" data-id="sectionejemplos" data-show=true ces-->
+<!--sec data-title="Ejemplos" data-id="sectionejemplos" data-show=true ces-->
 
 ### Ejemplos
 
@@ -182,7 +182,7 @@ false
 ```
 <!-- endsec -->
 
-<!--sec data-title="Referencias" data-id="sectionreferrencias" data-show=true ces-->
+<!--sec data-title="Referencias" data-id="sectionreferencias" data-show=true ces-->
 ### Referencias
 
 * [Authentication: OAuth y Passport](../apuntes/authentication/README.md)
