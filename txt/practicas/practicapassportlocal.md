@@ -8,7 +8,7 @@ del libro  usando `LocalStrategy`.
   - El uso de la `LocalStrategy` para autenticación debería ser opcional
   - Se supone que se guarda la información sobre los usuarios `{login, name, password (encrypted)}` que pueden acceder al libro en un fichero JSON.
   - Añada una ruta al servidor `/login/password` para que el usuario pueda cambiar la password. En esta ruta se despliega una vista con un formulario que permite al lector cambiar la clave
-  - En el caso de Heroku la volatilidad de la máquina virtual hace que esta solución tenga problemas. Se pueden hacer los cambios permanentes asegurandose que los cambios son añadidos y empujados al repo de Heroku o mas general, guardándo el fichero en algún repo privado externo 
+  - En el caso de Heroku la volatilidad de la máquina virtual hace que esta solución tenga problemas. Se pueden hacer los cambios permanentes asegurandose que los cambios son añadidos y empujados al repo de Heroku o mas general, guardándo el fichero de claves en algún servicio privado externo (dropbox, google-drive, github, ...) al que se accede vía la correspondiente API
 
 <!-- endsec -->
 
@@ -187,13 +187,26 @@ false
 <!--sec data-title="Referencias" data-id="sectionreferencias" data-show=true ces-->
 ### Referencias
 
+#### OAuth y Passport
+
 * [Authentication: OAuth y Passport](../apuntes/authentication/README.md)
 * [passport-local](https://github.com/jaredhanson/passport-local) en GitHub
+
+#### Hashing para guardar las claves
+
 * [credential npm module: Easy password hashing and verification in Node. Protects against brute force, rainbow tables, and timing attacks.](https://www.npmjs.com/package/credential)
 * [bcrypt: A bcrypt library for NodeJS.](https://www.npmjs.com/package/bcrypt)
 * [bcrypt-nodejs: A native JS bcrypt library for NodeJS](https://www.npmjs.com/package/bcrypt-nodejs)
+
+#### Lecturas
+
 * [inquirer](https://www.npmjs.com/package/inquirer): Inquirer.js strives to be an easily embeddable and beautiful command line interface for Node.js (and perhaps the "CLI Xanadu").
   - [Ejemplos](https://github.com/SBoudrias/Inquirer.js/tree/master/examples)
   - [Ejemplo de Password](https://github.com/SBoudrias/Inquirer.js/blob/master/examples/password.js)
 * [read: npm module para leer passwords](https://www.npmjs.com/package/read)
+
+#### Sistemas de Almacenamiento en la Nube
+* [node-dropbox: A simple Dropbox API client for node.js](https://www.npmjs.com/package/node-dropbox)
+* [Google APIs Node.js Client](https://github.com/google/google-api-nodejs-client)
+* [Node.js library to access Google Drive's API](https://github.com/niftylettuce/node-google-drive)
 <!-- endsec -->
