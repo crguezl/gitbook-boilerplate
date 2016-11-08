@@ -185,27 +185,25 @@ false
 <!-- endsec -->
 
 <!--sec data-title="Referencias" data-id="sectionreferencias" data-show=true ces-->
-### Referencias
-
-#### OAuth y Passport
+### OAuth y Passport
 
 * [Authentication: OAuth y Passport](../apuntes/authentication/README.md)
 * [passport-local](https://github.com/jaredhanson/passport-local) en GitHub
 
-#### Hashing para guardar las claves
+### Hashing para guardar las claves
 
 * [credential npm module: Easy password hashing and verification in Node. Protects against brute force, rainbow tables, and timing attacks.](https://www.npmjs.com/package/credential)
 * [bcrypt: A bcrypt library for NodeJS.](https://www.npmjs.com/package/bcrypt)
 * [bcrypt-nodejs: A native JS bcrypt library for NodeJS](https://www.npmjs.com/package/bcrypt-nodejs)
 
-#### Lecturas
+### Lecturas desde STDIN
 
 * [inquirer](https://www.npmjs.com/package/inquirer): Inquirer.js strives to be an easily embeddable and beautiful command line interface for Node.js (and perhaps the "CLI Xanadu").
   - [Ejemplos](https://github.com/SBoudrias/Inquirer.js/tree/master/examples)
   - [Ejemplo de Password](https://github.com/SBoudrias/Inquirer.js/blob/master/examples/password.js)
 * [read: npm module para leer passwords](https://www.npmjs.com/package/read)
 
-#### Sistemas de Almacenamiento en la Nube
+### Sistemas de Almacenamiento en la Nube
 
 ##### Dropbox
 
