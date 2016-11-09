@@ -47,6 +47,12 @@
     ```
     to add a git remote to your checkout
 
+* [Automatic deploys](https://devcenter.heroku.com/articles/github-integration#automatic-deploys)
+
+  When you enable automatic deploys for a GitHub branch, Heroku will build and deploy all pushes to that branch. If, for example, you have a development app on Heroku, you can configure pushes to your GitHub development branch to be automatically built and deployed to that app.
+
+* [Creating a 'Deploy to Heroku' Button](https://devcenter.heroku.com/articles/heroku-button)
+
 ### Preguntas y Respuestas
 
 2. ¿Como genero un token para hacer uso de la API de Heroku?
