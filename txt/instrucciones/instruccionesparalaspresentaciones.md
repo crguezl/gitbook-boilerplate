@@ -25,7 +25,7 @@
 * Pueden usar el `gitbook` realizado para la presentación del tema elegido
   - De todos modos si prefieren usar otra herramienta para la presentación en clase
 siéntanse libres de hacerlo
-  - Algunas otras herramientas - además de las ya conocidas - para hacer presentaciones:
+  - Algunas otras herramientas - además de las ya conocidas - para hacer presentaciones son:
     - [remark](https://remarkjs.com/#1) 
       - [npm module markdown-to-slides: Transform a markdown file to an HTML slideshow, using remark](https://www.npmjs.com/package/markdown-to-slides)
     - [swipe](https://www.swipe.to/markdown/)
