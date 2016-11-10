@@ -19,7 +19,7 @@ del libro  usando `LocalStrategy`.
 #### Express 4.x app using Passport for authentication with username and password
 
 * [Express 4.x app using Passport for authentication with username and password](https://github.com/ULL-ESIT-SYTW-1617/express-4.x-local-example)
-
+  - [Gestión de Sesiones HTTP](http://crguezl.github.io/apuntes-ruby/node402.html)
 #### Ejemplo de uso de `inquirer`
 
 ```javascript
