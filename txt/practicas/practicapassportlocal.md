@@ -22,6 +22,7 @@ del libro  usando `LocalStrategy`.
   - [Gestión de Sesiones HTTP](http://crguezl.github.io/apuntes-ruby/node402.html)
   - [express-session: npm providing simple session middleware for Express](https://github.com/expressjs/session)
   - [Understanding passport.js authentication flow (2013)](http://toon.io/understanding-passportjs-authentication-flow/)
+  - [Passport exposes a logout() function on req (also aliased as logOut())](http://passportjs.org/docs/logout)
 #### Ejemplo de uso de `inquirer`
 
 ```javascript
