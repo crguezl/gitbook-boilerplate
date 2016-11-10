@@ -8,6 +8,7 @@
   -  `SUMMARY`, 
   -  `book.json` 
   -   y el `README.md` principal
+  - Si se animan pueden crear la estructura inicial con un `gitbook-start` de uno de los equipos existentes
 * Cada alumno escribe al menos un capítulo - en un directorio con el nombre que el decida - con 
     - los contenidos,
     - enlaces, 
@@ -19,6 +20,7 @@
   -  `SUMMARY`, 
   -  `book.json` 
   -   y el `README.md` principal
+  - Si lo cree conveniente trabaje en una rama y cuando lo crea conveniente le solicita al jefe del equipo el correspondiente `merge` con la rama principal
 * Si el tema es largo y se siente con fuerzas, divida su presentación en varias presentacions/capítulos. Proponga el número y tamaño al profesor 
 * Pueden usar el `gitbook` realizado para la presentación del tema elegido
   - De todos modos si prefieren usar otra herramienta para la presentación en clase
