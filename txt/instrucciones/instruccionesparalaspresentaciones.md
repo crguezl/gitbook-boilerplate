@@ -27,6 +27,8 @@ siéntanse libres de hacerlo
     - [remark](https://remarkjs.com/#1) 
       - [npm module markdown-to-slides: Transform a markdown file to an HTML slideshow, using remark](https://www.npmjs.com/package/markdown-to-slides)
     - [swipe](https://www.swipe.to/markdown/)
+    - En este caso, añada en el capítulo del libro los enlaces a la presentación 
+    - La presentación deberá residir en la organización
 
 ## Temas Sugeridos
 
