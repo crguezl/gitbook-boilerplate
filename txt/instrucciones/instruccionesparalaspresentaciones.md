@@ -32,6 +32,7 @@ siéntanse libres de hacerlo
     - Si se decide a hacer una presentación usando una herramienta alternativa añada en el capítulo del libro los enlaces a dicha presentación 
     - Los ficheros de la presentación deberán residir en la organización de la asignatura
 * En el taller que se habilita al efecto cada alumno sube el enlace a su capítulo
+* El cargo de **jefe de equipo** puede ser rotatorio
 
 ## Temas Sugeridos
 
