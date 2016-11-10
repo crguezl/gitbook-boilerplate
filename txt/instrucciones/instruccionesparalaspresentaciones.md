@@ -4,7 +4,7 @@
   * En esta tarea se forma un solo equipo en la organización 
     con todos los estudiantes de la asignatura
   * El primer alumno crea el equipo `todos`, los demás se unen al mismo
-* Se elabora un `gitbook` que arranca el jefe del equipo `todos` con los ficheros
+* Se elabora un `gitbook` que arranca el **jefe del equipo** `todos` con los ficheros
   -  `SUMMARY`, 
   -  `book.json` 
   -   y el `README.md` principal
@@ -20,7 +20,7 @@
   -  `SUMMARY`, 
   -  `book.json` 
   -   y el `README.md` principal
-  - Si lo cree conveniente trabaje en una rama y cuando lo crea conveniente le solicita al jefe del equipo el correspondiente `merge` con la rama principal
+  - Si lo cree conveniente trabaje en una rama y cuando lo crea conveniente le solicita al **jefe del equipo** el correspondiente `merge` con la rama principal
 * Si el tema es largo y se siente con fuerzas, divida su presentación en varias presentaciones y capítulos. Proponga el número y tamaño al profesor 
 * Pueden usar el `gitbook` realizado para la presentación del tema elegido
   - De todos modos si prefieren usar otra herramienta para la presentación en clase
