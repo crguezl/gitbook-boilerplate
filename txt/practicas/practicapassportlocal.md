@@ -24,6 +24,7 @@ del libro  usando `LocalStrategy`.
   - [Understanding passport.js authentication flow (2013)](http://toon.io/understanding-passportjs-authentication-flow/)
   - [Passport exposes a logout() function on req (also aliased as logOut())](http://passportjs.org/docs/logout)
   - [connect-ensure-login: npm Login session ensuring middleware for Connect and Express](https://github.com/jaredhanson/connect-ensure-login)
+  - [StackOverflow: How to know if user is logged in with passport.js?](http://stackoverflow.com/questions/18739725/how-to-know-if-user-is-logged-in-with-passport-js)
 #### Ejemplo de uso de `inquirer`
 
 ```javascript
