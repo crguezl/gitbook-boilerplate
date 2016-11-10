@@ -1,21 +1,35 @@
-## Sugerencias sobre la Presentaciones
+## Instrucciones y Sugerencias sobre la Presentaciones
 
-* Si el tema es largo y se siente con fuerzas, divida su presentación en varias 
-  - Proponga el número y tamaño al profesor
-* Sería conveniente que elaboren unos apuntes en Markdown usando
-`gitbook` sobre el tema de la presentación
+* En esta tarea se forma un solo equipo en la organización 
+  con todos los estudiantes de la asignatura
+* El primer alumno crea el equipo *todos*, los demás se unen al mismo
+* Se elabora un `gitbook` que arranca el jefe del equipo
+* Cada alumno escribe al menos un capítulo - en un directorio al efecto - con 
+    - los contenidos,
+    - enlaces, 
+    - ejercicios, 
+    - imágenes,
+    - vídeos,
+    - etc
+* El jefe de equipo se encarga de resolver los conflictos con los  ficheros compartidos como
+  -  `SUMMARY`, 
+  -  `book.json` 
+  -   y el `README.md` principal
+* Si el tema es largo y se siente con fuerzas, divida su presentación en varias presentacions/capítulos. Proponga el número y tamaño al profesor 
 * Pueden usar el `gitbook` realizado para la presentación del tema elegido
-* De todos modos si prefieren usar otra herramienta para la presentación
+  - De todos modos si prefieren usar otra herramienta para la presentación en clase
 siéntanse libres de hacerlo
-* Algunas otras herramientas - además de las ya conocidas - para hacer presentaciones:
-  - [remark](https://remarkjs.com/#1) 
-    - [npm module markdown-to-slides: Transform a markdown file to an HTML slideshow, using remark](https://www.npmjs.com/package/markdown-to-slides)
-  - [swipe](https://www.swipe.to/markdown/)
-* Apoye su presentación con ejemplos en un repo de GitHub en la organización
-* Si es posible elaboren ejercicios para que sus compañeros puedan prácticar
-las ideas y conceptos que van a presentar
+  - Algunas otras herramientas - además de las ya conocidas - para hacer presentaciones:
+    - [remark](https://remarkjs.com/#1) 
+      - [npm module markdown-to-slides: Transform a markdown file to an HTML slideshow, using remark](https://www.npmjs.com/package/markdown-to-slides)
+    - [swipe](https://www.swipe.to/markdown/)
 
-## JavaScript, HTML y CSS
+## Temas Sugeridos
+
+Siéntanse libres de proponer los temas que les parezcan interesantes  y que estén relacionados
+con los contenidos de la asignatura
+
+### JavaScript, HTML y CSS
 -   Gráficos
     -   Canvas
     -   SVG: Scalable Vector Graphics
@@ -52,13 +66,13 @@ las ideas y conceptos que van a presentar
     -   PhantomJS
     -   Otros
 
-## Software Social y Colaborativo
+### Software Social y Colaborativo
 
 -   GitHub Avanzado
 -   Cloud 9 (c9.io)
 -   Otros
 
-## Arquitecturas orientadas a servicios
+### Arquitecturas orientadas a servicios
 
 - REST: Representational State Transfer o Transferencia de Estado Representacional
   - [Cómo crear un api REST usando node.js, express y mongodb](https://carlosazaustre.es/blog/como-crear-una-api-rest-usando-node-js/)
@@ -67,13 +81,13 @@ las ideas y conceptos que van a presentar
 - SOAP: Simple Object Access Protocol
 - UDDI: Universal Description, Discovery and Integration. 
 
-## Comercio Electrónico
+### Comercio Electrónico
 
 -   Shopify
 -   Magento
 -   Otros
 
-## Medios y librerias Digitales
+### Medios y librerias Digitales
 
 -   Gestores Documentales: Alfresco, etc.
 -   Generación de libros digitales: GitBook, etc.
