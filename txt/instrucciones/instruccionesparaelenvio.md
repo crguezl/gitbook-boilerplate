@@ -15,6 +15,7 @@ Al subir una práctica, indique en este orden:
   * u otro servicio de despliegue en la nube que haya sido utilizado e indicado por el profesor.
 * Indique la URL de la descripción de la práctica en el campus virtual
 * Indique la URL de su página web GitHub de usuario (Recuerde actualizar su página personal con la nueva práctica)
+* Si se trata de un módulo `npm` indique la URL en `npm` y (¡IMPORTANTE!): **la versión del módulo que se ha de usar para la evaluación de la práctica**
 
 Publique los enlaces:
 
