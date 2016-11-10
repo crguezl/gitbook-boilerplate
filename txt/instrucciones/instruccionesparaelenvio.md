@@ -17,8 +17,7 @@ Al subir una práctica, indique en este orden:
 * Indique la URL de su página web GitHub de usuario (Recuerde actualizar su página personal con la nueva práctica)
 * Si se trata de un módulo `npm` indique la URL en `npm` y (¡IMPORTANTE!): **la versión del módulo que se ha de usar para la evaluación de la práctica**
 
-Publique los enlaces:
-
+  Recuerde que `npm install moduloejemplo@3.2.1` instala la versión 3.2.1 de `moduloejemplo`
 * [En el Foro de Prácticas/Proyectos de SYTW 16/17](https://campusvirtual.ull.es/1617/mod/forum/view.php?id=52660)
 * [DSI 15/16](https://campusvirtual.ull.es/1516/course/view.php?id=144)
   * [Comunidad g+ de DSI 15/16](https://plus.google.com/u/1/communities/114948178130624294090)
