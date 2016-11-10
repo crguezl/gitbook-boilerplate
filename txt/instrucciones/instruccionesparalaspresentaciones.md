@@ -1,8 +1,9 @@
 ## Instrucciones y Sugerencias sobre la Presentaciones
 
-* En esta tarea se forma un solo equipo en la organización 
-  con todos los estudiantes de la asignatura
-* El primer alumno crea el equipo *todos*, los demás se unen al mismo
+* En la asignación vía GitHub Classroom:
+  * En esta tarea se forma un solo equipo en la organización 
+    con todos los estudiantes de la asignatura
+  * El primer alumno crea el equipo *todos*, los demás se unen al mismo
 * Se elabora un `gitbook` que arranca el jefe del equipo
 * Cada alumno escribe al menos un capítulo - en un directorio al efecto - con 
     - los contenidos,
