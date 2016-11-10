@@ -1,5 +1,21 @@
-## JavaScript, HTML y CSS
+## Sugerencias sobre la Presentaciones
 
+* Si el tema es largo y se siente con fuerzas, divida su presentación en varias 
+  - Proponga el número y tamaño al profesor
+* Sería conveniente que elaboren unos apuntes en Markdown usando
+`gitbook` sobre el tema de la presentación
+* Pueden usar el `gitbook` realizado para la presentación del tema elegido
+* De todos modos si prefieren usar otra herramienta para la presentación
+siéntanse libres de hacerlo
+* Algunas otras herramientas - además de las ya conocidas - para hacer presentaciones:
+  - [remark](https://remarkjs.com/#1) 
+    - [npm module markdown-to-slides: Transform a markdown file to an HTML slideshow, using remark](https://www.npmjs.com/package/markdown-to-slides)
+  - [swipe](https://www.swipe.to/markdown/)
+* Apoye su presentación con ejemplos en un repo de GitHub en la organización
+* Si es posible elaboren ejercicios para que sus compañeros puedan prácticar
+las ideas y conceptos que van a presentar
+
+## JavaScript, HTML y CSS
 -   Gráficos
     -   Canvas
     -   SVG: Scalable Vector Graphics
