@@ -23,7 +23,7 @@ del libro  usando `LocalStrategy`.
   - [express-session: npm providing simple session middleware for Express](https://github.com/expressjs/session)
   - [Understanding passport.js authentication flow (2013)](http://toon.io/understanding-passportjs-authentication-flow/)
   - [Passport exposes a logout() function on req (also aliased as logOut())](http://passportjs.org/docs/logout)
-  - [connect-ensure-login](https://github.com/jaredhanson/connect-ensure-login)
+  - [connect-ensure-login: npm Login session ensuring middleware for Connect and Express](https://github.com/jaredhanson/connect-ensure-login)
 #### Ejemplo de uso de `inquirer`
 
 ```javascript
