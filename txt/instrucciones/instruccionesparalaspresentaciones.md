@@ -43,6 +43,7 @@ con los contenidos de la asignatura
         Web Sockets, etc.)
     -   API de JavaScript de Google
     -   API de JavaScript de Google Maps
+    - Otras APIs
 -   Front End Frameworks
     -   AngularJS
     -   React
