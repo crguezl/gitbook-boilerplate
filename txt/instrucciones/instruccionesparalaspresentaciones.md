@@ -3,8 +3,8 @@
 * En la asignación vía GitHub Classroom:
   * En esta tarea se forma un solo equipo en la organización 
     con todos los estudiantes de la asignatura
-  * El primer alumno crea el equipo *todos*, los demás se unen al mismo
-* Se elabora un `gitbook` que arranca el jefe del equipo *todos* con los ficheros
+  * El primer alumno crea el equipo `todos`, los demás se unen al mismo
+* Se elabora un `gitbook` que arranca el jefe del equipo `todos` con los ficheros
   -  `SUMMARY`, 
   -  `book.json` 
   -   y el `README.md` principal
