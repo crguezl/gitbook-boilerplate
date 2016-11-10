@@ -22,7 +22,7 @@
   -   y el `README.md` principal
   - Si lo cree conveniente trabaje en una rama y cuando lo crea conveniente le solicita al **jefe del equipo** el correspondiente `merge` con la rama principal
 * Si el tema es largo y se siente con fuerzas, divida su presentación en varias presentaciones y capítulos. Proponga el número y tamaño al profesor 
-* Pueden usar el `gitbook` realizado para la presentación del tema elegido
+* Pueden usar el capítulo del `gitbook` realizado para la presentación del tema elegido
   - De todos modos si prefieren usar otra herramienta para la presentación en clase
 siéntanse libres de hacerlo
   - Algunas otras herramientas - además de las ya conocidas - para hacer presentaciones son:
