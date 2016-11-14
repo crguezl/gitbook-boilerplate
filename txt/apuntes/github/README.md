@@ -1,6 +1,5 @@
 ## GitHub Projects: Tracking the progress of your work with projects
 
-* [Creating a project](https://help.github.com/articles/creating-a-project/)
 <ul>
 <li class="article">
 <a href="https://help.github.com/articles/tracking-the-progress-of-your-work-with-projects" class="km-article-link">Tracking the progress of your work with projects</a>
