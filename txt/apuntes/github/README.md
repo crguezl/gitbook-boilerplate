@@ -21,6 +21,9 @@
 <a href="https://help.github.com/articles/adding-notes-to-a-project" class="km-article-link">Adding notes to a project</a>
 </li>
 </ul>
+</ul>
 
 * Projects on GitHub
   - {% youtube %}https://youtu.be/C6MGKHkNtxU{% endyoutube %}
+* Introducing New Workflow Improvements: Code Review & Projects - GitHub Universe 2016
+  - {% youtube%}https://youtu.be/rN4cMAGPRQ0{% endyoutube %}
