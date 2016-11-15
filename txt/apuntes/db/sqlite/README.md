@@ -13,7 +13,7 @@
 * [app.engine(ext, callback)](http://expressjs.com/en/api.html#app.engine)
 * [How can I get the list of a columns in a table for a SQLite database?](http://stackoverflow.com/questions/604939/how-can-i-get-the-list-of-a-columns-in-a-table-for-a-sqlite-database)
   - `db.get("SELECT name FROM sqlite_master WHERE type='table' AND name='bookmarks'", function(err, row) { ... })`
-* [`app.render(view, [locals], callback)`](http://expressjs.com/en/api.html#app.render)
+* [`app.render(view, [locals], callback)`](http://expressjs.com/en/api.html#res.render)
   ```javascript
        res.render('index.pug', {bookmarks: rows}, function(err, html) {
           res.status(200).send(html);
