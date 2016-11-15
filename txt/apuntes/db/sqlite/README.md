@@ -1,4 +1,4 @@
-## Sqlite
+## Sqlite in NodeJS
 
 ### Ejemplo de una tabla simple en Sqlite (bookmarks)
 
@@ -7,4 +7,6 @@
 * [Fork in ULL-ESIT-SYTW-1617](https://github.com/ULL-ESIT-SYTW-1617/cozy-tutorial)
 * [Documentacion de node-sqlite3](https://github.com/mapbox/node-sqlite3)
   - [wiki](https://github.com/mapbox/node-sqlite3/wiki)
+  - [API](https://github.com/mapbox/node-sqlite3/wiki/API)
+* [Sqlite](http://www.sqlite.org/index.html)
 
