@@ -1,3 +1,7 @@
+## HTTP
+
+* [Anatomy of an HTTP Transaction in NodeJS](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/)
+
 ## REST
 
 ### Videos de Maurizio Marchese sobre REST
