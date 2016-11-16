@@ -23,6 +23,83 @@ usando [sqlite](http://blog.modulus.io/nodejs-and-sqlite). Es un fork de
 * [sequelize-cli](https://github.com/sequelize/cli)
   - [Sequelize migrations tutorial](http://gregtrowbridge.com/getting-started-with-sequelize-and-the-sequelize-cli/)
 
+```bash
+sequelize  init                   Initializes the project. [init:config, init:migrations, init:seeders, init:models]
+sequelize  init:config            Initializes the configuration.
+sequelize  init:migrations        Initializes the migrations.
+sequelize  init:models            Initializes the models.
+sequelize  init:seeders           Initializes the seeders.
+```
+
+```bash
+~/src/javascript/learning/sequelize/exp-exa]$ tree -I node_modules
+.
+├── app.js
+├── bin
+│   └── www
+├── config
+│   └── config.json
+├── migrations
+├── models
+│   └── index.js
+├── package.json
+├── public
+│   ├── images
+│   ├── javascripts
+│   └── stylesheets
+│       └── style.css
+├── routes
+│   ├── index.js
+│   └── users.js
+├── seeders
+└── views
+    ├── error.jade
+    ├── index.jade
+    └── layout.jade
+
+11 directories, 11 files
+```
+
+```bash
+[~/src/javascript/learning/sequelize/exp-exa]$ node_modules/sequelize-cli/bin/sequelize init
+
+Sequelize [Node: 4.5.0, CLI: 2.4.0, ORM: 3.25.1]
+
+Loaded configuration file "config/config.json".
+Using environment "development".
+The file config/config.json already exists. Run "sequelize init --force" to overwrite it.
+```
+
+```
+tree -I node_modules
+.
+├── app.js
+├── bin
+│   └── www
+├── config
+│   └── config.json
+├── migrations
+├── models
+│   └── index.js
+├── npm-debug.log
+├── package.json
+├── public
+│   ├── images
+│   ├── javascripts
+│   └── stylesheets
+│       └── style.css
+├── routes
+│   ├── index.js
+│   └── users.js
+├── seeders
+└── views
+    ├── error.jade
+    ├── index.jade
+    └── layout.jade
+
+11 directories, 12 files
+```
+
 ### Material del Curso de MiriadaX "Desarrollo de servicios en la nube con HTML5, Javascript y node.js"
   * La Base de Datos, Sequelize, Heroku, Autoload
     * [Trasparencias: La Base de Datos, Sequelize, Heroku, Autoload](https://github.com/crguezl/miriada-upm-dsnh5jsnode/blob/master/traspas/transp_modulo7.pdf)
