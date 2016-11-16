@@ -10,11 +10,6 @@ It supports the dialects PostgreSQL, MySQL, MariaDB, SQLite and MSSQL.
 
 * [Object-relational mapping](https://en.wikipedia.org/wiki/Object-relational_mapping)
 
-* Sequelize: Getting Started
-  - {% youtube %}https://youtu.be/6NKNfXtKk0c{% endyoutube %}
-* Sequelize By Eric Stevens
-  - {% youtube %}https://youtu.be/53bdrz7cZ-c{% endyoutube %}
-
 ### [Ejemplo de uso combinado de Express y Sequelize](https://github.com/SYTW/express-example)
 
 En este ejemplo se muestra una aplicación express que permite la creación/destrucción de usuarios y tareas para los mismos
@@ -227,11 +222,22 @@ module.exports = {
 ### Video Tutorial por Code Cast
 
 1. [Sequelize: An Introduction](https://youtu.be/qsDvJrGMSUY?list=PL5ze0DjYv5DYBDfl0vF_VRxEu8JdTIHlR)
+  -{% youtube %}https://youtu.be/qsDvJrGMSUY?list=PL5ze0DjYv5DYBDfl0vF_VRxEu8JdTIHlR{% endyoutube %}
 2. [Sequelize: Getting Started](https://youtu.be/6NKNfXtKk0c?list=PL5ze0DjYv5DYBDfl0vF_VRxEu8JdTIHlR)
+  - {% youtube %}https://youtu.be/6NKNfXtKk0c{% endyoutube %}
 3. [Sequelize: Defining Models](https://youtu.be/8W_dd3uA1Iw?list=PL5ze0DjYv5DYBDfl0vF_VRxEu8JdTIHlR)
+  - {% youtube %}https://youtu.be/8W_dd3uA1Iw?list=PL5ze0DjYv5DYBDfl0vF_VRxEu8JdTIHlR{% endyoutube %}
 4. [Sequelize: Validation](https://youtu.be/Z1O9iddzcXk?list=PL5ze0DjYv5DYBDfl0vF_VRxEu8JdTIHlR)
+  - {% youtube %}https://youtu.be/Z1O9iddzcXk?list=PL5ze0DjYv5DYBDfl0vF_VRxEu8JdTIHlR{% endyoutube %}
 5. [Sequelize: Hooks](https://youtu.be/pquxHIBx8ks?list=PL5ze0DjYv5DYBDfl0vF_VRxEu8JdTIHlR)
+  - {% youtube %}https://youtu.be/pquxHIBx8ks?list=PL5ze0DjYv5DYBDfl0vF_VRxEu8JdTIHlR{% endyoutube %}
 6. [Sequelize: Inserting Data](https://youtu.be/JAld7bV5qV8?list=PL5ze0DjYv5DYBDfl0vF_VRxEu8JdTIHlR)
+  - {% youtube %}https://youtu.be/JAld7bV5qV8?list=PL5ze0DjYv5DYBDfl0vF_VRxEu8JdTIHlR{% endyoutube %}
+
+
+* Sequelize: Getting Started
+* Sequelize By Eric Stevens
+  - {% youtube %}https://youtu.be/53bdrz7cZ-c{% endyoutube %}
 
 ### Migrations
 
