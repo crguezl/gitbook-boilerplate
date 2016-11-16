@@ -228,3 +228,12 @@ module.exports = {
 4. [Sequelize: Validation](https://youtu.be/Z1O9iddzcXk?list=PL5ze0DjYv5DYBDfl0vF_VRxEu8JdTIHlR)
 5. [Sequelize: Hooks](https://youtu.be/pquxHIBx8ks?list=PL5ze0DjYv5DYBDfl0vF_VRxEu8JdTIHlR)
 6. [Sequelize: Inserting Data](https://youtu.be/JAld7bV5qV8?list=PL5ze0DjYv5DYBDfl0vF_VRxEu8JdTIHlR)
+
+### Migrations
+
+* Migrations are a convenient way to alter your database schema over time in a consistent and easy way. 
+* They use a Embedded DSL in the host language, so that you don't have to write SQL by hand, allowing your schema and changes to be database independent. 
+* You can think of each migration as being a new 'version' of the database.
+
+* Tech Talk: Sequelize CLI and Migrations
+  - {% youtube %}https://youtu.be/gwrfXtC-y3k{% endyoutube %}
