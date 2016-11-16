@@ -10,7 +10,7 @@
   - [API](https://github.com/mapbox/node-sqlite3/wiki/API)
 * [Sqlite Database Documentation](http://www.sqlite.org/index.html)
 
-### Enlaces para entenderel código [Fork in ULL-ESIT-SYTW-1617](https://github.com/ULL-ESIT-SYTW-1617/cozy-tutorial)
+### Enlaces para entender el código [Fork in ULL-ESIT-SYTW-1617](https://github.com/ULL-ESIT-SYTW-1617/cozy-tutorial)
  
 * [app.engine(ext, callback)](http://expressjs.com/en/api.html#app.engine)
 * [How can I get the list of a columns in a table for a SQLite database?](http://stackoverflow.com/questions/604939/how-can-i-get-the-list-of-a-columns-in-a-table-for-a-sqlite-database)
