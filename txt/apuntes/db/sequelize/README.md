@@ -178,6 +178,38 @@ module.exports = function(sequelize, DataTypes) {
   return Task;
 };
 ```
+
+```javascript
+[~/src/javascript/learning/sequelize/exp-exa]$ cat migrations/20161116212217-create-user.js 
+'use strict';
+module.exports = {
+  up: function(queryInterface, Sequelize) {
+    return queryInterface.createTable('Users', {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER
+      },
+      username: {
+        type: Sequelize.STRING
+      },
+      createdAt: {
+        allowNull: false,
+        type: Sequelize.DATE
+      },
+      updatedAt: {
+        allowNull: false,
+        type: Sequelize.DATE
+      }
+    });
+  },
+  down: function(queryInterface, Sequelize) {
+    return queryInterface.dropTable('Users');
+  }
+};
+```
+
 ### Material del Curso de MiriadaX "Desarrollo de servicios en la nube con HTML5, Javascript y node.js"
   * La Base de Datos, Sequelize, Heroku, Autoload
     * [Trasparencias: La Base de Datos, Sequelize, Heroku, Autoload](https://github.com/crguezl/miriada-upm-dsnh5jsnode/blob/master/traspas/transp_modulo7.pdf)
