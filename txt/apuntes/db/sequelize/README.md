@@ -100,6 +100,84 @@ tree -I node_modules
 11 directories, 12 files
 ```
 
+```javascript
+[~/src/javascript/learning/sequelize/exp-exa]$  cat config/config.json 
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "database_development",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
+```
+
+```bash
+~/src/javascript/learning/sequelize/exp-exa]$ node_modules/sequelize-cli/bin/sequelize model:create --name User --attributes username:string
+
+Sequelize [Node: 4.5.0, CLI: 2.4.0, ORM: 3.25.1]
+
+Loaded configuration file "config/config.json".
+Using environment "development".
+```
+
+```javascript
+[~/src/javascript/learning/sequelize/exp-exa]$ cat models/user.js 
+'use strict';
+module.exports = function(sequelize, DataTypes) {
+  var User = sequelize.define('User', {
+    username: DataTypes.STRING
+  }, {
+    classMethods: {
+      associate: function(models) {
+        // associations can be defined here
+      }
+    }
+  });
+  return User;
+};
+```
+
+```
+[~/src/javascript/learning/sequelize/exp-exa]$ node_modules/.bin/sequelize model:create --name Task --attributes title:string
+
+Sequelize [Node: 4.5.0, CLI: 2.4.0, ORM: 3.25.1]
+
+Loaded configuration file "config/config.json".
+Using environment "development".
+```
+
+```javascript
+[~/src/javascript/learning/sequelize/exp-exa]$ cat models/task.js 
+'use strict';
+module.exports = function(sequelize, DataTypes) {
+  var Task = sequelize.define('Task', {
+    title: DataTypes.STRING
+  }, {
+    classMethods: {
+      associate: function(models) {
+        // associations can be defined here
+      }
+    }
+  });
+  return Task;
+};
+```
 ### Material del Curso de MiriadaX "Desarrollo de servicios en la nube con HTML5, Javascript y node.js"
   * La Base de Datos, Sequelize, Heroku, Autoload
     * [Trasparencias: La Base de Datos, Sequelize, Heroku, Autoload](https://github.com/crguezl/miriada-upm-dsnh5jsnode/blob/master/traspas/transp_modulo7.pdf)
