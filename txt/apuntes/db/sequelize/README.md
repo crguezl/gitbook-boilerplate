@@ -235,7 +235,6 @@ module.exports = {
   - {% youtube %}https://youtu.be/JAld7bV5qV8?list=PL5ze0DjYv5DYBDfl0vF_VRxEu8JdTIHlR{% endyoutube %}
 
 
-* Sequelize: Getting Started
 * Sequelize By Eric Stevens
   - {% youtube %}https://youtu.be/53bdrz7cZ-c{% endyoutube %}
 
