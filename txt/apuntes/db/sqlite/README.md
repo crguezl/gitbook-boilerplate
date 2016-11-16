@@ -27,6 +27,7 @@
        });
   ```
 * pug
+  * [Simple example: github repo](https://github.com/ULL-ESIT-DSI-1617/pug-simple-example)
   * [pug-cli](https://github.com/pugjs/pug-cli)
   * [pug: Getting Started](https://pugjs.org/api/getting-started.html)
   * [pug: Interpolation](https://pugjs.org/language/interpolation.html)
