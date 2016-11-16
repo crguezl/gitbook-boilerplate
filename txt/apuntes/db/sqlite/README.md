@@ -8,6 +8,7 @@
 * [Documentacion de node-sqlite3](https://github.com/mapbox/node-sqlite3)
   - [wiki](https://github.com/mapbox/node-sqlite3/wiki)
   - [API](https://github.com/mapbox/node-sqlite3/wiki/API)
+  - [Control Flow API](https://github.com/mapbox/node-sqlite3/wiki/Control-Flow)
 * [Sqlite Database Documentation](http://www.sqlite.org/index.html)
 
 ### Enlaces para entender el código [Fork in ULL-ESIT-SYTW-1617](https://github.com/ULL-ESIT-SYTW-1617/cozy-tutorial)
