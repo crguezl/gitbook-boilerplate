@@ -10,6 +10,10 @@ It supports the dialects PostgreSQL, MySQL, MariaDB, SQLite and MSSQL.
 
 * [Object-relational mapping](https://en.wikipedia.org/wiki/Object-relational_mapping)
 
+* Sequelize: Getting Started
+  - {% youtube %}https://youtu.be/6NKNfXtKk0c{% endyoutube %}
+* Sequelize By Eric Stevens
+  - {% youtube %}https://youtu.be/53bdrz7cZ-c{% endyoutube %}
 
 ### [Ejemplo de uso combinado de Express y Sequelize](https://github.com/SYTW/express-example)
 
