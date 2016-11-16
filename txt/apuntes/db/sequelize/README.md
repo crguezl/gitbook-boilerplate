@@ -1,14 +1,16 @@
 ## Sequelize
 
-### Hello Sequelize
-
-* [GitHub  repo con ejemplo simple de uso de Sequelize](https://github.com/SYTW/sequelize-getting-started)
 
 ### [Ejemplo de uso combinado de Express y Sequelize](https://github.com/SYTW/express-example)
 
 En este ejemplo se muestra una aplicación express que permite la creación/destrucción de usuarios y tareas para los mismos
-usando [sqlite](http://blog.modulus.io/nodejs-and-sqlite)
+usando [sqlite](http://blog.modulus.io/nodejs-and-sqlite). Es un fork de 
+[sequelize/express-example](https://github.com/sequelize/express-example)
 
+* [Express generator](https://expressjs.com/en/starter/generator.html)
+* [Sequelize](http://docs.sequelizejs.com/en/latest/docs/getting-started/)
+  * [GitHub  repo con ejemplo simple de uso de Sequelize](https://github.com/SYTW/sequelize-getting-started)
+* [sequelize-cli](https://github.com/sequelize/cli)
 
 ### Material del Curso de MiriadaX "Desarrollo de servicios en la nube con HTML5, Javascript y node.js"
   * La Base de Datos, Sequelize, Heroku, Autoload
