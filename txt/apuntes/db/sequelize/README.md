@@ -235,5 +235,10 @@ module.exports = {
 * They use a Embedded DSL in the host language, so that you don't have to write SQL by hand, allowing your schema and changes to be database independent. 
 * You can think of each migration as being a new 'version' of the database.
 
+The Wikipedia says:
+
+* In software engineering, schema migration (also database migration, database change management) refers to the management of incremental, reversible changes to relational database schemas. 
+* A schema migration is performed on a database whenever it is necessary to update or revert that database's schema to some newer or older version.
+
 * Tech Talk: Sequelize CLI and Migrations
   - {% youtube %}https://youtu.be/gwrfXtC-y3k{% endyoutube %}
