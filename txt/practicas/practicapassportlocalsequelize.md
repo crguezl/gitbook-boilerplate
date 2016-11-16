@@ -17,7 +17,7 @@ del libro  usando `LocalStrategy` y una base de datos en la que se guarda la inf
 
 #### Sqlite
 
-* [Sqlite](../apuntes/db/sqlite/README.md) en lso apuntes
+* [Sqlite](../apuntes/db/sqlite/README.md) en los apuntes
 
 #### MongoDB
 * [A simple demo app using express, mongoose, passport for beginners](https://github.com/madhums/node-express-mongoose-demo). Véase el [despliegue en Heroku](http://nodejs-express-demo.herokuapp.com/)

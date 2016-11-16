@@ -18,6 +18,9 @@ del libro  pertenece  a una organización dada de GitHub (por ejemplo [ULL-ESIT-
 
 * Sección [OAuth y Passport](../apuntes/authentication/README.md) en los apuntes
 * Sección [Rest y GitHub API](../apuntes/rest/README.md) en los apuntes
+* [GitHub API: Organization membership](https://developer.github.com/v3/orgs/members/)
+  - [Publcizing or hiding organization membership](https://help.github.com/articles/publicizing-or-hiding-organization-membership/)
+* [GitHub API: Organizations](https://developer.github.com/v3/orgs/)
 
 ### Ejemplos y Ayudas
 
