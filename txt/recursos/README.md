@@ -17,3 +17,4 @@ Software Architect CA
   * [iaas.ull.es](iaas.md)
   * [Heroku](heroku.md)
   * [Yellow Circle](yellow.md)
+  - [Express y Azure](http://gregtrowbridge.com/setting-up-a-custom-domain-website-using-azure-godaddy/)

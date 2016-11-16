@@ -1,6 +1,16 @@
 ## Sequelize
 
 
+Object-relational mapping (ORM) in computer science is a programming
+technique that makes an object out of relational table structure and vice versa,
+converting data between incompatible type systems.
+
+Sequelize is a promise-based ORM for Node.js. 
+It supports the dialects PostgreSQL, MySQL, MariaDB, SQLite and MSSQL.
+
+* [Object-relational mapping](https://en.wikipedia.org/wiki/Object-relational_mapping)
+
+
 ### [Ejemplo de uso combinado de Express y Sequelize](https://github.com/SYTW/express-example)
 
 En este ejemplo se muestra una aplicación express que permite la creación/destrucción de usuarios y tareas para los mismos
@@ -11,6 +21,7 @@ usando [sqlite](http://blog.modulus.io/nodejs-and-sqlite). Es un fork de
 * [Sequelize](http://docs.sequelizejs.com/en/latest/docs/getting-started/)
   * [GitHub  repo con ejemplo simple de uso de Sequelize](https://github.com/SYTW/sequelize-getting-started)
 * [sequelize-cli](https://github.com/sequelize/cli)
+  - [Sequelize migrations tutorial](http://gregtrowbridge.com/getting-started-with-sequelize-and-the-sequelize-cli/)
 
 ### Material del Curso de MiriadaX "Desarrollo de servicios en la nube con HTML5, Javascript y node.js"
   * La Base de Datos, Sequelize, Heroku, Autoload
