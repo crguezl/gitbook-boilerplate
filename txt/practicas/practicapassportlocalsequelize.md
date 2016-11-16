@@ -19,9 +19,6 @@ del libro  usando `LocalStrategy` y una base de datos en la que se guarda la inf
 
 * [Sqlite](../apuntes/db/sqlite/README.md) en los apuntes
 
-#### MongoDB
-* [A simple demo app using express, mongoose, passport for beginners](https://github.com/madhums/node-express-mongoose-demo). Véase el [despliegue en Heroku](http://nodejs-express-demo.herokuapp.com/)
-
 #### Sequelize
 
 * [An example app using express, sequelize and passport](https://github.com/ga-wdi-lessons/express-passport-sequelize) and the corresponding [video in Vimeo](https://vimeo.com/137368290)
@@ -31,6 +28,9 @@ del libro  usando `LocalStrategy` y una base de datos en la que se guarda la inf
 * The purpose of this [tutorial](https://youtu.be/vDdJBpOhTNo) is to show the basics of hashing a user's password, Sequelize validations, hooks, and basic access control:
 
   {% youtube %}https://www.youtube.com/watch?v=vDdJBpOhTNo&feature=youtu.be{% endyoutube %}
+
+#### MongoDB
+* [A simple demo app using express, mongoose, passport for beginners](https://github.com/madhums/node-express-mongoose-demo). Véase el [despliegue en Heroku](http://nodejs-express-demo.herokuapp.com/)
 
 ### Referencias
 
