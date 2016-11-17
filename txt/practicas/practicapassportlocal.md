@@ -9,7 +9,6 @@ del libro  usando `LocalStrategy`.
   - Se supone que se guarda la información sobre los usuarios `{login, name, password (encrypted)}` que pueden acceder al libro en un fichero JSON.
   - Añada una ruta al servidor `/login/password` para que el usuario pueda cambiar la password. En esta ruta se despliega una vista con un formulario que permite al lector cambiar la clave
   - En el caso de Heroku la volatilidad de la máquina virtual hace que esta solución tenga problemas. Se pueden hacer los cambios permanentes asegurandose que los cambios son añadidos y empujados al repo de Heroku o mas general, guardándo el fichero de claves en algún servicio privado externo (dropbox, google-drive, github, ...) al que se accede vía la correspondiente API
-  - [process.nextTick(callback[, ...args])](https://nodejs.org/api/process.html#process_process_nexttick_callback_args)
 
 <!-- endsec -->
 
@@ -26,6 +25,8 @@ del libro  usando `LocalStrategy`.
   - [Passport exposes a logout() function on req (also aliased as logOut())](http://passportjs.org/docs/logout)
   - [connect-ensure-login: npm Login session ensuring middleware for Connect and Express](https://github.com/jaredhanson/connect-ensure-login)
   - [StackOverflow: How to know if user is logged in with passport.js?](http://stackoverflow.com/questions/18739725/how-to-know-if-user-is-logged-in-with-passport-js)
+  - [process.nextTick(callback[, ...args])](https://nodejs.org/api/process.html#process_process_nexttick_callback_args)
+
 #### Ejemplo de uso de `inquirer`
 
 ```javascript
