@@ -6,6 +6,10 @@
   * [Instrucciones para la evaluación](instrucciones/instruccionesparalaevaluacion.md)
   * [Instrucciones para las Presentaciones de SYTW](instrucciones/instruccionesparalaspresentaciones.md)
 * [Apuntes](apuntes/README.md)
+  * Presentaciones
+    - [Presentaciones en GitBook](https://casianorodriguezleon.gitbooks.io/presentaciones-de-sytw-2016-2017/content/)
+    - [Presentaciones en GitHub (gh-pages)](https://ull-esit-sytw-1617.github.io/presentaciones-todos/)
+    - [Repo con las presentaciones](https://github.com/ULL-ESIT-SYTW-1617/presentaciones-todos)
   * [GitHub](apuntes/github/README.md)
   * [Gulp](apuntes/gulp/README.md)
     * [gulp gh pages](apuntes/gulp/gulpghpages.md)
