@@ -32,6 +32,12 @@ There are two types of project boards:
 * **Organization-wide projects** can contain issues and pull requests from any repository that belongs to an organization. 
   - If an organization-wide project includes issues or pull requests from a repository that you don't have permission to view, the card will be removed (redacted).
 
+Creating and viewing projects:
+
+* Anyone with read access to a repository or organization can view a project. 
+* To create a repository project, **you must have write access to the repository**. 
+* Any organization member can create an organization-wide project.
+
 <ul>
 <li class="article">
 <a href="https://help.github.com/articles/tracking-the-progress-of-your-work-with-projects" class="km-article-link">Tracking the progress of your work with projects</a>
