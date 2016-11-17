@@ -40,5 +40,8 @@
     "gitbook-cli": "^0.3.4",
     "gulp": "^3.9.1",
     "gulp-shell": "^0.5.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.2"
   }
 }
