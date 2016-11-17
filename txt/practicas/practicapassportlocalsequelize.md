@@ -6,6 +6,12 @@
 El servidor proveído por el plugin (sea `iaas`o `heroku`) deberá autenticar al lector
 del libro  usando `LocalStrategy` y una base de datos en la que se guarda la información acerca de los usuarios.
 
+Para la Base de datos  puede usar:
+
+* Una base de datos y un módulo node que la soporte, por ejemplo Sqlite y `sqlite-node`
+* Un ORM como Sequelize encima de cualquier base de datos relacional
+* Una *not only SQL* o NoSQL base de datos como MongoDB
+
 * En esta práctica, use un [proyecto GitHub](../apuntes/github/README.md) para la organización de las incidencias
 
 <!-- endsec -->
