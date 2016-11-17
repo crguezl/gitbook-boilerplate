@@ -6,6 +6,8 @@
 El servidor proveído por el plugin (sea `iaas`o `heroku`) deberá autenticar al lector
 del libro  usando `LocalStrategy` y una base de datos en la que se guarda la información acerca de los usuarios.
 
+* En esta práctica, use un [proyecto GitHub](../apuntes/github/README.md) para la organización de las incidencias
+
 <!-- endsec -->
 
 <!--sec data-title="Ejemplos y Referencias" data-id="sectionejemplos" data-show=true ces-->

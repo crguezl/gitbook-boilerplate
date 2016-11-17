@@ -36,7 +36,7 @@ Creating and viewing projects:
 
 * Anyone with read access to a repository or organization can view a project. 
 * To create a repository project, **you must have write access to the repository**. 
-* Any organization member can create an organization-wide project.
+* **Any organization member can create** an organization-wide project.
 
 <ul>
 <li class="article">
