@@ -220,6 +220,7 @@ false
   - [Ejemplos en Node.js](https://github.com/dropbox/dropbox-sdk-js/tree/master/examples/node)
     1. [Get a token: click the "Get Token" button on the top right and copy the token](https://dropbox.github.io/dropbox-api-v2-explorer/#files_list_folder)
     2. [download.js](https://github.com/dropbox/dropbox-sdk-js/blob/master/examples/node/download.js)
+
 ```javascript
     var Dropbox = require('dropbox');
     var fs = require('fs');
@@ -293,7 +294,8 @@ false
     4. From the root of your repository, start the development server with
        `npm start`.
     5. Point your browser to <http://0.0.0.0:8080/>
-* [node-dropbox: A simple Dropbox API client for node.js](https://www.npmjs.com/package/node-dropbox)
+* Este otro módulo [node-dropbox: A simple Dropbox API client for node.js](https://www.npmjs.com/package/node-dropbox)
+no parece muy actualizado
 
 ##### Google
 
