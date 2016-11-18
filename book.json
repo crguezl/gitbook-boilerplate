@@ -16,6 +16,7 @@
         "-latex-codecogs",
         "-emphasize",
         "collapsible-menu",
+        "js-console",
         "-jazer"
     ],
     "pluginsConfig": {

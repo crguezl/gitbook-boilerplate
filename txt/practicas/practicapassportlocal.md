@@ -217,7 +217,41 @@ false
 * [Dropbox Platform developer guide](https://www.dropbox.com/developers-v1/reference/devguide)
 * [npm: dropbox](https://www.npmjs.com/package/dropbox)
   - [Dropbox JavaScript SDK Documentation](http://dropbox.github.io/dropbox-sdk-js/)
-  - [Ejemplos](https://github.com/dropbox/dropbox-sdk-js/tree/master/examples)
+  - [Ejemplos en Node.js](https://github.com/dropbox/dropbox-sdk-js/tree/master/examples/node)
+    1. [Get a token: click the "Get Token" button on the top right and copy the token](https://dropbox.github.io/dropbox-api-v2-explorer/#files_list_folder)
+    2. [download.js](https://github.com/dropbox/dropbox-sdk-js/blob/master/examples/node/download.js)
+    ```javascript
+    var Dropbox = require('../../src/dropbox');
+    var fs = require('fs');
+    var prompt = require('prompt');
+
+    prompt.start();
+
+    prompt.get({
+      properties: {
+        accessToken: {
+          description: 'Please enter an API V2 access token'
+        },
+        sharedLink: {
+          description: 'Please enter a shared link to a file'
+        }
+      }
+    }, function (error, result) {
+      var dbx = new Dropbox({ accessToken: result.accessToken });
+      dbx.sharingGetSharedLinkFile({ url: result.sharedLink })
+        .then(function (data) {
+          fs.writeFile(data.name, data.fileBinary, 'binary', function (err) {
+            if (err) { throw err; }
+            console.log('File: ' + data.name + ' saved.');
+          });
+        })
+        .catch(function (err) {
+          throw err;
+        });
+    });
+    ```
+    3. [upload.js](https://github.com/dropbox/dropbox-sdk-js/blob/master/examples/node/upload.js)
+  - [Ejemplos en el browser](https://github.com/dropbox/dropbox-sdk-js/tree/master/examples)
     To run the examples in your development environment:
 
     1. [Get a token: click the "Get Token" button on the top right and copy the token](https://dropbox.github.io/dropbox-api-v2-explorer/#files_list_folder)
