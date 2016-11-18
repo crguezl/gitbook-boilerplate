@@ -252,7 +252,7 @@ false
     ```
     3. [upload.js](https://github.com/dropbox/dropbox-sdk-js/blob/master/examples/node/upload.js)
     ```javascript
-    var Dropbox = require('../../src/dropbox');
+    var Dropbox = require('dropbox');
     var fs = require('fs');
     var path = require('path');
     var prompt = require('prompt');
