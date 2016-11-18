@@ -253,39 +253,39 @@ false
 ```
   3. [upload.js](https://github.com/dropbox/dropbox-sdk-js/blob/master/examples/node/upload.js)
 
-```javascript
-    var Dropbox = require('dropbox');
-    var fs = require('fs');
-    var path = require('path');
-    var prompt = require('prompt');
+  ```javascript
+      var Dropbox = require('dropbox');
+      var fs = require('fs');
+      var path = require('path');
+      var prompt = require('prompt');
 
-    prompt.start();
+      prompt.start();
 
-    prompt.get({
-      properties: {
-        accessToken: {
-          description: 'Please enter an API V2 access token'
+      prompt.get({
+        properties: {
+          accessToken: {
+            description: 'Please enter an API V2 access token'
+          }
         }
-      }
-    }, function (error, result) {
-      var dbx = new Dropbox({ accessToken: result.accessToken });
+      }, function (error, result) {
+        var dbx = new Dropbox({ accessToken: result.accessToken });
 
-      fs.readFile(path.join(__dirname, '/basic.js'), 'utf8', function (err, contents) {
-        if (err) {
-          console.log('Error: ', err);
-        }
+        fs.readFile(path.join(__dirname, '/basic.js'), 'utf8', function (err, contents) {
+          if (err) {
+            console.log('Error: ', err);
+          }
 
-        // This uploads basic.js to the root of your dropbox
-        dbx.filesUpload({ path: '/basic.js', contents: contents })
-          .then(function (response) {
-            console.log(response);
-          })
-          .catch(function (err) {
-            console.log(err);
-          });
+          // This uploads basic.js to the root of your dropbox
+          dbx.filesUpload({ path: '/basic.js', contents: contents })
+            .then(function (response) {
+              console.log(response);
+            })
+            .catch(function (err) {
+              console.log(err);
+            });
+        });
       });
-    });
-```
+  ```
   - [Ejemplos en el browser](https://github.com/dropbox/dropbox-sdk-js/tree/master/examples)
     To run the examples in your development environment:
 
