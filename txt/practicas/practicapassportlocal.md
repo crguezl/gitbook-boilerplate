@@ -220,7 +220,7 @@ false
   - [Ejemplos en Node.js](https://github.com/dropbox/dropbox-sdk-js/tree/master/examples/node)
     1. [Get a token: click the "Get Token" button on the top right and copy the token](https://dropbox.github.io/dropbox-api-v2-explorer/#files_list_folder)
     2. [download.js](https://github.com/dropbox/dropbox-sdk-js/blob/master/examples/node/download.js)
-    ```javascript
+```javascript
     var Dropbox = require('dropbox');
     var fs = require('fs');
     var prompt = require('prompt');
@@ -249,9 +249,9 @@ false
           throw err;
         });
     });
-    ```
-    3. [upload.js](https://github.com/dropbox/dropbox-sdk-js/blob/master/examples/node/upload.js)
-    ```javascript
+```
+  3. [upload.js](https://github.com/dropbox/dropbox-sdk-js/blob/master/examples/node/upload.js)
+```javascript
     var Dropbox = require('dropbox');
     var fs = require('fs');
     var path = require('path');
@@ -283,7 +283,7 @@ false
           });
       });
     });
-    ```
+```
   - [Ejemplos en el browser](https://github.com/dropbox/dropbox-sdk-js/tree/master/examples)
     To run the examples in your development environment:
 
