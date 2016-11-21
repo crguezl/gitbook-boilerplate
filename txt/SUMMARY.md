@@ -56,3 +56,5 @@
   * [Práctica: Passport y LocalStrategy](practicas/practicapassportlocal.md)
   * [Práctica: LocalStrategy y Base de Datos: LocalStrategy](practicas/practicapassportlocalsequelize.md)
   * [Práctica: Añadir HTTPS al servidor del libro](practicas/practicassl.md)
+* Proyectos
+   * [Proyecto de SYTW](proyectos/sytw/README.md)
