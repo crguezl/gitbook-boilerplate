@@ -22,8 +22,8 @@ Sigue una lista de posibles direcciones/sugerencias de nuevas funcionalidades:
 3. Añadir nuevas funcionalidades no contempladas en las prácticas anteriores (o mejorar las existentes)
   1. Generación  mas sencilla de las claves (si no se incluyó)
   2. Soportar ficheros Google Drive además de Dropbox en el servidor
-  3. Tareas `gulp` para parar, arrancar, re-arrancar el servidor remoto
-4. Añadir al servidor (en modo autenticado):
-  1. Una vista de administrador en la que puede administrar los usuarios
+  3. Añadir tareas `gulp` para parar, arrancar, re-arrancar el servidor remoto (en los plugins)
+4. Añadir al servidor (cuando trabaja en modo autenticado):
+  1. Una vista de administrador en la que el autor del libro puede administrar los usuarios
   2. La capacidad de llevar estadísticas de visitas del usuario a las diferentes páginas del libro  y las correspondientes vistas
 
