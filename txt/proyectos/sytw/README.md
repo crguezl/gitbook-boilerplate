@@ -8,6 +8,8 @@ El tema de la aplicación puede ser de libre elección aunque lo que se recomien
 `gitbook-start` desarrollado
 durante el curso con alguna nueva funcionalidad.
 
+### Sugerencias
+
 Sigue una lista de posibles direcciones/sugerencias de nuevas funcionalidades:
 
 1. Añadir un nuevo plugin `gitbook-start-plugin-...` para otro servicio en la nube o mejorar uno de los ya existentes. Por ejemplo:
