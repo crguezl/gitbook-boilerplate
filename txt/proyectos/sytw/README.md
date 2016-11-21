@@ -4,7 +4,8 @@
 
 El objetivo  del proyecto es escribir una aplicación web  usando las tecnologías y herramientas vistas 
 durante el curso: ECMA6, Node.js, npm, git, GitHub, expressJS, Passport, PAAS, SAAS, SSH, Bases de Datos, ORM, NoSQL, etc. 
-El tema de la aplicación puede ser de libre elección aunque lo que se recomienda es extender el módulo `gitbook-start` desarrollado
+El tema de la aplicación puede ser de libre elección aunque lo que se recomienda es extender el módulo npm 
+`gitbook-start` desarrollado
 durante el curso con nuevas funcionalidades como:
 
 1. Añadir un nuevo plugin `gitbook-start-plugin-...` para otro servicio en la nube o mejorar uno de los ya existentes. Por ejemplo:
@@ -20,5 +21,7 @@ durante el curso con nuevas funcionalidades como:
   1. Generación  mas sencilla de las claves (si no se incluyó)
   2. Soportar ficheros Google Drive además de Dropbox en el servidor
   3. Tareas `gulp` para parar, arrancar, re-arrancar el servidor remoto
-
+4. Añadir al servidor (en modo autenticado):
+  1. Una vista de administrador en la que puede administrar los usuarios
+  2. La capacidad de llevar estadísticas de visitas del usuario a las diferentes páginas del libro  y las correspondientes vistas
 
