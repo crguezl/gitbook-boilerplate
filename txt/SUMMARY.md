@@ -44,6 +44,7 @@
     * [iaas.ull.es](recursos/iaas.md)
     * [Heroku](recursos/heroku.md)
     * [Yellow Circle](recursos/yellow.md)
+    * [Azure in education](recursos/azure.md)
 * [Prácticas](practicas/README.md)
   * [Práctica: Tareas Iniciales](practicas/practicagitbook.md)
   * [Práctica: OOP](practicas/practicaoop.md)
