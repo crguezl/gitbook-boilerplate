@@ -6,7 +6,9 @@ El objetivo  del proyecto es escribir una aplicación web  usando las tecnologí
 durante el curso: ECMA6, Node.js, npm, git, GitHub, expressJS, Passport, PAAS, SAAS, SSH, Bases de Datos, ORM, NoSQL, etc. 
 El tema de la aplicación puede ser de libre elección aunque lo que se recomienda es extender el módulo npm 
 `gitbook-start` desarrollado
-durante el curso con nuevas funcionalidades como:
+durante el curso con alguna nueva funcionalidad.
+
+Sigue una lista de posibles direcciones/sugerencias de nuevas funcionalidades:
 
 1. Añadir un nuevo plugin `gitbook-start-plugin-...` para otro servicio en la nube o mejorar uno de los ya existentes. Por ejemplo:
   1. Amazon AWS
