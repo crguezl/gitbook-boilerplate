@@ -1,6 +1,8 @@
 ## HTTP
 
 * [Anatomy of an HTTP Transaction in NodeJS](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/)
+* [Differences Between Get and Post - Web Development](https://youtu.be/UObINRj2EGY) Udacity. YouTube video
+* [Problems with Get - Web Development](https://youtu.be/cIliEo0zOwg) Udacity. YouTube video
 
 ## REST
 
