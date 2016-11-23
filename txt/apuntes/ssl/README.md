@@ -30,7 +30,8 @@ Once the connection is established, both parties can use the agreed algorithm an
      - the certificate’s public key, 
      - the digital signature and 
      - information about the certificate’s validity dates. 
-  - The client checks that it either implicitly trusts the certificate, or that it is verified and trusted by one of several Certificate Authorities (CAs) that it also implicitly trusts. Much more about this shortly. Note that the server is also allowed to require a certificate to prove the client’s identity, but this typically only happens in very sensitive applications.
+  - The client checks that it either implicitly trusts the certificate, or that it is verified and trusted by one of several Certificate Authorities (CAs) that it also implicitly trusts. 
+  - Note that the server is also allowed to require a certificate to prove the client’s identity, but this typically only happens in very sensitive applications.
 ### Teoría
 
 * [How does HTTPS actually work?](http://robertheaton.com/2014/03/27/how-does-https-actually-work/) por Rob Heaton
