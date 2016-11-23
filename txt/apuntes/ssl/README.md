@@ -70,6 +70,7 @@ are unable to read or modify any requests that they may intercept.
     - Symantec, 
     - Comodo and 
     - GoDaddy. 
+
     If a server presents a certificate from that list then you know you can trust them.
   * The second criteria is much harder. 
     - It’s easy for a server to say “er yeah, my name is er, Microsoft, you trust Symantec and er, they totally trust me, so it’s all cool.” 
@@ -77,7 +78,14 @@ are unable to read or modify any requests that they may intercept.
     - But even if Symantec say “yep, we know them, Microsoft are legit”, you still don’t know whether the server claiming to be Microsoft actually is Microsoft or something much worse. 
     This is where digital signatures come in.
 
+##### Digital signatures
 
+* As already noted, SSL certificates have an associated public/private key pair
+  *  The public key is distributed as part of the certificate, and the private key is kept incredibly safely guarded
+  *  This pair of asymmetric keys is used in the SSL handshake to exchange a further key for both parties to symmetrically encrypt and decrypt data
+  *  The client uses the server’s public key to encrypt the symmetric key and send it securely to the server, and the server uses its private key to decrypt it
+  *  Anyone can encrypt using the public key, but only the server can decrypt using the private key
+* The opposite is true for a digital signature. A certificate can be “signed” by another authority, whereby the authority effectively goes on record as saying “we have verified that the controller of this certificate also controls the property (domain) listed on the certificate”. In this case the authority uses their private key to (broadly speaking) encrypt the contents of the certificate, and this cipher text is attached to the certificate as its digital signature. Anyone can decrypt this signature using the authority’s public key, and verify that it results in the expected decrypted value. But only the authority can encrypt content using the private key, and so only the authority can actually create a valid signature in the first place.
 
 ### Teoría
 
