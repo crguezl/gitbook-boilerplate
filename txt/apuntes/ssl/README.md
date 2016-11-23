@@ -28,8 +28,11 @@ Once the connection is established, both parties can use the agreed algorithm an
 
 1. **Hello** 
   - The handshake begins with the client sending a `ClientHello` message. 
-  - This contains all the information the server needs in order to connect to the client via SSL, including the various cipher suites and maximum SSL version that it supports. 
-  - The server responds with a `ServerHello`, which contains similar information required by the client, including a decision based on the client’s preferences about which cipher suite and version of SSL will be used.
+  - This contains all the information the server needs in order to connect to the client via SSL, including 
+    - the various cipher suites 
+    - and maximum SSL version that it supports. 
+  - The server responds with a `ServerHello`, which contains similar information required by the client, including 
+    - a decision based on the client’s preferences about which cipher suite and version of SSL will be used.
 2. **Certificate Exchange** 
   - Now that contact has been established, the server has to prove its identity to the client. 
   - This is achieved using its SSL certificate, which is a very tiny bit like its passport. 
