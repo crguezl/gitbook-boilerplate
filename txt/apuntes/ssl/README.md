@@ -51,6 +51,25 @@ Once the connection is established, both parties can use the agreed algorithm an
 * The other party is the only one who knows how to decrypt this message, and so **Man In The Middle Attackers** 
 are unable to read or modify any requests that they may intercept.
 
+#### Certificates
+
+##### Trust
+
+* At its most basic level, an SSL certificate is simply a text file, and anyone with a text editor can create one. 
+* You can in fact trivially create a certificate claiming that you are Google Inc. and that you control the domain gmail.com. 
+* If this were the whole story then SSL would be a joke; identity verification would essentially be the client asking the server “are you Google?”, the server replying “er, yeah totally, here’s a piece of paper with ‘I am Google’ written on it” and the client saying “OK great, here’s all my data.” 
+* The magic that prevents this farce is in the digital signature, which allows a party to verify that another party’s piece of paper really is legit.
+
+* There are 2 sensible reasons why you might trust a certificate:
+  * If it’s on a list of certificates that you trust implicitly
+  * If it’s able to prove that it is trusted by the controller of one of the certificates on the above list
+  * The first criteria is easy to check. Your browser has a pre-installed list of trusted SSL certificates from Certificate Authorities (CAs) that you can view, add and remove from. 
+  * These certificates are controlled by a centralised group of (in theory, and generally in practice) extremely secure, reliable and trustworthy organisations like Symantec, Comodo and GoDaddy. If a server presents a certificate from that list then you know you can trust them.
+
+The second criteria is much harder. It’s easy for a server to say “er yeah, my name is er, Microsoft, you trust Symantec and er, they totally trust me, so it’s all cool.” A somewhat smart client might then go and ask Symantec “I’ve got a Microsoft here who say that you trust them, is this true?” But even if Symantec say “yep, we know them, Microsoft are legit”, you still don’t know whether the server claiming to be Microsoft actually is Microsoft or something much worse. This is where digital signatures come in.
+
+
+
 ### Teoría
 
 * [How does HTTPS actually work?](http://robertheaton.com/2014/03/27/how-does-https-actually-work/) por Rob Heaton
@@ -91,3 +110,7 @@ are unable to read or modify any requests that they may intercept.
 * [express-sslify: Enforces SSL for node.js express projects. This simple module enforces HTTPS connections on any incoming GET and HEAD requests.](https://www.npmjs.com/package/express-sslify)
 * [express-ssl: Enforce SSL for Express apps](https://www.npmjs.com/package/express-ssl)
 
+### Chrome y SSL
+
+* [Chrome help: Manage warnings about unsafe sites](https://support.google.com/chrome/answer/99020?co=GENIE.Platform%3DDesktop&hl=en)
+* [ How to manage certificates in chrome](https://productforums.google.com/forum/#!topic/chrome/XFAA9JIK3wM)
