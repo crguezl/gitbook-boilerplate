@@ -115,6 +115,15 @@ are unable to read or modify any requests that they may intercept.
 * This puts an enormous burden on all browser and OS publishers to trust only squeaky clean root CAs, as these are the organisations that their users end up trusting to vet websites and keep certificates safe. 
   - [This is not an easy task.](http://security.stackexchange.com/questions/11464/getting-a-root-ca-accepted-in-systems-and-browsers)
 
+##### Really really fun facts
+
+##### Can a coffee shop monitor my HTTPS traffic over their network?
+
+* Nope. 
+  - The magic of public-key cryptography means that an attacker can watch every single byte of data exchanged between your client and the server and still have no idea what you are saying to each other beyond roughly how much data you are exchanging. 
+  - However, your normal HTTP traffic is still very vulnerable on an insecure wi-fi network, and a flimsy website can fall victim to any number of workarounds that somehow trick you into sending HTTPS traffic either over plain HTTP or just to the wrong place completely. 
+  - For example, even if a login form submits a username/password combo over HTTPS, if the form itself is loaded insecurely over HTTP then an attacker could intercept the form’s HTML on its way to your machine and modify it to send the login details to their own endpoint.
+
 ### Teoría
 
 * [How does HTTPS actually work?](http://robertheaton.com/2014/03/27/how-does-https-actually-work/) por Rob Heaton
