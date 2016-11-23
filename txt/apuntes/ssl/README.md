@@ -10,6 +10,7 @@ Esta sección es copia de:
 #### The SSL layer has 2 main purposes:
   - Verifying that you are talking directly to the server that you think you are talking to
   - Ensuring that only the server can read what you send it and only you can read what it sends back
+
 The really, really clever part is that 
 **anyone can intercept every single one of the messages you exchange with a server, including the ones where you are agreeing on the key and encryption strategy to use, and still not be able to read any of the actual data you send.**
 
