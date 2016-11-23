@@ -32,6 +32,12 @@ Once the connection is established, both parties can use the agreed algorithm an
      - information about the certificate’s validity dates. 
   - The client checks that it either implicitly trusts the certificate, or that it is verified and trusted by one of several Certificate Authorities (CAs) that it also implicitly trusts. 
   - Note that the server is also allowed to require a certificate to prove the client’s identity, but this typically only happens in very sensitive applications.
+
+3. **Key Exchange** 
+  - The encryption of the actual message data exchanged by the client and server will be done using a symmetric algorithm, the exact nature of which was already agreed during the **Hello phase**. 
+  - A symmetric algorithm uses a single key for both encryption and decryption, in contrast to asymmetric algorithms that require a public/private key pair. 
+  - Both parties need to agree on this single, symmetric key, a process that is accomplished securely using asymmetric encryption and the server’s public/private keys.
+
 ### Teoría
 
 * [How does HTTPS actually work?](http://robertheaton.com/2014/03/27/how-does-https-actually-work/) por Rob Heaton
