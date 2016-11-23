@@ -22,9 +22,10 @@ An SSL connection between a client and server is set up by a handshake, the goal
 - For the parties to have agreed on any necessary keys for this algorithm
 
 Once the connection is established, both parties can use the agreed algorithm and keys to securely send messages to each other. We will break the handshake up into 3 main phases 
-1. Hello, 
-2. Certificate Exchange 
-3. and Key Exchange
+  1. Hello, 
+  2. Certificate Exchange 
+  3. and Key Exchange
+
 
 1. **Hello** 
   - The handshake begins with the client sending a `ClientHello` message. 
