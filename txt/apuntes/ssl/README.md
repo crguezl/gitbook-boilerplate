@@ -8,6 +8,7 @@ The really, really clever part is that
 
 ### Teoría
 
+* [How does HTTPS actually work?](http://robertheaton.com/2014/03/27/how-does-https-actually-work/) por Rob Heaton
 *  Introducción
   - {% youtube %}https://youtu.be/JCvPnwpWVUQ{% endyoutube %}
 
