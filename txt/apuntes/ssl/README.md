@@ -99,7 +99,7 @@ are unable to read or modify any requests that they may intercept.
   *  The public key is distributed as part of the certificate, and the private key is kept incredibly safely guarded
   *  This pair of asymmetric keys is used in the SSL handshake to exchange a further key for both parties to symmetrically encrypt and decrypt data
   *  **The client uses the server’s public key to encrypt the symmetric key and send it securely to the server, and the server uses its private key to decrypt it**
-    - ![digital signature](https://stephenhaunts.files.wordpress.com/2014/11/chapter-8-image-1-digital-signature.png)
+    - ![digital signature](https://raviranjankr.files.wordpress.com/2012/08/asymmetric-encryption.gif)
   *  Anyone can encrypt using the public key, but only the server can decrypt using the private key
 * The opposite is true for a digital signature. 
   - A certificate can be *"signed"* by another authority, whereby the authority effectively goes on record as saying *"we have verified that the controller of this certificate also controls the property (domain) listed on the certificate"*. 
