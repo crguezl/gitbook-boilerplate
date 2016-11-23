@@ -1,5 +1,11 @@
 ## SSL
 
+* The SSL layer has 2 main purposes:
+  - Verifying that you are talking directly to the server that you think you are talking to
+  - Ensuring that only the server can read what you send it and only you can read what it sends back
+The really, really clever part is that 
+**anyone can intercept every single one of the messages you exchange with a server, including the ones where you are agreeing on the key and encryption strategy to use, and still not be able to read any of the actual data you send.**
+
 ### Teoría
 
 *  Introducción
@@ -21,10 +27,17 @@
   - [GitHub repo: coolaj86/nodejs-ssl-e](https://github.com/coolaj86/nodejs-ssl-example)
   - [Blog: How to create a Certificate Signing Request (CSR) for HTTPS (TLS/SSL) RSA PEMs](https://coolaj86.com/articles/how-to-create-a-csr-for-https-tls-ssl-rsa-pems/)
 
+
 ### Recursos: Certificados
 
 * [Certificados SSL para máquinas IaaS de PAS/PDI](https://docs.google.com/document/d/1noIAcAEzX1PuxxSLWuiTKzkLurAm9fL6vUmZN-A-kpE/edit#heading=h.32nscii6jiop)
 * [Let's Encrypt](https://letsencrypt.org/docs/): Let’s Encrypt is a Certificate Authority (CA).
+* [Linux man openssl command](https://linux.die.net/man/1/openssl)
+  * [genrsa](https://linux.die.net/man/1/genrsa) generate an RSA private key
+  * [req](https://linux.die.net/man/1/req)  certificate request and certificate generating utility.
+  * [x509 - Certificate display and signing utility](https://linux.die.net/man/1/x509)
+
+
 
 
 ### Módulos NodeJS para HTTPS
