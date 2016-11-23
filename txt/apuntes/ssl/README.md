@@ -90,7 +90,7 @@ are unable to read or modify any requests that they may intercept.
     - It’s easy for a server to say *"er yeah, my name is er, Microsoft, you trust Symantec and er, they totally trust me, so it’s all cool."* 
     -  A somewhat smart client might then go and ask Symantec *"I’ve got a Microsoft here who say that you trust them, is this true?"* 
     - But even if Symantec say *"yep, we know them, Microsoft are legit"*, you still don’t know whether the server claiming to be Microsoft actually is Microsoft or something much worse. 
-    This is where digital signatures come in.
+    This is where **digital signatures** come in.
 
 ##### Digital signatures
 
