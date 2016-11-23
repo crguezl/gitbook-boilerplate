@@ -34,9 +34,11 @@ Once the connection is established, both parties can use the agreed algorithm an
      - name of the owner,
      - the property (eg. domain) it is attached to, 
      - the certificate’s public key, 
-     - the digital signature and 
+     - the [digital signature](https://en.wikipedia.org/wiki/Digital_signature) and 
      - information about the certificate’s validity dates. 
-  - The client checks that it either implicitly trusts the certificate, or that it is verified and trusted by one of several Certificate Authorities (CAs) that it also implicitly trusts. 
+  - The client checks that it either 
+    - implicitly trusts the certificate, 
+    - or that it is verified and trusted by one of several Certificate Authorities (CAs) that it also implicitly trusts. 
   - Note that the server is also allowed to require a certificate to prove the client’s identity, but this typically only happens in very sensitive applications.
 
 3. **Key Exchange** 
