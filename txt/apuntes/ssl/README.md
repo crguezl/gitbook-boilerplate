@@ -81,6 +81,7 @@ are unable to read or modify any requests that they may intercept.
   * If it’s able to prove that it is trusted by the controller of one of the certificates on the above list
     * The first criteria is easy to check. Your browser has a pre-installed list of trusted SSL certificates from Certificate Authorities (CAs) that you can view, add and remove from. 
     * These certificates are controlled by a centralised group of (in theory, and generally in practice) extremely secure, reliable and trustworthy organisations like 
+      - [Let's Encrypt](https://letsencrypt.org/) (Let’s Encrypt is a free, automated, and open Certificate Authority),
       - Symantec, 
       - Comodo and 
       - GoDaddy. 
