@@ -146,7 +146,7 @@ are unable to read or modify any requests that they may intercept.
   - Compromised, self-signed or otherwise untrustworthy certificates cause browsers to display a big red error message and to either discourage or outright prohibit further actions by the user
   - Unfortunately, browsers will continue to trust a broken certificate until they pull the newest updates to the CRL, a process which is apparently [imperfect in practice](https://news.netcraft.com/archives/2013/05/13/how-certificate-revocation-doesnt-work-in-practice.html).
 
-##### Conclusion
+##### Conclusion: Be happy that [it’s got your back](http://www.urbandictionary.com/define.php?term=GOT%20YOUR%20BACK), but stay vigilant
 
 * HTTPS is not unbreakable, and the SSL protocol has to evolve constantly as new attacks against it are discovered and squashed
   - But it is still an impressively robust way of transmitting secret data without caring who sees your messages
