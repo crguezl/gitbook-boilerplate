@@ -93,6 +93,17 @@ are unable to read or modify any requests that they may intercept.
 * So if a server comes along claiming to have a certificate for Microsoft.com that is signed by Symantec (or some other CA), your browser doesn’t have to take its word for it. 
   - If it is legit, Symantec will have used their (ultra-secret) private key to generate the server’s SSL certificate’s digital signature, and so your browser use can use their (ultra-public) public key to check that this signature is valid. 
   - Symantec will have taken steps to ensure the organisation they are signing for really does own Microsoft.com, and so given that your client trusts Symantec, it can be sure that it really is talking to Microsoft Inc.
+
+
+##### Self-signing
+
+* Note that all root CA certificates are “self-signed”, meaning that the digital signature is generated using the certificate’s own private key. 
+ - There’s nothing intrinsically special about a root CA’s certificate - you can generate your own self-signed certificate and use this to sign other certificates if you want. 
+ - But since your random certificate is not pre-loaded as a CA into any browsers anywhere, none of them will trust you to sign either your own or other certificates. 
+ - You are effectively saying “er yeah, I’m totally Microsoft, here’s an official certificate of identity issued and signed by myself,” and all properly functioning browsers will throw up a very scary error message in response to your dodgy credentials.
+* This puts an enormous burden on all browser and OS publishers to trust only squeaky clean root CAs, as these are the organisations that their users end up trusting to vet websites and keep certificates safe. 
+  - [This is not an easy task.](http://security.stackexchange.com/questions/11464/getting-a-root-ca-accepted-in-systems-and-browsers)
+
 ### Teoría
 
 * [How does HTTPS actually work?](http://robertheaton.com/2014/03/27/how-does-https-actually-work/) por Rob Heaton
