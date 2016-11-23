@@ -14,6 +14,8 @@ Esta sección es copia de:
 The really, really clever part is that 
 **anyone can intercept every single one of the messages you exchange with a server, including the ones where you are agreeing on the key and encryption strategy to use, and still not be able to read any of the actual data you send.**
 
+![SSL: the key point](http://cdn.inmotionhosting.com/support/images/stories/edu/ssl/secure-ssl-connection.png)
+
 #### How an SSL connection is established
 
 An SSL connection between a client and server is set up by a handshake, the goals of which are:
@@ -22,10 +24,11 @@ An SSL connection between a client and server is set up by a handshake, the goal
 - For the parties to have agreed on any necessary keys for this algorithm
 
 Once the connection is established, both parties can use the agreed algorithm and keys to securely send messages to each other. We will break the handshake up into 3 main phases 
-| 1. Hello,               | |
-| 2. Certificate Exchange | ![SSL handshake](http://cdn.inmotionhosting.com/support/images/stories/edu/ssl/secure-connection-illustration.png)| 
-| 3. and Key Exchange     ||
+ Hello, 
+Certificate Exchange 
+and Key Exchange 
 
+![SSL handshake](http://cdn.inmotionhosting.com/support/images/stories/edu/ssl/secure-connection-illustration.png)| 
 
 
 1. **Hello** 
@@ -183,6 +186,8 @@ are unable to read or modify any requests that they may intercept.
   - View the complete course: [http://ocw.mit.edu/6-858F14](http://ocw.mit.edu/6-858F14)
   - Instructor: [Nickolai Zeldovich](https://www.youtube.com/user/chebureka)
 
+* [What is SSL and why is it important?](http://www.inmotionhosting.com/support/website/ssl/what-is-ssl-and-why-is-it-important)
+
 ### Tutoriales sobre HTTPS y SSL con NodeJS
 
 * [How to Use SSL/TLS with Node.js](https://www.sitepoint.com/how-to-use-ssltls-with-node-js/) By Florian Rappl  September 16, 2015 at SitePoint
@@ -192,7 +197,6 @@ are unable to read or modify any requests that they may intercept.
 * [Walkthrough: How to set up HTTPS / SSL with node.js and name.com / RapidSSL](https://youtu.be/r92gqYHJc5c)
   - [GitHub repo: coolaj86/nodejs-ssl-e](https://github.com/coolaj86/nodejs-ssl-example)
   - [Blog: How to create a Certificate Signing Request (CSR) for HTTPS (TLS/SSL) RSA PEMs](https://coolaj86.com/articles/how-to-create-a-csr-for-https-tls-ssl-rsa-pems/)
-
 
 ### Recursos: Certificados
 
