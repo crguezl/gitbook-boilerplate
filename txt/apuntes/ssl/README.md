@@ -130,7 +130,7 @@ are unable to read or modify any requests that they may intercept.
  - There’s nothing intrinsically special about a root CA’s certificate - you can generate your own self-signed certificate and use this to sign other certificates if you want. 
  - But since your random certificate is not pre-loaded as a CA into any browsers anywhere, none of them will trust you to sign either your own or other certificates. 
  - You are effectively saying *"er yeah, I’m totally Microsoft, here’s an official certificate of identity issued and signed by myself,"* and all properly functioning browsers will throw up a very scary error message in response to your [dodgy](https://www.google.es/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=define+dodgy) credentials.
-* This puts an enormous burden on all browser and OS publishers to trust only squeaky clean root CAs, as these are the organisations that their users end up trusting to vet websites and keep certificates safe. 
+* This puts an enormous burden on all browser and OS publishers to trust only squeaky clean root CAs, as these are the organisations that their users end up trusting to [vet](https://www.google.es/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=define+vet) websites and keep certificates safe. 
   - [This is not an easy task.](http://security.stackexchange.com/questions/11464/getting-a-root-ca-accepted-in-systems-and-browsers)
 
 ##### Really really fun facts
