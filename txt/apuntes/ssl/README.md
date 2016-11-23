@@ -134,14 +134,29 @@ are unable to read or modify any requests that they may intercept.
   - They probably don’t. But they could.
 * Incidentally, this is also how you use a proxy to inspect and modify the otherwise inaccessible [HTTPS requests made by an iPhone app](http://nickfishman.com/post/50557873036/reverse-engineering-native-apps-by-intercepting-network).
 
-##### So what happened with Lavabit and the FBI?
+##### So what happened with [Lavabit](https://lavabit.com/) and the FBI?
 
-* Lavabit was Edward Snowden’s super-secure email provider during the NSA leaks insanity of 2013. 
-  - As we’ve seen, no amount of standard hackery could allow the FBI to see any data on its way between Lavabit and its customers
-  - Without the private key for the Lavabit SSL certificate, the agency was screwed
-  - However, a helpful US judge told the Lavabit founder, Ladar Levison, that he had to hand over this key, effectively giving the FBI free reign to snoop traffic to its heart’s content
-  - Levison made a valiant attempt to stall by handing over the 2,560 character key in 11 hard copy pages of 4-point type, but was slammed with an order requiring him to hand over the key in a useful format or face a $5,000/day fine until he did
-* Once he complied, GoDaddy, the Lavabit CA, revoked the certificate, having (correctly) deemed it compromised. This added the Lavabit certificate to a Certificate Revocation List (CRL), a list of discredited certificates that clients should no longer trust to provide a secure connection. Compromised, self-signed or otherwise untrustworthy certificates cause browsers to display a big red error message and to either discourage or outright prohibit further actions by the user. Unfortunately, browsers will continue to trust a broken certificate until they pull the newest updates to the CRL, a process which is apparently [imperfect in practice](https://news.netcraft.com/archives/2013/05/13/how-certificate-revocation-doesnt-work-in-practice.html).
+* [Lavabit](https://lavabit.com/) was Edward Snowden’s super-secure email provider during the NSA leaks insanity of 2013. 
+  - As we’ve seen, no amount of standard hackery could allow the FBI to see any data on its way between [Lavabit](https://lavabit.com/) and its customers
+  - Without the private key for the [Lavabit](https://lavabit.com/) SSL certificate, the agency was screwed
+  - However, a helpful US judge told the [Lavabit](https://lavabit.com/) founder, Ladar Levison, that he had to hand over this key, effectively giving the FBI free reign to snoop traffic to its heart’s content
+  - *Levison made a valiant attempt to stall by handing over the 2,560 character key in 11 hard copy pages of 4-point type*, but was slammed with an order requiring him to hand over the key in a useful format or face a $5,000/day fine until he did
+* Once he complied, GoDaddy, the [Lavabit](https://lavabit.com/) CA, revoked the certificate, having (correctly) deemed it compromised
+  - This added the [Lavabit](https://lavabit.com/) certificate to a Certificate Revocation List (CRL), a list of discredited certificates that clients should no longer trust to provide a secure connection
+  - Compromised, self-signed or otherwise untrustworthy certificates cause browsers to display a big red error message and to either discourage or outright prohibit further actions by the user
+  - Unfortunately, browsers will continue to trust a broken certificate until they pull the newest updates to the CRL, a process which is apparently [imperfect in practice](https://news.netcraft.com/archives/2013/05/13/how-certificate-revocation-doesnt-work-in-practice.html).
+
+##### Conclusion
+
+* HTTPS is not unbreakable, and the SSL protocol has to evolve constantly as new attacks against it are discovered and squashed
+  - But it is still an impressively robust way of transmitting secret data without caring who sees your messages
+  - There are of course many implementation details not mentioned here, such as 
+    - the exact format and order of the handshake messages, 
+    - abbreviated handshakes to pick up recent sessions without having to renegotiate keys and cipher suites, 
+    - and the numerous different encryption options available at each stage
+  - The key thing to remember is that whilst HTTPS keeps data safe on the wire to its destination, it in no way protects you (as a user or a developer) against XSS (Cross-site scripting or XSS is used to bypass access controls such as the same-origin policy) or [database leaks](http://www.bcs.org/content/ConWebDoc/8852) or any of the other [things-that-go-bump-in-the-night](https://en.wikipedia.org/wiki/Things_That_Go_Bump_in_the_Night)
+  - Be happy that it’s got your back, but stay vigilant
+
 ### Teoría
 
 * [How does HTTPS actually work?](http://robertheaton.com/2014/03/27/how-does-https-actually-work/) por Rob Heaton
