@@ -154,8 +154,11 @@ are unable to read or modify any requests that they may intercept.
     - the exact format and order of the handshake messages, 
     - abbreviated handshakes to pick up recent sessions without having to renegotiate keys and cipher suites, 
     - and the numerous different encryption options available at each stage
-  - The key thing to remember is that whilst HTTPS keeps data safe on the wire to its destination, it in no way protects you (as a user or a developer) against XSS (Cross-site scripting or XSS is used to bypass access controls such as the same-origin policy) or [database leaks](http://www.bcs.org/content/ConWebDoc/8852) or any of the other [things-that-go-bump-in-the-night](https://en.wikipedia.org/wiki/Things_That_Go_Bump_in_the_Night)
-  - Be happy that it’s got your back, but stay vigilant
+  - The key thing to remember is that whilst HTTPS keeps data safe on the wire to its destination, it in no way protects you (as a user or a developer) against 
+    - XSS (Cross-site scripting or XSS is used to bypass access controls such as the same-origin policy) 
+    - or [database leaks](http://www.bcs.org/content/ConWebDoc/8852) 
+    - or any of the other [things-that-go-bump-in-the-night](https://en.wikipedia.org/wiki/Things_That_Go_Bump_in_the_Night)
+  - Be happy that [it’s got your back](http://www.urbandictionary.com/define.php?term=GOT%20YOUR%20BACK), but stay vigilant
 
 ### Teoría
 
