@@ -90,7 +90,9 @@ are unable to read or modify any requests that they may intercept.
   - In this case the authority uses their private key to (broadly speaking) encrypt the contents of the certificate, and this cipher text is attached to the certificate as its digital signature. 
   - Anyone can decrypt this signature using the authority’s public key, and verify that it results in the expected decrypted value. 
   - But only the authority can encrypt content using the private key, and so only the authority can actually create a valid signature in the first place.
-
+* So if a server comes along claiming to have a certificate for Microsoft.com that is signed by Symantec (or some other CA), your browser doesn’t have to take its word for it. 
+  - If it is legit, Symantec will have used their (ultra-secret) private key to generate the server’s SSL certificate’s digital signature, and so your browser use can use their (ultra-public) public key to check that this signature is valid. 
+  - Symantec will have taken steps to ensure the organisation they are signing for really does own Microsoft.com, and so given that your client trusts Symantec, it can be sure that it really is talking to Microsoft Inc.
 ### Teoría
 
 * [How does HTTPS actually work?](http://robertheaton.com/2014/03/27/how-does-https-actually-work/) por Rob Heaton
