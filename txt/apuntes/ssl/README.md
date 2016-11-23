@@ -62,7 +62,7 @@ are unable to read or modify any requests that they may intercept.
     - the client asking the server *"are you Google?"*, 
     - the server replying *"er, yeah totally, here’s a piece of paper with ‘I am Google’ written on it"* 
     - and the client saying *"OK great, here’s all my data."* 
-  * The magic that prevents this farce is in the **digital signature**, which allows a party to verify that another party’s piece of paper really is legit.
+  * The magic that prevents this farce is in the **[digital signature](https://en.wikipedia.org/wiki/Digital_signature)**, which allows a party to verify that another party’s piece of paper really is legit.
 * There are 2 sensible reasons why you might trust a certificate:
   * If it’s on a list of certificates that you trust implicitly
   * If it’s able to prove that it is trusted by the controller of one of the certificates on the above list
