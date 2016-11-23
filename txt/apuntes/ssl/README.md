@@ -111,7 +111,7 @@ are unable to read or modify any requests that they may intercept.
 * So if a server comes along claiming to have a certificate for Microsoft.com that is signed by Symantec (or some other CA), your browser doesn’t have to take its word for it. 
   - If it is legit, Symantec will have used their (ultra-secret) private key to generate the server’s SSL certificate’s digital signature, and so your browser use can use their (ultra-public) public key to check that this signature is valid. 
   - Symantec will have taken steps to ensure the organisation they are signing for really does own Microsoft.com, and so given that your client trusts Symantec, it can be sure that it really is talking to Microsoft Inc.
-
+  ![digital signature](http://www.hill2dot0.com/wiki/images/f/ff/Digital_Signature.jpg)
 
 ##### What are you trusting?
 
