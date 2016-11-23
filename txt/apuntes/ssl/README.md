@@ -56,9 +56,12 @@ are unable to read or modify any requests that they may intercept.
 ##### Trust
 
 * At its most basic level, an SSL certificate is simply a text file, and anyone with a text editor can create one. 
-* You can in fact trivially create a certificate claiming that you are Google Inc. and that you control the domain gmail.com. 
-* If this were the whole story then SSL would be a joke; identity verification would essentially be the client asking the server “are you Google?”, the server replying “er, yeah totally, here’s a piece of paper with ‘I am Google’ written on it” and the client saying “OK great, here’s all my data.” 
-* The magic that prevents this farce is in the digital signature, which allows a party to verify that another party’s piece of paper really is legit.
+  * You can in fact trivially create a certificate claiming that you are Google Inc. and that you control the domain gmail.com. 
+  * If this were the whole story then SSL would be a joke; identity verification would essentially be 
+    - the client asking the server “are you Google?”, 
+    - the server replying “er, yeah totally, here’s a piece of paper with ‘I am Google’ written on it” 
+    - and the client saying “OK great, here’s all my data.” 
+  * The magic that prevents this farce is in the digital signature, which allows a party to verify that another party’s piece of paper really is legit.
 
 * There are 2 sensible reasons why you might trust a certificate:
   * If it’s on a list of certificates that you trust implicitly
