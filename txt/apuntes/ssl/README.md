@@ -25,9 +25,7 @@ An SSL connection between a client and server is set up by a [handshake](http://
 - For the parties to have agreed on any necessary keys for this algorithm
 
 Once the connection is established, both parties can use the agreed algorithm and keys to securely send messages to each other. We will break the [handshake](http://www.dictionary.com/browse/handshake) up into 3 main phases 
- Hello, 
-Certificate Exchange 
-and Key Exchange 
+ *Hello, Certificate Exchange and Key Exchange*
 
 ![SSL handshake](http://cdn.inmotionhosting.com/support/images/stories/edu/ssl/secure-connection-illustration.png)| 
 
