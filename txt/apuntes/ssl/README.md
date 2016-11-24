@@ -19,12 +19,12 @@ The really, really clever part is that
 
 #### How an SSL connection is established
 
-An SSL connection between a client and server is set up by a handshake, the goals of which are:
+An SSL connection between a client and server is set up by a [handshake](http://www.dictionary.com/browse/handshake), the goals of which are:
 - To satisfy the client that it is talking to the right server (and optionally visa versa)
 - For the parties to have agreed on a *[cipher suite](https://en.wikipedia.org/wiki/Cipher_suite)*, which includes which encryption algorithm they will use to exchange data
 - For the parties to have agreed on any necessary keys for this algorithm
 
-Once the connection is established, both parties can use the agreed algorithm and keys to securely send messages to each other. We will break the handshake up into 3 main phases 
+Once the connection is established, both parties can use the agreed algorithm and keys to securely send messages to each other. We will break the [handshake](http://www.dictionary.com/browse/handshake) up into 3 main phases 
  Hello, 
 Certificate Exchange 
 and Key Exchange 
@@ -33,7 +33,7 @@ and Key Exchange
 
 
 1. **Hello** 
-  - The handshake begins with the client sending a `ClientHello` message. 
+  - The [handshake](http://www.dictionary.com/browse/handshake) begins with the client sending a `ClientHello` message. 
   - This contains all the information the server needs in order to connect to the client via SSL, including 
     - the various cipher suites 
     - and maximum SSL version that it supports. 
@@ -59,7 +59,7 @@ and Key Exchange
   - Both parties need to agree on this single, symmetric key, a process that is accomplished securely using asymmetric encryption and the server’s public/private keys.
   - The client generates a random key to be used for the main, symmetric algorithm. 
     - It encrypts it using an algorithm also agreed upon during the Hello phase, and the server’s public key (found on its SSL certificate). 
-    - It sends this encrypted key to the server, where it is decrypted using the server’s private key, and the interesting parts of the handshake are complete. 
+    - It sends this encrypted key to the server, where it is decrypted using the server’s private key, and the interesting parts of the [handshake](http://www.dictionary.com/browse/handshake) are complete. 
 
 * The parties are sufficiently happy that they are talking to the right person, and have secretly agreed on a key to symmetrically encrypt the data that they are about to send each other. 
 * HTTP requests and responses can now be sent by forming a plaintext message and then encrypting and sending it. 
@@ -98,7 +98,7 @@ are unable to read or modify any requests that they may intercept.
 
 * As already noted, SSL certificates have an associated public/private key pair
   *  The public key is distributed as part of the certificate, and the private key is kept incredibly safely guarded
-  *  This pair of asymmetric keys is used in the SSL handshake to exchange a further key for both parties to symmetrically encrypt and decrypt data
+  *  This pair of asymmetric keys is used in the SSL [handshake](http://www.dictionary.com/browse/handshake) to exchange a further key for both parties to symmetrically encrypt and decrypt data
   *  **The client uses the server’s public key to encrypt the symmetric key and send it securely to the server, and the server uses its private key to decrypt it**
     - ![digital signature](https://raviranjankr.files.wordpress.com/2012/08/asymmetric-encryption.gif)
   *  Anyone can encrypt using the public key, but only the server can decrypt using the private key
@@ -118,10 +118,10 @@ are unable to read or modify any requests that they may intercept.
 
 * It’s interesting to note that your client is technically not trying to verify whether or not it should trust the party that sent it a certificate, but whether it should trust the public key contained in the certificate.
   - SSL certificates are completely open and public, so any attacker could grab Microsoft’s certificate, intercept a client’s request to Microsoft.com and present the legitimate certificate to it. 
-  - The client would accept this and happily begin the handshake. 
+  - The client would accept this and happily begin the [handshake](http://www.dictionary.com/browse/handshake). 
   - However, when the client encrypts the key that will be used for actual data encryption, it will do so using the real Microsoft’s public key from this real certificate. 
   - Since the attacker doesn’t have Microsoft’s private key in order to decrypt it, they are now stuck. 
-  - Even if the handshake is completed, they will still not be able to decrypt the key, and so will not be able to decrypt any of the data that the client sends to them. 
+  - Even if the [handshake](http://www.dictionary.com/browse/handshake) is completed, they will still not be able to decrypt the key, and so will not be able to decrypt any of the data that the client sends to them. 
   - **Order is maintained as long as the attacker doesn’t control a trusted certificate’s private key**. 
     - If the client is somehow tricked into trusting a certificate and public key whose private key is controlled by an attacker, trouble begins.
 
@@ -170,8 +170,8 @@ are unable to read or modify any requests that they may intercept.
 * HTTPS is not unbreakable, and the SSL protocol has to evolve constantly as new attacks against it are discovered and squashed
   - But it is still an impressively robust way of transmitting secret data without caring who sees your messages
   - There are of course many implementation details not mentioned here, such as 
-    - the exact format and order of the handshake messages, 
-    - abbreviated handshakes to pick up recent sessions without having to renegotiate keys and cipher suites, 
+    - the exact format and order of the [handshake](http://www.dictionary.com/browse/handshake) messages, 
+    - abbreviated [handshake](http://www.dictionary.com/browse/handshake)s to pick up recent sessions without having to renegotiate keys and cipher suites, 
     - and the numerous different encryption options available at each stage
   - The key thing to remember is that whilst HTTPS keeps data safe on the wire to its destination, it in no way protects you (as a user or a developer) against 
     - XSS (Cross-site scripting or XSS is used to bypass access controls such as the same-origin policy) 
