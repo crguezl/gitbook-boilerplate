@@ -6,6 +6,7 @@
 Esta sección es copia de:
 
 * [How does HTTPS actually work?](http://robertheaton.com/2014/03/27/how-does-https-actually-work/) por Rob Heaton
+* Algunas de las imágenes son del tutorial [What is SSL and why is it important?](http://www.inmotionhosting.com/support/website/ssl/what-is-ssl-and-why-is-it-important)
 
 #### The SSL layer has 2 main purposes:
   - Verifying that you are talking directly to the server that you think you are talking to
