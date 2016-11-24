@@ -5,7 +5,7 @@
 
 Esta sección es copia de:
 
-* [How to Use SSL/TLS with Node.js](https://www.sitepoint.com/how-to-use-ssltls-with-node-js/) By Florian Rappl  September 16, 2015 at SitePoint
+* [How does HTTPS actually work?](http://robertheaton.com/2014/03/27/how-does-https-actually-work/) por Rob Heaton
 
 #### The SSL layer has 2 main purposes:
   - Verifying that you are talking directly to the server that you think you are talking to
