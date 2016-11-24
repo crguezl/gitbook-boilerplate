@@ -201,6 +201,10 @@ are unable to read or modify any requests that they may intercept.
   - [GitHub repo: coolaj86/nodejs-ssl-e](https://github.com/coolaj86/nodejs-ssl-example)
   - [Blog: How to create a Certificate Signing Request (CSR) for HTTPS (TLS/SSL) RSA PEMs](https://coolaj86.com/articles/how-to-create-a-csr-for-https-tls-ssl-rsa-pems/)
 
+### Como crear un Certificado
+
+* [Create Your Own Self Signed X509 Certificate](https://youtu.be/1xtBkukWiek) YouTube Video
+
 ### Recursos: Certificados
 
 * [Certificados SSL para máquinas IaaS de PAS/PDI](https://docs.google.com/document/d/1noIAcAEzX1PuxxSLWuiTKzkLurAm9fL6vUmZN-A-kpE/edit#heading=h.32nscii6jiop)
