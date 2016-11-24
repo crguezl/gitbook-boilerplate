@@ -204,6 +204,7 @@ are unable to read or modify any requests that they may intercept.
 ### Como crear un Certificado
 
 * [Create Your Own Self Signed X509 Certificate](https://youtu.be/1xtBkukWiek) YouTube Video
+* [What is a Pem file and how does it differ from other OpenSSL Generated Key File Formats?](http://serverfault.com/questions/9708/what-is-a-pem-file-and-how-does-it-differ-from-other-openssl-generated-key-file)
 
 ### Recursos: Certificados
 
