@@ -3,9 +3,7 @@
 * [Ejemplo de como Desplegar una Aplicación Express sobre Node.JS en Heroku](http://crguezl.github.io/pl-html/node11.html#SECTION041400100000000000000)
 * [Getting Started on Heroku with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)
 * [La rama heroku del repo how-jquery-works-tutorial](https://github.com/crguezl/how-jquery-works-tutorial/tree/heroku)
-
-
-{% youtube %}https://youtu.be/uLF_hmtxAsY{% endyoutube %}
+* [Deploy Node.JS Apps to Heroku](https://youtu.be/AZNFox2CvBk) YouTube Video
 
 * Every Heroku app runs in at least two environments:
   1. on the Heroku platform (we’ll call that `production`) and

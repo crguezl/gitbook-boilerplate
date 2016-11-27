@@ -200,11 +200,16 @@ are unable to read or modify any requests that they may intercept.
 * [Walkthrough: How to set up HTTPS / SSL with node.js and name.com / RapidSSL](https://youtu.be/r92gqYHJc5c)
   - [GitHub repo: coolaj86/nodejs-ssl-e](https://github.com/coolaj86/nodejs-ssl-example)
   - [Blog: How to create a Certificate Signing Request (CSR) for HTTPS (TLS/SSL) RSA PEMs](https://coolaj86.com/articles/how-to-create-a-csr-for-https-tls-ssl-rsa-pems/)
+* [Tutorial: How to Deploy a Node.js App to DigitalOcean with a Free SSL Certificate](https://youtu.be/kR06NoSzAXY) YouTube
 
 ### Como crear un Certificado
 
 * [Create Your Own Self Signed X509 Certificate](https://youtu.be/1xtBkukWiek) YouTube Video
 * [What is a Pem file and how does it differ from other OpenSSL Generated Key File Formats?](http://serverfault.com/questions/9708/what-is-a-pem-file-and-how-does-it-differ-from-other-openssl-generated-key-file)
+  - .csr This is a Certificate Signing Request 
+  - .pem Privacy Enhanced Mail 
+  - .key This is a PEM formatted file containing just the private-key of a specific certificate and is merely a conventional name and not a standardized one
+  - .cert .cer .crt A .pem formatted file with a different extension
 
 ### Recursos: Certificados
 
