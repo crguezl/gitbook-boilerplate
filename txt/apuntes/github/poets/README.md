@@ -15,5 +15,6 @@ Autor: [Daniel Shifman](http://shiffman.net/)
 ## Git and Github for Windows
 
 * [Git for Windows](https://git-for-windows.github.io/)
+  * [How to Install and Configure Git and GitHub on Windows](https://youtu.be/J_Clau1bYco) YouTube
 * [GitHub Desktop](https://desktop.github.com/)
-* [How to Install and Configure Git and GitHub on Windows](https://youtu.be/J_Clau1bYco) YouTube
+  * [Github Desktop Tutorial](https://youtu.be/kFix7UDJ7LA)
