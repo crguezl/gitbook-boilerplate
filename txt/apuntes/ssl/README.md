@@ -215,6 +215,7 @@ are unable to read or modify any requests that they may intercept.
 
 * [Certificados SSL para máquinas IaaS de PAS/PDI](https://docs.google.com/document/d/1noIAcAEzX1PuxxSLWuiTKzkLurAm9fL6vUmZN-A-kpE/edit#heading=h.32nscii6jiop)
 * [Let's Encrypt](https://letsencrypt.org/docs/): Let’s Encrypt is a Certificate Authority (CA).
+  * [Secure Your Website with free SSL cert from Let's Encrypt!](https://youtu.be/l3glAcoW5OM)
 * [Linux man openssl command](https://linux.die.net/man/1/openssl)
   * [genrsa](https://linux.die.net/man/1/genrsa) generate an RSA private key
   * [req](https://linux.die.net/man/1/req)  certificate request and certificate generating utility.
