@@ -11,6 +11,8 @@
     - [Presentaciones en GitHub (gh-pages)](https://ull-esit-sytw-1617.github.io/presentaciones-todos/)
     - [Repo con las presentaciones](https://github.com/ULL-ESIT-SYTW-1617/presentaciones-todos)
   * [GitHub](apuntes/github/README.md)
+    * [GitHub for Poets](apuntes/github/poets/README.md)
+    * [GitHub Projects](apuntes/github/projects/README.md)
   * [Gulp](apuntes/gulp/README.md)
     * [gulp gh pages](apuntes/gulp/gulpghpages.md)
     * [gulp-linting](apuntes/gulp/gulplinting.md)
