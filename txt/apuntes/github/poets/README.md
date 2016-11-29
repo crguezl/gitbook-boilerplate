@@ -10,3 +10,10 @@ Autor: [Daniel Shifman](http://shiffman.net/)
 6. [Cloning Repo and Push/Pull - Git and GitHub for Poets](https://youtu.be/yXT1ElMEkW8)
 7. [git init and git add - Git and GitHub for Poets](https://youtu.be/9p2d-CuVlgc)
 8. [GitHub Pages - Git and GitHub for Poets](https://youtu.be/bFVtrlyH-kc)
+
+
+## Git and Github for Windows
+
+* [Git for Windows](https://git-for-windows.github.io/)
+* [GitHub Desktop](https://desktop.github.com/)
+* [How to Install and Configure Git and GitHub on Windows](https://youtu.be/J_Clau1bYco) YouTube
