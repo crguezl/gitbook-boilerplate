@@ -211,7 +211,7 @@ are unable to read or modify any requests that they may intercept.
   - .key This is a PEM formatted file containing just the private-key of a specific certificate and is merely a conventional name and not a standardized one
   - .cert .cer .crt A .pem formatted file with a different extension
 
-### Recursos: Certificados
+### Recursos: Certificados y Firma Digital
 
 * [Certificados SSL para máquinas IaaS de PAS/PDI](https://docs.google.com/document/d/1noIAcAEzX1PuxxSLWuiTKzkLurAm9fL6vUmZN-A-kpE/edit#heading=h.32nscii6jiop)
 * [Let's Encrypt](https://letsencrypt.org/docs/): Let’s Encrypt is a Certificate Authority (CA).
