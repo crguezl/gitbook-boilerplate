@@ -6,6 +6,9 @@
   * [Sistemas y Tecnologías Web: Organización en GitHub](https://github.com/ULL-ESIT-SYTW-1617)
   * [Sistemas y Tecnologías Web: GitHub Classroom](https://classroom.github.com/classrooms/19915164-ull-esit-sytw-1617)
   * [Presentaciones de SYTW 16/17](https://casianorodriguezleon.gitbooks.io/presentaciones-de-sytw-2016-2017/content/)
+* [Elaboración de material docente con gitbook](https://campusvirtual.ull.es/formacion/course/view.php?id=2444)
+  * [Organización GitHub ULL-PFPDI-GITBOOK-1617](https://github.com/orgs/ULL-PFPDI-GITBOOK-1617)
+  * [Classroom para este curso ULL-PFPDI-GITBOOK-1617](https://classroom.github.com/classrooms/24248551-ull-pfpdi-gitbook-1617)
 * Procesadores de Lenguajes
 * Desarrollo de Sistemas Informáticos
 
