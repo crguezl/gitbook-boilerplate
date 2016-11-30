@@ -10,8 +10,6 @@
         "sectionx",
         "code-highlighter",
         "-ace", 
-        "copy-code-button",
-        "page-toc",
         "-toc",
         "-latex-codecogs",
         "-emphasize",

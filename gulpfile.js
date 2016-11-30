@@ -61,7 +61,7 @@ gulp.task('build', function() {
 
 // "serve": "gitbook serve txt gh-pages",
 gulp.task('serve', function() {
-  return gulp.src('').pipe(shell(['gitbook serve `pwd` gh-pages']));
+  return gulp.src('').pipe(shell(['gitbook serve --lrport 99990 --port 43210 `pwd` gh-pages']));
 });
 
 

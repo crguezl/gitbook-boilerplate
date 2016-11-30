@@ -33,9 +33,12 @@
   - Section plugin (gitbook-plugin-sectionx).
   - Multiple-choice plugin (gitbook-plugin-mcqx).
   - Fill-in-the-blank plugin (gitbook-plugin-fbqx).
-  - Ace (code editor) plugin (gitbook-plugin-ace).
+  - Ace (code editor) plugin (gitbook-plugin-ace). Obsoleto? Parece dar problemas.
+  - page-toc: da problemas. Salen chivatos en la página HTML
 
 ## Tópicos y Preguntas
 
 * [Highlighting Rows In Code Blocks #433](https://github.com/GitbookIO/gitbook/issues/433)
   * [Code Highlighter plugin](https://plugins.gitbook.com/plugin/code-highlighter)
+* Killing the server
+  - On Mac:  `lsof -n -i4TCP:35729 | grep LISTEN` or `lsof -n -iTCP:$PORT | grep LISTEN` or `lsof -n -i:$PORT | grep LISTEN`
