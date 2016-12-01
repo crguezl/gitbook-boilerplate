@@ -35,6 +35,7 @@
   - Fill-in-the-blank plugin (gitbook-plugin-fbqx).
   - Ace (code editor) plugin (gitbook-plugin-ace). Obsoleto? Parece dar problemas.
   - page-toc: da problemas. Salen chivatos en la página HTML
+  - copy-code-button: quizá sea este el que da problemas. Salen chivatos en la página HTML
 
 ## Tópicos y Preguntas
 
