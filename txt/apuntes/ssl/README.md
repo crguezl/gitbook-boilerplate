@@ -221,9 +221,12 @@ are unable to read or modify any requests that they may intercept.
   * [req](https://linux.die.net/man/1/req)  certificate request and certificate generating utility.
   * [x509 - Certificate display and signing utility](https://linux.die.net/man/1/x509)
 * [sede.ull.es](sede.ull.es)
-  - Cree una solicitud y solicite la firma de los implicados y la suya propia
+  - Crea una solicitud y solicita la firma de los implicados y la tuya propia. 
+  - Dirige la solicitud a OTROS y en la caja pon tu nombre
+  - Asegúrate de ser el último en firmar, así podrás tener acceso al botón de descargar documento
 * [portafirmas digital](https://sede.ull.es/ecivilis-signature-inbox-application/inbox.html)
-  - El botón enviar permite enviar el documento a otra persona la cual deberá a su vez enviar el documento a un segundo firmante
+  - El botón enviar permite enviar el documento a otra persona la cual deberá a su vez enviar el documento a un segundo firmante, etc. 
+  - botón `enviar`
 
 
 
