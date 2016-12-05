@@ -1,6 +1,6 @@
 # Apuntes
 
-* [Programación para no programadores](programmingforchildren/README.md)
+* [Programación para No Programadores](programmingforchildren/README.md)
 * [Gulp](gulp/README.md)
 * [Creación de Paquetes y Módulos en NodeJS](nodejspackages.md)
 * [Sobre GitBook](gitbooknotes/README.md)
