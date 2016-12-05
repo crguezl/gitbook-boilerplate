@@ -6,5 +6,15 @@
 * [File System/Sistema de Archivos](gitbooknotes/fs.md)
 * [Procesamiento de la línea de comandos](argumentos/README.md)
 * [Colaboración](colaboracion/README.md)  
-
+* [Authentication](authentication/README.md)
+* [Chromeapps](chromeapps/README.md)
+* [Colaboracion](colaboracion/README.md)
+* [Bases de Datos](db/README.md)
+* [Express](express/README.md)
+* [Github](github/README.md)
+* [Patterns](patterns/README.md)
+* [Processes](processes/README.md)
+* [Rest](rest/README.md)
+* [SSL](ssl/README.md)
+* [Streaming](streaming/README.md)
 <!-- toc -->

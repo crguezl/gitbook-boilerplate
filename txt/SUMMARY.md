@@ -39,6 +39,7 @@
     * [Mongo](apuntes/db/mongo/README.md)
       * [MongoDB](apuntes/db/mongo/mongodb.md)
       * [Mongoose](apuntes/db/mongo/mongoose.md)
+  * [Chrome Apps](apuntes/chromeapps/README.md)
 * [Repasos](repasos/README.md)
 * [Recursos](recursos/README.md)
   * [GitHub Education](recursos/README.md#github-education)
