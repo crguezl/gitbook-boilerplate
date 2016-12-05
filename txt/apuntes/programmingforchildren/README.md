@@ -15,4 +15,5 @@ diseñado para estudiantes de edad escolar media.
 * [CodeCombat](https://codecombat.com): CodeCombat es una plataforma para que los estudiantes aprendan ciencia de la computación mientras juegan a un juego real.
 * [Figth Code Game](http://beta.fightcodegame.com/): Code your Own Robot using JavaScript. El juego no enseña a programar en Javascript, por lo que es mejor tener algunos conocimientos antes de empezar a configurar nuestro robot. Una vez tenemos nuestro robot listo, lo pondremos a prueba luchando contra los robots de otros usuarios.
 * [Curso de JavaScript en CodeAcademy](https://www.codecademy.com/es/tracks/javascript-traduccion-al-espanol-america-latina-clone)
+* [Curso de JavaScript para Principiantes](https://www.youtube.com/results?sp=SBTqAwA%253D&q=javascript+para+principiantes)
 * Introducción a la Estadistica: [Data Maven](http://www.crunchzilla.com/data-maven)
