@@ -6,6 +6,7 @@
   * [Instrucciones para la evaluación](instrucciones/instruccionesparalaevaluacion.md)
   * [Instrucciones para las Presentaciones de SYTW](instrucciones/instruccionesparalaspresentaciones.md)
 * [Apuntes](apuntes/README.md)
+  * [Programación para no programadores](apuntes/programmingforchildren/README.md)
   * [Presentaciones de SYTW 16/17](https://casianorodriguezleon.gitbooks.io/presentaciones-de-sytw-2016-2017/content/)
     - [Presentaciones de SYTW en GitBook](https://casianorodriguezleon.gitbooks.io/presentaciones-de-sytw-2016-2017/content/)
     - [Presentaciones de SYTW en GitHub (gh-pages)](https://ull-esit-sytw-1617.github.io/presentaciones-todos/)
