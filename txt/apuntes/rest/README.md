@@ -79,3 +79,4 @@ API Client for GitBook
 ## GraphQL
 
 * [Zero to GraphQL in 30 Minutes – Steven Luscher](https://youtu.be/UBGzsb2UkeY)
+  - {% youtube %}https://youtu.be/UBGzsb2UkeY{% endyoutube %}
