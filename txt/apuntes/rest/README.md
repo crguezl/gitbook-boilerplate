@@ -74,3 +74,8 @@ API Client for GitBook
 * [Heroku API reference](https://devcenter.heroku.com/articles/platform-api-reference)
 * [A wrapper around the Heroku API for Node.js https://npmjs.org/package/heroku-client](https://github.com/heroku/node-heroku-client)
 * [Create a Web App and RESTful API Server Using the MEAN Stack](https://devcenter.heroku.com/articles/mean-apps-restful-api)
+
+
+## GraphQL
+
+* [Zero to GraphQL in 30 Minutes – Steven Luscher](https://youtu.be/UBGzsb2UkeY)
