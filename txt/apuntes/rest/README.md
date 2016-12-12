@@ -78,5 +78,20 @@ API Client for GitBook
 
 ## GraphQL
 
+GraphQL tries to improve the way clients communicate with remote
+systems. An Application Programming Interface. As such, it’s a
+direct replacement for REST.
+
+GraphQL is a query language for your API, and a server-side runtime
+for executing queries by using a type system you define for your
+data. GraphQL isn't tied to any specific database or storage engine
+and is instead backed by your existing code and data.
+
 * [Zero to GraphQL in 30 Minutes – Steven Luscher](https://youtu.be/UBGzsb2UkeY)
   - {% youtube %}https://youtu.be/UBGzsb2UkeY{% endyoutube %}
+* [Introduction to GraphQL](http://graphql.org/learn/)
+* [GraphQL Introduction](https://facebook.github.io/react/blog/2015/05/01/graphql-introduction.html?utm_source=tuicool)
+* [Introduction to GraphQL](https://learngraphql.com/basics/introduction)
+* [Apollo Client: A flexible, fully-featured GraphQL client for every platform](http://dev.apollodata.com/)
+* [The GitHub GraphQL API](http://githubengineering.com/the-github-graphql-api/)
+* [GraphQL in the age of REST APIs](https://medium.com/chute-engineering/graphql-in-the-age-of-rest-apis-b10f2bf09bba#.vhl63c56v)
