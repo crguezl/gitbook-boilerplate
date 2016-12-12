@@ -210,6 +210,8 @@ are unable to read or modify any requests that they may intercept.
   - .pem Privacy Enhanced Mail 
   - .key This is a PEM formatted file containing just the private-key of a specific certificate and is merely a conventional name and not a standardized one
   - .cert .cer .crt A .pem formatted file with a different extension
+  - [Candelaria Hernández Goya y Pino Caballero Gil (ULL): Uso de Certificados Digitales con OpenSSL](OpenSSLManejoCertificados.pdf)
+  - [Candelaria Hernández Goya y Pino Caballero Gil (ULL): Creación de una Autoridad Certificadora (CA) con OpenSSL](GeneracionCertificadosOpenSSL.pdf)
 
 ### Recursos: Certificados y Firma Digital
 
