@@ -30,7 +30,7 @@
     * [Strategy Pattern](/apuntes/patterns/strategypattern.md)
     * [Dependency Injection Pattern](/apuntes/patterns/dependencyinjectionpattern.md)
     * [Inversion of Control Pattern](apuntes/patterns/inversionofcontrolpattern.md)
-  * [Arquitectura REST y REST APIs](apuntes/rest/README.md)
+  * [Arquitectura REST, REST APIs y GraphQL](apuntes/rest/README.md)
     * [Getting Started with the GitHub API](apuntes/rest/githubapitutorial.md)
   * [Authentication](apuntes/authentication/README.md)
   * [SSL](apuntes/ssl/README.md)
