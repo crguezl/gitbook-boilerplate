@@ -38,3 +38,5 @@
   - The client generates a random key to be used for the main, symmetric algorithm. 
     - It encrypts it using an algorithm also agreed upon during the Hello phase, and the server’s public key (found on its SSL certificate). 
     - It sends this encrypted key to the server, where it is decrypted using the server’s private key, and the interesting parts of the [handshake](http://www.dictionary.com/browse/handshake) are complete. 
+* ¿Que tipo de cifrado se utiliza una vez que a finalizado con éxito la fase de handshake?
+  - The parties are sufficiently happy that they are talking to the right person, and have secretly agreed on a key to symmetrically encrypt the data that they are about to send each other. 

@@ -24,7 +24,8 @@ An SSL connection between a client and server is set up by a [handshake](http://
 - For the parties to have agreed on a *[cipher suite](https://en.wikipedia.org/wiki/Cipher_suite)*, which includes which encryption algorithm they will use to exchange data
 - For the parties to have agreed on any necessary keys for this algorithm
 
-Once the connection is established, both parties can use the agreed algorithm and keys to securely send messages to each other. We will break the [handshake](http://www.dictionary.com/browse/handshake) up into 3 main phases 
+Once the connection is established, both parties can use the agreed algorithm and keys to securely send messages to each other. 
+We will break the [handshake](http://www.dictionary.com/browse/handshake) up into 3 main phases 
  *Hello, Certificate Exchange and Key Exchange*
 
 ![SSL handshake](http://cdn.inmotionhosting.com/support/images/stories/edu/ssl/secure-connection-illustration.png)| 
@@ -218,6 +219,7 @@ are unable to read or modify any requests that they may intercept.
 * [Certificados SSL para máquinas IaaS de PAS/PDI](https://docs.google.com/document/d/1noIAcAEzX1PuxxSLWuiTKzkLurAm9fL6vUmZN-A-kpE/edit#heading=h.32nscii6jiop)
 * [Let's Encrypt](https://letsencrypt.org/docs/): Let’s Encrypt is a Certificate Authority (CA).
   * [Secure Your Website with free SSL cert from Let's Encrypt!](https://youtu.be/l3glAcoW5OM)
+* [CAcert.org es una autoridad certificadora dirigida por la comunidad que emite certificados gratuitos al público](http://www.cacert.org/)
 * [Linux man openssl command](https://linux.die.net/man/1/openssl)
   * [genrsa](https://linux.die.net/man/1/genrsa) generate an RSA private key
   * [req](https://linux.die.net/man/1/req)  certificate request and certificate generating utility.
