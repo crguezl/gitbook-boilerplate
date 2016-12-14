@@ -687,6 +687,8 @@ ficheros cargados en los navegadores?
 
 !INCLUDE "rest.md"
 
+## Preguntas de HTTPS
 !INCLUDE "https.md"
 
+## Preguntas de Passport
 !INCLUDE "passport.md"
