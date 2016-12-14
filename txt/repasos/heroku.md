@@ -30,7 +30,7 @@
     express.js que va a ser desplegada en Heroku?
 10. Explique los pasos para desplegar una aplicación en Heroku
 11. Explique como resolver los problemas que pueden surgir cuando la aplicación desplegada en Heroku no funciona correctamente
-12. [¿Como genero un token para hacer uso de la API de Heroku?](../recursos/heroku.md)
+12. [¿Como consulto el token para hacer uso de la API de Heroku?](../recursos/heroku.md)
 13. [¿Cómo creo una app en Heroku usando la API de Heroku?](../recursos/heroku.md)
   - [Véase](https://devcenter.heroku.com/articles/setting-up-apps-using-the-heroku-platform-api#creating-an-app-setup)
   - With a source tarball, which contains an app.json, call the https://api.heroku.com/app-setups endpoint to setup the app.json enabled application on Heroku. The request body must contain a source URL that points to the tarball of your application’s source code.
