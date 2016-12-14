@@ -40,3 +40,15 @@
     - It sends this encrypted key to the server, where it is decrypted using the server’s private key, and the interesting parts of the [handshake](http://www.dictionary.com/browse/handshake) are complete. 
 * ¿Que tipo de cifrado se utiliza una vez que a finalizado con éxito la fase de handshake?
   - The parties are sufficiently happy that they are talking to the right person, and have secretly agreed on a key to symmetrically encrypt the data that they are about to send each other. 
+* ¿Cuales son las dos razones por las que podríamos confiar en un certificado SSL?
+  * There are 2 sensible reasons why you might trust a certificate:
+    * If it’s on a list of certificates that you trust implicitly
+    * If it’s able to prove that it is trusted by the controller of one of the certificates on the above list
+      * The first criteria is easy to check. Your browser has a pre-installed list of trusted SSL certificates from Certificate Authorities (CAs) that you can view, add and remove from. 
+      * These certificates are controlled by a centralised group of (in theory, and generally in practice) extremely secure, reliable and trustworthy organisations like 
+        - [Let's Encrypt](https://letsencrypt.org/) (Let’s Encrypt is a free, automated, and open Certificate Authority),
+        - [CAcert.org es una autoridad certificadora dirigida por la comunidad que emite certificados gratuitos al público](http://www.cacert.org/)
+        - Symantec, 
+        - Comodo and 
+        - GoDaddy. 
+* Describa como funciona una firma digital
