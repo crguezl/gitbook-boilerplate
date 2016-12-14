@@ -69,9 +69,17 @@
     - If it is legit, Symantec will have used their (ultra-secret) private key to generate the server’s SSL certificate’s digital signature, and so your browser use can use their (ultra-public) public key to check that this signature is valid. 
     - Symantec will have taken steps to ensure the organisation they are signing for really does own Microsoft.com, and so given that your client trusts Symantec, it can be sure that it really is talking to Microsoft Inc.
     ![digital signature](http://www.hill2dot0.com/wiki/images/f/ff/Digital_Signature.jpg)
-* Pueden en un coffee shop conocer los contenidos de mi tráfico HTTPS sobre su red?
+* Pueden en un coffee shop conocer los contenidos de mi tráfico HTTPS desde mi portátil sobre su red?
   * Nope. 
     - The magic of public-key cryptography means that an attacker can watch every single byte of data exchanged between your client and the server and still have no idea what you are saying to each other beyond roughly how much data you are exchanging. 
     - However, your normal HTTP traffic is still very vulnerable on an insecure wi-fi network, and a flimsy website can fall victim to any number of workarounds that somehow trick you into sending HTTPS traffic either over plain HTTP or just to the wrong place completely. 
     - For example, even if a login form submits a username/password combo over HTTPS, if the form itself is loaded insecurely over HTTP then an attacker could intercept the form’s HTML on its way to your machine and modify it to send the login details to their own endpoint.
+* Puede mi empresa conocer los conteidos de mi tráfico HTTPS sobre la red cuando uso la máquina que me proveen?
+  * If you are also using a machine controlled by your company, then yes. 
+    - Remember that at the root of every chain of trust lies an implicitly trusted CA, and that a list of these authorities is stored in your browser. 
+    - Your company could use their access to your machine to **add their own self-signed certificate to this list of CAs**. 
+    - They could then intercept all of your HTTPS requests, presenting certificates claiming to represent the appropriate website, signed by their fake-CA and therefore unquestioningly trusted by your browser. 
+    - Since you would be encrypting all of your HTTPS requests using their dodgy certificate’s public key, they could use the corresponding private key to decrypt and inspect (even modify) your request, and then send it onto it’s intended location. 
+    - They probably don’t. But they could.
+  * Incidentally, this is also how you use a proxy to inspect and modify the otherwise inaccessible [HTTPS requests made by an iPhone app](http://nickfishman.com/post/50557873036/reverse-engineering-native-apps-by-intercepting-network).
 
