@@ -52,3 +52,20 @@
         - Comodo and 
         - GoDaddy. 
 * Describa como funciona una firma digital
+  * As already noted, SSL certificates have an associated public/private key pair
+    *  The public key is distributed as part of the certificate, and the private key is kept incredibly safely guarded
+    *  This pair of asymmetric keys is used in the SSL [handshake](http://www.dictionary.com/browse/handshake) to exchange a further key for both parties to symmetrically encrypt and decrypt data
+    *  **The client uses the server’s public key to encrypt the symmetric key and send it securely to the server, and the server uses its private key to decrypt it**
+      - ![digital signature](https://raviranjankr.files.wordpress.com/2012/08/asymmetric-encryption.gif)
+    *  Anyone can encrypt using the public key, but only the server can decrypt using the private key
+  * The opposite is true for a digital signature. 
+    - A certificate can be *"signed"* by another authority, [whereby](https://www.google.es/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=define%20whereby) the authority effectively goes on record as saying
+    
+     *"We have verified that the controller of this certificate also controls the property (domain) listed on the certificate"*. 
+    - In this case the authority uses their private key to (broadly speaking) encrypt the contents of the certificate, and this cipher text is attached to the certificate as its digital signature. 
+    - Anyone can decrypt this signature using the authority’s public key, and verify that it results in the expected decrypted value. 
+    - But only the authority can encrypt content using the private key, and so only the authority can actually create a valid signature in the first place.
+  * So if a server comes along claiming to have a certificate for Microsoft.com that is signed by Symantec (or some other CA), your browser doesn’t have to take its word for it. 
+    - If it is legit, Symantec will have used their (ultra-secret) private key to generate the server’s SSL certificate’s digital signature, and so your browser use can use their (ultra-public) public key to check that this signature is valid. 
+    - Symantec will have taken steps to ensure the organisation they are signing for really does own Microsoft.com, and so given that your client trusts Symantec, it can be sure that it really is talking to Microsoft Inc.
+    ![digital signature](http://www.hill2dot0.com/wiki/images/f/ff/Digital_Signature.jpg)
