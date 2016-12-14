@@ -32,3 +32,12 @@
 11. Explique como resolver los problemas que pueden surgir cuando la aplicación desplegada en Heroku no funciona correctamente
 12. [¿Como genero un token para hacer uso de la API de Heroku?](../recursos/heroku.md)
 13. [¿Cómo creo una app en Heroku usando la API de Heroku?](../recursos/heroku.md)
+  - [Véase](https://devcenter.heroku.com/articles/setting-up-apps-using-the-heroku-platform-api#creating-an-app-setup)
+  - With a source tarball, which contains an app.json, call the https://api.heroku.com/app-setups endpoint to setup the app.json enabled application on Heroku. The request body must contain a source URL that points to the tarball of your application’s source code.
+  - Let’s use cURL to call the app-setups endpoint:
+    ```
+    $ curl -n -X POST https://api.heroku.com/app-setups \
+    -H "Content-Type:application/json" \
+    -H "Accept:application/vnd.heroku+json; version=3" \
+    -d '{"source_blob": { "url":"https://github.com/heroku/ruby-rails-sample/tarball/master/"} }'
+    ```
