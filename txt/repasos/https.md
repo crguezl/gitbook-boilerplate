@@ -74,7 +74,7 @@
     - The magic of public-key cryptography means that an attacker can watch every single byte of data exchanged between your client and the server and still have no idea what you are saying to each other beyond roughly how much data you are exchanging. 
     - However, your normal HTTP traffic is still very vulnerable on an insecure wi-fi network, and a flimsy website can fall victim to any number of workarounds that somehow trick you into sending HTTPS traffic either over plain HTTP or just to the wrong place completely. 
     - For example, even if a login form submits a username/password combo over HTTPS, if the form itself is loaded insecurely over HTTP then an attacker could intercept the form’s HTML on its way to your machine and modify it to send the login details to their own endpoint.
-* Puede mi empresa conocer los conteidos de mi tráfico HTTPS sobre la red cuando uso la máquina que me proveen?
+* Puede mi empresa conocer los contenidos de mi tráfico HTTPS sobre la red cuando uso la máquina que me proveen?
   * If you are also using a machine controlled by your company, then yes. 
     - Remember that at the root of every chain of trust lies an implicitly trusted CA, and that a list of these authorities is stored in your browser. 
     - Your company could use their access to your machine to **add their own self-signed certificate to this list of CAs**. 
