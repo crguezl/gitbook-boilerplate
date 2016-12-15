@@ -41,6 +41,7 @@
       * [MongoDB](apuntes/db/mongo/mongodb.md)
       * [Mongoose](apuntes/db/mongo/mongoose.md)
   * [Chrome Apps](apuntes/chromeapps/README.md)
+  * [React](apuntes/react/README.md)
   * [Meteor](apuntes/meteor/README.md)
 * [Repasos](repasos/README.md)
 * [Recursos](recursos/README.md)
