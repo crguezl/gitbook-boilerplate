@@ -9,6 +9,8 @@ que permita realizar el despliegue en Heroku con un simple `gulp deploy-heroku`.
 
 **En esta práctica se pide desarrollar el plugin para Heroku**
 
+IDEA: En esta  práctica los *teams* trabajaran en pares de *teams* A y B. Los del  *team* A usarán el `gitbook-start` del *team* B y los del *team* B usarán el `gitbook-start` del *team* A. 
+
 #### Punto de partida
 
 El paquete se construye a partir de la [Práctica: Nueva funcionalidad para el Paquete NPM: plugins](practicaplugin.md).
