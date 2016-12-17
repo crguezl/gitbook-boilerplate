@@ -14,6 +14,10 @@
     3. Redirect URI or Callback URL
 *  ¿Que se debe poner en *Redirect URI or Callback URL* cuandos e está registrando nuestra aplicación?
   - The redirect URI is where the service will redirect the user after they authorize (or deny) your application, and therefore the part of your application that will handle authorization codes or access tokens.
+* Una vez que registramos la aplicación, el servicio provee las credenciales del cliente. ¿En que consisten esas credenciales?
+  - Once your application is registered, the service will issue client credentials in the form of a client identifier and a client secret.
+  - The Client ID is a publicly exposed string that is used by the service API to identify the application, and is also used to build authorization URLs that are presented to users.
+  - The Client Secret is used to authenticate the identity of the application to the service API when the application requests to access a user's account, and must be kept private between the application and the API.
 * ¿Que es *passport*, que funcionalidades provee  y como funciona?
   - Passport is authentication middleware for Node.js. Extremely flexible and modular, Passport can be unobtrusively dropped in to any Express-based web application. A comprehensive set of strategies support authentication using a username and password, Facebook, Twitter, and more.
 * 
