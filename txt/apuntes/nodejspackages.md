@@ -24,3 +24,10 @@ using simple examples](https://darrenderidder.github.io/talks/ModulePatterns)
 ### Package.json
 
 * [Package.json documentation en npm site](https://docs.npmjs.com/files/package.json)
+
+## Creación de Paquetes en el Cliente
+
+* [bower](https://bower.io/)
+* [webpack](http://webpack.github.io/docs/motivation.html)
+* [yarn](https://code.facebook.com/posts/1840075619545360)
+* [browserify](http://browserify.org/)
