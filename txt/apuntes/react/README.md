@@ -7,3 +7,5 @@ existing code
 
 * [React Docs](https://facebook.github.io/react/docs/hello-world.html)
 * [Tutorial: TicTacToe en React](https://facebook.github.io/react/tutorial/tutorial.html)
+
+1. [REACT JS TUTORIAL #1 - Reactjs Javascript Introduction & Workspace Setup](https://youtu.be/MhkGQAoc7bc)

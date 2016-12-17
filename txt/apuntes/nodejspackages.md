@@ -29,5 +29,6 @@ using simple examples](https://darrenderidder.github.io/talks/ModulePatterns)
 
 * [bower](https://bower.io/)
 * [webpack](http://webpack.github.io/docs/motivation.html)
+  - [Webpack Tutorial - Replace Gulp/Grunt plugins with a single tool. LearnCode.academy](https://youtu.be/9kJVYpOqcVU) YouTube
 * [yarn](https://code.facebook.com/posts/1840075619545360)
 * [browserify](http://browserify.org/)
