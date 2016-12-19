@@ -19,36 +19,68 @@
   - The Client Secret is used to authenticate the identity of the application to the service API when the application requests to access a user's account, and must be kept private between the application and the API.
 * ¿Que es *passport*, que funcionalidades provee  y como funciona?
   - Passport is authentication middleware for Node.js. Extremely flexible and modular, Passport can be unobtrusively dropped in to any Express-based web application. A comprehensive set of strategies support authentication using a username and password, Facebook, Twitter, and more.
-*  REllene las partes que faltan:
-```javascript
-var passport = require('passport');
-var Strategy = require('passport-github').Strategy;
-var github = require('octonode');
-....
-var datos_config = JSON.parse(JSON.stringify(config));
+*  Rellene las partes que faltan:
+  ```javascript
+  var passport = require('passport');
+  var Strategy = require('_______________').Strategy;
+  var github = require('octonode');
+  ....
+  var datos_config = JSON.parse(JSON.stringify(config));
 
-passport.use(new Strategy({
-    clientID: datos_config.clientID,
-    clientSecret: datos_config.clientSecret,
-    callbackURL: callbackURL_
-  },
-  function(accessToken, refreshToken, profile, cb) {
+  passport.use(new Strategy({
+      clientID: datos_config.clientID,
+      clientSecret: datos_config.clientSecret,
+      callbackURL: callbackURL_
+    },
+    function(accessToken, refreshToken, profile, cb) {
 
-      var token = datos_config.token;
-      var client = github.client(token);
+        var token = datos_config.token;
+        var client = github.client(_____);
 
-      var ghorg = client.org('ULL-ESIT-SYTW-1617');
+        var ghorg = client.___('ULL-ESIT-SYTW-1617');
 
-      ghorg.member(profile.username, (err,result) =>
-      {
-          if(err) console.log(err);
-          console.log("Result:"+result);
-          if(result == true)
-            return cb(null, profile);
-          else {
-            return cb(null,null);
-          }
-      });
-    // return cb(null, profile);
-}));
-```
+        ghorg.______(profile.username, (err,result) =>
+        {
+            if(err) console.log(err);
+            console.log("Result:"+result);
+            if(result == true)
+              return cb(null, profile);
+            else {
+              return cb(null,null);
+            }
+        });
+  }));
+  ```
+  - Respuesta
+  ```javascript
+  var passport = require('passport');
+  var Strategy = require('passport-github').Strategy;
+  var github = require('octonode');
+  ....
+  var datos_config = JSON.parse(JSON.stringify(config));
+
+  passport.use(new Strategy({
+      clientID: datos_config.clientID,
+      clientSecret: datos_config.clientSecret,
+      callbackURL: callbackURL_
+    },
+    function(accessToken, refreshToken, profile, cb) {
+
+        var token = datos_config.token;
+        var client = github.client(token);
+
+        var ghorg = client.org('ULL-ESIT-SYTW-1617');
+
+        ghorg.member(profile.username, (err,result) =>
+        {
+            if(err) console.log(err);
+            console.log("Result:"+result);
+            if(result == true)
+              return cb(null, profile);
+            else {
+              return cb(null,null);
+            }
+        });
+      // return cb(null, profile);
+  }));
+  ```
