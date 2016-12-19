@@ -19,8 +19,8 @@
   - The Client Secret is used to authenticate the identity of the application to the service API when the application requests to access a user's account, and must be kept private between the application and the API.
 * ¿Que es *passport*, que funcionalidades provee  y como funciona?
   - Passport is authentication middleware for Node.js. Extremely flexible and modular, Passport can be unobtrusively dropped in to any Express-based web application. A comprehensive set of strategies support authentication using a username and password, Facebook, Twitter, and more.
-* 
-```
+*  REllene las partes que faltan:
+```javascript
 var passport = require('passport');
 var Strategy = require('passport-github').Strategy;
 var github = require('octonode');
