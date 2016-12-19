@@ -52,7 +52,8 @@
         });
   }));
   ```
-  - Respuesta
+  - Respuesta:
+
   ```javascript
   var passport = require('passport');
   var Strategy = require('passport-github').Strategy;
