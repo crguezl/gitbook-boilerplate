@@ -88,6 +88,8 @@ gulp.task('exam', function() {
       'pandoc txt/repasos/ssh.md -o examenes/ssh.tex',
       'pandoc txt/repasos/heroku.md -o examenes/heroku.tex',
       'pandoc txt/repasos/rest.md -o examenes/rest.tex',
+      'pandoc txt/repasos/https.md -o examenes/https.tex',
+      'pandoc txt/repasos/passport.md -o examenes/passport.tex',
       'cd examenes; pdflatex template.tex examen.pdf'
   ]));
 });
