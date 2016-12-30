@@ -25,6 +25,7 @@
   - {% youtube %}https://youtu.be/7FsJ7CKG-DM{% endyoutube %}
 * [A GitBook Introduction](https://youtu.be/X_npbLCNuSo)
   - {% youtube %}https://youtu.be/X_npbLCNuSo{% endyoutube %}
+* [GitBook intro in OpenSuse](https://youtu.be/X_npbLCNuSo)
 ## Plugins
 
 * [Plugins for GitBook](https://plugins.gitbook.com/)
