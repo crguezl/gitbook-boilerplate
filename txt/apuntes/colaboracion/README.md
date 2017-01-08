@@ -22,6 +22,8 @@
 * [GitHub And Trello: Integrate Your Commits](http://blog.trello.com/github-and-trello-integrate-your-commits)
 
 ### Agile y Trello
+* [11 Trello Tips and Workflow Features for Programmers](http://www.makeuseof.com/tag/11-trello-tips-workflow-features-programmers/)
+* [Using Trello for Agile Software Development: The Complete Guide](http://buildbettersoftware.com/trello-for-software-development)
 * [Webinar: Agile Workflows In Trello](https://youtu.be/EEmJ0MevgWw)
 * [Trello Agile Series: The Sprint Board](https://youtu.be/pFbVxXOvQ8I)
 * [Trello Agile Series: The Sprint Board](https://youtu.be/AfEsT_q5I50)
