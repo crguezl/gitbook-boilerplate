@@ -13,8 +13,12 @@
 
 {% youtube %}https://youtu.be/sELoj6e1ffM{% endyoutube %}
 
+### Semantic versioning and npm
+
+* [Semantic versioning and npm](https://docs.npmjs.com/getting-started/semantic-versioning)
+
 ### Referencias
-* [Existe un paquete que aydua en la automización del proceso: release-it](https://github.com/webpro/release-it)
+* [Existe un paquete que ayuda en la automización del proceso: release-it](https://github.com/webpro/release-it)
 * [Your first Node.js package  por Elijah Insua](https://nodesource.com/blog/your-first-nodejs-package/)
 * [Creating and Publishing a Node.js Module](https://quickleft.com/blog/creating-and-publishing-a-node-js-module/) por Brent Ertz
 * [npm documentation: Creating Node.js modules](https://docs.npmjs.com/getting-started/creating-node-modules)
