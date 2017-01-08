@@ -6,7 +6,8 @@
 
 ### Publishing npm Packages
 
-{% youtube  %}https://youtu.be/BkotrAFtBM0{% endyoutube %}
+* [Publishing npm packages tutorial](https://docs.npmjs.com/getting-started/publishing-npm-packages)
+* {% youtube  %}https://youtu.be/BkotrAFtBM0{% endyoutube %}
 
 ### Node js Tutorial: How to create NPM package?
 
