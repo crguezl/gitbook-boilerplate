@@ -1,6 +1,6 @@
 ### Como Enviar las Tareas
 
-*  Lea las [Instrucciones para los envíos de tareas](../instrucciones/README.md)
+*  Lea las [Instrucciones para los envíos de tareas](../instrucciones/README.md) en esta asignatura
 
 ### NodeJS
 
@@ -39,7 +39,7 @@
   * que son las gh-pages y como se utilizan,
   * como se usa el módulo [gh-pages](https://www.npmjs.com/package/gh-pages) para automatizar el despliegue en `gh-pages`
   * como se despliega un libro en [www.gitbook.com](www.gitbook.com),
-  *  Crea un tutorial - escríbelo en formato [Markdown](https://en.wikipedia.org/wiki/Markdown) - sobre la realización de esta práctica incluyendo el proceso de instalación de nodeJS, de git, pandoc etc. en tu máquina- Incluye capturas de pantalla.
+  * Instale [GitBook Desktop](https://www.gitbook.com/editor)
 
 ### Pandoc
 
@@ -47,6 +47,8 @@
 
 ### Requisitos
 
+*  Crea un tutorial - escríbelo en GotBook - sobre la realización de esta práctica incluyendo el proceso de instalación de nodeJS, de git, pandoc etc. en tu máquina- Incluye capturas de pantalla
+  - Hagan una jerarquía de directorios por capítulos repartiendo capítulos entre los miembros del equipo
 *   Publícalo como libro en GitBook y en GitHub usando [gh-pages](https://pages.github.com/).  
 *   Deberán hacerse "issues" utilizando los "issues" de GitHub
 *   Deberá hacerse un proyecto GitHub asociado al repo para gestionar las tareas
