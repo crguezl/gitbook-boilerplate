@@ -8,6 +8,7 @@
 
 ## Documentación
 
+* [Nustros apuntes sobre GitBook](https://casianorodriguezleon.gitbooks.io/elaboracion-de-material-docente-con-gitbook)
 * [Gitboook help center](https://help.gitbook.com/)
 * [GitBook documentation](https://www.gitbook.com/book/gitbookio/documentation/details)
 * [GitBook Toolchain Documentation](https://toolchain.gitbook.com/): This document aims to be a comprehensive guide to GitBook
