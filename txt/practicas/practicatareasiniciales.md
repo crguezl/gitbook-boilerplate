@@ -5,17 +5,24 @@
 ### NodeJS
 
 *   Instala [node.JS](https://nodejs.org/en/)
-    *   Comprueba que <tt>npm</tt> funciona
+    *   Comprueba que <tt>[npm](https://www.npmjs.com/)</tt> funciona
 
 ### Campus Virtual
 
 *   Pon tu foto en tu [perfil](https://campusvirtual.ull.es/1516/user/profile.php) del campus virtual
 
-### Git y GitHub
+### Git 
 
-*   Instala Git. Si estás en Windows sigue las instrucciones en [GitHub](https://help.github.com/categories/58/articles) para Windows
-*   Abre una cuenta en [GitHub](https://help.github.com/articles/set-up-git) si no la tienes
-*   Si dispones de un Mac o Windows instala [GitHub App](https://desktop.github.com/)
+
+* Instala Git. 
+* [Git for Windows](https://git-scm.com/download/win)
+
+### GitHub
+
+* Abre una cuenta en [GitHub](https://help.github.com/articles/set-up-git) si no la tienes
+* Si dispones de un Mac o Windows instala [GitHub DeskTop](https://desktop.github.com/)
+* Lee el capítulo  de [GitHub](../apuntes/github/README.md) y aprende a usar las gh-pages, los issues, los proyectos ...
+* Instala [hub](https://github.com/github/hub)
 
 ### Editores
 
