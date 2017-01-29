@@ -9,7 +9,9 @@
 * [Elaboración de material docente con gitbook](https://campusvirtual.ull.es/formacion/course/view.php?id=2444)
   * [Organización GitHub ULL-PFPDI-GITBOOK-1617](https://github.com/orgs/ULL-PFPDI-GITBOOK-1617)
   * [Classroom para este curso ULL-PFPDI-GITBOOK-1617](https://classroom.github.com/classrooms/24248551-ull-pfpdi-gitbook-1617)
-* Procesadores de Lenguajes
+* [Procesadores de Lenguajes](https://campusvirtual.ull.es/1617/course/view.php?id=1148)
+  * [Organización GitHub https://github.com/ULL-ESIT-PL-1617](https://github.com/ULL-ESIT-PL-1617)
+  * [Classroom para este curso ULL-ESIT-PL-1617](https://classroom.github.com/classrooms/19915186-ull-esit-pl-1617)
 * Desarrollo de Sistemas Informáticos
 
 ## Apuntes
