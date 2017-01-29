@@ -12,7 +12,9 @@
 * [Procesadores de Lenguajes](https://campusvirtual.ull.es/1617/course/view.php?id=1148)
   * [Organización GitHub https://github.com/ULL-ESIT-PL-1617](https://github.com/ULL-ESIT-PL-1617)
   * [Classroom para este curso ULL-ESIT-PL-1617](https://classroom.github.com/classrooms/19915186-ull-esit-pl-1617)
-* Desarrollo de Sistemas Informáticos
+* [Desarrollo de Sistemas Informáticos](https://campusvirtual.ull.es/1617/course/view.php?id=1136)
+  * [Organización GitHub https://github.com/ULL-ESIT-DSI-1617](https://github.com/ULL-ESIT-DSI-1617)
+  * [Classroom para este curso ULL-ESIT-DSI-1617](https://classroom.github.com/classrooms/19915179-ull-esit-dsi-1617)
 
 ## Apuntes
 
