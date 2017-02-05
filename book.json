@@ -16,6 +16,8 @@
         "-emphasize",
         "collapsible-menu",
         "js-console",
+        "codetabs",
+        "es6tabs-stage-0",
         "-jazer"
     ],
     "pluginsConfig": {
