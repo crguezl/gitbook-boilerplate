@@ -48,6 +48,9 @@
                     }
                 }
             }
+        }, 
+        "es6tabs": {
+          "presets": ["es2015", "stage-0"]
         }
     },
     "root": "txt"
