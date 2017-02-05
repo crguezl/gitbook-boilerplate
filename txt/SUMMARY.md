@@ -43,6 +43,7 @@
     * [Mongo](apuntes/db/mongo/README.md)
       * [MongoDB](apuntes/db/mongo/mongodb.md)
       * [Mongoose](apuntes/db/mongo/mongoose.md)
+  * [Babel ES6, ES7 y ES8](apuntes/babel/)
   * [Chrome Apps](apuntes/chromeapps/README.md)
   * [React](apuntes/react/README.md)
   * [Meteor](apuntes/meteor/README.md)
