@@ -1,5 +1,8 @@
 # Babel ES6, ES7 y ES8
 
+Esta sección está basada en unos apuntes elaborados por [Daniel Ramos Acosta](https://github.com/DanielRamosAcosta)
+para una presentación en la [asignatura SYTW en el curso 16/17](https://github.com/ULL-ESIT-SYTW-1617/PresentacionESX_STYW):
+
 * Autor: [Daniel Ramos Acosta](https://github.com/DanielRamosAcosta)
 * Fecha: 17/11/2016
 * [Presentación](https://github.com/ULL-ESIT-SYTW-1617/PresentacionESX_STYW)
