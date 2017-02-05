@@ -16,7 +16,7 @@
     * [GitHub Projects](apuntes/github/projects/README.md)
   * [Gulp](apuntes/gulp/README.md)
     * [API Documentation](apuntes/gulp/API.md)
-    * [Recipes](apuntes/gulp/recipes)
+    * [Recipes](apuntes/gulp/recipes/README.md)
     * [Plugins](http://gulpjs.com/plugins/)
     * [gulp gh pages](apuntes/gulp/gulpghpages.md)
     * [gulp-linting](apuntes/gulp/gulplinting.md)
