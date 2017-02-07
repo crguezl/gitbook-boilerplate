@@ -19,6 +19,7 @@
     * [Recipes](apuntes/gulp/recipes/README.md)
     * [Plugins](http://gulpjs.com/plugins/)
     * [gulp gh pages](apuntes/gulp/gulpghpages.md)
+    * [gulp-shell](apuntes/gulp/gulpshell.md)
     * [gulp-linting](apuntes/gulp/gulplinting.md)
   * [Creación de Paquetes y Módulos en NodeJS](apuntes/nodejspackages.md)
   * [Sobre GitBook](apuntes/gitbooknotes/README.md)
