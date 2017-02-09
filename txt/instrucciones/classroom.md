@@ -19,7 +19,7 @@ browse submissions by assignment.
 * Las tareas pueden ser *individuales* o de *equipo*
 * En Algunas Tareas de *Equipo* (en la primera tarea en equipo esto ocurre siempre) un estudiante debe crear el equipo:
    * El primer alumno que accede al enlace dado por el profesor crea el equipo y le pone un nombre
-     * El nombre del equipo debe ser formado con los nombres en orden alfabético y en minúscula de los miembros del equipo separados por guiones: `ana-juanMiguel-pedro`.
+     * El nombre del equipo debe ser formado con los nombres en orden alfabético y en camelCase de los miembros del equipo separados por guiones seguido del nombre del grupo de laboratorio: `ana-juanMiguel-pedro-31L2`.
    * Los siguientes miembros del equipo cuando acceden al enlace se unen al equipo creado por el primer alumno
    * Para cada equipo se crea dentro de la organización un repo `asignatura-curso/nombredelatarea-nombredelequipo` que los alumnos del equipo  deberán usar para entregar la práctica
    * Si deseas tener mas privilegios sobre el repo puedes
