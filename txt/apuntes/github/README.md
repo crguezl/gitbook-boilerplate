@@ -2,7 +2,7 @@
 * gh-pages
    - [GitHub Pages](https://pages.github.com/): Websites for you and your projects. Hosted directly from your GitHub repository. Just edit, push, and your changes are live.
    - [Configuring a publishing source for GitHub Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
-   - [Publishing with GitHub Pages, now as easy as 1, 2, 3](https://github.com/blog/2289-publishing-with-github-pages-now-as-easy-as-1-2-3)
+   <!-- - [Publishing with GitHub Pages, now as easy as 1, 2, 3](https://github.com/blog/2289-publishing-with-github-pages-now-as-easy-as-1-2-3) -->
 * [Mastering GitHub issues](https://guides.github.com/features/issues/)
 * GitHub Education
   * [GitHub Education Community](https://education.github.community/)
