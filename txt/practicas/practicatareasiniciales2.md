@@ -11,5 +11,18 @@ Para ello vamos a partir de un fork del repo [enten/gitbook-boilerplate](https:/
   * [Despliegue el libro en su máquina del iaas](../recursos/iaas.md)
   * Reucerde usar los issues y los projects para la colaboración 
   * Despliegue el libro en su máquina virtual del iaas.ull.es siguiendo las instrucciones en 
-    - [SERVICIO IAAS de la ULL](https://crguezl.github.io/ull-esit-1617/recursos/iaas.html)
+    - [SERVICIO IAAS de la ULL](../recursos/iaas.md)
     - [Como Desplegar una Aplicación Web en iaas.ull.es](https://github.com/SYTW/iaas-ull-es)
+  * Despliegue el libro en [Heroku](../recursos/heroku.md)
+
+### Referencias
+
+* [static-server](https://www.npmjs.com/package/static-server)
+* [Express](../apuntes/express/README.md)
+* [Procesos: Ejecutando comandos Unix](../apuntes/processes/README.md)
+* [Heroku](../recursos/heroku.md)
+* [iaas](../recursos/iaas.md)
+* [Gulp](../apuntes/gulp/README.md)
+* Estudie [los paquetes - como `fs` - para el manejo de archivos en Node.JS](../apuntes/fs.md)
+* Como se usa el módulo [gh-pages](https://www.npmjs.com/package/gh-pages) para automatizar el despliegue en `gh-pages`
+
