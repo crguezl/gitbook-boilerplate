@@ -12,5 +12,5 @@ Se trata de modificar el conversor de temperatura en la rama `master` con los si
 
 ### Referencias
 
-* [Apuntes: Conversor de Temepraturas](http://crguezl.github.io/pl-html/node9.html)
+* [Apuntes: Conversor de Temeperaturas](http://crguezl.github.io/pl-html/node9.html)
 * [Repo en GitHub](https://github.com/crguezl/ull-etsii-grado-pl-1213-temperature-converter/tree/master)

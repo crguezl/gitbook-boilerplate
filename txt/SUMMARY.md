@@ -36,6 +36,7 @@
     * [Inversion of Control Pattern](apuntes/patterns/inversionofcontrolpattern.md)
   * [Arquitectura REST, REST APIs y GraphQL](apuntes/rest/README.md)
     * [Getting Started with the GitHub API](apuntes/rest/githubapitutorial.md)
+  * [Cookies](apuntes/cookies/README.md)
   * [Authentication](apuntes/authentication/README.md)
   * [SSL](apuntes/ssl/README.md)
   * [Bases de Datos/DataBases](apuntes/db/README.md)
