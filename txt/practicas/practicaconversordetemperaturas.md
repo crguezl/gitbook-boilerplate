@@ -1,4 +1,4 @@
-## Práctica: Conversor de Temperatura
+## Práctica: Javascript en el Cliente. Conversor de Temperatura
 
 Se trata de modificar el conversor de temperatura en la rama `master` con los siguientes requisitos:
 
