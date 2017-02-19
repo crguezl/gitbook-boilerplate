@@ -9,7 +9,7 @@ Para ello vamos a partir de un fork del repo [enten/gitbook-boilerplate](https:/
   * Reescriba los scripts shell en el directorio `scripts/` para la  construcción y despliegue del libro en NodeJS
   * Añada un [`Gulpfile`](https://github.com/gulpjs/gulp) con tareas `build`, `deploy`, `serve`, etc. que automaticen la construcción y despliegue del libro en los diferentes sites
   * [Despliegue el libro en su máquina del iaas](../recursos/iaas.md)
-  * Reucerde usar los issues y los projects para la colaboración 
+  * Recuerde usar los issues y los projects para la colaboración 
   * Despliegue el libro en su máquina virtual del iaas.ull.es siguiendo las instrucciones en 
     - [SERVICIO IAAS de la ULL](../recursos/iaas.md)
     - [Como Desplegar una Aplicación Web en iaas.ull.es](https://github.com/SYTW/iaas-ull-es)
