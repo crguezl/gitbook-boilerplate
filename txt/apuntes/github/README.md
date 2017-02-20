@@ -25,6 +25,7 @@
 
 ### Ejemplo de como cambiar en GitHub el usuario por defecto para un repo
 
+* [Can I specify multiple users for myself in .gitconfig?](http://stackoverflow.com/questions/4220416/can-i-specify-multiple-users-for-myself-in-gitconfig)
 * [Ejemplo de como cambiar en GitHub el usuario por defecto para un repo](https://github.com/nausicachijiro/testing)
 ### GitHub Blog
 

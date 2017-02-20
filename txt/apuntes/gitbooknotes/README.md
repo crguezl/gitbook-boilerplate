@@ -39,6 +39,9 @@
   - page-toc: da problemas. Salen chivatos en la página HTML
   - copy-code-button: quizá sea este el que da problemas. Salen chivatos en la página HTML
 
+## Autenticación en los servidores de GitBook
+
+* [¿Como usar git para actualizar milibro?](https://casianorodriguezleon.gitbooks.io/elaboracion-de-material-docente-con-gitbook/content/como-usar-git-para-actualizar-mi-libro.html)
 ## Tópicos y Preguntas
 
 * [Highlighting Rows In Code Blocks #433](https://github.com/GitbookIO/gitbook/issues/433)
