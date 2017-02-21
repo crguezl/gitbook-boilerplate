@@ -7,5 +7,6 @@
 ### Apuntes en Ruby
 * [Cookies y Rack](http://crguezl.github.io/apuntes-ruby/node401.html)
 * [Sesiones y Cookies en Sinatra](http://crguezl.github.io/apuntes-ruby/node455.html)
+* [HTTP](http://crguezl.github.io/apuntes-ruby/node388.html)
 
 
