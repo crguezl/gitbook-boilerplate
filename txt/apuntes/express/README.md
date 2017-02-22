@@ -27,6 +27,8 @@ Middleware functions are functions that have access to the request object (`req`
 
 ![express](https://blog.lambda3.com.br/wp-content/uploads//2016/01/Middleware-Pipeline.jpg)
 
+![rack](pipeline.png)
+
 ### The Request Object
 
 The [req object](http://expressjs.com/en/api.html#req) represents the HTTP request and has properties for the request query string, parameters, body, HTTP headers, and so on.
