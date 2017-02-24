@@ -12,4 +12,4 @@ e ilustre con ejemplos el uso de las distintas secciones.
 El repo debe tener un directorio `docs/` con los MarkDown del libro y un directorio
 `src/` con los códigos fuentes de los ejemplos. 
 
-Despliegue el libro en GitBook, GitHub y Heroku
+Despliegue el libro en las plataformas que hemos visto en las prácticas anteriores
