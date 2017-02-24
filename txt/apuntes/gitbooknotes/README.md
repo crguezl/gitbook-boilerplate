@@ -42,6 +42,8 @@
 ## Autenticación en los servidores de GitBook
 
 * [¿Como usar git para actualizar milibro?](https://casianorodriguezleon.gitbooks.io/elaboracion-de-material-docente-con-gitbook/content/como-usar-git-para-actualizar-mi-libro.html)
+
+* [Two-factor auth turned on in Github produces problems authenticating in gitbook](https://github.com/GitbookIO/gitbook/issues/1305)
 ## Tópicos y Preguntas
 
 * [Highlighting Rows In Code Blocks #433](https://github.com/GitbookIO/gitbook/issues/433)
