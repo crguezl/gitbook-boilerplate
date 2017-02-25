@@ -24,14 +24,16 @@ user previously entered into form fields
   - [hello-cookie.js](https://github.com/ULL-ESIT-DSI-1617/express-cookies-examples/blob/master/hello-cookie.js)
 * [A very basic session auth in node.js with express.js](http://www.codexpedia.com/node-js/a-very-basic-session-auth-in-node-js-with-express-js/)
 
-### Apuntes en Ruby sobre Cookies
-
-* [Cookies y Rack](http://crguezl.github.io/apuntes-ruby/node401.html)
-* [Sesiones y Cookies en Sinatra](http://crguezl.github.io/apuntes-ruby/node455.html)
-* [HTTP](http://crguezl.github.io/apuntes-ruby/node388.html)
-
-
 ### Cookies y Seguridad
+
+#### cookieParser(secret, options)
+
+- `secret` a string or array used for signing cookies. 
+  - This is optional and if not specified, will not parse signed cookies. 
+  - If a string is provided, this is used as the secret. 
+  - If an array is provided, an attempt will be made to unsign the cookie with each secret in order.
+- `options` an object that is passed to `cookie.parse` as the second option. See [cookie](https://www.npmjs.org/package/cookie) for more information.
+  - `decode` a function to decode the value of the cookie
 
 #### HttpOnly
 
@@ -54,4 +56,10 @@ res.cookie('sessionid', '1', { httpOnly: true });
 ```javascript
 res.cookie('sessionid', '1', { secure: true });
 ```
+
+### Apuntes en Ruby sobre Cookies
+
+* [Cookies y Rack](http://crguezl.github.io/apuntes-ruby/node401.html)
+* [Sesiones y Cookies en Sinatra](http://crguezl.github.io/apuntes-ruby/node455.html)
+* [HTTP](http://crguezl.github.io/apuntes-ruby/node388.html)
 
