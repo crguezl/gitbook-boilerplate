@@ -15,7 +15,8 @@ user previously entered into form fields
 
 
 * [Repositorio con ejemplos de uso de cookies en express](https://github.com/ULL-ESIT-DSI-1617/express-cookies-examples)
-* [Cookie Management in Express](https://www.codementor.io/noddy/cookie-management-in-express-js-du107rmna)
+* [Cookie Management in Express](https://www.codementor.io/noddy/cookie-management-in-express-js-du107rmna) 
+  - [hello-cookie.js](https://github.com/ULL-ESIT-DSI-1617/express-cookies-examples/blob/master/hello-cookie.js)
 * [A very basic session auth in node.js with express.js](http://www.codexpedia.com/node-js/a-very-basic-session-auth-in-node-js-with-express-js/)
 
 ### Apuntes en Ruby sobre Cookies
@@ -24,4 +25,28 @@ user previously entered into form fields
 * [Sesiones y Cookies en Sinatra](http://crguezl.github.io/apuntes-ruby/node455.html)
 * [HTTP](http://crguezl.github.io/apuntes-ruby/node388.html)
 
+
+### Cookies y Seguridad
+
+#### HttpOnly
+
+* `HttpOnly` is a flag that can be included in a `Set-Cookie` response header. 
+* The presence of this flag will tell browsers to not allow client side script access to the cookie (if the browser supports it). 
+* This is important because it helps protect your cookie data from malicious scripts and helps mitigate the most common XSS attacks.
+  - Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted web sites. XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user.
+* Here is how you can tell Express to set your cookie using the HttpOnly flag:
+```javascript
+res.cookie('sessionid', '1', { httpOnly: true });
+```
+
+#### Secure
+
+* The Secure flag is included in a `Set-Cookie` response header. 
+* The presence of the secure flag tells web browsers to only send this cookie in requests going to HTTPS endpoints. 
+* This is very important, as the cookie information will not be sent on an unencrypted channel. 
+* This helps mitigate some exploits where your browser is redirected to the HTTP endpoint for a site rather than the HTTPS endpoint and thus potentially exposing your cookies to someone in the middle of the traffic.
+* Here is how you can tell Express to set your cookie using the Secure flag:
+```javascript
+res.cookie('sessionid', '1', { secure: true });
+```
 
