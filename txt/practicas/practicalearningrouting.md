@@ -9,7 +9,8 @@ Estudie las rutas en ExpressJS siguiendo estos apuntes:
 Elabore  a partir de ellas un libro GitBook con sus notas 
 e ilustre con ejemplos el uso de las distintas secciones.
 
-El repo debe tener un directorio `docs/` con los MarkDown del libro y un directorio
+* El repo debe tener un directorio `docs/` con los MarkDown del libro y un directorio
 `src/` con los códigos fuentes de los ejemplos. 
-
-Despliegue el libro en las plataformas que hemos visto en las prácticas anteriores
+* Despliegue el libro en las plataformas que hemos visto en las prácticas anteriores
+* Puede incorporar los apuntes elaborados en las prácticas anteriores a este
+* En el directorio `src/` deberá de disponer de un `gulpfile.js` con tareas para la ejecución de los códigos fuentes de ejemplo
