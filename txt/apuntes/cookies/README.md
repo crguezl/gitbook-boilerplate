@@ -13,7 +13,7 @@ user previously entered into form fields
 
 ### Ejemplo Simple
 
-[import, title:"hello-cookie.js"](/src/hello-cookie.js)
+[import, title:"hello-cookie.js"](src/hello-cookie.js)
 
 ###Recursos
 
