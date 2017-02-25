@@ -8,7 +8,7 @@
         "highlight",
         "sectionx",
         "code-highlighter",
-        "-ace",
+        "ace",
         "copy-code-button",
         "page-toc",
         "-toc",
