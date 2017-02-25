@@ -19,7 +19,7 @@
         "codetabs",
         "es6tabs-stage-0",
         "-jazer",
-        "include-codeblocks"
+        "include-codeblock"
     ],
     "pluginsConfig": {
         "toc": {
