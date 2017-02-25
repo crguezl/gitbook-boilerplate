@@ -4,6 +4,7 @@ Estudie las rutas en ExpressJS siguiendo estos apuntes:
 
 * [Basic Routing](http://expressjs.com/en/starter/basic-routing.html)
 * [Routing Guide](http://expressjs.com/en/guide/routing.html)
+* [Using Middleware](http://expressjs.com/en/guide/using-middleware.html)
 * [Router API Documentation](http://expressjs.com/en/4x/api.html#router)
 
 Elabore  a partir de ellas un libro GitBook con sus notas 
