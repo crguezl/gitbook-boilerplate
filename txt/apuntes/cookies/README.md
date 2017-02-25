@@ -11,10 +11,15 @@ user previously entered into form fields
 * **Session cookie**: exists only in temporary memory while the user navigates the website. Web browsers normally delete session cookies when the user closes the browser
 * **Persistent cookie**: expires at a specific date or after a specific length of time.
 
+### Ejemplo Simple
 
+[import](https://github.com/ULL-ESIT-DSI-1617/express-cookies-examples/blob/master/hello-cookie.js)
 
+###Recursos
 
 * [Repositorio con ejemplos de uso de cookies en express](https://github.com/ULL-ESIT-DSI-1617/express-cookies-examples)
+
+### Tutoriales 
 * [Cookie Management in Express](https://www.codementor.io/noddy/cookie-management-in-express-js-du107rmna) 
   - [hello-cookie.js](https://github.com/ULL-ESIT-DSI-1617/express-cookies-examples/blob/master/hello-cookie.js)
 * [A very basic session auth in node.js with express.js](http://www.codexpedia.com/node-js/a-very-basic-session-auth-in-node-js-with-express-js/)
