@@ -10,6 +10,8 @@ user previously entered into form fields
 *  **Cookies for Session Management**: the server sends a cookie to the client that contains a unique session identifier (typically, a long string of random letters and numbers). 
   - Because cookies are sent to the server with every request the client makes, that session identifier will be sent back to the server every time the user visits a new page on the website, which lets the server know which client is
 * **Cookies for logging into websites**: When the user visits a website's login page, the web server typically sends the client a cookie containing a unique session identifier. When the user successfully logs in, the server remembers that that particular session identifier has been authenticated, and grants the user access to its services.
+* **Session cookie**: exists only in temporary memory while the user navigates the website. Web browsers normally delete session cookies when the user closes the browser
+* **Persistent cookie**: expires at a specific date or after a specific length of time.
 
 
 
