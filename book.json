@@ -1,6 +1,8 @@
 {
     "plugins": [
         "include",
+        "include-codeblock",
+        "ace",
         "-autocover",
         "-layout",
         "youtube",
@@ -8,7 +10,6 @@
         "highlight",
         "sectionx",
         "code-highlighter",
-        "ace",
         "copy-code-button",
         "page-toc",
         "-toc",
@@ -18,8 +19,7 @@
         "js-console",
         "codetabs",
         "es6tabs-stage-0",
-        "-jazer",
-        "include-codeblock"
+        "-jazer"
     ],
     "pluginsConfig": {
         "toc": {
