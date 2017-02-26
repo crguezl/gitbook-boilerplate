@@ -57,6 +57,13 @@ res.cookie('sessionid', '1', { httpOnly: true });
 res.cookie('sessionid', '1', { secure: true });
 ```
 
+### Cookies sin Express ni cookie-parser (HTTP NodeJS)
+
+[import](src/cookie.js)
+
+* [cookie module](https://www.npmjs.com/package/cookie)
+* [response.setHeader(name, value)](https://nodejs.org/api/http.html#http_response_setheader_name_value)
+
 ### Apuntes en Ruby sobre Cookies
 
 * [Cookies y Rack](http://crguezl.github.io/apuntes-ruby/node401.html)
