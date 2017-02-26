@@ -61,9 +61,10 @@ res.cookie('sessionid', '1', { secure: true });
 
 [import](src/cookie.js)
 
+* [Wikipedia: Query String](https://en.wikipedia.org/wiki/Query_string)
 * [cookie module](https://www.npmjs.com/package/cookie)
 * [response.setHeader(name, value)](https://nodejs.org/api/http.html#http_response_setheader_name_value)
-
+* [Wikipedia: HTTP 302. Redirection](https://en.wikipedia.org/wiki/HTTP_302)
 ### Apuntes en Ruby sobre Cookies
 
 * [Cookies y Rack](http://crguezl.github.io/apuntes-ruby/node401.html)
