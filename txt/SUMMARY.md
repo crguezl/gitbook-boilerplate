@@ -98,3 +98,6 @@
   * [Práctica: Añadir HTTPS al servidor del libro](practicas/practicassl.md)
 * [Proyectos](proyectos/README.md)
    * [Proyecto de SYTW](proyectos/sytw/README.md)
+
+## GLOSARIO
+ * [GLOSARIO](GLOSSARY.md)
