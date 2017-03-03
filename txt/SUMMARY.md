@@ -27,6 +27,8 @@
   * [Procesamiento de la línea de comandos](apuntes/argumentos/README.md)
   * [Colaboración](apuntes/colaboracion/README.md)  
   * [Express](apuntes/express/README.md)  
+    - [Rutas](apuntes/express/expressroutes.md)
+    - [Express Generator](apuntes/express/expressgenerator.md)
   * [Procesos](apuntes/processes/README.md)  
   * [Code Smells](apuntes/patterns/codesmell.md)
   * [Principios de Diseño](/apuntes/patterns/designprinciples.md)
