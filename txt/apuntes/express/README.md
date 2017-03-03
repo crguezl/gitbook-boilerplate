@@ -4,7 +4,6 @@
 * [Home page](http://expressjs.com/)
 * [Installing](http://expressjs.com/en/starter/installing.html)
 * [Hello world!](http://expressjs.com/en/starter/hello-world.html)
-* [Express application generator](http://expressjs.com/en/starter/generator.html)
 * [Basic routing](http://expressjs.com/en/starter/basic-routing.html)
 * [Static Files](http://expressjs.com/en/starter/static-files.html)
 * [Repo hello-express](https://github.com/SYTW/hello-express)
@@ -40,3 +39,5 @@ app.get('/user/:id', function(req, res) {
 ```
 
 !INCLUDE "expressroutes.md"
+
+!INCLUDE "expressgenerator.md"
