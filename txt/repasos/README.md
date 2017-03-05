@@ -6,155 +6,23 @@
 
 !INCLUDE "underscore.md"
 
-## Preguntas de Repaso de localStorage
+!INCLUDE "localstorage.md"
 
-1.  ¿Que diferencias y que similitudes hay entre los cookies y
-    localStorage?
-
-2.  ¿Que diferencias hay entre localStorage y sessionStorage?
-
-3.  ¿En que consiste las reglas de segregación conocidas como
-    <span>*same origin policy*</span>? ¿Como se relacionan con
-    localStorage?
-
-4.  ¿Como guardo en localStorage el contenido de una variable `chuchu`?
-    ¿Como leo el contenido almacenado en localStorage con clave
-    `chuchu`?
-
-5.  ¿Como borro una clave almacenada en localStorage?
-
-6.  1.  ¿Que es LocalStorage? ¿Que hace la siguiente línea?
-
-              if (window.localStorage) localStorage.original  = temp;
-
-    2.  ¿Cuando se ejecutará esta callback? ¿Que hace?
-
-```javascript
-            window.onload = function() {
-              // If the browser supports localStorage and we have some stored data
-              if (window.localStorage && localStorage.original) {
-                document.getElementById("original").value = localStorage.original;
-              }
-            };
-```
 !INCLUDE "heroku.md"
 
 !INCLUDE "ssh.md"
 
 !INCLUDE "ecma6.md"
 
-## Preguntas de Repaso de Mongo y Mongoose
+!INCLUDE "mongo.md"
 
-1.  ¿Que diferencia hay entre una tabla de una base de datos relacional
-    y una collection de MongoDB?
+!INCLUDE "ejs.md"
 
-2.  ¿Como se llama la primary key de un documento MongoDB?
+!INCLUDE "pug.md"
 
-3.  Escriba el código Mongoose para conectarse a la MongoDB database
-    `chuchu`
-
-4.  Escriba el código Mongoose para crear un esquema para modelar una
-    colección de `usuarios`
-
-5.  Escriba el código Mongoose para crear un modelo a partir del esquema
-    anterior
-
-6.  Escriba el código Mongoose para crear un documento usuario y
-    guardarlo en la base de datos
-
-7.  Escriba el código Mongoose para buscar por un documento usuario con
-    nombre `'Pepe'`
-
-## Preguntas de Repaso de EJS
-
-1.  Véase
-
-2.  Mejore este template
+!INCLUDE "sass.md"
 
 
-```html
-<li>
-    <a href='supplies/<%= supplies[i] %>'>
-        <%= supplies[i] %>
-    </a>
-</li>
-```
-
-
-usando un helper proveído por EJS
-<!--
-% <li>
-%    <%= link_to(supplies[i], 'supplies/'+supplies[i]) %>
-% </li>
--->
-
-## Preguntas de Repaso de Jade
-
-1.  Véase [http://jade-lang.com/demo/](http://jade-lang.com/demo/)
-
-2.  Traduzca a Jade el siguiente código HTML:
-
-```html
-        <div id="content">
-          <div class="block">
-            <input id="bar" class="foo1 foo2"/>
-          </div>
-        </div>
-```
-
-3.  ¿Que hace el punto después de un elemento? como en:
-
-        p.
-          foo bar
-          hello world
-
-4.  Supongamos que el objeto interpolado es:
-
-```javascript
-        {"name": "Hello <em>World</em>"}
-```
-
-    ¿Que diferencia hay entre estas dos interpolaciones?
-
-    1.  `li= name`
-
-    2.  `li!= name`
-
-5.  ¿Que diferencia hay entre estas dos interpolaciones?
-
-    1.  `li Say #{name}`
-
-    2.  `li Say !{name}`
-
-6.  Traduzca a Jade el siguiente fragmento HTML:
-
-```html
-        <input type="text" placeholder="your name"/>
-```
-
-## Preguntas de Repaso de SASS
-
-1.  ¿Como se inicializa una constante en SASS?
-
-2.  Reescriba este fragmento CSS en SASS:
-
-```css
-        nav ul {
-          margin: 0;
-          padding: 0;
-          list-style: none;
-        }
-
-        nav li {
-          display: inline-block;
-        }
-
-        nav a {
-          display: block;
-          padding: 6px 12px;
-          text-decoration: none;
-        }
-```
 
 ## Preguntas de Repaso de Expresiones Regulares
 
