@@ -124,5 +124,5 @@
 * [Proyectos](proyectos/README.md)
    * [Proyecto de SYTW](proyectos/sytw/README.md)
 
-## GLOSARIO
+## DEFINICIONES DE TÉRMINOS
  * [GLOSARIO](GLOSSARY.md)
