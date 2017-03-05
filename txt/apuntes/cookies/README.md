@@ -75,7 +75,7 @@ path structure. The query string commonly includes fields added to
 a base URL by a Web browser or other client application, for example
 as part of an HTML form
 
-Example
+##### Example
 If a form is embedded in an HTML page as follows:
 ```html
 <form action="/hello" method="get">
