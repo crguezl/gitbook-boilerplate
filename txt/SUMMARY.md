@@ -74,6 +74,11 @@
     - [Guía de comandos Meteor](apuntes/meteor/guia_comandos.md)
     - [Enlaces y recursos de interés](apuntes/meteor/enlaces.md)
 * [Repasos](repasos/README.md)
+  - [Preguntas de HTTPS] (https.md)
+  - [Preguntas de Passport] (passport.md)
+  - [Preguntas de Rutas en ExpressJS] (expressroutes.md)
+  - [Preguntas de MarkDown] (markdown.md)
+  - [Preguntas de GitBook] (gitbook.md)
 * [Recursos](recursos/README.md)
   * [GitHub Education](recursos/README.md#github-education)
   * Servicios en la Nube
