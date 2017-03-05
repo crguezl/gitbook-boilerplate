@@ -4,7 +4,6 @@
     se lleva a cabo una tarea para la optimización (uglify/minify) de la
     aplicación de la práctica de la temperatura:
 
-
 ```javascript
 /tmp/pl-grado-temperature-converter(karma)]$ cat gulpfile.js
 var gulp    = require('gulp'),
@@ -28,6 +27,5 @@ gulp.____('minify', function () {
    .___(gulp.___('./minified/'))
         });
 ```
-
-
-
+* Explique los pasos para publicar un libro GitBook en GitHub usando `gulp`
+* Explique los pasos para actualizar automáticamente los HTML del libro GitBook en su máquina virtual del iaas usando `gulp`

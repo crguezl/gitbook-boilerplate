@@ -81,15 +81,23 @@ gulp.task('open', function() {
 });
 //
 // "serve": "gitbook serve txt gh-pages",
-gulp.task('exam', function() {
-  return gulp.src('').pipe(shell([
+/*
+ * compile md files n txt/repasos to latex files in examenes/
+ */
+gulp.task('exam', shell.task([
       'pandoc txt/repasos/gulp.md -o examenes/gulp.tex',
+      'pandoc txt/repasos/expressroutes.md -o examenes/expressroutes.tex',
+      'pandoc txt/repasos/gitbook.md -o examenes/gitbook.tex',
+      'pandoc txt/repasos/markdown.md -o examenes/markdown.tex',
       'pandoc txt/repasos/npm.md -o examenes/npm.tex',
       'pandoc txt/repasos/ssh.md -o examenes/ssh.tex',
       'pandoc txt/repasos/heroku.md -o examenes/heroku.tex',
       'pandoc txt/repasos/rest.md -o examenes/rest.tex',
       'pandoc txt/repasos/https.md -o examenes/https.tex',
       'pandoc txt/repasos/passport.md -o examenes/passport.tex',
-      'cd examenes; pdflatex template.tex examen.pdf'
   ]));
-});
+
+gulp.task('sytw1617', ['exam'], shell.task(
+      'cd examenes; pdflatex template.tex; cp template.pdf sytw1617.pdf'
+      ));
+gulp.task('opensytw1617', shell.task(['open examenes/sytw1617.pdf']))

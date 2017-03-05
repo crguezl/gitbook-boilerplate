@@ -43,5 +43,10 @@
         [ [ '_______', '______' ] ]
 ```
 10. ¿Cuales son los pasos para escribir y publicar un paquete `npm`?
+11. ¿Cómo instalo una versión anterior de un package npm?
+```
+npm install <package>@<version>
+```
+12. [¿Cómo encuentro la versión de un paquete NodeJs instalado?](http://stackoverflow.com/questions/10972176/find-the-version-of-an-installed-npm-package)
 
 

@@ -692,3 +692,12 @@ ficheros cargados en los navegadores?
 
 ## Preguntas de Passport
 !INCLUDE "passport.md"
+
+## Preguntas de Rutas en ExpressJs
+!INCLUDE "expressroutes.md"
+
+## Preguntas de MarkDown
+!INCLUDE "markdown.md"
+
+## Preguntas de GitBook
+!INCLUDE "gitbook.md"

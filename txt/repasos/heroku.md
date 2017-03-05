@@ -1,6 +1,6 @@
 ## Preguntas de Repaso de Heroku
 
-1.  Una vez instalado el Heroku toolbelt nos debemos autenticar en
+1.  Una vez instalado el Heroku cli nos debemos autenticar en
     heroku con el cliente. ¿Cual es el comando para autenticarnos?
 
 2.  ¿Cual es el comando para crear nuestra aplicación en Heroku
@@ -41,3 +41,4 @@
     -H "Accept:application/vnd.heroku+json; version=3" \
     -d '{"source_blob": { "url":"https://github.com/heroku/ruby-rails-sample/tarball/master/"} }'
     ```
+* Explique los pasos para publicar un libro GitBook en Heroku
