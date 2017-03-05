@@ -73,7 +73,7 @@
     - [Rutas en Meteor](apuntes/meteor/rutas.md)
     - [Guía de comandos Meteor](apuntes/meteor/guia_comandos.md)
     - [Enlaces y recursos de interés](apuntes/meteor/enlaces.md)
-    - [Repasos](repasos/README.md)
+  * [Repasos](repasos/README.md)
     - [jquery](jquery.md) 
     - [underscore](underscore.md) 
     - [localstorage](localstorage.md) 
