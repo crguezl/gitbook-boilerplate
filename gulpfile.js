@@ -101,3 +101,11 @@ gulp.task('sytw1617', ['exam'], shell.task(
       'cd examenes; pdflatex template.tex; cp template.pdf sytw1617.pdf'
       ));
 gulp.task('opensytw1617', shell.task(['open examenes/sytw1617.pdf']))
+
+gulp.task('dsi1617', ['exam'], shell.task(
+      'cd examenes; pdflatex template.tex; cp template.pdf dsi1617.pdf'
+      ));
+
+gulp.task('pl1617', ['exam'], shell.task(
+      'cd examenes; pdflatex template.tex; cp template.pdf pl1617.pdf'
+      ));
