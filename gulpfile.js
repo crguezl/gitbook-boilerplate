@@ -85,13 +85,13 @@ gulp.task('open', function() {
  * compile md files n txt/repasos to latex files in examenes/
  */
 gulp.task('exam', shell.task([
-      'pandoc txt/repasos/gulp.md -o examenes/gulp.tex',
-      'pandoc txt/repasos/expressroutes.md -o examenes/expressroutes.tex',
+      'pandoc txt/repasos/gulpdsi17.md -o examenes/gulpdsi17.tex',
+      'pandoc txt/repasos/expressroutesdsi17.md -o examenes/expressroutesdsi17.tex',
       'pandoc txt/repasos/gitbook.md -o examenes/gitbook.tex',
-      'pandoc txt/repasos/markdown.md -o examenes/markdown.tex',
-      'pandoc txt/repasos/npm.md -o examenes/npm.tex',
+      'pandoc txt/repasos/markdowndsi17.md -o examenes/markdowndsi17.tex',
+      'pandoc txt/repasos/npmdsi17.md -o examenes/npmdsi17.tex',
       'pandoc txt/repasos/ssh.md -o examenes/ssh.tex',
-      'pandoc txt/repasos/heroku.md -o examenes/heroku.tex',
+      'pandoc txt/repasos/herokudsi17.md -o examenes/herokudsi17.tex',
       'pandoc txt/repasos/rest.md -o examenes/rest.tex',
       'pandoc txt/repasos/https.md -o examenes/https.tex',
       'pandoc txt/repasos/passport.md -o examenes/passport.tex',
@@ -103,9 +103,10 @@ gulp.task('sytw1617', ['exam'], shell.task(
 gulp.task('opensytw1617', shell.task(['open examenes/sytw1617.pdf']))
 
 gulp.task('dsi1617', ['exam'], shell.task(
-      'cd examenes; pdflatex template.tex; cp template.pdf dsi1617.pdf'
+      'cd examenes; pdflatex templatedsi17.tex; cp templatedsi17.tex dsi1617.tex; cp templatedsi17.pdf dsi1617.pdf'
       ));
 
 gulp.task('pl1617', ['exam'], shell.task(
-      'cd examenes; pdflatex template.tex; cp template.pdf pl1617.pdf'
+      'cd examenes; pdflatex pl1617.tex'
       ));
+
