@@ -15,6 +15,16 @@ user previously entered into form fields
 
 [import, title:"hello-cookie.js"](src/hello-cookie.js)
 
+### Cookies sin Express ni cookie-parser (HTTP NodeJS)
+
+[import](src/cookie.js)
+
+* [Wikipedia: Query String](https://en.wikipedia.org/wiki/Query_string)
+  - The query string commonly includes fields added to a base URL by a Web browser or other client application, for example as part of an HTML form
+* [cookie module](https://www.npmjs.com/package/cookie)
+* [response.setHeader(name, value)](https://nodejs.org/api/http.html#http_response_setheader_name_value)
+* [Wikipedia: HTTP 302. Redirection](https://en.wikipedia.org/wiki/HTTP_302)
+
 ###Recursos
 
 * [Repositorio con ejemplos de uso de cookies en express](https://github.com/ULL-ESIT-DSI-1617/express-cookies-examples)
@@ -57,15 +67,6 @@ res.cookie('sessionid', '1', { httpOnly: true });
 res.cookie('sessionid', '1', { secure: true });
 ```
 
-### Cookies sin Express ni cookie-parser (HTTP NodeJS)
-
-[import](src/cookie.js)
-
-* [Wikipedia: Query String](https://en.wikipedia.org/wiki/Query_string)
-  - The query string commonly includes fields added to a base URL by a Web browser or other client application, for example as part of an HTML form
-* [cookie module](https://www.npmjs.com/package/cookie)
-* [response.setHeader(name, value)](https://nodejs.org/api/http.html#http_response_setheader_name_value)
-* [Wikipedia: HTTP 302. Redirection](https://en.wikipedia.org/wiki/HTTP_302)
 
 #### Query String
 
