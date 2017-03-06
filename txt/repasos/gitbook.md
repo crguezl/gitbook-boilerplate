@@ -14,4 +14,5 @@ $$x=\frac{1+y}{1+2z^2}$$
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
+* ¿Donde puedo encontrar la URL del repositorio en GitBook del libro?
 * Explique los pasos para publicar un libro GitBook en GitHub usando las gh-pages de GitHub manualmente
