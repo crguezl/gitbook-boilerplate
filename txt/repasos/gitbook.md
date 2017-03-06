@@ -16,3 +16,4 @@ $$x=\frac{1+y}{1+2z^2}$$
 
 * ¿Donde puedo encontrar la URL del repositorio en GitBook del libro?
 * Explique los pasos para publicar un libro GitBook en GitHub usando las gh-pages de GitHub manualmente
+* ¿Que atributo debo de poner en `book.json` para alojar los Markdown del libro en un directorio distinto del raiz?
