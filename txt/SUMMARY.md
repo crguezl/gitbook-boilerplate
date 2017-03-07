@@ -110,6 +110,7 @@
   * [Práctica: Primeros Pasos en NodeJS](practicas/practicatareasiniciales2.md)
   * [Práctica: Tareas Iniciales Avanzadas](practicas/practicagitbook.md)
   * [Práctica: Estudiar las Rutas en ExpressJS](practicas/practicalearningrouting.md)
+  * [Práctica: Estudiar las Cookies y las Sessions en ExpressJS](practicas/practicalearningcookies.md)
   * [Práctica: JavaScript en el Cliente](practicas/practicaconversordetemperaturas.md)
   * [Práctica: OOP](practicas/practicaoop.md)
   * [Práctica: Creación de un Paquete NPM](practicas/practicanm.md)
