@@ -18,5 +18,5 @@ explicando e ilustrando con códigos de ejemplo el uso de las distintos concepto
 * El repo debe tener un directorio `docs/` con los MarkDown del libro y un directorio
 `src/` con los códigos fuentes de los ejemplos. 
 * Despliegue el libro en las plataformas que hemos visto en las prácticas anteriores
-* Puede incorporar los apuntes elaborados en las prácticas anteriores a este
+* Incorpore los apuntes elaborados en las prácticas anteriores a este
 * En el directorio `src/` deberá de disponer de un `gulpfile.js` con tareas para la ejecución de los códigos fuentes de ejemplo
