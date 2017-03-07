@@ -13,9 +13,14 @@ user previously entered into form fields
 
 ### Ejemplo Simple
 
+#### Fichero `hello-cookie.js`
 [import, title:"hello-cookie.js"](src/hello-cookie.js)
 
 ### Cookies sin Express ni cookie-parser (HTTP NodeJS)
+
+#### Fichero `cookie.js`
+
+Este ejemplo no hace uso de ExpressJS ni de cookie-parser:
 
 [import](src/cookie.js)
 
