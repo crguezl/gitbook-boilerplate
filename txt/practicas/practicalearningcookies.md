@@ -13,7 +13,7 @@ Puede hacer uso de estos u otros recursos:
 
 
 Elabore  a partir de ellas un libro GitBook con sus notas 
-e ilustre con códigos de ejemplo el uso de las distintos conceptos y tecnologías.
+explicando e ilustrando con códigos de ejemplo el uso de las distintos conceptos y tecnologías.
 
 * El repo debe tener un directorio `docs/` con los MarkDown del libro y un directorio
 `src/` con los códigos fuentes de los ejemplos. 
