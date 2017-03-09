@@ -103,6 +103,7 @@ new substring (to put in place of the substring received from parameter
 |offset             | The offset of the matched substring within the total string being examined  (For example, if the total string was `"abcd"`, and the                  matched substring was `"bc"`, then this argument will be `1`.) |
 |string             |The total string being examined |
 
+###### Ejemplode `replace`
 ```
 [~/javascript/learning]$ pwd -P
 /Users/casiano/local/src/javascript/learning
@@ -122,6 +123,7 @@ function f2c(x)
 var arg = process.argv[2] || "32F";
 console.log(f2c(arg));
 ```
+Ejecución:
 
 ```
 [~/javascript/learning]$ ./f2c.js 100F
