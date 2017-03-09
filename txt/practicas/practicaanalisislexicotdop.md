@@ -2,11 +2,10 @@
 
 Vamos a trabajar a partir de este repo de Douglas Crockford:
 
--   -   Autor: , douglas@crockford.com
-
--   Fecha que figura en el repo: 2010-11-12
-
--   Descripción:
+-  [https://github.com/douglascrockford/TDOP](https://github.com/douglascrockford/TDOP)
+-  Autor: [Douglas Crockford](http://www.crockford.com/), douglas@crockford.com
+-  Fecha que figura en el repo: 2010-11-12
+-  Descripción:
 
     -   [tdop.html](http://crguezl.github.io/ull-etsii-grado-pl-minijavascript/tdop.html) contains a description of Vaughn Pratt’s Top Down Operator
         Precedence, and describes the parser whose lexer we are going to
@@ -30,24 +29,22 @@ Reescriba el analizador léxico en [tokens.js](https://github.com/douglascrockfo
 
 1.  Evite que se hagan copias de la cadena siendo procesada. Muévase
     dentro de la misma cadena usando `lastIndex`. Parta de la
-    solucióndada por el profesor en [https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js](https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js)
-
-6.  Haga el despliegue de su aplicación en Heroku o en la máquina virtual del iaas
-7.  Una primera solución de la que puede partir se encuentra en:
+    solución dada por el profesor en 
+    - [https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js](https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js)
+2.  Haga el despliegue de su aplicación en Heroku o en la máquina virtual del iaas
+3.  Una primera solución de la que puede partir se encuentra en:
 
     -   [https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages](https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages) en github.
-
     -   Veala en funcionamiento en [http://crguezl.github.io/ull-etsii-grado-pl-minijavascript/](http://crguezl.github.io/ull-etsii-grado-pl-minijavascript/)
-
-    -   [~/srcPLgrado/lexical_analysis_top_down_operator_precedence(gh-pages)]$ pwd -P
-            /Users/casiano/local/src/javascript/PLgrado/lexical_analysis_top_down_operator_precedence
-
-8.  El método `tokens` original retorna el array de tokens. Puede
+    -   ```bash
+          [~/srcPLgrado/lexical_analysis_top_down_operator_precedence(gh-pages)]$ pwd -P
+          /Users/casiano/local/src/javascript/PLgrado/lexical_analysis_top_down_operator_precedence
+        ```
+4.  El método `tokens` original retorna el array de tokens. Puede
     encontrarlo en [https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js](https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js)
+5.  Mejore la solución en [ https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages]( https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages)
 
-9.  Mejore la solución en [ https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages]( https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages)
-
-10. Para esta práctica es necesario familiarizarse con la forma en que
+6. Para esta práctica es necesario familiarizarse con la forma en que
     funciona la OOP en JS. Vea este [jsfiddle](http://jsfiddle.net/casiano/Mw9dW/)
 
 
