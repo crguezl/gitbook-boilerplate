@@ -31,9 +31,9 @@ new RegExp(pattern [, flags]);
 when the expression is evaluated. 
 * Use literal notation when the regular
 expression will remain constant. 
-* For example, \red{if you use literal notation
+* For example, if you use literal notation
 to construct a regular expression used in a loop, the regular expression
-won't be recompiled on each iteration}.
+won't be recompiled on each iteration.
 * The constructor of the regular expression object, for example,
 `new RegExp("ab+c")`, provides runtime compilation of the regular
 expression. 
@@ -90,8 +90,8 @@ for each match.
 'oranges are round, and oranges are juicy.'
 ```
 
-\red{The replacement string can be a function to be invoked to create the
-new substring} (to put in place of the substring received from parameter
+The replacement string can be a function to be invoked to create the
+new substring (to put in place of the substring received from parameter
 `#1`). The arguments supplied to this function are:
 
 \begin{tabular}{|p{5cm}|p{17cm}|}
@@ -101,8 +101,8 @@ p1, p2, ...     & The nth parenthesized submatch string, provided the first argu
 For example, if `/(\a+)(\b+)/`, was given, p1 is the match for
 `\a+`, and p2 for `\b+`.\\
 offset          & The offset of the matched substring within the total string being examined. 
-                  (For example, if the total string was \verb"abcd", and the
-                  matched substring was \verb"bc", then this argument will
+                  (For example, if the total string was `"abcd"`, and the
+                  matched substring was `"bc"`, then this argument will
                   be `1`.) \\
 string  &The total string being examined \\
 \end{tabular}
@@ -133,5 +133,7 @@ console.log(f2c(arg));
 [~/javascript/learning]$ ./f2c.js 
 0C
 ```
+
+#### Ejercicios
 
 * [Ejercicios de Expresiones Regulares](regexpejercicios.md)
