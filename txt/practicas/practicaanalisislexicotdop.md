@@ -14,7 +14,7 @@ Vamos a trabajar a partir de este repo de Douglas Crockford:
     write in this lab. Is a simplified version of JavaScript.
 -   The file [`index.html`](https://github.com/douglascrockford/TDOP/blob/master/index.html) parses [`parse.js`](https://github.com/douglascrockford/TDOP/blob/master/parse.js) and displays its AST.
 -   The page depends on on [`parse.js`](https://github.com/douglascrockford/TDOP/blob/master/parse.js) and [`tokens.js`](https://github.com/douglascrockford/TDOP/blob/master/tokens.js).
--   The file `tdop.js` contains the Simplified JavaScript parser.
+-   The file [`parse.js`](https://github.com/douglascrockford/TDOP/blob/master/parse.js) contains the Simplified JavaScript parser.
 -   [tokens.js](https://github.com/douglascrockford/TDOP/blob/master/tokens.js) produces an array of token objects from a string. **This is the file we are going to work in this lab**.
 
 Douglas Crockford escribió su analizador léxico sin usar expresiones
