@@ -99,11 +99,11 @@ new substring (to put in place of the substring received from parameter
 | **Possible name** | **Supplied value** |
 | ----------------- | ------------------ |
 |match              | The matched substring. (Corresponds to `$&`.)|
-|p1, p2, ...        | The nth parenthesized submatch string, provided the first argument to replace was a RegExp object. (Corresponds to `$1`, `$2`, etc.) For example, if `/(\a+)(\b+)/`, was given, p1 is the match for `\a+`, and p2 for `\b+`.|
-|offset             | The offset of the matched substring within the total string being examined  (For example, if the total string was `"abcd"`, and the                  matched substring was `"bc"`, then this argument will be `1`.) |
+|`p1`, `p2`, ...    | The nth parenthesized submatch string, provided the first argument to replace was a RegExp object. (Corresponds to `$1`, `$2`, etc.) For example, if `/(\a+)(\b+)/`, was given, `p1` is the match for `\a+`, and `p2` for `\b+`.|
+|`offset`             | The `offset` of the matched substring within the total string being examined  (For example, if the total string was `"abcd"`, and the                  matched substring was `"bc"`, then this argument will be `1` |
 |string             |The total string being examined |
 
-###### Ejemplode `replace`
+###### Ejemplo de `replace`
 ```
 [~/javascript/learning]$ pwd -P
 /Users/casiano/local/src/javascript/learning
