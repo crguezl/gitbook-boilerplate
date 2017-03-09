@@ -73,7 +73,7 @@
     - [Rutas en Meteor](apuntes/meteor/rutas.md)
     - [Guía de comandos Meteor](apuntes/meteor/guia_comandos.md)
     - [Enlaces y recursos de interés](apuntes/meteor/enlaces.md)
-  * Expresiones Regulares
+  * [Expresiones Regulares](apuntes/regexp/README.md)
      - [Ejercicios de Expresiones Regulares](apuntes/regexp/regexpejercicios.md)
 * [Repasos](repasos/README.md)
   - [Preguntas de GitBook](repasos/gitbook.md)
