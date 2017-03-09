@@ -1,5 +1,13 @@
 ## Ejercicios de Expresiones Regulares {#section:ejercicioslastindex}
 
+1.  Escriba una expresión regular que reconozca las cadenas de doble
+    comillas. Debe permitir la presencia de comillas y caracteres
+    escapados.
+1.  ¿Cual es la salida?
+
+        > "bb".match(/b|bb/)
+
+        > "bb".match(/bb|b/)
 1.  Paréntesis:
 
         > str = "John Smith"
@@ -158,6 +166,9 @@ argumento una función (vea
             [Function]
             > z.replace(r, f)
             'a, b, 1,2, d, 3,4, e'
+11.  ¿Que casa con cada paréntesis en esta regexp para los  pares nombre-valor?
 
-
-
+            > x = "h     = 4"
+            > r = /([^=]*)(\s*)=(\s*)(.*)/
+            > r.exec(x)
+            >
