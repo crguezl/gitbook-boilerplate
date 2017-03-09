@@ -43,9 +43,12 @@ Reescriba el analizador léxico en [tokens.js](https://github.com/douglascrockfo
     encontrarlo en [https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js](https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js)
 3. Para esta práctica es necesario familiarizarse con la forma en que
     funciona la OOP en JS. Vea este [jsfiddle](http://jsfiddle.net/casiano/Mw9dW/)
-4.  ```bash
+
+### Notas para el Profesor
+
+```bash
        [~/srcPLgrado/lexical_analysis_top_down_operator_precedence(gh-pages)]$ pwd -P
        /Users/casiano/local/src/javascript/PLgrado/lexical_analysis_top_down_operator_precedence
-    ```
+```
 
 
