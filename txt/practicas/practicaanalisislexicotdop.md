@@ -33,6 +33,7 @@ Reescriba el analizador léxico en [tokens.js](https://github.com/douglascrockfo
     - [https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js](https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js)
 2. Mejore la solución en [ https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages]( https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages)
 3.  Haga el despliegue de su aplicación en Heroku o en la máquina virtual del iaas
+4. Complete los apuntes en su GitBook describiendo lo aprendido en esta práctica
 
 ### Recursos
 
