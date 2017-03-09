@@ -50,16 +50,16 @@ var re = new RegExp("\\w+");
 ```
 
 
+##### exec
 *  RegExp.prototype.[exec](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/RegExp/exec)
 
 The `exec()` method executes a search for a match in a specified string. Returns a result array, or `null`.
 
-If you are executing a match simply to find `true` 
-or `falser`, 
+If you are executing a match simply to find `true` or `false`, 
 use the `RegExp.prototype.test()` method or the `String.prototype.search()` method.
 
-*  
-String.prototype.[search](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/String/search)
+##### search
+*  String.prototype.[search](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/String/search)
 
 `str.search(regexp)`
 
@@ -70,11 +70,13 @@ When you want to know whether a pattern is found in a string use `search`
 (similar to the regular expression `test` method); for more information
 (but slower execution) use `match` (similar to the regular expression
 `exec` method).
-*  
-String.prototype.[match](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/String/match)
+
+##### match
+*  String.prototype.[match](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/String/match)
 *  
 String.prototype.[replace](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/String/replace)
 
+##### replace
 The `replace()` method returns a new string with some or all matches of
 a pattern replaced by a replacement.  
 The pattern can be a string or a `RegExp`, 
