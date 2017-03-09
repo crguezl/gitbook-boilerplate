@@ -104,10 +104,12 @@ new substring (to put in place of the substring received from parameter
 |string             |The total string being examined |
 
 ###### Ejemplo de `replace`
-```
+```bash
 [~/javascript/learning]$ pwd -P
 /Users/casiano/local/src/javascript/learning
 [~/javascript/learning]$ cat f2c.js 
+```
+```javascript
 #!/usr/bin/env node
 function f2c(x)
 {
@@ -125,7 +127,7 @@ console.log(f2c(arg));
 ```
 Ejecución:
 
-```
+```bash
 [~/javascript/learning]$ ./f2c.js 100F
 37.77777777777778C
 [~/javascript/learning]$ ./f2c.js 
