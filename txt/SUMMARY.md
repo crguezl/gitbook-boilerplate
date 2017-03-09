@@ -114,6 +114,7 @@
   * [Práctica: JavaScript en el Cliente](practicas/practicaconversordetemperaturas.md)
   * [Práctica: OOP](practicas/practicaoop.md)
   * [Práctica: Creación de un Paquete NPM](practicas/practicanm.md)
+  * [Práctica: Analizador Léxico para Un Subconjunto de JavaScript](practicas/practicaanalisislexicotdop.md)
   * [Práctica: Despliegues en iaas y heroku](practicas/practicaiaas.md)
   * [Práctica: Añadiendo plugins para los despliegues. iaas](practicas/practicaplugin.md)
   * [Práctica: `gitbook-start`. Plugin para heroku](practicas/practicaplugin2.md)
