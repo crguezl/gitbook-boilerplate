@@ -1,22 +1,24 @@
-### W3Schools
+### Tutoriales sobre RegExp
+
+#### W3Schools
 
 * [w3schools.com: JavaScript RegExp Reference](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)
 * [w3schools.com: JavaScript Regular Expressions](https://www.w3schools.com/js/js_regexp.asp)
 
-### MDN
+#### MDN
 
 * [MDN: Tutorial on Regular Expressions](https://developer.mozilla.org/en/docs/Web/JavaScript/Guide/Regular_Expressions)
 * [MDN: API de la Clase RegExp](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
 
-### Eloquent JS
+#### Eloquent JS
 
 * [Eloquent JS: Chapter 9: Regular Expressions](http://eloquentjavascript.net/09_regexp.html)
 
-### Apuntes
-
-#### RegExp Objects
+### RegExp Objects
 
 * [RegExp Objects](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Regexp)
+
+##### El Constructor
 
 The `RegExp` constructor creates a regular expression object for matching text with a pattern.
 
@@ -134,6 +136,11 @@ Ejecución:
 0C
 ```
 
+#### Expresiones Regulares Extendidas (a la Perl)
+
+* [ GitHub repo ilustrando el uso de XRegExp URL](https://github.com/ULL-ESIT-GRADOII-PL/xregexp-example)
+* [xregexp repo en GitHub. Documentación](https://github.com/slevithan/xregexp)
+* [http://xregexp.com/](http://xregexp.com/) Documentación
 #### Ejercicios
 
 * [Ejercicios de Expresiones Regulares](regexpejercicios.md)
