@@ -38,9 +38,10 @@ regulares. Reescriba el analizador léxico en [tokens.js](https://github.com/dou
 
 ### Recursos
 
-1.  Una primera solución de la que puede partir se encuentra en:
+1.  Una solución a esta práctica se encuentra en:
     -   [https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages](https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages) en github.
     -   Veala en funcionamiento en [http://crguezl.github.io/ull-etsii-grado-pl-minijavascript/](http://crguezl.github.io/ull-etsii-grado-pl-minijavascript/)
+    - No se limite a copiar el fichero `tokens.js`: estúdielo, entiéndalo y vaya modificando el `tokens.js` original de Crockford hasta obtener una solución basada en expresiones regulares
 2.  El método `tokens` original retorna el array de tokens. Puede
     encontrarlo en [https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js](https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js)
 3. Para esta práctica es necesario familiarizarse con la forma en que
