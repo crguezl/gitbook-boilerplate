@@ -30,7 +30,7 @@ a si mismo.
 regulares. Reescriba el analizador léxico en [tokens.js](https://github.com/douglascrockford/TDOP/blob/master/tokens.js) usando expresiones regulares.
   - No se limite a copiar el fichero `tokens.js`: estúdielo, entiéndalo y vaya modificando el `tokens.js` original de Crockford hasta obtener una solución basada en expresiones regulares
 2.  Evite que se hagan copias de la cadena siendo procesada. Muévase
-    dentro de la misma cadena usando `lastIndex`. Parta de la
+    dentro de la misma cadena usando `lastIndex`. Tiene una
     solución dada por el profesor en 
     - [https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js](https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js)
 3. Mejore la solución en [ https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages]( https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages)
