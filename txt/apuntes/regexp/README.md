@@ -136,11 +136,17 @@ Ejecución:
 0C
 ```
 
-#### Expresiones Regulares Extendidas (a la Perl)
+#### Extensiones a las Expresiones Regulares
+
+##### Expresiones Regulares Extendidas (a la Perl)
 
 * [ GitHub repo ilustrando el uso de XRegExp URL](https://github.com/ULL-ESIT-GRADOII-PL/xregexp-example)
 * [xregexp repo en GitHub. Documentación](https://github.com/slevithan/xregexp)
 * [http://xregexp.com/](http://xregexp.com/) Documentación
+
+##### Extensiones a las Expresiones Regulares en ECMA6
+
+* [New regular expression features in ECMAScript 6](http://www.2ality.com/2015/07/regexp-es6.html)
 
 #### Ejercicios
 
