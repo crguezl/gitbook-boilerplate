@@ -28,6 +28,7 @@ a si mismo.
 
 1. Douglas Crockford escribió su analizador léxico sin usar expresiones
 regulares. Reescriba el analizador léxico en [tokens.js](https://github.com/douglascrockford/TDOP/blob/master/tokens.js) usando expresiones regulares.
+  - No se limite a copiar el fichero `tokens.js`: estúdielo, entiéndalo y vaya modificando el `tokens.js` original de Crockford hasta obtener una solución basada en expresiones regulares
 2.  Evite que se hagan copias de la cadena siendo procesada. Muévase
     dentro de la misma cadena usando `lastIndex`. Parta de la
     solución dada por el profesor en 
@@ -41,7 +42,7 @@ regulares. Reescriba el analizador léxico en [tokens.js](https://github.com/dou
 1.  Una solución a esta práctica se encuentra en:
     -   [https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages](https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages) en github.
     -   Veala en funcionamiento en [http://crguezl.github.io/ull-etsii-grado-pl-minijavascript/](http://crguezl.github.io/ull-etsii-grado-pl-minijavascript/)
-    - No se limite a copiar el fichero `tokens.js`: estúdielo, entiéndalo y vaya modificando el `tokens.js` original de Crockford hasta obtener una solución basada en expresiones regulares
+    - **No se limite a copiar el fichero `tokens.js`: estúdielo, entiéndalo y vaya modificando el `tokens.js` original de Crockford hasta obtener una solución basada en expresiones regulares**
 2.  El método `tokens` original retorna el array de tokens. Puede
     encontrarlo en [https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js](https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js)
 3. Para esta práctica es necesario familiarizarse con la forma en que
