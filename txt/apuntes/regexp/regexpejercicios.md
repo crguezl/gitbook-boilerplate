@@ -3,7 +3,8 @@
 1.  Escriba una expresión regular que reconozca las cadenas de doble
     comillas. Debe permitir la presencia de comillas y caracteres
     escapados.
-1.  ¿Cual es la salida?
+1.  Escriba una expresión regular que reconozca los números en punto flotante (por ejemplo `-2.3e-1`, `-3e2`, `23`, `3.2`)
+1.  ¿Cual es la salida? ¿Porqué?
 
         > "bb".match(/b|bb/)
 

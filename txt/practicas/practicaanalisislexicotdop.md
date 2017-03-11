@@ -23,17 +23,18 @@ subconjunto de JS que no tiene - entre otras cosas - expresiones
 regulares ya que uno de sus objetivos era que el analizador se analizara
 a si mismo.
 
-Reescriba el analizador léxico en [tokens.js](https://github.com/douglascrockford/TDOP/blob/master/tokens.js) usando expresiones regulares.
 
 ### Requisitos
 
-1.  Evite que se hagan copias de la cadena siendo procesada. Muévase
+1. Douglas Crockford escribió su analizador léxico sin usar expresiones
+regulares. Reescriba el analizador léxico en [tokens.js](https://github.com/douglascrockford/TDOP/blob/master/tokens.js) usando expresiones regulares.
+2.  Evite que se hagan copias de la cadena siendo procesada. Muévase
     dentro de la misma cadena usando `lastIndex`. Parta de la
     solución dada por el profesor en 
     - [https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js](https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js)
-2. Mejore la solución en [ https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages]( https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages)
-3.  Haga el despliegue de su aplicación en Heroku o en la máquina virtual del iaas
-4. Complete los apuntes en su GitBook describiendo lo aprendido en esta práctica
+3. Mejore la solución en [ https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages]( https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages)
+4.  Haga el despliegue de su aplicación en Heroku o en la máquina virtual del iaas
+4. Complete los apuntes en su GitBook describiendo las expresiones regulares y lo aprendido en esta práctica
 
 ### Recursos
 
