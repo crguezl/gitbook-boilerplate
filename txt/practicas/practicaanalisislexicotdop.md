@@ -35,7 +35,11 @@ regulares. Reescriba el analizador léxico en [tokens.js](https://github.com/dou
     - [https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js](https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js)
 3. Mejore la solución en [ https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages]( https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages)
 4.  Haga el despliegue de su aplicación en Heroku o en la máquina virtual del iaas
-4. Complete los apuntes en su GitBook describiendo las expresiones regulares y lo aprendido en esta práctica
+5. Complete los apuntes en su GitBook describiendo las expresiones regulares y lo aprendido en esta práctica
+6. **Opcional**: Use `sessions`para controlar quien accede a sus apuntes. Puede ver un ejemplo de como hacerlo en los ficheros:
+  - [staticauth.js](https://github.com/ULL-ESIT-DSI-1617/express-cookies-examples/blob/master/staticauth.js)
+  - [gbookexample](https://github.com/ULL-ESIT-DSI-1617/express-cookies-examples/tree/master/gbookexample)
+  - [gbuild](https://github.com/ULL-ESIT-DSI-1617/express-cookies-examples/blob/master/gbuild)
 
 ### Recursos
 
