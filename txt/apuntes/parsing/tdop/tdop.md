@@ -507,6 +507,7 @@ This allows a more declarative style for specifying infix operators:
     infix("<=", 40);
     infix(">", 40);
     infix(">=", 40);
+```
 
 The ternary operator takes three expressions, separated by `?` and `:`.
 It is not an ordinary infix operator, so we need to supply its `led`
@@ -597,8 +598,8 @@ Prefix operators can also sometimes be reserved words.
         };
         return s;
     }
-```
-```javascript
+
+
     prefix("-");
     prefix("!");
     prefix("typeof");
@@ -637,8 +638,8 @@ quickly identify assignment statements.
             return this;
         });
     };
-```
-```javascript
+
+
     assignment("=");
     assignment("+=");
     assignment("-=");
