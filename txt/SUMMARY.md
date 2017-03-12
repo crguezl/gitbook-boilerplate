@@ -75,6 +75,8 @@
     - [Enlaces y recursos de interés](apuntes/meteor/enlaces.md)
   * [Expresiones Regulares](apuntes/regexp/README.md)
      - [Ejercicios de Expresiones Regulares](apuntes/regexp/regexpejercicios.md)
+  * [Parsing: Técnicas de Análisis](apuntes/parsing/README.md)
+    - [Top Down Operator Precedence Analysis](apuntes/parsing/tdop/tdop.md)
 * [Repasos](repasos/README.md)
   - [Preguntas de GitBook](repasos/gitbook.md)
   - [Preguntas de MarkDown](repasos/markdown.md)
