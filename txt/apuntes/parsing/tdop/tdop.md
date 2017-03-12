@@ -94,12 +94,15 @@ Every token, such as an operator or identifier, will inherit from a
 symbol. We will keep all of our symbols (which determine the types of
 tokens in our language) in a `symbol_table` object.
 
+```javascript
     var symbol_table = {};
+``` 
 
 The `original_symbol` object is the prototype for all other symbols. Its
 methods will usually be overridden. (We will describe the role of `nud`
 and `led` and binding powers in the section on Precedence below).
 
+```javascript
     var original_symbol = {
         nud: function () {
             this.error("Undefined.");
@@ -108,7 +111,7 @@ and `led` and binding powers in the section on Precedence below).
             this.error("Missing operator.");
         }
     };
-
+```
 Let's define a function that makes symbols. It takes a symbol `id` and
 an optional binding power that defaults to 0 and returns a symbol object
 for that `id`. If the symbol already exists in the `symbol_table`, the
@@ -118,6 +121,7 @@ table, and returns it. A symbol object initially contains an `id`, a
 value, a left binding power, and the stuff it inherits from the
 `original_symbol`.
 
+```javascript
     var symbol = function (id, bp) {
         var s = symbol_table[id];
         bp = bp || 0;
@@ -133,9 +137,10 @@ value, a left binding power, and the stuff it inherits from the
         }
         return s;
     };
-
+```
 The following symbols are popular separators and closers.
 
+```javascript
     symbol(":");
     symbol(";");
     symbol(",");
@@ -143,15 +148,16 @@ The following symbols are popular separators and closers.
     symbol("]");
     symbol("}");
     symbol("else");
-
+```
 The `(end)` symbol indicates the end of the token stream. The `(name)`
 symbol is the prototype for new names, such as variable names. The
 parentheses that I've included in the ids of these symbols avoid
 collisions with user-defined tokens.
 
+```javascript
     symbol("(end)");
     symbol("(name)");
-
+```
 Tokens
 ------
 
@@ -162,7 +168,9 @@ member, which is a string or number.
 
 The `token` variable always contains the current token.
 
+```javascript
     var token;
+```
 
 The `advance` function makes a new token object from the next simple
 token in the array and assigns it to the ` token` variable. It can take
@@ -173,6 +181,7 @@ the current scope or a symbol from the symbol table. The new token's
 changed later to `"binary"`, `"unary"`, or `"statement"` when we know
 more about the token's role in the program.
 
+```javascript
     var advance = function (id) {
         var a, o, t, v;
         if (id && token.id !== id) {
@@ -204,7 +213,7 @@ more about the token's role in the program.
         token.arity = a;
         return token;
     };
-
+```
 Scope
 -----
 
@@ -221,7 +230,9 @@ defined in a scope are not visible outside of the scope.
 
 We will keep the current scope object in the `scope` variable.
 
+```javascript
     var scope;
+```
 
 The `original_scope` is the prototype for all scope objects. It contains
 a `define` method that is used to define new variables in the scope. The
@@ -229,10 +240,12 @@ a `define` method that is used to define new variables in the scope. The
 produces an error if the variable has already been defined in the scope
 or if the name has already been used as a reserved word.
 
+```javascript
     var itself = function () {
         return this;
     };
-
+```
+```javascript
     var original_scope = {
         define: function (n) {
             var t = this.def[n.value];
@@ -250,7 +263,7 @@ or if the name has already been used as a reserved word.
             n.scope    = scope;
             return n;
         },
-
+```
 The `find` method is used to find the definition of a name. It starts
 with the current scope and seeks, if necessary, back through the chain
 of parent scopes and ultimately to the symbol table. It returns
@@ -260,6 +273,7 @@ The `find` method tests the values it finds to determine that they are
 not `undefined` (which would indicate an undeclared name) and not a
 function (which would indicate a collision with an inherited method).
 
+```javascript
         find: function (n) {
                 var e = this, o;
                 while (true) {
@@ -275,16 +289,18 @@ function (which would indicate a collision with an inherited method).
                     }
                 }
             },
-
+```
 The `pop` method closes a scope, giving focus back to the parent.
 
+```javascript
         pop: function () {
             scope = this.parent;
         },
-
+```
 The `reserve` method is used to indicate that a name has been used as a
 reserved word in the current scope.
 
+```javascript
         reserve: function (n) {
             if (n.arity !== "name" || n.reserved) {
                 return;
@@ -302,7 +318,7 @@ reserved word in the current scope.
             n.reserved = true;
         }
     };
-
+```
 We need a policy for reserved words. In some languages, words that are
 used structurally (such as `if`) are reserved and cannot be used as
 variable names. The flexibility of our parser allows us to have a more
@@ -318,6 +334,7 @@ Whenever we want to establish a new scope for a function or a block we
 call the `new_scope` function, which makes a new instance of the
 original scope prototype.
 
+```javascript
     var new_scope = function () {
         var s = scope;
         scope = Object.create(original_scope);
@@ -325,7 +342,7 @@ original scope prototype.
         scope.parent = s;
         return scope;
     };
-
+```
 Precedence
 ----------
 
@@ -356,6 +373,7 @@ a ` led` method. For example, `-` might be both a prefix operator
 
 In our parser, we will use these binding powers:
 
+
   ---- ---------------------------------
   0    non-binding operators like `;`
   10   assignment operators like `=`
@@ -375,6 +393,7 @@ The heart of Pratt's technique is the `expression` function. It takes a
 right binding power that controls how aggressively it binds to tokens on
 its right.
 
+```javascript
     var expression = function (rbp) {
         var left;
         var t = token;
@@ -387,7 +406,7 @@ its right.
         }
         return left;
     }
-
+```
 `expression` calls the `nud` method of the `token`. The `nud` is used to
 process literals, variables, and prefix operators. Then as long as the
 right binding power is less than the left binding power of the next
@@ -404,23 +423,25 @@ weaves the token object into a tree whose two branches (`first` and
 right. The left operand is passed into the `led`, which then obtains the
 right operand by calling the `expression` function.
 
+```javascript
     symbol("+", 50).led = function (left) {
         this.first = left;
         this.second = expression(50);
         this.arity = "binary";
         return this;
     };
-
+```
 The symbol for `*` is the same as `+` except for the `id` and binding
 powers. It has a higher binding power because it binds more tightly.
 
+```javascript
     symbol("*", 60).led = function (left) {
         this.first = left;
         this.second = expression(60);
         this.arity = "binary";
         return this;
     };
-
+```
 Not all infix operators will be this similar, but many will, so we can
 make our work easier by defining an `infix` function that will help us
 make symbols for infix operators. The `infix` function takes an `id`, a
@@ -428,6 +449,7 @@ binding power, and an optional `led` function. If a `led` function is
 not provided, the `infix` function supplies a default `led` that is
 useful in most cases.
 
+```javascript
     var infix = function (id, bp, led) {
         var s = symbol(id, bp);
         s.led = led || function (left) {
@@ -438,16 +460,19 @@ useful in most cases.
         };
         return s;
     }
-
+```
 This allows a more declarative style for specifying infix operators:
 
+```javascript
     infix("+", 50);
     infix("-", 50);
     infix("*", 60);
     infix("/", 60);
+```
 
 `===` is JavaScript's exact equality comparison operator.
 
+```javascript
     infix("===", 40);
     infix("!==", 40);
     infix("<", 40);
@@ -459,6 +484,7 @@ The ternary operator takes three expressions, separated by `?` and `:`.
 It is not an ordinary infix operator, so we need to supply its `led`
 function.
 
+```javascript
     infix("?", 20, function (left) {
         this.first = left;
         this.second = expression(0);
@@ -467,10 +493,11 @@ function.
         this.arity = "ternary";
         return this;
     });
-
+```
 The `.` operator is used to select a member of an object. The token on
 the right must be a name, but it will be used as a literal.
 
+```javascript
     infix(".", 80, function (left) {
         this.first = left;
         if (token.arity !== "name") {
@@ -482,10 +509,11 @@ the right must be a name, but it will be used as a literal.
         advance();
         return this;
     });
-
+```
 The `[` operator is used to dynamically select a member from an object
 or array. The expression on the right must be followed by a closing `]`.
 
+```javascript
     infix("[", 80, function (left) {
         this.first = left;
         this.second = expression(0);
@@ -493,11 +521,12 @@ or array. The expression on the right must be followed by a closing `]`.
         advance("]");
         return this;
     });
-
+```
 Those infix operators are left associative. We can also make right
 associative operators, such as short-circuiting logical operators, by
 reducing the right binding power.
 
+```javascript
     var infixr = function (id, bp, led) {
         var s = symbol(id, bp);
         s.led = led || function (left) {
@@ -508,7 +537,7 @@ reducing the right binding power.
         };
         return s;
     }
-
+```
 The `&&` operator returns the first operand if the first operand is
 falsy. Otherwise, it returns the second operand. The `||` operator
 returns the first operand if the first operand is truthy. Otherwise, it
@@ -516,8 +545,10 @@ returns the second operand. (The falsy values are the number `0`, the
 empty string `""`, and the values `false` and `null`. All other values
 (including all objects) are truthy.)
 
+```javascript
     infixr("&&", 30);
     infixr("||", 30);
+```
 
 Prefix Operators
 ----------------
@@ -527,6 +558,7 @@ for prefix operators. Prefix operators are right associative. A prefix
 does not have a left binding power because it does not bind to the left.
 Prefix operators can also sometimes be reserved words.
 
+```javascript
     var prefix = function (id, nud) {
         var s = symbol(id);
         s.nud = nud || function () {
@@ -537,21 +569,23 @@ Prefix operators can also sometimes be reserved words.
         };
         return s;
     }
-
+```
+```javascript
     prefix("-");
     prefix("!");
     prefix("typeof");
-
+```
 The `nud` of `(` will call `advance(")")` to match a balancing `)`
 token. The `(` token does not become part of the parse tree because the
 `nud` returns the inner expression.
 
+```javascript
     prefix("(", function () {
         var e = expression(0);
         advance(")");
         return e;
     });
-
+```
 Assignment Operators
 --------------------
 
@@ -561,6 +595,7 @@ extra bits of business: examine the left operand to make sure that it is
 a proper lvalue, and set an `assignment` member so that we can later
 quickly identify assignment statements.
 
+```javascript
     var assignment = function (id) {
         return infixr(id, 10, function (left) {
             if (left.id !== "." && left.id !== "[" &&
@@ -574,11 +609,12 @@ quickly identify assignment statements.
             return this;
         });
     };
-
+```
+```javascript
     assignment("=");
     assignment("+=");
     assignment("-=");
-
+```
 Notice that we have implemented a sort of inheritance pattern, where
 `assignment` returns the result of calling `infixr`, and `infixr`
 returns the result of calling `symbol`.
@@ -589,6 +625,7 @@ Constants
 The `constant` function builds constants into the language. The `nud`
 mutates a name token into a literal token.
 
+```javascript
     var constant = function (s, v) {
         var x = symbol(s);
         x.nud = function () {
@@ -600,16 +637,19 @@ mutates a name token into a literal token.
         x.value = v;
         return x;
     };
-
+```
+```javascript
     constant("true", true);
     constant("false", false);
     constant("null", null);
 
+```javascript
     constant("pi", 3.141592653589793);
 
 The `(literal)` symbol is the prototype for all string and number
 literals. The `nud` method of a literal token returns the token itself.
 
+```javascript
     symbol("(literal)").nud = itself;
 
 Statements
@@ -628,6 +668,7 @@ Otherwise,we assume an expression statement terminated with a
 semi-colon. For reliability, we will reject an expression statement that
 is not an assignment or invocation.
 
+```javascript
     var statement = function () {
         var n = token, v;
         if (n.std) {
@@ -642,11 +683,12 @@ is not an assignment or invocation.
         advance(";");
         return v;
     };
-
+```
 The `statements` function parses statements until it sees `(end)` or `}`
 which signals the end of a block. The function returns a statement, an
 array of statements, or `null` if there were no statements present.
 
+```javascript
     var statements = function () {
         var a = [], s;
         while (true) {
@@ -660,20 +702,22 @@ array of statements, or `null` if there were no statements present.
         }
         return a.length === 0 ? null : a.length === 1 ? a[0] : a;
     };
-
+```
 The `stmt` function is used to add statement symbols to the symbol
 table. It takes a statement `id` and an `std` function.
 
+```javascript
     var stmt = function (s, f) {
         var x = symbol(s);
         x.std = f;
         return x;
     };
-
+```
 The block statement wraps a pair of curly braces around a list of
 statements, giving them a new scope. (JavaScript does not have block
 scope. Simplified JavaScript corrects that.)
 
+```javascript
     stmt("{", function () {
         new_scope();
         var a = statements();
@@ -681,19 +725,21 @@ scope. Simplified JavaScript corrects that.)
         scope.pop();
         return a;
     });
-
+```
 The block function parses a block.
 
+```javascript
     var block = function () {
         var t = token;
         advance("{");
         return t.std();
     };
-
+```
 The `var` statement defines one or more variables in the current block.
 Each name can optionally be followed by `=` and an initializing
 expression.
 
+```javascript
     stmt("var", function () {
         var a = [], n, t;
         while (true) {
@@ -719,10 +765,11 @@ expression.
         advance(";");
         return a.length === 0 ? null : a.length === 1 ? a[0] : a;
     });
-
+```
 The `while` statement defines a loop. It contains an expression in
 parens and a block.
 
+```javascript
     stmt("while", function () {
         advance("(");
         this.first = expression(0);
@@ -731,11 +778,12 @@ parens and a block.
         this.arity = "statement";
         return this;
     });
-
+```
 The `if` statement allows for conditional execution. If we see the
 ` else` symbol after the block, then we parse the next block or `if`
 statement.
 
+```javascript
     stmt("if", function () {
         advance("(");
         this.first = expression(0);
@@ -751,9 +799,10 @@ statement.
         this.arity = "statement";
         return this;
     });
-
+```
 The `break` statement is used to break out of loops.
 
+```javascript
     stmt("break", function () {
         advance(";");
         if (token.id !== "}") {
@@ -762,10 +811,11 @@ The `break` statement is used to break out of loops.
         this.arity = "statement";
         return this;
     });
-
+```
 The `return` statement is used to return from functions. It can take an
 optional expression.
 
+```javascript
     stmt("return", function () {
         if (token.id !== ";") {
             this.first = expression(0);
@@ -777,7 +827,7 @@ optional expression.
         this.arity = "statement";
         return this;
     });
-
+```
 Functions
 ---------
 
@@ -786,6 +836,7 @@ Functions are executable object values. A function has an optional name
 wrapped in parens, and a body that is a list of statements wrapped in
 curly braces. A function has its own scope.
 
+```javascript
     prefix("function", function () {
         var a = [];
         new_scope();
@@ -818,11 +869,12 @@ curly braces. A function has its own scope.
         scope.pop();
         return this;
     });
-
+```
 Functions are invoked with the `(` operator. It can take zero or more
 comma separated arguments. We look at the left operand to detect
 expressions that cannot possibly be function values.
 
+```javascript
     infix("(", 80, function (left) {
         var a = [];
         if (left.id === "." || left.id === "[") {
@@ -852,16 +904,17 @@ expressions that cannot possibly be function values.
         advance(")");
         return this;
     });
-
+```
 The `this` symbol is a special variable. In a method invocation, it is
 the reference to the object.
 
+```javascript
     symbol("this").nud = function () {
         scope.reserve(this);
         this.arity = "this";
         return this;
     };
-
+```
 Object Literals
 ---------------
 
@@ -869,6 +922,7 @@ An array literal is a set of square brackets around zero or more
 comma-separated expressions. Each of the expressions is evaluated, and
 the results are collected into a new array.
 
+```javascript
     prefix("[", function () {
         var a = [];
         if (token.id !== "]") {
@@ -885,12 +939,13 @@ the results are collected into a new array.
         this.arity = "unary";
         return this;
     });
-
+```
 An object literal is a set of curly braces around zero or more
 comma-separated pairs. A pair is a key/expression pair separated by a
 colon (`:`). The key is a literal or a name which is treated as a
 literal.
 
+```javascript
     prefix("{", function () {
         var a = [];
         if (token.id !== "}") {
@@ -915,7 +970,7 @@ literal.
         this.arity = "unary";
         return this;
     });
-
+```
 Things to Do and Think About
 ----------------------------
 
