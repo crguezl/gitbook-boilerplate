@@ -1023,7 +1023,7 @@ define new variables, we can let the programmer add new operators and
 new statements.
 
 [Try the demonstration of the parser that was described in this
-paper.](index.html)
+paper.](http://javascript.crockford.com/tdop/index.html)
 
 Another example of this parsing technique can be found in
 [JSLint](http://jslint.com/).
