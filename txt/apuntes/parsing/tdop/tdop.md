@@ -8,6 +8,7 @@ Top Down Operator Precedence
 Introduction
 ------------
 
+
 [Vaughan Pratt](http://boole.stanford.edu/pratt.html) presented ["Top
 Down Operator Precedence"](http://portal.acm.org/citation.cfm?id=512931)
 at the first annual [Principles of Programming Languages
@@ -637,20 +638,20 @@ mutates a name token into a literal token.
         x.value = v;
         return x;
     };
-```
-```javascript
+
     constant("true", true);
     constant("false", false);
     constant("null", null);
 
-```javascript
     constant("pi", 3.141592653589793);
+```
 
 The `(literal)` symbol is the prototype for all string and number
 literals. The `nud` method of a literal token returns the token itself.
 
 ```javascript
     symbol("(literal)").nud = itself;
+```
 
 Statements
 ----------
@@ -684,6 +685,7 @@ is not an assignment or invocation.
         return v;
     };
 ```
+
 The `statements` function parses statements until it sees `(end)` or `}`
 which signals the end of a block. The function returns a statement, an
 array of statements, or `null` if there were no statements present.
