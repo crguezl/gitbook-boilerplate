@@ -117,6 +117,7 @@
   * [Práctica: OOP](practicas/practicaoop.md)
   * [Práctica: Creación de un Paquete NPM](practicas/practicanm.md)
   * [Práctica: Analizador Léxico para Un Subconjunto de JavaScript](practicas/practicaanalisislexicotdop.md)
+    - [Top Down Operator Precedence Analysis](apuntes/parsing/tdop/tdop.md)
   * [Práctica: Autenticación usando sessions](practicas/practicasessions.md)
   * [Práctica: Despliegues en iaas y heroku](practicas/practicaiaas.md)
   * [Práctica: Añadiendo plugins para los despliegues. iaas](practicas/practicaplugin.md)
