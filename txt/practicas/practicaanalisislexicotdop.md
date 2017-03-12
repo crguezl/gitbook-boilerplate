@@ -51,6 +51,8 @@ regulares. Reescriba el analizador léxico en [tokens.js](https://github.com/dou
     encontrarlo en [https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js](https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js)
 3. Para esta práctica es necesario familiarizarse con la forma en que
     funciona la OOP en JS. Vea este [jsfiddle](http://jsfiddle.net/casiano/Mw9dW/)
+4. [Apuntes: Expresiones Regulares](../apuntes/regexp/README.md)
+5. [Eloquent JS: Chapter 9: Regular Expressions](http://eloquentjavascript.net/09_regexp.html)
 
 ### Notas para el Profesor
 
