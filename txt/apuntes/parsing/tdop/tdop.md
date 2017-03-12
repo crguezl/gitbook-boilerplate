@@ -705,6 +705,7 @@ array of statements, or `null` if there were no statements present.
         return a.length === 0 ? null : a.length === 1 ? a[0] : a;
     };
 ```
+
 The `stmt` function is used to add statement symbols to the symbol
 table. It takes a statement `id` and an `std` function.
 
@@ -715,6 +716,7 @@ table. It takes a statement `id` and an `std` function.
         return x;
     };
 ```
+
 The block statement wraps a pair of curly braces around a list of
 statements, giving them a new scope. (JavaScript does not have block
 scope. Simplified JavaScript corrects that.)
