@@ -375,17 +375,44 @@ a ` led` method. For example, `-` might be both a prefix operator
 In our parser, we will use these binding powers:
 
 
-  ---- ---------------------------------
-  0    non-binding operators like `;`
-  10   assignment operators like `=`
-  20   `?`
-  30   `|| &&`
-  40   relational operators like `===`
-  50   `+ -`
-  60   `* /`
-  70   unary operators like `!`
-  80   `. [ (`
-  ---- ---------------------------------
+<table border="2" align="center"><tbody>
+  <tr>
+    <td>0</td>
+    <td>non-binding operators like <code><code>;</code></code></td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>assignment operators like <code><code>=</code></code></td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td><code><code>?</code></code></td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td><code>|| &amp;&amp;</code></td>
+  </tr>
+  <tr>
+    <td>40</td>
+    <td>relational operators like <code>===</code></td>
+  </tr>
+  <tr>
+    <td>50</td>
+    <td><code>+ -</code></td>
+  </tr>
+  <tr>
+    <td>60</td>
+    <td><code>* /</code></td>
+  </tr>
+  <tr>
+    <td>70</td>
+    <td>unary operators like <code>!</code></td>
+  </tr>
+  <tr>
+    <td>80</td>
+    <td><code>. [ (</code></td>
+  </tr></tbody>
+</table>
 
 Expressions
 -----------
