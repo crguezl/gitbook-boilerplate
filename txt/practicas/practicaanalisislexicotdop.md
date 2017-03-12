@@ -33,13 +33,14 @@ regulares. Reescriba el analizador léxico en [tokens.js](https://github.com/dou
     dentro de la misma cadena usando `lastIndex`. Tiene una
     solución dada por el profesor en 
     - [https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js](https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js)
-3. Mejore la solución en [ https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages]( https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/tree/gh-pages)
+3. Mejore la solución de Crockford usado regexps en [tokens.js](https://github.com/douglascrockford/TDOP/blob/master/tokens.js)
 4.  Haga el despliegue de su aplicación en Heroku o en la máquina virtual del iaas
 5. Complete los apuntes en su GitBook describiendo las expresiones regulares y lo aprendido en esta práctica
 6. **Opcional**: Use `sessions`para controlar quien accede a sus apuntes. Puede ver un ejemplo de como hacerlo en los ficheros:
   - [staticauth.js](https://github.com/ULL-ESIT-DSI-1617/express-cookies-examples/blob/master/staticauth.js)
   - [gbookexample](https://github.com/ULL-ESIT-DSI-1617/express-cookies-examples/tree/master/gbookexample)
   - [gbuild](https://github.com/ULL-ESIT-DSI-1617/express-cookies-examples/blob/master/gbuild)
+7. Cuando haga la entrega indique los enlaces a los repos (apuntes y analizador) así como a los despliegues
 
 ### Recursos
 
