@@ -1,5 +1,7 @@
 ## Ejercicios de Expresiones Regulares {#section:ejercicioslastindex}
 
+1. Haga los ejercicios de expresiones regulares en 
+[Eloquent JavaScript](http://eloquentjavascript.net/09_regexp.html#h_TcUD2vzyMe)
 1.  Escriba una expresión regular que reconozca las cadenas de doble
     comillas. Debe permitir la presencia de comillas y caracteres
     escapados.
