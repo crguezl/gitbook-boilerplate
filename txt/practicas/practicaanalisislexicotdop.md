@@ -3,7 +3,7 @@
 Vamos a trabajar a partir de este repo de Douglas Crockford:
 
 -  [https://github.com/douglascrockford/TDOP](https://github.com/douglascrockford/TDOP)
--  Autor: [Douglas Crockford](http://www.crockford.com/), douglas@crockford.com
+-  Autor: [Douglas Crockford](http://www.crockford.com/), [douglas@crockford.com en la Wikipedia](https://en.wikipedia.org/wiki/Douglas_Crockford)
 -  Fecha que figura en el repo: 2010-11-12
 
 
