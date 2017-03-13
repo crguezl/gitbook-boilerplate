@@ -37,9 +37,9 @@ regulares. Reescriba el analizador léxico en [tokens.js](https://github.com/dou
 4.  Haga el despliegue de su aplicación en Heroku o en la máquina virtual del iaas
 5. Complete los apuntes en su GitBook describiendo las expresiones regulares y lo aprendido en esta práctica
 6. **Opcional**: Use `sessions`para controlar quien accede a sus apuntes. Puede ver un ejemplo de como hacerlo en los ficheros:
-  - [staticauth.js](https://github.com/ULL-ESIT-DSI-1617/express-cookies-examples/blob/master/staticauth.js)
-  - [gbookexample](https://github.com/ULL-ESIT-DSI-1617/express-cookies-examples/tree/master/gbookexample)
-  - [gbuild](https://github.com/ULL-ESIT-DSI-1617/express-cookies-examples/blob/master/gbuild)
+  - [staticauth.js](https://github.com/ULL-ESIT-DSI-1617/express-cookies-examples/blob/master/staticauth.js) (el servidorr)
+  - [gbookexample](https://github.com/ULL-ESIT-DSI-1617/express-cookies-examples/tree/master/gbookexample) (el libro gitbook)
+  - [gbuild](https://github.com/ULL-ESIT-DSI-1617/express-cookies-examples/blob/master/gbuild) (script para compilar el libro)
 7. Cuando haga la entrega indique los enlaces a los repos (apuntes y analizador) así como a los despliegues
 
 ### Recursos
