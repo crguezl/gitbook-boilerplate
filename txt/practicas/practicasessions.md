@@ -11,7 +11,8 @@ a los HTML generados a partir de un libro de prueba
 en el que se guardan las parejas `usuario: password` 
 5. Use un formulario `form` para obtener el usuario y la clave
 6. Use vistas en `ejs` o `pug` para el programa
-7. Despliegue la aplicación en Heroku y en la máquina virtual del iaas
+7. Deberá tener rutas y vistas para `logout` y  para cambiar la password
+8. Despliegue la aplicación en Heroku y en la máquina virtual del iaas
 
 ### Recursos
 
