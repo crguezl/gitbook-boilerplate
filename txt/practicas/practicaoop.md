@@ -20,6 +20,7 @@
 
 ###  Recursos
 
+* [Apuntes: OOP en JavaScript](../apuntes/oop/README.md)
 * [Apuntes del Conversor de Temperaturas (http://crguezl.github.io/pl-html)](http://crguezl.github.io/pl-html/node9.html)
 * [Conversor de Temperaturas: Repo en GitHub](https://github.com/crguezl/ull-etsii-grado-pl-1213-temperature-converter)
 * [Conversor de Temperatura: despliegue en gh-pages](http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/)
