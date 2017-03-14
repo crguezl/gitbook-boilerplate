@@ -16,6 +16,8 @@
 * Reescriba el código para que use las clases.
 * Opcionalmente, si se desea se puede hacer que permita otras conversiones (por ejemplo, `metros` a `pulgadas`)
 * En esta tarea no se pide que use pruebas, ni cubrimiento, ni  Karma ni Travis.
+* Elabore sus apuntes del curso con lo aprendido de OOP. Despliéguelo en Heroku.
+Los apuntes deberán estar protegidos con usuario `dsi1617` y clave `dsi1617passowrd`
 
 ###  Recursos
 
