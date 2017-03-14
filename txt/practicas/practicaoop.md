@@ -18,3 +18,8 @@
 * Puede encontrar la asignación de esta tarea en [Github Classroom](https://classroom.github.com/group-assignment-invitations/56f6b297702591e8713c6fae890b84bc)
 * En esta tarea no se pide que use pruebas, ni cubrimiento, ni  Karma ni Travis.
 
+###  Recursos
+
+* [Apuntes del Conversor de Temperaturas (http://crguezl.github.io/pl-html)](http://crguezl.github.io/pl-html/node9.html)
+* [Conversor de Temperaturas: Repo en GitHub](https://github.com/crguezl/ull-etsii-grado-pl-1213-temperature-converter)
+* [Conversor de Temperatura: despliegue en gh-pages](http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/)
