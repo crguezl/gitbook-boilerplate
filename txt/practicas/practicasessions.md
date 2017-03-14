@@ -9,6 +9,7 @@
 a los HTML generados a partir de un libro de prueba
 3. Encripte los passwords en un fichero `users.json` (puede usar `bcrypt-nodejs`)
 en el que se guardan las parejas `usuario: password` 
+4. Puede escribir un programa auxiliar que le genere el fichero de claves `users.json`
 5. Use un formulario `form` para obtener el usuario y la clave
 6. Use vistas en `ejs` o `pug` para el programa
 7. Deberá tener rutas y vistas para `logout` y  para cambiar la password
