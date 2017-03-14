@@ -1,6 +1,6 @@
 ## Práctica: Programación Orientada a Objetos y Herencia en JavaScript
 
-* Modifique la práctica anterior de la Temperatura para que use objetos y herencia.
+* Modifique el [conversor de Temperaturas](http://crguezl.github.io/pl-html/node9.html) para que use objetos y herencia.
 
 * Defina una clase `Medida` cuyos objetos tienen un `valor` numérico (p.  ej. `4.5e2`) y un tipo dado por una cadena (p. ej "`Km`" por Kilómetros o "`m3`" por metros cúbicos o "`F`" por grados Fahrenheit).
 
