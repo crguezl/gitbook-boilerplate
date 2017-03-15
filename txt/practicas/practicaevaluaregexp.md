@@ -15,10 +15,12 @@
 1. Use el repo de GitHub dado por la asignación de esta tarea 
 2. Resuelva los ejercicios en [eloquentregexp.js](eloquentregexp.js)
 3. Resuelva los ejercicios en [singlequotestodoublequotes.js](singlequotestodoublequotes.js)
-4. Resuelva los ejercicios en [regexpexercises.js](regexpexercises.js)
-5. Resuelva los ejercicios en [replaceexercises.js](replaceexercises.js)
+4. Resuelva los ejercicios en [replaceexercises.js](replaceexercises.js)
+5. Resuelva los ejercicios en [regexpexercises.js](regexpexercises.js)
 
 ### Recursos
 
 * [Apuntes: Expresiones Regulares](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/regexp/)
 * [Eloquent JavaScript: Capítulo Expresiones Regulares](http://eloquentjavascript.net/09_regexp.html)
+* [Repo de partida para los ejercicios: ULL-ESIT-PL-1617/regexp-exercises](https://github.com/ULL-ESIT-PL-1617/regexp-exercises)
+
