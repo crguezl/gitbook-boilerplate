@@ -1,5 +1,6 @@
 ## OOP y Herencia en JS
 
+* [Eloquent JS: The Secret Life of Objects](http://eloquentjavascript.net/06_object.html)
 * [jsfiddle ilustrativo](http://jsfiddle.net/casiano/Mw9dW/)
 * [Trasparencias curso de JS de MiriadaX](https://github.com/crguezl/miriada-upm-dsnh5jsnode/blob/master/traspas/transp_modulo2.pdf)
 * [Repo con ejemplos de Herencia](https://github.com/SYTW/js-inheritance-examples)
