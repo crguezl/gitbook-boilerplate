@@ -131,7 +131,7 @@
         > 
 
 7.  Busque una solución al siguiente ejercicio (véase ’Regex to add
-    space after punctuation sign’ en ) Se quiere poner un espacio en
+    space after punctuation sign’ en [PerlMonks](http://www.perlmonks.org/?node_id=319742)) Se quiere poner un espacio en
     blanco después de la aparición de cada coma:
 
         > x = "a,b,c,1,2,d, e,f"

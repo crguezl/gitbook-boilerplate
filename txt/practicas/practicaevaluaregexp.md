@@ -13,10 +13,10 @@
 ### Hitos
 
 1. Use el repo de GitHub dado por la asignación de esta tarea 
-2. Resuelva los ejercicios en [eloquentregexp.js](eloquentregexp.js)
-3. Resuelva los ejercicios en [singlequotestodoublequotes.js](singlequotestodoublequotes.js)
-4. Resuelva los ejercicios en [replaceexercises.js](replaceexercises.js)
-5. Resuelva los ejercicios en [regexpexercises.js](regexpexercises.js)
+2. Resuelva los ejercicios en [eloquentregexp.js](https://github.com/ULL-ESIT-PL-1617/regexp-exercises/blob/master/eloquentregexp.js)
+3. Resuelva los ejercicios en [singlequotestodoublequotes.js](https://github.com/ULL-ESIT-PL-1617/regexp-exercises/blob/master/singlequotestodoublequotes.js)
+4. Resuelva los ejercicios en [replaceexercises.js](https://github.com/ULL-ESIT-PL-1617/regexp-exercises/blob/master/replaceexercises.js)
+5. Resuelva los ejercicios en [regexpexercises.js](https://github.com/ULL-ESIT-PL-1617/regexp-exercises/blob/master/regexpexercises.js)
 
 ### Recursos
 
