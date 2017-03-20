@@ -157,10 +157,12 @@ Ejecución:
 [ 'Πα', 'α', index: 0, input: 'Πα' ]
 ```
 
-By a strange historical accident, `\s` (whitespace) does not have
-this problem and matches all characters that the Unicode standard
-considers whitespace, including things like the nonbreaking space
-and the Mongolian vowel separator:
+De [EloquentJS](http://eloquentjavascript.net/09_regexp.html):
+
+> By a strange historical accident, `\s` (whitespace) does not have
+> this problem and matches all characters that the Unicode standard
+> considers whitespace, including things like the nonbreaking space
+> and the Mongolian vowel separator:
 
 ![`\s` casa con el carácter unicode Mongolian Vowel](mongolianvowel.png)
 
