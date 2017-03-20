@@ -1,3 +1,9 @@
+## Sessions y Authentication
+
+Véase la sección [Cookies y Autenticación](../cookies/README.md)
+en estos apuntes
+
+
 ## OAuth
 
 * [Introducción a OAuth](http://nereida.deioc.ull.es/~lpp/perlexamples/node773.html) (Apuntes del profesor)

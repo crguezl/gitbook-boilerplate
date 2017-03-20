@@ -148,6 +148,15 @@ Ejecución:
 
 * [New regular expression features in ECMAScript 6](http://www.2ality.com/2015/07/regexp-es6.html)
 
+```javascript
+> console.log("\u03A0")
+Π
+> console.log("\u03B1")
+α
+> "Πα".match(/\u03A0(\u03B1)/)
+[ 'Πα', 'α', index: 0, input: 'Πα' ]
+```
+
 #### Ejercicios
 
 * [Ejercicios de Expresiones Regulares](regexpejercicios.md)
