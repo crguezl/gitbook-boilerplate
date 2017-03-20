@@ -155,12 +155,14 @@ Ejecución:
 α
 > "Πα".match(/\u03A0(\u03B1)/)
 [ 'Πα', 'α', index: 0, input: 'Πα' ]
-> console.log("\u180e") # Mongolian vowel separator
-᠎
-undefined
-> "᠎".match(/\s/)
-[ '᠎', index: 0, input: '᠎' ]
 ```
+
+By a strange historical accident, `\s` (whitespace) does not have
+this problem and matches all characters that the Unicode standard
+considers whitespace, including things like the nonbreaking space
+and the Mongolian vowel separator:
+
+![`\s` casa con el carácter unicode Mongolian Vowel](mongolianvowel.png)
 
 #### Ejercicios
 
