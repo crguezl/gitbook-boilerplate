@@ -155,6 +155,11 @@ Ejecución:
 α
 > "Πα".match(/\u03A0(\u03B1)/)
 [ 'Πα', 'α', index: 0, input: 'Πα' ]
+> console.log("\u180e") # Mongolian vowel separator
+᠎
+undefined
+> "᠎".match(/\s/)
+[ '᠎', index: 0, input: '᠎' ]
 ```
 
 #### Ejercicios
