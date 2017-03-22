@@ -63,6 +63,8 @@
     - [Integración de Babel con Gulp](apuntes/babel/integracion-de-babel-con-gulp.md)
     - [Integración con Express](apuntes/babel/integracion-con-express.md)
   * [Chrome Apps](apuntes/chromeapps/README.md)
+  * Pruebas
+    - [Travis](apuntes/pruebas/travis.md)
   * [React](apuntes/react/README.md)
   * [Meteor](apuntes/meteor/README.md)
     - [Meteor](apuntes/meteor/introduccion.md)
