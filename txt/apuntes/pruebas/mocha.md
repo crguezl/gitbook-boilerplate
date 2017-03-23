@@ -3,7 +3,7 @@
 * [MochaJS documentation](http://mochajs.org/)
   - [Getting Started](http://mochajs.org/#getting-started)
 
-## Should
+## Should {should}
 
 * [Should npm](https://www.npmjs.com/package/should)
 * [Should GitHub](https://github.com/shouldjs/should.js)

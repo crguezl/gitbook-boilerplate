@@ -53,6 +53,7 @@ gulp.task('build2', function() {
 
 gulp.task('build', shell.task([
       'gitbook build', 
+      'rm -fR gh-pages',
       'mv _book gh-pages'],
       { verbose: true }
 ));
