@@ -10,8 +10,10 @@
   
 ### Buscando los repos de una organización
 
-3. Si en la página de perfil hacemos click en una organización veremos los repos de esa organización
+1. Si en la página de perfil hacemos click en una organización veremos los repos de esa organización
   -  ![Viendo los repos en una organización](travis-profile-organization.png)
+2. La URL para ver los repos de una organización es `https://travis-ci.org/profile/organization`
+
 
 ### Documentación
 
