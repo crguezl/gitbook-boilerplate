@@ -67,6 +67,13 @@
     --watch-extensions <ext>,...            additional extensions to monitor with --watch
     --delay                                 wait for async suite definition
 ```
+### Video Tutoriales
+
+* [Introduction to Testing Node.js](https://youtu.be/u2XCdkL4bWI)
+  - [Slides](http://training.strongloop.com/testing-node#/)
+  - [Code](https://github.com/jakerella/node-unit-tests)
+
+
 ## Should {#should}
 
 * [Should npm](https://www.npmjs.com/package/should)
