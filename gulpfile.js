@@ -5,8 +5,6 @@ var deploygh = function() {
   "use strict";
   let gh = require('gh-pages');
 
-  //process.env.CMDDESC="Deploy GitBook on Github";
-
   let json = require('./package.json');
   let REPO = json.repository.url;
   console.log(REPO);
@@ -15,14 +13,8 @@ var deploygh = function() {
 }
 
 //  "deploy-gitbook": "./scripts/losh deploy-gitbook",
-gulp.task('deploy', [ 'build', 'push'], deploygh);
-
-/*
-//  "deploy-gitbook": "./scripts/losh deploy-gitbook",
-gulp.task('deploy', function () {
-  return gulp.src('').pipe(shell(["./scripts/losh deploy-gitbook"]));
-});
-*/
+gulp.task('deploy', [ 'build', 'push'], 
+           deploygh);
 
 //  "deploy-togbsio": "./scripts/losh deploy-togbsio",
 gulp.task('deploygb',
@@ -55,16 +47,21 @@ gulp.task('deployw', function() {
 
 // npm install -g http-server
 //  "generate-gitbook": "./scripts/generate-gitbook",
-gulp.task('build', function() {
+gulp.task('build2', function() {
   return gulp.src('').pipe(shell(['./scripts/generate-gitbook']));
 });
 
-gulp.task('build2', shell.task(['gitbook build']));
+gulp.task('build', shell.task([
+      'gitbook build', 
+      'mv _book gh-pages'],
+      { verbose: true }
+));
 
 // "serve": "gitbook serve txt gh-pages",
-gulp.task('serve', function() {
-  return gulp.src('').pipe(shell(['gitbook serve --lrport 99990 --port 43210 `pwd` gh-pages']));
-});
+gulp.task('serve', shell.task(
+    ['gitbook serve --lrport 99990 --port 43210 `pwd` gh-pages']
+  )
+);
 
 
 // open browser at https://crguezl.github.io/ull-esit-1617/
