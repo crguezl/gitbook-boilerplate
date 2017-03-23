@@ -3,6 +3,7 @@
 * [https://travis.ci.org](https://travis-ci.org/)
 
 ### Autorizando a Travis
+
 1. Nos vamos a nuestra página de perfil en Travis
   - ![Travis: profile page. https://travis-ci.org/profile/user](travis-profile.png)
 2. Autorizamos en GitHub a Travis para que acceda a nuestras organizaciones y repos
@@ -14,6 +15,8 @@
   -  ![Viendo los repos en una organización](travis-profile-organization.png)
 2. Si hacemos click en un repo vemos el resultado de las pruebas de la última construcción en los servidores de Travis 
 3. La URL para ver los repos de una organización es `https://travis-ci.org/profile/organization`
+4. Haciendo click en un repo vamos a los resultados de las pruebas en los servidores de Travis para ese repo
+  - ![Viendo los resultados de las pruebas de un repo](travis-org-repo.png)
 
 
 ### Documentación
