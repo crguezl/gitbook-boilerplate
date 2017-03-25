@@ -1,6 +1,7 @@
 ## Travis
 
 * [https://travis.ci.org](https://travis-ci.org/)
+* [Tu página de perfil en Travis](https://travis-ci.org/profile)
 
 ### Autorizando a Travis
 
@@ -24,3 +25,11 @@
 
 * [Travis CI for Complete Beginners](https://docs.travis-ci.com/user/for-beginners)
 * [Travis CI: Building a Node.js project](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/)
+* [Apuntes de Ruby del profesor: Travis](http://crguezl.github.io/apuntes-ruby/node326.html)
+* [El cliente Travis de línea de comandos](https://github.com/travis-ci/travis.rb)
+
+#### Como hacer un Badge Travis
+Para hacer un badge vaya a la página Travis de pruebas del repositorio y haga click en el botón *build/passing* arriba a la derecha: se abrirá un formulario. Rellénelo de manera adecuada y le indicará el Markdown que debe insertar en su `README.md`
+
+![Travis badge how to](travisstatus.png)
+
