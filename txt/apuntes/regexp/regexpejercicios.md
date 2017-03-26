@@ -1,6 +1,6 @@
 ## Ejercicios de Expresiones Regulares {#section:ejercicioslastindex}
 
-### Ejercicios de EleoquentJS
+### Ejercicios de EloquentJS
 
 1. Haga los ejercicios de expresiones regulares en 
 [Eloquent JavaScript](http://eloquentjavascript.net/09_regexp.html#h_TcUD2vzyMe)
@@ -18,7 +18,7 @@
 
 ### Números
 1.  Escriba una expresión regular que reconozca los números en punto flotante (por ejemplo `-2.3e-1`, `-3e2`, `23`, `3.2`)
-5.  El siguiente ejemplo comprueba la validez de números de teléfono:
+2.  El siguiente ejemplo comprueba la validez de números de teléfono:
 
         [~/local/src/javascript/PLgrado/regexp]$ pwd -P
         /Users/casiano/local/src/javascript/PLgrado/regexp
@@ -103,7 +103,7 @@
         > result = re.exec(z)
         null
 
-### Paréntesis de lookahead
+### Paréntesis de lookahead {#lookahead}
 
 3.  JavaScript tiene lookaheads:
 
@@ -114,7 +114,7 @@
         > z = r.exec(x)
         [ 'l', index: 3, input: 'hello' ]
 
-### Paréntesis de lookabehind
+### Paréntesis de lookbehind {#lookbehind}
 
 4.  JavaScript no tiene lookbehinds:
 
@@ -134,7 +134,7 @@
         ruby-1.9.2-head :009 > $&
          => "l" 
 
-### Backtracking. Paréntesis **dentro de una RegExp**
+### Backtracking. Paréntesis **dentro de una RegExp** {#backtracking}
 
 6.  ¿Con que cadenas casa la expresión regular `/^(11+)\1+$/`?
 
