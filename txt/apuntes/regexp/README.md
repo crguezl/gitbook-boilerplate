@@ -136,7 +136,7 @@ Ejecución:
 0C
 ```
 
-### Extensiones a las Expresiones Regulares
+### Extensiones a las Expresiones Regulares {#extensiones}
 
 ##### Expresiones Regulares Extendidas (a la Perl)
 
