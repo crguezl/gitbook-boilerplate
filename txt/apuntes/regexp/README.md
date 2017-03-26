@@ -145,32 +145,32 @@ Ejecución:
 * [http://xregexp.com/](http://xregexp.com/) Documentación
 * [API de XRegExp](http://xregexp.com/api/)
    <ul>
-      <li><a href="http://xregexp.com/api/#XRegExp">XRegExp</a></li>
-      <li><a href="http://xregexp.com/api/#addToken">XRegExp.addToken</a></li>
-      <li><a href="http://xregexp.com/api/#build">XRegExp.build</a> (addon)</li>
-      <li><a href="http://xregexp.com/api/#cache">XRegExp.cache</a></li>
-      <li><a href="http://xregexp.com/api/#escape">XRegExp.escape</a></li>
-      <li><a href="http://xregexp.com/api/#exec">XRegExp.exec</a></li>
-      <li><a href="http://xregexp.com/api/#forEach">XRegExp.forEach</a></li>
-      <li><a href="http://xregexp.com/api/#globalize">XRegExp.globalize</a></li>
-      <li><a href="http://xregexp.com/api/#install">XRegExp.install</a></li>
-      <li><a href="http://xregexp.com/api/#isInstalled">XRegExp.isInstalled</a></li>
-      <li><a href="http://xregexp.com/api/#isRegExp">XRegExp.isRegExp</a></li>
-      <li><a href="http://xregexp.com/api/#match">XRegExp.match</a></li>
-      <li><a href="http://xregexp.com/api/#matchChain">XRegExp.matchChain</a></li>
-      <li><a href="http://xregexp.com/api/#matchRecursive">XRegExp.matchRecursive</a> (addon)</li>
-      <li><a href="http://xregexp.com/api/#replace">XRegExp.replace</a></li>
-      <li><a href="http://xregexp.com/api/#replaceEach">XRegExp.replaceEach</a></li>
-      <li><a href="http://xregexp.com/api/#split">XRegExp.split</a></li>
-      <li><a href="http://xregexp.com/api/#test">XRegExp.test</a></li>
-      <li><a href="http://xregexp.com/api/#uninstall">XRegExp.uninstall</a></li>
-      <li><a href="http://xregexp.com/api/#union">XRegExp.union</a></li>
-      <li><a href="http://xregexp.com/api/#version">XRegExp.version</a></li>
+      - [XRegExp](http://xregexp.com/api/#XRegExp)
+      - [XRegExp.addToken](http://xregexp.com/api/#addToken)
+      - [XRegExp.build](http://xregexp.com/api/#build) (addon)
+      - [XRegExp.cache](http://xregexp.com/api/#cache)
+      - [XRegExp.escape](http://xregexp.com/api/#escape)
+      - [XRegExp.exec](http://xregexp.com/api/#exec)
+      - [XRegExp.forEach](http://xregexp.com/api/#forEach)
+      - [XRegExp.globalize](http://xregexp.com/api/#globalize)
+      - [XRegExp.install](http://xregexp.com/api/#install)
+      - [XRegExp.isInstalled](http://xregexp.com/api/#isInstalled)
+      - [XRegExp.isRegExp](http://xregexp.com/api/#isRegExp)
+      - [XRegExp.match](http://xregexp.com/api/#match)
+      - [XRegExp.matchChain](http://xregexp.com/api/#matchChain)
+      - [XRegExp.matchRecursive](http://xregexp.com/api/#matchRecursive) (addon)
+      - [XRegExp.replace](http://xregexp.com/api/#replace)
+      - [XRegExp.replaceEach](http://xregexp.com/api/#replaceEach)
+      - [XRegExp.split](http://xregexp.com/api/#split)
+      - [XRegExp.test](http://xregexp.com/api/#test)
+      - [XRegExp.uninstall](http://xregexp.com/api/#uninstall)
+      - [XRegExp.union](http://xregexp.com/api/#union)
+      - [XRegExp.version](http://xregexp.com/api/#version)
     </ul>
     ######XRegExp instance properties
     <ul>
-      <li><a href="http://xregexp.com/api/#dot-source">&lt;regexp>.xregexp.source</a></li>
-      <li><a href="http://xregexp.com/api/#dot-flags">&lt;regexp>.xregexp.flags</a></li>
+      - [&lt;regexp>.xregexp.source](http://xregexp.com/api/#dot-source)
+      - [&lt;regexp>.xregexp.flags](http://xregexp.com/api/#dot-flags)
     </ul>
 
 ##### Extensiones a las Expresiones Regulares en ECMA6
