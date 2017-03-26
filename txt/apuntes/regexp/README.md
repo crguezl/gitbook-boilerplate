@@ -167,8 +167,8 @@ Ejecución:
   - [XRegExp.version](http://xregexp.com/api/#version)
 
 ######XRegExp instance properties
-  - [&lt;regexp>.xregexp.source](http://xregexp.com/api/#dot-source)
-  - [&lt;regexp>.xregexp.flags](http://xregexp.com/api/#dot-flags)
+  - [<regexp>.xregexp.source](http://xregexp.com/api/#dot-source)
+  - [<regexp>.xregexp.flags](http://xregexp.com/api/#dot-flags)
 
 ##### Extensiones a las Expresiones Regulares en ECMA6
 
