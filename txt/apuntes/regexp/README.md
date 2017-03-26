@@ -167,7 +167,7 @@ Ejecución:
       <li><a href="http://xregexp.com/api/#union">XRegExp.union</a></li>
       <li><a href="http://xregexp.com/api/#version">XRegExp.version</a></li>
     </ul>
-    <h3>XRegExp instance properties</h3>
+    ######XRegExp instance properties
     <ul>
       <li><a href="http://xregexp.com/api/#dot-source">&lt;regexp>.xregexp.source</a></li>
       <li><a href="http://xregexp.com/api/#dot-flags">&lt;regexp>.xregexp.flags</a></li>
