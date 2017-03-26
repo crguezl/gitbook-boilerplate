@@ -1,80 +1,23 @@
 ## Ejercicios de Expresiones Regulares {#section:ejercicioslastindex}
 
+### Ejercicios de EleoquentJS
+
 1. Haga los ejercicios de expresiones regulares en 
 [Eloquent JavaScript](http://eloquentjavascript.net/09_regexp.html#h_TcUD2vzyMe)
+
+### Ejercicios de Cursos Anteriores
+
 1. Haga los ejercicios de expresiones regulares en los apuntes de otros años
 [http://crguezl.github.io/pl-html/node7.html](http://crguezl.github.io/pl-html/node7.html)
+
+### Cadenas
+
 1.  Escriba una expresión regular que reconozca las cadenas de doble
     comillas. Debe permitir la presencia de comillas y caracteres
     escapados.
+
+### Números
 1.  Escriba una expresión regular que reconozca los números en punto flotante (por ejemplo `-2.3e-1`, `-3e2`, `23`, `3.2`)
-1.  ¿Cual es la salida? ¿Porqué?
-
-        > "bb".match(/b|bb/)
-
-        > "bb".match(/bb|b/)
-1.  Paréntesis:
-
-        > str = "John Smith"
-        'John Smith'
-        > newstr = str.replace(re, "$2, $1")
-        'Smith, John'
-
-2.  El método `exec`.
-
-  If your regular expression uses the `g` flag, you can use the `exec`
-  method multiple times to find successive matches in the same string.
-  When you do so, the search starts at the substring of str specified
-  by the regular expression’s `lastIndex` property.
-
-        > re = /d(b+)(d)/ig
-        /d(b+)(d)/gi
-        > z = "dBdxdbbdzdbd"
-        'dBdxdbbdzdbd'
-        > result = re.exec(z)
-        [ 'dBd', 'B', 'd', index: 0, input: 'dBdxdbbdzdbd' ]
-        > re.lastIndex
-        3
-        > result = re.exec(z)
-        [ 'dbbd', 'bb', 'd', index: 4, input: 'dBdxdbbdzdbd' ]
-        > re.lastIndex
-        8
-        > result = re.exec(z)
-        [ 'dbd', 'b', 'd', index: 9, input: 'dBdxdbbdzdbd' ]
-        > re.lastIndex
-        12
-        > z.length
-        12
-        > result = re.exec(z)
-        null
-
-3.  JavaScript tiene lookaheads:
-
-        > x = "hello"
-        'hello'
-        > r = /l(?=o)/
-        /l(?=o)/
-        > z = r.exec(x)
-        [ 'l', index: 3, input: 'hello' ]
-
-4.  JavaScript no tiene lookbehinds:
-
-        > x = "hello"
-        'hello'
-        > r = /(?<=l)l/
-        SyntaxError: Invalid regular expression: /(?<=l)l/: Invalid group
-        > .exit
-
-        [~/Dropbox/src/javascript/PLgrado/csv(master)]$ irb
-        ruby-1.9.2-head :001 > x = "hello"
-         => "hello" 
-        ruby-1.9.2-head :002 > r = /(?<=l)l/
-         => ll 
-        ruby-1.9.2-head :008 > x =~ r
-         => 3 
-        ruby-1.9.2-head :009 > $&
-         => "l" 
-
 5.  El siguiente ejemplo comprueba la validez de números de teléfono:
 
         [~/local/src/javascript/PLgrado/regexp]$ pwd -P
@@ -105,6 +48,94 @@
           </body>  
         </html>
 
+
+### Circuito Corto
+
+1.  ¿Cual es la salida? ¿Porqué?
+
+        > "bb".match(/b|bb/)
+
+        > "bb".match(/bb|b/)
+
+### Paréntesis 
+
+1. Paréntesis en la cadena de reemplazo
+
+        > str = "John Smith"
+        'John Smith'
+        > newstr = str.replace(re, "$2, $1")
+        'Smith, John'
+
+11.  ¿Que casa con cada paréntesis en esta regexp para los  pares nombre-valor?
+
+            > x = "h     = 4"
+            > r = /([^=]*)(\s*)=(\s*)(.*)/
+            > r.exec(x)
+            >
+
+### lastIndex
+
+2.  El método `exec`.
+
+  If your regular expression uses the `g` flag, you can use the `exec`
+  method multiple times to find successive matches in the same string.
+  When you do so, the search starts at the substring of str specified
+  by the regular expression’s `lastIndex` property.
+
+        > re = /d(b+)(d)/ig
+        /d(b+)(d)/gi
+        > z = "dBdxdbbdzdbd"
+        'dBdxdbbdzdbd'
+        > result = re.exec(z)
+        [ 'dBd', 'B', 'd', index: 0, input: 'dBdxdbbdzdbd' ]
+        > re.lastIndex
+        3
+        > result = re.exec(z)
+        [ 'dbbd', 'bb', 'd', index: 4, input: 'dBdxdbbdzdbd' ]
+        > re.lastIndex
+        8
+        > result = re.exec(z)
+        [ 'dbd', 'b', 'd', index: 9, input: 'dBdxdbbdzdbd' ]
+        > re.lastIndex
+        12
+        > z.length
+        12
+        > result = re.exec(z)
+        null
+
+### Paréntesis de lookahead
+
+3.  JavaScript tiene lookaheads:
+
+        > x = "hello"
+        'hello'
+        > r = /l(?=o)/
+        /l(?=o)/
+        > z = r.exec(x)
+        [ 'l', index: 3, input: 'hello' ]
+
+### Paréntesis de lookabehind
+
+4.  JavaScript no tiene lookbehinds:
+
+        > x = "hello"
+        'hello'
+        > r = /(?<=l)l/
+        SyntaxError: Invalid regular expression: /(?<=l)l/: Invalid group
+        > .exit
+
+        [~/Dropbox/src/javascript/PLgrado/csv(master)]$ irb
+        ruby-1.9.2-head :001 > x = "hello"
+         => "hello" 
+        ruby-1.9.2-head :002 > r = /(?<=l)l/
+         => ll 
+        ruby-1.9.2-head :008 > x =~ r
+         => 3 
+        ruby-1.9.2-head :009 > $&
+         => "l" 
+
+### Backtracking. Paréntesis **dentro de una RegExp**
+
 6.  ¿Con que cadenas casa la expresión regular `/^(11+)\1+$/`?
 
         > '1111'.match(/^(11+)\1+$/) # 4 unos
@@ -129,6 +160,8 @@
         > '1111111'.match(/^(11+)\1+$/)
         null
         > 
+
+### Funciones en el Argumento de Reemplazo
 
 7.  Busque una solución al siguiente ejercicio (véase ’Regex to add
     space after punctuation sign’ en [PerlMonks](http://www.perlmonks.org/?node_id=319742)) Se quiere poner un espacio en
@@ -171,9 +204,3 @@
             [Function]
             > z.replace(r, f)
             'a, b, 1,2, d, 3,4, e'
-11.  ¿Que casa con cada paréntesis en esta regexp para los  pares nombre-valor?
-
-            > x = "h     = 4"
-            > r = /([^=]*)(\s*)=(\s*)(.*)/
-            > r.exec(x)
-            >
