@@ -143,6 +143,7 @@ Ejecución:
 * [ GitHub repo ilustrando el uso de XRegExp URL](https://github.com/ULL-ESIT-GRADOII-PL/xregexp-example)
 * [xregexp repo en GitHub. Documentación](https://github.com/slevithan/xregexp)
 * [http://xregexp.com/](http://xregexp.com/) Documentación
+* [API de XRegExp](http://xregexp.com/api/)
 
 ##### Extensiones a las Expresiones Regulares en ECMA6
 
