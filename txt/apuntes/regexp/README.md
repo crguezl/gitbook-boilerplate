@@ -144,7 +144,34 @@ Ejecución:
 * [xregexp repo en GitHub. Documentación](https://github.com/slevithan/xregexp)
 * [http://xregexp.com/](http://xregexp.com/) Documentación
 * [API de XRegExp](http://xregexp.com/api/)
-
+   <ul>
+      <li><a href="http://xregexp.com/api/#XRegExp">XRegExp</a></li>
+      <li><a href="http://xregexp.com/api/#addToken">XRegExp.addToken</a></li>
+      <li><a href="http://xregexp.com/api/#build">XRegExp.build</a> (addon)</li>
+      <li><a href="http://xregexp.com/api/#cache">XRegExp.cache</a></li>
+      <li><a href="http://xregexp.com/api/#escape">XRegExp.escape</a></li>
+      <li><a href="http://xregexp.com/api/#exec">XRegExp.exec</a></li>
+      <li><a href="http://xregexp.com/api/#forEach">XRegExp.forEach</a></li>
+      <li><a href="http://xregexp.com/api/#globalize">XRegExp.globalize</a></li>
+      <li><a href="http://xregexp.com/api/#install">XRegExp.install</a></li>
+      <li><a href="http://xregexp.com/api/#isInstalled">XRegExp.isInstalled</a></li>
+      <li><a href="http://xregexp.com/api/#isRegExp">XRegExp.isRegExp</a></li>
+      <li><a href="http://xregexp.com/api/#match">XRegExp.match</a></li>
+      <li><a href="http://xregexp.com/api/#matchChain">XRegExp.matchChain</a></li>
+      <li><a href="http://xregexp.com/api/#matchRecursive">XRegExp.matchRecursive</a> (addon)</li>
+      <li><a href="http://xregexp.com/api/#replace">XRegExp.replace</a></li>
+      <li><a href="http://xregexp.com/api/#replaceEach">XRegExp.replaceEach</a></li>
+      <li><a href="http://xregexp.com/api/#split">XRegExp.split</a></li>
+      <li><a href="http://xregexp.com/api/#test">XRegExp.test</a></li>
+      <li><a href="http://xregexp.com/api/#uninstall">XRegExp.uninstall</a></li>
+      <li><a href="http://xregexp.com/api/#union">XRegExp.union</a></li>
+      <li><a href="http://xregexp.com/api/#version">XRegExp.version</a></li>
+    </ul>
+    <h3>XRegExp instance properties</h3>
+    <ul>
+      <li><a href="http://xregexp.com/api/#dot-source">&lt;regexp>.xregexp.source</a></li>
+      <li><a href="http://xregexp.com/api/#dot-flags">&lt;regexp>.xregexp.flags</a></li>
+    </ul>
 ##### Extensiones a las Expresiones Regulares en ECMA6
 
 * [New regular expression features in ECMAScript 6](http://www.2ality.com/2015/07/regexp-es6.html)
