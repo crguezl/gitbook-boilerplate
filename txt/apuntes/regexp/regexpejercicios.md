@@ -142,28 +142,28 @@
     pero se quiere que la sustitución no tenga lugar si la coma esta
     incrustada entre dos dígitos. Además se pide que si hay ya un
     espacio después de la coma, no se duplique.
-8.  La siguiente solución logra el segundo objetivo, pero estropea los números:
+  8.  La siguiente solución logra el segundo objetivo, pero estropea los números:
 
             > x = "a,b,c,1,2,d, e,f"
             'a,b,c,1,2,d, e,f'
             > x.replace(/,(\S)/g,", $1")
             'a, b, c, 1, 2, d, e, f'
 
-9.  Esta otra funciona bien con los números pero no con los espacios ya existentes:
+  9.  Esta otra funciona bien con los números pero no con los espacios ya existentes:
 
             > x = "a,b,c,1,2,d, e,f"
             'a,b,c,1,2,d, e,f'
             > x.replace(/,(\D)/g,", $1")
             'a, b, c,1,2, d,  e, f'
 
-10.  Explique cuando casa esta expresión regular:
+  10.  Explique cuando casa esta expresión regular:
 
             > r = /(\d[,.]\d)|(,(?=\S))/g
             /(\d[,.]\d)|(,(?=\S))/g
 
-Aproveche que el método `replace` puede recibir como segundo
-argumento una función (vea
-[replace](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global~O~bjects/String/replace)):
+  Aproveche que el método `replace` puede recibir como segundo
+  argumento una función (vea
+  [replace](https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global~O~bjects/String/replace)):
 
             > z = "a,b,1,2,d, 3,4,e"
             'a,b,1,2,d, 3,4,e'
