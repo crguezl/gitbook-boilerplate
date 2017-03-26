@@ -142,7 +142,7 @@ Ejecución:
 
 * [ GitHub repo ilustrando el uso de XRegExp URL](https://github.com/ULL-ESIT-GRADOII-PL/xregexp-example)
 * [xregexp repo en GitHub. Documentación](https://github.com/slevithan/xregexp)
-* [http://xregexp.com/](http://xregexp.com/) Documentación
+* [http://xregexp.com/ website](http://xregexp.com/): Documentación
 * [API de XRegExp](http://xregexp.com/api/)
   - [XRegExp](http://xregexp.com/api/#XRegExp)
   - [XRegExp.addToken](http://xregexp.com/api/#addToken)
