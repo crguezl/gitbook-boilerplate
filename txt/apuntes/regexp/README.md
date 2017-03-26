@@ -136,7 +136,7 @@ Ejecución:
 0C
 ```
 
-#### Extensiones a las Expresiones Regulares
+### Extensiones a las Expresiones Regulares
 
 ##### Expresiones Regulares Extendidas (a la Perl)
 
@@ -172,6 +172,7 @@ Ejecución:
       <li><a href="http://xregexp.com/api/#dot-source">&lt;regexp>.xregexp.source</a></li>
       <li><a href="http://xregexp.com/api/#dot-flags">&lt;regexp>.xregexp.flags</a></li>
     </ul>
+
 ##### Extensiones a las Expresiones Regulares en ECMA6
 
 * [New regular expression features in ECMAScript 6](http://www.2ality.com/2015/07/regexp-es6.html)
@@ -194,6 +195,6 @@ De [EloquentJS](http://eloquentjavascript.net/09_regexp.html):
 
 ![`\s` casa con el carácter unicode Mongolian Vowel](mongolianvowel.png)
 
-#### Ejercicios
+### Ejercicios
 
 * [Ejercicios de Expresiones Regulares](regexpejercicios.md)
