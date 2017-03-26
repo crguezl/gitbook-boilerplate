@@ -165,6 +165,7 @@ Ejecución:
   - [XRegExp.uninstall](http://xregexp.com/api/#uninstall)
   - [XRegExp.union](http://xregexp.com/api/#union)
   - [XRegExp.version](http://xregexp.com/api/#version)
+
 ######XRegExp instance properties
   - [&lt;regexp>.xregexp.source](http://xregexp.com/api/#dot-source)
   - [&lt;regexp>.xregexp.flags](http://xregexp.com/api/#dot-flags)
