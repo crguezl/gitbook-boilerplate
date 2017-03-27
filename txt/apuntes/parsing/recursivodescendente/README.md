@@ -9,7 +9,9 @@
 * [repo prdcalc](https://github.com/crguezl/prdcalc)
   - Un repo en con una aplicación web en Ruby Sinatra con un parser RDP escrito en CoffeeScript
   - [main.coffee del repo prdcalc](https://github.com/crguezl/prdcalc/blob/master/views/main.coffee)
+  - [Despliegue en Heroku](https://predictiveparser.herokuapp.com/) (Puede estar caído o eliminado)
 * [Repo parser-pdr-example](https://github.com/ULL-ESIT-PL-1617/parser-pdr-example)
+  - [despliegue en Heroku](https://pdr-example.herokuapp.com/) (Puede estar caído o eliminado)
 
 ### Tutoriales
 
