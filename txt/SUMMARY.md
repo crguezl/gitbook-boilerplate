@@ -82,7 +82,7 @@
   * [Parsing: Técnicas de Análisis](apuntes/parsing/README.md)
     - [Operator Precedence Analysis](apuntes/parsing/tdop/README.md)
       - [Top Down Operator Precedence Analysis](apuntes/parsing/tdop/tdop.md)
-    - [Análisis Recursivo Descendente](apuntes/recursivodescendente/README.md)
+    - [Análisis Recursivo Descendente](apuntes/parsing/recursivodescendente/README.md)
 * [Repasos](repasos/README.md)
   - [Preguntas de GitBook](repasos/gitbook.md)
   - [Preguntas de MarkDown](repasos/markdown.md)
