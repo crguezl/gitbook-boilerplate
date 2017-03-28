@@ -1,6 +1,6 @@
 ## Analizadores Descendentes Recursivos 
 
-### Apuntes 
+### Apuntes sobre Analizadores Descendentes Recursivos 
 
 * [Apuntes de PL: Analizadores Descendentes Predictivos en JavaScript](http://crguezl.github.io/pl-html/node20.html)
 * [repo prdcalc](https://github.com/crguezl/prdcalc)
