@@ -168,8 +168,6 @@
 ## Repasos
 
 * [Repasos](repasos/README.md)
-  - [Preguntas de SSH](repasos/ssh.md) 
-  - [Preguntas de heroku](repasos/heroku.md) 
 
 ## Recursos
 
@@ -177,7 +175,9 @@
   * [GitHub Education](recursos/README.md#github-education)
   * Servicios en la Nube
     * [iaas.ull.es](recursos/iaas.md)
+      - [Repaso: Preguntas de SSH](repasos/ssh.md) 
     * [Heroku](recursos/heroku.md)
+      - [Repaso: Preguntas de heroku](repasos/heroku.md) 
     * [Yellow Circle](recursos/yellow.md)
     * [Azure in education](recursos/azure.md)
     * [c9](recursos/c9.md)
