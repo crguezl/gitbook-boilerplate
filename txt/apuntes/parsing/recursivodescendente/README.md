@@ -6,6 +6,7 @@
 * [repo prdcalc](https://github.com/crguezl/prdcalc)
   - Este es un repo en con una aplicación web en Ruby Sinatra con un parser RDP escrito en CoffeeScript
   - [Fichero `main.coffee` del repo prdcalc](https://github.com/crguezl/prdcalc/blob/master/views/main.coffee)
+  - [Fichero `main.js` del repo prdcalc](https://github.com/crguezl/prdcalc/blob/master/views/main.js)
   - [Despliegue en Heroku](https://predictiveparser.herokuapp.com/) (Puede estar caído o eliminado)
 
 #### Repo con la solución de la *Práctica: Analizador Descendente Predictivo Recursivo*
