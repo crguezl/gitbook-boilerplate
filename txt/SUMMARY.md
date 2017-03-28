@@ -45,6 +45,9 @@
   * [Sistema de Archivos](apuntes/fs.md)
   * [Procesamiento de la línea de comandos](apuntes/argumentos/README.md)
   * [Procesos](apuntes/processes/README.md)  
+
+## Programación: Buenas Prácticas
+
   * [Programación Orientada a Objetos/Object Oriented Programming](apuntes/oop/README.md)
   * [Code Smells](apuntes/patterns/codesmell.md)
   * [Principios de Diseño](/apuntes/patterns/designprinciples.md)
@@ -108,6 +111,8 @@
   * [Pruebas](apuntes/pruebas/README.md)
     - [Mocha](apuntes/pruebas/mocha.md)
     - [Travis](apuntes/pruebas/travis.md)
+  * [Repasos: Preguntas de Expresiones Regulares](repasos/regexp.md) 
+  * [Repasos: Preguntas de Mocha y Chai](repasos/mochachai.md) 
 
 ### React
 
@@ -115,29 +120,30 @@
 
 ### Meteor
 
-  * [Meteor](apuntes/meteor/README.md)
-    - [Meteor](apuntes/meteor/introduccion.md)
-    - [Instalando Meteor](apuntes/meteor/instalando.md)
-    - [Consolas de Meteor](apuntes/meteor/consolas.md)
-    - [Plantillas en Meteor](apuntes/meteor/plantillas.md)
-    - [Colecciones en Meteor](apuntes/meteor/collections.md)
-    - [Construyendo una app](apuntes/meteor/primera_app.md)
-    - [Rutas en Meteor](apuntes/meteor/rutas.md)
-    - [Guía de comandos Meteor](apuntes/meteor/guia_comandos.md)
-    - [Enlaces y recursos de interés](apuntes/meteor/enlaces.md)
+* [Meteor](apuntes/meteor/README.md)
+  - [Meteor](apuntes/meteor/introduccion.md)
+  - [Instalando Meteor](apuntes/meteor/instalando.md)
+  - [Consolas de Meteor](apuntes/meteor/consolas.md)
+  - [Plantillas en Meteor](apuntes/meteor/plantillas.md)
+  - [Colecciones en Meteor](apuntes/meteor/collections.md)
+  - [Construyendo una app](apuntes/meteor/primera_app.md)
+  - [Rutas en Meteor](apuntes/meteor/rutas.md)
+  - [Guía de comandos Meteor](apuntes/meteor/guia_comandos.md)
+  - [Enlaces y recursos de interés](apuntes/meteor/enlaces.md)
 
 ### Chrome Apps
-  * [Chrome Apps](apuntes/chromeapps/README.md)
+
+* [Chrome Apps](apuntes/chromeapps/README.md)
 
 
 ### Procesamiento de Lenguajes
 
-  * [Expresiones Regulares](apuntes/regexp/README.md)
-     - [Ejercicios de Expresiones Regulares](apuntes/regexp/regexpejercicios.md)
-  * [Parsing: Técnicas de Análisis](apuntes/parsing/README.md)
-    - [Operator Precedence Analysis](apuntes/parsing/tdop/README.md)
-      - [Top Down Operator Precedence Analysis](apuntes/parsing/tdop/tdop.md)
-    - [Análisis Recursivo Descendente](apuntes/parsing/recursivodescendente/README.md)
+* [Expresiones Regulares](apuntes/regexp/README.md)
+   - [Ejercicios de Expresiones Regulares](apuntes/regexp/regexpejercicios.md)
+* [Parsing: Técnicas de Análisis](apuntes/parsing/README.md)
+  - [Operator Precedence Analysis](apuntes/parsing/tdop/README.md)
+    - [Top Down Operator Precedence Analysis](apuntes/parsing/tdop/tdop.md)
+  - [Análisis Recursivo Descendente](apuntes/parsing/recursivodescendente/README.md)
 
 ## Repasos
 
@@ -146,8 +152,6 @@
   - [Preguntas de heroku](repasos/heroku.md) 
   - [Preguntas de gulp](repasos/gulp.md) 
   - [Preguntas de npm](repasos/npm.md) 
-  - [Preguntas de Expresiones Regulares](repasos/regexp.md) 
-  - [Preguntas de Mocha y Chai](repasos/mochachai.md) 
   - [Preguntas de mongo](repasos/mongo.md) 
 
 ## Recursos
