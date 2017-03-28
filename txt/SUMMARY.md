@@ -1,19 +1,36 @@
 # Indice para el Curso ULL-ESIT 2016/2017 (SYTW, DSI, PL)
 
+## Instrucciones
 * [Instrucciones Generales](instrucciones/README.md)
   * [Instrucciones para GitHub ClassRoom](instrucciones/classroom.md)
   * [Instrucciones para los envíos de tareas](instrucciones/instruccionesparaelenvio.md)
   * [Instrucciones para la evaluación](instrucciones/instruccionesparalaevaluacion.md)
   * [Instrucciones para las Presentaciones de SYTW](instrucciones/instruccionesparalaspresentaciones.md)
+
+## Apuntes
+
 * [Apuntes](apuntes/README.md)
   * [Programación para no programadores](apuntes/programmingforchildren/README.md)
   * [Presentaciones de SYTW 16/17](https://casianorodriguezleon.gitbooks.io/presentaciones-de-sytw-2016-2017/content/)
     - [Presentaciones de SYTW en GitBook](https://casianorodriguezleon.gitbooks.io/presentaciones-de-sytw-2016-2017/content/)
     - [Presentaciones de SYTW en GitHub (gh-pages)](https://ull-esit-sytw-1617.github.io/presentaciones-todos/)
     - [Repo con las presentaciones de SYTW ](https://github.com/ULL-ESIT-SYTW-1617/presentaciones-todos)
+
+### GitHub
+
   * [GitHub](apuntes/github/README.md)
     * [GitHub for Poets](apuntes/github/poets/README.md)
     * [GitHub Projects](apuntes/github/projects/README.md)
+  * [Colaboración](apuntes/colaboracion/README.md)  
+
+### GitBook
+  * [Sobre GitBook](apuntes/gitbooknotes/README.md)
+  * Repasos de GitBook
+    - [Preguntas de MarkDown](repasos/markdown.md)
+    - [Preguntas de GitBook](repasos/gitbook.md)
+
+### Gulp
+
   * [Gulp](apuntes/gulp/README.md)
     * [API Documentation](apuntes/gulp/API.md)
     * [Recipes](apuntes/gulp/recipes/README.md)
@@ -21,14 +38,11 @@
     * [gulp gh pages](apuntes/gulp/gulpghpages.md)
     * [gulp-shell](apuntes/gulp/gulpshell.md)
     * [gulp-linting](apuntes/gulp/gulplinting.md)
+
+### NodeJS
   * [Creación de Paquetes y Módulos en NodeJS](apuntes/nodejspackages.md)
-  * [Sobre GitBook](apuntes/gitbooknotes/README.md)
   * [Sistema de Archivos](apuntes/fs.md)
   * [Procesamiento de la línea de comandos](apuntes/argumentos/README.md)
-  * [Colaboración](apuntes/colaboracion/README.md)  
-  * [Express](apuntes/express/README.md)  
-    - [Rutas](apuntes/express/expressroutes.md)
-    - [Express Generator](apuntes/express/expressgenerator.md)
   * [Procesos](apuntes/processes/README.md)  
   * [Programación Orientada a Objetos/Object Oriented Programming](apuntes/oop/README.md)
   * [Code Smells](apuntes/patterns/codesmell.md)
@@ -37,17 +51,35 @@
     * [Strategy Pattern](/apuntes/patterns/strategypattern.md)
     * [Dependency Injection Pattern](/apuntes/patterns/dependencyinjectionpattern.md)
     * [Inversion of Control Pattern](apuntes/patterns/inversionofcontrolpattern.md)
+
+### Programación Web
+
+  * [Express](apuntes/express/README.md)  
+    - [Rutas](apuntes/express/expressroutes.md)
+    - [Express Generator](apuntes/express/expressgenerator.md)
   * [Arquitectura REST, REST APIs y GraphQL](apuntes/rest/README.md)
     * [Getting Started with the GitHub API](apuntes/rest/githubapitutorial.md)
   * [Cookies y Sessions](apuntes/cookies/README.md)
   * [Authentication con OAuth](apuntes/authentication/README.md)
   * [SSL](apuntes/ssl/README.md)
+  * Repasos de Programación Web
+    - [Preguntas de pug](repasos/pug.md) 
+    - [Preguntas de sass](repasos/sass.md)
+    - [Preguntas de HTTPS](repasos/https.md)
+    - [Preguntas de AJAX](repasos/ajax.md)
+    - [Preguntas de Passport](repasos/passport.md)
+
+### Bases de Datos
+
   * [Bases de Datos/DataBases](apuntes/db/README.md)
     * [Sqlite](apuntes/db/sqlite/README.md)
     * [Sequelize](apuntes/db/sequelize/README.md)
     * [Mongo](apuntes/db/mongo/README.md)
       * [MongoDB](apuntes/db/mongo/mongodb.md)
       * [Mongoose](apuntes/db/mongo/mongoose.md)
+
+### ECMA 6
+
   * [Babel ES6, ES7 y ES8](apuntes/babel/README.md)
     - [Proceso de Introducción de Nuevas Características](apuntes/babel/proceso-de-introduccion-de-nuevas-caracteristicas.md)
     - [Babel](apuntes/babel/babel.md)
@@ -62,11 +94,18 @@
     - [Async y Await](apuntes/babel/async-y-await.md)
     - [Integración de Babel con Gulp](apuntes/babel/integracion-de-babel-con-gulp.md)
     - [Integración con Express](apuntes/babel/integracion-con-express.md)
-  * [Chrome Apps](apuntes/chromeapps/README.md)
+
+### Pruebas
+
   * [Pruebas](apuntes/pruebas/README.md)
     - [Mocha](apuntes/pruebas/mocha.md)
     - [Travis](apuntes/pruebas/travis.md)
+### React
+
   * [React](apuntes/react/README.md)
+
+### Meteor
+
   * [Meteor](apuntes/meteor/README.md)
     - [Meteor](apuntes/meteor/introduccion.md)
     - [Instalando Meteor](apuntes/meteor/instalando.md)
@@ -77,15 +116,23 @@
     - [Rutas en Meteor](apuntes/meteor/rutas.md)
     - [Guía de comandos Meteor](apuntes/meteor/guia_comandos.md)
     - [Enlaces y recursos de interés](apuntes/meteor/enlaces.md)
+
+### Chrome Apps
+  * [Chrome Apps](apuntes/chromeapps/README.md)
+
+
+### Procesamiento de Lenguajes
+
   * [Expresiones Regulares](apuntes/regexp/README.md)
      - [Ejercicios de Expresiones Regulares](apuntes/regexp/regexpejercicios.md)
   * [Parsing: Técnicas de Análisis](apuntes/parsing/README.md)
     - [Operator Precedence Analysis](apuntes/parsing/tdop/README.md)
       - [Top Down Operator Precedence Analysis](apuntes/parsing/tdop/tdop.md)
     - [Análisis Recursivo Descendente](apuntes/parsing/recursivodescendente/README.md)
+
+## Repasos
+
 * [Repasos](repasos/README.md)
-  - [Preguntas de GitBook](repasos/gitbook.md)
-  - [Preguntas de MarkDown](repasos/markdown.md)
   - [Preguntas de SSH](repasos/ssh.md) 
   - [Preguntas de heroku](repasos/heroku.md) 
   - [Preguntas de ejs](repasos/ejs.md) 
@@ -102,11 +149,9 @@
   - [Preguntas de ecma6](repasos/ecma6.md) 
   - [Preguntas de Mocha y Chai](repasos/mochachai.md) 
   - [Preguntas de mongo](repasos/mongo.md) 
-  - [Preguntas de pug](repasos/pug.md) 
-  - [Preguntas de sass](repasos/sass.md)
-  - [Preguntas de HTTPS](repasos/https.md)
-  - [Preguntas de AJAX](repasos/ajax.md)
-  - [Preguntas de Passport](repasos/passport.md)
+
+## Recursos
+
 * [Recursos](recursos/README.md)
   * [GitHub Education](recursos/README.md#github-education)
   * Servicios en la Nube
@@ -115,6 +160,10 @@
     * [Yellow Circle](recursos/yellow.md)
     * [Azure in education](recursos/azure.md)
     * [c9](recursos/c9.md)
+
+
+## Prácticas
+
 * [Prácticas](practicas/README.md)
   * [Práctica: Tareas Iniciales](practicas/practicatareasiniciales.md)
   * [Práctica: Primeros Pasos en NodeJS](practicas/practicatareasiniciales2.md)

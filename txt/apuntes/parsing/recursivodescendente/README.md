@@ -24,7 +24,7 @@ Recuerde que una gramática $$G$$ es una cuaterna $$G =(\Sigma,V,P,S)$$.
 Dada una gramática $$G=(\Sigma,V,P,S)$$ se denota por $$L(G)$$ o lenguaje
 generado por $$G$$ al lenguaje: 
 
-       $$L(G) = \{ x \in \Sigma^* : S \stackrel{*}{\Longrightarrow} x \}$$
+$$L(G) = \{ x \in \Sigma^* : S \stackrel{*}{\Longrightarrow} x \}$$
 
 Esto es, el lenguaje generado por la gramática $$G$$ esta
 formado por las cadenas de terminales que pueden ser <i>derivados</i> 
