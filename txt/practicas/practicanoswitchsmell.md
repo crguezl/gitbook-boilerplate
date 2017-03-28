@@ -8,7 +8,7 @@ posiblemente  usaba bien un `switch`, bien un `if else`para
 a partir de la entrada determinar el tipo de conversión necesaria: ¿Que clase usar? `Celsius` o `Kelvin`? y también para determinar ¿Que método usar `toFahrenheit` o `toCelsius`?. Algo parecido a esto:
 
 
-{%ace edit=false, lang='javascript'%}
+```javascript
 exports.convertir = function() {
     var valor     = document.getElementById('convert').value,
         elemento  = document.getElementById('converted'),
@@ -48,7 +48,7 @@ exports.convertir = function() {
       }
   /* .... código suprimido */
 }
-{% endace %}
+```
 
 ## Debilidades
 
@@ -63,7 +63,7 @@ ya que la expresión regular es una constante que puede sacarse fuera de `conver
 
 * Ahora `convertir`es una función global, un método del objeto `window`. Es mejor encapsularlo algo mas y que sea un *método de clase* de la clase `Medida`. El código principal podría quedar algo similar a esto:
 
-{%ace edit=false, lang='javascript'%}
+```javascript
 (function(exports) {
   "use strict";
   function main() {
@@ -74,7 +74,7 @@ ya que la expresión regular es una constante que puede sacarse fuera de `conver
   }
   exports.main = main;
 })(this);
-{% endace %}
+```
 
 * Como señalamos en la sección [Code Smells](../apuntes/codesmell.md) el uso de un `switch` con dependencia de las clases es siempre un punto débil: si introducimos nuevas clases, por ejemplo, `Rankine` deberemos modificar además del código de las clases `Temperature` el código de conversión introduciendo un nuevo `case`. Viola el principio *Open/Closed*.
 
@@ -125,7 +125,7 @@ Otro ejemplo, también de Elijah Manor se encuentra en el artículo [Switching t
 Esto es un ejemplo de como podría quedar la parte principal del código de conversión después de aplicar `strategy design pattern`:
 
 
-{%ace edit=false, lang='javascript'%}
+```javascript
 
 Medida.convertir = function(valor) {
   var measures = Medida.measures;
@@ -148,9 +148,7 @@ Medida.convertir = function(valor) {
   else
     return "Introduzca una temperatura valida: 330e-1 F to C";
 };
-
-
-{% endace %}
+```
 
 En este código comprobamos además la presencia de errores. Por ejemplo: ¿Que pasa si `measures[tipo]` o `measures[destino]` son `undefined`? ¿Que ocurre si el método llamado `source[target]()` no existe?
 
@@ -164,7 +162,7 @@ Modifique el código de la práctica anterior de manera que:
 * Recuerde que un requisito de la práctica anterior era que el constructor de `Medida` pudiera llamarse con un sólo argumento:
 ```javascript
 console.log(new Medida("32F")); // Prueba polimorfismo del constructor de Medida
-  ```
+```
   La expresión regular necesaria para usar es un prefijo de la expresión regular usada en la conversión. Se plantea así el requisito de reciclar 
 la expresión regular factorizando el código de las mismas.
 * En esta tarea no se pide que use pruebas, ni cubrimiento, ni  Karma ni Travis.
