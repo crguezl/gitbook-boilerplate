@@ -1,6 +1,7 @@
 {
     "plugins": [
         "include",
+        "katex",
         "include-codeblock",
         "ace",
         "-autocover",
