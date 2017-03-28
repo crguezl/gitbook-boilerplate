@@ -17,7 +17,7 @@ Recuerde que una gramática $$G$$ es una cuaterna $$G =(\Sigma,V,P,S)$$.
 1.  $$\Sigma$$ es el conjunto de terminales.
 2.  $$V$$ es un conjunto (disjunto de $$\Sigma$$) que se denomina
     conjunto de *variables sintácticas* o *categorías gramáticales*,
-3.  $$P$$ es un conjunto de pares de $$V \times (V \cup \Sigma)\^*$$. En vez de escribir un par usando la notación $$(A, \alpha) \in P$$ se escribe $$A \rightarrow \alpha$$. Un elemento de $$P$$ se denomina producción.
+3.  $$P$$ es un conjunto de pares de $$V \times (V \cup \Sigma)^*$$. En vez de escribir un par usando la notación $$(A, \alpha) \in P$$ se escribe $$A \rightarrow \alpha$$. Un elemento de $$P$$ se denomina producción.
 4.  Por último, $$S$$ es un símbolo del conjunto $$V$$ que se denomina
     símbolo de arranque.
 
