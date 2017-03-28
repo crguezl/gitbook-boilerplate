@@ -12,39 +12,39 @@
 
 #### Repo con la solución de la *Práctica: Analizador Descendente Predictivo Recursivo*
 
-Recuerde que una gramática $G$ es una cuaterna $G =(\Sigma,V,P,S)$.
+Recuerde que una gramática $$G$$ es una cuaterna $$G =(\Sigma,V,P,S)$$.
 
-1.  $\Sigma$ es el conjunto de terminales.
-2.  $V$ es un conjunto (disjunto de $\Sigma$) que se denomina
+1.  $$\Sigma$$ es el conjunto de terminales.
+2.  $$V$$ es un conjunto (disjunto de $$\Sigma$$) que se denomina
     conjunto de *variables sintácticas* o *categorías gramáticales*,
-3.  $P$ es un conjunto de pares de $V \times (V \cup \Sigma)\^\*$. En vez de escribir un par usando la notación $(A, \alpha) \in P$ se escribe $A \rightarrow \alpha$. Un elemento de $P$ se denomina producción.
-4.  Por último, $S$ es un símbolo del conjunto $V$ que se denomina
+3.  $$P$$ es un conjunto de pares de $$V \times (V \cup \Sigma)\^\*$$. En vez de escribir un par usando la notación $$(A, \alpha) \in P$$ se escribe $$A \rightarrow \alpha$$. Un elemento de $$P$$ se denomina producción.
+4.  Por último, $$S$$ es un símbolo del conjunto $$V$$ que se denomina
     símbolo de arranque.
 
-Dada una gramática $G=(\Sigma,V,P,S)$ se denota por $L(G)$ o lenguaje
-generado por $G$ al lenguaje: 
+Dada una gramática $$G=(\Sigma,V,P,S)$$ se denota por $$L(G)$$ o lenguaje
+generado por $$G$$ al lenguaje: 
 
-       $L(G) = \{ x \in \Sigma^* : S \stackrel{*}{\Longrightarrow} x \}$
+       $$L(G) = \{ x \in \Sigma^* : S \stackrel{*}{\Longrightarrow} x \}$$
 
-Esto es, el lenguaje generado por la gramática $G$ esta
+Esto es, el lenguaje generado por la gramática $$G$$ esta
 formado por las cadenas de terminales que pueden ser <i>derivados</i> 
 desde el símbolo de arranque.
 
 Esta es la gramática para nuestra práctica:
 
-1.  $\Sigma = \{ ; =, ID, P, +, \*, (, ), NUM \}$,
-2.  $V = \{ statements, statement, expression, term, factor \}$
+1.  $$\Sigma = \{ ; =, ID, P, +, \*, (, ), NUM \}$$,
+2.  $$V = \{ statements, statement, expression, term, factor \}$$
 3.  Productions:
-    1.  statements $ \rightarrow$ statement ';' statements $\vert$
+    1.  statements $$ \rightarrow$$ statement ';' statements $$\vert$$
         statement
-    2.  statement $ \rightarrow$ ID '=' expression $\vert$ P
+    2.  statement $$ \rightarrow$$ ID '=' expression $$\vert$$ P
         expression
-    3.  expression $ \rightarrow$ term '+' expression $\vert$ term
-    4.  term $ \rightarrow$ factor '\*' term $\vert$ factor
-    5.  factor $ \rightarrow$ '(' expression ')' $\vert$ ID $
-        \vert$ NUM
+    3.  expression $$ \rightarrow$$ term '+' expression $$\vert$$ term
+    4.  term $$ \rightarrow$$ factor '\*' term $$\vert$$ factor
+    5.  factor $$ \rightarrow$$ '(' expression ')' $$\vert$$ ID $$
+        \vert$$ NUM
 
-4.  Start symbol: $statements$
+4.  Start symbol: $$statements$$
 
 * [Descripción de la *Práctica: Analizador Descendente Predictivo Recursivo*](http://crguezl.github.io/pl-html/node26.html)
 * [Repo parser-pdr-example](https://github.com/ULL-ESIT-PL-1617/parser-pdr-example)
