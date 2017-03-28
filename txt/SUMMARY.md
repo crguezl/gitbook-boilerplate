@@ -47,6 +47,7 @@
   * [Procesamiento de la línea de comandos](apuntes/argumentos/README.md)
   * [Procesos](apuntes/processes/README.md)  
   * [Repaso: Preguntas de npm](repasos/npm.md) 
+  * [Práctica: Creación de un Paquete NPM](practicas/practicanm.md)
 
 ### Programación: Buenas Prácticas
 
@@ -57,6 +58,8 @@
     * [Strategy Pattern](/apuntes/patterns/strategypattern.md)
     * [Dependency Injection Pattern](/apuntes/patterns/dependencyinjectionpattern.md)
     * [Inversion of Control Pattern](apuntes/patterns/inversionofcontrolpattern.md)
+  * [Práctica: OOP](practicas/practicaoop.md)
+  * [Práctica: Eliminando Switch Smell](practicas/practicanoswitchsmell.md)
 
 ### Programación Web
 
@@ -68,6 +71,19 @@
   * [Cookies y Sessions](apuntes/cookies/README.md)
   * [Authentication con OAuth](apuntes/authentication/README.md)
   * [SSL](apuntes/ssl/README.md)
+  * Prácticas de Programación Web
+    * [Práctica: JavaScript en el Cliente](practicas/practicaconversordetemperaturas.md)
+    * [Práctica: Estudiar las Rutas en ExpressJS](practicas/practicalearningrouting.md)
+    * [Práctica: Estudiar las Cookies y las Sessions en ExpressJS](practicas/practicalearningcookies.md)
+    * [Práctica: Autenticación usando sessions](practicas/practicasessions.md)
+    * [Práctica: Despliegues en iaas y heroku](practicas/practicaiaas.md)
+    * [Práctica: Añadiendo plugins para los despliegues. iaas](practicas/practicaplugin.md)
+    * [Práctica: `gitbook-start`. Plugin para heroku](practicas/practicaplugin2.md)
+    * [Práctica: GitHub API, Heroku API](practicas/practicagithubapi.md)
+    * [Práctica: Autenticación OAuth con Passport](practicas/practicapassport.md)
+    * [Práctica: Passport y LocalStrategy](practicas/practicapassportlocal.md)
+    * [Práctica: LocalStrategy y Base de Datos: LocalStrategy](practicas/practicapassportlocalsequelize.md)
+    * [Práctica: Añadir HTTPS al servidor del libro](practicas/practicassl.md)
   * Repasos de Programación Web
     - [Preguntas de CSS](repasos/css.md) 
     - [Preguntas de ejs](repasos/ejs.md) 
@@ -146,6 +162,7 @@
   - [Operator Precedence Analysis](apuntes/parsing/tdop/README.md)
     - [Top Down Operator Precedence Analysis](apuntes/parsing/tdop/tdop.md)
   - [Análisis Recursivo Descendente](apuntes/parsing/recursivodescendente/README.md)
+* [Práctica: Analizador Léxico para Un Subconjunto de JavaScript](practicas/practicaanalisislexicotdop.md)
 * [Repasos: Preguntas de Expresiones Regulares](repasos/regexp.md) 
 
 ## Repasos
@@ -172,22 +189,10 @@
   * [Práctica: Tareas Iniciales](practicas/practicatareasiniciales.md)
   * [Práctica: Primeros Pasos en NodeJS](practicas/practicatareasiniciales2.md)
   * [Práctica: Tareas Iniciales Avanzadas](practicas/practicagitbook.md)
-  * [Práctica: Estudiar las Rutas en ExpressJS](practicas/practicalearningrouting.md)
-  * [Práctica: Estudiar las Cookies y las Sessions en ExpressJS](practicas/practicalearningcookies.md)
-  * [Práctica: JavaScript en el Cliente](practicas/practicaconversordetemperaturas.md)
-  * [Práctica: OOP](practicas/practicaoop.md)
-  * [Práctica: Creación de un Paquete NPM](practicas/practicanm.md)
-  * [Práctica: Analizador Léxico para Un Subconjunto de JavaScript](practicas/practicaanalisislexicotdop.md)
     - [Top Down Operator Precedence Analysis](apuntes/parsing/tdop/tdop.md)
-  * [Práctica: Autenticación usando sessions](practicas/practicasessions.md)
-  * [Práctica: Despliegues en iaas y heroku](practicas/practicaiaas.md)
-  * [Práctica: Añadiendo plugins para los despliegues. iaas](practicas/practicaplugin.md)
-  * [Práctica: `gitbook-start`. Plugin para heroku](practicas/practicaplugin2.md)
-  * [Práctica: GitHub API, Heroku API](practicas/practicagithubapi.md)
-  * [Práctica: Autenticación OAuth con Passport](practicas/practicapassport.md)
-  * [Práctica: Passport y LocalStrategy](practicas/practicapassportlocal.md)
-  * [Práctica: LocalStrategy y Base de Datos: LocalStrategy](practicas/practicapassportlocalsequelize.md)
-  * [Práctica: Añadir HTTPS al servidor del libro](practicas/practicassl.md)
+
+## Proyectos
+
 * [Proyectos](proyectos/README.md)
    * [Proyecto de SYTW](proyectos/sytw/README.md)
 
