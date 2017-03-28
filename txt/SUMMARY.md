@@ -22,6 +22,7 @@
     * [GitHub for Poets](apuntes/github/poets/README.md)
     * [GitHub Projects](apuntes/github/projects/README.md)
   * [Colaboración](apuntes/colaboracion/README.md)  
+  * [Repaso: Preguntas de github](repasos/github.md) 
 
 ### GitBook
   * [Sobre GitBook](apuntes/gitbooknotes/README.md)
@@ -63,6 +64,12 @@
   * [Authentication con OAuth](apuntes/authentication/README.md)
   * [SSL](apuntes/ssl/README.md)
   * Repasos de Programación Web
+    - [Preguntas de CSS](repasos/css.md) 
+    - [Preguntas de ejs](repasos/ejs.md) 
+    - [Preguntas de Rutas en ExpressJS](repasos/expressroutes.md)
+    - [Preguntas de jquery](repasos/jquery.md) 
+    - [Preguntas de underscore](repasos/underscore.md) 
+    - [Preguntas de localstorage](repasos/localstorage.md) 
     - [Preguntas de pug](repasos/pug.md) 
     - [Preguntas de sass](repasos/sass.md)
     - [Preguntas de HTTPS](repasos/https.md)
@@ -94,6 +101,7 @@
     - [Async y Await](apuntes/babel/async-y-await.md)
     - [Integración de Babel con Gulp](apuntes/babel/integracion-de-babel-con-gulp.md)
     - [Integración con Express](apuntes/babel/integracion-con-express.md)
+  * [Repaso: Preguntas de ecma6](repasos/ecma6.md) 
 
 ### Pruebas
 
@@ -135,18 +143,9 @@
 * [Repasos](repasos/README.md)
   - [Preguntas de SSH](repasos/ssh.md) 
   - [Preguntas de heroku](repasos/heroku.md) 
-  - [Preguntas de ejs](repasos/ejs.md) 
-  - [Preguntas de github](repasos/github.md) 
   - [Preguntas de gulp](repasos/gulp.md) 
-  - [Preguntas de ecma6](repasos/ecma6.md) 
   - [Preguntas de npm](repasos/npm.md) 
-  - [Preguntas de Rutas en ExpressJS](repasos/expressroutes.md)
   - [Preguntas de Expresiones Regulares](repasos/regexp.md) 
-  - [Preguntas de CSS](repasos/css.md) 
-  - [Preguntas de jquery](repasos/jquery.md) 
-  - [Preguntas de underscore](repasos/underscore.md) 
-  - [Preguntas de localstorage](repasos/localstorage.md) 
-  - [Preguntas de ecma6](repasos/ecma6.md) 
   - [Preguntas de Mocha y Chai](repasos/mochachai.md) 
   - [Preguntas de mongo](repasos/mongo.md) 
 
