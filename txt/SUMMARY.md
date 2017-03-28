@@ -39,6 +39,7 @@
     * [gulp gh pages](apuntes/gulp/gulpghpages.md)
     * [gulp-shell](apuntes/gulp/gulpshell.md)
     * [gulp-linting](apuntes/gulp/gulplinting.md)
+  * [Repasos: Preguntas de gulp](repasos/gulp.md) 
 
 ### NodeJS
   * [Creación de Paquetes y Módulos en NodeJS](apuntes/nodejspackages.md)
@@ -47,7 +48,7 @@
   * [Procesos](apuntes/processes/README.md)  
   * [Repaso: Preguntas de npm](repasos/npm.md) 
 
-## Programación: Buenas Prácticas
+### Programación: Buenas Prácticas
 
   * [Programación Orientada a Objetos/Object Oriented Programming](apuntes/oop/README.md)
   * [Code Smells](apuntes/patterns/codesmell.md)
@@ -152,7 +153,6 @@
 * [Repasos](repasos/README.md)
   - [Preguntas de SSH](repasos/ssh.md) 
   - [Preguntas de heroku](repasos/heroku.md) 
-  - [Preguntas de gulp](repasos/gulp.md) 
 
 ## Recursos
 
