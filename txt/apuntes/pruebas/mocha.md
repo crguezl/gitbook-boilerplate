@@ -67,6 +67,14 @@
     --watch-extensions <ext>,...            additional extensions to monitor with --watch
     --delay                                 wait for async suite definition
 ```
+
+### Ejemplos
+
+* [Tutorial Conversor de Temperaturas (gh-pages en GitHub)](http://crguezl.github.io/pl-html/node9.html)
+* [Repo ULL-ESIT-GRADOII-PL/ull-etsii-grado-pl-1213-temperature-converter](https://github.com/ULL-ESIT-GRADOII-PL/ull-etsii-grado-pl-1213-temperature-converter)
+* [Eloquent JS: The Secret Life of Objects. Lying Out a Table](http://eloquentjavascript.net/06_object.html##h_36C2FHHi44)
+* [Repo con el código para la sección *The Secret Life of Objects. Lying Out a Table*](https://github.com/ULL-ESIT-DSI-1617/oop-eloquentjs-example)
+
 ### Video Tutoriales
 
 * [Introduction to Testing Node.js](https://youtu.be/u2XCdkL4bWI)
