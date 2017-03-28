@@ -11,22 +11,27 @@
 
 ### Descripción
 
-Esta es la gramática para nuestra práctica:
+Esta es la gramática para la que tiene que escribir un analizador recursivo descendente predictivo:
 
-1.  $$\Sigma = \{ ; =, ID, P, +, \*, (, ), NUM \}$$,
-2.  $$V = \{ statements, statement, expression, term, factor \}$$
+1.  Σ = { ADDOP, MULOP, '(', ')', NUM },
+2.  V = {  expression, term, factor }
 3.  Productions:
-    1.  statement $$ \rightarrow$$ ID '=' expression $$\vert$$ P
-        expression
-    2.  expression $$ \rightarrow$$ term ( ADDOP term)* 
-    3.  term $$ \rightarrow$$ factor (MULOP factor)*
-    4.  factor $$ \rightarrow$$ '(' expression ')' $$\vert$$ ID $$
-        \vert$$ NUM
+    2.  expression → term ( ADDOP term)* 
+    3.  term → factor (MULOP factor)*
+    4.  factor → '(' expression ')' | NUM
+
+Donde:
+
+            ADDOP = /[+-]/
+            MULOP = /[*/]
+            ID = /[a-z_]\w*/i
+            NUM = /\d+/
 
 ### Hitos
 
 1. Use el repo de GitHub dado por la asignación de esta tarea 
-
+2. Escriba un analizador sintáctico para la gramática dada
+3. Evalúe las expresiones
 ### Recursos
 
 
