@@ -45,6 +45,7 @@
   * [Sistema de Archivos](apuntes/fs.md)
   * [Procesamiento de la línea de comandos](apuntes/argumentos/README.md)
   * [Procesos](apuntes/processes/README.md)  
+  * [Repaso: Preguntas de npm](repasos/npm.md) 
 
 ## Programación: Buenas Prácticas
 
@@ -87,6 +88,7 @@
     * [Mongo](apuntes/db/mongo/README.md)
       * [MongoDB](apuntes/db/mongo/mongodb.md)
       * [Mongoose](apuntes/db/mongo/mongoose.md)
+  - [Repasos: Preguntas de mongo](repasos/mongo.md) 
 
 ### ECMA 6
 
@@ -111,7 +113,6 @@
   * [Pruebas](apuntes/pruebas/README.md)
     - [Mocha](apuntes/pruebas/mocha.md)
     - [Travis](apuntes/pruebas/travis.md)
-  * [Repasos: Preguntas de Expresiones Regulares](repasos/regexp.md) 
   * [Repasos: Preguntas de Mocha y Chai](repasos/mochachai.md) 
 
 ### React
@@ -144,6 +145,7 @@
   - [Operator Precedence Analysis](apuntes/parsing/tdop/README.md)
     - [Top Down Operator Precedence Analysis](apuntes/parsing/tdop/tdop.md)
   - [Análisis Recursivo Descendente](apuntes/parsing/recursivodescendente/README.md)
+* [Repasos: Preguntas de Expresiones Regulares](repasos/regexp.md) 
 
 ## Repasos
 
@@ -151,8 +153,6 @@
   - [Preguntas de SSH](repasos/ssh.md) 
   - [Preguntas de heroku](repasos/heroku.md) 
   - [Preguntas de gulp](repasos/gulp.md) 
-  - [Preguntas de npm](repasos/npm.md) 
-  - [Preguntas de mongo](repasos/mongo.md) 
 
 ## Recursos
 
