@@ -180,7 +180,7 @@
 * [Sinon](apuntes/pruebas/sinon.md)
 * [Karma](apuntes/pruebas/karma.md)
 * [Covering](apuntes/pruebas/covering.md)
-  * [Blanket](apuntes/pruebas/blanket.md)
+* [Blanket](apuntes/pruebas/blanket.md)
 * [BrowserSync](apuntes/pruebas/browsersync.md)
 
 

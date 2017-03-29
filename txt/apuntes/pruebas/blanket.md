@@ -126,7 +126,7 @@ Mocha:</p>
 <li>The HTML test file <em>must</em> be served over HTTP for the adapter to be loaded.</li>
 </ul>
 <p>Running the tests now gives us something like this:</p>
-<p><img alt="screenshot" src="/static/code/2013/blanket-coverage.png" /></p>
+<p><img alt="screenshot" src="blanket-coverage.png" /></p>
 <p>As you can see, the report at the bottom highlights that we haven't actually
 tested the case where an error is raised in case a target name is missing.
 We've been informed of that, nothing more, nothing less. We simply know we're
