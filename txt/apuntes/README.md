@@ -1,21 +1,99 @@
-# Apuntes
+## Apuntes
 
-* [Programación para No Programadores](programmingforchildren/README.md)
-* [Gulp](gulp/README.md)
-* [Creación de Paquetes y Módulos en NodeJS](nodejspackages.md)
-* [Sobre GitBook](gitbooknotes/README.md)
-* [File System/Sistema de Archivos](gitbooknotes/fs.md)
-* [Procesamiento de la línea de comandos](argumentos/README.md)
+* [Apuntes](README.md)
+  * [Programación para no programadores](programmingforchildren/README.md)
+  * [Presentaciones de SYTW 16/17](https://casianorodriguezleon.gitbooks.io/presentaciones-de-sytw-2016-2017/content/)
+    - [Presentaciones de SYTW en GitBook](https://casianorodriguezleon.gitbooks.io/presentaciones-de-sytw-2016-2017/content/)
+    - [Presentaciones de SYTW en GitHub (gh-pages)](https://ull-esit-sytw-1617.github.io/presentaciones-todos/)
+    - [Repo con las presentaciones de SYTW ](https://github.com/ULL-ESIT-SYTW-1617/presentaciones-todos)
+
+### GitHub
+
+* [GitHub](github/README.md)
+  * [GitHub for Poets](github/poets/README.md)
+  * [GitHub Projects](github/projects/README.md)
 * [Colaboración](colaboracion/README.md)  
-* [Authentication](authentication/README.md)
-* [Chromeapps](chromeapps/README.md)
-* [Colaboracion](colaboracion/README.md)
-* [Bases de Datos](db/README.md)
-* [Express](express/README.md)
-* [Github](github/README.md)
-* [Patterns](patterns/README.md)
-* [Processes](processes/README.md)
-* [Rest](rest/README.md)
-* [SSL](ssl/README.md)
-* [Streaming](streaming/README.md)
-<!-- toc -->
+* [Repaso: Preguntas de github](../repasos/github.md) 
+
+#### GitHub Education
+  * [GitHub Education](recursos/README.md#github-education)
+
+### GitBook
+* [Sobre GitBook](gitbooknotes/README.md)
+
+#### Repasos de GitBook
+* [Preguntas de MarkDown](../repasos/markdown.md)
+* [Preguntas de GitBook](../repasos/gitbook.md)
+
+### Gulp
+
+* [Gulp](gulp/README.md)
+  * [API Documentation](gulp/API.md)
+  * [Recipes](gulp/recipes/README.md)
+  * [Plugins](http://gulpjs.com/plugins/)
+  * [gulp gh pages](gulp/gulpghpages.md)
+  * [gulp-shell](gulp/gulpshell.md)
+  * [gulp-linting](gulp/gulplinting.md)
+
+#### Repasos: Gulp
+
+* [Repasos: Preguntas de gulp](../repasos/gulp.md) 
+
+### NodeJS
+* [Creación de Paquetes y Módulos en NodeJS](nodejspackages.md)
+* [Sistema de Archivos](fs.md)
+* [Procesamiento de la línea de comandos](argumentos/README.md)
+* [Procesos](processes/README.md)  
+* [Repaso: Preguntas de npm](../repasos/npm.md) 
+
+#### Prácticas Iniciales: NodeJS, GitHub, GitBook
+
+* [Práctica: Creación de un Paquete NPM](practicas/practicanm.md)
+* [Práctica: Tareas Iniciales](practicas/practicatareasiniciales.md)
+* [Práctica: Primeros Pasos en NodeJS](practicas/practicatareasiniciales2.md)
+* [Práctica: Tareas Iniciales Avanzadas](practicas/practicagitbook.md)
+
+### Programación: Buenas Prácticas
+
+  * [Programación Orientada a Objetos/Object Oriented Programming](oop/README.md)
+  * [Code Smells](patterns/codesmell.md)
+  * [Principios de Diseño](/patterns/designprinciples.md)
+  * [Patrones de Diseño](/patterns/README.md)  
+    * [Strategy Pattern](/patterns/strategypattern.md)
+    * [Dependency Injection Pattern](/patterns/dependencyinjectionpattern.md)
+    * [Inversion of Control Pattern](patterns/inversionofcontrolpattern.md)
+  * [Práctica: OOP](practicas/practicaoop.md)
+  * [Práctica: Eliminando Switch Smell](practicas/practicanoswitchsmell.md)
+
+### Programación Web
+
+  * [Express](express/README.md)  
+    - [Rutas](express/expressroutes.md)
+    - [Express Generator](express/expressgenerator.md)
+  * [Arquitectura REST, REST APIs y GraphQL](rest/README.md)
+    * [Getting Started with the GitHub API](rest/githubapitutorial.md)
+  * [Cookies y Sessions](cookies/README.md)
+  * [Authentication con OAuth](authentication/README.md)
+  * [SSL](ssl/README.md)
+
+#### React
+
+  * [React](react/README.md)
+
+#### Meteor
+
+* [Meteor](meteor/README.md)
+  - [Meteor](meteor/introduccion.md)
+  - [Instalando Meteor](meteor/instalando.md)
+  - [Consolas de Meteor](meteor/consolas.md)
+  - [Plantillas en Meteor](meteor/plantillas.md)
+  - [Colecciones en Meteor](meteor/collections.md)
+  - [Construyendo una app](meteor/primera_app.md)
+  - [Rutas en Meteor](meteor/rutas.md)
+  - [Guía de comandos Meteor](meteor/guia_comandos.md)
+  - [Enlaces y recursos de interés](meteor/enlaces.md)
+
+#### Chrome Apps
+
+* [Chrome Apps](chromeapps/README.md)
+
