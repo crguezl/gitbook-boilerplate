@@ -48,10 +48,10 @@
 
 #### Prácticas Iniciales: NodeJS, GitHub, GitBook
 
-* [Práctica: Creación de un Paquete NPM](practicas/practicanm.md)
-* [Práctica: Tareas Iniciales](practicas/practicatareasiniciales.md)
-* [Práctica: Primeros Pasos en NodeJS](practicas/practicatareasiniciales2.md)
-* [Práctica: Tareas Iniciales Avanzadas](practicas/practicagitbook.md)
+* [Práctica: Creación de un Paquete NPM](../practicas/practicanm.md)
+* [Práctica: Tareas Iniciales](../practicas/practicatareasiniciales.md)
+* [Práctica: Primeros Pasos en NodeJS](../practicas/practicatareasiniciales2.md)
+* [Práctica: Tareas Iniciales Avanzadas](../practicas/practicagitbook.md)
 
 ### Programación: Buenas Prácticas
 
@@ -62,8 +62,8 @@
     * [Strategy Pattern](patterns/strategypattern.md)
     * [Dependency Injection Pattern](patterns/dependencyinjectionpattern.md)
     * [Inversion of Control Pattern](patterns/inversionofcontrolpattern.md)
-  * [Práctica: OOP](practicas/practicaoop.md)
-  * [Práctica: Eliminando Switch Smell](practicas/practicanoswitchsmell.md)
+  * [Práctica: OOP](../practicas/practicaoop.md)
+  * [Práctica: Eliminando Switch Smell](../practicas/practicanoswitchsmell.md)
 
 ### Programación Web
 
@@ -97,20 +97,20 @@
 
 * [Chrome Apps](chromeapps/README.md)
 
-####[Prácticas de Programación Web](practicas/practicasdeprogramacionweb.md)
+####[Prácticas de Programación Web](../practicas/practicasdeprogramacionweb.md)
 
-* [Práctica: JavaScript en el Cliente](practicas/practicaconversordetemperaturas.md)
-* [Práctica: Estudiar las Rutas en ExpressJS](practicas/practicalearningrouting.md)
-* [Práctica: Estudiar las Cookies y las Sessions en ExpressJS](practicas/practicalearningcookies.md)
-* [Práctica: Autenticación usando sessions](practicas/practicasessions.md)
-* [Práctica: Despliegues en iaas y heroku](practicas/practicaiaas.md)
-* [Práctica: Añadiendo plugins para los despliegues. iaas](practicas/practicaplugin.md)
-* [Práctica: `gitbook-start`. Plugin para heroku](practicas/practicaplugin2.md)
-* [Práctica: GitHub API, Heroku API](practicas/practicagithubapi.md)
-* [Práctica: Autenticación OAuth con Passport](practicas/practicapassport.md)
-* [Práctica: Passport y LocalStrategy](practicas/practicapassportlocal.md)
-* [Práctica: LocalStrategy y Base de Datos: LocalStrategy](practicas/practicapassportlocalsequelize.md)
-* [Práctica: Añadir HTTPS al servidor del libro](practicas/practicassl.md)
+* [Práctica: JavaScript en el Cliente](../practicas/practicaconversordetemperaturas.md)
+* [Práctica: Estudiar las Rutas en ExpressJS](../practicas/practicalearningrouting.md)
+* [Práctica: Estudiar las Cookies y las Sessions en ExpressJS](../practicas/practicalearningcookies.md)
+* [Práctica: Autenticación usando sessions](../practicas/practicasessions.md)
+* [Práctica: Despliegues en iaas y heroku](../practicas/practicaiaas.md)
+* [Práctica: Añadiendo plugins para los despliegues. iaas](../practicas/practicaplugin.md)
+* [Práctica: `gitbook-start`. Plugin para heroku](../practicas/practicaplugin2.md)
+* [Práctica: GitHub API, Heroku API](../practicas/practicagithubapi.md)
+* [Práctica: Autenticación OAuth con Passport](../practicas/practicapassport.md)
+* [Práctica: Passport y LocalStrategy](../practicas/practicapassportlocal.md)
+* [Práctica: LocalStrategy y Base de Datos: LocalStrategy](../practicas/practicapassportlocalsequelize.md)
+* [Práctica: Añadir HTTPS al servidor del libro](../practicas/practicassl.md)
 
 #### Repasos de Programación Web
 
@@ -191,7 +191,7 @@
   - [Operator Precedence Analysis](parsing/tdop/README.md)
     - [Top Down Operator Precedence Analysis](parsing/tdop/tdop.md)
   - [Análisis Recursivo Descendente](parsing/recursivodescendente/README.md)
-* [Práctica: Analizador Léxico para Un Subconjunto de JavaScript](practicas/practicaanalisislexicotdop.md)
+* [Práctica: Analizador Léxico para Un Subconjunto de JavaScript](../practicas/practicaanalisislexicotdop.md)
 
 #### Repasos PL
 
