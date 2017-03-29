@@ -172,10 +172,13 @@
 
 ### Pruebas
 
-  * [Pruebas](apuntes/pruebas/README.md)
-    - [Mocha](apuntes/pruebas/mocha.md)
-    - [Travis](apuntes/pruebas/travis.md)
-  * [Repasos: Preguntas de Mocha y Chai](repasos/mochachai.md) 
+* [Pruebas](apuntes/pruebas/README.md)
+  - [Mocha](apuntes/pruebas/mocha.md)
+  - [Travis](apuntes/pruebas/travis.md)
+
+#### Repasos Pruebas
+
+* [Repasos: Preguntas de Mocha y Chai](repasos/mochachai.md) 
 
 
 
@@ -188,6 +191,9 @@
     - [Top Down Operator Precedence Analysis](apuntes/parsing/tdop/tdop.md)
   - [Análisis Recursivo Descendente](apuntes/parsing/recursivodescendente/README.md)
 * [Práctica: Analizador Léxico para Un Subconjunto de JavaScript](practicas/practicaanalisislexicotdop.md)
+
+#### Repasos PL
+
 * [Repasos: Preguntas de Expresiones Regulares](repasos/regexp.md) 
 
 ## Repasos
