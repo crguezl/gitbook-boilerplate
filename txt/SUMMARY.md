@@ -18,36 +18,46 @@
 
 ### GitHub
 
-  * [GitHub](apuntes/github/README.md)
-    * [GitHub for Poets](apuntes/github/poets/README.md)
-    * [GitHub Projects](apuntes/github/projects/README.md)
-  * [Colaboración](apuntes/colaboracion/README.md)  
-  * [Repaso: Preguntas de github](repasos/github.md) 
+* [GitHub](apuntes/github/README.md)
+  * [GitHub for Poets](apuntes/github/poets/README.md)
+  * [GitHub Projects](apuntes/github/projects/README.md)
+* [Colaboración](apuntes/colaboracion/README.md)  
+* [Repaso: Preguntas de github](repasos/github.md) 
 
 ### GitBook
-  * [Sobre GitBook](apuntes/gitbooknotes/README.md)
-  * Repasos de GitBook
-    - [Preguntas de MarkDown](repasos/markdown.md)
-    - [Preguntas de GitBook](repasos/gitbook.md)
+* [Sobre GitBook](apuntes/gitbooknotes/README.md)
+
+#### Repasos de GitBook
+* [Preguntas de MarkDown](repasos/markdown.md)
+* [Preguntas de GitBook](repasos/gitbook.md)
 
 ### Gulp
 
-  * [Gulp](apuntes/gulp/README.md)
-    * [API Documentation](apuntes/gulp/API.md)
-    * [Recipes](apuntes/gulp/recipes/README.md)
-    * [Plugins](http://gulpjs.com/plugins/)
-    * [gulp gh pages](apuntes/gulp/gulpghpages.md)
-    * [gulp-shell](apuntes/gulp/gulpshell.md)
-    * [gulp-linting](apuntes/gulp/gulplinting.md)
-  * [Repasos: Preguntas de gulp](repasos/gulp.md) 
+* [Gulp](apuntes/gulp/README.md)
+  * [API Documentation](apuntes/gulp/API.md)
+  * [Recipes](apuntes/gulp/recipes/README.md)
+  * [Plugins](http://gulpjs.com/plugins/)
+  * [gulp gh pages](apuntes/gulp/gulpghpages.md)
+  * [gulp-shell](apuntes/gulp/gulpshell.md)
+  * [gulp-linting](apuntes/gulp/gulplinting.md)
+
+#### Repasos: Gulp
+
+* [Repasos: Preguntas de gulp](repasos/gulp.md) 
 
 ### NodeJS
-  * [Creación de Paquetes y Módulos en NodeJS](apuntes/nodejspackages.md)
-  * [Sistema de Archivos](apuntes/fs.md)
-  * [Procesamiento de la línea de comandos](apuntes/argumentos/README.md)
-  * [Procesos](apuntes/processes/README.md)  
-  * [Repaso: Preguntas de npm](repasos/npm.md) 
-  * [Práctica: Creación de un Paquete NPM](practicas/practicanm.md)
+* [Creación de Paquetes y Módulos en NodeJS](apuntes/nodejspackages.md)
+* [Sistema de Archivos](apuntes/fs.md)
+* [Procesamiento de la línea de comandos](apuntes/argumentos/README.md)
+* [Procesos](apuntes/processes/README.md)  
+* [Repaso: Preguntas de npm](repasos/npm.md) 
+
+#### Prácticas Iniciales: NodeJS, GitHub, GitBook
+
+* [Práctica: Creación de un Paquete NPM](practicas/practicanm.md)
+* [Práctica: Tareas Iniciales](practicas/practicatareasiniciales.md)
+* [Práctica: Primeros Pasos en NodeJS](practicas/practicatareasiniciales2.md)
+* [Práctica: Tareas Iniciales Avanzadas](practicas/practicagitbook.md)
 
 ### Programación: Buenas Prácticas
 
@@ -89,18 +99,18 @@
 
 #### Repasos de Programación Web
 
-- [Preguntas de CSS](repasos/css.md) 
-- [Preguntas de ejs](repasos/ejs.md) 
-- [Preguntas de Rutas en ExpressJS](repasos/expressroutes.md)
-- [Preguntas de jquery](repasos/jquery.md) 
-- [Preguntas de underscore](repasos/underscore.md) 
-- [Preguntas de localstorage](repasos/localstorage.md) 
-- [Preguntas de pug](repasos/pug.md) 
-- [Preguntas de sass](repasos/sass.md)
-- [Preguntas de HTTPS](repasos/https.md)
-- [Preguntas de AJAX](repasos/ajax.md)
-- [Preguntas de Passport](repasos/passport.md)
-- [Preguntas de Cookies](repasos/cookies.md)
+* [Preguntas de CSS](repasos/css.md) 
+* [Preguntas de ejs](repasos/ejs.md) 
+* [Preguntas de Rutas en ExpressJS](repasos/expressroutes.md)
+* [Preguntas de jquery](repasos/jquery.md) 
+* [Preguntas de underscore](repasos/underscore.md) 
+* [Preguntas de localstorage](repasos/localstorage.md) 
+* [Preguntas de pug](repasos/pug.md) 
+* [Preguntas de sass](repasos/sass.md)
+* [Preguntas de HTTPS](repasos/https.md)
+* [Preguntas de AJAX](repasos/ajax.md)
+* [Preguntas de Passport](repasos/passport.md)
+* [Preguntas de Cookies](repasos/cookies.md)
 
 ### Bases de Datos
 
@@ -110,25 +120,31 @@
   * [Mongo](apuntes/db/mongo/README.md)
     * [MongoDB](apuntes/db/mongo/mongodb.md)
     * [Mongoose](apuntes/db/mongo/mongoose.md)
+
+#### Repasos Bases de Datos
+
 * [Repasos: Preguntas de mongo](repasos/mongo.md) 
 
 ### ECMA 6
 
-  * [Babel ES6, ES7 y ES8](apuntes/babel/README.md)
-    - [Proceso de Introducción de Nuevas Características](apuntes/babel/proceso-de-introduccion-de-nuevas-caracteristicas.md)
-    - [Babel](apuntes/babel/babel.md)
-    - [Funciones Flecha](apuntes/babel/funciones-flecha.md)
-    - [Deconstrucciones](apuntes/babel/deconstrucciones.md)
-    - [Operador de Dispersión](apuntes/babel/operador-de-dispersion.md)
-    - [Iteradores](apuntes/babel/iteradores.md)
-    - [Nueva sintaxis en bucles for](apuntes/babel/nueva-sintaxis-en-bucles-for.md)
-    - [Operador bind](apuntes/babel/operador-bind.md)
-    - [Import](apuntes/babel/import.md)
-    - [Export](apuntes/babel/export.md)
-    - [Async y Await](apuntes/babel/async-y-await.md)
-    - [Integración de Babel con Gulp](apuntes/babel/integracion-de-babel-con-gulp.md)
-    - [Integración con Express](apuntes/babel/integracion-con-express.md)
-  * [Repaso: Preguntas de ecma6](repasos/ecma6.md) 
+* [Babel ES6, ES7 y ES8](apuntes/babel/README.md)
+  - [Proceso de Introducción de Nuevas Características](apuntes/babel/proceso-de-introduccion-de-nuevas-caracteristicas.md)
+  - [Babel](apuntes/babel/babel.md)
+  - [Funciones Flecha](apuntes/babel/funciones-flecha.md)
+  - [Deconstrucciones](apuntes/babel/deconstrucciones.md)
+  - [Operador de Dispersión](apuntes/babel/operador-de-dispersion.md)
+  - [Iteradores](apuntes/babel/iteradores.md)
+  - [Nueva sintaxis en bucles for](apuntes/babel/nueva-sintaxis-en-bucles-for.md)
+  - [Operador bind](apuntes/babel/operador-bind.md)
+  - [Import](apuntes/babel/import.md)
+  - [Export](apuntes/babel/export.md)
+  - [Async y Await](apuntes/babel/async-y-await.md)
+  - [Integración de Babel con Gulp](apuntes/babel/integracion-de-babel-con-gulp.md)
+  - [Integración con Express](apuntes/babel/integracion-con-express.md)
+
+#### Repasos: ECMA6
+
+* [Repaso: Preguntas de ecma6](repasos/ecma6.md) 
 
 ### Pruebas
 
@@ -191,9 +207,6 @@
 ## Prácticas
 
 * [Prácticas](practicas/README.md)
-  * [Práctica: Tareas Iniciales](practicas/practicatareasiniciales.md)
-  * [Práctica: Primeros Pasos en NodeJS](practicas/practicatareasiniciales2.md)
-  * [Práctica: Tareas Iniciales Avanzadas](practicas/practicagitbook.md)
 
 ## Proyectos
 
