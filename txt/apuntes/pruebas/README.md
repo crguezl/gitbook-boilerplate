@@ -1,15 +1,14 @@
 ## Pruebas
 
+* [Pruebas](README.md)
 * [Mocha](mocha.md)
 * [Should](mocha.md#should)
 * [Travis](travis.md)
 * [Chai](chai.md)
 * [Sinon](sinon.md)
 * [Karma](karma.md)
+* [Covering](covering.md)
 * [Blanket](blanket.md)
-
-!INCLUDE "covering.md"
-
-!INCLUDE "browsersync.md"
-
+* [Istanbul](istanbul.md)
+* [BrowserSync](browsersync.md)
 
