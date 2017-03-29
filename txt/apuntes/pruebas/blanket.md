@@ -1,3 +1,7 @@
+* [Repo /crguezl/mocha-chai-sinon--example](https://github.com/crguezl/mocha-chai-sinon--example)
+con los ejemplos de este artículo (véase la ramma `blanket`)
+
+
 **So finally you're testing your frontend JavaScript code? Great! The
 more you write tests, the more confident you are with your code… but how
 much precisely? That's where [code
