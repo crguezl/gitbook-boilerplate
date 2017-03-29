@@ -24,6 +24,9 @@
 * [Colaboración](apuntes/colaboracion/README.md)  
 * [Repaso: Preguntas de github](repasos/github.md) 
 
+#### GitHub Education
+  * [GitHub Education](recursos/README.md#github-education)
+
 ### GitBook
 * [Sobre GitBook](apuntes/gitbooknotes/README.md)
 
@@ -193,15 +196,16 @@
 ## Recursos
 
 * [Recursos](recursos/README.md)
-  * [GitHub Education](recursos/README.md#github-education)
-  * Servicios en la Nube
-    * [iaas.ull.es](recursos/iaas.md)
-      - [Repaso: Preguntas de SSH](repasos/ssh.md) 
-    * [Heroku](recursos/heroku.md)
-      - [Repaso: Preguntas de heroku](repasos/heroku.md) 
-    * [Yellow Circle](recursos/yellow.md)
-    * [Azure in education](recursos/azure.md)
-    * [c9](recursos/c9.md)
+
+### Servicios en la Nube
+
+* [iaas.ull.es](recursos/iaas.md)
+  - [Repaso: Preguntas de SSH](repasos/ssh.md) 
+* [Heroku](recursos/heroku.md)
+  - [Repaso: Preguntas de heroku](repasos/heroku.md) 
+* [Yellow Circle](recursos/yellow.md)
+* [Azure in education](recursos/azure.md)
+* [c9](recursos/c9.md)
 
 
 ## Prácticas
