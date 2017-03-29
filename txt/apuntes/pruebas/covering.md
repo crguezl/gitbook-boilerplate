@@ -34,3 +34,7 @@ some of the most basic are:
 
 * A smoke tester will select and run a subset of test cases that cover the most important functionality of a component or system, to ascertain if crucial functions of the software work correctly. 
 
+### Tools
+
+* [Blanket](blanket.md)
+* [Istanbul](istanbul.md)
