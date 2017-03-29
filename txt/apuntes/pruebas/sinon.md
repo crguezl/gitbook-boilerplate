@@ -8,7 +8,7 @@ by Nicolas Perriault
 by Nicolas Perriault
 </LI>
 <LI><A NAME="tex2html57"
-  HREF="://github.com/crguezl/mocha-chai-sinon-example">Github repo crguezl/mocha-chai-sinon-example</A>
+  HREF="https://github.com/crguezl/mocha-chai-sinon-example">Github repo crguezl/mocha-chai-sinon-example</A>
 with Nicolas examples
 </LI>
 <LI>Podemos encontrar un ejemplo de  unit testing en JavaScript en el browser con 
