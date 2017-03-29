@@ -16,13 +16,13 @@ this area I guess.
 Actually I've only found one which provides an adapter for
 [Mocha](mocha.md) and actually works…
 
-> Drinking game for web devs:\
->  (1) Think of a noun\
->  (2) Google "\<noun\>.js"\
->  (3) If a library with that name exists - drink
->
-> — Shay Friedman (@ironshay) [August 22,
-> 2013](https://twitter.com/ironshay/statuses/370525864523743232)
+```
+ Drinking game for web devs:
+ (1) Think of a noun
+ (2) Google "<noun>.js"
+ (3) If a library with that name exists - drink
+```
+> — Shay Friedman (@ironshay) [August 22, 2013](https://twitter.com/ironshay/statuses/370525864523743232)
 
 **[Blanket.js](http://blanketjs.org/)** is an *easy to install, easy to
 configure, and easy to use JavaScript code coverage library that works
@@ -130,7 +130,8 @@ simply know we're missing a test here. Isn't this cool? I think so!
 Just remember that code coverage will only 
 [bring you numbers](http://codebetter.com/karlseguin/2008/12/09/code-coverage-use-it-wisely/)
 and raw information, not actual proofs that the whole of your *code
-logic* has been actually covered. If you ask me, the best inputs you can
+logic* has been actually covered. 
+If you ask me, the best inputs you can
 get about your code logic and implementation ever are the ones issued
 out of [pair programming](http://www.extremeprogramming.org/rules/pair.html) sessions
 and [code reviews](http://alexgaynor.net/2013/sep/26/effective-code-review/) — but
