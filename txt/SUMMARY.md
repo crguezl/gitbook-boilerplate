@@ -173,8 +173,17 @@
 ### Pruebas
 
 * [Pruebas](apuntes/pruebas/README.md)
-  - [Mocha](apuntes/pruebas/mocha.md)
-  - [Travis](apuntes/pruebas/travis.md)
+* [Mocha](apuntes/pruebas/mocha.md)
+* [Should](apuntes/pruebas/mocha.md#should)
+* [Travis](apuntes/pruebas/travis.md)
+* [Chai](apuntes/pruebas/chai.md)
+* [Sinon](apuntes/pruebas/sinon.md)
+* [Karma](apuntes/pruebas/karma.md)
+* [Covering](apuntes/pruebas/covering.md)
+  * [Blanket](apuntes/pruebas/blanket.md)
+* [BrowserSync](apuntes/pruebas/browsersync.md)
+
+
 
 #### Repasos Pruebas
 
