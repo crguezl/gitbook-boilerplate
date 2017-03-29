@@ -97,3 +97,104 @@
 
 * [Chrome Apps](chromeapps/README.md)
 
+####[Prácticas de Programación Web](practicas/practicasdeprogramacionweb.md)
+
+* [Práctica: JavaScript en el Cliente](practicas/practicaconversordetemperaturas.md)
+* [Práctica: Estudiar las Rutas en ExpressJS](practicas/practicalearningrouting.md)
+* [Práctica: Estudiar las Cookies y las Sessions en ExpressJS](practicas/practicalearningcookies.md)
+* [Práctica: Autenticación usando sessions](practicas/practicasessions.md)
+* [Práctica: Despliegues en iaas y heroku](practicas/practicaiaas.md)
+* [Práctica: Añadiendo plugins para los despliegues. iaas](practicas/practicaplugin.md)
+* [Práctica: `gitbook-start`. Plugin para heroku](practicas/practicaplugin2.md)
+* [Práctica: GitHub API, Heroku API](practicas/practicagithubapi.md)
+* [Práctica: Autenticación OAuth con Passport](practicas/practicapassport.md)
+* [Práctica: Passport y LocalStrategy](practicas/practicapassportlocal.md)
+* [Práctica: LocalStrategy y Base de Datos: LocalStrategy](practicas/practicapassportlocalsequelize.md)
+* [Práctica: Añadir HTTPS al servidor del libro](practicas/practicassl.md)
+
+#### Repasos de Programación Web
+
+* [Preguntas de CSS](../repasos/css.md) 
+* [Preguntas de ejs](../repasos/ejs.md) 
+* [Preguntas de Rutas en ExpressJS](../repasos/expressroutes.md)
+* [Preguntas de jquery](../repasos/jquery.md) 
+* [Preguntas de underscore](../repasos/underscore.md) 
+* [Preguntas de localstorage](../repasos/localstorage.md) 
+* [Preguntas de pug](../repasos/pug.md) 
+* [Preguntas de sass](../repasos/sass.md)
+* [Preguntas de HTTPS](../repasos/https.md)
+* [Preguntas de AJAX](../repasos/ajax.md)
+* [Preguntas de Passport](../repasos/passport.md)
+* [Preguntas de Cookies](../repasos/cookies.md)
+
+### Bases de Datos
+
+* [Bases de Datos/DataBases](db/README.md)
+  * [Sqlite](db/sqlite/README.md)
+  * [Sequelize](db/sequelize/README.md)
+  * [Mongo](db/mongo/README.md)
+    * [MongoDB](db/mongo/mongodb.md)
+    * [Mongoose](db/mongo/mongoose.md)
+
+#### Repasos Bases de Datos
+
+* [Repasos: Preguntas de mongo](../repasos/mongo.md) 
+
+### ECMA 6
+
+* [Babel ES6, ES7 y ES8](babel/README.md)
+  - [Proceso de Introducción de Nuevas Características](babel/proceso-de-introduccion-de-nuevas-caracteristicas.md)
+  - [Babel](babel/babel.md)
+  - [Funciones Flecha](babel/funciones-flecha.md)
+  - [Deconstrucciones](babel/deconstrucciones.md)
+  - [Operador de Dispersión](babel/operador-de-dispersion.md)
+  - [Iteradores](babel/iteradores.md)
+  - [Nueva sintaxis en bucles for](babel/nueva-sintaxis-en-bucles-for.md)
+  - [Operador bind](babel/operador-bind.md)
+  - [Import](babel/import.md)
+  - [Export](babel/export.md)
+  - [Async y Await](babel/async-y-await.md)
+  - [Integración de Babel con Gulp](babel/integracion-de-babel-con-gulp.md)
+  - [Integración con Express](babel/integracion-con-express.md)
+
+#### Repasos: ECMA6
+
+* [Repaso: Preguntas de ecma6](../repasos/ecma6.md) 
+
+### Pruebas
+
+* [Pruebas](pruebas/README.md)
+* [Mocha](pruebas/mocha.md)
+* [Should](pruebas/mocha.md#should)
+* [Travis](pruebas/travis.md)
+* [Chai](pruebas/chai.md)
+* [Sinon](pruebas/sinon.md)
+* [Karma](pruebas/karma.md)
+* [Covering](pruebas/covering.md)
+* [Blanket](pruebas/blanket.md)
+* [Istanbul](pruebas/istanbul.md)
+* [BrowserSync](pruebas/browsersync.md)
+
+
+
+#### Repasos Pruebas
+
+* [Repasos: Preguntas de Mocha y Chai](../repasos/mochachai.md) 
+
+
+
+### Procesamiento de Lenguajes
+
+* [Expresiones Regulares](regexp/README.md)
+   - [Ejercicios de Expresiones Regulares](regexp/regexpejercicios.md)
+* [Parsing: Técnicas de Análisis](parsing/README.md)
+  - [Operator Precedence Analysis](parsing/tdop/README.md)
+    - [Top Down Operator Precedence Analysis](parsing/tdop/tdop.md)
+  - [Análisis Recursivo Descendente](parsing/recursivodescendente/README.md)
+* [Práctica: Analizador Léxico para Un Subconjunto de JavaScript](practicas/practicaanalisislexicotdop.md)
+
+#### Repasos PL
+
+* [Repasos: Preguntas de Expresiones Regulares](../repasos/regexp.md) 
+
+
