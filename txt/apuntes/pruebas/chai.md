@@ -11,4 +11,5 @@
     <https://github.com/ludovicofischer/mocha-chai-browser-demo>: [An example setup for unit testing JavaScript in the browser with the Mocha testing framework and Chai assertions](https://github.com/ludovicofischer/mocha-chai-browser-demo)
 *   [Testing in Browsers and Node with Mocha, Chai, Sinon, and
     Testem](http://www.kenpowers.net/blog/testing-in-browsers-and-node/)
+* [A Journey Through Client-Side Testing with JavaScript](http://developer.telerik.com/featured/journey-client-side-testing-javascript/)
 
