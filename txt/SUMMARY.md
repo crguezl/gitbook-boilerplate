@@ -85,6 +85,27 @@
   * [Authentication con OAuth](apuntes/authentication/README.md)
   * [SSL](apuntes/ssl/README.md)
 
+#### React
+
+  * [React](apuntes/react/README.md)
+
+#### Meteor
+
+* [Meteor](apuntes/meteor/README.md)
+  - [Meteor](apuntes/meteor/introduccion.md)
+  - [Instalando Meteor](apuntes/meteor/instalando.md)
+  - [Consolas de Meteor](apuntes/meteor/consolas.md)
+  - [Plantillas en Meteor](apuntes/meteor/plantillas.md)
+  - [Colecciones en Meteor](apuntes/meteor/collections.md)
+  - [Construyendo una app](apuntes/meteor/primera_app.md)
+  - [Rutas en Meteor](apuntes/meteor/rutas.md)
+  - [Guía de comandos Meteor](apuntes/meteor/guia_comandos.md)
+  - [Enlaces y recursos de interés](apuntes/meteor/enlaces.md)
+
+#### Chrome Apps
+
+* [Chrome Apps](apuntes/chromeapps/README.md)
+
 ####[Prácticas de Programación Web](practicas/practicasdeprogramacionweb.md)
 
 * [Práctica: JavaScript en el Cliente](practicas/practicaconversordetemperaturas.md)
@@ -156,26 +177,6 @@
     - [Travis](apuntes/pruebas/travis.md)
   * [Repasos: Preguntas de Mocha y Chai](repasos/mochachai.md) 
 
-### React
-
-  * [React](apuntes/react/README.md)
-
-### Meteor
-
-* [Meteor](apuntes/meteor/README.md)
-  - [Meteor](apuntes/meteor/introduccion.md)
-  - [Instalando Meteor](apuntes/meteor/instalando.md)
-  - [Consolas de Meteor](apuntes/meteor/consolas.md)
-  - [Plantillas en Meteor](apuntes/meteor/plantillas.md)
-  - [Colecciones en Meteor](apuntes/meteor/collections.md)
-  - [Construyendo una app](apuntes/meteor/primera_app.md)
-  - [Rutas en Meteor](apuntes/meteor/rutas.md)
-  - [Guía de comandos Meteor](apuntes/meteor/guia_comandos.md)
-  - [Enlaces y recursos de interés](apuntes/meteor/enlaces.md)
-
-### Chrome Apps
-
-* [Chrome Apps](apuntes/chromeapps/README.md)
 
 
 ### Procesamiento de Lenguajes
