@@ -127,30 +127,21 @@ actually tested the case where an error is raised in case a target name
 is missing. We've been informed of that, nothing more, nothing less. We
 simply know we're missing a test here. Isn't this cool? I think so!
 
-Just remember that code coverage will only [bring you
-numbers](http://codebetter.com/karlseguin/2008/12/09/code-coverage-use-it-wisely/)
+Just remember that code coverage will only 
+[bring you numbers](http://codebetter.com/karlseguin/2008/12/09/code-coverage-use-it-wisely/)
 and raw information, not actual proofs that the whole of your *code
 logic* has been actually covered. If you ask me, the best inputs you can
 get about your code logic and implementation ever are the ones issued
-out of [pair
-programming](http://www.extremeprogramming.org/rules/pair.html) sessions
-and [code
-reviews](http://alexgaynor.net/2013/sep/26/effective-code-review/) — but
+out of [pair programming](http://www.extremeprogramming.org/rules/pair.html) sessions
+and [code reviews](http://alexgaynor.net/2013/sep/26/effective-code-review/) — but
 that's another story.
 
 **So is code coverage silver bullet? No. Is it useful? Definitely. Happy
 testing!**
 
-<span class="article-author" itemprop="author" itemscope=""
-itemtype="http://schema.org/Person"> <span itemprop="name">Nicolas
-Perriault</span> — </span> 2013-09-29 — in [Code](/code/) —
-[Permalink](/code/2013/get-your-frontend-javascript-code-covered/) —
-[License](http://creativecommons.org/licenses/by-sa/3.0/) — [flattr
-this](http://flattr.com/submit/auto?url=https://nicolas.perriault.net/code/2013/get-your-frontend-javascript-code-covered/&title=Get%20your%20Frontend%20JavaScript%20Code%20Covered&user_id=n1k0&category=software&language=en)
 
+* Nicolas Perriault
+* [License](http://creativecommons.org/licenses/by-sa/3.0/) 
 ------------------------------------------------------------------------
-
-[Testing your frontend JavaScript code using mocha, chai, and
-sinon](/code/2013/testing-frontend-javascript-code-using-mocha-chai-and-sinon/)
 
 
