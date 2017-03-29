@@ -1,6 +1,3 @@
-<base href="https://nicolas.perriault.net/code/2013/" />
-
-<!doctype html>
 <html class="no-js" lang="en">
 <head>
     <meta charset="utf-8">
@@ -11,14 +8,8 @@
     <meta name="viewport" content="width=device-width">
     <link href="//fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
     
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
 </head>
 <body class="code " onload="prettyPrint()">
-    <!--[if lt IE 7]>
-    <p class="chromeframe">Your browser is <em>ancient!</em> Please <a href="http://www.quirksmode.org/upgrade.html">upgrade</a>.</p>
-    <![endif]-->
     <div class="container">
                 <main class="contents" role="main">
             
@@ -162,33 +153,12 @@ sessions and <a href="http://alexgaynor.net/2013/sep/26/effective-code-review/">
     </aside>
     <hr>
     <nav>
-        <a class="prev" href="/code/2013/functional-javascript-for-crawling-the-web/">Functional JavaScript for crawling the Web</a>
-        |
         <a class="next" href="/code/2013/testing-frontend-javascript-code-using-mocha-chai-and-sinon/">Testing your frontend JavaScript code using mocha, chai, and sinon</a>
     </nav>
 </article>
 
 
         </main>
-        <nav class="sidebar">
-            <ul>
-                <li class="home"><a href="/" hreflang="en">Home</a></li>
-                <li class="code"><a href="/code/" hreflang="en">Code</a></li>
-                <li class="photography"><a href="/photography/" hreflang="en">Photography</a></li>
-                <li class="talks"><a href="/talks/" hreflang="en">Talks</a></li>
-                <li class="carnet"><a href="/carnet/" hreflang="fr">Carnet <span>fr</span></a></li>
-                <li class="contact"><a href="/contact/" hreflang="en">Contact</a></li>
-            </ul>
-        </nav>
-        <footer class="site-footer">
-            <p>
-                &copy; 2012 Nicolas Perriault
-                — <a href="https://twitter.com/n1k0">Tweet at me</a>
-                — <a href="https://github.com/n1k0">Get my code</a>
-                — <a href="http://500px.com/n1k0">Enjoy my pics</a>
-                — <a href="/contact/">Contact me</a>
-            </p>
-        </footer>
     </div>
     <!-- /container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
