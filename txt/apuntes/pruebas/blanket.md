@@ -141,7 +141,7 @@ that's another story.
 testing!**
 
 
-* Nicolas Perriault
+* Author: [Nicolas Perriault](https://nicolas.perriault.net/)
 * [License](http://creativecommons.org/licenses/by-sa/3.0/) 
 ------------------------------------------------------------------------
 
