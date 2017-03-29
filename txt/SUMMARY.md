@@ -5,7 +5,7 @@
   * [Instrucciones para GitHub ClassRoom](instrucciones/classroom.md)
   * [Instrucciones para los envíos de tareas](instrucciones/instruccionesparaelenvio.md)
   * [Instrucciones para la evaluación](instrucciones/instruccionesparalaevaluacion.md)
-  * [Instrucciones para las Presentaciones de SYTW](instrucciones/instruccionesparalaspresentaciones.md)
+  * [Instrucciones para las Presentaciones](instrucciones/instruccionesparalaspresentaciones.md)
 
 ## Apuntes
 
@@ -211,6 +211,10 @@
 ## Prácticas
 
 * [Prácticas](practicas/README.md)
+
+## Presentaciones
+
+* [Temas Sugeridos para SYTW](presentaciones/temasSYTW.md)
 
 ## Proyectos
 
