@@ -5,5 +5,11 @@
 * [Travis](travis.md)
 * [Chai](chai.md)
 * [Sinon](sinon.md)
-* [Blanket](blanket.md)
 * [Karma](karma.md)
+* [Blanket](blanket.md)
+
+!INCLUDE "covering.md"
+
+!INCLUDE "browsersync.md"
+
+
