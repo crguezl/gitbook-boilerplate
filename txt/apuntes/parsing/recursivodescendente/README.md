@@ -9,6 +9,7 @@
   - [Fichero `main.coffee` del repo prdcalc](https://github.com/crguezl/prdcalc/blob/master/views/main.coffee)
   - [Fichero `main.js` del repo prdcalc](https://github.com/crguezl/prdcalc/blob/master/views/main.js)
   - [Despliegue en Heroku](https://predictiveparser.herokuapp.com/) (Puede estar caído o eliminado)
+* [Repo ULL-ESIT-PL-1617/solution-evalua-pdr](https://github.com/ULL-ESIT-PL-1617/solution-evalua-pdr) (privado)
 
 #### Repo con la solución de la *Práctica: Analizador Descendente Predictivo Recursivo*
 

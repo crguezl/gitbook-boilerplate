@@ -3,6 +3,7 @@
 * [MochaJS documentation](http://mochajs.org/)
   - [Getting Started](http://mochajs.org/#getting-started)
 * [Mocha y Chai en los apuntes](http://crguezl.github.io/pl-html/node9.html#SECTION041200190000000000000)
+* [Repo /crguezl/mocha-chai-sinon--example](https://github.com/crguezl/mocha-chai-sinon--example)
 
 ### Mocha Options
 
