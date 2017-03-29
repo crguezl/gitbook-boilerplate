@@ -71,7 +71,7 @@
   * [Cookies y Sessions](apuntes/cookies/README.md)
   * [Authentication con OAuth](apuntes/authentication/README.md)
   * [SSL](apuntes/ssl/README.md)
-  * Prácticas de Programación Web
+  * [Prácticas de Programación Web](practicas/practicasdeprogramacionweb.md)
     * [Práctica: JavaScript en el Cliente](practicas/practicaconversordetemperaturas.md)
     * [Práctica: Estudiar las Rutas en ExpressJS](practicas/practicalearningrouting.md)
     * [Práctica: Estudiar las Cookies y las Sessions en ExpressJS](practicas/practicalearningcookies.md)
@@ -96,6 +96,7 @@
     - [Preguntas de HTTPS](repasos/https.md)
     - [Preguntas de AJAX](repasos/ajax.md)
     - [Preguntas de Passport](repasos/passport.md)
+    - [Preguntas de Cookies](repasos/cookies.md)
 
 ### Bases de Datos
 
