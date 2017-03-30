@@ -15,14 +15,20 @@
 
 ### Video Tutoriales
 
+
 * [Introduction to Testing Node.js](https://youtu.be/u2XCdkL4bWI)
-  - [Slides](http://training.strongloop.com/testing-node#/)
-  - [Code](https://github.com/jakerella/node-unit-tests)
-* Introduction to Testing Node.js
   - [Slides](http://training.strongloop.com/testing-node#/)
   - [Repo con los ejemplos en GitHub](https://github.com/jakerella/node-unit-tests)
   - Charla: 
   - {%youtube%}https://youtu.be/u2XCdkL4bWI{%endyoutube%}
+
+### A GENTLE INTRODUCTION TO JAVASCRIPT TEST DRIVEN DEVELOPMENT
+
+* [A GENTLE INTRODUCTION TO JAVASCRIPT TEST DRIVEN DEVELOPMENT: PART 1](http://jrsinclair.com/articles/2016/gentle-introduction-to-javascript-tdd-intro/)
+* [A GENTLE INTRODUCTION TO JAVASCRIPT TEST DRIVEN DEVELOPMENT: PART 2](http://jrsinclair.com/articles/2016/gentle-introduction-to-javascript-tdd-ajax/)
+* [A GENTLE INTRODUCTION TO JAVASCRIPT TEST DRIVEN DEVELOPMENT: PART 3](http://jrsinclair.com/articles/2016/gentle-introduction-to-javascript-tdd-html-dom/)
+
+
 
 ## Should {#should}
 

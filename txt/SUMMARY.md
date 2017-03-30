@@ -64,6 +64,7 @@
 
 ### Programación: Buenas Prácticas
 
+  * [Programación Funcional en JavaScript](apuntes/functional/README.md)
   * [Programación Orientada a Objetos/Object Oriented Programming](apuntes/oop/README.md)
   * [Code Smells](apuntes/patterns/codesmell.md)
   * [Principios de Diseño](/apuntes/patterns/designprinciples.md)
@@ -73,6 +74,26 @@
     * [Inversion of Control Pattern](apuntes/patterns/inversionofcontrolpattern.md)
   * [Práctica: OOP](practicas/practicaoop.md)
   * [Práctica: Eliminando Switch Smell](practicas/practicanoswitchsmell.md)
+
+#### Pruebas
+
+* [Pruebas](apuntes/pruebas/README.md)
+* [Mocha](apuntes/pruebas/mocha.md)
+* [Should](apuntes/pruebas/mocha.md#should)
+* [Travis](apuntes/pruebas/travis.md)
+* [Chai](apuntes/pruebas/chai.md)
+* [Sinon](apuntes/pruebas/sinon.md)
+* [Karma](apuntes/pruebas/karma.md)
+* [Covering](apuntes/pruebas/covering.md)
+* [Blanket](apuntes/pruebas/blanket.md)
+* [Istanbul](apuntes/pruebas/istanbul.md)
+* [BrowserSync](apuntes/pruebas/browsersync.md)
+
+
+
+#### Repasos Pruebas
+
+* [Repasos: Preguntas de Mocha y Chai](repasos/mochachai.md) 
 
 ### Programación Web
 
@@ -169,26 +190,6 @@
 #### Repasos: ECMA6
 
 * [Repaso: Preguntas de ecma6](repasos/ecma6.md) 
-
-### Pruebas
-
-* [Pruebas](apuntes/pruebas/README.md)
-* [Mocha](apuntes/pruebas/mocha.md)
-* [Should](apuntes/pruebas/mocha.md#should)
-* [Travis](apuntes/pruebas/travis.md)
-* [Chai](apuntes/pruebas/chai.md)
-* [Sinon](apuntes/pruebas/sinon.md)
-* [Karma](apuntes/pruebas/karma.md)
-* [Covering](apuntes/pruebas/covering.md)
-* [Blanket](apuntes/pruebas/blanket.md)
-* [Istanbul](apuntes/pruebas/istanbul.md)
-* [BrowserSync](apuntes/pruebas/browsersync.md)
-
-
-
-#### Repasos Pruebas
-
-* [Repasos: Preguntas de Mocha y Chai](repasos/mochachai.md) 
 
 
 
