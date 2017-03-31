@@ -233,6 +233,7 @@
 ## Presentaciones
 
 * [Temas Sugeridos para SYTW](presentaciones/temasSYTW.md)
+* [Presentaciones de SYTW 16/17](https://casianorodriguezleon.gitbooks.io/presentaciones-de-sytw-2016-2017/content/)
 
 ## Proyectos
 
