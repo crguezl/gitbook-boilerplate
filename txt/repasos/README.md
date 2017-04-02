@@ -1,14 +1,18 @@
 # Introducción
 
-!INCLUDE "ssh.md"
-
 !INCLUDE "markdown.md"
 
 !INCLUDE "gitbook.md"
 
+!INCLUDE "json.md"
+
+# Plataformas de Despliegue
+
+!INCLUDE "ssh.md"
+
 !INCLUDE "heroku.md"
 
-!INCLUDE "json.md"
+!INCLUDE "iaas.md"
 
 
 # Buenas Prácticas
