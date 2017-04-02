@@ -4,9 +4,12 @@
     atributos `nombre` y `apellidos` y que disponga de un método
     `saluda`.
 
+2. Escriba una clase `Programador` que hereda de `Persona`
+
 2.  Escriba un código ECMA6 que defina una clase `Persona` con atributos
     `nombre` y `apellidos` y que disponga de un método `saluda`.
 
+2. Usando ECMA6 escriba una clase `Programador` que hereda de `Persona`
 
 1. Explique las diferencias en la salida entre este código 
 
