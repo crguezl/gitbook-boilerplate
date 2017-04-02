@@ -39,6 +39,8 @@
 
 !INCLUDE "ajax.md"
 
+!INCLUDE "cookies.md"
+
 !INCLUDE "rest.md"
 
 !INCLUDE "https.md"
