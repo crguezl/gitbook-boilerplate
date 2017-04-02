@@ -162,6 +162,8 @@
 * [Preguntas de AJAX](repasos/ajax.md)
 * [Preguntas de Passport](repasos/passport.md)
 * [Preguntas de Cookies](repasos/cookies.md)
+* [Preguntas de REST](repasos/rest.md)
+* [Preguntas de GtiHub API](repasos/githubapi.md)
 
 ### Bases de Datos
 

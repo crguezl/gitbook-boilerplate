@@ -60,7 +60,7 @@ gulp.task('build', shell.task([
 
 // "serve": "gitbook serve txt gh-pages",
 gulp.task('serve', shell.task(
-    ['gitbook serve --lrport 99990 --port 43210 `pwd` gh-pages']
+    ['gitbook serve --lrport 9999 --port 43210 `pwd` gh-pages']
   )
 );
 
@@ -96,9 +96,12 @@ gulp.task('exam', shell.task([
       'pandoc txt/repasos/https.md -o examenes/https.tex',
       'pandoc txt/repasos/passport.md -o examenes/passport.tex',
       'pandoc txt/repasos/cookies.md -o examenes/cookies.tex',
+      'pandoc txt/repasos/cookiesdsi2.md -o examenes/cookiesdsi2.tex',
       'pandoc txt/repasos/oopdsi2.md -o examenes/oopdsi2.tex',
       'pandoc txt/repasos/regexpdsi2.md -o examenes/regexpdsi2.tex',
+      'pandoc txt/repasos/regexppl2.md -o examenes/regexppl2.tex',
       'pandoc txt/repasos/pruebasdsi2.md -o examenes/pruebasdsi2.tex',
+      'pandoc txt/repasos/lexicalanalyzer.md -o examenes/lexicalanalyzer.tex',
   ]));
 
 gulp.task('sytw1617', ['exam'], shell.task(
@@ -112,6 +115,10 @@ gulp.task('dsi1617', ['exam'], shell.task(
 
 gulp.task('dsi1617-2', ['exam'], shell.task(
       'cd examenes; pdflatex dsi1617-2.tex'
+      ));
+
+gulp.task('pl1617-2', ['exam'], shell.task(
+      'cd examenes; pdflatex pl1617-2.tex'
       ));
 
 gulp.task('pl1617', ['exam'], shell.task(

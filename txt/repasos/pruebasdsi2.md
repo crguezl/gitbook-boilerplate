@@ -8,7 +8,7 @@
 2.  En este ejemplo se usa Chai assert. 
 Rellene lo que falta en estas pruebas del código del conversor de temperatura:
 
-```javascript
+```
 var assert = chai.______;
 
 suite('temperature', function() {
@@ -30,7 +30,7 @@ suite('temperature', function() {
     partes que faltan 
     - Sugerencias: El id es el usado por mocha para producir su salida de las pruebas, es necesario cargar `chai` y `mocha` y  establecer el estilo de pruebas (`tdd`, `bdd`, etc.) y por útlimo ejecutar `mocha`
 
-```html
+```
 [~/srcPLgrado/temperature(karma)]$ cat tests/index.html
 <!DOCTYPE html>
 <html>
@@ -85,7 +85,7 @@ suite('temperature', function() {
 4.  Rellene las partes que faltan del fichero con las pruebas TDD en
     Mocha y Chai para la práctica de la temperatura:
 
-```javascript
+```
         [~/srcPLgrado/temperature(karma)]$ cat tests/tests.js
         var assert = ____.assert;
 

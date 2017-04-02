@@ -47,6 +47,8 @@
 
 !INCLUDE "rest.md"
 
+!INCLUDE "githubapi.md"
+
 !INCLUDE "https.md"
 
 !INCLUDE "passport.md"
