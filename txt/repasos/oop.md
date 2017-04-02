@@ -1,4 +1,11 @@
-## Preguntas de Programación Orientada a Objetos
+## Preguntas de Repaso de OOP
+
+1.  Escriba un código JavaScript que defina una clase `Persona` con
+    atributos `nombre` y `apellidos` y que disponga de un método
+    `saluda`.
+
+2.  Escriba un código ECMA6 que defina una clase `Persona` con atributos
+    `nombre` y `apellidos` y que disponga de un método `saluda`.
 
 1. Explique las diferencias en la salida entre este código 
 

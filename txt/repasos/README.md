@@ -32,14 +32,6 @@
     cadena de un objeto? ¿Que parámetros espera? ¿Como afectan dichos
     parámetros?
 
-## Preguntas de Repaso de OOP
-
-1.  Escriba un código JavaScript que defina una clase `Persona` con
-    atributos `nombre` y `apellidos` y que disponga de un método
-    `saluda`.
-
-2.  Escriba un código ECMA6 que defina una clase `Persona` con atributos
-    `nombre` y `apellidos` y que disponga de un método `saluda`.
 
 ## Preguntas de Repaso de Code Smelling
 
