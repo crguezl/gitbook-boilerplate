@@ -1,8 +1,25 @@
-<!-- toc -->
+# Introducción
 
-# <div class="ull">Repasos, Ejercicios y Preguntas</div>
+!INCLUDE "ssh.md"
+
+!INCLUDE "markdown.md"
+
+!INCLUDE "gitbook.md"
+
+!INCLUDE "heroku.md"
+
+!INCLUDE "json.md"
+
+
+# Buenas Prácticas
 
 !INCLUDE "oop.md"
+
+!INCLUDE "codesmelling.md"
+
+!INCLUDE "ecma6.md"
+
+# Web
 
 !INCLUDE "jquery.md"
 
@@ -10,33 +27,27 @@
 
 !INCLUDE "localstorage.md"
 
-!INCLUDE "heroku.md"
-
-!INCLUDE "ssh.md"
-
-!INCLUDE "ecma6.md"
-
-!INCLUDE "mongo.md"
-
 !INCLUDE "ejs.md"
 
 !INCLUDE "pug.md"
 
 !INCLUDE "sass.md"
 
-!INCLUDE "regexp.md"
-
-## Preguntas de Repaso de JSON
-
-1.  ¿Como se llama el método que permite obtener una representación como
-    cadena de un objeto? ¿Que parámetros espera? ¿Como afectan dichos
-    parámetros?
-
-!INCLUDE "codesmelling.md"
-
 !INCLUDE "html.md"
 
 !INCLUDE "css.md"
+
+!INCLUDE "ajax.md"
+
+!INCLUDE "rest.md"
+
+!INCLUDE "https.md"
+
+!INCLUDE "passport.md"
+
+!INCLUDE "expressroutes.md"
+
+# Pruebas
 
 !INCLUDE "mochachai.md"
 
@@ -44,25 +55,13 @@
 
 !INCLUDE "npm.md"
 
-
 !INCLUDE "karma.md"
 
 
-!INCLUDE "ajax.md"
+# Procesadores de Lenguajes
 
-!INCLUDE "rest.md"
+!INCLUDE "regexp.md"
 
-## Preguntas de HTTPS
-!INCLUDE "https.md"
+# Bases de Datos
 
-## Preguntas de Passport
-!INCLUDE "passport.md"
-
-## Preguntas de Rutas en ExpressJS
-!INCLUDE "expressroutes.md"
-
-## Preguntas de MarkDown
-!INCLUDE "markdown.md"
-
-## Preguntas de GitBook
-!INCLUDE "gitbook.md"
+!INCLUDE "mongo.md"

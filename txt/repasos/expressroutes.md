@@ -1,4 +1,4 @@
-## Rutas en Express
+## Preguntas de Rutas en ExpressJS
 
 1. Escriba un servidor que sirva ficheros estáticos desde el directorio `/public`
 2. El servidor deberá responder a requests `GET` en las rutas `/user/nombredeusuario` (donde `nombredeusuario` varía) con una página que diga `Hola nombredeusuario` usando el método `render`del objeto `response`
