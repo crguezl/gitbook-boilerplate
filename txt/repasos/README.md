@@ -69,6 +69,7 @@
 # Procesadores de Lenguajes
 
 !INCLUDE "regexp.md"
+!INCLUDE "lexicalanalyzer.md"
 
 # Bases de Datos
 

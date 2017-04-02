@@ -214,6 +214,7 @@
 #### Repasos PL
 
 * [Repasos: Preguntas de Expresiones Regulares](repasos/regexp.md) 
+* [Repasos: Preguntas de Analizador Léxico](repasos/lexicalanalyzer.md) 
 
 ## Repasos
 
