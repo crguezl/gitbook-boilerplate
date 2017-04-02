@@ -1,4 +1,4 @@
-## Preguntas de Repaso de OOP
+## Preguntas de Programación Orientada a Objetos
 
 1.  Escriba un código JavaScript que defina una clase `Persona` con
     atributos `nombre` y `apellidos` y que disponga de un método
@@ -7,11 +7,9 @@
 2.  Escriba un código ECMA6 que defina una clase `Persona` con atributos
     `nombre` y `apellidos` y que disponga de un método `saluda`.
 
+
 1. Explique las diferencias en la salida entre este código 
 
-<table>
-<tr>
-<td>
 ```
       function Person() {
         this.age = 0;
@@ -24,8 +22,6 @@
       }
       var p = new Person();
 ```
-</td>
-<td>
 y este otro:
 ```
       function Person() {
@@ -40,10 +36,6 @@ y este otro:
 
       var p = new Person();
 ```
-</td>
-</tr>
-</table>
-
 Justifique su respuesta.
 
 2. Explique que hacen los métodos `bind`, `apply` y `call` y cuales son sus similitudes y diferencias
@@ -67,3 +59,46 @@ for (var name in map) {
 <!-- Object.defineProperty(Object.prototype, "hiddenNonsense",
                       {enumerable: false, value: "hi"});
 -->
+9. ¿Como puedo crear un objeto que carezca de prototipo?
+<!-- Object.create(null); -->
+
+10 El argumento `descriptor` del método 
+```
+Object.defineProperty(obj, prop, descriptor)
+```
+puede ser de uno de dos tipos: **data descriptors** o **accessor descriptors**.
+
+  - Un `data descriptor` es una propiedad que tiene un  `value`, que puede o no
+ser `writable`. 
+  - Un `accessor descriptor` es una propiedad 
+que describe un par de funciones getter-setter. 
+
+Un  descriptor puede ser de uno de estos tipos pero no puede ser ambos.
+
+Explique cuales de estas propiedades pertenecen a que tipo, cual es su valor por defecto  y que describen:
+
+  1.  `configurable`
+  <!-- true if and only if the type of this property descriptor may be changed and if the property may be deleted from the corresponding object.
+  Defaults to false.
+  -->
+  2. `enumerable`
+  <!-- true if and only if this property shows up during enumeration of the properties on the corresponding object.
+  Defaults to false.
+  -->
+  3. `value`
+  <!-- The value associated with the property. Can be any valid JavaScript value (number, object, function, etc).
+    Defaults to undefined.
+  -->
+  4. `writable`
+  <!-- true if and only if the value associated with the property may be changed with an assignment operator.
+  Defaults to false.
+  -->
+  5. `get`
+  <!-- An accessor descriptor also has the following optional keys:
+  A function which serves as a getter for the property, or undefined if there is no getter. The function return will be used as the value of property.
+  Defaults to undefined.
+  -->
+  6. `set`
+  <!--A function which serves as a setter for the property, or undefined if there is no setter. The function will receive as only argument the new value being assigned to the property.
+  Defaults to undefined.
+  -->
