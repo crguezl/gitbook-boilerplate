@@ -1,11 +1,3 @@
-## Preguntas de GitBook
-
-1. Explique como instalar y usar Gitbook
-2. Como se despliega un libro en GitHub
-3. Como se despliega un libro en `gitbook.com`
-4. Como se despliega un libro en Heroku
-5. Como se despliega un libro en una máquina virtual de `iaas.ull.es`
-
 ## Preguntas de REST y Servicios Web
 
 1. Defina que es un servicio web
