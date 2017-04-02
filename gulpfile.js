@@ -96,6 +96,7 @@ gulp.task('exam', shell.task([
       'pandoc txt/repasos/https.md -o examenes/https.tex',
       'pandoc txt/repasos/passport.md -o examenes/passport.tex',
       'pandoc txt/repasos/cookies.md -o examenes/cookies.tex',
+      'pandoc txt/repasos/oopdsi2.md -o examenes/oopdsi2.tex',
       'pandoc txt/repasos/regexpdsi2.md -o examenes/regexpdsi2.tex',
       'pandoc txt/repasos/pruebasdsi2.md -o examenes/pruebasdsi2.tex',
   ]));

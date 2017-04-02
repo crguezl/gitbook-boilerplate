@@ -75,6 +75,10 @@
   * [Práctica: OOP](practicas/practicaoop.md)
   * [Práctica: Eliminando Switch Smell](practicas/practicanoswitchsmell.md)
 
+#### Repasos Buenas Prácticas
+
+* [Repasos: Preguntas de OOP](repasos/oop.md) 
+
 #### Pruebas
 
 * [Pruebas](apuntes/pruebas/README.md)
