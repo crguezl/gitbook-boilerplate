@@ -29,12 +29,13 @@ res.clearCookie('cookie_name');
 ```
 
 8. ¿Que es la Query String? Ponga un ejemplo de Query String
-
+<!--
 On the World Wide Web, a query string is the part of a uniform resource locator (URL) containing data that does not fit conveniently into a hierarchical path structure. The query string commonly includes fields added to a base URL by a Web browser or other client application, for example as part of an HTML form.
 A typical URL containing a query string is as follows:
 ```
 http://example.com/over/there?name=ferret
 ```
+-->
 9. If a form is embedded in an HTML page as follows:
 ```html
 <form action="/hello" method="get">
@@ -50,7 +51,8 @@ the handler of the route `/hello` (the route specified by the `action`
 attribute
 of the form element in the above example) will receive a 
 query string. Write down the query string it receives
-
+<!--
 ```
 first=this+is+a+field&second=was+it+clear+already
 ```
+-->
