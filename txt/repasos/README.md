@@ -32,24 +32,9 @@
     cadena de un objeto? ¿Que parámetros espera? ¿Como afectan dichos
     parámetros?
 
+!INCLUDE "codesmelling.md"
 
-## Preguntas de Repaso de Code Smelling
-
-1.  Defina el término <span>*code smelling*</span>
-
-2.  ¿Que diferencia hay entre un <span>*code smell*</span> y un
-    <span>*bug*</span>?
-
-3.  Explique el code smell <span>*Duplicated Code*</span>
-
-4.  Explique el Switch smell
-
-## Preguntas de Repaso de HTML
-
-1.  ¿Cual debe ser el valor del atributo `rel` para usar la imagen como
-    favicon?
-
-        <link rel="_____________" href="etsiiull.png" type="image/x-icon">
+!INCLUDE "html.md"
 
 !INCLUDE "css.md"
 

@@ -78,6 +78,7 @@
 #### Repasos Buenas Prácticas
 
 * [Repasos: Preguntas de OOP](repasos/oop.md) 
+* [Repasos: Code Smelling](repasos/codesmelling.md)
 
 #### Pruebas
 
@@ -148,6 +149,7 @@
 
 #### Repasos de Programación Web
 
+* [Preguntas de HTML](repasos/html.md) 
 * [Preguntas de CSS](repasos/css.md) 
 * [Preguntas de ejs](repasos/ejs.md) 
 * [Preguntas de Rutas en ExpressJS](repasos/expressroutes.md)
