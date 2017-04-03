@@ -18,3 +18,7 @@ In the Strategy pattern we have an object (the *context*) that is trying to get 
   2. Ensure the family of objects share the same interface so that they are interchangable.
 
 Otro ejemplo, también de Elijah Manor se encuentra en el artículo [Switching to the Strategy Pattern in JavaScript](http://elijahmanor.com/switching-to-the-strategy-pattern-in-javascript/).
+
+## Ejemplo
+
+* [ULL-ESIT-GRADOII-DSI/temperature-oop-noswitch](https://github.com/ULL-ESIT-GRADOII-DSI/temperature-oop-noswitch/tree/sepfiles)
