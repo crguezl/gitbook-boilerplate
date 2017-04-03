@@ -4,6 +4,8 @@
 
 * [Apuntes de PL: Analizadores Descendentes Predictivos en JavaScript](http://crguezl.github.io/pl-html/node20.html)
   - [Análisis Sintáctico Predictivo Recursivo](http://crguezl.github.io/pl-html/node22.html)
+* [Apuntes de PL de la II. Derivaciones a vacio](http://nereida.deioc.ull.es/~pl/perlexamples/node88.html)
+* [Construcción de los FIRST y los FOLLOW](http://nereida.deioc.ull.es/~pl/perlexamples/node89.html)
 * [repo prdcalc](https://github.com/crguezl/prdcalc)
   - Este es un repo en con una aplicación web en Ruby Sinatra con un parser RDP escrito en CoffeeScript
   - [Fichero `main.coffee` del repo prdcalc](https://github.com/crguezl/prdcalc/blob/master/views/main.coffee)
