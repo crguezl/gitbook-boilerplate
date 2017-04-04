@@ -42,17 +42,9 @@ recursivo.
 <LI><A NAME="tex2html2386"
   HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node89.html">Construcción de los conjuntos de Primeros y Siguientes</A>
 <LI><A NAME="tex2html2387"
-  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node90.html">Ejercicio: Construir los <SPAN CLASS="MATH"><IMG
- WIDTH="65" HEIGHT="15" ALIGN="BOTTOM" BORDER="0"
- SRC="img3.png"
- ALT="$ FIRST$"></SPAN>
-</A>
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node90.html">Ejercicio: Construir los FIRST</A>
 <LI><A NAME="tex2html2388"
-  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node91.html">Ejercicio: Calcular los <SPAN CLASS="MATH"><IMG
- WIDTH="89" HEIGHT="15" ALIGN="BOTTOM" BORDER="0"
- SRC="img4.png"
- ALT="$ FOLLOW$"></SPAN>
-</A>
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node91.html">Ejercicio: Calcular los FOLLOW</A>
 <LI><A NAME="tex2html2389"
   HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node92.html">Práctica: Construcción de los FIRST y los FOLLOW</A>
 <LI><A NAME="tex2html2390"
