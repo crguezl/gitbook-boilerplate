@@ -1,9 +1,5 @@
 ## Práctica: Analizador Descendente Predictivo Recursivo
 
-### Aceptar Tarea
-
-* [Aceptar asignación de la tarea]()
-
 ### Descripción
 
 Diseñe un lenguaje de programación sencillo. 
@@ -19,16 +15,21 @@ Diseñe un lenguaje de programación sencillo.
 `*` y `+` para indicar repeticiones
 2. Escriba el analizador sintáctico para dicho lenguaje. Deverá devolver el árbol de análisis
 sintáctico
-3. El lenguaje debe tener `if`s, `condiciones`, `asignaciones`, alguna forma de bucle, 
-`funciones`o `procedimientos`, etc.
+3. El lenguaje debe tener declaraciones, sentencias `if`, `condiciones`, `asignaciones`, alguna forma de bucle, `funciones`, etc.
+4. La gramática deberá disponerse de forma que sea analizable por un PDR
+5. Escriba pruebas  para el código desarrollado
 
-
-### Hitos
-
-1. Use el repo de GitHub dado por la asignación de esta tarea 
-2. Escriba un analizador sintáctico para la gramática dada
-3. Evalúe las expresiones
 ### Recursos
+
+* [Apuntes de PL: Análisis Sintáctico Predictivo Recursivo](http://crguezl.github.io/pl-html/node22.html)
+* [Repo con una solución a un lenguaje similar](https://github.com/crguezl/prdcalc)
+  -  [Despliegue en Heroku](http://predictiveparser.herokuapp.com/)
+  - [Fichero main.js con un parser similar al que se solicita](https://github.com/crguezl/prdcalc/blob/master/views/main.js)
+* [Mocha](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/pruebas/mocha.html)
+* [Chai](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/pruebas/chai.html)
+* [Covering](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/pruebas/covering.html)
+* [Blanket](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/pruebas/blanket.html)
+
 
 
 

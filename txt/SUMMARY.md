@@ -57,10 +57,10 @@
 
 #### Prácticas Iniciales: NodeJS, GitHub, GitBook
 
-* [Práctica: Creación de un Paquete NPM](practicas/practicanm.md)
 * [Práctica: Tareas Iniciales](practicas/practicatareasiniciales.md)
 * [Práctica: Primeros Pasos en NodeJS](practicas/practicatareasiniciales2.md)
 * [Práctica: Tareas Iniciales Avanzadas](practicas/practicagitbook.md)
+* [Práctica: Creación de un Paquete NPM](practicas/practicanm.md)
 
 ### Programación: Buenas Prácticas
 
@@ -210,6 +210,7 @@
     - [Top Down Operator Precedence Analysis](apuntes/parsing/tdop/tdop.md)
   - [Análisis Recursivo Descendente](apuntes/parsing/recursivodescendente/README.md)
 * [Práctica: Analizador Léxico para Un Subconjunto de JavaScript](practicas/practicaanalisislexicotdop.md)
+* [Práctica: Analizador Descendente Predictivo Recursivo](practicas/practicarecdescparser.md)
 
 #### Repasos PL
 

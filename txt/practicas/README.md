@@ -1,11 +1,35 @@
-# Prácticas
-  * [Práctica: OOP](practicaoop.md)
-  * [Práctica: Tareas Iniciales](practicagitbook.md)
-  * [Práctica: Creación de un Paquete NPM](practicanm.md)
-  * [Práctica: Nueva funcionalidad para el Paquete NPM: plugins](practicaplugin.md)
-  * [Práctica: Nueva funcionalidad para el Paquete NPM: crear repositorio en GitHub](practicagithubapi.md)
-  * [Práctica: gitbook-start-plugin-iaas-ull-es](practicaiaas.md)
-  * [Práctica: gitbook-start-plugin-heroku](practicaplugin2.md)
-  * [Práctica: Passport y OAuth](practicapassport.md)
-  * [Práctica: Passport con LocalStrategy](practicapassportlocal.md)
-  * [Práctica: HTTPS y SSL](practicassl.md)
+# Prácticas Iniciales: NodeJS, GitHub, GitBook
+!INCLUDE "practicatareasiniciales.md"
+!INCLUDE "practicatareasiniciales2.md"
+!INCLUDE "practicagitbook.md"
+
+## Buenas Prácticas
+!INCLUDE "practicagitbook.md"
+!INCLUDE "practicaoop.md"
+!INCLUDE "practicaplugin2.md"
+!INCLUDE "practicaplugin.md"
+!INCLUDE "practicanm.md"
+
+# Plataformas de Despliegue
+!INCLUDE "practicaiaas.md"
+
+# Web
+
+!INCLUDE "practicaconversordetemperaturas.md"
+!INCLUDE "practicalearningrouting.md"
+!INCLUDE "practicalearningcookies.md"
+!INCLUDE "practicasessions.md"
+!INCLUDE "practicaiaas.md"
+!INCLUDE "practicaplugin.md"
+!INCLUDE "practicaplugin2.md"
+!INCLUDE "practicagithubapi.md"
+!INCLUDE "practicapassport.md"
+!INCLUDE "practicapassportlocal.md"
+!INCLUDE "practicapassportlocalsequelize.md"
+!INCLUDE "practicassl.md"
+
+
+# Procesadores de Lenguajes
+
+!INCLUDE "practicas/practicaanalisislexicotdop.md"
+!INCLUDE "practicas/practicarecdescparser.md"
