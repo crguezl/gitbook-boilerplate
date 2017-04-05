@@ -1,59 +1,34 @@
-# Prácticas Iniciales: NodeJS, GitHub, GitBook
-!INCLUDE "practicatareasiniciales.md"
+#### Prácticas Iniciales: NodeJS, GitHub, GitBook
+
+* [Práctica: Tareas Iniciales](practicatareasiniciales.md)
+* [Práctica: Primeros Pasos en NodeJS](practicatareasiniciales2.md)
+* [Práctica: Tareas Iniciales Avanzadas](practicagitbook.md)
+* [Práctica: Creación de un Paquete NPM](practicanm.md)
 
 
-!INCLUDE "practicatareasiniciales2.md"
+### Programación: Buenas Prácticas
 
-!INCLUDE "practicagitbook.md"
-
-
-# Buenas Prácticas
-!INCLUDE "practicagitbook.md"
-
-!INCLUDE "practicaoop.md"
-
-!INCLUDE "practicaplugin2.md"
-
-!INCLUDE "practicaplugin.md"
-
-!INCLUDE "practicanm.md"
+* [Práctica: OOP](practicaoop.md)
+* [Práctica: Eliminando Switch Smell](practicanoswitchsmell.md)
 
 
-# Plataformas de Despliegue
-!INCLUDE "practicaiaas.md"
+####[Prácticas de Programación Web](practicasdeprogramacionweb.md)
 
-
-# Web
-
-!INCLUDE "practicaconversordetemperaturas.md"
-
-!INCLUDE "practicalearningrouting.md"
-
-!INCLUDE "practicalearningcookies.md"
-
-!INCLUDE "practicasessions.md"
-
-!INCLUDE "practicaiaas.md"
-
-!INCLUDE "practicaplugin.md"
-
-!INCLUDE "practicaplugin2.md"
-
-!INCLUDE "practicagithubapi.md"
-
-!INCLUDE "practicapassport.md"
-
-!INCLUDE "practicapassportlocal.md"
-
-!INCLUDE "practicapassportlocalsequelize.md"
-
-!INCLUDE "practicassl.md"
-
-
+* [Práctica: JavaScript en el Cliente](practicaconversordetemperaturas.md)
+* [Práctica: Estudiar las Rutas en ExpressJS](practicalearningrouting.md)
+* [Práctica: Estudiar las Cookies y las Sessions en ExpressJS](practicalearningcookies.md)
+* [Práctica: Autenticación usando sessions](practicasessions.md)
+* [Práctica: Despliegues en iaas y heroku](practicaiaas.md)
+* [Práctica: Añadiendo plugins para los despliegues. iaas](practicaplugin.md)
+* [Práctica: `gitbook-start`. Plugin para heroku](practicaplugin2.md)
+* [Práctica: GitHub API, Heroku API](practicagithubapi.md)
+* [Práctica: Autenticación OAuth con Passport](practicapassport.md)
+* [Práctica: Passport y LocalStrategy](practicapassportlocal.md)
+* [Práctica: LocalStrategy y Base de Datos: LocalStrategy](practicapassportlocalsequelize.md)
+* [Práctica: Añadir HTTPS al servidor del libro](practicassl.md)
 
 # Procesadores de Lenguajes
 
-!INCLUDE "practicaanalisislexicotdop.md"
-
-!INCLUDE "practicarecdescparser.md"
+* [Práctica: Analizador Léxico para Un Subconjunto de JavaScript](practicaanalisislexicotdop.md)
+* [Práctica: Analizador Descendente Predictivo Recursivo](practicarecdescparser.md)
 
