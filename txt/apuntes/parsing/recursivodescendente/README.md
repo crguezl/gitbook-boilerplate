@@ -13,7 +13,7 @@
   - [Despliegue en Heroku](https://predictiveparser.herokuapp.com/) (Puede estar caído o eliminado)
 * [Repo ULL-ESIT-PL-1617/solution-evalua-pdr](https://github.com/ULL-ESIT-PL-1617/solution-evalua-pdr) (privado)
 
-### Enlaces a los Apuntes de PL en la II (en nereida) sobre Análisis Sintáctico Predictivo Recursivo
+### Enlaces a los Apuntes de PL en la II (en nereida) sobre Análisis Sintáctico Predictivo Recursivo (En Perl)
 La siguiente fase en la construcción del analizador es la fase de 
 análisis sintáctico. Esta toma como entrada el flujo de terminales
 y construye como salida el árbol de análisis sintáctico abstracto.
