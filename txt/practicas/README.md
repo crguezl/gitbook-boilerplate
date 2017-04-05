@@ -53,7 +53,7 @@
 
 # Procesadores de Lenguajes
 
-!INCLUDE "practicas/practicaanalisislexicotdop.md"
+!INCLUDE "practicaanalisislexicotdop.md"
 
-!INCLUDE "practicas/practicarecdescparser.md"
+!INCLUDE "practicarecdescparser.md"
 
