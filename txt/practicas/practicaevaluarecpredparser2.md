@@ -1,6 +1,7 @@
-### Aceptar Tarea
+# Práctica Evaluar Analizador Descendente Predictivo Recursivo (2)
 
-* [Aceptar asignación de la tarea]()
+Este repo contiene el código de partida para la práctica de laboratorio
+*Evaluar Analizador Descendente Predictivo Recursivo (2)*
 
 ### Forma de trabajo
 
@@ -25,8 +26,18 @@ Tu nuevo lenguaje debe incluir:
   - El cero es falso
 5. Añada constantes `true` y `false` a su lenguaje que se asimilan a los valores 0 y 1. Dado que son constantes no pueden ser modificadas. 
   - Ejemplo:  `a = true, c = (5 < 5) == false`
-6. Añada expresiones condicionales:  `if 2<a then b else c`  
+  - Esta operación debería dar un error o no efectuarse:  `true = 0`
+6. Añada expresiones condicionales:  `d = if 2<a then b else c`  
 7. Modifique las pruebas para que comprueben el buen funcionamiento de su código
+
+### Gramática Inicial
+
+1.  Σ = { ADDOP, MULOP, '(', ')', NUM },
+2.  V = {  comma, expression, term, factor }
+3.  Productions:
+    1.  expression → term ( ADDOP term)* 
+    2.  term → factor (MULOP factor)*
+    3.  factor → '(' expression ')' | NUM
 
 ### Recursos
 

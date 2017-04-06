@@ -13,9 +13,10 @@ Diseñe un lenguaje de programación sencillo.
 
 1. Escriba la gramática de manera que sea procesable por un ADPR. Puede usar los operadores
 `*` y `+` para indicar repeticiones
-2. Escriba el analizador sintáctico para dicho lenguaje. Deverá devolver el árbol de análisis
+2. Escriba el analizador sintáctico para dicho lenguaje. Deberá devolver el árbol de análisis
 sintáctico
-3. El lenguaje debe tener declaraciones, sentencias `if`, `condiciones`, `asignaciones`, alguna forma de bucle, `funciones`, etc.
+3. El lenguaje debe tener declaraciones (aunque no tiene que ser necesariamente tipeado), 
+sentencias `if`, `condiciones`, `asignaciones`, alguna forma de bucle, `funciones`, llamadas a funciones, etc.
 4. La gramática deberá disponerse de forma que sea analizable por un PDR
 5. Escriba pruebas  para el código desarrollado
 
@@ -30,7 +31,11 @@ sintáctico
 * [Covering](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/pruebas/covering.html)
 * [Blanket](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/pruebas/blanket.html)
 
+#### Gramáticas para algunos lenguajes
 
+* [Gramática de Pascal en yacc](http://www.moorecad.com/standardpascal/pascal.y)
+* [Gramática de ANSI C en yacc](https://www.lysator.liu.se/c/ANSI-C-grammar-y.html)
+* [Gramática PEGJS para JavaScript](https://github.com/pegjs/pegjs/blob/master/examples/javascript.pegjs)
 
 
 
