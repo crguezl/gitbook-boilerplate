@@ -209,6 +209,8 @@
   - [Operator Precedence Analysis](apuntes/parsing/tdop/README.md)
     - [Top Down Operator Precedence Analysis](apuntes/parsing/tdop/tdop.md)
   - [Análisis Recursivo Descendente](apuntes/parsing/recursivodescendente/README.md)
+* [Eloquent JS: Chapter 11. Project: A Programming Language](apuntes/parsing/eloquentjs/README.md)
+* [How to implement a programming language in JavaScript](apuntes/parsing/pltutulisperator/README.md)
 * [Práctica: Analizador Léxico para Un Subconjunto de JavaScript](practicas/practicaanalisislexicotdop.md)
 * [Práctica: Analizador Descendente Predictivo Recursivo](practicas/practicarecdescparser.md)
 
