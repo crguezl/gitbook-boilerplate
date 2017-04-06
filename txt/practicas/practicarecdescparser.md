@@ -6,7 +6,7 @@ Diseñe un lenguaje de programación sencillo.
 
 ##### Posibles puntos de partida
 
-* [ Niklaus Wirth's PL/0](https://en.wikipedia.org/wiki/Recursive_descent_parser).
+* [ Niklaus Wirth's PL/0](https://en.wikipedia.org/wiki/Recursive_descent_parser) in the Wikipedia. 
 * [Tiny Basic](https://en.wikipedia.org/wiki/Tiny_BASIC)
 
 ##### Requisitos
@@ -30,12 +30,4 @@ sentencias `if`, `condiciones`, `asignaciones`, alguna forma de bucle, `funcione
 * [Chai](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/pruebas/chai.html)
 * [Covering](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/pruebas/covering.html)
 * [Blanket](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/pruebas/blanket.html)
-
-#### Gramáticas para algunos lenguajes
-
-* [Gramática de Pascal en yacc](http://www.moorecad.com/standardpascal/pascal.y)
-* [Gramática de ANSI C en yacc](https://www.lysator.liu.se/c/ANSI-C-grammar-y.html)
-* [Gramática PEGJS para JavaScript](https://github.com/pegjs/pegjs/blob/master/examples/javascript.pegjs)
-
-
 
