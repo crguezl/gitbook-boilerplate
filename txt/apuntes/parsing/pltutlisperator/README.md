@@ -1,4 +1,4 @@
-<h2>How to implement a PL</h2>
+<h2>How to implement a PLi by Mihai Bazon</h2>
 
 
 <ul>
