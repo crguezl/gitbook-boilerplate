@@ -2,7 +2,7 @@
 
 ### Descripción
 
-Diseñe un lenguaje de programación sencillo. Escriba un analizador sintáctico que genere un árbolde análisis abstracto para dicho lenguaje. 
+Diseñe un lenguaje de programación sencillo. Escriba un analizador sintáctico que genere un árbol de análisis abstracto para dicho lenguaje. 
 
 ##### Posibles puntos de partida
 
