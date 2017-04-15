@@ -113,6 +113,8 @@ that is, such an entity can allow its behaviour to be extended without modifying
 
   {% youtube %}https://www.youtube.com/watch?v=JVlfj7mQZPo{% endyoutube %}
 
+Pueden encontrar las [trasparencias](http://elijahmanor.com/talks/js-smells/#/) de la presentación en [http://elijahmanor.com/talks/js-smells/#/](http://elijahmanor.com/talks/js-smells/#/).
+
 The basic idea  of the `strategy design pattern` is to **delegate tasks to encapsulated algorithms which are interchangable at runtime**.
 
 In the Strategy pattern we have an object (the *context*) that is trying to get something done. But to get that thing done, we need to supply the context with a second object, called the *strategy*, that helps￼ to get the thing done.
