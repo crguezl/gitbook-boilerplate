@@ -46,8 +46,14 @@
   - [SYTW 14/15](https://campusvirtual.ull.es/1415/course/view.php?id=5678)
   - [LPP 14/15](https://campusvirtual.ull.es/1415/course/view.php?id=5661)
 
+## Cursos Prehistóricos
+
+* [Apuntes de Procesadores de Lenguajes de la Antigua Ingeniería Informática: Análisis Léxico y Sintáctico](https://ull-esit-pl-1617.github.io/apuntesingenieriainformaticaPL/) Alojado en GitHub
+* [Apuntes de Procesadores de Lenguajes de la Antigua Ingeniería Informática: Análisis Léxico y Sintáctico](http://nereida.deioc.ull.es/~pl/perlexamples/) Alojado en nereida.deio.ull.es
+
 ### Open Course Ware de la ULL
 
 * [Procesadores de Lenguajes](https://campusvirtual.ull.es/ocw/course/view.php?id=45)
 * [Lenguajes y Herramientas Informáticas](https://campusvirtual.ull.es/ocw/course/view.php?id=43)
 * [Programación en Paralelo II](https://campusvirtual.ull.es/ocw/course/view.php?id=44)
+
