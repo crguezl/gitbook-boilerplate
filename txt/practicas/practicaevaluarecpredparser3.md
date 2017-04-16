@@ -1,4 +1,4 @@
-i### Aceptar Tarea
+### Aceptar Tarea
 
 * [Aceptar asignación de la tarea]()
 
