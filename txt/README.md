@@ -57,6 +57,25 @@
 * [Generación de Códigos](http://nereida.deioc.ull.es/~generaciondecodigos/generaciondecodigos/) Alojado en nereida.deioc.ull.es
 * [Herramientas Informáticas de Alto Nivel](http://nereida.deioc.ull.es/~hian/) Alojado en nereida.deioc.ull.es
 
+#### IHIU
+
+* [Introducción a las Herramientas Informáticas Unix para el Desarrollo de la Investigación. 1 de julio al 14 de Julio de 2003](http://nereida.deioc.ull.es/~pcgull/ihiu03/)
+* [Introducción a las Herramientas Informáticas Unix para el Desarrollo de la Investigación. 18 junio al 19 julio de 2001](http://nereida.deioc.ull.es/~pcgull/ihiu01/)
+
+#### HLI 
+
+* [Herramientas y Lenguajes Informáticos. Centro Superior de Informática](http://nereida.deioc.ull.es/~pcgull/hli/)
+* [Herramientas y Lenguajes Informáticos. Curso 2000-2001 Centro Superior de Informática](http://nereida.deioc.ull.es/~pcgull/hli01/)
+* [Herramientas y Lenguajes Informáticos. 18 al 25 de Febrero de 2002. Centro Superior de Informática](http://nereida.deioc.ull.es/~pcgull/hli02/)
+* [Herramientas y Lenguajes Informáticos. 2003. Centro Superior de Informática](http://nereida.deioc.ull.es/~pcgull/hli03/)
+* [Herramientas y Lenguajes Informáticos. 2004. Centro Superior de Informática](http://nereida.deioc.ull.es/~pcgull/hli04/)
+
+#### IBD
+* [IBD02. Centro Superior de Informática](http://nereida.deioc.ull.es/~pcgull/ibd02/)
+
+#### Cursos
+* [HTML, Perl, Apache y JavaScript. Una introducción. Coromoto León Hernández y Casiano Rodríguez León 14/12/2000](http://nereida.deioc.ull.es/~pcgull/cursos/perl/contexto.html)
+
 ### Open Course Ware de la ULL
 
 * [Procesadores de Lenguajes](https://campusvirtual.ull.es/ocw/course/view.php?id=45)
