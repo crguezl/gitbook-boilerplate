@@ -6,12 +6,12 @@
 
 2. Escriba una clase `Programador` que hereda de `Persona`
 
-2.  Escriba un código ECMA6 que defina una clase `Persona` con atributos
+3.  Escriba un código ECMA6 que defina una clase `Persona` con atributos
     `nombre` y `apellidos` y que disponga de un método `saluda`.
 
-2. Usando ECMA6 escriba una clase `Programador` que hereda de `Persona`
+4. Usando ECMA6 escriba una clase `Programador` que hereda de `Persona`
 
-1. Explique las diferencias en la salida entre este código 
+5. Explique las diferencias en la salida entre este código 
 
 ```
       function Person() {
@@ -41,12 +41,12 @@ y este otro:
 ```
 Justifique su respuesta.
 
-2. Explique que hacen los métodos `bind`, `apply` y `call` y cuales son sus similitudes y diferencias
-3. ¿Cual es el significado del primer argumento del método `Object.cretate`? ¿Y el segundo? 
-4. Todo objeto JavaScript tiene una propiedad `"prototype"` ¿verdadero o falso?
+6. Explique que hacen los métodos `bind`, `apply` y `call` y cuales son sus similitudes y diferencias
+7. ¿Cual es el significado del primer argumento del método `Object.cretate`? ¿Y el segundo? 
+8. Todo objeto JavaScript tiene una propiedad `"prototype"` ¿verdadero o falso?
 5. La propiedad `prototype` de una función es un objeto de tipo `Function` ¿verdadero o falso?
-6. El `prototype` de una función es un objeto de tipo `Function` ¿verdadero o falso?
-7. ¿Cual es el problema con este código? ¿Como se arregla el problema?
+9. El `prototype` de una función es un objeto de tipo `Function` ¿verdadero o falso?
+10. ¿Cual es el problema con este código? ¿Como se arregla el problema?
 ```
 Object.prototype.nonsense = "hi";
 for (var name in map)
@@ -58,14 +58,14 @@ for (var name in map) {
     // ... this is an own property
   }
 }-->
-8. ¿Que significa que una propiedad es no-enumerable?
+11. ¿Que significa que una propiedad es no-enumerable?
 <!-- Object.defineProperty(Object.prototype, "hiddenNonsense",
                       {enumerable: false, value: "hi"});
 -->
-9. ¿Como puedo crear un objeto que carezca de prototipo?
+12. ¿Como puedo crear un objeto que carezca de prototipo?
 <!-- Object.create(null); -->
 
-10 El argumento `descriptor` del método 
+13. El argumento `descriptor` del método 
 ```
 Object.defineProperty(obj, prop, descriptor)
 ```
@@ -78,7 +78,7 @@ que describe un par de funciones getter-setter.
 
 Un  descriptor puede ser de uno de estos tipos pero no puede ser ambos.
 
-Explique cuales de estas propiedades pertenecen a que tipo, cual es su valor por defecto  y que describen:
+Explique cuales de estas propiedades pertenecen a que tipo (accesor o data descriptor), cual es su valor por defecto  y que describen:
 
   1.  `configurable`
   <!-- true if and only if the type of this property descriptor may be changed and if the property may be deleted from the corresponding object.

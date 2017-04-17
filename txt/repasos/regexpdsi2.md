@@ -30,7 +30,6 @@
     entidades HTML para que no sean intérpretadas como código HTML.
     Rellene las partes que faltan.
 
-
 ```javascript
 var entityMap = {
     "&": "&___;",
@@ -46,7 +45,7 @@ function escapeHtml(string) {
     return ____________;
   });
 ```
-2.  Se quiere poner un espacio en blanco después de la aparición de cada coma:
+9.  Se quiere poner un espacio en blanco después de la aparición de cada coma:
 
         > x = "a,b,c,1,2,d, e,f"
         'a,b,c,1,2,d, e,f'
@@ -54,12 +53,12 @@ function escapeHtml(string) {
         'a, b, c, 1, 2, d,  e, f'
 
     Se pide que si hay ya un espacio después de la coma, no se duplique.
-3. Se pide una expresión regular que case con expresiones del tipo
+10. Se pide una expresión regular que case con expresiones del tipo
 `identifier = number` y retorne con cada paréntesis el identificador
 y el número. Pruebe con `h     = 4`, `  temp = 5.6`, `  x23= -2.3e1`
 y `z += 3`
 
-4. Imagine you have written a story and used single quotation marks
+11. Imagine you have written a story and used single quotation marks
 throughout to mark pieces of dialogue. Now you want to replace all
 the dialogue quotes with double quotes, while keeping the single
 quotes used in contractions like *aren’t*.
