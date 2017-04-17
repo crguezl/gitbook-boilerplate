@@ -76,6 +76,88 @@ recursivo.
   HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node97.html#SECTION008613080000000000000">Descarga de los Módulos Necesarios</A>
 </UL></UL>
 
+#### Enlaces a los Apuntes de Procesadores de la Antigua Ingeniería Informática
+
+<H1><A NAME="SECTION00860000000000000000"></A>
+<A NAME="section:predictivo"></A>
+<BR>
+Análisis Sintáctico Predictivo Recursivo
+</H1>
+La siguiente fase en la construcción del analizador es la fase de 
+análisis sintáctico. Esta toma como entrada el flujo de terminales
+y construye como salida el árbol de análisis sintáctico abstracto.
+
+<P>
+El árbol de análisis sintáctico abstracto es una representación  compactada del árbol 
+de análisis sintáctico concreto que contiene la misma información que éste.
+
+<P>
+Existen diferentes métodos de análisis sintáctico. La mayoría caen en una de dos categorías:
+ascendentes y descendentes. Los ascendentes construyen el árbol desde las hojas
+hacia la raíz. Los descendentes lo hacen en modo inverso. El que describiremos
+aqui es uno de los mas sencillos: se denomina método de análisis predictivo descendente 
+recursivo.
+
+<P>
+<BR> <HR>
+<!--Table of Child-Links-->
+<A NAME="CHILD_LINKS"><STRONG>Subsecciones</STRONG></A>
+
+<UL CLASS="ChildLinks">
+<LI><A NAME="tex2html2382"
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node85.html">Introducción</A>
+<LI><A NAME="tex2html2383"
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node86.html">Ejercicio: Recorrido del árbol en un ADPR</A>
+<LI><A NAME="tex2html2384"
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node87.html">Ejercicio: Factores Comunes</A>
+<LI><A NAME="tex2html2385"
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node88.html">Derivaciones a vacío</A>
+<LI><A NAME="tex2html2386"
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node89.html">Construcción de los conjuntos de Primeros y Siguientes</A>
+<LI><A NAME="tex2html2387"
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node90.html">Ejercicio: Construir los <SPAN CLASS="MATH"><IMG
+ WIDTH="65" HEIGHT="15" ALIGN="BOTTOM" BORDER="0"
+ SRC="http://nereida.deioc.ull.es/~pl/perlexamples/img3.png"
+ ALT="$ FIRST$"></SPAN>
+</A>
+<LI><A NAME="tex2html2388"
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node91.html">Ejercicio: Calcular los <SPAN CLASS="MATH"><IMG
+ WIDTH="89" HEIGHT="15" ALIGN="BOTTOM" BORDER="0"
+ SRC="http://nereida.deioc.ull.es/~pl/perlexamples/img4.png"
+ ALT="$ FOLLOW$"></SPAN>
+</A>
+<LI><A NAME="tex2html2389"
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node92.html">Práctica: Construcción de los FIRST y los FOLLOW</A>
+<LI><A NAME="tex2html2390"
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node93.html">Gramáticas LL(1)</A>
+<LI><A NAME="tex2html2391"
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node94.html">Ejercicio: Caracterización de una gramática LL(1) </A>
+<LI><A NAME="tex2html2392"
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node95.html">Ejercicio: Ambiguedad y LL(1)</A>
+<LI><A NAME="tex2html2393"
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node96.html">Práctica: Un analizador APDR</A>
+<LI><A NAME="tex2html2394"
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node97.html">Práctica: Generación Automática de Analizadores Predictivos</A>
+<UL>
+<LI><A NAME="tex2html2395"
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node97.html#SECTION008613010000000000000">Objetivo</A>
+<LI><A NAME="tex2html2396"
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node97.html#SECTION008613020000000000000">El Módulo <TT>Grammar</TT></A>
+<LI><A NAME="tex2html2397"
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node97.html#SECTION008613030000000000000">Descripción del objetivo: La función <TT>gap</TT></A>
+<LI><A NAME="tex2html2398"
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node97.html#SECTION008613040000000000000">Descripción del objetivo: La función <TT>parser</TT></A>
+<LI><A NAME="tex2html2399"
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node97.html#SECTION008613050000000000000">Cálculo de los First y los Follow con <TT>PL::FirstFollow</TT></A>
+<LI><A NAME="tex2html2400"
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node97.html#SECTION008613060000000000000">Uso de Templates</A>
+<LI><A NAME="tex2html2401"
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node97.html#SECTION008613070000000000000">Concatenación y Documentos <TT>HERE</TT></A>
+<LI><A NAME="tex2html2402"
+  HREF="http://nereida.deioc.ull.es/~pl/perlexamples/node97.html#SECTION008613080000000000000">Descarga de los Módulos Necesarios</A>
+</UL></UL>
+<!--End of Table of Child-Links-->
+
 #### Repo con la solución de la *Práctica: Analizador Descendente Predictivo Recursivo*
 
 Recuerde que una gramática $$G$$ es una cuaterna $$G =(\Sigma,V,P,S)$$.

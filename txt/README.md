@@ -70,10 +70,14 @@
 * [Herramientas y Lenguajes Informáticos. 2003. Centro Superior de Informática](http://nereida.deioc.ull.es/~pcgull/hli03/)
 * [Herramientas y Lenguajes Informáticos. 2004. Centro Superior de Informática](http://nereida.deioc.ull.es/~pcgull/hli04/)
 
-#### IBD
+#### Algunos UAI 
 * [IBD02. Centro Superior de Informática](http://nereida.deioc.ull.es/~pcgull/ibd02/)
+* [UAI 2002](http://nereida.deioc.ull.es/~pcgull/uai02/)
+* [UAI 2003](http://nereida.deioc.ull.es/~pcgull/uaipmp03/)
+* [ParaVer](http://nereida.deioc.ull.es/~pcgull/paraver04/)
 
-#### Cursos
+#### Algunos Cursos
+
 * [HTML, Perl, Apache y JavaScript. Una introducción. Coromoto León Hernández y Casiano Rodríguez León 14/12/2000](http://nereida.deioc.ull.es/~pcgull/cursos/perl/contexto.html)
 
 ### Open Course Ware de la ULL
