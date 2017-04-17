@@ -20,7 +20,7 @@
         "js-console",
         "codetabs",
         "es6tabs-stage-0",
-        "-jazer"
+        "jazer"
     ],
     "pluginsConfig": {
         "toc": {
