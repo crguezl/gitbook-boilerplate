@@ -9,7 +9,7 @@
 
 * [Práctica: OOP](practicaoop.md)
 * [Práctica: Eliminando Switch Smell](practicanoswitchsmell.md)
-* [Práctica: Creación de Paquetes NPM y Strategy Pattern](practicanomodulestrategypattern.md)
+* [Práctica: Creación de Paquetes NPM y Strategy Pattern](practicamodulestrategypattern.md)
 
 
 ####[Prácticas de Programación Web](practicasdeprogramacionweb.md)

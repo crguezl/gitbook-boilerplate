@@ -74,7 +74,7 @@
     * [Inversion of Control Pattern](apuntes/patterns/inversionofcontrolpattern.md)
   * [Práctica: OOP](practicas/practicaoop.md)
   * [Práctica: Eliminando Switch Smell](practicas/practicanoswitchsmell.md)
-  * [Práctica: Creación de Paquetes NPM y Strategy Pattern](practicas/practicanomodulestrategypattern.md)
+  * [Práctica: Creación de Paquetes NPM y Strategy Pattern](practicas/practicamodulestrategypattern.md)
 
 #### Repasos Buenas Prácticas
 
