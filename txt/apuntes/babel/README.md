@@ -1,4 +1,8 @@
-# Exploring Ecma6
+# Learning ECMA6
+
+* [ECMAScript 6 Learning: List of resources to learn ECMAScript 6!](https://github.com/ericdouglas/ES6-Learning)
+
+# Libro: Exploring Ecma6
 
 * [Libro: Exploring Ecma 6](http://exploringjs.com/es6/)
 

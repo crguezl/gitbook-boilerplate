@@ -180,6 +180,7 @@
 
 ### ECMA 6
 
+* [Libro: Exploring Ecma 6](http://exploringjs.com/es6/)
 * [Babel ES6, ES7 y ES8](apuntes/babel/README.md)
   - [Proceso de Introducción de Nuevas Características](apuntes/babel/proceso-de-introduccion-de-nuevas-caracteristicas.md)
   - [Babel](apuntes/babel/babel.md)
