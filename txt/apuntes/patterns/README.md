@@ -79,4 +79,3 @@ Design patterns may be viewed as a structured approach to computer programming i
   <li><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#references">References</a></li>
 </ul>
 </div>
-</p>
