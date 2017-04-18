@@ -14,7 +14,7 @@ el código que se desarrolló en la [práctica evaluar strategy pattern](practic
 * Escriba documentación para cada uno de los módulos (Véase [documentation.js](http://documentation.js.org/), [jsdoc](https://www.npmjs.com/package/jsdoc), [docco](http://jashkenas.github.io/docco/))
 * Añada pruebas para cada uno de los módulos
 * Integre usando Travis
-* En esta tarea deberá trabajar con varios repos, uno 
+* En esta tarea deberá trabajar con varios repos, uno para el módulo principal `ull-shape` y uno para cada shape específica: cree los diferentes repos dentro de la organización `ULL-ESIT-DSI-1617` siguiendo el patrón `creacion-de-paquetes-npm-team` para el módulo principal y `creacion-de-paquetes-npm-team-triangle` para el del triángulo, etc.
 
 ### Referencias
 
