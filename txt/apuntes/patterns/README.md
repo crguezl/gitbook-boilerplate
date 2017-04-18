@@ -73,7 +73,6 @@ Design patterns may be viewed as a structured approach to computer programming i
     <li class="subitem"><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#builderpatternjquery">Builder Pattern</a></li>
   </ul>
 </li>
-
   <li><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#jquerypluginpatterns">jQuery Plugin Design Patterns</a></li>
   <li><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailnamespacing">JavaScript Namespacing Patterns</a></li>
   <li><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#conclusions">Conclusions</a></li>
