@@ -116,6 +116,10 @@ Esta es la gramática para nuestra práctica:
 * [Repo parser-pdr-example](https://github.com/ULL-ESIT-PL-1617/parser-pdr-example)
   - [despliegue en Heroku](https://pdr-example.herokuapp.com/) (Puede estar caído o eliminado)
 
+### Ejercicios
+
+* [ Ejercicios Universidad de Huelva](http://www.uhu.es/francisco.moreno/gii_pl/docs/Tema_3_solucion.pdf)
+
 ### Tutoriales
 
 * [Wikipedia: Recursive descent parser](https://en.wikipedia.org/wiki/Recursive_descent_parser)
