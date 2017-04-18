@@ -9,7 +9,7 @@ el código que se desarrolló en la [práctica evaluar strategy pattern](practic
 * Se construirá un módulo npm `ull-shape-triangle` que contenga la clases `Triangle`
 * En general, para cada tipo particular de forma geométrica `x` se construirá un módulo npm `ull-shape-x` que contenga la clase `X`
 * La implantación del módulo principal `ull-shape` se hace primero y de forma colaborativa. 
-  - Cada miembro del equipo implantará el solo al menos uno de los plugin `ull-shape-x`: si hay tres miembros cada uno implantará al menos una forma distinta. 
+  - Cada miembro del equipo implantará el solo al menos uno de los plugin `ull-shape-x`: si hay tres miembros cada uno implantará al menos una forma distinta, etc. 
   - La implantación de los plugin `ull-shape-x` no debería conllevar ,a modificación del código del módulo principal `ull-shape`(principio Open/Close)
 * Como deberán publicar en el site de [npm](https://www.npmjs.com) los módulos asegúrense de ponerle a sus paquetes un nombre único que no coincida con el de los otros alumnos, por ejemplo `ull-shape-team-name` y `ull-shape-x-team-name`
 * Añada a los otros miembros del equipo como `contributors`. Véase [las seccion people fields de package.json](https://docs.npmjs.com/files/package.json#people-fields-author-contributors)
