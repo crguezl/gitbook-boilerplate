@@ -3,13 +3,13 @@
 * [Práctica: Tareas Iniciales](practicatareasiniciales.md)
 * [Práctica: Primeros Pasos en NodeJS](practicatareasiniciales2.md)
 * [Práctica: Tareas Iniciales Avanzadas](practicagitbook.md)
-* [Práctica: Creación de un Paquete NPM](practicanm.md)
 
 
 ### Programación: Buenas Prácticas
 
 * [Práctica: OOP](practicaoop.md)
 * [Práctica: Eliminando Switch Smell](practicanoswitchsmell.md)
+* [Práctica: Creación de Paquetes NPM y Strategy Pattern](practicanomodulestrategypattern.md)
 
 
 ####[Prácticas de Programación Web](practicasdeprogramacionweb.md)
@@ -19,6 +19,7 @@
 * [Práctica: Estudiar las Cookies y las Sessions en ExpressJS](practicalearningcookies.md)
 * [Práctica: Autenticación usando sessions](practicasessions.md)
 * [Práctica: Despliegues en iaas y heroku](practicaiaas.md)
+* [Práctica: Creación de un Paquete NPM](practicanm.md)
 * [Práctica: Añadiendo plugins para los despliegues. iaas](practicaplugin.md)
 * [Práctica: `gitbook-start`. Plugin para heroku](practicaplugin2.md)
 * [Práctica: GitHub API, Heroku API](practicagithubapi.md)
