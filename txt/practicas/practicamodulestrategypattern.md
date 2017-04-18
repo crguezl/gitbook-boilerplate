@@ -5,11 +5,11 @@
 Uno de los objetivos de esta práctica  es aprender a crear packages NodeJS y publicarlos en [npm](https://www.npmjs.com). El paquete se construye a partir de
 el código que se desarrolló en la [práctica evaluar strategy pattern](practicaevaluastrategypattern.md).
 
-* Se trata de construir un primer módulo `ull-shape` con el código de la clase `Shape`
-* Se construirá un módulo `ull-shape-triangle` que contenga la clases `Triangle`
-* En general, para cada tipo particular de forma geométrica `x` se construirá un módulo `ull-shape-x` que contenga la clase `X`
-* Cada miembro del equipo implantará solo al menos uno de los plugin `ull-shape-x`
-* Como deberán darse de alta en el site de [npm](https://www.npmjs.com) asegúrense de ponerle a su paquete un nombre único que no coincida con el de los otros alumnos, por ejemplo `ull-shape-team-name` y `ull-shape-x-team-name`
+* Se trata de construir un primer módulo npm `ull-shape` con el código de la clase `Shape`
+* Se construirá un módulo npm `ull-shape-triangle` que contenga la clases `Triangle`
+* En general, para cada tipo particular de forma geométrica `x` se construirá un módulo npm `ull-shape-x` que contenga la clase `X`
+* Cada miembro del equipo implantará el solo al menos uno de los plugin `ull-shape-x`: si hay tres miembros cada uno implantará una forma distinta
+* Como deberán publicar en el site de [npm](https://www.npmjs.com) los módulos asegúrense de ponerle a sus paquetes un nombre único que no coincida con el de los otros alumnos, por ejemplo `ull-shape-team-name` y `ull-shape-x-team-name`
 * Añada a los otros miembros del equipo como `contributors`. Véase [las seccion people fields de package.json](https://docs.npmjs.com/files/package.json#people-fields-author-contributors)
 * Escriba documentación para cada uno de los módulos (Véase [documentation.js](http://documentation.js.org/), [jsdoc](https://www.npmjs.com/package/jsdoc), [docco](http://jashkenas.github.io/docco/))
 * Añada pruebas para cada uno de los módulos
