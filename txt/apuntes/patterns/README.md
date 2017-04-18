@@ -61,24 +61,23 @@ Design patterns may be viewed as a structured approach to computer programming i
             <li class="subitem"><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailharmony">ES Harmony</a>
         </ul>
         </li>
+  <li><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#designpatternsjquery">Design Patterns In jQuery</a>
+  <ul>
+    <li class="subitem"><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#compositepatternjquery">Composite Pattern</a></li>
+    <li class="subitem"><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#wrapperpatternjquery">Adapter Pattern</a></li>
+    <li class="subitem"><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#facadepatternjquery">Facade Pattern</a></li>
+    <li class="subitem"><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjquery">Observer Pattern</a></li>
+    <li class="subitem"><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#iteratorpatternjquery">Iterator Pattern</a></li>
+    <li class="subitem"><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#lazyinitialisationjquery">Lazy Initialization Pattern</a></li>
+    <li class="subitem"><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#proxypatternjquery">Proxy Pattern</a></li>
+    <li class="subitem"><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#builderpatternjquery">Builder Pattern</a></li>
+  </ul>
+</li>
 
-        <li><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#designpatternsjquery">Design Patterns In jQuery</a>
-        <ul>
-          <li class="subitem"><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#compositepatternjquery">Composite Pattern</a></li>
-          <li class="subitem"><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#wrapperpatternjquery">Adapter Pattern</a></li>
-          <li class="subitem"><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#facadepatternjquery">Facade Pattern</a></li>
-          <li class="subitem"><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjquery">Observer Pattern</a></li>
-          <li class="subitem"><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#iteratorpatternjquery">Iterator Pattern</a></li>
-          <li class="subitem"><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#lazyinitialisationjquery">Lazy Initialization Pattern</a></li>
-          <li class="subitem"><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#proxypatternjquery">Proxy Pattern</a></li>
-          <li class="subitem"><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#builderpatternjquery">Builder Pattern</a></li>
-        </ul>
-      </li>
-
-        <li><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#jquerypluginpatterns">jQuery Plugin Design Patterns</a></li>
-        <li><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailnamespacing">JavaScript Namespacing Patterns</a></li>
-        <li><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#conclusions">Conclusions</a></li>
-        <li><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#references">References</a></li>
-      </ul>
+  <li><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#jquerypluginpatterns">jQuery Plugin Design Patterns</a></li>
+  <li><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#detailnamespacing">JavaScript Namespacing Patterns</a></li>
+  <li><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#conclusions">Conclusions</a></li>
+  <li><a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#references">References</a></li>
+</ul>
 </div>
 </p>
