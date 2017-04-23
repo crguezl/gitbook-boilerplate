@@ -24,7 +24,7 @@
 * [npm documentation: Creating Node.js modules](https://docs.npmjs.com/getting-started/creating-node-modules)
 * [NODE.JS module patterns
 using simple examples](https://darrenderidder.github.io/talks/ModulePatterns)
-  - Trasparencias. Muestra muchos ejemplos/patrones de exportación-importación
+  - Trasparencias. Muestra ejemplos/patrones de exportación-importación
 
 ### Package.json
 

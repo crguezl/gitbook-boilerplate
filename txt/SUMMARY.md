@@ -49,7 +49,7 @@
 * [Repasos: Preguntas de gulp](repasos/gulp.md) 
 
 ### NodeJS
-* [Creación de Paquetes y Módulos en NodeJS](apuntes/nodejspackages.md)
+* [Creación de Paquetes y Módulos en NodeJS](apuntes/npm/nodejspackages.md)
 * [Sistema de Archivos](apuntes/fs.md)
 * [Procesamiento de la línea de comandos](apuntes/argumentos/README.md)
 * [Procesos](apuntes/processes/README.md)  
