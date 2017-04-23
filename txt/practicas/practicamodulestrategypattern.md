@@ -12,7 +12,8 @@ el código que se desarrolló en la [práctica evaluar strategy pattern](practic
   - Cada miembro del equipo implantará el solo al menos uno de los plugin `ull-shape-x`: si hay tres miembros cada uno implantará al menos una forma distinta, etc. 
   - La implantación de los plugin `ull-shape-x` no debería conllevar ,a modificación del código del módulo principal `ull-shape`(principio Open/Close)
 * Como deberán publicar en el site de [npm](https://www.npmjs.com) los módulos creen una organización `ull-team-name` pública y pongan sus módulos en ese ámbito
-* Añada a los otros miembros del equipo como `contributors`. Véase [las seccion people fields de package.json](https://docs.npmjs.com/files/package.json#people-fields-author-contributors)
+  - Añadan a todos los miembros del equipo a la organización
+  <!--* Añada a los otros miembros del equipo como `contributors`. Véase [las seccion people fields de package.json](https://docs.npmjs.com/files/package.json#people-fields-author-contributors) -->
 * Escriba documentación para cada uno de los módulos (Véase [documentation.js](http://documentation.js.org/), [jsdoc](https://www.npmjs.com/package/jsdoc), [docco](http://jashkenas.github.io/docco/))
 * Añada pruebas para cada uno de los módulos
 * Integre usando Travis
