@@ -66,7 +66,7 @@ npm publish --access=public
 
 ### Creación de Paquetes y Módulos en NodeJS
 
-* [Creating and publishing a node.js module](https://quickleft.com/blog/creating-and-publishing-a-node-js-module/)
+* [Creating and Publishing a Node.js Module](https://quickleft.com/blog/creating-and-publishing-a-node-js-module/) por Brent Ertz
   -  For example, you can install packages directly from Github, and even specify a tag, sha, or branch if you want.
 
           npm install git://github.com/brentertz/scapegoat.git
@@ -79,15 +79,14 @@ npm publish --access=public
           + @ull-esit-dsi-1617/scapegoat@1.0.2
 
 * [Publishing npm packages tutorial](https://docs.npmjs.com/getting-started/publishing-npm-packages)
+* [Your first Node.js package  por Elijah Insua](https://nodesource.com/blog/your-first-nodejs-package/)
+* [npm documentation: Creating Node.js modules](https://docs.npmjs.com/getting-started/creating-node-modules)
 * [Creating NodeJS modules](https://youtu.be/3I78ELjTzlQ)
   - {%youtube%}https://youtu.be/3I78ELjTzlQ{%endyoutube%}
 * [Publishing npm Packages](https://youtu.be/BkotrAFtBM0)
   - {% youtube  %}https://youtu.be/BkotrAFtBM0{% endyoutube %}
 * [Node js Tutorial: How to create NPM package?](https://youtu.be/sELoj6e1ffM)
   - {% youtube %}https://youtu.be/sELoj6e1ffM{% endyoutube %}
-* [Your first Node.js package  por Elijah Insua](https://nodesource.com/blog/your-first-nodejs-package/)
-* [Creating and Publishing a Node.js Module](https://quickleft.com/blog/creating-and-publishing-a-node-js-module/) por Brent Ertz
-* [npm documentation: Creating Node.js modules](https://docs.npmjs.com/getting-started/creating-node-modules)
 * [Interactive release tool for Git repositories. Options: run build command first, release to distribution repository (or branch), create GitHub release, publish to npm](https://github.com/webpro/release-it)
 
 ### npm Organizations /npm Organizaciones
