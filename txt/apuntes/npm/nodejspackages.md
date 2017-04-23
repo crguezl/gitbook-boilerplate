@@ -69,8 +69,8 @@ npm publish --access=public
 * [Creating and publishing a node.js module](https://quickleft.com/blog/creating-and-publishing-a-node-js-module/)
   -  For example, you can install packages directly from Github, and even specify a tag, sha, or branch if you want.
 
-        npm install git://github.com/brentertz/scapegoat.git
-        npm install git://github.com/brentertz/scapegoat.git#0.1.0
+          npm install git://github.com/brentertz/scapegoat.git
+          npm install git://github.com/brentertz/scapegoat.git#0.1.0
 
     must be https
   - Publicación con ámbito en una organización:
@@ -90,8 +90,22 @@ npm publish --access=public
 * [npm documentation: Creating Node.js modules](https://docs.npmjs.com/getting-started/creating-node-modules)
 * [Interactive release tool for Git repositories. Options: run build command first, release to distribution repository (or branch), create GitHub release, publish to npm](https://github.com/webpro/release-it)
 
+### npm Organizations /npm Organizaciones
 
-## Creación de Paquetes en el Cliente
+Members of an Organization are immediately added to a Developers team that automatically has Read/Write access to all packages published under an Organization scope
+
+* [Publishing an Org Scoped Package](https://www.npmjs.com/docs/orgs/publishing-an-org-scoped-package.html)
+  - To create a new scoped package for your Organization scope, create a directory with the name of the package you would like to create. Navigate into that directory and use this command:
+
+                    npm init --scope=<org_scope>
+  - By default all scoped packages are published privately. To publish a scoped package publicly, pass the access flag with the value public:
+
+                    npm publish --access public
+
+* [The developers team](https://www.npmjs.com/docs/orgs/the-developers-team.html)
+* [npm-team: Manage organization teams and team memberships](https://docs.npmjs.com/cli/team)
+
+### Creación de Paquetes en el Cliente
 
 * [bower](https://bower.io/)
 * [webpack](http://webpack.github.io/docs/motivation.html)
