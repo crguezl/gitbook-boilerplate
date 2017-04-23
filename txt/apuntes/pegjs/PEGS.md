@@ -10,16 +10,6 @@
 * [Eliminación de la Recursividad por la Izquierda en PEGs](http://crguezl.github.io/pl-html/node37.html#SECTION04472000000000000000)
 * [Dangling else: Asociando un else con su if mas cercano](http://crguezl.github.io/pl-html/node38.html#SECTION04482000000000000000)
 
-#### PEG.js Example
-
-`altjs.coffee` is the code for the "AltJS language in 5 minutes" section
-presented in the second half of the talk.
-
-#### Extra Special Bonus!
-
-`idgrep.coffee` (and `idgrep.js`) is another example of using Esprima
-to do static analysis on JavaScript code.
-
 
 ###  Repositorios
 
@@ -77,6 +67,17 @@ console.log("PARSING 'b'");
 r = parser.parse("b");
 console.log(r); 
 ```
+
+#### Patrick Dubroy: Parsing, Compiling, and Static Metaprogramming
+
+* [Patrick Dubroy: Parsing, Compiling, and Static Metaprogramming](http://2013.jsconf.eu/speakers/patrick-dubroy-parsing-compiling-and-static-metaprogramming.html) Video
+* [Patrick Dubroy: Parsing, Compiling, and Static Metaprogramming](https://speakerdeck.com/pdubroy/parsing-compiling-and-static-metaprogramming) Slides
+* `altjs.coffee` is the code for the "AltJS language in 5 minutes" section
+presented in the second half of the talk.
+  * [altjs.coffee](https://github.com/pdubroy/jsconfeu-talk/blob/master/altjs.coffee)
+* `idgrep.coffee` (and `idgrep.js`) is another example of using Esprima
+to do static analysis on JavaScript code.
+  * [idgrep.js](https://github.com/pdubroy/jsconfeu-talk/blob/master/idgrep.js)
 
 ### Borrador
 
