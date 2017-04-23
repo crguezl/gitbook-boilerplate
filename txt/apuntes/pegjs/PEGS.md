@@ -3,6 +3,7 @@
 
 ### Apuntes de PEG.js
 
+* [Documentación del Módulo PEG.js](https://pegjs.org/documentation)
 * [Introducción a los PEGs](http://crguezl.github.io/pl-html/node31.html)
 * [PEGJS](http://crguezl.github.io/pl-html/node32.html)
 * [La Calculadora Simple](http://crguezl.github.io/pl-html/node33.html)
