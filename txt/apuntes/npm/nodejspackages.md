@@ -58,6 +58,7 @@ npm publish --access=public
 ```
 
 * [Working with scoped packages](https://docs.npmjs.com/getting-started/scoped-packages)
+* [npm-scope manual: Scoped packages](https://docs.npmjs.com/misc/scope#publishing-public-scoped-packages-to-the-public-npm-registry)
 
 ### Semantic versioning and npm
 
@@ -66,6 +67,13 @@ npm publish --access=public
 ### Creación de Paquetes y Módulos en NodeJS
 
 * [Creating and publishing a node.js module](https://quickleft.com/blog/creating-and-publishing-a-node-js-module/)
+  -  For example, you can install packages directly from Github, and even specify a tag, sha, or branch if you want.
+
+        npm install git://github.com/brentertz/scapegoat.git
+        npm install git://github.com/brentertz/scapegoat.git#0.1.0
+
+    must be https
+
 * [Publishing npm packages tutorial](https://docs.npmjs.com/getting-started/publishing-npm-packages)
 * [Creating NodeJS modules](https://youtu.be/3I78ELjTzlQ)
   - {%youtube%}https://youtu.be/3I78ELjTzlQ{%endyoutube%}
