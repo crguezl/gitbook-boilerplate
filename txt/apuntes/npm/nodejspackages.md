@@ -73,6 +73,10 @@ npm publish --access=public
         npm install git://github.com/brentertz/scapegoat.git#0.1.0
 
     must be https
+  - Publicación con ámbito en una organización:
+
+          [/tmp/scapegoat(master)]$ npm publish --access public
+          + @ull-esit-dsi-1617/scapegoat@1.0.2
 
 * [Publishing npm packages tutorial](https://docs.npmjs.com/getting-started/publishing-npm-packages)
 * [Creating NodeJS modules](https://youtu.be/3I78ELjTzlQ)
