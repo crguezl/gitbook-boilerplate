@@ -1,5 +1,7 @@
-## Todo sobre el comando npm
+## El comando npm
 
+* [A Beginner’s Guide to npm — the Node Package Manager](https://www.sitepoint.com/beginners-guide-node-package-manager/)
+* [Working with scoped packages](https://docs.npmjs.com/getting-started/scoped-packages)
 * [npm](npm.html)
 
 ## Creación de Paquetes y Módulos en NodeJS

@@ -26,7 +26,7 @@ En esta tarea deberá trabajar con varios repos, uno para el módulo principal `
 5. La implantación del módulo principal `ull-shape` se hace primero 
   - La implementación de los plugin `ull-shape-x` se hace después
   - La implantación de los plugin `ull-shape-x` no debería conllevar, la modificación del código del módulo principal `ull-shape`(principio Open/Close)
-6. Como deberán publicar en el site de [npm](https://www.npmjs.com) los módulos asegúrense de ponerle a sus paquetes un nombre único que no coincida con el de los otros alumnos, por ejemplo `ull-shape-team-name` y `ull-shape-x-team-name`
+6.  Como deberán publicar en el site de [npm](https://www.npmjs.com) los módulos, usen [scoped packages](https://docs.npmjs.com/getting-started/scoped-packages)
 7. Escriba documentación para cada uno de los módulos (Véase [documentation.js](http://documentation.js.org/), [jsdoc](https://www.npmjs.com/package/jsdoc), [docco](http://jashkenas.github.io/docco/))
 8. Añada pruebas para cada uno de los módulos
 9. Integre usando Travis
@@ -34,6 +34,7 @@ En esta tarea deberá trabajar con varios repos, uno para el módulo principal `
 ### Referencias
 
 * Véase la sección
+* [scoped packages](https://docs.npmjs.com/getting-started/scoped-packages)
 [Creación de Paquetes y Módulos en NodeJS](../apuntes/nodejspackages.md)
 * Documentación:  [documentation.js](http://documentation.js.org/), [jsdoc](https://www.npmjs.com/package/jsdoc), [docco](http://jashkenas.github.io/docco/))
 * Véase la sección [Gulp](../apuntes/gulp/README.md)
