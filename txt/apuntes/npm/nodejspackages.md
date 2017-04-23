@@ -110,6 +110,7 @@ Members of an Organization are immediately added to a Developers team that autom
     - Any member added to the Organization is also added to this team automatically.
     - If an Owner adds a new Member to an Organization and does not want that Member to be on the Developers team, an Owner can remove them. ([Learn more about managing teams](https://www.npmjs.com/docs/orgs/managing-teams.html)).
 * [npm-team: Manage organization teams and team memberships](https://docs.npmjs.com/cli/team)
+* [npm-access: Set access level on published packages](https://docs.npmjs.com/cli/access)
 
 ### Creación de Paquetes en el Cliente
 
