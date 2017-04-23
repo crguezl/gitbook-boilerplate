@@ -78,14 +78,6 @@ npm publish --access=public
           [/tmp/scapegoat(master)]$ npm publish --access public
           + @ull-esit-dsi-1617/scapegoat@1.0.2
 
-### NPM: Otros tutoriales
-
-* [Your first Node.js package  por Elijah Insua](https://nodesource.com/blog/your-first-nodejs-package/)
-* [Creating NodeJS modules](https://youtu.be/3I78ELjTzlQ)
-* [Publishing npm Packages](https://youtu.be/BkotrAFtBM0)
-* [Node js Tutorial: How to create NPM package?](https://youtu.be/sELoj6e1ffM)
-* [Interactive release tool for Git repositories. Options: run build command first, release to distribution repository (or branch), create GitHub release, publish to npm](https://github.com/webpro/release-it)
-
 ### NPM Documentation: Getting Started 
 
 <div class="pages">
@@ -109,6 +101,21 @@ npm publish --access=public
 * [Publishing npm packages tutorial](https://docs.npmjs.com/getting-started/publishing-npm-packages)
 * [npm documentation: Creating Node.js modules](https://docs.npmjs.com/getting-started/creating-node-modules)
 -->
+
+### NPM: Otros tutoriales
+
+* [Your first Node.js package  por Elijah Insua](https://nodesource.com/blog/your-first-nodejs-package/)
+
+### NPM: Video Tutoriales
+
+* [Creating NodeJS modules](https://youtu.be/3I78ELjTzlQ)
+* [Publishing npm Packages](https://youtu.be/BkotrAFtBM0)
+* [Node js Tutorial: How to create NPM package?](https://youtu.be/sELoj6e1ffM)
+
+### NPM: Herramientas de ayuda
+
+* [Interactive release tool for Git repositories. Options: run build command first, release to distribution repository (or branch), create GitHub release, publish to npm](https://github.com/webpro/release-it)
+
 
 ### npm Organizations /npm Organizaciones
 
