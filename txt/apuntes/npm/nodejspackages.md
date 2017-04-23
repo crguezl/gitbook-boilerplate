@@ -78,16 +78,37 @@ npm publish --access=public
           [/tmp/scapegoat(master)]$ npm publish --access public
           + @ull-esit-dsi-1617/scapegoat@1.0.2
 
-* [Publishing npm packages tutorial](https://docs.npmjs.com/getting-started/publishing-npm-packages)
+### NPM: Otros tutoriales
+
 * [Your first Node.js package  por Elijah Insua](https://nodesource.com/blog/your-first-nodejs-package/)
-* [npm documentation: Creating Node.js modules](https://docs.npmjs.com/getting-started/creating-node-modules)
 * [Creating NodeJS modules](https://youtu.be/3I78ELjTzlQ)
-  - {%youtube%}https://youtu.be/3I78ELjTzlQ{%endyoutube%}
 * [Publishing npm Packages](https://youtu.be/BkotrAFtBM0)
-  - {% youtube  %}https://youtu.be/BkotrAFtBM0{% endyoutube %}
 * [Node js Tutorial: How to create NPM package?](https://youtu.be/sELoj6e1ffM)
-  - {% youtube %}https://youtu.be/sELoj6e1ffM{% endyoutube %}
 * [Interactive release tool for Git repositories. Options: run build command first, release to distribution repository (or branch), create GitHub release, publish to npm](https://github.com/webpro/release-it)
+
+### NPM Documentation: Getting Started 
+
+<div class="pages">
+            <a href="https://docs.npmjs.com/getting-started/getting-started/what-is-npm" >01 - What is npm?</a>
+            <a href="https://docs.npmjs.com/getting-started/getting-started/installing-node" >02 - Installing Node.js and updating npm</a>
+            <a href="https://docs.npmjs.com/getting-started/getting-started/fixing-npm-permissions" >03 - Fixing npm permissions</a>
+            <a href="https://docs.npmjs.com/getting-started/getting-started/installing-npm-packages-locally" >04 - Installing npm packages locally</a>
+            <a href="https://docs.npmjs.com/getting-started/getting-started/using-a-package.json" >05 - Using a &#x60;package.json&#x60;</a>
+            <a href="https://docs.npmjs.com/getting-started/getting-started/updating-local-packages" >06 - Updating local packages</a>
+            <a href="https://docs.npmjs.com/getting-started/getting-started/uninstalling-local-packages" >07 - Uninstalling local packages</a>
+            <a href="https://docs.npmjs.com/getting-started/getting-started/installing-npm-packages-globally" >08 - Installing npm packages globally</a>
+            <a href="https://docs.npmjs.com/getting-started/getting-started/updating-global-packages" >09 - Updating global packages</a>
+            <a href="https://docs.npmjs.com/getting-started/getting-started/uninstalling-global-packages" >10 - Uninstalling global packages</a>
+            <a href="https://docs.npmjs.com/getting-started/getting-started/creating-node-modules" >11 - Creating Node.js modules</a>
+            <a href="https://docs.npmjs.com/getting-started/getting-started/publishing-npm-packages" class="active">12 - Publishing npm packages</a>
+            <a href="https://docs.npmjs.com/getting-started/getting-started/semantic-versioning" >13 - Semantic versioning and npm</a>
+            <a href="https://docs.npmjs.com/getting-started/getting-started/scoped-packages" >14 - Working with scoped packages</a>
+            <a href="https://docs.npmjs.com/getting-started/getting-started/using-tags" >15 - Using tags</a>
+        </div>
+<!--
+* [Publishing npm packages tutorial](https://docs.npmjs.com/getting-started/publishing-npm-packages)
+* [npm documentation: Creating Node.js modules](https://docs.npmjs.com/getting-started/creating-node-modules)
+-->
 
 ### npm Organizations /npm Organizaciones
 
