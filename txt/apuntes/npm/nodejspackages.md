@@ -98,11 +98,17 @@ Members of an Organization are immediately added to a Developers team that autom
   - To create a new scoped package for your Organization scope, create a directory with the name of the package you would like to create. Navigate into that directory and use this command:
 
                     npm init --scope=<org_scope>
+
   - By default all scoped packages are published privately. To publish a scoped package publicly, pass the access flag with the value public:
 
                     npm publish --access public
 
 * [The developers team](https://www.npmjs.com/docs/orgs/the-developers-team.html)
+  - The Developers Team is a special Team that is automatically created when you create an Organization. 
+  - Members are automatically added to the Developers team:
+    - The user who created the Organization is added to this team automatically.
+    - Any member added to the Organization is also added to this team automatically.
+    - If an Owner adds a new Member to an Organization and does not want that Member to be on the Developers team, an Owner can remove them. ([Learn more about managing teams](https://www.npmjs.com/docs/orgs/managing-teams.html)).
 * [npm-team: Manage organization teams and team memberships](https://docs.npmjs.com/cli/team)
 
 ### Creación de Paquetes en el Cliente
