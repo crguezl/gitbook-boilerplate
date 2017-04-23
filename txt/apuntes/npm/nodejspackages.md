@@ -109,109 +109,45 @@ npm publish --access=public
                     Roles and Privileges
                 </a>
         </li>
-
         <li class="chapter " data-level="1.4" data-path="managing-members.html">
-
                 <a href="https://www.npmjs.com/docs/orgs/managing-members.html">
-
-
                     Managing Members
-
                 </a>
-
-
-
         </li>
-
         <li class="chapter " data-level="1.5" data-path="the-developers-team.html">
-
                 <a href="https://www.npmjs.com/docs/orgs/the-developers-team.html">
-
-
                     The Developers Team
-
                 </a>
-
-
-
         </li>
-
         <li class="chapter " data-level="1.6" data-path="managing-teams.html">
-
                 <a href="https://www.npmjs.com/docs/orgs/managing-teams.html">
-
-
                     Managing Teams
-
                 </a>
-
-
-
         </li>
-
         <li class="chapter " data-level="1.7" data-path="publishing-an-org-scoped-package.html">
-
                 <a href="https://www.npmjs.com/docs/orgs/publishing-an-org-scoped-package.html">
-
-
                     Publishing an Org Scoped Package
-
                 </a>
-
-
-
         </li>
-
         <li class="chapter " data-level="1.8" data-path="configuring-npm-for-your-org.html">
-
                 <a href="https://www.npmjs.com/docs/orgs/configuring-npm-for-your-org.html">
-
-
                     Configuring npm for your Org
-
                 </a>
-
-
-
         </li>
-
         <li class="chapter " data-level="1.9" data-path="managing-package-access.html">
-
                 <a href="https://www.npmjs.com/docs/orgs/managing-package-access.html">
-
-
                     Managing Package Access
-
                 </a>
-
-
-
         </li>
-
         <li class="chapter " data-level="1.10" data-path="migrating-a-user-account.html">
-
                 <a href="https://www.npmjs.com/docs/orgs/migrating-a-user-account.html">
-
-
                     Migrating a User Account
-
                 </a>
-
-
-
         </li>
-
         <li class="chapter " data-level="1.11" data-path="managing-billing.html">
-
                 <a href="https://www.npmjs.com/docs/orgs/managing-billing.html">
-
-
                     Managing Billing
-
                 </a>
-
-
-
         </li>
         <li class="chapter " data-level="1.12" data-path="upgrading-and-downgrading.html">
                 <a href="https://www.npmjs.com/docs/orgs/upgrading-and-downgrading.html">
