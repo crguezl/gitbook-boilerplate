@@ -216,6 +216,9 @@ Members of an Organization are immediately added to a Developers team that autom
 * [An introduction to JSDoc](http://2ality.com/2011/08/jsdoc-intro.html)
 * [Book *Speaking JavaScript: An In-Depth Guide for Programmers* by Dr. Axel Rauschmayer: Chapter 29. JSDoc: Generating API Documentation](http://speakingjs.com/es5/ch29.html)
 * [Getting Started with JSDoc 3](http://usejsdoc.org/about-getting-started.html)
+* Ejemplo:
+  - [https://github.com/ULL-ESIT-DSI-1617/scapegoat](https://github.com/ULL-ESIT-DSI-1617/scapegoat)
+  - [https://ull-esit-dsi-1617.github.io/scapegoat/](https://ull-esit-dsi-1617.github.io/scapegoat/)
 
 
 ### Creación de Paquetes en el Cliente
