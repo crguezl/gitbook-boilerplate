@@ -70,7 +70,7 @@
   * [Code Smells](apuntes/patterns/codesmell.md)
   * [Principios de Diseño](/apuntes/patterns/designprinciples.md)
   * [Patrones de Diseño](/apuntes/patterns/README.md)  
-    * [Immediately-Invoked Function Expression](/apuntes/patterns/iife.md)
+    * [Immediately Invoked Function Expression](/apuntes/patterns/iife.md)
     * [Strategy Pattern](/apuntes/patterns/strategypattern.md)
     * [Dependency Injection Pattern](/apuntes/patterns/dependencyinjectionpattern.md)
     * [Inversion of Control Pattern](apuntes/patterns/inversionofcontrolpattern.md)
