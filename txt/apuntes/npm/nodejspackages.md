@@ -214,6 +214,7 @@ Members of an Organization are immediately added to a Developers team that autom
 * [documentation.js: Getting Started](https://github.com/documentationjs/documentation/blob/master/docs/GETTING_STARTED.md)
 * [JSDoc: Wikipedia](https://en.wikipedia.org/wiki/JSDoc)
 * [An introduction to JSDoc](http://2ality.com/2011/08/jsdoc-intro.html)
+* [Book *Speaking JavaScript: An In-Depth Guide for Programmers* by Dr. Axel Rauschmayer: Chapter 29. JSDoc: Generating API Documentation](http://speakingjs.com/es5/ch29.html)
 * [Getting Started with JSDoc 3](http://usejsdoc.org/about-getting-started.html)
 
 
