@@ -81,26 +81,25 @@ npm publish --access=public
 ### NPM Documentation: Getting Started 
 
 <div class="pages">
-            <a href="https://docs.npmjs.com/getting-started/getting-started/what-is-npm" >01 - What is npm?</a>
-            <a href="https://docs.npmjs.com/getting-started/getting-started/installing-node" >02 - Installing Node.js and updating npm</a>
-            <a href="https://docs.npmjs.com/getting-started/getting-started/fixing-npm-permissions" >03 - Fixing npm permissions</a>
-            <a href="https://docs.npmjs.com/getting-started/getting-started/installing-npm-packages-locally" >04 - Installing npm packages locally</a>
-            <a href="https://docs.npmjs.com/getting-started/getting-started/using-a-package.json" >05 - Using a &#x60;package.json&#x60;</a>
-            <a href="https://docs.npmjs.com/getting-started/getting-started/updating-local-packages" >06 - Updating local packages</a>
-            <a href="https://docs.npmjs.com/getting-started/getting-started/uninstalling-local-packages" >07 - Uninstalling local packages</a>
-            <a href="https://docs.npmjs.com/getting-started/getting-started/installing-npm-packages-globally" >08 - Installing npm packages globally</a>
-            <a href="https://docs.npmjs.com/getting-started/getting-started/updating-global-packages" >09 - Updating global packages</a>
-            <a href="https://docs.npmjs.com/getting-started/getting-started/uninstalling-global-packages" >10 - Uninstalling global packages</a>
-            <a href="https://docs.npmjs.com/getting-started/getting-started/creating-node-modules" >11 - Creating Node.js modules</a>
-            <a href="https://docs.npmjs.com/getting-started/getting-started/publishing-npm-packages" class="active">12 - Publishing npm packages</a>
-            <a href="https://docs.npmjs.com/getting-started/getting-started/semantic-versioning" >13 - Semantic versioning and npm</a>
-            <a href="https://docs.npmjs.com/getting-started/getting-started/scoped-packages" >14 - Working with scoped packages</a>
-            <a href="https://docs.npmjs.com/getting-started/getting-started/using-tags" >15 - Using tags</a>
+<ol>
+<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/what-is-npm" > What is npm?</a> </li>
+<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/installing-node" > Installing Node.js and updating npm</a> </li>
+<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/fixing-npm-permissions" > Fixing npm permissions</a> </li>
+<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/installing-npm-packages-locally" > Installing npm packages locally</a> </li>
+<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/using-a-package.json" > Using a &#x60;package.json&#x60;</a> </li>
+<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/updating-local-packages" > Updating local packages</a> </li>
+<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/uninstalling-local-packages" > Uninstalling local packages</a> </li>
+<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/installing-npm-packages-globally" > Installing npm packages globally</a> </li>
+<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/updating-global-packages" > Updating global packages</a> </li>
+            <a href="https://docs.npmjs.com/getting-started/getting-started/uninstalling-global-packages" > Uninstalling global packages</a>
+<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/creating-node-modules" > Creating Node.js modules</a> </li>
+<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/publishing-npm-packages" class="active"> Publishing npm packages</a> </li>
+<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/semantic-versioning" > Semantic versioning and npm</a> </li>
+<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/scoped-packages" > Working with scoped packages</a> </li>
+<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/using-tags" > Using tags</a> </li>
+</ol>
         </div>
-<!--
-* [Publishing npm packages tutorial](https://docs.npmjs.com/getting-started/publishing-npm-packages)
-* [npm documentation: Creating Node.js modules](https://docs.npmjs.com/getting-started/creating-node-modules)
--->
+<!-- * [Publishing npm packages tutorial](https://docs.npmjs.com/getting-started/publishing-npm-packages) * [npm documentation: Creating Node.js modules](https://docs.npmjs.com/getting-started/creating-node-modules) -->
 
 ### NPM: Otros tutoriales
 
