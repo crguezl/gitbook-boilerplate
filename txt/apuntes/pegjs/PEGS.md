@@ -19,6 +19,10 @@
   /Users/casiano/local/src/javascript/PLgrado/pegjs/examples
   ```
 
+### Herramientas
+
+* [pegjs-strip](https://www.npmjs.com/package/pegjs-strip)
+
 ### Bactracking en los PEGs
 
 !INCLUDE "pegjsbacktracking.md"

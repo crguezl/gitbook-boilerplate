@@ -80,7 +80,6 @@ npm publish --access=public
 
 ### NPM Documentation: Getting Started 
 
-<div class="pages">
 <ol>
 <li>             <a href="https://docs.npmjs.com/getting-started/getting-started/what-is-npm" > What is npm?</a> </li>
 <li>             <a href="https://docs.npmjs.com/getting-started/getting-started/installing-node" > Installing Node.js and updating npm</a> </li>
@@ -98,7 +97,6 @@ npm publish --access=public
 <li>             <a href="https://docs.npmjs.com/getting-started/getting-started/scoped-packages" > Working with scoped packages</a> </li>
 <li>             <a href="https://docs.npmjs.com/getting-started/getting-started/using-tags" > Using tags</a> </li>
 </ol>
-        </div>
 <!-- * [Publishing npm packages tutorial](https://docs.npmjs.com/getting-started/publishing-npm-packages) * [npm documentation: Creating Node.js modules](https://docs.npmjs.com/getting-started/creating-node-modules) -->
 
 ### NPM: Otros tutoriales
