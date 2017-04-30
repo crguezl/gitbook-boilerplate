@@ -5,6 +5,8 @@
 
 * [Documentación del Módulo PEG.js](https://pegjs.org/documentation)
 * [Introducción a los PEGs](http://crguezl.github.io/pl-html/node31.html)
+  - 0.10.0 `s/buildParser/generate/`
+  - 0.10.0 Se necesita poner `--format`: `pegjs --format globals -e pl0 -o public/pl0.js -e pl0 lib/pl0.pegjs`
 * [PEGJS](http://crguezl.github.io/pl-html/node32.html)
 * [La Calculadora Simple](http://crguezl.github.io/pl-html/node33.html)
 * [Eliminación de la Recursividad por la Izquierda en PEGs](http://crguezl.github.io/pl-html/node37.html#SECTION04472000000000000000)
