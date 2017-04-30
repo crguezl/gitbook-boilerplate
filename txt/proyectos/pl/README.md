@@ -4,8 +4,7 @@
 ### Objetivo
 
 Escriba un analizador del lenguaje PL0 usando PEGjs así como las tecnologías vistas 
-durante el curso: ECMA6, Node.js, expressJS, etc. 
-La salida debe ser el árbol de análisis sintáctico del programa de entrada
+durante el curso
 
 ### Recursos
 

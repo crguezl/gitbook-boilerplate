@@ -3,7 +3,7 @@
 ### Objetivo
 
 Escriba una aplicación web  usando las tecnologías vistas 
-durante el curso: ECMA6, Node.js, expressJS, MongoDB, Mongoose, SASS, etc. 
+durante el curso: ECMA6, Node.js, expressJS, SASS, Pruebas, etc. 
 El tema de la aplicación es de libre elección.
 
 ### Sugerencia 

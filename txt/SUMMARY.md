@@ -263,6 +263,7 @@
 * [Proyectos](proyectos/README.md)
    * [Proyecto de SYTW](proyectos/sytw/README.md)
    * [Proyecto de PL](proyectos/pl/README.md)
+   * [Proyecto de DSI](proyectos/dsi/README.md)
 
 ## DEFINICIONES DE TÉRMINOS
  * [GLOSARIO](GLOSSARY.md)
