@@ -41,9 +41,9 @@ console.log(sequence.next().value)
 console.log(sequence.next().value)
 ```
 
-## Complentación con bucles
+## Completación con bucles
 
-Cuando instanciamos un objecto, podemos definir la clave `Symbol.iterator` como una función iteradora. Sería como el `def each do |i|` de Ruby. Por ejemplo, esta clase va retornando de forma alternativa los elementos de dos arrays:
+Cuando instanciamos un objeto, podemos definir la clave `Symbol.iterator` como una función iteradora. Sería como el `def each do |i|` de Ruby. Por ejemplo, esta clase va retornando de forma alternativa los elementos de dos arrays:
 
 {% console %}{% endconsole %}
 
@@ -66,5 +66,26 @@ let join = new Join([1, 2, 3], ['uno', 'dos', 'tres'])
 
 for (let element of join) {
   console.log(element)
+}
+```
+
+## Iterando en un objeto
+
+El siguiente ejemplo muestra como iterar sobre un objeto usando un iterador:
+
+{% console %}{% endconsole %}
+
+```JavaScript
+// using a generator function
+function* entries(obj) {
+   for (let key of Object.keys(obj)) {
+     yield [key, obj[key]];
+   }
+}
+
+let myObj = {x: 1, y: 2};
+for (let [key, value] of entries(myObj)) {
+   // do something with key|value
+   console.log(key+":"+value);
 }
 ```
