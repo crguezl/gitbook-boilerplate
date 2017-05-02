@@ -85,7 +85,6 @@ function* entries(obj) {
 
 let myObj = {x: 1, y: 2};
 for (let [key, value] of entries(myObj)) {
-   // do something with key|value
    console.log(key+":"+value);
 }
 ```
