@@ -69,7 +69,7 @@ for (let element of join) {
 }
 ```
 
-## Iterando en un objeto
+## Iterando en un objeto {#iterando-objeto}
 
 El siguiente ejemplo muestra como iterar sobre un objeto usando un iterador:
 
