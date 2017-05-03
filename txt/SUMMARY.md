@@ -225,10 +225,12 @@
 * [Práctica: Analizador Descendente Predictivo Recursivo](practicas/practicarecdescparser.md)
 * [Práctica: Analizador Usando PEG.js](practicas/practicapegparser.md)
 
+
 #### Repasos PL
 
 * [Repasos: Preguntas de Expresiones Regulares](repasos/regexp.md) 
 * [Repasos: Preguntas de Analizador Léxico](repasos/lexicalanalyzer.md) 
+* [Repasos: PEGs](repasos/pegjs.md) 
 
 ## Repasos
 
