@@ -15,7 +15,8 @@
 
 ###  Repositorios
 
-* [Ejemplos en PEGjs](https://github.com/crguezl/pegjs/tree/master/examples)
+* [Ejemplos en PEGjs](https://github.com/ULL-ESIT-PL-1617/pegjs-examples)
+* [Viejos Ejemplos en PEGjs](https://github.com/crguezl/pegjs/tree/master/examples)
   ```bash
   [~/local/src/javascript/PLgrado/pegjs/examples(master)]$ pwd -P
   /Users/casiano/local/src/javascript/PLgrado/pegjs/examples
@@ -23,7 +24,9 @@
 
 ### Herramientas
 
+* [@ull-esit-pl/pegjs-strip](https://www.npmjs.com/package/@ull-esit-pl/pegjs-strip)
 * [pegjs-strip](https://www.npmjs.com/package/pegjs-strip)
+* [pegjs-util](https://www.npmjs.com/package/pegjs-util)
 
 ### Bactracking en los PEGs
 

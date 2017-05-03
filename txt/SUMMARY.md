@@ -220,7 +220,7 @@
 * [PEGs](apuntes/pegjs/PEGS.md)
   * [Esprima](apuntes/pegjs/esprima.md)
   * [borrador](apuntes/pegjs/pegjs.md)
-  * [Ejercicios](apuntes/pegjs/ejercicios.md)
+  * [Repasos: PEG.js](repasos/pegjs.md) 
 * [Práctica: Analizador Léxico para Un Subconjunto de JavaScript](practicas/practicaanalisislexicotdop.md)
 * [Práctica: Analizador Descendente Predictivo Recursivo](practicas/practicarecdescparser.md)
 * [Práctica: Analizador Usando PEG.js](practicas/practicapegparser.md)
