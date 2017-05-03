@@ -230,7 +230,7 @@
 
 * [Repasos: Preguntas de Expresiones Regulares](repasos/regexp.md) 
 * [Repasos: Preguntas de Analizador Léxico](repasos/lexicalanalyzer.md) 
-* [Repasos: PEGs](repasos/pegjs.md) 
+* [Repasos: PEG.js](repasos/pegjs.md) 
 
 ## Repasos
 
