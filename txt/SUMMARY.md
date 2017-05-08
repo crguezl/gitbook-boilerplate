@@ -99,6 +99,19 @@
 * [BrowserSync](apuntes/pruebas/browsersync.md)
 
 
+#### Prácticas de Pruebas
+
+* [Práctica: Evaluar Karma](practicas/evaluarkarma.md)
+
+### Recursos
+
+* [)
+* [)
+* [)
+* [)
+* [)
+* [)
+* [)
 
 #### Repasos Pruebas
 
