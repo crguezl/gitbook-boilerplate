@@ -9,4 +9,4 @@
 
 ### Prácticas
 
-* [Práctica: Evaluar Karma](../practicas/evaluarkarma.md)
+* [Práctica: Evaluar Karma](../practicas/practicaevaluakarma.md)

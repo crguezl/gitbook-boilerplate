@@ -101,17 +101,7 @@
 
 #### Prácticas de Pruebas
 
-* [Práctica: Evaluar Karma](practicas/evaluarkarma.md)
-
-### Recursos
-
-* [)
-* [)
-* [)
-* [)
-* [)
-* [)
-* [)
+* [Práctica: Evaluar Karma](practicas/practicaevaluakarma.md)
 
 #### Repasos Pruebas
 
