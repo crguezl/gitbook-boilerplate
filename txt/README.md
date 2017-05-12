@@ -50,8 +50,13 @@
 
 * [Apuntes de Procesadores de Lenguajes de la Antigua Ingeniería Informática: Análisis Léxico y Sintáctico](https://ull-esit-pl-1617.github.io/apuntesingenieriainformaticaPL/) Alojado en GitHub
 * [Apuntes de Procesadores de Lenguajes de la Antigua Ingeniería Informática: Análisis Léxico y Sintáctico](http://nereida.deioc.ull.es/~pl/perlexamples/) Alojado en nereida.deioc.ull.es
-* [Apuntes de Procesadores de Lenguajes de la Antigua Ingeniería Informática: Análisis Léxico y Sintáctico](ftp://ftp.etsii.ull.es/casiano/perlexamples.html) Alojado en ftp.etsii.ull.es
+* [Apuntes de Procesadores de Lenguajes de la Antigua Ingeniería Informática: Análisis Léxico y Sintáctico](http://cc.etsii.ull.es/ftp/antiguo/casiano/)  Alojado en cc.etsii.ull.es/ftp
+* [Procesadores de Lenguajes I (Antigua Ingniería)](http://cc.etsii.ull.es/ftp/antiguo/PROLEN1/)
+* [Procesadores de Lenguajes II (Antigua Ingeniería)](http://cc.etsii.ull.es/ftp/antiguo/PROLEN2/)
 * [Apuntes de Lenguajes y Herramientas Informáticas de la Antigua Ingeniería Técnica de Sistemas Informáticos](http://nereida.deioc.ull.es/~lhp/perlexamples/) Alojado en nereida.deioc.ull.es
+* [LHP](http://cc.etsii.ull.es/ftp/antiguo/LHP/)
+* [Programación en Paralelo I](http://cc.etsii.ull.es/ftp/antiguo/PRGPAR1/)
+* [Programación en Paralelo II](http://cc.etsii.ull.es/ftp/antiguo/PRGPAR2/)
 * [Apuntes de Programación en Paralelo II de la Antigua Ingeniería Informatica: Programación Distribuida y Mejora del Rendimiento](http://nereida.deioc.ull.es/~pp2/perlexamples/) Alojado en nereida.deioc.ull.es
 * [Programación en Paralelo I de la Antigua Ingeniería Informatica](http://nereida.deioc.ull.es/~pp1/perlexamples/) Alojado en nereida.deioc.ull.es
 * [Apuntes de Groovy](http://nereida.deioc.ull.es/~generaciondecodigos/gcexamples/) Alojado en nereida.deioc.ull.es
