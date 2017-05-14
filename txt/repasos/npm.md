@@ -1,5 +1,4 @@
-
-## Preguntas de Repaso de npm y package.json
+## Preguntas de Repaso de npm 
 
 1.  ¿Con que comando creo el fichero `package.json`?
 
@@ -42,11 +41,4 @@
         > semver.toComparators('^1.2.3')
         [ [ '_______', '______' ] ]
 ```
-10. ¿Cuales son los pasos para escribir y publicar un paquete `npm`?
-11. ¿Cómo instalo una versión anterior de un package npm?
-```
-npm install <package>@<version>
-```
-12. [¿Cómo encuentro la versión de un paquete NodeJs instalado?](http://stackoverflow.com/questions/10972176/find-the-version-of-an-installed-npm-package)
-
-
+!INCLUDE "pubnpm.md"

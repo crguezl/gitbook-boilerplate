@@ -63,10 +63,13 @@
 
 !INCLUDE "gulp.md"
 
-!INCLUDE "npm.md"
-
 !INCLUDE "karma.md"
 
+# Módulos
+
+!INCLUDE "npm.md"
+
+!INCLUDE "npmdsi17-3.md"
 
 # Procesadores de Lenguajes
 

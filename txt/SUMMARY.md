@@ -55,6 +55,7 @@
 * [Procesamiento de la línea de comandos](apuntes/argumentos/README.md)
 * [Procesos](apuntes/processes/README.md)  
 * [Repaso: Preguntas de npm](repasos/npm.md) 
+* [Repaso: Preguntas de JSDoc](repasos/jsdoc.md) 
 
 #### Prácticas Iniciales: NodeJS, GitHub, GitBook
 
@@ -181,6 +182,9 @@
   * [Mongo](apuntes/db/mongo/README.md)
     * [MongoDB](apuntes/db/mongo/mongodb.md)
     * [Mongoose](apuntes/db/mongo/mongoose.md)
+
+#### Repasos de Bases de Datos
+* [Preguntas de Mongo](repasos/mongo.md)
 
 #### Repasos Bases de Datos
 
