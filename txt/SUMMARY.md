@@ -83,6 +83,7 @@
 
 * [Repasos: Preguntas de OOP](repasos/oop.md) 
 * [Repasos: Code Smelling](repasos/codesmelling.md)
+* [Repasos: Code Smelling](repasos/strategy-pattern.md)
 
 #### Pruebas
 

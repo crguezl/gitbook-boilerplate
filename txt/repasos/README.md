@@ -21,6 +21,8 @@
 
 !INCLUDE "codesmelling.md"
 
+!INCLUDE "strategy-pattern.md"
+
 !INCLUDE "ecma6.md"
 
 # Web
