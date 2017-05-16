@@ -21,7 +21,7 @@
 
     2.  ¿Cuando se ejecutará esta callback? ¿Que hace?
 
-```javascript
+```
             window.onload = function() {
               // If the browser supports localStorage and we have some stored data
               if (window.localStorage && localStorage.original) {

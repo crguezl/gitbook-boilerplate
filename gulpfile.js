@@ -98,6 +98,7 @@ gulp.task('exam', shell.task([
       'pandoc txt/repasos/ssh.md -o examenes/ssh.tex',
       'pandoc txt/repasos/herokudsi17.md -o examenes/herokudsi17.tex',
       'pandoc txt/repasos/rest.md -o examenes/rest.tex',
+      'pandoc txt/repasos/pegjs16-17.md -o examenes/pegjs16-17.tex',
       'pandoc txt/repasos/https.md -o examenes/https.tex',
       'pandoc txt/repasos/passport.md -o examenes/passport.tex',
       'pandoc txt/repasos/cookies.md -o examenes/cookies.tex',

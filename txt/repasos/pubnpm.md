@@ -1,10 +1,12 @@
 ## Preguntas de Como crear y publicar un paquete npm 
 
-10. ¿Cuales son los pasos para escribir y publicar un paquete `npm`?
+1. ¿Cuales son los pasos para escribir y publicar un paquete `npm`?
 11. ¿Cómo instalo una versión anterior de un package npm?
+<!--
 ```
 npm install <package>@<version>
 ```
+-->
 12. [¿Cómo encuentro la versión de un paquete NodeJs instalado?](http://stackoverflow.com/questions/10972176/find-the-version-of-an-installed-npm-package)
 13. ¿Que se entiende por `scope` de un paquete npm? 
     1. ¿Cual es la notación para referenciar un paquete `somepackage` que se aloja en el ámbito `somescope`?

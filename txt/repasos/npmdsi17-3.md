@@ -1,12 +1,12 @@
 ## Preguntas de Como crear y publicar un paquete npm 
 
-10. ¿Cuales son los pasos para escribir y publicar un paquete `npm`?
-11. ¿Cómo instalo una versión anterior de un package npm?
+1. ¿Cuales son los pasos para escribir y publicar un paquete `npm`?
+2. ¿Cómo instalo una versión anterior de un package npm?
 ```
 npm install <package>@<version>
 ```
-12. [¿Cómo encuentro la versión de un paquete NodeJs instalado?](http://stackoverflow.com/questions/10972176/find-the-version-of-an-installed-npm-package)
-13. ¿Que se entiende por `scope` de un paquete npm? 
+3. [¿Cómo encuentro la versión de un paquete NodeJs instalado?](http://stackoverflow.com/questions/10972176/find-the-version-of-an-installed-npm-package)
+4. ¿Que se entiende por `scope` de un paquete npm? 
     1. ¿Cual es la notación para referenciar un paquete `somepackage` que se aloja en el ámbito `somescope`?
     1. ¿Como se hace un `require`de un paquete `somepackage` que se aloja en el ámbito `somescope`?
     2. Cualquier usario npm puede publicar sus módulos en cualquier ámbito: ¿Verdadero o falso?
@@ -23,7 +23,7 @@ npm install <package>@<version>
     6. ¿Que hace este comando?
 
              npm config set scope username
-14. ¿Que hace este comando?
+5. ¿Que hace este comando?
 
          npm version patch -m "Upgrade to %s for reasons"
     1. Cuando el comando anterior se ejecuta en un git repo, ¿Crea un commit? ¿Crea un tag? 

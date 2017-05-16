@@ -1,4 +1,4 @@
-## JsDoc
+## JSDoc
 
 1. ¿Cual es la sintáxis de los comentarios de documentación en JSDoc? ¿Como empiezan?
 2. ¿Donde debo ubicar un comentario de documentación JSDoc para documentar un cierto código?
