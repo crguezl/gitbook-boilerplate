@@ -100,7 +100,9 @@ gulp.task('exam', shell.task([
       'pandoc txt/repasos/rest.md -o examenes/rest.tex',
       'pandoc txt/repasos/pegjs16-17.md -o examenes/pegjs16-17.tex',
       'pandoc txt/repasos/dsi260517.md -o examenes/dsi260517.tex',
+      'pandoc txt/repasos/dsi060617.md -o examenes/dsi060617.tex',
       'pandoc txt/repasos/pegjsexercise.md -o examenes/pegjsexercise.tex',
+      'pandoc txt/repasos/pegjsregexpexercise.md -o examenes/pegjsregexpexercise.tex',
       'pandoc txt/repasos/https.md -o examenes/https.tex',
       'pandoc txt/repasos/passport.md -o examenes/passport.tex',
       'pandoc txt/repasos/cookies.md -o examenes/cookies.tex',
@@ -144,6 +146,14 @@ gulp.task('pl1617-2605', ['exam'], shell.task(
 
 gulp.task('dsi1617-2605', ['exam'], shell.task(
       'cd examenes; pdflatex dsi1617-2605.tex'
+      ));
+
+gulp.task('dsi1617-0606', ['exam'], shell.task(
+      'cd examenes; pdflatex dsi1617-0606.tex'
+      ));
+
+gulp.task('pl1617-0606', ['exam'], shell.task(
+      'cd examenes; pdflatex pl1617-0606.tex'
       ));
 
 gulp.task('pl1617', ['exam'], shell.task(
