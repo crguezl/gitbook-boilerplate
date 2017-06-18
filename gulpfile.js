@@ -110,6 +110,7 @@ gulp.task('exam', shell.task([
       'pandoc txt/repasos/oopdsi2.md -o examenes/oopdsi2.tex',
       'pandoc txt/repasos/regexpdsi2.md -o examenes/regexpdsi2.tex',
       'pandoc txt/repasos/regexppl2.md -o examenes/regexppl2.tex',
+      'pandoc txt/repasos/jsonpeg.md -o examenes/jsonpeg.tex',
       'pandoc txt/repasos/pruebasdsi2.md -o examenes/pruebasdsi2.tex',
       'pandoc txt/repasos/lexicalanalyzer.md -o examenes/lexicalanalyzer.tex',
       'pandoc txt/repasos/strategy-pattern.md -o examenes/strategy-pattern.tex',
@@ -154,6 +155,10 @@ gulp.task('dsi1617-0606', ['exam'], shell.task(
 
 gulp.task('pl1617-0606', ['exam'], shell.task(
       'cd examenes; pdflatex pl1617-0606.tex'
+      ));
+
+gulp.task('pl1617-0307', ['exam'], shell.task(
+      'cd examenes; pdflatex pl1617-0307.tex'
       ));
 
 gulp.task('pl1617', ['exam'], shell.task(

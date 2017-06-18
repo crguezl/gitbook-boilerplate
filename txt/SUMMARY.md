@@ -19,6 +19,7 @@
 ### Tools / Herramientas
 
 * [Atom](apuntes/tools/README.md)
+* [AtomEditor Tutorials en YouTube](https://www.youtube.com/user/LevelUpTuts/search?query=atom)
 
 ### GitHub
 
@@ -222,6 +223,8 @@
 
 ### Procesamiento de Lenguajes
 
+* [Little Languages. Programing Pearls. Jon Bentley](http://cs448h.stanford.edu/little-languages.pdf)
+* [P Hudak. Domain Specific Languages](http://cs448h.stanford.edu/DSEL-Little.pdf)
 * [Expresiones Regulares](apuntes/regexp/README.md)
    - [Ejercicios de Expresiones Regulares](apuntes/regexp/regexpejercicios.md)
 * [Parsing: Técnicas de Análisis](apuntes/parsing/README.md)
