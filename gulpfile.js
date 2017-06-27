@@ -129,6 +129,10 @@ gulp.task('dsi1617-2', ['exam'], shell.task(
       'cd examenes; pdflatex dsi1617-2.tex'
       ));
 
+gulp.task('dsi1617-030717', shell.task(
+      'cd examenes; pdflatex dsi1617-030717.tex'
+      ));
+
 gulp.task('pl1617-2', ['exam'], shell.task(
       'cd examenes; pdflatex pl1617-2.tex'
       ));
