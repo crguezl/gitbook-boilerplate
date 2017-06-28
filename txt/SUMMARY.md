@@ -73,7 +73,7 @@
 
   * [Programación Funcional en JavaScript](apuntes/functional/README.md)
   * [Programación Orientada a Objetos/Object Oriented Programming](apuntes/oop/README.md)
-  * [Asincronía y Sincronía](apuntes/asynch/README.md)
+  * [Asincronía y Sincronía](apuntes/async/README.md)
   * [Juegos](apuntes/games/README.md)
   * [Code Smells](apuntes/patterns/codesmell.md)
   * [Principios de Diseño](/apuntes/patterns/designprinciples.md)
