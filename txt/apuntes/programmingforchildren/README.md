@@ -1,8 +1,6 @@
 ## Programación para Gente Muy Joven
 
 
-
-
 * [Crunchzilla](http://www.crunchzilla.com/):
   Crunchzilla es un servicio web que los estudiantes pueden utilizar
   para aprender a escribir programas de Javascript. Hay dos versiones
@@ -22,3 +20,7 @@
 
 * [Processing.js](http://processingjs.org/)
 * [Processing.js: Quick Strart](http://processingjs.org/articles/jsQuickStart.html#quickstart)
+
+## Introducción al DOM
+
+* [JavaScript in Half an Hour (Without jQuery!)](https://youtu.be/zPHerhks2Vg)
