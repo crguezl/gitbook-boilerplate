@@ -32,6 +32,9 @@ Para comenzar, crearemos una cuenta de usuario en el repositorio de NPM mediante
 ### Creación de Paquetes y Módulos en NodeJS
 
 * [Creating and Publishing a Node.js Module](https://quickleft.com/blog/creating-and-publishing-a-node-js-module/) por Brent Ertz
+* [@ull-esit-dsi-1617/scapegoat](https://www.npmjs.com/package/@ull-esit-dsi-1617/scapegoat) en npm
+* [@ull-esit-dsi-1617/scapegoat](https://github.com/ULL-ESIT-DSI-1617/scapegoat) en GitHub
+* Notas:
   -  For example, you can install packages directly from Github, and even specify a tag, sha, or branch if you want.
 
           npm install git://github.com/brentertz/scapegoat.git
