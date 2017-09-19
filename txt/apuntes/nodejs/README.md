@@ -45,3 +45,6 @@ Si con el navegador `chrome` visitamos la URL
 [chrome://inspect](chrome://inspect)
 estaremos en la página de depuración de Chrome.
 
+![Debugging NodeJS con Chrome](debugnodejs.png)
+
+
