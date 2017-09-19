@@ -1,7 +1,7 @@
 ### CommonJS Modules. Importación y Exportación
 
-* [NODE.JS module patterns using simple examples](https://darrenderidder.github.io/talks/ModulePatterns). Trasparencias. Muestra ejemplos/patrones de exportación-importación
-* [Authoring CommonJS modules](http://know.cujojs.com/tutorials/modules/authoring-cjs-modules)
+* [NODE.JS module patterns using simple examples](https://darrenderidder.github.io/talks/ModulePatterns). Trasparencias. Muestra ejemplos/patrones de exportación-importación (Reaveal Slides)
+* [Authoring CommonJS modules](http://know.cujojs.com/tutorials/modules/authoring-cjs-modules)  (CommonJS modules were conceived during the early days of server-side JavaScript environments such as node.js and Narwhal. As a result, CommonJS modules are optimized for these environments, not browser environments)
 
 ### Package.json
 

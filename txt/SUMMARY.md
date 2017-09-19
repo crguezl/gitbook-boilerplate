@@ -55,7 +55,6 @@
 
 ### NodeJS
 * [Debugging NodeJS](apuntes/nodejs/README.md)
-* [npm](apuntes/npm/npm.md)
 * [Creación de Paquetes y Módulos en NodeJS](apuntes/npm/nodejspackages.md)
 * [Sistema de Archivos](apuntes/fs.md)
 * [Procesamiento de la línea de comandos](apuntes/argumentos/README.md)
