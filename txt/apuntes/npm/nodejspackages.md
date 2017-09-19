@@ -46,6 +46,7 @@ Para comenzar, crearemos una cuenta de usuario en el repositorio de NPM mediante
 ### Semantic versioning and npm
 
 * [Semantic versioning and npm](https://docs.npmjs.com/getting-started/semantic-versioning)
+* [Semantic Versioning: Why You Should Be Using it](https://www.sitepoint.com/semantic-versioning-why-you-should-using/) SitePoint
 
 
 ### NPM: Otros tutoriales
