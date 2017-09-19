@@ -1,16 +1,13 @@
 ### CommonJS Modules. Importación y Exportación
 
-* [NODE.JS module patterns using simple examples](https://darrenderidder.github.io/talks/ModulePatterns). Trasparencias. Muestra ejemplos/patrones de exportación-importación (Reaveal Slides)
+* [NODE.JS module patterns using simple examples](https://darrenderidder.github.io/talks/ModulePatterns). Trasparencias. Muestra ejemplos/patrones de exportación-importación (Reveal Slides)
 * [Authoring CommonJS modules](http://know.cujojs.com/tutorials/modules/authoring-cjs-modules)  (CommonJS modules were conceived during the early days of server-side JavaScript environments such as node.js and Narwhal. As a result, CommonJS modules are optimized for these environments, not browser environments)
-
-### Package.json
-
-* [Package.json documentation en npm site](https://docs.npmjs.com/files/package.json)
 
 ### El comando npm
 
 * [A Beginner’s Guide to npm — the Node Package Manager](https://www.sitepoint.com/beginners-guide-node-package-manager/)
 * [npm](npm.html)
+
 
 ### Ejercicio: Darse de alta en NPM
 
@@ -31,6 +28,11 @@ Para comenzar, crearemos una cuenta de usuario en el repositorio de NPM mediante
    ```
     $ npm whoami
    ```
+
+### Package.json
+
+* [Package.json documentation en npm site](https://docs.npmjs.com/files/package.json)
+
 ### Scoped Packages
 
 > There are only two hard things in Computer Science: cache invalidation and naming things.
@@ -72,7 +74,7 @@ npm publish --access=public
           npm install git://github.com/brentertz/scapegoat.git
           npm install git://github.com/brentertz/scapegoat.git#0.1.0
 
-    must be https
+    must be https or git+ssh. See [How to install an npm package from GitHub directly?](https://stackoverflow.com/questions/17509669/how-to-install-an-npm-package-from-github-directly)
   - Publicación con ámbito en una organización:
 
           [/tmp/scapegoat(master)]$ npm publish --access public
