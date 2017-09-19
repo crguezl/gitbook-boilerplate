@@ -7,7 +7,7 @@
 
 * [A Beginner’s Guide to npm — the Node Package Manager](https://www.sitepoint.com/beginners-guide-node-package-manager/)
 * [npm](npm.html)
-
+* [10 Tips and Tricks That Will Make You an npm Ninja](https://www.sitepoint.com/10-npm-tips-and-tricks/)
 
 ### Ejercicio: Darse de alta en NPM
 
