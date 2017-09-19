@@ -32,8 +32,12 @@ Para comenzar, crearemos una cuenta de usuario en el repositorio de NPM mediante
 ### Creación de Paquetes y Módulos en NodeJS
 
 * [Creating and Publishing a Node.js Module](https://quickleft.com/blog/creating-and-publishing-a-node-js-module/) por Brent Ertz
-* [@ull-esit-dsi-1617/scapegoat](https://www.npmjs.com/package/@ull-esit-dsi-1617/scapegoat) en npm
-* [@ull-esit-dsi-1617/scapegoat](https://github.com/ULL-ESIT-DSI-1617/scapegoat) en GitHub
+* El paquete de ejemplo usado en este tutorial [@ull-esit-dsi-1617/scapegoat](https://www.npmjs.com/package/@ull-esit-dsi-1617/scapegoat) en npm
+* El paquete de ejemplo usado en este tutorial [@ull-esit-dsi-1617/scapegoat](https://github.com/ULL-ESIT-DSI-1617/scapegoat) en GitHub
+* Para escribir documentación para una API 
+  - Véase [documentation.js](http://documentation.js.org/), 
+  - [jsdoc](https://www.npmjs.com/package/jsdoc), 
+  - [docco](http://jashkenas.github.io/docco/)
 * Notas:
   -  For example, you can install packages directly from Github, and even specify a tag, sha, or branch if you want.
 
@@ -45,7 +49,55 @@ Para comenzar, crearemos una cuenta de usuario en el repositorio de NPM mediante
 
           [/tmp/scapegoat(master)]$ npm publish --access public
           + @ull-esit-dsi-1617/scapegoat@1.0.2
+* Código 
+```bash
+[~/javascript/evalua-module/scapegoat(master)]$ pwd -P
+/Users/casiano/local/src/javascript/evalua-module/scapegoat
+[~/javascript/evalua-module/scapegoat(master)]$ tree -I 'node_modules|docs'
+.
+├── LICENSE-MIT
+├── README.md
+├── index.js
+├── package.json
+└── test
+    └── index.js
 
+1 directory, 5 files
+[~/javascript/evalua-module/scapegoat(master)]$ cat package.json 
+{
+  "name": "@ull-esit-dsi-1617/scapegoat",
+  "version": "1.0.4",
+  "description": "A small library providing utility methods to escape and unescape HTML entities",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "doc": "documentation build index.js -f html -o docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ULL-ESIT-DSI-1617/scapegoat.git"
+  },
+  "keywords": [
+    "escape",
+    "unescape",
+    "html"
+  ],
+  "author": "Casiano Rodriguez <casiano.rodriguez.leon@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ULL-ESIT-DSI-1617/scapegoat/blob/master/LICENSE-MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-DSI-1617/scapegoat/issues"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  }
+}
+```
 ### Semantic versioning and npm
 
 * [Semantic versioning and npm](https://docs.npmjs.com/getting-started/semantic-versioning)
