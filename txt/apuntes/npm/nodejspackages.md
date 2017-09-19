@@ -43,6 +43,11 @@ Para comenzar, crearemos una cuenta de usuario en el repositorio de NPM mediante
           [/tmp/scapegoat(master)]$ npm publish --access public
           + @ull-esit-dsi-1617/scapegoat@1.0.2
 
+### Semantic versioning and npm
+
+* [Semantic versioning and npm](https://docs.npmjs.com/getting-started/semantic-versioning)
+
+
 ### NPM: Otros tutoriales
 
 * [Your first Node.js package  por Elijah Insua](https://nodesource.com/blog/your-first-nodejs-package/)
@@ -86,10 +91,6 @@ npm publish --access=public
 
 * [Working with scoped packages](https://docs.npmjs.com/getting-started/scoped-packages)
 * [npm-scope manual: Scoped packages](https://docs.npmjs.com/misc/scope#publishing-public-scoped-packages-to-the-public-npm-registry)
-
-### Semantic versioning and npm
-
-* [Semantic versioning and npm](https://docs.npmjs.com/getting-started/semantic-versioning)
 
 ### NPM Documentation: Getting Started 
 
