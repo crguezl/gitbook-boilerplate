@@ -92,6 +92,7 @@ npm publish --access=public
 
 * [Working with scoped packages](https://docs.npmjs.com/getting-started/scoped-packages)
 * [npm-scope manual: Scoped packages](https://docs.npmjs.com/misc/scope#publishing-public-scoped-packages-to-the-public-npm-registry)
+* [Working with npm private modules. YouTube Video](https://youtu.be/O6JoXGnHK_Y)
 
 ### NPM Documentation: Getting Started 
 
