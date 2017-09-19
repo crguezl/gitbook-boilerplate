@@ -29,6 +29,31 @@ Para comenzar, crearemos una cuenta de usuario en el repositorio de NPM mediante
     $ npm whoami
    ```
 
+### Creación de Paquetes y Módulos en NodeJS
+
+* [Creating and Publishing a Node.js Module](https://quickleft.com/blog/creating-and-publishing-a-node-js-module/) por Brent Ertz
+  -  For example, you can install packages directly from Github, and even specify a tag, sha, or branch if you want.
+
+          npm install git://github.com/brentertz/scapegoat.git
+          npm install git://github.com/brentertz/scapegoat.git#0.1.0
+
+    must be https or git+ssh. See [How to install an npm package from GitHub directly?](https://stackoverflow.com/questions/17509669/how-to-install-an-npm-package-from-github-directly) in StackOverflow
+  - Publicación con ámbito en una organización:
+
+          [/tmp/scapegoat(master)]$ npm publish --access public
+          + @ull-esit-dsi-1617/scapegoat@1.0.2
+
+### NPM: Otros tutoriales
+
+* [Your first Node.js package  por Elijah Insua](https://nodesource.com/blog/your-first-nodejs-package/)
+
+### NPM: Video Tutoriales
+
+* [Creating NodeJS modules](https://youtu.be/3I78ELjTzlQ)
+* [Publishing npm Packages](https://youtu.be/BkotrAFtBM0)
+* [Node js Tutorial: How to create NPM package?](https://youtu.be/sELoj6e1ffM)
+
+
 ### Package.json
 
 * [Package.json documentation en npm site](https://docs.npmjs.com/files/package.json)
@@ -66,20 +91,6 @@ npm publish --access=public
 
 * [Semantic versioning and npm](https://docs.npmjs.com/getting-started/semantic-versioning)
 
-### Creación de Paquetes y Módulos en NodeJS
-
-* [Creating and Publishing a Node.js Module](https://quickleft.com/blog/creating-and-publishing-a-node-js-module/) por Brent Ertz
-  -  For example, you can install packages directly from Github, and even specify a tag, sha, or branch if you want.
-
-          npm install git://github.com/brentertz/scapegoat.git
-          npm install git://github.com/brentertz/scapegoat.git#0.1.0
-
-    must be https or git+ssh. See [How to install an npm package from GitHub directly?](https://stackoverflow.com/questions/17509669/how-to-install-an-npm-package-from-github-directly)
-  - Publicación con ámbito en una organización:
-
-          [/tmp/scapegoat(master)]$ npm publish --access public
-          + @ull-esit-dsi-1617/scapegoat@1.0.2
-
 ### NPM Documentation: Getting Started 
 
 <ol>
@@ -100,16 +111,6 @@ npm publish --access=public
 <li>             <a href="https://docs.npmjs.com/getting-started/getting-started/using-tags" > Using tags</a> </li>
 </ol>
 <!-- * [Publishing npm packages tutorial](https://docs.npmjs.com/getting-started/publishing-npm-packages) * [npm documentation: Creating Node.js modules](https://docs.npmjs.com/getting-started/creating-node-modules) -->
-
-### NPM: Otros tutoriales
-
-* [Your first Node.js package  por Elijah Insua](https://nodesource.com/blog/your-first-nodejs-package/)
-
-### NPM: Video Tutoriales
-
-* [Creating NodeJS modules](https://youtu.be/3I78ELjTzlQ)
-* [Publishing npm Packages](https://youtu.be/BkotrAFtBM0)
-* [Node js Tutorial: How to create NPM package?](https://youtu.be/sELoj6e1ffM)
 
 ### NPM: Herramientas de ayuda
 
