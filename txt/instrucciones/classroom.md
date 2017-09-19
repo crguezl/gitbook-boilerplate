@@ -35,6 +35,7 @@ browse submissions by assignment.
 
 ### Instrucciones para el profesor
 
+* [GitHub Classroom Guide for Teachers](https://github.com/jfiksel/github-classroom-for-teachers) by Jacob Fiksel
 * [Véase Teachers, manage your courses with Classroom for GitHub](https://github.com/blog/2055-teachers-manage-your-courses-with-classroom-for-github)
 * [A step-by-step guide on setting up your GitHub Organization for classroom use](https://education.github.com/guide)
 * [Request free private repositories for your classroom organization](https://education.github.com/discount_requests/new)

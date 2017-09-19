@@ -133,6 +133,10 @@ gulp.task('dsi1617-030717', shell.task(
       'cd examenes; pdflatex dsi1617-030717.tex'
       ));
 
+gulp.task('dsi1617-070917', shell.task(
+      'cd examenes; pdflatex dsi1617-070917.tex'
+      ));
+
 gulp.task('sytw1617-280617', shell.task(
       'cd examenes; pdflatex sytw1617-280617.tex'
       ));
@@ -167,6 +171,10 @@ gulp.task('pl1617-0606', ['exam'], shell.task(
 
 gulp.task('pl1617-0307', ['exam'], shell.task(
       'cd examenes; pdflatex pl1617-0307.tex'
+      ));
+
+gulp.task('pl1617-0709', ['exam'], shell.task(
+      'cd examenes; pdflatex pl1617-0709.tex'
       ));
 
 gulp.task('pl1617', ['exam'], shell.task(

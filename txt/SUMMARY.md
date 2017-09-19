@@ -54,6 +54,7 @@
 * [Repasos: Preguntas de gulp](repasos/gulp.md) 
 
 ### NodeJS
+* [Debugging NodeJS](apuntes/nodejs/README.md)
 * [npm](apuntes/npm/npm.md)
 * [Creación de Paquetes y Módulos en NodeJS](apuntes/npm/nodejspackages.md)
 * [Sistema de Archivos](apuntes/fs.md)
