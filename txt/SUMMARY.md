@@ -69,6 +69,10 @@
 * [Práctica: Tareas Iniciales Avanzadas](practicas/practicagitbook.md)
 * [Práctica: Creación de un Paquete NPM](practicas/practicanm.md)
 
+### Document Object Model
+
+* [DOM](apuntes/dom/README.md)
+
 ### Programación: Buenas Prácticas
 
   * [Programación Funcional en JavaScript](apuntes/functional/README.md)
