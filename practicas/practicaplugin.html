@@ -1,0 +1,3178 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Práctica: Añadiendo plugins para los despliegues. iaas · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-toc/page-toc.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-codetabs/codetabs.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-jazer/regexp/regexp_website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-jazer/questionjs/questionjs_website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-jazer/question/question_website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-jazer/fontawesome/css/font-awesome.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="practicaplugin2.html" />
+    
+    
+    <link rel="prev" href="practicaiaas.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Instrucciones</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../instrucciones/">
+            
+                <a href="../instrucciones/">
+            
+                    
+                    Instrucciones Generales
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../instrucciones/classroom.html">
+            
+                <a href="../instrucciones/classroom.html">
+            
+                    
+                    Instrucciones para GitHub ClassRoom
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../instrucciones/instruccionesparaelenvio.html">
+            
+                <a href="../instrucciones/instruccionesparaelenvio.html">
+            
+                    
+                    Instrucciones para los envíos de tareas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../instrucciones/instruccionesparalaevaluacion.html">
+            
+                <a href="../instrucciones/instruccionesparalaevaluacion.html">
+            
+                    
+                    Instrucciones para la evaluación
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../instrucciones/instruccionesparalaspresentaciones.html">
+            
+                <a href="../instrucciones/instruccionesparalaspresentaciones.html">
+            
+                    
+                    Instrucciones para las Presentaciones
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Apuntes</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../apuntes/">
+            
+                <a href="../apuntes/">
+            
+                    
+                    Apuntes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../apuntes/programmingforchildren/">
+            
+                <a href="../apuntes/programmingforchildren/">
+            
+                    
+                    Programación para no programadores
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" >
+            
+                <a target="_blank" href="https://casianorodriguezleon.gitbooks.io/presentaciones-de-sytw-2016-2017/content/">
+            
+                    
+                    Presentaciones de SYTW 16/17
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.1" >
+            
+                <a target="_blank" href="https://casianorodriguezleon.gitbooks.io/presentaciones-de-sytw-2016-2017/content/">
+            
+                    
+                    Presentaciones de SYTW en GitBook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2" >
+            
+                <a target="_blank" href="https://ull-esit-sytw-1617.github.io/presentaciones-todos/">
+            
+                    
+                    Presentaciones de SYTW en GitHub (gh-pages)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3" >
+            
+                <a target="_blank" href="https://github.com/ULL-ESIT-SYTW-1617/presentaciones-todos">
+            
+                    
+                    Repo con las presentaciones de SYTW 
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Tools / Herramientas</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../apuntes/tools/">
+            
+                <a href="../apuntes/tools/">
+            
+                    
+                    Atom
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" >
+            
+                <a target="_blank" href="https://www.youtube.com/user/LevelUpTuts/search?query=atom">
+            
+                    
+                    AtomEditor Tutorials en YouTube
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">GitHub</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../apuntes/github/">
+            
+                <a href="../apuntes/github/">
+            
+                    
+                    GitHub
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="../apuntes/github/poets/">
+            
+                <a href="../apuntes/github/poets/">
+            
+                    
+                    GitHub for Poets
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="../apuntes/github/projects/">
+            
+                <a href="../apuntes/github/projects/">
+            
+                    
+                    GitHub Projects
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../apuntes/colaboracion/">
+            
+                <a href="../apuntes/colaboracion/">
+            
+                    
+                    Colaboración
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../repasos/github.html">
+            
+                <a href="../repasos/github.html">
+            
+                    
+                    Repaso: Preguntas de github
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">GitHub Education</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../recursos/">
+            
+                <a href="../recursos/#github-education">
+            
+                    
+                    GitHub Education
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">GitBook</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../apuntes/gitbooknotes/">
+            
+                <a href="../apuntes/gitbooknotes/">
+            
+                    
+                    Sobre GitBook
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos de GitBook</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../repasos/markdown.html">
+            
+                <a href="../repasos/markdown.html">
+            
+                    
+                    Preguntas de MarkDown
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="../repasos/gitbook.html">
+            
+                <a href="../repasos/gitbook.html">
+            
+                    
+                    Preguntas de GitBook
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Gulp</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="../apuntes/gulp/">
+            
+                <a href="../apuntes/gulp/">
+            
+                    
+                    Gulp
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.1.1" data-path="../apuntes/gulp/API.html">
+            
+                <a href="../apuntes/gulp/API.html">
+            
+                    
+                    API Documentation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.2" data-path="../apuntes/gulp/recipes/">
+            
+                <a href="../apuntes/gulp/recipes/">
+            
+                    
+                    Recipes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.3" >
+            
+                <a target="_blank" href="http://gulpjs.com/plugins/">
+            
+                    
+                    Plugins
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.4" data-path="../apuntes/gulp/gulpghpages.html">
+            
+                <a href="../apuntes/gulp/gulpghpages.html">
+            
+                    
+                    gulp gh pages
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.5" data-path="../apuntes/gulp/gulpshell.html">
+            
+                <a href="../apuntes/gulp/gulpshell.html">
+            
+                    
+                    gulp-shell
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.6" data-path="../apuntes/gulp/gulplinting.html">
+            
+                <a href="../apuntes/gulp/gulplinting.html">
+            
+                    
+                    gulp-linting
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos: Gulp</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" data-path="../repasos/gulp.html">
+            
+                <a href="../repasos/gulp.html">
+            
+                    
+                    Repasos: Preguntas de gulp
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">NodeJS</li>
+        
+        
+    
+        <li class="chapter " data-level="10.1" data-path="../apuntes/nodejs/">
+            
+                <a href="../apuntes/nodejs/">
+            
+                    
+                    Debugging NodeJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.2" data-path="../apuntes/npm/nodejspackages.html">
+            
+                <a href="../apuntes/npm/nodejspackages.html">
+            
+                    
+                    Creación de Paquetes y Módulos en NodeJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.3" data-path="../apuntes/fs.html">
+            
+                <a href="../apuntes/fs.html">
+            
+                    
+                    Sistema de Archivos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.4" data-path="../apuntes/argumentos/">
+            
+                <a href="../apuntes/argumentos/">
+            
+                    
+                    Procesamiento de la línea de comandos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.5" data-path="../apuntes/processes/">
+            
+                <a href="../apuntes/processes/">
+            
+                    
+                    Procesos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.6" data-path="../repasos/npm.html">
+            
+                <a href="../repasos/npm.html">
+            
+                    
+                    Repaso: Preguntas de npm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.7" data-path="../repasos/jsdoc.html">
+            
+                <a href="../repasos/jsdoc.html">
+            
+                    
+                    Repaso: Preguntas de JSDoc
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Prácticas Iniciales: NodeJS, GitHub, GitBook</li>
+        
+        
+    
+        <li class="chapter " data-level="11.1" data-path="practicatareasiniciales.html">
+            
+                <a href="practicatareasiniciales.html">
+            
+                    
+                    Práctica: Tareas Iniciales
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.2" data-path="practicatareasiniciales2.html">
+            
+                <a href="practicatareasiniciales2.html">
+            
+                    
+                    Práctica: Primeros Pasos en NodeJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.3" data-path="practicagitbook.html">
+            
+                <a href="practicagitbook.html">
+            
+                    
+                    Práctica: Tareas Iniciales Avanzadas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.4" data-path="practicanm.html">
+            
+                <a href="practicanm.html">
+            
+                    
+                    Práctica: Creación de un Paquete NPM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Document Object Model</li>
+        
+        
+    
+        <li class="chapter " data-level="12.1" data-path="../apuntes/dom/">
+            
+                <a href="../apuntes/dom/">
+            
+                    
+                    DOM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Programación: Buenas Prácticas</li>
+        
+        
+    
+        <li class="chapter " data-level="13.1" data-path="../apuntes/functional/">
+            
+                <a href="../apuntes/functional/">
+            
+                    
+                    Programación Funcional en JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.2" data-path="../apuntes/oop/">
+            
+                <a href="../apuntes/oop/">
+            
+                    
+                    Programación Orientada a Objetos/Object Oriented Programming
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.3" data-path="../apuntes/async/">
+            
+                <a href="../apuntes/async/">
+            
+                    
+                    Asincronía y Sincronía
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.4" data-path="../apuntes/games/">
+            
+                <a href="../apuntes/games/">
+            
+                    
+                    Juegos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.5" data-path="../apuntes/patterns/codesmell.html">
+            
+                <a href="../apuntes/patterns/codesmell.html">
+            
+                    
+                    Code Smells
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.6" data-path="../apuntes/patterns/designprinciples.html">
+            
+                <a href="../apuntes/patterns/designprinciples.html">
+            
+                    
+                    Principios de Diseño
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.7" data-path="../apuntes/patterns/">
+            
+                <a href="../apuntes/patterns/">
+            
+                    
+                    Patrones de Diseño
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="13.7.1" data-path="../apuntes/patterns/iife.html">
+            
+                <a href="../apuntes/patterns/iife.html">
+            
+                    
+                    Immediately Invoked Function Expression
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.7.2" data-path="../apuntes/patterns/strategypattern.html">
+            
+                <a href="../apuntes/patterns/strategypattern.html">
+            
+                    
+                    Strategy Pattern
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.7.3" data-path="../apuntes/patterns/dependencyinjectionpattern.html">
+            
+                <a href="../apuntes/patterns/dependencyinjectionpattern.html">
+            
+                    
+                    Dependency Injection Pattern
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.7.4" data-path="../apuntes/patterns/inversionofcontrolpattern.html">
+            
+                <a href="../apuntes/patterns/inversionofcontrolpattern.html">
+            
+                    
+                    Inversion of Control Pattern
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="13.8" data-path="practicaoop.html">
+            
+                <a href="practicaoop.html">
+            
+                    
+                    Práctica: OOP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.9" data-path="practicanoswitchsmell.html">
+            
+                <a href="practicanoswitchsmell.html">
+            
+                    
+                    Práctica: Eliminando Switch Smell
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.10" data-path="practicaevaluastrategypattern.html">
+            
+                <a href="practicaevaluastrategypattern.html">
+            
+                    
+                    Práctica: Evaluar Strategy Pattern
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.11" data-path="practicamodulestrategypattern.html">
+            
+                <a href="practicamodulestrategypattern.html">
+            
+                    
+                    Práctica: Creación de Paquetes NPM y Strategy Pattern
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos Buenas Prácticas</li>
+        
+        
+    
+        <li class="chapter " data-level="14.1" data-path="../repasos/oop.html">
+            
+                <a href="../repasos/oop.html">
+            
+                    
+                    Repasos: Preguntas de OOP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="14.2" data-path="../repasos/codesmelling.html">
+            
+                <a href="../repasos/codesmelling.html">
+            
+                    
+                    Repasos: Code Smelling
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="14.3" data-path="../repasos/strategy-pattern.html">
+            
+                <a href="../repasos/strategy-pattern.html">
+            
+                    
+                    Repasos: Code Smelling
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Pruebas</li>
+        
+        
+    
+        <li class="chapter " data-level="15.1" data-path="../apuntes/pruebas/">
+            
+                <a href="../apuntes/pruebas/">
+            
+                    
+                    Pruebas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.2" data-path="../apuntes/pruebas/mocha.html">
+            
+                <a href="../apuntes/pruebas/mocha.html">
+            
+                    
+                    Mocha
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.3" data-path="../apuntes/pruebas/mocha.html">
+            
+                <a href="../apuntes/pruebas/mocha.html#should">
+            
+                    
+                    Should
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.4" data-path="../apuntes/pruebas/travis.html">
+            
+                <a href="../apuntes/pruebas/travis.html">
+            
+                    
+                    Travis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.5" data-path="../apuntes/pruebas/chai.html">
+            
+                <a href="../apuntes/pruebas/chai.html">
+            
+                    
+                    Chai
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.6" data-path="../apuntes/pruebas/sinon.html">
+            
+                <a href="../apuntes/pruebas/sinon.html">
+            
+                    
+                    Sinon
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.7" data-path="../apuntes/pruebas/karma.html">
+            
+                <a href="../apuntes/pruebas/karma.html">
+            
+                    
+                    Karma
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.8" data-path="../apuntes/pruebas/covering.html">
+            
+                <a href="../apuntes/pruebas/covering.html">
+            
+                    
+                    Covering
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.9" data-path="../apuntes/pruebas/blanket.html">
+            
+                <a href="../apuntes/pruebas/blanket.html">
+            
+                    
+                    Blanket
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.10" data-path="../apuntes/pruebas/istanbul.html">
+            
+                <a href="../apuntes/pruebas/istanbul.html">
+            
+                    
+                    Istanbul
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.11" data-path="../apuntes/pruebas/browsersync.html">
+            
+                <a href="../apuntes/pruebas/browsersync.html">
+            
+                    
+                    BrowserSync
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Prácticas de Pruebas</li>
+        
+        
+    
+        <li class="chapter " data-level="16.1" data-path="practicaevaluakarma.html">
+            
+                <a href="practicaevaluakarma.html">
+            
+                    
+                    Práctica: Evaluar Karma
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos Pruebas</li>
+        
+        
+    
+        <li class="chapter " data-level="17.1" data-path="../repasos/mochachai.html">
+            
+                <a href="../repasos/mochachai.html">
+            
+                    
+                    Repasos: Preguntas de Mocha y Chai
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Programación Web</li>
+        
+        
+    
+        <li class="chapter " data-level="18.1" data-path="../apuntes/express/">
+            
+                <a href="../apuntes/express/">
+            
+                    
+                    Express
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="18.1.1" data-path="../apuntes/express/expressroutes.html">
+            
+                <a href="../apuntes/express/expressroutes.html">
+            
+                    
+                    Rutas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="18.1.2" data-path="../apuntes/express/expressgenerator.html">
+            
+                <a href="../apuntes/express/expressgenerator.html">
+            
+                    
+                    Express Generator
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="18.2" data-path="../apuntes/rest/">
+            
+                <a href="../apuntes/rest/">
+            
+                    
+                    Arquitectura REST, REST APIs y GraphQL
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="18.2.1" data-path="../apuntes/rest/githubapitutorial.html">
+            
+                <a href="../apuntes/rest/githubapitutorial.html">
+            
+                    
+                    Getting Started with the GitHub API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="18.3" data-path="../apuntes/cookies/">
+            
+                <a href="../apuntes/cookies/">
+            
+                    
+                    Cookies y Sessions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="18.4" data-path="../apuntes/authentication/">
+            
+                <a href="../apuntes/authentication/">
+            
+                    
+                    Authentication con OAuth
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="18.5" data-path="../apuntes/ssl/">
+            
+                <a href="../apuntes/ssl/">
+            
+                    
+                    SSL
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">React</li>
+        
+        
+    
+        <li class="chapter " data-level="19.1" data-path="../apuntes/react/">
+            
+                <a href="../apuntes/react/">
+            
+                    
+                    React
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Meteor</li>
+        
+        
+    
+        <li class="chapter " data-level="20.1" data-path="../apuntes/meteor/">
+            
+                <a href="../apuntes/meteor/">
+            
+                    
+                    Meteor
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="20.1.1" data-path="../apuntes/meteor/introduccion.html">
+            
+                <a href="../apuntes/meteor/introduccion.html">
+            
+                    
+                    Meteor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.2" data-path="../apuntes/meteor/instalando.html">
+            
+                <a href="../apuntes/meteor/instalando.html">
+            
+                    
+                    Instalando Meteor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.3" data-path="../apuntes/meteor/consolas.html">
+            
+                <a href="../apuntes/meteor/consolas.html">
+            
+                    
+                    Consolas de Meteor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.4" data-path="../apuntes/meteor/plantillas.html">
+            
+                <a href="../apuntes/meteor/plantillas.html">
+            
+                    
+                    Plantillas en Meteor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.5" data-path="../apuntes/meteor/collections.html">
+            
+                <a href="../apuntes/meteor/collections.html">
+            
+                    
+                    Colecciones en Meteor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.6" data-path="../apuntes/meteor/primera_app.html">
+            
+                <a href="../apuntes/meteor/primera_app.html">
+            
+                    
+                    Construyendo una app
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.7" data-path="../apuntes/meteor/rutas.html">
+            
+                <a href="../apuntes/meteor/rutas.html">
+            
+                    
+                    Rutas en Meteor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.8" data-path="../apuntes/meteor/guia_comandos.html">
+            
+                <a href="../apuntes/meteor/guia_comandos.html">
+            
+                    
+                    Guía de comandos Meteor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.9" data-path="../apuntes/meteor/enlaces.html">
+            
+                <a href="../apuntes/meteor/enlaces.html">
+            
+                    
+                    Enlaces y recursos de interés
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Chrome Apps</li>
+        
+        
+    
+        <li class="chapter " data-level="21.1" data-path="../apuntes/chromeapps/">
+            
+                <a href="../apuntes/chromeapps/">
+            
+                    
+                    Chrome Apps
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Prácticas de Programación Web</li>
+        
+        
+    
+        <li class="chapter " data-level="22.1" data-path="practicaconversordetemperaturas.html">
+            
+                <a href="practicaconversordetemperaturas.html">
+            
+                    
+                    Práctica: JavaScript en el Cliente
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.2" data-path="practicalearningrouting.html">
+            
+                <a href="practicalearningrouting.html">
+            
+                    
+                    Práctica: Estudiar las Rutas en ExpressJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.3" data-path="practicalearningcookies.html">
+            
+                <a href="practicalearningcookies.html">
+            
+                    
+                    Práctica: Estudiar las Cookies y las Sessions en ExpressJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.4" data-path="practicasessions.html">
+            
+                <a href="practicasessions.html">
+            
+                    
+                    Práctica: Autenticación usando sessions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.5" data-path="practicaiaas.html">
+            
+                <a href="practicaiaas.html">
+            
+                    
+                    Práctica: Despliegues en iaas y heroku
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="22.6" data-path="practicaplugin.html">
+            
+                <a href="practicaplugin.html">
+            
+                    
+                    Práctica: Añadiendo plugins para los despliegues. iaas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.7" data-path="practicaplugin2.html">
+            
+                <a href="practicaplugin2.html">
+            
+                    
+                    Práctica: gitbook-start. Plugin para heroku
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.8" data-path="practicagithubapi.html">
+            
+                <a href="practicagithubapi.html">
+            
+                    
+                    Práctica: GitHub API, Heroku API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.9" data-path="practicapassport.html">
+            
+                <a href="practicapassport.html">
+            
+                    
+                    Práctica: Autenticación OAuth con Passport
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.10" data-path="practicapassportlocal.html">
+            
+                <a href="practicapassportlocal.html">
+            
+                    
+                    Práctica: Passport y LocalStrategy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.11" data-path="practicapassportlocalsequelize.html">
+            
+                <a href="practicapassportlocalsequelize.html">
+            
+                    
+                    Práctica: LocalStrategy y Base de Datos: LocalStrategy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.12" data-path="practicassl.html">
+            
+                <a href="practicassl.html">
+            
+                    
+                    Práctica: Añadir HTTPS al servidor del libro
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos de Programación Web</li>
+        
+        
+    
+        <li class="chapter " data-level="23.1" data-path="../repasos/html.html">
+            
+                <a href="../repasos/html.html">
+            
+                    
+                    Preguntas de HTML
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.2" data-path="../repasos/css.html">
+            
+                <a href="../repasos/css.html">
+            
+                    
+                    Preguntas de CSS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.3" data-path="../repasos/ejs.html">
+            
+                <a href="../repasos/ejs.html">
+            
+                    
+                    Preguntas de ejs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.4" data-path="../repasos/expressroutes.html">
+            
+                <a href="../repasos/expressroutes.html">
+            
+                    
+                    Preguntas de Rutas en ExpressJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.5" data-path="../repasos/jquery.html">
+            
+                <a href="../repasos/jquery.html">
+            
+                    
+                    Preguntas de jquery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.6" data-path="../repasos/underscore.html">
+            
+                <a href="../repasos/underscore.html">
+            
+                    
+                    Preguntas de underscore
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.7" data-path="../repasos/localstorage.html">
+            
+                <a href="../repasos/localstorage.html">
+            
+                    
+                    Preguntas de localstorage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.8" data-path="../repasos/pug.html">
+            
+                <a href="../repasos/pug.html">
+            
+                    
+                    Preguntas de pug
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.9" data-path="../repasos/sass.html">
+            
+                <a href="../repasos/sass.html">
+            
+                    
+                    Preguntas de sass
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.10" data-path="../repasos/https.html">
+            
+                <a href="../repasos/https.html">
+            
+                    
+                    Preguntas de HTTPS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.11" data-path="../repasos/ajax.html">
+            
+                <a href="../repasos/ajax.html">
+            
+                    
+                    Preguntas de AJAX
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.12" data-path="../repasos/passport.html">
+            
+                <a href="../repasos/passport.html">
+            
+                    
+                    Preguntas de Passport
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.13" data-path="../repasos/cookies.html">
+            
+                <a href="../repasos/cookies.html">
+            
+                    
+                    Preguntas de Cookies
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.14" data-path="../repasos/rest.html">
+            
+                <a href="../repasos/rest.html">
+            
+                    
+                    Preguntas de REST
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.15" data-path="../repasos/githubapi.html">
+            
+                <a href="../repasos/githubapi.html">
+            
+                    
+                    Preguntas de GtiHub API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Bases de Datos</li>
+        
+        
+    
+        <li class="chapter " data-level="24.1" data-path="../apuntes/db/">
+            
+                <a href="../apuntes/db/">
+            
+                    
+                    Bases de Datos/DataBases
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="24.1.1" data-path="../apuntes/db/sqlite/">
+            
+                <a href="../apuntes/db/sqlite/">
+            
+                    
+                    Sqlite
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="24.1.2" data-path="../apuntes/db/sequelize/">
+            
+                <a href="../apuntes/db/sequelize/">
+            
+                    
+                    Sequelize
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="24.1.3" data-path="../apuntes/db/mongo/">
+            
+                <a href="../apuntes/db/mongo/">
+            
+                    
+                    Mongo
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="24.1.3.1" data-path="../apuntes/db/mongo/mongodb.html">
+            
+                <a href="../apuntes/db/mongo/mongodb.html">
+            
+                    
+                    MongoDB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="24.1.3.2" data-path="../apuntes/db/mongo/mongoose.html">
+            
+                <a href="../apuntes/db/mongo/mongoose.html">
+            
+                    
+                    Mongoose
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos de Bases de Datos</li>
+        
+        
+    
+        <li class="chapter " data-level="25.1" data-path="../repasos/mongo.html">
+            
+                <a href="../repasos/mongo.html">
+            
+                    
+                    Preguntas de Mongo
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos Bases de Datos</li>
+        
+        
+    
+        <li class="chapter " data-level="26.1" data-path="../repasos/mongo.html">
+            
+                <a href="../repasos/mongo.html">
+            
+                    
+                    Repasos: Preguntas de mongo
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">ECMA 6</li>
+        
+        
+    
+        <li class="chapter " data-level="27.1" >
+            
+                <a target="_blank" href="http://exploringjs.com/es6/">
+            
+                    
+                    Libro: Exploring Ecma 6
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2" data-path="../apuntes/babel/">
+            
+                <a href="../apuntes/babel/">
+            
+                    
+                    Babel ES6, ES7 y ES8
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="27.2.1" data-path="../apuntes/babel/proceso-de-introduccion-de-nuevas-caracteristicas.html">
+            
+                <a href="../apuntes/babel/proceso-de-introduccion-de-nuevas-caracteristicas.html">
+            
+                    
+                    Proceso de Introducción de Nuevas Características
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.2" data-path="../apuntes/babel/babel.html">
+            
+                <a href="../apuntes/babel/babel.html">
+            
+                    
+                    Babel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.3" data-path="../apuntes/babel/funciones-flecha.html">
+            
+                <a href="../apuntes/babel/funciones-flecha.html">
+            
+                    
+                    Funciones Flecha
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.4" data-path="../apuntes/babel/deconstrucciones.html">
+            
+                <a href="../apuntes/babel/deconstrucciones.html">
+            
+                    
+                    Deconstrucciones
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.5" data-path="../apuntes/babel/operador-de-dispersion.html">
+            
+                <a href="../apuntes/babel/operador-de-dispersion.html">
+            
+                    
+                    Operador de Dispersión
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.6" data-path="../apuntes/babel/iteradores.html">
+            
+                <a href="../apuntes/babel/iteradores.html">
+            
+                    
+                    Iteradores
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.7" data-path="../apuntes/babel/nueva-sintaxis-en-bucles-for.html">
+            
+                <a href="../apuntes/babel/nueva-sintaxis-en-bucles-for.html">
+            
+                    
+                    Nueva sintaxis en bucles for
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.8" data-path="../apuntes/babel/operador-bind.html">
+            
+                <a href="../apuntes/babel/operador-bind.html">
+            
+                    
+                    Operador bind
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.9" data-path="../apuntes/babel/import.html">
+            
+                <a href="../apuntes/babel/import.html">
+            
+                    
+                    Import
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.10" data-path="../apuntes/babel/export.html">
+            
+                <a href="../apuntes/babel/export.html">
+            
+                    
+                    Export
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.11" data-path="../apuntes/babel/async-y-await.html">
+            
+                <a href="../apuntes/babel/async-y-await.html">
+            
+                    
+                    Async y Await
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.12" data-path="../apuntes/babel/integracion-de-babel-con-gulp.html">
+            
+                <a href="../apuntes/babel/integracion-de-babel-con-gulp.html">
+            
+                    
+                    Integración de Babel con Gulp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.13" data-path="../apuntes/babel/integracion-con-express.html">
+            
+                <a href="../apuntes/babel/integracion-con-express.html">
+            
+                    
+                    Integración con Express
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos: ECMA6</li>
+        
+        
+    
+        <li class="chapter " data-level="28.1" data-path="../repasos/ecma6.html">
+            
+                <a href="../repasos/ecma6.html">
+            
+                    
+                    Repaso: Preguntas de ecma6
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Procesamiento de Lenguajes</li>
+        
+        
+    
+        <li class="chapter " data-level="29.1" >
+            
+                <a target="_blank" href="http://cs448h.stanford.edu/little-languages.pdf">
+            
+                    
+                    Little Languages. Programing Pearls. Jon Bentley
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.2" >
+            
+                <a target="_blank" href="http://cs448h.stanford.edu/DSEL-Little.pdf">
+            
+                    
+                    P Hudak. Domain Specific Languages
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.3" data-path="../apuntes/regexp/">
+            
+                <a href="../apuntes/regexp/">
+            
+                    
+                    Expresiones Regulares
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="29.3.1" data-path="../apuntes/regexp/regexpejercicios.html">
+            
+                <a href="../apuntes/regexp/regexpejercicios.html">
+            
+                    
+                    Ejercicios de Expresiones Regulares
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="29.4" data-path="../apuntes/parsing/">
+            
+                <a href="../apuntes/parsing/">
+            
+                    
+                    Parsing: Técnicas de Análisis
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="29.4.1" data-path="../apuntes/parsing/tdop/">
+            
+                <a href="../apuntes/parsing/tdop/">
+            
+                    
+                    Operator Precedence Analysis
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="29.4.1.1" data-path="../apuntes/parsing/tdop/tdop.html">
+            
+                <a href="../apuntes/parsing/tdop/tdop.html">
+            
+                    
+                    Top Down Operator Precedence Analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="29.4.2" data-path="../apuntes/parsing/recursivodescendente/">
+            
+                <a href="../apuntes/parsing/recursivodescendente/">
+            
+                    
+                    Análisis Recursivo Descendente
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="29.5" data-path="../apuntes/parsing/eloquentjs/">
+            
+                <a href="../apuntes/parsing/eloquentjs/">
+            
+                    
+                    Eloquent JS: Chapter 11. Project: A Programming Language
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.6" data-path="../apuntes/parsing/pltutlisperator/">
+            
+                <a href="../apuntes/parsing/pltutlisperator/">
+            
+                    
+                    How to implement a programming language in JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.7" data-path="../apuntes/parsing/grammars/">
+            
+                <a href="../apuntes/parsing/grammars/">
+            
+                    
+                    Grammars / Gramáticas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.8" data-path="../apuntes/pegjs/PEGS.html">
+            
+                <a href="../apuntes/pegjs/PEGS.html">
+            
+                    
+                    PEGs
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="29.8.1" data-path="../apuntes/pegjs/esprima.html">
+            
+                <a href="../apuntes/pegjs/esprima.html">
+            
+                    
+                    Esprima
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.8.2" data-path="../apuntes/pegjs/pegjs.html">
+            
+                <a href="../apuntes/pegjs/pegjs.html">
+            
+                    
+                    borrador
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.8.3" data-path="../repasos/pegjs.html">
+            
+                <a href="../repasos/pegjs.html">
+            
+                    
+                    Repasos: PEG.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="29.9" data-path="../apuntes/parsing/gll/">
+            
+                <a href="../apuntes/parsing/gll/">
+            
+                    
+                    GLL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.10" data-path="practicaanalisislexicotdop.html">
+            
+                <a href="practicaanalisislexicotdop.html">
+            
+                    
+                    Práctica: Analizador Léxico para Un Subconjunto de JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.11" data-path="practicarecdescparser.html">
+            
+                <a href="practicarecdescparser.html">
+            
+                    
+                    Práctica: Analizador Descendente Predictivo Recursivo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.12" data-path="practicapegparser.html">
+            
+                <a href="practicapegparser.html">
+            
+                    
+                    Práctica: Analizador Usando PEG.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos PL</li>
+        
+        
+    
+        <li class="chapter " data-level="30.1" data-path="../repasos/regexp.html">
+            
+                <a href="../repasos/regexp.html">
+            
+                    
+                    Repasos: Preguntas de Expresiones Regulares
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="30.2" data-path="../repasos/lexicalanalyzer.html">
+            
+                <a href="../repasos/lexicalanalyzer.html">
+            
+                    
+                    Repasos: Preguntas de Analizador Léxico
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="30.3" data-path="../repasos/pegjs.html">
+            
+                <a href="../repasos/pegjs.html">
+            
+                    
+                    Repasos: PEG.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos</li>
+        
+        
+    
+        <li class="chapter " data-level="31.1" data-path="../repasos/">
+            
+                <a href="../repasos/">
+            
+                    
+                    Repasos
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Recursos</li>
+        
+        
+    
+        <li class="chapter " data-level="32.1" data-path="../recursos/">
+            
+                <a href="../recursos/">
+            
+                    
+                    Recursos
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Servicios en la Nube</li>
+        
+        
+    
+        <li class="chapter " data-level="33.1" data-path="../recursos/iaas.html">
+            
+                <a href="../recursos/iaas.html">
+            
+                    
+                    iaas.ull.es
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="33.1.1" data-path="../repasos/ssh.html">
+            
+                <a href="../repasos/ssh.html">
+            
+                    
+                    Repaso: Preguntas de SSH
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="33.1.2" data-path="../repasos/iaas.html">
+            
+                <a href="../repasos/iaas.html">
+            
+                    
+                    Repasos: Preguntas sobre Plataformas de Despliegue
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="33.2" data-path="../recursos/heroku.html">
+            
+                <a href="../recursos/heroku.html">
+            
+                    
+                    Heroku
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="33.2.1" data-path="../repasos/heroku.html">
+            
+                <a href="../repasos/heroku.html">
+            
+                    
+                    Repaso: Preguntas de heroku
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="33.3" data-path="../recursos/yellow.html">
+            
+                <a href="../recursos/yellow.html">
+            
+                    
+                    Yellow Circle
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="33.4" data-path="../recursos/azure.html">
+            
+                <a href="../recursos/azure.html">
+            
+                    
+                    Azure in education
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="33.5" data-path="../recursos/c9.html">
+            
+                <a href="../recursos/c9.html">
+            
+                    
+                    c9
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Prácticas</li>
+        
+        
+    
+        <li class="chapter " data-level="34.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Prácticas
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Presentaciones</li>
+        
+        
+    
+        <li class="chapter " data-level="35.1" data-path="../presentaciones/temasSYTW.html">
+            
+                <a href="../presentaciones/temasSYTW.html">
+            
+                    
+                    Temas Sugeridos para SYTW
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="35.2" >
+            
+                <a target="_blank" href="https://casianorodriguezleon.gitbooks.io/presentaciones-de-sytw-2016-2017/content/">
+            
+                    
+                    Presentaciones de SYTW 16/17
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Proyectos</li>
+        
+        
+    
+        <li class="chapter " data-level="36.1" data-path="../proyectos/">
+            
+                <a href="../proyectos/">
+            
+                    
+                    Proyectos
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="36.1.1" data-path="../proyectos/sytw/">
+            
+                <a href="../proyectos/sytw/">
+            
+                    
+                    Proyecto de SYTW
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="36.1.2" data-path="../proyectos/pl/">
+            
+                <a href="../proyectos/pl/">
+            
+                    
+                    Proyecto de PL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="36.1.3" data-path="../proyectos/dsi/">
+            
+                <a href="../proyectos/dsi/">
+            
+                    
+                    Proyecto de DSI
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">DEFINICIONES DE TÉRMINOS</li>
+        
+        
+    
+        <li class="chapter " data-level="37.1" data-path="../GLOSSARY.html">
+            
+                <a href="../GLOSSARY.html">
+            
+                    
+                    GLOSARIO
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Práctica: Añadiendo plugins para los despliegues. iaas</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="pr&#xE1;ctica-nueva-funcionalidad-para-el-paquete-npm-plugins">Pr&#xE1;ctica: Nueva funcionalidad para el Paquete NPM: plugins</h2>
+<sec data-title="Descripci&#xF3;n" data-id="sectiondescripcion" data-show="true"><div class="panel panel-default"><div class="panel-heading"><h2 id="descripci&#xF3;n">Descripci&#xF3;n<a class="pull-right section atTitle btn btn-default" target="sectiondescripcion"><span class="fa fa-angle-up"></span></a></h2></div><div class="panel-collapse in" id="sectiondescripcion"><div class="panel-body">
+<h4 id="objetivo">Objetivo</h4>
+<p>El objetivo de esta pr&#xE1;ctica  es extender el <a href="practicanm.html">package NodeJS  publicado</a> en <a href="https://www.npmjs.com" target="_blank">npm</a> en una pr&#xE1;ctica anterior con una nueva funcionalidad
+que permita que los usuarios con conocimientos de NodeJS puedan extender la conducta del ejecutable para que este realice el despliegue en plataformas distintas de las ya consideradas.</p>
+<p><strong>En esta pr&#xE1;ctica s&#xF3;lo se pide desarrollar el plugin para iaas.ull.es</strong></p>
+<h4 id="punto-de-partida">Punto de partida</h4>
+<p>El paquete se construye a partir de</p>
+<ul>
+<li>El c&#xF3;digo que haya desarrollado en la <a href="practicanm.html">pr&#xE1;ctica en la que creamos el package NodeJS</a>.</li>
+<li>El c&#xF3;digo que haya desarrollado en la <a href="practicaniaas.md">pr&#xE1;ctica en Despliegues en iaas y heroku</a>.</li>
+</ul>
+<h4 id="la-opci&#xF3;n---deploy">La opci&#xF3;n <code>--deploy</code></h4>
+<ul>
+<li>Se trata de a&#xF1;adir al ejecutable <code>gitbook-start</code> una opci&#xF3;n <code>--deploy</code> o <code>-d</code> que va seguida de un tipo de despliegue:<pre><code class="lang-bash">$ gitbook-start --deploy ull-iaas-es --deploy heroku
+</code></pre>
+Que indica que nuestro usuario quiere que se le provea de tareas <code>gulp</code> denominadas <code>deploy-ull-iaas-es</code> y <code>deploy-heroku</code> que despliegan el libro en los diferentes  sites. Esto supone que existen m&#xF3;dulos <a href="https://www.npmjs.com/" target="_blank">npm</a> con nombres <code>gitbook-start-plugin-iaas-ull-es</code>  y <code>gitbook-start-plugin-heroku</code></li></ul></div></div></div></sec>
+
+
+<sec data-title="Como Hacerlo" data-id="sectioncomohacerlo" data-show="true"><div class="panel panel-default"><div class="panel-heading"><h2 id="como-hacerlo">Como Hacerlo<a class="pull-right section atTitle btn btn-default" target="sectioncomohacerlo"><span class="fa fa-angle-up"></span></a></h2></div><div class="panel-collapse in" id="sectioncomohacerlo"><div class="panel-body">
+<ul>
+<li>Para implementar la ejecuci&#xF3;n de la llamada en l&#xED;nea de comandos:<pre><code class="lang-bash">$ gitbook-start --deploy ull-iaas-es --deploy heroku
+</code></pre>
+Esto es, deber&#xE1;n existir plugins <code>gitbook-start-plugin-iaas-ull-es</code> y
+<code>gitbook-start-plugin-heroku</code> que exportan un objeto que dispone de un
+m&#xE9;todo <code>deploy()</code>, de manera que si desde un c&#xF3;digo principal se llama a un c&#xF3;digo como este:<pre><code class="lang-bash">var iaas = require(<span class="hljs-string">&quot;book-start-plugin-iaas-ull-es&quot;</span>);
+var result = iaas.deploy();
+</code></pre>
+se despliega el libro en la m&#xE1;quina virtual de <code>iaas.ull.es</code></li>
+<li><p>Observe que hay dos fases en este proceso:</p>
+<ol>
+<li>cuando se construye la estructura inicial por <code>gitbook-start</code> la jerarqu&#xED;a de directorios conteniendo los scripts y ficheros markdown para el libro y</li>
+<li>cuando el autor escribe y despliega el libro llamando a <code>gulp</code>. Las llamadas a <code>gulp deploy-...</code> ocurren en esta segunda fase. El despliegue hace un <code>require</code> de los plugins que implementan los despliegues solicitados.</li>
+</ol>
+</li>
+<li><p>Es conveniente que el m&#xE9;todo <code>deploy()</code> (llamado en la Fase 2) prove&#xED;do por el plugin retorne un objeto con atributos describiendo los resultados del despliegue como</p>
+<ul>
+<li>Salida por <code>stdout</code> en la m&#xE1;quina remota</li>
+<li>Salida por <code>stderr</code>en la m&#xE1;quina remota</li>
+<li>C&#xF3;digos de error si los hubiera</li>
+<li>etc. Cualquier informaci&#xF3;n adicional que considere conveniente.</li>
+</ul>
+</li>
+<li><p>El m&#xE9;todo <code>deploy()</code> puede obtener informaci&#xF3;n sobre el libro a partir del <code>package.json</code> generado. Tambi&#xE9;n si lo prefieren pueden pasarle un argumento con la informaci&#xF3;n/estado que hayamos podido recopilar sobre el objeto resultante del <code>package.json</code></p>
+</li>
+<li><p>Los plugins deben estar correctamente documentados.</p>
+<ul>
+<li>Por ejemplo, el plugin del <code>iaas-ull-es</code> necesita al menos saber la direcci&#xF3;n de la m&#xE1;quina virtual y el camino en dicha m&#xE1;quina hasta el repositorio que contiene el libro</li>
+<li>Pueden optar por aceptar argumentos adicionales en l&#xED;nea de comandos para esta informaci&#xF3;n</li>
+</ul>
+<pre><code class="lang-bash">$ gitbook-start <span class="hljs-_">-d</span> iaas-ull-es, --iaas-IP 127.0.25.5 --iaas-path src/chuchu
+</code></pre>
+<ul>
+<li>O bien pueden optar porque simplemente el usuario a&#xF1;ada los correspondientes campos en el <code>package.json</code></li>
+</ul>
+<pre><code class="lang-javascript">{
+  ...
+  <span class="hljs-string">&quot;iaas-IP&quot;</span>, <span class="hljs-string">&quot;127.0.25.5&quot;</span>,
+  <span class="hljs-string">&quot;iaas-path&quot;</span>, <span class="hljs-string">&quot;src/chuchu&quot;</span>,
+  ...
+}
+</code></pre>
+<p>En cualquier caso debe aparecer en la documentaci&#xF3;n lo que hay que hacer</p>
+</li>
+<li>El m&#xE9;todo <code>initialize</code> del objeto plugin.<ul>
+<li>Es conveniente que el objeto  retornado por el <code>require</code> del plugin<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> iaas = <span class="hljs-built_in">require</span>(<span class="hljs-string">&quot;book-start-plugin-iaas-ull-es&quot;</span>);
+<span class="hljs-keyword">var</span> result = iaas.initialize();
+</code></pre>
+disponga de un m&#xE9;todo <code>initialize</code> que es llamado por <code>gitbook-start</code> en el tiempo de construcci&#xF3;n de la jerarqu&#xED;a del libro (Fase 1). Este m&#xE9;todo puede ser usado para cosas como:</li>
+<li>En el caso del plugin <code>iaas</code> - si se quiere, no se pide para esta pr&#xE1;ctica - para construir el repositorio en la m&#xE1;quina remota, o bien - tampoco se pide - para generar e instalar la clave y publicarla en la m&#xE1;quina virtual, etc.</li>
+<li>En el caso del plugin <code>heroku</code> para a&#xF1;adir un template con el servidor express que va a correr en la m&#xE1;quina de Heroku, etc.</li>
+<li>Tambi&#xE9;n se puede usar <code>initialize</code>para modificar el <code>gulpfile</code> a conveniencia, de manera que sea el propio plugin el que escriba la secci&#xF3;n <code>deploy-plugin</code> y no <code>gitbook-start</code></li>
+</ul>
+</li>
+</ul>
+</div></div></div></sec>
+<sec data-title="Referencias" data-id="sectionreferencias" data-show="true"><div class="panel panel-default"><div class="panel-heading"><h2 id="referencias">Referencias<a class="pull-right section atTitle btn btn-default" target="sectionreferencias"><span class="fa fa-angle-up"></span></a></h2></div><div class="panel-collapse in" id="sectionreferencias"><div class="panel-body">
+<ul>
+<li><a href="../apuntes/patterns/codesmell.html">Code Smells</a></li>
+<li><a href="../apuntes/patterns/">Patrones de Dise&#xF1;o</a><ul>
+<li><a href="../apuntes/patterns/dependencyinjection.md">Dependency Injection Pattern</a></li>
+<li><a href="../apuntes/patterns/inversionofcontrol.md">Inversion of Control Pattern</a></li>
+<li><a href="../apuntes/patterns/strategypattern.html">Strategy Pattern</a></li>
+</ul>
+</li>
+<li><a href="../apuntes/patterns/designprinciples.html">Principios de Dise&#xF1;o</a></li>
+<li><a href="../apuntes/nodejspackages.md">Creaci&#xF3;n de Paquetes y M&#xF3;dulos en NodeJS</a></li>
+<li><a href="../apuntes/gulp/">Gulp</a></li>
+<li>Para analizar los argumentos pasados en l&#xED;nea de comandos un buen m&#xF3;dulo es <a href="https://github.com/substack/minimist" target="_blank">minimist</a></li>
+<li><a href="https://www.npmjs.com/package/ejs" target="_blank">ejs</a>
+para la creaci&#xF3;n de plantillas</li>
+<li><a href="../apuntes/fs.html">Paquetes - como <code>fs</code> - para el manejo de archivos en Node.JS</a></li></ul></div></div></div></sec>
+
+
+<sec data-title="Q&amp;A: Preguntas y Respuestas" data-id="sectionpreguntasyrespuestas" data-show="true"><div class="panel panel-default"><div class="panel-heading"><h2 id="qa-preguntas-y-respuestas">Q&amp;A: Preguntas y Respuestas<a class="pull-right section atTitle btn btn-default" target="sectionpreguntasyrespuestas"><span class="fa fa-angle-up"></span></a></h2></div><div class="panel-collapse in" id="sectionpreguntasyrespuestas"><div class="panel-body">
+<ol>
+<li><p><em>&#xBF;La creaci&#xF3;n de los dos plugins debe abordarse en dos repositorios diferentes e independientes para cada plugin o paquete npm? Estamos considerando la idea de partir del repositorio de la pr&#xE1;ctica 2 y modificar la funcionalidad del paquete gitbook-start-team?</em></p>
+<p>Cada plugin es un paquete con un repo diferente. Asi el de <code>iaas</code> es un repo distinto del de <code>Heroku</code>. Cada plugin es un m&#xF3;dulo <code>npm</code> diferente.</p>
+<p>Creo que tienen permisos para crear repos dentro de la organizaci&#xF3;n GitHub <code>Sistemas y Tecnolog&#xED;as Web 2016/2017</code>. Si no es as&#xED;, si lo prefieren les creo un repo en la organizaci&#xF3;n para el plugin del <code>iaas</code> mediante una asignaci&#xF3;n classroom o bien lo hacen ustedes mismos en su propia cuenta de GitHub. Por supuesto en la entrega deben haber los enlaces correspondientes a los plugins en el <code>README.md</code> del repo principal.</p>
+<p>Adem&#xE1;s de los repos para los plugins est&#xE1; el repo principal que es el del m&#xF3;dulo <code>gitbook-start</code></p>
+<p>Para esta pr&#xE1;ctica <strong>con que hagan un repo-plugin para <code>iaas</code> es suficiente</strong>.</p>
+</li>
+<li><p><em>Cuando el usuario ejecute el comando <code>gitbook-start</code>, &#xBF;debe crearse una estructura inicial de gitbook en el que ahora figuren nuevos archivos con respecto a la pr&#xE1;ctica 2 como, por ejemplo, <code>app.js</code>, <code>public/</code>, ...? En ese caso, entendemos que debemos ampliar el contenido del directorio <code>template/</code> con nuevos archivos.</em></p>
+<p>No.  Si te he entendido <code>app.js</code>, <code>public</code> se refieren al despliegue en Heroku. Por tanto deber&#xED;an estar en el repo del plugin de Heroku.
+En esta pr&#xE1;ctica basta que lo hagan para el <code>iaas</code>. Dejamos el plugin para <code>heroku</code> para una pr&#xE1;ctica siguiente.</p>
+</li></ol></div></div></div></sec>
+
+
+
+                                
+                                </section>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="practicaiaas.html" class="navigation navigation-prev " aria-label="Previous page: Práctica: Despliegues en iaas y heroku">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="practicaplugin2.html" class="navigation navigation-next " aria-label="Next page: Práctica: gitbook-start. Plugin para heroku">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Práctica: Añadiendo plugins para los despliegues. iaas","level":"22.6","depth":1,"next":{"title":"Práctica: gitbook-start. Plugin para heroku","level":"22.7","depth":1,"path":"practicas/practicaplugin2.md","ref":"practicas/practicaplugin2.md","articles":[]},"previous":{"title":"Práctica: Despliegues en iaas y heroku","level":"22.5","depth":1,"path":"practicas/practicaiaas.md","ref":"practicas/practicaiaas.md","articles":[]},"dir":"ltr"},"config":{"plugins":["include","katex","include-codeblock","ace","-autocover","-layout","youtube","video","highlight","sectionx","code-highlighter","copy-code-button","page-toc","-toc","-latex-codecogs","-emphasize","collapsible-menu","js-console","codetabs","es6tabs-stage-0","jazer"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"code-highlighter":{},"collapsible-menu":{},"ace":{},"youtube":{},"es6tabs":{"presets":["es2015","stage-0"]},"include":{},"toc":{"addClass":"true","className":"toc"},"search":{"maxIndexSize":1000000},"autocover":{"title":"Apuntes del Curso 2016/2017: Procesadores de Lenguajes, Desarrollo de Sistemas Informáticos y Sistemas y Tecnologías Web","author":"Casiano","pluginsConfig":{"autocover":{"font":{"size":null,"family":"Impact","color":"#FFF"},"size":{"w":1800,"h":2360},"background":{"color":"#09F"}}}},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4"},"layout":{"headerPath":"layouts/header.html","footerPath":"layouts/footer.html"},"codetabs":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"jazer":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"js-console":{},"sectionx":{},"highlight":{},"copy-code-button":{},"es6tabs-stage-0":{"presets":["es2015","react"]},"video":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"chrome","unindent":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"practicas/practicaplugin.md","mtime":"2018-01-11T15:21:56.532Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-01-11T15:26:52.606Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ace/ace.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc/anchor-3.1.1.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc/page-toc.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-collapsible-menu/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-js-console/console-ui.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-codetabs/codetabs.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-jazer/questionjs/questionjs.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-jazer/question/question.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-jazer/regexp/regexp.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-jazer/xregexp/xregexp.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-jazer/ace/ace.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-jazer/ace/theme-dreamweaver.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/buttons.js"></script>
+        
+    
+
+    </body>
+</html>
+
