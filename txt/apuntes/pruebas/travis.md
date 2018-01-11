@@ -13,7 +13,7 @@
   
 ### Buscando los repos de una organización
 
-1. Si en la página de perfil hacemos click en una organización veremos los repos de esa organización
+1. Si en la página de perfil hacemos click en una organización veremos los repos públicos de esa organización (los repos privados aparecen en [travis-ci.com](https://travis-ci.com/) que es de pago)
   -  ![Viendo los repos en una organización](travis-profile-organization.png)
 2. Si hacemos click en un repo vemos el resultado de las pruebas de la última construcción en los servidores de Travis 
 3. La URL para ver los repos de una organización es `https://travis-ci.org/profile/organization`
