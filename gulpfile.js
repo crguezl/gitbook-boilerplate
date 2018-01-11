@@ -10,10 +10,10 @@ var deploygh = function() {
   console.log(REPO);
 
   gh.publish('./gh-pages', { repo: REPO, logger: function(m) { console.error(m); } });
-}
+};
 
 //  "deploy-gitbook": "./scripts/losh deploy-gitbook",
-gulp.task('deploy', [ 'build', 'push'], 
+gulp.task('deploy', [ 'build', 'push'],
            deploygh);
 
 //  "deploy-togbsio": "./scripts/losh deploy-togbsio",
@@ -52,9 +52,11 @@ gulp.task('build2', function() {
 });
 
 gulp.task('build', shell.task([
-      'gitbook build', 
+      'gitbook build',
       'rm -fR gh-pages',
-      'mv _book gh-pages'],
+      'mv _book gh-pages',
+      'cp .nojekyll gh-pages/'
+    ],
       { verbose: true }
 ));
 
@@ -180,4 +182,3 @@ gulp.task('pl1617-0709', ['exam'], shell.task(
 gulp.task('pl1617', ['exam'], shell.task(
       'cd examenes; pdflatex pl1617.tex'
       ));
-
