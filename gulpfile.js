@@ -55,7 +55,7 @@ gulp.task('build', shell.task([
       'gitbook build',
       'rm -fR gh-pages',
       'mv _book gh-pages',
-      'cp .nojekyll gh-pages/'
+      'touch gh-pages/.nojekyll'
     ],
       { verbose: true }
 ));
