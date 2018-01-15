@@ -9,23 +9,24 @@ Este ejemplo ilustra como hacerlo en versiones `8.*`:
 [~/EJS/chapter6-the-secret-life-of-objects(master)]$ node --version
 v8.1.2
 ```
-Véase la tarea `debug`:
+Véase la tarea `debugger`:
 
 ```js
-[~/EJS/chapter6-the-secret-life-of-objects(master)]$ cat gulpfile.js
+~/PLgradoLocal/campus-virtual/tema1-intro-a-js/practica-oop/OOP(master)]$ cat gulpfile.js
 var gulp = require('gulp');
 var shell = require('gulp-shell');
 
 gulp.task("default", ["test"]);
 
-// En versiones v8.*  chrome://inspect en el navegador
-// https://nodejs.org/en/docs/inspector/
-gulp.task('debug-old', shell.task('node --inspect --debug-brk main-draw-table.js'));
-gulp.task('debug', shell.task('node inspect-brk main-draw-table.js'));
+gulp.task("run", shell.task('NODE_PATH=./src node ./src/main.js'));
 
-gulp.task('run', shell.task('node main-draw-table.js'));
+/*
+En versiones v8.*  chrome://inspect en el navegador
+https://nodejs.org/en/docs/inspector/
+*/
+gulp.task('debugger', shell.task('NODE_PATH=./src node --inspect-brk src/main.js'));
 
-gulp.task("test", shell.task("./node_modules/mocha/bin/mocha --require should"));
+gulp.task("test", shell.task("NODE_PATH=./src ./node_modules/mocha/bin/mocha --require should"));
 ```
 Arrancamos:
 ```
