@@ -21,7 +21,7 @@ gulp.task("default", ["test"]);
 // En versiones v8.*  chrome://inspect en el navegador
 // https://nodejs.org/en/docs/inspector/
 gulp.task('debug-old', shell.task('node --inspect --debug-brk main-draw-table.js'));
-gulp.task('debug', shell.task('node inspect main-draw-table.js'));
+gulp.task('debug', shell.task('node inspect-brk main-draw-table.js'));
 
 gulp.task('run', shell.task('node main-draw-table.js'));
 
@@ -38,7 +38,7 @@ Arrancamos:
 Break on start in main-draw-table.js:1
 > 1 (function (exports, require, module, __filename, __dirname) { var drawIt = require("./lyingoutatable.js").drawIt;
   2 var MOUNTAINS = require("./mountains.json");
-  3 
+  3
 ```
 
 Si con el navegador `chrome` visitamos la URL
@@ -46,5 +46,3 @@ Si con el navegador `chrome` visitamos la URL
 estaremos en la página de depuración de Chrome.
 
 ![Debugging NodeJS con Chrome](debugnodejs.png)
-
-
