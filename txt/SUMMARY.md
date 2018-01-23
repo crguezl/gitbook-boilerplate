@@ -20,6 +20,8 @@
 
 * [Atom](apuntes/tools/README.md)
 * [AtomEditor Tutorials en YouTube](https://www.youtube.com/user/LevelUpTuts/search?query=atom)
+* [fzf](apuntes/tools/fzf.md)
+* [linuxbrew](apuntes/tools/linuxbrew.md)
 
 ### GitHub
 
