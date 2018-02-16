@@ -32,6 +32,7 @@ browse submissions by assignment.
   * solicítele al profesor que le invite a unirse a la organización.
   * Deberá aceptar la invitación visitando la página de la organización.
   * Una vez dentro, el profesor volverá a incorporarle al/los equipo(s)
+* Si es miembro de la Organización GitHub y por alguna razón GitHub Classroom no le permite crear el repo de la asignación, puede crearlo manualmente como se describe en este [vídeo](https://youtu.be/wU2YDDOnOhY)
 
 ### Instrucciones para el profesor
 
