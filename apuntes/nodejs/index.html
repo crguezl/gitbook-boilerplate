@@ -206,6 +206,19 @@
             
         </li>
     
+        <li class="chapter " data-level="1.2.5" data-path="../../instrucciones/impresion-ull.html">
+            
+                <a href="../../instrucciones/impresion-ull.html">
+            
+                    
+                    Instrucciones para el servicio de impresión
+            
+                </a>
+            
+
+            
+        </li>
+    
 
             </ul>
             
@@ -334,6 +347,32 @@
             
                     
                     AtomEditor Tutorials en YouTube
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../tools/fzf.html">
+            
+                <a href="../tools/fzf.html">
+            
+                    
+                    fzf
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../tools/linuxbrew.html">
+            
+                <a href="../tools/linuxbrew.html">
+            
+                    
+                    linuxbrew
             
                 </a>
             
@@ -2948,21 +2987,22 @@
 <pre><code class="lang-bash">[~/EJS/chapter6-the-secret-life-of-objects(master)]$ node --version
 v8.1.2
 </code></pre>
-<p>V&#xE9;ase la tarea <code>debug</code>:</p>
-<pre><code class="lang-js">[~<span class="hljs-regexp">/EJS/</span>chapter6-the-secret-life-<span class="hljs-keyword">of</span>-objects(master)]$ cat gulpfile.js
+<p>V&#xE9;ase la tarea <code>debugger</code>:</p>
+<pre><code class="lang-js">~<span class="hljs-regexp">/PLgradoLocal/</span>campus-virtual/tema1-intro-a-js/practica-oop/OOP(master)]$ cat gulpfile.js
 <span class="hljs-keyword">var</span> gulp = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp&apos;</span>);
 <span class="hljs-keyword">var</span> shell = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;gulp-shell&apos;</span>);
 
 gulp.task(<span class="hljs-string">&quot;default&quot;</span>, [<span class="hljs-string">&quot;test&quot;</span>]);
 
-<span class="hljs-comment">// En versiones v8.*  chrome://inspect en el navegador</span>
-<span class="hljs-comment">// https://nodejs.org/en/docs/inspector/</span>
-gulp.task(<span class="hljs-string">&apos;debug-old&apos;</span>, shell.task(<span class="hljs-string">&apos;node --inspect --debug-brk main-draw-table.js&apos;</span>));
-gulp.task(<span class="hljs-string">&apos;debug&apos;</span>, shell.task(<span class="hljs-string">&apos;node inspect main-draw-table.js&apos;</span>));
+gulp.task(<span class="hljs-string">&quot;run&quot;</span>, shell.task(<span class="hljs-string">&apos;NODE_PATH=./src node ./src/main.js&apos;</span>));
 
-gulp.task(<span class="hljs-string">&apos;run&apos;</span>, shell.task(<span class="hljs-string">&apos;node main-draw-table.js&apos;</span>));
+<span class="hljs-comment">/*
+En versiones v8.*  chrome://inspect en el navegador
+https://nodejs.org/en/docs/inspector/
+*/</span>
+gulp.task(<span class="hljs-string">&apos;debugger&apos;</span>, shell.task(<span class="hljs-string">&apos;NODE_PATH=./src node --inspect-brk src/main.js&apos;</span>));
 
-gulp.task(<span class="hljs-string">&quot;test&quot;</span>, shell.task(<span class="hljs-string">&quot;./node_modules/mocha/bin/mocha --require should&quot;</span>));
+gulp.task(<span class="hljs-string">&quot;test&quot;</span>, shell.task(<span class="hljs-string">&quot;NODE_PATH=./src ./node_modules/mocha/bin/mocha --require should&quot;</span>));
 </code></pre>
 <p>Arrancamos:</p>
 <pre><code>~/EJS/chapter6-the-secret-life-of-objects(master)]$ gulp debug
@@ -3006,7 +3046,7 @@ estaremos en la p&#xE1;gina de depuraci&#xF3;n de Chrome.</p>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Debugging NodeJS","level":"10.1","depth":1,"next":{"title":"Creación de Paquetes y Módulos en NodeJS","level":"10.2","depth":1,"path":"apuntes/npm/nodejspackages.md","ref":"apuntes/npm/nodejspackages.md","articles":[]},"previous":{"title":"Repasos: Preguntas de gulp","level":"9.1","depth":1,"path":"repasos/gulp.md","ref":"repasos/gulp.md","articles":[]},"dir":"ltr"},"config":{"plugins":["include","katex","include-codeblock","ace","-autocover","-layout","youtube","video","highlight","sectionx","code-highlighter","copy-code-button","page-toc","-toc","-latex-codecogs","-emphasize","collapsible-menu","js-console","codetabs","es6tabs-stage-0","jazer"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"code-highlighter":{},"collapsible-menu":{},"ace":{},"youtube":{},"es6tabs":{"presets":["es2015","stage-0"]},"include":{},"toc":{"addClass":"true","className":"toc"},"search":{"maxIndexSize":1000000},"autocover":{"title":"Apuntes del Curso 2016/2017: Procesadores de Lenguajes, Desarrollo de Sistemas Informáticos y Sistemas y Tecnologías Web","author":"Casiano","pluginsConfig":{"autocover":{"font":{"size":null,"family":"Impact","color":"#FFF"},"size":{"w":1800,"h":2360},"background":{"color":"#09F"}}}},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4"},"layout":{"headerPath":"layouts/header.html","footerPath":"layouts/footer.html"},"codetabs":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"jazer":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"js-console":{},"sectionx":{},"highlight":{},"copy-code-button":{},"es6tabs-stage-0":{"presets":["es2015","react"]},"video":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"chrome","unindent":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"apuntes/nodejs/README.md","mtime":"2018-01-11T15:21:56.281Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-01-11T15:26:52.606Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Debugging NodeJS","level":"10.1","depth":1,"next":{"title":"Creación de Paquetes y Módulos en NodeJS","level":"10.2","depth":1,"path":"apuntes/npm/nodejspackages.md","ref":"apuntes/npm/nodejspackages.md","articles":[]},"previous":{"title":"Repasos: Preguntas de gulp","level":"9.1","depth":1,"path":"repasos/gulp.md","ref":"repasos/gulp.md","articles":[]},"dir":"ltr"},"config":{"plugins":["include","katex","include-codeblock","ace","-autocover","-layout","youtube","video","highlight","sectionx","code-highlighter","copy-code-button","page-toc","-toc","-latex-codecogs","-emphasize","collapsible-menu","js-console","codetabs","es6tabs-stage-0","jazer"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"code-highlighter":{},"collapsible-menu":{},"ace":{},"youtube":{},"es6tabs":{"presets":["es2015","stage-0"]},"include":{},"toc":{"addClass":"true","className":"toc"},"search":{"maxIndexSize":1000000},"autocover":{"title":"Apuntes del Curso 2016/2017: Procesadores de Lenguajes, Desarrollo de Sistemas Informáticos y Sistemas y Tecnologías Web","author":"Casiano","pluginsConfig":{"autocover":{"font":{"size":null,"family":"Impact","color":"#FFF"},"size":{"w":1800,"h":2360},"background":{"color":"#09F"}}}},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4"},"layout":{"headerPath":"layouts/header.html","footerPath":"layouts/footer.html"},"codetabs":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"jazer":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"js-console":{},"sectionx":{},"highlight":{},"copy-code-button":{},"es6tabs-stage-0":{"presets":["es2015","react"]},"video":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"chrome","unindent":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"apuntes/nodejs/README.md","mtime":"2018-01-15T14:51:24.426Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-02-16T11:52:02.366Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
