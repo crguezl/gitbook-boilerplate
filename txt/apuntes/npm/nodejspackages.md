@@ -79,7 +79,7 @@ See [How to install an npm package from GitHub directly?](https://stackoverflow.
 
 ### Ejemplo de package.json
 
-	```bash
+```bash
 	[~/javascript/evalua-module/scapegoat(master)]$ pwd -P
 	/Users/casiano/local/src/javascript/evalua-module/scapegoat
 	[~/javascript/evalua-module/scapegoat(master)]$ tree -I 'node_modules|docs'
@@ -126,7 +126,7 @@ See [How to install an npm package from GitHub directly?](https://stackoverflow.
 			"chai": "*"
 		}
 	}
-	```
+```
 
 ### Semantic versioning and npm
 
