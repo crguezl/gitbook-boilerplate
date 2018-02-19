@@ -1,9 +1,6 @@
 var gulp  = require('gulp');
 var shell = require('gulp-shell');
 
-gulp.task('deploy', [ 'build', 'push']);
-
-//  "deploy-togbsio": "./scripts/losh deploy-togbsio",
 gulp.task('deploygb',
   shell.task(
     "git ci -am 'deploy to gitbooks'"+
@@ -13,20 +10,12 @@ gulp.task('deploygb',
   )
 );
 
-gulp.task('push',
-  shell.task(
-    "git add . "+
-    ";"+
-    "git ci -am 'deploy to github'"+
-    ";"+
-    "git push origin master",
-    { verbose: true }
-  )
-);
-
-gulp.task('build', shell.task([
+gulp.task('deploy', shell.task([
       'gitbook build',
-      'touch _book/.nojekyll'
+      'touch _book/.nojekyll',
+      "git add . ",
+      "git ci -am 'deploy to github'",
+      "git push origin master"
     ],
       { verbose: true }
 ));
