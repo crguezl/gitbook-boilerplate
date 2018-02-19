@@ -133,6 +133,7 @@ See [How to install an npm package from GitHub directly?](https://stackoverflow.
 * [Semantic versioning and npm](https://docs.npmjs.com/getting-started/semantic-versioning)
 * [Semantic Versioning: Why You Should Be Using it](https://www.sitepoint.com/semantic-versioning-why-you-should-using/) SitePoint
 * [YouTube Video: Semantic versioning and npm](https://youtu.be/kK4Meix58R4)
+* [El comando npm version](https://docs.npmjs.com/cli/version)
 
 ### NPM: Otros tutoriales
 
