@@ -10,13 +10,18 @@ gulp.task('deploygb',
   )
 );
 
-gulp.task('deploy', shell.task([
-      'gitbook build',
-      'touch _book/.nojekyll',
-      "git add . ",
-      "git ci -am 'deploy to github'",
+gulp.task('deploy', ['build'], shell.task([
       "git push origin master"
     ],
+      { verbose: true }
+));
+
+gulp.task('build', shell.task([
+        'gitbook build',
+        'touch _book/.nojekyll',
+        "git add . ",
+        "git ci -am 'deploy to github'"
+      ],
       { verbose: true }
 ));
 
