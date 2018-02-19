@@ -29,6 +29,27 @@ Para comenzar, crearemos una cuenta de usuario en el repositorio de NPM mediante
     $ npm whoami
    ```
 
+Otra forma de hacerlo desde línea de comandos:
+
+* Ejecuta en la terminal estos comandos:
+
+```bash
+    npm set init.author.name "Casiano Rodriguez-Leon"
+    npm set init.author.email "whatever@gmail.com"
+    npm set init.author.url "https://github.com/crguezl"
+```
+
+El siguiente comando nos perdirá un email y una  password, creaando o verificando 
+un usuario en el [npm registry](https://docs.npmjs.com/misc/registry), y 
+guardará el token en el fichero 
+`~/.npmrc`:
+
+```bash
+    npm adduser
+```
+
+
+
 ### Creación de Paquetes y Módulos en NodeJS
 
 * [Creating and Publishing a Node.js Module](https://quickleft.com/blog/creating-and-publishing-a-node-js-module/) por Brent Ertz
