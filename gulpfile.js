@@ -41,8 +41,7 @@ gulp.task('opengb', function() {
 gulp.task('open', function() {
   return gulp.src('').pipe(shell(['open localhost:4000']));
 });
-//
-// "serve": "gitbook serve txt gh-pages",
+
 /*
  * compile md files n txt/repasos to latex files in examenes/
  */
