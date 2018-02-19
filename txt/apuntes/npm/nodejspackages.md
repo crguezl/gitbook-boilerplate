@@ -201,7 +201,27 @@ npm publish --access=public
 
 ### NPM: Herramientas de ayuda
 
-* [Interactive release tool for Git repositories. Options: run build command first, release to distribution repository (or branch), create GitHub release, publish to npm](https://github.com/webpro/release-it)
+* [release-it: Interactive release tool for Git repositories](https://github.com/webpro/release-it)
+* [release-it: GitHub Page](https://webpro.github.io/release-it/)
+
+Release a new patch (increments from e.g. `1.0.4` to `1.0.5`):
+
+```bash
+release-it
+```
+
+Release a patch, minor, major, or specific version:
+
+```bash
+release-it minor
+release-it 0.8.3
+```
+
+You can also do a "dry run", which won't write/touch anything, but does output the commands it would execute, and show the interactivity:
+
+```bash
+release-it --dry-run
+```
 
 
 ### npm Organizations /npm Organizaciones
