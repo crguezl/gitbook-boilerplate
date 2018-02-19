@@ -1,0 +1,4123 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Babel ES6, ES7 y ES8 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-toc/page-toc.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-codetabs/codetabs.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-jazer/regexp/regexp_website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-jazer/questionjs/questionjs_website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-jazer/question/question_website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-jazer/fontawesome/css/font-awesome.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="proceso-de-introduccion-de-nuevas-caracteristicas.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Instrucciones</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../instrucciones/">
+            
+                <a href="../../instrucciones/">
+            
+                    
+                    Instrucciones Generales
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../instrucciones/classroom.html">
+            
+                <a href="../../instrucciones/classroom.html">
+            
+                    
+                    Instrucciones para GitHub ClassRoom
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../instrucciones/instruccionesparaelenvio.html">
+            
+                <a href="../../instrucciones/instruccionesparaelenvio.html">
+            
+                    
+                    Instrucciones para los envíos de tareas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../instrucciones/instruccionesparalaevaluacion.html">
+            
+                <a href="../../instrucciones/instruccionesparalaevaluacion.html">
+            
+                    
+                    Instrucciones para la evaluación
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../../instrucciones/instruccionesparalaspresentaciones.html">
+            
+                <a href="../../instrucciones/instruccionesparalaspresentaciones.html">
+            
+                    
+                    Instrucciones para las Presentaciones
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../../instrucciones/impresion-ull.html">
+            
+                <a href="../../instrucciones/impresion-ull.html">
+            
+                    
+                    Instrucciones para el servicio de impresión
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Apuntes</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Apuntes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../programmingforchildren/">
+            
+                <a href="../programmingforchildren/">
+            
+                    
+                    Programación para no programadores
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" >
+            
+                <a target="_blank" href="https://casianorodriguezleon.gitbooks.io/presentaciones-de-sytw-2016-2017/content/">
+            
+                    
+                    Presentaciones de SYTW 16/17
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.1" >
+            
+                <a target="_blank" href="https://casianorodriguezleon.gitbooks.io/presentaciones-de-sytw-2016-2017/content/">
+            
+                    
+                    Presentaciones de SYTW en GitBook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2" >
+            
+                <a target="_blank" href="https://ull-esit-sytw-1617.github.io/presentaciones-todos/">
+            
+                    
+                    Presentaciones de SYTW en GitHub (gh-pages)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3" >
+            
+                <a target="_blank" href="https://github.com/ULL-ESIT-SYTW-1617/presentaciones-todos">
+            
+                    
+                    Repo con las presentaciones de SYTW 
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Tools / Herramientas</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../tools/">
+            
+                <a href="../tools/">
+            
+                    
+                    Atom
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" >
+            
+                <a target="_blank" href="https://www.youtube.com/user/LevelUpTuts/search?query=atom">
+            
+                    
+                    AtomEditor Tutorials en YouTube
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../tools/fzf.html">
+            
+                <a href="../tools/fzf.html">
+            
+                    
+                    fzf
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../tools/linuxbrew.html">
+            
+                <a href="../tools/linuxbrew.html">
+            
+                    
+                    linuxbrew
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">GitHub</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../github/">
+            
+                <a href="../github/">
+            
+                    
+                    GitHub
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="../github/poets/">
+            
+                <a href="../github/poets/">
+            
+                    
+                    GitHub for Poets
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="../github/projects/">
+            
+                <a href="../github/projects/">
+            
+                    
+                    GitHub Projects
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../colaboracion/">
+            
+                <a href="../colaboracion/">
+            
+                    
+                    Colaboración
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../../repasos/github.html">
+            
+                <a href="../../repasos/github.html">
+            
+                    
+                    Repaso: Preguntas de github
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">GitHub Education</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../../recursos/">
+            
+                <a href="../../recursos/#github-education">
+            
+                    
+                    GitHub Education
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">GitBook</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../gitbooknotes/">
+            
+                <a href="../gitbooknotes/">
+            
+                    
+                    Sobre GitBook
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos de GitBook</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../../repasos/markdown.html">
+            
+                <a href="../../repasos/markdown.html">
+            
+                    
+                    Preguntas de MarkDown
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="../../repasos/gitbook.html">
+            
+                <a href="../../repasos/gitbook.html">
+            
+                    
+                    Preguntas de GitBook
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Gulp</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="../gulp/">
+            
+                <a href="../gulp/">
+            
+                    
+                    Gulp
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.1.1" data-path="../gulp/API.html">
+            
+                <a href="../gulp/API.html">
+            
+                    
+                    API Documentation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.2" data-path="../gulp/recipes/">
+            
+                <a href="../gulp/recipes/">
+            
+                    
+                    Recipes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.3" >
+            
+                <a target="_blank" href="http://gulpjs.com/plugins/">
+            
+                    
+                    Plugins
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.4" data-path="../gulp/gulpghpages.html">
+            
+                <a href="../gulp/gulpghpages.html">
+            
+                    
+                    gulp gh pages
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.5" data-path="../gulp/gulpshell.html">
+            
+                <a href="../gulp/gulpshell.html">
+            
+                    
+                    gulp-shell
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.6" data-path="../gulp/gulplinting.html">
+            
+                <a href="../gulp/gulplinting.html">
+            
+                    
+                    gulp-linting
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos: Gulp</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" data-path="../../repasos/gulp.html">
+            
+                <a href="../../repasos/gulp.html">
+            
+                    
+                    Repasos: Preguntas de gulp
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">NodeJS</li>
+        
+        
+    
+        <li class="chapter " data-level="10.1" data-path="../nodejs/">
+            
+                <a href="../nodejs/">
+            
+                    
+                    Debugging NodeJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.2" data-path="../npm/nodejspackages.html">
+            
+                <a href="../npm/nodejspackages.html">
+            
+                    
+                    Creación de Paquetes y Módulos en NodeJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.3" data-path="../fs.html">
+            
+                <a href="../fs.html">
+            
+                    
+                    Sistema de Archivos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.4" data-path="../argumentos/">
+            
+                <a href="../argumentos/">
+            
+                    
+                    Procesamiento de la línea de comandos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.5" data-path="../processes/">
+            
+                <a href="../processes/">
+            
+                    
+                    Procesos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.6" data-path="../../repasos/npm.html">
+            
+                <a href="../../repasos/npm.html">
+            
+                    
+                    Repaso: Preguntas de npm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.7" data-path="../../repasos/jsdoc.html">
+            
+                <a href="../../repasos/jsdoc.html">
+            
+                    
+                    Repaso: Preguntas de JSDoc
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Prácticas Iniciales: NodeJS, GitHub, GitBook</li>
+        
+        
+    
+        <li class="chapter " data-level="11.1" data-path="../../practicas/practicatareasiniciales.html">
+            
+                <a href="../../practicas/practicatareasiniciales.html">
+            
+                    
+                    Práctica: Tareas Iniciales
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.2" data-path="../../practicas/practicatareasiniciales2.html">
+            
+                <a href="../../practicas/practicatareasiniciales2.html">
+            
+                    
+                    Práctica: Primeros Pasos en NodeJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.3" data-path="../../practicas/practicagitbook.html">
+            
+                <a href="../../practicas/practicagitbook.html">
+            
+                    
+                    Práctica: Tareas Iniciales Avanzadas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.4" data-path="../../practicas/practicanm.html">
+            
+                <a href="../../practicas/practicanm.html">
+            
+                    
+                    Práctica: Creación de un Paquete NPM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Document Object Model</li>
+        
+        
+    
+        <li class="chapter " data-level="12.1" data-path="../dom/">
+            
+                <a href="../dom/">
+            
+                    
+                    DOM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Programación: Buenas Prácticas</li>
+        
+        
+    
+        <li class="chapter " data-level="13.1" data-path="../functional/">
+            
+                <a href="../functional/">
+            
+                    
+                    Programación Funcional en JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.2" data-path="../oop/">
+            
+                <a href="../oop/">
+            
+                    
+                    Programación Orientada a Objetos/Object Oriented Programming
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.3" data-path="../async/">
+            
+                <a href="../async/">
+            
+                    
+                    Asincronía y Sincronía
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.4" data-path="../games/">
+            
+                <a href="../games/">
+            
+                    
+                    Juegos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.5" data-path="../patterns/codesmell.html">
+            
+                <a href="../patterns/codesmell.html">
+            
+                    
+                    Code Smells
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.6" data-path="../patterns/designprinciples.html">
+            
+                <a href="../patterns/designprinciples.html">
+            
+                    
+                    Principios de Diseño
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.7" data-path="../patterns/">
+            
+                <a href="../patterns/">
+            
+                    
+                    Patrones de Diseño
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="13.7.1" data-path="../patterns/iife.html">
+            
+                <a href="../patterns/iife.html">
+            
+                    
+                    Immediately Invoked Function Expression
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.7.2" data-path="../patterns/strategypattern.html">
+            
+                <a href="../patterns/strategypattern.html">
+            
+                    
+                    Strategy Pattern
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.7.3" data-path="../patterns/dependencyinjectionpattern.html">
+            
+                <a href="../patterns/dependencyinjectionpattern.html">
+            
+                    
+                    Dependency Injection Pattern
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.7.4" data-path="../patterns/inversionofcontrolpattern.html">
+            
+                <a href="../patterns/inversionofcontrolpattern.html">
+            
+                    
+                    Inversion of Control Pattern
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="13.8" data-path="../../practicas/practicaoop.html">
+            
+                <a href="../../practicas/practicaoop.html">
+            
+                    
+                    Práctica: OOP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.9" data-path="../../practicas/practicanoswitchsmell.html">
+            
+                <a href="../../practicas/practicanoswitchsmell.html">
+            
+                    
+                    Práctica: Eliminando Switch Smell
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.10" data-path="../../practicas/practicaevaluastrategypattern.html">
+            
+                <a href="../../practicas/practicaevaluastrategypattern.html">
+            
+                    
+                    Práctica: Evaluar Strategy Pattern
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.11" data-path="../../practicas/practicamodulestrategypattern.html">
+            
+                <a href="../../practicas/practicamodulestrategypattern.html">
+            
+                    
+                    Práctica: Creación de Paquetes NPM y Strategy Pattern
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos Buenas Prácticas</li>
+        
+        
+    
+        <li class="chapter " data-level="14.1" data-path="../../repasos/oop.html">
+            
+                <a href="../../repasos/oop.html">
+            
+                    
+                    Repasos: Preguntas de OOP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="14.2" data-path="../../repasos/codesmelling.html">
+            
+                <a href="../../repasos/codesmelling.html">
+            
+                    
+                    Repasos: Code Smelling
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="14.3" data-path="../../repasos/strategy-pattern.html">
+            
+                <a href="../../repasos/strategy-pattern.html">
+            
+                    
+                    Repasos: Code Smelling
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Pruebas</li>
+        
+        
+    
+        <li class="chapter " data-level="15.1" data-path="../pruebas/">
+            
+                <a href="../pruebas/">
+            
+                    
+                    Pruebas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.2" data-path="../pruebas/mocha.html">
+            
+                <a href="../pruebas/mocha.html">
+            
+                    
+                    Mocha
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.3" data-path="../pruebas/mocha.html">
+            
+                <a href="../pruebas/mocha.html#should">
+            
+                    
+                    Should
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.4" data-path="../pruebas/travis.html">
+            
+                <a href="../pruebas/travis.html">
+            
+                    
+                    Travis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.5" data-path="../pruebas/chai.html">
+            
+                <a href="../pruebas/chai.html">
+            
+                    
+                    Chai
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.6" data-path="../pruebas/sinon.html">
+            
+                <a href="../pruebas/sinon.html">
+            
+                    
+                    Sinon
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.7" data-path="../pruebas/karma.html">
+            
+                <a href="../pruebas/karma.html">
+            
+                    
+                    Karma
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.8" data-path="../pruebas/covering.html">
+            
+                <a href="../pruebas/covering.html">
+            
+                    
+                    Covering
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.9" data-path="../pruebas/blanket.html">
+            
+                <a href="../pruebas/blanket.html">
+            
+                    
+                    Blanket
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.10" data-path="../pruebas/istanbul.html">
+            
+                <a href="../pruebas/istanbul.html">
+            
+                    
+                    Istanbul
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.11" data-path="../pruebas/browsersync.html">
+            
+                <a href="../pruebas/browsersync.html">
+            
+                    
+                    BrowserSync
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Prácticas de Pruebas</li>
+        
+        
+    
+        <li class="chapter " data-level="16.1" data-path="../../practicas/practicaevaluakarma.html">
+            
+                <a href="../../practicas/practicaevaluakarma.html">
+            
+                    
+                    Práctica: Evaluar Karma
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos Pruebas</li>
+        
+        
+    
+        <li class="chapter " data-level="17.1" data-path="../../repasos/mochachai.html">
+            
+                <a href="../../repasos/mochachai.html">
+            
+                    
+                    Repasos: Preguntas de Mocha y Chai
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Programación Web</li>
+        
+        
+    
+        <li class="chapter " data-level="18.1" data-path="../express/">
+            
+                <a href="../express/">
+            
+                    
+                    Express
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="18.1.1" data-path="../express/expressroutes.html">
+            
+                <a href="../express/expressroutes.html">
+            
+                    
+                    Rutas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="18.1.2" data-path="../express/expressgenerator.html">
+            
+                <a href="../express/expressgenerator.html">
+            
+                    
+                    Express Generator
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="18.2" data-path="../rest/">
+            
+                <a href="../rest/">
+            
+                    
+                    Arquitectura REST, REST APIs y GraphQL
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="18.2.1" data-path="../rest/githubapitutorial.html">
+            
+                <a href="../rest/githubapitutorial.html">
+            
+                    
+                    Getting Started with the GitHub API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="18.3" data-path="../cookies/">
+            
+                <a href="../cookies/">
+            
+                    
+                    Cookies y Sessions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="18.4" data-path="../authentication/">
+            
+                <a href="../authentication/">
+            
+                    
+                    Authentication con OAuth
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="18.5" data-path="../ssl/">
+            
+                <a href="../ssl/">
+            
+                    
+                    SSL
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">React</li>
+        
+        
+    
+        <li class="chapter " data-level="19.1" data-path="../react/">
+            
+                <a href="../react/">
+            
+                    
+                    React
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Meteor</li>
+        
+        
+    
+        <li class="chapter " data-level="20.1" data-path="../meteor/">
+            
+                <a href="../meteor/">
+            
+                    
+                    Meteor
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="20.1.1" data-path="../meteor/introduccion.html">
+            
+                <a href="../meteor/introduccion.html">
+            
+                    
+                    Meteor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.2" data-path="../meteor/instalando.html">
+            
+                <a href="../meteor/instalando.html">
+            
+                    
+                    Instalando Meteor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.3" data-path="../meteor/consolas.html">
+            
+                <a href="../meteor/consolas.html">
+            
+                    
+                    Consolas de Meteor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.4" data-path="../meteor/plantillas.html">
+            
+                <a href="../meteor/plantillas.html">
+            
+                    
+                    Plantillas en Meteor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.5" data-path="../meteor/collections.html">
+            
+                <a href="../meteor/collections.html">
+            
+                    
+                    Colecciones en Meteor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.6" data-path="../meteor/primera_app.html">
+            
+                <a href="../meteor/primera_app.html">
+            
+                    
+                    Construyendo una app
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.7" data-path="../meteor/rutas.html">
+            
+                <a href="../meteor/rutas.html">
+            
+                    
+                    Rutas en Meteor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.8" data-path="../meteor/guia_comandos.html">
+            
+                <a href="../meteor/guia_comandos.html">
+            
+                    
+                    Guía de comandos Meteor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.9" data-path="../meteor/enlaces.html">
+            
+                <a href="../meteor/enlaces.html">
+            
+                    
+                    Enlaces y recursos de interés
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Chrome Apps</li>
+        
+        
+    
+        <li class="chapter " data-level="21.1" data-path="../chromeapps/">
+            
+                <a href="../chromeapps/">
+            
+                    
+                    Chrome Apps
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Prácticas de Programación Web</li>
+        
+        
+    
+        <li class="chapter " data-level="22.1" data-path="../../practicas/practicaconversordetemperaturas.html">
+            
+                <a href="../../practicas/practicaconversordetemperaturas.html">
+            
+                    
+                    Práctica: JavaScript en el Cliente
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.2" data-path="../../practicas/practicalearningrouting.html">
+            
+                <a href="../../practicas/practicalearningrouting.html">
+            
+                    
+                    Práctica: Estudiar las Rutas en ExpressJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.3" data-path="../../practicas/practicalearningcookies.html">
+            
+                <a href="../../practicas/practicalearningcookies.html">
+            
+                    
+                    Práctica: Estudiar las Cookies y las Sessions en ExpressJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.4" data-path="../../practicas/practicasessions.html">
+            
+                <a href="../../practicas/practicasessions.html">
+            
+                    
+                    Práctica: Autenticación usando sessions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.5" data-path="../../practicas/practicaiaas.html">
+            
+                <a href="../../practicas/practicaiaas.html">
+            
+                    
+                    Práctica: Despliegues en iaas y heroku
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.6" data-path="../../practicas/practicaplugin.html">
+            
+                <a href="../../practicas/practicaplugin.html">
+            
+                    
+                    Práctica: Añadiendo plugins para los despliegues. iaas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.7" data-path="../../practicas/practicaplugin2.html">
+            
+                <a href="../../practicas/practicaplugin2.html">
+            
+                    
+                    Práctica: gitbook-start. Plugin para heroku
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.8" data-path="../../practicas/practicagithubapi.html">
+            
+                <a href="../../practicas/practicagithubapi.html">
+            
+                    
+                    Práctica: GitHub API, Heroku API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.9" data-path="../../practicas/practicapassport.html">
+            
+                <a href="../../practicas/practicapassport.html">
+            
+                    
+                    Práctica: Autenticación OAuth con Passport
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.10" data-path="../../practicas/practicapassportlocal.html">
+            
+                <a href="../../practicas/practicapassportlocal.html">
+            
+                    
+                    Práctica: Passport y LocalStrategy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.11" data-path="../../practicas/practicapassportlocalsequelize.html">
+            
+                <a href="../../practicas/practicapassportlocalsequelize.html">
+            
+                    
+                    Práctica: LocalStrategy y Base de Datos: LocalStrategy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.12" data-path="../../practicas/practicassl.html">
+            
+                <a href="../../practicas/practicassl.html">
+            
+                    
+                    Práctica: Añadir HTTPS al servidor del libro
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos de Programación Web</li>
+        
+        
+    
+        <li class="chapter " data-level="23.1" data-path="../../repasos/html.html">
+            
+                <a href="../../repasos/html.html">
+            
+                    
+                    Preguntas de HTML
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.2" data-path="../../repasos/css.html">
+            
+                <a href="../../repasos/css.html">
+            
+                    
+                    Preguntas de CSS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.3" data-path="../../repasos/ejs.html">
+            
+                <a href="../../repasos/ejs.html">
+            
+                    
+                    Preguntas de ejs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.4" data-path="../../repasos/expressroutes.html">
+            
+                <a href="../../repasos/expressroutes.html">
+            
+                    
+                    Preguntas de Rutas en ExpressJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.5" data-path="../../repasos/jquery.html">
+            
+                <a href="../../repasos/jquery.html">
+            
+                    
+                    Preguntas de jquery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.6" data-path="../../repasos/underscore.html">
+            
+                <a href="../../repasos/underscore.html">
+            
+                    
+                    Preguntas de underscore
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.7" data-path="../../repasos/localstorage.html">
+            
+                <a href="../../repasos/localstorage.html">
+            
+                    
+                    Preguntas de localstorage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.8" data-path="../../repasos/pug.html">
+            
+                <a href="../../repasos/pug.html">
+            
+                    
+                    Preguntas de pug
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.9" data-path="../../repasos/sass.html">
+            
+                <a href="../../repasos/sass.html">
+            
+                    
+                    Preguntas de sass
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.10" data-path="../../repasos/https.html">
+            
+                <a href="../../repasos/https.html">
+            
+                    
+                    Preguntas de HTTPS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.11" data-path="../../repasos/ajax.html">
+            
+                <a href="../../repasos/ajax.html">
+            
+                    
+                    Preguntas de AJAX
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.12" data-path="../../repasos/passport.html">
+            
+                <a href="../../repasos/passport.html">
+            
+                    
+                    Preguntas de Passport
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.13" data-path="../../repasos/cookies.html">
+            
+                <a href="../../repasos/cookies.html">
+            
+                    
+                    Preguntas de Cookies
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.14" data-path="../../repasos/rest.html">
+            
+                <a href="../../repasos/rest.html">
+            
+                    
+                    Preguntas de REST
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.15" data-path="../../repasos/githubapi.html">
+            
+                <a href="../../repasos/githubapi.html">
+            
+                    
+                    Preguntas de GtiHub API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Bases de Datos</li>
+        
+        
+    
+        <li class="chapter " data-level="24.1" data-path="../db/">
+            
+                <a href="../db/">
+            
+                    
+                    Bases de Datos/DataBases
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="24.1.1" data-path="../db/sqlite/">
+            
+                <a href="../db/sqlite/">
+            
+                    
+                    Sqlite
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="24.1.2" data-path="../db/sequelize/">
+            
+                <a href="../db/sequelize/">
+            
+                    
+                    Sequelize
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="24.1.3" data-path="../db/mongo/">
+            
+                <a href="../db/mongo/">
+            
+                    
+                    Mongo
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="24.1.3.1" data-path="../db/mongo/mongodb.html">
+            
+                <a href="../db/mongo/mongodb.html">
+            
+                    
+                    MongoDB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="24.1.3.2" data-path="../db/mongo/mongoose.html">
+            
+                <a href="../db/mongo/mongoose.html">
+            
+                    
+                    Mongoose
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos de Bases de Datos</li>
+        
+        
+    
+        <li class="chapter " data-level="25.1" data-path="../../repasos/mongo.html">
+            
+                <a href="../../repasos/mongo.html">
+            
+                    
+                    Preguntas de Mongo
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos Bases de Datos</li>
+        
+        
+    
+        <li class="chapter " data-level="26.1" data-path="../../repasos/mongo.html">
+            
+                <a href="../../repasos/mongo.html">
+            
+                    
+                    Repasos: Preguntas de mongo
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">ECMA 6</li>
+        
+        
+    
+        <li class="chapter " data-level="27.1" >
+            
+                <a target="_blank" href="http://exploringjs.com/es6/">
+            
+                    
+                    Libro: Exploring Ecma 6
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="27.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Babel ES6, ES7 y ES8
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="27.2.1" data-path="proceso-de-introduccion-de-nuevas-caracteristicas.html">
+            
+                <a href="proceso-de-introduccion-de-nuevas-caracteristicas.html">
+            
+                    
+                    Proceso de Introducción de Nuevas Características
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.2" data-path="babel.html">
+            
+                <a href="babel.html">
+            
+                    
+                    Babel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.3" data-path="funciones-flecha.html">
+            
+                <a href="funciones-flecha.html">
+            
+                    
+                    Funciones Flecha
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.4" data-path="deconstrucciones.html">
+            
+                <a href="deconstrucciones.html">
+            
+                    
+                    Deconstrucciones
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.5" data-path="operador-de-dispersion.html">
+            
+                <a href="operador-de-dispersion.html">
+            
+                    
+                    Operador de Dispersión
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.6" data-path="iteradores.html">
+            
+                <a href="iteradores.html">
+            
+                    
+                    Iteradores
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.7" data-path="nueva-sintaxis-en-bucles-for.html">
+            
+                <a href="nueva-sintaxis-en-bucles-for.html">
+            
+                    
+                    Nueva sintaxis en bucles for
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.8" data-path="operador-bind.html">
+            
+                <a href="operador-bind.html">
+            
+                    
+                    Operador bind
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.9" data-path="import.html">
+            
+                <a href="import.html">
+            
+                    
+                    Import
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.10" data-path="export.html">
+            
+                <a href="export.html">
+            
+                    
+                    Export
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.11" data-path="async-y-await.html">
+            
+                <a href="async-y-await.html">
+            
+                    
+                    Async y Await
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.12" data-path="integracion-de-babel-con-gulp.html">
+            
+                <a href="integracion-de-babel-con-gulp.html">
+            
+                    
+                    Integración de Babel con Gulp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.13" data-path="integracion-con-express.html">
+            
+                <a href="integracion-con-express.html">
+            
+                    
+                    Integración con Express
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos: ECMA6</li>
+        
+        
+    
+        <li class="chapter " data-level="28.1" data-path="../../repasos/ecma6.html">
+            
+                <a href="../../repasos/ecma6.html">
+            
+                    
+                    Repaso: Preguntas de ecma6
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Procesamiento de Lenguajes</li>
+        
+        
+    
+        <li class="chapter " data-level="29.1" >
+            
+                <a target="_blank" href="http://cs448h.stanford.edu/little-languages.pdf">
+            
+                    
+                    Little Languages. Programing Pearls. Jon Bentley
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.2" >
+            
+                <a target="_blank" href="http://cs448h.stanford.edu/DSEL-Little.pdf">
+            
+                    
+                    P Hudak. Domain Specific Languages
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.3" data-path="../regexp/">
+            
+                <a href="../regexp/">
+            
+                    
+                    Expresiones Regulares
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="29.3.1" data-path="../regexp/regexpejercicios.html">
+            
+                <a href="../regexp/regexpejercicios.html">
+            
+                    
+                    Ejercicios de Expresiones Regulares
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="29.4" data-path="../parsing/">
+            
+                <a href="../parsing/">
+            
+                    
+                    Parsing: Técnicas de Análisis
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="29.4.1" data-path="../parsing/tdop/">
+            
+                <a href="../parsing/tdop/">
+            
+                    
+                    Operator Precedence Analysis
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="29.4.1.1" data-path="../parsing/tdop/tdop.html">
+            
+                <a href="../parsing/tdop/tdop.html">
+            
+                    
+                    Top Down Operator Precedence Analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="29.4.2" data-path="../parsing/recursivodescendente/">
+            
+                <a href="../parsing/recursivodescendente/">
+            
+                    
+                    Análisis Recursivo Descendente
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="29.5" data-path="../parsing/eloquentjs/">
+            
+                <a href="../parsing/eloquentjs/">
+            
+                    
+                    Eloquent JS: Chapter 11. Project: A Programming Language
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.6" data-path="../parsing/pltutlisperator/">
+            
+                <a href="../parsing/pltutlisperator/">
+            
+                    
+                    How to implement a programming language in JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.7" data-path="../parsing/grammars/">
+            
+                <a href="../parsing/grammars/">
+            
+                    
+                    Grammars / Gramáticas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.8" data-path="../pegjs/PEGS.html">
+            
+                <a href="../pegjs/PEGS.html">
+            
+                    
+                    PEGs
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="29.8.1" data-path="../pegjs/esprima.html">
+            
+                <a href="../pegjs/esprima.html">
+            
+                    
+                    Esprima
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.8.2" data-path="../pegjs/pegjs.html">
+            
+                <a href="../pegjs/pegjs.html">
+            
+                    
+                    borrador
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.8.3" data-path="../../repasos/pegjs.html">
+            
+                <a href="../../repasos/pegjs.html">
+            
+                    
+                    Repasos: PEG.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="29.9" data-path="../parsing/gll/">
+            
+                <a href="../parsing/gll/">
+            
+                    
+                    GLL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.10" data-path="../../practicas/practicaanalisislexicotdop.html">
+            
+                <a href="../../practicas/practicaanalisislexicotdop.html">
+            
+                    
+                    Práctica: Analizador Léxico para Un Subconjunto de JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.11" data-path="../../practicas/practicarecdescparser.html">
+            
+                <a href="../../practicas/practicarecdescparser.html">
+            
+                    
+                    Práctica: Analizador Descendente Predictivo Recursivo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.12" data-path="../../practicas/practicapegparser.html">
+            
+                <a href="../../practicas/practicapegparser.html">
+            
+                    
+                    Práctica: Analizador Usando PEG.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos PL</li>
+        
+        
+    
+        <li class="chapter " data-level="30.1" data-path="../../repasos/regexp.html">
+            
+                <a href="../../repasos/regexp.html">
+            
+                    
+                    Repasos: Preguntas de Expresiones Regulares
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="30.2" data-path="../../repasos/lexicalanalyzer.html">
+            
+                <a href="../../repasos/lexicalanalyzer.html">
+            
+                    
+                    Repasos: Preguntas de Analizador Léxico
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="30.3" data-path="../../repasos/pegjs.html">
+            
+                <a href="../../repasos/pegjs.html">
+            
+                    
+                    Repasos: PEG.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos</li>
+        
+        
+    
+        <li class="chapter " data-level="31.1" data-path="../../repasos/">
+            
+                <a href="../../repasos/">
+            
+                    
+                    Repasos
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Recursos</li>
+        
+        
+    
+        <li class="chapter " data-level="32.1" data-path="../../recursos/">
+            
+                <a href="../../recursos/">
+            
+                    
+                    Recursos
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Servicios en la Nube</li>
+        
+        
+    
+        <li class="chapter " data-level="33.1" data-path="../../recursos/iaas.html">
+            
+                <a href="../../recursos/iaas.html">
+            
+                    
+                    iaas.ull.es
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="33.1.1" data-path="../../repasos/ssh.html">
+            
+                <a href="../../repasos/ssh.html">
+            
+                    
+                    Repaso: Preguntas de SSH
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="33.1.2" data-path="../../repasos/iaas.html">
+            
+                <a href="../../repasos/iaas.html">
+            
+                    
+                    Repasos: Preguntas sobre Plataformas de Despliegue
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="33.2" data-path="../../recursos/heroku.html">
+            
+                <a href="../../recursos/heroku.html">
+            
+                    
+                    Heroku
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="33.2.1" data-path="../../repasos/heroku.html">
+            
+                <a href="../../repasos/heroku.html">
+            
+                    
+                    Repaso: Preguntas de heroku
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="33.3" data-path="../../recursos/yellow.html">
+            
+                <a href="../../recursos/yellow.html">
+            
+                    
+                    Yellow Circle
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="33.4" data-path="../../recursos/azure.html">
+            
+                <a href="../../recursos/azure.html">
+            
+                    
+                    Azure in education
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="33.5" data-path="../../recursos/c9.html">
+            
+                <a href="../../recursos/c9.html">
+            
+                    
+                    c9
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Prácticas</li>
+        
+        
+    
+        <li class="chapter " data-level="34.1" data-path="../../practicas/">
+            
+                <a href="../../practicas/">
+            
+                    
+                    Prácticas
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Presentaciones</li>
+        
+        
+    
+        <li class="chapter " data-level="35.1" data-path="../../presentaciones/temasSYTW.html">
+            
+                <a href="../../presentaciones/temasSYTW.html">
+            
+                    
+                    Temas Sugeridos para SYTW
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="35.2" >
+            
+                <a target="_blank" href="https://casianorodriguezleon.gitbooks.io/presentaciones-de-sytw-2016-2017/content/">
+            
+                    
+                    Presentaciones de SYTW 16/17
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Proyectos</li>
+        
+        
+    
+        <li class="chapter " data-level="36.1" data-path="../../proyectos/">
+            
+                <a href="../../proyectos/">
+            
+                    
+                    Proyectos
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="36.1.1" data-path="../../proyectos/sytw/">
+            
+                <a href="../../proyectos/sytw/">
+            
+                    
+                    Proyecto de SYTW
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="36.1.2" data-path="../../proyectos/pl/">
+            
+                <a href="../../proyectos/pl/">
+            
+                    
+                    Proyecto de PL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="36.1.3" data-path="../../proyectos/dsi/">
+            
+                <a href="../../proyectos/dsi/">
+            
+                    
+                    Proyecto de DSI
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">DEFINICIONES DE TÉRMINOS</li>
+        
+        
+    
+        <li class="chapter " data-level="37.1" data-path="../../GLOSSARY.html">
+            
+                <a href="../../GLOSSARY.html">
+            
+                    
+                    GLOSARIO
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Babel ES6, ES7 y ES8</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="learning-ecma6">Learning ECMA6</h1>
+<ul>
+<li><a href="https://github.com/ericdouglas/ES6-Learning" target="_blank">ECMAScript 6 Learning: List of resources to learn ECMAScript 6!</a></li>
+</ul>
+<h1 id="libro-exploring-ecma6">Libro: Exploring Ecma6</h1>
+<ul>
+<li><a href="http://exploringjs.com/es6/" target="_blank">Libro: Exploring Ecma 6</a></li>
+</ul>
+<h2 id="table-of-contents">Table of contents</h2>
+
+
+<ol class="toc has-parts">
+  <li>
+
+    <ol>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_about-book.html" id="toc_ch_about-book" target="_blank">What you need to know about this book</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_about-book.html#_audience-javascript-programmers" target="_blank">Audience: JavaScript programmers</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_about-book.html#_why-should-i-read-this-book" target="_blank">Why should I read this book?</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_about-book.html#_how-to-read-this-book" target="_blank">How to read this book</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_about-book.html#_sources-of-this-book" target="_blank">Sources of this book</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_about-book.html#_glossary" target="_blank">Glossary</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_about-book.html#_conventions" target="_blank">Conventions</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_about-book.html#_demo-code-on-github" target="_blank">Demo code on GitHub</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_about-book.html#_sidebars" target="_blank">Sidebars</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_about-book.html#_footnotes" target="_blank">Footnotes</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_foreword.html" id="toc_ch_foreword" target="_blank">Foreword</a>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_preface.html" id="toc_ch_preface" target="_blank">Preface</a>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_acknowledgements.html" id="toc_ch_acknowledgements" target="_blank">Acknowledgements</a>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_about-author.html" id="toc_ch_about-author" target="_blank">About the author</a>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <a href="http://exploringjs.com/es6/pt_background.html" id="toc_pt_background" target="_blank"><span class="section-number">I </span>Background</a>
+    <ol>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_about-es6.html" id="toc_ch_about-es6" target="_blank"><span class="section-number">1. </span>About ECMAScript 6 (ES6)</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_about-es6.html#sec_tc39" target="_blank"><span class="section-number">1.1 </span>TC39 (Ecma Technical Committee 39)</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_about-es6.html#sec_designing-es6" target="_blank"><span class="section-number">1.2 </span>How ECMAScript 6 was designed</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_about-es6.html#sec_javascript-vs-ecmascript" target="_blank"><span class="section-number">1.3 </span>JavaScript versus ECMAScript</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_about-es6.html#sec_upgrading-to-es6" target="_blank"><span class="section-number">1.4 </span>Upgrading to ES6</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_about-es6.html#sec_es6-goals" target="_blank"><span class="section-number">1.5 </span>Goals for ES6</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_about-es6.html#sec_es6-feature-categories" target="_blank"><span class="section-number">1.6 </span>Categories of ES6 features</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_about-es6.html#sec_ecmascript-history" target="_blank"><span class="section-number">1.7 </span>A brief history of ECMAScript</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_faq.html" id="toc_ch_faq" target="_blank"><span class="section-number">2. </span>FAQ: ECMAScript 6</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_faq.html#sec_using-es6-today" target="_blank"><span class="section-number">2.1 </span>How can I use ES6 today?</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_faq.html#sec_es6-vs-es2015" target="_blank"><span class="section-number">2.2 </span>Isn&#x2019;t ECMAScript 6 now called ECMAScript 2015?</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_faq.html#sec_from-es5-to-es6" target="_blank"><span class="section-number">2.3 </span>How do I migrate my ECMAScript 5 code to ECMAScript 6?</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_faq.html#sec_why-learn-es5" target="_blank"><span class="section-number">2.4 </span>Does it still make sense to learn ECMAScript 5?</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_faq.html#sec_is-es6-bloated" target="_blank"><span class="section-number">2.5 </span>Is ES6 bloated?</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_faq.html#sec_is-es6-spec-very-big" target="_blank"><span class="section-number">2.6 </span>Isn&#x2019;t the ES6 specification very big?</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_faq.html#sec_array-comprehension" target="_blank"><span class="section-number">2.7 </span>Does ES6 have array comprehensions?</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_faq.html#sec_es6-static-typing" target="_blank"><span class="section-number">2.8 </span>Is ES6 statically typed?</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_one-javascript.html" id="toc_ch_one-javascript" target="_blank"><span class="section-number">3. </span>One JavaScript: avoiding versioning in ECMAScript 6</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_one-javascript.html#sec_versioning" target="_blank"><span class="section-number">3.1 </span>Versioning</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_one-javascript.html#sec_strict-mode-and-es6" target="_blank"><span class="section-number">3.2 </span>Strict mode and ECMAScript 6</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_one-javascript.html#sec_breaking-changes-es6" target="_blank"><span class="section-number">3.3 </span>Breaking changes in ES6</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_one-javascript.html#sec_conclusion-one-javascript" target="_blank"><span class="section-number">3.4 </span>Conclusion</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_one-javascript.html#sec_further-reading-one-javascript" target="_blank"><span class="section-number">3.5 </span>Further reading</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_core-features.html" id="toc_ch_core-features" target="_blank"><span class="section-number">4. </span>Core ES6 features</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_core-features.html#sec_from-var-to-const" target="_blank"><span class="section-number">4.1 </span>From <code>var</code> to <code>const</code>/<code>let</code></a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_core-features.html#sec_from-iifes-to-blocks" target="_blank"><span class="section-number">4.2 </span>From IIFEs to blocks</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_core-features.html#sec_from-str-concat-to-tmpl-lit" target="_blank"><span class="section-number">4.3 </span>From concatenating strings to template literals</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_core-features.html#sec_from-func-expr-to-arrow-func" target="_blank"><span class="section-number">4.4 </span>From function expressions to arrow functions</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_core-features.html#sec_multiple-return-values-core-feature" target="_blank"><span class="section-number">4.5 </span>Handling multiple return values</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_core-features.html#sec_for-foreach-forof" target="_blank"><span class="section-number">4.6 </span>From <code>for</code> to <code>forEach()</code> to <code>for-of</code></a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_core-features.html#sec_param-defaults-core-feature" target="_blank"><span class="section-number">4.7 </span>Handling parameter default values</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_core-features.html#sec_named-params-core-feature" target="_blank"><span class="section-number">4.8 </span>Handling named parameters</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_core-features.html#sec_from-arguments-to-rest" target="_blank"><span class="section-number">4.9 </span>From <code>arguments</code> to rest parameters</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_core-features.html#sec_from-apply-to-spread" target="_blank"><span class="section-number">4.10 </span>From <code>apply()</code> to the spread operator (<code>...</code>)</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_core-features.html#sec_from-concat-to-spread" target="_blank"><span class="section-number">4.11 </span>From <code>concat()</code> to the spread operator (<code>...</code>)</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_core-features.html#sec_from-func-expr-to-method-def" target="_blank"><span class="section-number">4.12 </span>From function expressions in object literals to method definitions</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_core-features.html#sec_from-constr-to-class" target="_blank"><span class="section-number">4.13 </span>From constructors to classes</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_core-features.html#sec_from-custom-error-to-error-subclass" target="_blank"><span class="section-number">4.14 </span>From custom error constructors to subclasses of <code>Error</code></a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_core-features.html#sec_from-obj-to-map" target="_blank"><span class="section-number">4.15 </span>From objects to Maps</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_core-features.html#sec_new-str-methods-core-feature" target="_blank"><span class="section-number">4.16 </span>New string methods</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_core-features.html#sec_new-array-methods-core-feature" target="_blank"><span class="section-number">4.17 </span>New Array methods</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_core-features.html#sec_from-cjs-to-esm" target="_blank"><span class="section-number">4.18 </span>From CommonJS modules to ES6 modules</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_core-features.html#sec_what-next-core-features" target="_blank"><span class="section-number">4.19 </span>What to do next</a>
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <a href="http://exploringjs.com/es6/pt_data.html" id="toc_pt_data" target="_blank"><span class="section-number">II </span>Data</a>
+    <ol>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_numbers.html" id="toc_ch_numbers" target="_blank"><span class="section-number">5. </span>New number and <code>Math</code> features</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_numbers.html#sec_overview-numbers" target="_blank"><span class="section-number">5.1 </span>Overview</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_numbers.html#sec_new-integer-literals" target="_blank"><span class="section-number">5.2 </span>New integer literals</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_numbers.html#sec_new-static-number-props" target="_blank"><span class="section-number">5.3 </span>New static <code>Number</code> properties</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_numbers.html#sec_new-math" target="_blank"><span class="section-number">5.4 </span>New <code>Math</code> functionality</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_numbers.html#sec_faq-numbers" target="_blank"><span class="section-number">5.5 </span>FAQ: numbers</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_strings.html" id="toc_ch_strings" target="_blank"><span class="section-number">6. </span>New string features</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_strings.html#sec_overview-strings" target="_blank"><span class="section-number">6.1 </span>Overview</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_strings.html#sec_unicode-code-point-escapes" target="_blank"><span class="section-number">6.2 </span>Unicode code point escapes</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_strings.html#sec_string-interpolation-etc" target="_blank"><span class="section-number">6.3 </span>String interpolation, multi-line string literals and raw string literals</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_strings.html#sec_iterating-over-strings" target="_blank"><span class="section-number">6.4 </span>Iterating over strings</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_strings.html#sec_numer-values-of-code-points" target="_blank"><span class="section-number">6.5 </span>Numeric values of code points</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_strings.html#sec_string-inclusion" target="_blank"><span class="section-number">6.6 </span>Checking for inclusion</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_strings.html#sec_repeating-strings" target="_blank"><span class="section-number">6.7 </span>Repeating strings</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_strings.html#sec_delegating-string-methods-regexp" target="_blank"><span class="section-number">6.8 </span>String methods that delegate regular expression work to their parameters</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_strings.html#sec_reference-strings" target="_blank"><span class="section-number">6.9 </span>Reference: the new string methods</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_symbols.html" id="toc_ch_symbols" target="_blank"><span class="section-number">7. </span>Symbols</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_symbols.html#sec_overview-symbols" target="_blank"><span class="section-number">7.1 </span>Overview</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_symbols.html#sec_primitive-type-symbol" target="_blank"><span class="section-number">7.2 </span>A new primitive type</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_symbols.html#sec_symbols-for-concepts" target="_blank"><span class="section-number">7.3 </span>Using symbols to represent concepts</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_symbols.html#sec_symbols-as-prop-keys" target="_blank"><span class="section-number">7.4 </span>Symbols as keys of properties</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_symbols.html#sec_converting-symbols-to-primitives" target="_blank"><span class="section-number">7.5 </span>Converting symbols to other primitive types</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_symbols.html#sec_symbol-wrapper-objects" target="_blank"><span class="section-number">7.6 </span>Wrapper objects for symbols</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_symbols.html#sec_symbols-crossing-realms" target="_blank"><span class="section-number">7.7 </span>Crossing realms with symbols</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_symbols.html#sec_faq-symbols" target="_blank"><span class="section-number">7.8 </span>FAQ: symbols</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_symbols.html#sec_spelling-well-known-symbols" target="_blank"><span class="section-number">7.9 </span>The spelling of well-known symbols: why <code>Symbol.iterator</code> and not <code>Symbol.ITERATOR</code> (etc.)?</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_symbols.html#sec_symbol-api" target="_blank"><span class="section-number">7.10 </span>The symbol API</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_template-literals.html" id="toc_ch_template-literals" target="_blank"><span class="section-number">8. </span>Template literals</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_template-literals.html#sec_overview-template-literals" target="_blank"><span class="section-number">8.1 </span>Overview</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_template-literals.html#sec_introduction-template-literals" target="_blank"><span class="section-number">8.2 </span>Introduction</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_template-literals.html#sec_tagged-templates-examples" target="_blank"><span class="section-number">8.3 </span>Examples of using tagged template literals</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_template-literals.html#sec_implementing-tag-functions" target="_blank"><span class="section-number">8.4 </span>Implementing tag functions</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_template-literals.html#sec_faq-template-literals" target="_blank"><span class="section-number">8.5 </span>FAQ: template literals and tagged template literals</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_variables.html" id="toc_ch_variables" target="_blank"><span class="section-number">9. </span>Variables and scoping</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_variables.html#sec_overview-variables" target="_blank"><span class="section-number">9.1 </span>Overview</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_variables.html#sec_let-const" target="_blank"><span class="section-number">9.2 </span>Block scoping via <code>let</code> and <code>const</code></a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_variables.html#sec_const-immutability" target="_blank"><span class="section-number">9.3 </span><code>const</code> creates immutable variables</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_variables.html#sec_temporal-dead-zone" target="_blank"><span class="section-number">9.4 </span>The temporal dead zone</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_variables.html#sec_let-const-loop-heads" target="_blank"><span class="section-number">9.5 </span><code>let</code> and <code>const</code> in loop heads</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_variables.html#sec_parameters-as-variables" target="_blank"><span class="section-number">9.6 </span>Parameters as variables</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_variables.html#sect_global-object" target="_blank"><span class="section-number">9.7 </span>The global object</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_variables.html#sec_func-decl-class-decl" target="_blank"><span class="section-number">9.8 </span>Function declarations and class declarations</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_variables.html#const-vs-let-vs-var" target="_blank"><span class="section-number">9.9 </span>Coding style: <code>const</code> versus <code>let</code> versus <code>var</code></a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_destructuring.html" id="toc_ch_destructuring" target="_blank"><span class="section-number">10. </span>Destructuring</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_destructuring.html#sec_overview-destructuring" target="_blank"><span class="section-number">10.1 </span>Overview</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_destructuring.html#sec_constructing-vs-extracting" target="_blank"><span class="section-number">10.2 </span>Background: Constructing data versus extracting data</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_destructuring.html#sec_destructuring-patterns" target="_blank"><span class="section-number">10.3 </span>Patterns for destructuring</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_destructuring.html#sec_patterns-accessing-innards" target="_blank"><span class="section-number">10.4 </span>How do patterns access the innards of values?</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_destructuring.html#sec_default-values-destructuring" target="_blank"><span class="section-number">10.5 </span>Default values</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_destructuring.html#sec_more-obj-destructuring" target="_blank"><span class="section-number">10.6 </span>More object destructuring features</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_destructuring.html#sec_more-array-destructuring" target="_blank"><span class="section-number">10.7 </span>More Array destructuring features</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_destructuring.html#sec_assignment-targets" target="_blank"><span class="section-number">10.8 </span>You can assign to more than just variables</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_destructuring.html#sec_pitfalls-destructuring" target="_blank"><span class="section-number">10.9 </span>Pitfalls of destructuring</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_destructuring.html#sec_examples-destructuring" target="_blank"><span class="section-number">10.10 </span>Examples of destructuring</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_destructuring.html#sec_destructuring-algorithm" target="_blank"><span class="section-number">10.11 </span>The destructuring algorithm</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_parameter-handling.html" id="toc_ch_parameter-handling" target="_blank"><span class="section-number">11. </span>Parameter handling</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_parameter-handling.html#sec_overview-parameter-handling" target="_blank"><span class="section-number">11.1 </span>Overview</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_parameter-handling.html#sec_parameter-handling-destructuring" target="_blank"><span class="section-number">11.2 </span>Parameter handling as destructuring</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_parameter-handling.html#sec_parameter-default-values" target="_blank"><span class="section-number">11.3 </span>Parameter default values</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_parameter-handling.html#sec_rest-parameters" target="_blank"><span class="section-number">11.4 </span>Rest parameters</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_parameter-handling.html#sec_named-parameters" target="_blank"><span class="section-number">11.5 </span>Simulating named parameters</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_parameter-handling.html#sec_examples-destructuring-parameter-handling" target="_blank"><span class="section-number">11.6 </span>Examples of destructuring in parameter handling</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_parameter-handling.html#sec_parameter-handling-style-tips" target="_blank"><span class="section-number">11.7 </span>Coding style tips</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_parameter-handling.html#sec_spread-operator" target="_blank"><span class="section-number">11.8 </span>The spread operator (<code>...</code>)</a>
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <a href="http://exploringjs.com/es6/pt_modularity.html" id="toc_pt_modularity" target="_blank"><span class="section-number">III </span>Modularity</a>
+    <ol>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_callables.html" id="toc_ch_callables" target="_blank"><span class="section-number">12. </span>Callable entities in ECMAScript 6</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_callables.html#sec_overview-callables" target="_blank"><span class="section-number">12.1 </span>Overview</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_callables.html#sec_ways-of-calling" target="_blank"><span class="section-number">12.2 </span>Ways of calling in ES6</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_callables.html#sec_callables-style" target="_blank"><span class="section-number">12.3 </span>Recommendations for using callable entities</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_callables.html#sec_callable-entities-details" target="_blank"><span class="section-number">12.4 </span>ES6 callable entities in detail</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_callables.html#sec_dispatched-direct-method-calls" target="_blank"><span class="section-number">12.5 </span>Dispatched and direct method calls in ES5 and ES6</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_callables.html#sec_function-names" target="_blank"><span class="section-number">12.6 </span>The <code>name</code> property of functions</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_callables.html#sec_faq-callables" target="_blank"><span class="section-number">12.7 </span>FAQ: callable entities</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_arrow-functions.html" id="toc_ch_arrow-functions" target="_blank"><span class="section-number">13. </span>Arrow functions</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_arrow-functions.html#sec_overview-arrow-functions" target="_blank"><span class="section-number">13.1 </span>Overview</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_arrow-functions.html#sec_traditional-functions-bad-non-methods" target="_blank"><span class="section-number">13.2 </span>Traditional functions are bad non-method functions, due to <code>this</code></a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_arrow-functions.html#sec_arrow-function-syntax" target="_blank"><span class="section-number">13.3 </span>Arrow function syntax</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_arrow-functions.html#sec_lexical-variables" target="_blank"><span class="section-number">13.4 </span>Lexical variables</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_arrow-functions.html#sec_syntactic-pitfalls-arrow-functions" target="_blank"><span class="section-number">13.5 </span>Syntax pitfalls</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_arrow-functions.html#iiaf" target="_blank"><span class="section-number">13.6 </span>Immediately-invoked arrow functions</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_arrow-functions.html#sec_arrow-func-vs-bind" target="_blank"><span class="section-number">13.7 </span>Arrow functions versus <code>bind()</code></a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_arrow-functions.html#sec_arrow-func-vs-normal-func" target="_blank"><span class="section-number">13.8 </span>Arrow functions versus normal functions</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_arrow-functions.html#sec_faq-arrow-functions" target="_blank"><span class="section-number">13.9 </span>FAQ: arrow functions</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_oop-besides-classes.html" id="toc_ch_oop-besides-classes" target="_blank"><span class="section-number">14. </span>New OOP features besides classes</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_oop-besides-classes.html#sec_overview-oop-besides-classes" target="_blank"><span class="section-number">14.1 </span>Overview</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_oop-besides-classes.html#sec_new-features-obj-literals" target="_blank"><span class="section-number">14.2 </span>New features of object literals</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_oop-besides-classes.html#sec_new-methods-object" target="_blank"><span class="section-number">14.3 </span>New methods of <code>Object</code></a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_oop-besides-classes.html#sec_traversing-properties" target="_blank"><span class="section-number">14.4 </span>Traversing properties in ES6</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_oop-besides-classes.html#sec_assigning-vs-defining-properties" target="_blank"><span class="section-number">14.5 </span>Assigning versus defining properties</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_oop-besides-classes.html#sec_proto" target="_blank"><span class="section-number">14.6 </span><code>__proto__</code> in ECMAScript 6</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_oop-besides-classes.html#sec_enumerability-es6" target="_blank"><span class="section-number">14.7 </span>Enumerability in ECMAScript 6</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_oop-besides-classes.html#sec_customizing-oop-via-well-known-symbols" target="_blank"><span class="section-number">14.8 </span>Customizing basic language operations via well-known symbols</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_oop-besides-classes.html#sec_faq-obj-literals" target="_blank"><span class="section-number">14.9 </span>FAQ: object literals</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_classes.html" id="toc_ch_classes" target="_blank"><span class="section-number">15. </span>Classes</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_classes.html#sec_overview-classes" target="_blank"><span class="section-number">15.1 </span>Overview</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_classes.html#sec_essentials-classes" target="_blank"><span class="section-number">15.2 </span>The essentials</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_classes.html#sec_private-data-for-classes" target="_blank"><span class="section-number">15.3 </span>Private data for classes</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_classes.html#sec_simple-mixins" target="_blank"><span class="section-number">15.4 </span>Simple mixins</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_classes.html#sec_details-classes" target="_blank"><span class="section-number">15.5 </span>The details of classes</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_classes.html#details-of-subclassing" target="_blank"><span class="section-number">15.6 </span>The details of subclassing</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_classes.html#sec_species-pattern" target="_blank"><span class="section-number">15.7 </span>The species pattern</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_classes.html#sec_class-benefits" target="_blank"><span class="section-number">15.8 </span>The pros and cons of classes</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_classes.html#sec_faq-classes" target="_blank"><span class="section-number">15.9 </span>FAQ: classes</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_classes.html#sec_classes-what-next" target="_blank"><span class="section-number">15.10 </span>What is next for classes?</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_classes.html#sec_further-reading-classes" target="_blank"><span class="section-number">15.11 </span>Further reading</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_modules.html" id="toc_ch_modules" target="_blank"><span class="section-number">16. </span>Modules</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_modules.html#sec_overview-modules" target="_blank"><span class="section-number">16.1 </span>Overview</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_modules.html#sec_modules-in-javascript" target="_blank"><span class="section-number">16.2 </span>Modules in JavaScript</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_modules.html#sec_basics-of-es6-modules" target="_blank"><span class="section-number">16.3 </span>The basics of ES6 modules</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_modules.html#sec_importing-exporting-details" target="_blank"><span class="section-number">16.4 </span>Importing and exporting in detail</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_modules.html#sec_module-loader-api" target="_blank"><span class="section-number">16.5 </span>The ECMAScript 6 module loader API</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_modules.html#sec_modules-in-browsers" target="_blank"><span class="section-number">16.6 </span>Using ES6 modules in browsers</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_modules.html#sec_imports-as-views-on-exports" target="_blank"><span class="section-number">16.7 </span>Details: imports as views on exports</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_modules.html#sec_design-goals-es6-modules" target="_blank"><span class="section-number">16.8 </span>Design goals for ES6 modules</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_modules.html#sec_faq-modules" target="_blank"><span class="section-number">16.9 </span>FAQ: modules</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_modules.html#sec_advantages-es6-modules" target="_blank"><span class="section-number">16.10 </span>Advantages of ECMAScript 6 modules</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_modules.html#sec_further-reading-modules" target="_blank"><span class="section-number">16.11 </span>Further reading</a>
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <a href="http://exploringjs.com/es6/pt_collections.html" id="toc_pt_collections" target="_blank"><span class="section-number">IV </span>Collections</a>
+    <ol>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_for-of.html" id="toc_ch_for-of" target="_blank"><span class="section-number">17. </span>The <code>for-of</code> loop</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_for-of.html#sec_overview-for-of" target="_blank"><span class="section-number">17.1 </span>Overview</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_for-of.html#sec_introducing-for-of" target="_blank"><span class="section-number">17.2 </span>Introducing the <code>for-of</code> loop</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_for-of.html#sec_pitfall-for-of-iterability" target="_blank"><span class="section-number">17.3 </span>Pitfall: <code>for-of</code> only works with iterable values</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_for-of.html#sec_iteration-variable-for-of" target="_blank"><span class="section-number">17.4 </span>Iteration variables: <code>const</code> declarations versus <code>var</code> declarations</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_for-of.html#sec_more-iteration-variables" target="_blank"><span class="section-number">17.5 </span>Iterating with existing variables, object properties and Array elements</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_for-of.html#sec_iteration-variable-destructuring" target="_blank"><span class="section-number">17.6 </span>Iterating with a destructuring pattern</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_arrays.html" id="toc_ch_arrays" target="_blank"><span class="section-number">18. </span>New Array features</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_arrays.html#sec_overview-arrays" target="_blank"><span class="section-number">18.1 </span>Overview</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_arrays.html#sec_new-static-array-methods" target="_blank"><span class="section-number">18.2 </span>New static <code>Array</code> methods</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_arrays.html#sec_new-array-prototype-methods" target="_blank"><span class="section-number">18.3 </span>New <code>Array.prototype</code> methods</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_arrays.html#sec_array-holes" target="_blank"><span class="section-number">18.4 </span>ES6 and holes in Arrays</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_arrays.html#Symbol_isConcatSpreadable" target="_blank"><span class="section-number">18.5 </span>Configuring which objects are spread by <code>concat()</code> (<code>Symbol.isConcatSpreadable</code>)</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_arrays.html#sec_range-of-array-indices" target="_blank"><span class="section-number">18.6 </span>The numeric range of Array indices</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_maps-sets.html" id="toc_ch_maps-sets" target="_blank"><span class="section-number">19. </span>Maps and Sets</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_maps-sets.html#sec_overview-maps-sets" target="_blank"><span class="section-number">19.1 </span>Overview</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_maps-sets.html#sec_map" target="_blank"><span class="section-number">19.2 </span>Map</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_maps-sets.html#sec_weakmap" target="_blank"><span class="section-number">19.3 </span>WeakMap</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_maps-sets.html#sec_set" target="_blank"><span class="section-number">19.4 </span>Set</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_maps-sets.html#sec_weakset" target="_blank"><span class="section-number">19.5 </span>WeakSet</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_maps-sets.html#sec_faq-maps-sets" target="_blank"><span class="section-number">19.6 </span>FAQ: Maps and Sets</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_typed-arrays.html" id="toc_ch_typed-arrays" target="_blank"><span class="section-number">20. </span>Typed Arrays</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_typed-arrays.html#sec_overview-typed-arrays" target="_blank"><span class="section-number">20.1 </span>Overview</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_typed-arrays.html#sec_intro-typed-arrays" target="_blank"><span class="section-number">20.2 </span>Introduction</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_typed-arrays.html#sec_arraybuffers" target="_blank"><span class="section-number">20.3 </span>ArrayBuffers</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_typed-arrays.html#sec_typed-arrays" target="_blank"><span class="section-number">20.4 </span>Typed Arrays</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_typed-arrays.html#sec_dataviews" target="_blank"><span class="section-number">20.5 </span>DataViews</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_typed-arrays.html#sec_browser-apis-supporting-typed-arrays" target="_blank"><span class="section-number">20.6 </span>Browser APIs that support Typed Arrays</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_typed-arrays.html#sec_example-jpeg-sof0-decoder" target="_blank"><span class="section-number">20.7 </span>Extended example: JPEG SOF0 decoder</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_typed-arrays.html#sec_availability-typed-arrays" target="_blank"><span class="section-number">20.8 </span>Availability</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_iteration.html" id="toc_ch_iteration" target="_blank"><span class="section-number">21. </span>Iterables and iterators</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_iteration.html#sec_overview-iteration" target="_blank"><span class="section-number">21.1 </span>Overview</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_iteration.html#sec_iterability" target="_blank"><span class="section-number">21.2 </span>Iterability</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_iteration.html#sec_iterable-data-sources" target="_blank"><span class="section-number">21.3 </span>Iterable data sources</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_iteration.html#sec_iterating-language-constructs" target="_blank"><span class="section-number">21.4 </span>Iterating language constructs</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_iteration.html#sec_implementing-iterables" target="_blank"><span class="section-number">21.5 </span>Implementing iterables</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_iteration.html#sec_more-examples-of-iterables" target="_blank"><span class="section-number">21.6 </span>More examples of iterables</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_iteration.html#sec_faq-iteration" target="_blank"><span class="section-number">21.7 </span>FAQ: iterables and iterators</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_iteration.html#sec_iteration-protocol-in-depth" target="_blank"><span class="section-number">21.8 </span>The ECMAScript 6 iteration protocol in depth</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_generators.html" id="toc_ch_generators" target="_blank"><span class="section-number">22. </span>Generators</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_generators.html#sec_overview-generators" target="_blank"><span class="section-number">22.1 </span>Overview</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_generators.html#sec_what-are-generators" target="_blank"><span class="section-number">22.2 </span>What are generators?</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_generators.html#sec_generators-as-iterators" target="_blank"><span class="section-number">22.3 </span>Generators as iterators (data production)</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_generators.html#sec_generators-as-observers" target="_blank"><span class="section-number">22.4 </span>Generators as observers (data consumption)</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_generators.html#sec_generators-as-coroutines" target="_blank"><span class="section-number">22.5 </span>Generators as coroutines (cooperative multitasking)</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_generators.html#sec_examples-of-generators" target="_blank"><span class="section-number">22.6 </span>Examples of generators</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_generators.html#sec_iteration-api-inheritance" target="_blank"><span class="section-number">22.7 </span>Inheritance within the iteration API (including generators)</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_generators.html#sec_formating-generators" target="_blank"><span class="section-number">22.8 </span>Style consideration: whitespace before and after the asterisk</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_generators.html#sec_faq-generators" target="_blank"><span class="section-number">22.9 </span>FAQ: generators</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_generators.html#sec_conclusion-generators" target="_blank"><span class="section-number">22.10 </span>Conclusion</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_generators.html#sec_further-reading-generators" target="_blank"><span class="section-number">22.11 </span>Further reading</a>
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <a href="http://exploringjs.com/es6/pt_standard-library.html" id="toc_pt_standard-library" target="_blank"><span class="section-number">V </span>Standard library</a>
+    <ol>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_regexp.html" id="toc_ch_regexp" target="_blank"><span class="section-number">23. </span>New regular expression features</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_regexp.html#sec_regexp" target="_blank"><span class="section-number">23.1 </span>Overview</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_regexp.html#sec_regexp-flag-y" target="_blank"><span class="section-number">23.2 </span>New flag <code>/y</code> (sticky)</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_regexp.html#sec_regexp-flag-u" target="_blank"><span class="section-number">23.3 </span>New flag <code>/u</code> (unicode)</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_regexp.html#sec_regexp-data-property-flags" target="_blank"><span class="section-number">23.4 </span>New data property <code>flags</code></a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_regexp.html#sec_regexp-copy-constructor" target="_blank"><span class="section-number">23.5 </span><code>RegExp()</code> can be used as a copy constructor</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_regexp.html#sec_string-methods-delegating-to-regexp" target="_blank"><span class="section-number">23.6 </span>String methods that delegate to regular expression methods</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_async.html" id="toc_ch_async" target="_blank"><span class="section-number">24. </span>Asynchronous programming (background)</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_async.html#sec_javascript-call-stack" target="_blank"><span class="section-number">24.1 </span>The JavaScript call stack</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_async.html#sec_browser-event-loop" target="_blank"><span class="section-number">24.2 </span>The browser event loop</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_async.html#sec_receiving-results-asynchronously" target="_blank"><span class="section-number">24.3 </span>Receiving results asynchronously</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_async.html#sec_looking-ahead-async" target="_blank"><span class="section-number">24.4 </span>Looking ahead</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_async.html#sec_further-reading-async" target="_blank"><span class="section-number">24.5 </span>Further reading</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_promises.html" id="toc_ch_promises" target="_blank"><span class="section-number">25. </span>Promises for asynchronous programming</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_promises.html#sec_overview-promises" target="_blank"><span class="section-number">25.1 </span>Overview</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_promises.html#sec_introduction-promises" target="_blank"><span class="section-number">25.2 </span>Introduction: Promises</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_promises.html#sec_first-example-promises" target="_blank"><span class="section-number">25.3 </span>A first example</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_promises.html#sec_three-ways-understanding-promises" target="_blank"><span class="section-number">25.4 </span>Three ways of understanding Promises</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_promises.html#sec_creating-using-promises" target="_blank"><span class="section-number">25.5 </span>Creating and using Promises</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_promises.html#sec_examples-promises" target="_blank"><span class="section-number">25.6 </span>Examples</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_promises.html#sec_other-ways-creating-promises" target="_blank"><span class="section-number">25.7 </span>Other ways of creating Promises</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_promises.html#sec_chaining-promises" target="_blank"><span class="section-number">25.8 </span>Chaining Promises</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_promises.html#sec_common-promise-chaining-mistakes" target="_blank"><span class="section-number">25.9 </span>Common Promise chaining mistakes</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_promises.html#sec_error-handling-promises" target="_blank"><span class="section-number">25.10 </span>Tips for error handling</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_promises.html#sec_composing-promises" target="_blank"><span class="section-number">25.11 </span>Composing Promises</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_promises.html#sec_additional-promise-methods" target="_blank"><span class="section-number">25.12 </span>Two useful additional Promise methods</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_promises.html#sec_nodejs-callbacks-promises" target="_blank"><span class="section-number">25.13 </span>Node.js: using callback-based sync functions with Promises</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_promises.html#sec_es6-compatible-promise-libraries" target="_blank"><span class="section-number">25.14 </span>ES6-compatible Promise libraries</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_promises.html#sec_promises-via-generators" target="_blank"><span class="section-number">25.15 </span>Next step: using Promises via generators</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_promises.html#sec_demo-promise" target="_blank"><span class="section-number">25.16 </span>Promises in depth: a simple implementation</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_promises.html#sec_promises-pros-cons" target="_blank"><span class="section-number">25.17 </span>Advantages and limitations of Promises</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_promises.html#sec_reference-promises" target="_blank"><span class="section-number">25.18 </span>Reference: the ECMAScript 6 Promise API</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_promises.html#sec_further-reading-promises" target="_blank"><span class="section-number">25.19 </span>Further reading</a>
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <a href="http://exploringjs.com/es6/pt_misc.html" id="toc_pt_misc" target="_blank"><span class="section-number">VI </span>Miscellaneous</a>
+    <ol>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_unicode.html" id="toc_ch_unicode" target="_blank"><span class="section-number">26. </span>Unicode in ES6</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_unicode.html#sec_better-unicode-es6" target="_blank"><span class="section-number">26.1 </span>Unicode is better supported in ES6</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_unicode.html#sec_escape-sequences" target="_blank"><span class="section-number">26.2 </span>Escape sequences in ES6</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_tail-calls.html" id="toc_ch_tail-calls" target="_blank"><span class="section-number">27. </span>Tail call optimization</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_tail-calls.html#sec_what-are-tail-calls" target="_blank"><span class="section-number">27.1 </span>What is tail call optimization?</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_tail-calls.html#sec_checking-for-tail-calls" target="_blank"><span class="section-number">27.2 </span>Checking whether a function call is in a tail position</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_tail-calls.html#sec_tail-recursive-functions" target="_blank"><span class="section-number">27.3 </span>Tail-recursive functions</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_proxies.html" id="toc_ch_proxies" target="_blank"><span class="section-number">28. </span>Metaprogramming with proxies</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_proxies.html#sec_overview-proxies" target="_blank"><span class="section-number">28.1 </span>Overview</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_proxies.html#sec_programming-vs-metaprogramming" target="_blank"><span class="section-number">28.2 </span>Programming versus metaprogramming</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_proxies.html#sec_proxies-explained" target="_blank"><span class="section-number">28.3 </span>Proxies explained</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_proxies.html#sec_proxy-use-cases" target="_blank"><span class="section-number">28.4 </span>Use cases for proxies</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_proxies.html#sec_design-proxy-api" target="_blank"><span class="section-number">28.5 </span>The design of the proxy API</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_proxies.html#sec_faq-proxies" target="_blank"><span class="section-number">28.6 </span>FAQ: proxies</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_proxies.html#sec_reference-proxy-api" target="_blank"><span class="section-number">28.7 </span>Reference: the proxy API</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_proxies.html#sec_conclusion-proxies" target="_blank"><span class="section-number">28.8 </span>Conclusion</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_proxies.html#sec_further-reading-proxies" target="_blank"><span class="section-number">28.9 </span>Further reading</a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_coding-style.html" id="toc_ch_coding-style" target="_blank"><span class="section-number">29. </span>Coding style tips for ECMAScript 6</a>
+      </li>
+      <li>
+        <a href="http://exploringjs.com/es6/ch_overviews.html" id="toc_ch_overviews" target="_blank"><span class="section-number">30. </span>An overview of what&#x2019;s new in ES6</a>
+        <ol>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_categories-of-es6-features-overview-entry-about-es6md" target="_blank"><span class="section-number">30.1 </span>Categories of ES6 features {#overview-entry-about-es6.md}</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_new-number-and-math-features-overview-entry-numbersmd" target="_blank"><span class="section-number">30.2 </span>New number and <code>Math</code> features {#overview-entry-numbers.md}</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_new-string-features-overview-entry-stringsmd" target="_blank"><span class="section-number">30.3 </span>New string features {#overview-entry-strings.md}</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_symbols-overview-entry-symbolsmd" target="_blank"><span class="section-number">30.4 </span>Symbols {#overview-entry-symbols.md}</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_template-literals-overview-entry-template-literalsmd" target="_blank"><span class="section-number">30.5 </span>Template literals {#overview-entry-template-literals.md}</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_variables-and-scoping-overview-entry-variablesmd" target="_blank"><span class="section-number">30.6 </span>Variables and scoping {#overview-entry-variables.md}</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_destructuring-overview-entry-destructuringmd" target="_blank"><span class="section-number">30.7 </span>Destructuring {#overview-entry-destructuring.md}</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_parameter-handling-overview-entry-parameter-handlingmd" target="_blank"><span class="section-number">30.8 </span>Parameter handling {#overview-entry-parameter-handling.md}</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_callable-entities-in-ecmascript-6-overview-entry-callablesmd" target="_blank"><span class="section-number">30.9 </span>Callable entities in ECMAScript 6 {#overview-entry-callables.md}</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_arrow-functions-overview-entry-arrow-functionsmd" target="_blank"><span class="section-number">30.10 </span>Arrow functions {#overview-entry-arrow-functions.md}</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_new-oop-features-besides-classes-overview-entry-oop-besides-classesmd" target="_blank"><span class="section-number">30.11 </span>New OOP features besides classes {#overview-entry-oop-besides-classes.md}</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_classes-overview-entry-classesmd" target="_blank"><span class="section-number">30.12 </span>Classes {#overview-entry-classes.md}</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_modules-overview-entry-modulesmd" target="_blank"><span class="section-number">30.13 </span>Modules {#overview-entry-modules.md}</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_the-for-of-loop-overview-entry-for-ofmd" target="_blank"><span class="section-number">30.14 </span>The <code>for-of</code> loop {#overview-entry-for-of.md}</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_new-array-features-overview-entry-arraysmd" target="_blank"><span class="section-number">30.15 </span>New Array features {#overview-entry-arrays.md}</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_maps-and-sets-overview-entry-maps-setsmd" target="_blank"><span class="section-number">30.16 </span>Maps and Sets {#overview-entry-maps-sets.md}</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_typed-arrays-overview-entry-typed-arraysmd" target="_blank"><span class="section-number">30.17 </span>Typed Arrays {#overview-entry-typed-arrays.md}</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_iterables-and-iterators-overview-entry-iterationmd" target="_blank"><span class="section-number">30.18 </span>Iterables and iterators {#overview-entry-iteration.md}</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_generators-overview-entry-generatorsmd" target="_blank"><span class="section-number">30.19 </span>Generators {#overview-entry-generators.md}</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_new-regular-expression-features-overview-entry-regexpmd" target="_blank"><span class="section-number">30.20 </span>New regular expression features {#overview-entry-regexp.md}</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_promises-for-asynchronous-programming-overview-entry-promisesmd" target="_blank"><span class="section-number">30.21 </span>Promises for asynchronous programming {#overview-entry-promises.md}</a>
+          </li>
+          <li>
+            <a href="http://exploringjs.com/es6/ch_overviews.html#_metaprogramming-with-proxies-overview-entry-proxiesmd" target="_blank"><span class="section-number">30.22 </span>Metaprogramming with proxies {#overview-entry-proxies.md}</a>
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <a href="http://exploringjs.com/es6/leanpub-endnotes.html" id="toc_leanpub-endnotes" target="_blank">Notes</a>
+  </li>
+</ol>
+
+
+
+<div class="verso">&#xA9; 2015 - 2017 Axel Rauschmayer (cover by Fran Caye)</div>
+
+<h1 id="babel-es6-es7-y-es8">Babel ES6, ES7 y ES8</h1>
+<p>Esta secci&#xF3;n est&#xE1; basada en unos apuntes elaborados por <a href="https://github.com/DanielRamosAcosta" target="_blank">Daniel Ramos Acosta</a>
+para una presentaci&#xF3;n en la <a href="https://github.com/ULL-ESIT-SYTW-1617/PresentacionESX_STYW" target="_blank">asignatura SYTW en el curso 16/17</a>:</p>
+<ul>
+<li>Autor: <a href="https://github.com/DanielRamosAcosta" target="_blank">Daniel Ramos Acosta</a></li>
+<li>Fecha: 17/11/2016</li>
+<li><a href="https://github.com/ULL-ESIT-SYTW-1617/PresentacionESX_STYW" target="_blank">Presentaci&#xF3;n</a></li>
+</ul>
+<p>Esta presentaci&#xF3;n trata sobre el uso de las nuevas caracter&#xED;sticas del est&#xE1;ndar ECMAScript m&#xE1;s interesantes, y su aplicaci&#xF3;n en Node.js, ya sea usando <code>--harmony</code>, o mediante un transpilador como Babel.</p>
+<p>Se ir&#xE1;n viendo distintas funciones mediante ejemplos y de c&#xF3;mo se hac&#xED;a antes y qu&#xE9; m&#xE9;todos existen actualmente que pueden ser mejores soluciones.</p>
+
+                                
+                                </section>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="proceso-de-introduccion-de-nuevas-caracteristicas.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Proceso de Introducción de Nuevas Características">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Babel ES6, ES7 y ES8","level":"27.2","depth":1,"next":{"title":"Proceso de Introducción de Nuevas Características","level":"27.2.1","depth":2,"path":"apuntes/babel/proceso-de-introduccion-de-nuevas-caracteristicas.md","ref":"apuntes/babel/proceso-de-introduccion-de-nuevas-caracteristicas.md","articles":[]},"previous":{"title":"Libro: Exploring Ecma 6","level":"27.1","depth":1,"url":"http://exploringjs.com/es6/","ref":"http://exploringjs.com/es6/","articles":[]},"dir":"ltr"},"config":{"plugins":["include","katex","include-codeblock","ace","-autocover","-layout","youtube","video","highlight","sectionx","code-highlighter","copy-code-button","page-toc","-toc","-latex-codecogs","-emphasize","collapsible-menu","js-console","codetabs","es6tabs-stage-0","jazer"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"code-highlighter":{},"collapsible-menu":{},"ace":{},"youtube":{},"es6tabs":{"presets":["es2015","stage-0"]},"include":{},"toc":{"addClass":"true","className":"toc"},"search":{"maxIndexSize":1000000},"autocover":{"title":"Apuntes del Curso 2016/2017: Procesadores de Lenguajes, Desarrollo de Sistemas Informáticos y Sistemas y Tecnologías Web","author":"Casiano","pluginsConfig":{"autocover":{"font":{"size":null,"family":"Impact","color":"#FFF"},"size":{"w":1800,"h":2360},"background":{"color":"#09F"}}}},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4"},"layout":{"headerPath":"layouts/header.html","footerPath":"layouts/footer.html"},"codetabs":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"jazer":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"js-console":{},"sectionx":{},"highlight":{},"copy-code-button":{},"es6tabs-stage-0":{"presets":["es2015","react"]},"video":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"chrome","unindent":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"apuntes/babel/README.md","mtime":"2018-01-11T15:21:56.140Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-02-19T13:29:26.059Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ace/ace.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-page-toc/anchor-3.1.1.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-page-toc/page-toc.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-collapsible-menu/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-js-console/console-ui.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-codetabs/codetabs.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-jazer/questionjs/questionjs.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-jazer/question/question.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-jazer/regexp/regexp.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-jazer/xregexp/xregexp.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-jazer/ace/ace.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-jazer/ace/theme-dreamweaver.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/buttons.js"></script>
+        
+    
+
+    </body>
+</html>
+
