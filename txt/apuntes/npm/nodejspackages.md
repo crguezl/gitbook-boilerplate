@@ -181,20 +181,20 @@ npm publish --access=public
 
 ### NPM Documentation: Getting Started 
 
-1.  [What is npm?](https://docs.npmjs.com/getting-started/getting-started/what-is-npm)
-2.  [Installing Node.js and updating npm](https://docs.npmjs.com/getting-started/getting-started/installing-node)
-3.  [Fixing npm permissions](https://docs.npmjs.com/getting-started/getting-started/fixing-npm-permissions)
-4.  [Installing npm packages locally](https://docs.npmjs.com/getting-started/getting-started/installing-npm-packages-locally)
-5.  [Using a \`package.json\`](https://docs.npmjs.com/getting-started/getting-started/using-a-package.json)
-6.  [Updating local packages](https://docs.npmjs.com/getting-started/getting-started/updating-local-packages)
-7.  [Uninstalling local packages](https://docs.npmjs.com/getting-started/getting-started/uninstalling-local-packages)
-8.  [Installing npm packages globally](https://docs.npmjs.com/getting-started/getting-started/installing-npm-packages-globally)
-9.  [Updating global packages](https://docs.npmjs.com/getting-started/getting-started/updating-global-packages)
-[Uninstalling global packages](https://docs.npmjs.com/getting-started/getting-started/uninstalling-global-packages)11.  [Creating Node.js modules](https://docs.npmjs.com/getting-started/getting-started/creating-node-modules)
-12.  [Publishing npm packages](https://docs.npmjs.com/getting-started/getting-started/publishing-npm-packages)
-13.  [Semantic versioning and npm](https://docs.npmjs.com/getting-started/getting-started/semantic-versioning)
-14.  [Working with scoped packages](https://docs.npmjs.com/getting-started/getting-started/scoped-packages)
-15.  [Using tags](https://docs.npmjs.com/getting-started/getting-started/using-tags)
+1.  [What is npm?](https://docs.npmjs.com/getting-started/what-is-npm)
+2.  [Installing Node.js and updating npm](https://docs.npmjs.com/getting-started/installing-node)
+3.  [Fixing npm permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
+4.  [Installing npm packages locally](https://docs.npmjs.com/getting-started/installing-npm-packages-locally)
+5.  [Using a \`package.json\`](https://docs.npmjs.com/getting-started/using-a-package.json)
+6.  [Updating local packages](https://docs.npmjs.com/getting-started/updating-local-packages)
+7.  [Uninstalling local packages](https://docs.npmjs.com/getting-started/uninstalling-local-packages)
+8.  [Installing npm packages globally](https://docs.npmjs.com/getting-started/installing-npm-packages-globally)
+9.  [Updating global packages](https://docs.npmjs.com/getting-started/updating-global-packages)
+[Uninstalling global packages](https://docs.npmjs.com/getting-started/uninstalling-global-packages)11.  [Creating Node.js modules](https://docs.npmjs.com/getting-started/getting-started/creating-node-modules)
+12.  [Publishing npm packages](https://docs.npmjs.com/getting-started/publishing-npm-packages)
+13.  [Semantic versioning and npm](https://docs.npmjs.com/getting-started/semantic-versioning)
+14.  [Working with scoped packages](https://docs.npmjs.com/getting-started/scoped-packages)
+15.  [Using tags](https://docs.npmjs.com/getting-started/using-tags)
 
 <!-- * [Publishing npm packages tutorial](https://docs.npmjs.com/getting-started/publishing-npm-packages) * [npm documentation: Creating Node.js modules](https://docs.npmjs.com/getting-started/creating-node-modules) -->
 
