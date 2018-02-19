@@ -3050,55 +3050,54 @@ guardar&#xE1; el token en el fichero
 <pre><code>      [/tmp/scapegoat(master)]$ npm publish --access public
       + @ull-esit-dsi-1617/scapegoat@1.0.2
 </code></pre><h3 id="ejemplo-de-packagejson">Ejemplo de package.json</h3>
-<pre><code>```bash
-[~/javascript/evalua-module/scapegoat(master)]$ pwd -P
-/Users/casiano/local/src/javascript/evalua-module/scapegoat
-[~/javascript/evalua-module/scapegoat(master)]$ tree -I &apos;node_modules|docs&apos;
-.
-&#x251C;&#x2500;&#x2500; LICENSE-MIT
-&#x251C;&#x2500;&#x2500; README.md
-&#x251C;&#x2500;&#x2500; index.js
-&#x251C;&#x2500;&#x2500; package.json
-&#x2514;&#x2500;&#x2500; test
-        &#x2514;&#x2500;&#x2500; index.js
+<pre><code class="lang-bash">    [~/javascript/evalua-module/scapegoat(master)]$ <span class="hljs-built_in">pwd</span> -P
+    /Users/casiano/<span class="hljs-built_in">local</span>/src/javascript/evalua-module/scapegoat
+    [~/javascript/evalua-module/scapegoat(master)]$ tree -I <span class="hljs-string">&apos;node_modules|docs&apos;</span>
+    .
+    &#x251C;&#x2500;&#x2500; LICENSE-MIT
+    &#x251C;&#x2500;&#x2500; README.md
+    &#x251C;&#x2500;&#x2500; index.js
+    &#x251C;&#x2500;&#x2500; package.json
+    &#x2514;&#x2500;&#x2500; <span class="hljs-built_in">test</span>
+            &#x2514;&#x2500;&#x2500; index.js
 
-1 directory, 5 files
-[~/javascript/evalua-module/scapegoat(master)]$ cat package.json 
-{
-    &quot;name&quot;: &quot;@ull-esit-dsi-1617/scapegoat&quot;,
-    &quot;version&quot;: &quot;1.0.4&quot;,
-    &quot;description&quot;: &quot;A small library providing utility methods to escape and unescape HTML entities&quot;,
-    &quot;main&quot;: &quot;index.js&quot;,
-    &quot;scripts&quot;: {
-        &quot;test&quot;: &quot;./node_modules/.bin/mocha --reporter spec&quot;,
-        &quot;doc&quot;: &quot;documentation build index.js -f html -o docs&quot;
-    },
-    &quot;repository&quot;: {
-        &quot;type&quot;: &quot;git&quot;,
-        &quot;url&quot;: &quot;git@github.com:ULL-ESIT-DSI-1617/scapegoat.git&quot;
-    },
-    &quot;keywords&quot;: [
-        &quot;escape&quot;,
-        &quot;unescape&quot;,
-        &quot;html&quot;
-    ],
-    &quot;author&quot;: &quot;Casiano Rodriguez &lt;casiano.rodriguez.leon@gmail.com&gt;&quot;,
-    &quot;licenses&quot;: [
-        {
-            &quot;type&quot;: &quot;MIT&quot;,
-            &quot;url&quot;: &quot;https://github.com/ULL-ESIT-DSI-1617/scapegoat/blob/master/LICENSE-MIT&quot;
+    1 directory, 5 files
+    [~/javascript/evalua-module/scapegoat(master)]$ cat package.json 
+    {
+        <span class="hljs-string">&quot;name&quot;</span>: <span class="hljs-string">&quot;@ull-esit-dsi-1617/scapegoat&quot;</span>,
+        <span class="hljs-string">&quot;version&quot;</span>: <span class="hljs-string">&quot;1.0.4&quot;</span>,
+        <span class="hljs-string">&quot;description&quot;</span>: <span class="hljs-string">&quot;A small library providing utility methods to escape and unescape HTML entities&quot;</span>,
+        <span class="hljs-string">&quot;main&quot;</span>: <span class="hljs-string">&quot;index.js&quot;</span>,
+        <span class="hljs-string">&quot;scripts&quot;</span>: {
+            <span class="hljs-string">&quot;test&quot;</span>: <span class="hljs-string">&quot;./node_modules/.bin/mocha --reporter spec&quot;</span>,
+            <span class="hljs-string">&quot;doc&quot;</span>: <span class="hljs-string">&quot;documentation build index.js -f html -o docs&quot;</span>
+        },
+        <span class="hljs-string">&quot;repository&quot;</span>: {
+            <span class="hljs-string">&quot;type&quot;</span>: <span class="hljs-string">&quot;git&quot;</span>,
+            <span class="hljs-string">&quot;url&quot;</span>: <span class="hljs-string">&quot;git@github.com:ULL-ESIT-DSI-1617/scapegoat.git&quot;</span>
+        },
+        <span class="hljs-string">&quot;keywords&quot;</span>: [
+            <span class="hljs-string">&quot;escape&quot;</span>,
+            <span class="hljs-string">&quot;unescape&quot;</span>,
+            <span class="hljs-string">&quot;html&quot;</span>
+        ],
+        <span class="hljs-string">&quot;author&quot;</span>: <span class="hljs-string">&quot;Casiano Rodriguez &lt;casiano.rodriguez.leon@gmail.com&gt;&quot;</span>,
+        <span class="hljs-string">&quot;licenses&quot;</span>: [
+            {
+                <span class="hljs-string">&quot;type&quot;</span>: <span class="hljs-string">&quot;MIT&quot;</span>,
+                <span class="hljs-string">&quot;url&quot;</span>: <span class="hljs-string">&quot;https://github.com/ULL-ESIT-DSI-1617/scapegoat/blob/master/LICENSE-MIT&quot;</span>
+            }
+        ],
+        <span class="hljs-string">&quot;bugs&quot;</span>: {
+            <span class="hljs-string">&quot;url&quot;</span>: <span class="hljs-string">&quot;https://github.com/ULL-ESIT-DSI-1617/scapegoat/issues&quot;</span>
+        },
+        <span class="hljs-string">&quot;devDependencies&quot;</span>: {
+            <span class="hljs-string">&quot;mocha&quot;</span>: <span class="hljs-string">&quot;*&quot;</span>,
+            <span class="hljs-string">&quot;chai&quot;</span>: <span class="hljs-string">&quot;*&quot;</span>
         }
-    ],
-    &quot;bugs&quot;: {
-        &quot;url&quot;: &quot;https://github.com/ULL-ESIT-DSI-1617/scapegoat/issues&quot;
-    },
-    &quot;devDependencies&quot;: {
-        &quot;mocha&quot;: &quot;*&quot;,
-        &quot;chai&quot;: &quot;*&quot;
     }
-}
-```
-</code></pre><h3 id="semantic-versioning-and-npm">Semantic versioning and npm</h3>
+</code></pre>
+<h3 id="semantic-versioning-and-npm">Semantic versioning and npm</h3>
 <ul>
 <li><a href="https://docs.npmjs.com/getting-started/semantic-versioning" target="_blank">Semantic versioning and npm</a></li>
 <li><a href="https://www.sitepoint.com/semantic-versioning-why-you-should-using/" target="_blank">Semantic Versioning: Why You Should Be Using it</a> SitePoint</li>
@@ -3307,7 +3306,7 @@ guardar&#xE1; el token en el fichero
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Creación de Paquetes y Módulos en NodeJS","level":"10.2","depth":1,"next":{"title":"Sistema de Archivos","level":"10.3","depth":1,"path":"apuntes/fs.md","ref":"apuntes/fs.md","articles":[]},"previous":{"title":"Debugging NodeJS","level":"10.1","depth":1,"path":"apuntes/nodejs/README.md","ref":"apuntes/nodejs/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["include","katex","include-codeblock","ace","-autocover","-layout","youtube","video","highlight","sectionx","code-highlighter","copy-code-button","page-toc","-toc","-latex-codecogs","-emphasize","collapsible-menu","js-console","codetabs","es6tabs-stage-0","jazer"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"code-highlighter":{},"collapsible-menu":{},"ace":{},"youtube":{},"es6tabs":{"presets":["es2015","stage-0"]},"include":{},"toc":{"addClass":"true","className":"toc"},"search":{"maxIndexSize":1000000},"autocover":{"title":"Apuntes del Curso 2016/2017: Procesadores de Lenguajes, Desarrollo de Sistemas Informáticos y Sistemas y Tecnologías Web","author":"Casiano","pluginsConfig":{"autocover":{"font":{"size":null,"family":"Impact","color":"#FFF"},"size":{"w":1800,"h":2360},"background":{"color":"#09F"}}}},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4"},"layout":{"headerPath":"layouts/header.html","footerPath":"layouts/footer.html"},"codetabs":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"jazer":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"js-console":{},"sectionx":{},"highlight":{},"copy-code-button":{},"es6tabs-stage-0":{"presets":["es2015","react"]},"video":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"chrome","unindent":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"apuntes/npm/nodejspackages.md","mtime":"2018-02-19T11:01:08.378Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-02-19T11:02:10.510Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Creación de Paquetes y Módulos en NodeJS","level":"10.2","depth":1,"next":{"title":"Sistema de Archivos","level":"10.3","depth":1,"path":"apuntes/fs.md","ref":"apuntes/fs.md","articles":[]},"previous":{"title":"Debugging NodeJS","level":"10.1","depth":1,"path":"apuntes/nodejs/README.md","ref":"apuntes/nodejs/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["include","katex","include-codeblock","ace","-autocover","-layout","youtube","video","highlight","sectionx","code-highlighter","copy-code-button","page-toc","-toc","-latex-codecogs","-emphasize","collapsible-menu","js-console","codetabs","es6tabs-stage-0","jazer"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"code-highlighter":{},"collapsible-menu":{},"ace":{},"youtube":{},"es6tabs":{"presets":["es2015","stage-0"]},"include":{},"toc":{"addClass":"true","className":"toc"},"search":{"maxIndexSize":1000000},"autocover":{"title":"Apuntes del Curso 2016/2017: Procesadores de Lenguajes, Desarrollo de Sistemas Informáticos y Sistemas y Tecnologías Web","author":"Casiano","pluginsConfig":{"autocover":{"font":{"size":null,"family":"Impact","color":"#FFF"},"size":{"w":1800,"h":2360},"background":{"color":"#09F"}}}},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4"},"layout":{"headerPath":"layouts/header.html","footerPath":"layouts/footer.html"},"codetabs":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"jazer":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"js-console":{},"sectionx":{},"highlight":{},"copy-code-button":{},"es6tabs-stage-0":{"presets":["es2015","react"]},"video":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"chrome","unindent":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"apuntes/npm/nodejspackages.md","mtime":"2018-02-19T11:07:57.514Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-02-19T11:08:04.866Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
