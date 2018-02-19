@@ -52,6 +52,9 @@ guardará el token en el fichero
 * [Creating and Publishing a Node.js Module](https://quickleft.com/blog/creating-and-publishing-a-node-js-module/) por Brent Ertz
 * El paquete de ejemplo usado en este tutorial [@ull-esit-dsi-1617/scapegoat](https://www.npmjs.com/package/@ull-esit-dsi-1617/scapegoat) en npm
 * El paquete de ejemplo usado en este tutorial [@ull-esit-dsi-1617/scapegoat](https://github.com/ULL-ESIT-DSI-1617/scapegoat) en GitHub
+
+### Documentación
+
 * Para escribir documentación para una API 
   - Véase [documentation.js](http://documentation.js.org/), 
   - [jsdoc](https://www.npmjs.com/package/jsdoc), 
