@@ -55,17 +55,18 @@ guardará el token en el fichero
 
 ### Documentación
 
-* Para escribir documentación para una API 
-  - Véase [documentation.js](http://documentation.js.org/), 
-  - [jsdoc](https://www.npmjs.com/package/jsdoc), 
-  - [docco](http://jashkenas.github.io/docco/)
+Para escribir documentación para una API 
+
+- Véase [documentation.js](http://documentation.js.org/), 
+- [jsdoc](https://www.npmjs.com/package/jsdoc), 
+- [docco](http://jashkenas.github.io/docco/)
 
 ### Instalación desde GitHub
 
 You can install packages directly from Github, and even specify a tag, sha, or branch if you want.
 
-          npm install git://github.com/brentertz/scapegoat.git
-          npm install git://github.com/brentertz/scapegoat.git#0.1.0
+					npm install https://github.com/ULL-ESIT-DSI-1617/scapegoat.git
+					npm install https://github.com/ULL-ESIT-DSI-1617/scapegoat.git#branch
 
 must be https or git+ssh. 
 
