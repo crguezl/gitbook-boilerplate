@@ -1,20 +1,7 @@
 var gulp  = require('gulp');
 var shell = require('gulp-shell');
 
-var deploygh = function() {
-  "use strict";
-  let gh = require('gh-pages');
-
-  let json = require('./package.json');
-  let REPO = json.repository.url;
-  console.log(REPO);
-
-  gh.publish('./gh-pages', { repo: REPO, logger: function(m) { console.error(m); } });
-};
-
-//  "deploy-gitbook": "./scripts/losh deploy-gitbook",
-gulp.task('deploy', [ 'build', 'push'],
-           deploygh);
+gulp.task('deploy', [ 'build', 'push']);
 
 //  "deploy-togbsio": "./scripts/losh deploy-togbsio",
 gulp.task('deploygb',
@@ -26,9 +13,10 @@ gulp.task('deploygb',
   )
 );
 
-//  "deploy-togbsio": "./scripts/losh deploy-togbsio",
 gulp.task('push',
   shell.task(
+    "git add . "+
+    ";"+
     "git ci -am 'deploy to github'"+
     ";"+
     "git push origin master",
@@ -36,33 +24,16 @@ gulp.task('push',
   )
 );
 
-//"generate-wiki": "./scripts/losh generate-wiki"
-//"deploy-wiki": "./scripts/losh deploy-wiki"
-gulp.task('deployw', function() {
-  return gulp.src('').pipe(shell([
-     "./scripts/losh generate-wiki",
-     "./scripts/losh deploy-wiki"
-     ]))
-});
-
-// npm install -g http-server
-//  "generate-gitbook": "./scripts/generate-gitbook",
-gulp.task('build2', function() {
-  return gulp.src('').pipe(shell(['./scripts/generate-gitbook']));
-});
-
 gulp.task('build', shell.task([
       'gitbook build',
-      'rm -fR gh-pages',
-      'mv _book gh-pages',
-      'touch gh-pages/.nojekyll'
+      'touch _book/.nojekyll'
     ],
       { verbose: true }
 ));
 
 // "serve": "gitbook serve txt gh-pages",
 gulp.task('serve', shell.task(
-    ['gitbook serve --lrport 9999 --port 43210 `pwd` gh-pages']
+    ['gitbook serve --lrport 9999 --port 4000']
   )
 );
 

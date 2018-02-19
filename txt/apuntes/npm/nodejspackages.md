@@ -181,23 +181,21 @@ npm publish --access=public
 
 ### NPM Documentation: Getting Started 
 
-<ol>
-<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/what-is-npm" > What is npm?</a> </li>
-<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/installing-node" > Installing Node.js and updating npm</a> </li>
-<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/fixing-npm-permissions" > Fixing npm permissions</a> </li>
-<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/installing-npm-packages-locally" > Installing npm packages locally</a> </li>
-<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/using-a-package.json" > Using a &#x60;package.json&#x60;</a> </li>
-<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/updating-local-packages" > Updating local packages</a> </li>
-<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/uninstalling-local-packages" > Uninstalling local packages</a> </li>
-<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/installing-npm-packages-globally" > Installing npm packages globally</a> </li>
-<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/updating-global-packages" > Updating global packages</a> </li>
-            <a href="https://docs.npmjs.com/getting-started/getting-started/uninstalling-global-packages" > Uninstalling global packages</a>
-<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/creating-node-modules" > Creating Node.js modules</a> </li>
-<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/publishing-npm-packages" class="active"> Publishing npm packages</a> </li>
-<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/semantic-versioning" > Semantic versioning and npm</a> </li>
-<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/scoped-packages" > Working with scoped packages</a> </li>
-<li>             <a href="https://docs.npmjs.com/getting-started/getting-started/using-tags" > Using tags</a> </li>
-</ol>
+1.  [What is npm?](https://docs.npmjs.com/getting-started/getting-started/what-is-npm)
+2.  [Installing Node.js and updating npm](https://docs.npmjs.com/getting-started/getting-started/installing-node)
+3.  [Fixing npm permissions](https://docs.npmjs.com/getting-started/getting-started/fixing-npm-permissions)
+4.  [Installing npm packages locally](https://docs.npmjs.com/getting-started/getting-started/installing-npm-packages-locally)
+5.  [Using a \`package.json\`](https://docs.npmjs.com/getting-started/getting-started/using-a-package.json)
+6.  [Updating local packages](https://docs.npmjs.com/getting-started/getting-started/updating-local-packages)
+7.  [Uninstalling local packages](https://docs.npmjs.com/getting-started/getting-started/uninstalling-local-packages)
+8.  [Installing npm packages globally](https://docs.npmjs.com/getting-started/getting-started/installing-npm-packages-globally)
+9.  [Updating global packages](https://docs.npmjs.com/getting-started/getting-started/updating-global-packages)
+[Uninstalling global packages](https://docs.npmjs.com/getting-started/getting-started/uninstalling-global-packages)11.  [Creating Node.js modules](https://docs.npmjs.com/getting-started/getting-started/creating-node-modules)
+12.  [Publishing npm packages](https://docs.npmjs.com/getting-started/getting-started/publishing-npm-packages)
+13.  [Semantic versioning and npm](https://docs.npmjs.com/getting-started/getting-started/semantic-versioning)
+14.  [Working with scoped packages](https://docs.npmjs.com/getting-started/getting-started/scoped-packages)
+15.  [Using tags](https://docs.npmjs.com/getting-started/getting-started/using-tags)
+
 <!-- * [Publishing npm packages tutorial](https://docs.npmjs.com/getting-started/publishing-npm-packages) * [npm documentation: Creating Node.js modules](https://docs.npmjs.com/getting-started/creating-node-modules) -->
 
 ### NPM: Herramientas de ayuda
@@ -207,75 +205,19 @@ npm publish --access=public
 
 ### npm Organizations /npm Organizaciones
 
-<nav role="navigation">
-<ul class="summary">
-        <li class="chapter " data-level="1.1" data-path="./">
-                <a href="https://www.npmjs.com/docs/orgs/./">
-                    Introduction
-                </a>
-        </li>
-        <li class="chapter " data-level="1.2" data-path="getting-started.html">
-                <a href="https://www.npmjs.com/docs/orgs/getting-started.html">
-                    Getting Started
-                </a>
-        </li>
-        <li class="chapter active" data-level="1.3" data-path="roles-and-privileges.html">
-                <a href="https://www.npmjs.com/docs/orgs/roles-and-privileges.html">
-                    Roles and Privileges
-                </a>
-        </li>
-        <li class="chapter " data-level="1.4" data-path="managing-members.html">
-                <a href="https://www.npmjs.com/docs/orgs/managing-members.html">
-                    Managing Members
-                </a>
-        </li>
-        <li class="chapter " data-level="1.5" data-path="the-developers-team.html">
-                <a href="https://www.npmjs.com/docs/orgs/the-developers-team.html">
-                    The Developers Team
-                </a>
-        </li>
-        <li class="chapter " data-level="1.6" data-path="managing-teams.html">
-                <a href="https://www.npmjs.com/docs/orgs/managing-teams.html">
-                    Managing Teams
-                </a>
-        </li>
-        <li class="chapter " data-level="1.7" data-path="publishing-an-org-scoped-package.html">
-                <a href="https://www.npmjs.com/docs/orgs/publishing-an-org-scoped-package.html">
-                    Publishing an Org Scoped Package
-                </a>
-        </li>
-        <li class="chapter " data-level="1.8" data-path="configuring-npm-for-your-org.html">
-                <a href="https://www.npmjs.com/docs/orgs/configuring-npm-for-your-org.html">
-                    Configuring npm for your Org
-                </a>
-        </li>
-        <li class="chapter " data-level="1.9" data-path="managing-package-access.html">
-                <a href="https://www.npmjs.com/docs/orgs/managing-package-access.html">
-                    Managing Package Access
-                </a>
-        </li>
-        <li class="chapter " data-level="1.10" data-path="migrating-a-user-account.html">
-                <a href="https://www.npmjs.com/docs/orgs/migrating-a-user-account.html">
-                    Migrating a User Account
-                </a>
-        </li>
-        <li class="chapter " data-level="1.11" data-path="managing-billing.html">
-                <a href="https://www.npmjs.com/docs/orgs/managing-billing.html">
-                    Managing Billing
-                </a>
-        </li>
-        <li class="chapter " data-level="1.12" data-path="upgrading-and-downgrading.html">
-                <a href="https://www.npmjs.com/docs/orgs/upgrading-and-downgrading.html">
-                    Upgrading and Downgrading
-                </a>
-        </li>
-        <li class="chapter " data-level="1.13" data-path="renaming-and-or-deleting-an-org.html">
-                <a href="https://www.npmjs.com/docs/orgs/renaming-and-or-deleting-an-org.html">
-                    Renaming and/or Deleting an Org
-                </a>
-        </li>
-</ul>
-</nav>
+*   [Introduction](https://www.npmjs.com/docs/orgs/./)
+*   [Getting Started](https://www.npmjs.com/docs/orgs/getting-started.html)
+*   [Roles and Privileges](https://www.npmjs.com/docs/orgs/roles-and-privileges.html)
+*   [Managing Members](https://www.npmjs.com/docs/orgs/managing-members.html)
+*   [The Developers Team](https://www.npmjs.com/docs/orgs/the-developers-team.html)
+*   [Managing Teams](https://www.npmjs.com/docs/orgs/managing-teams.html)
+*   [Publishing an Org Scoped Package](https://www.npmjs.com/docs/orgs/publishing-an-org-scoped-package.html)
+*   [Configuring npm for your Org](https://www.npmjs.com/docs/orgs/configuring-npm-for-your-org.html)
+*   [Managing Package Access](https://www.npmjs.com/docs/orgs/managing-package-access.html)
+*   [Migrating a User Account](https://www.npmjs.com/docs/orgs/migrating-a-user-account.html)
+*   [Managing Billing](https://www.npmjs.com/docs/orgs/managing-billing.html)
+*   [Upgrading and Downgrading](https://www.npmjs.com/docs/orgs/upgrading-and-downgrading.html)
+*   [Renaming and/or Deleting an Org](https://www.npmjs.com/docs/orgs/renaming-and-or-deleting-an-org.html)
 
 Members of an Organization are immediately added to a Developers team that automatically has Read/Write access to all packages published under an Organization scope
 
