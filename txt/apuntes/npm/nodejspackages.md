@@ -33,20 +33,19 @@ Otra forma de hacerlo desde línea de comandos:
 
 * Ejecuta en la terminal estos comandos:
 
-```bash
-    npm set init.author.name "Casiano Rodriguez-Leon"
-    npm set init.author.email "whatever@gmail.com"
-    npm set init.author.url "https://github.com/crguezl"
-```
-
-El siguiente comando nos perdirá un email y una  password, creaando o verificando 
+	```bash
+			npm set init.author.name "Casiano Rodriguez-Leon"
+			npm set init.author.email "whatever@gmail.com"
+			npm set init.author.url "https://github.com/crguezl"
+	```
+* El siguiente comando nos perdirá un email y una  password, creando o verificando 
 un usuario en el [npm registry](https://docs.npmjs.com/misc/registry), y 
 guardará el token en el fichero 
 `~/.npmrc`:
 
-```bash
-    npm adduser
-```
+	```bash
+			npm adduser
+	```
 
 
 
@@ -71,54 +70,56 @@ guardará el token en el fichero
           [/tmp/scapegoat(master)]$ npm publish --access public
           + @ull-esit-dsi-1617/scapegoat@1.0.2
 * Código 
-```bash
-[~/javascript/evalua-module/scapegoat(master)]$ pwd -P
-/Users/casiano/local/src/javascript/evalua-module/scapegoat
-[~/javascript/evalua-module/scapegoat(master)]$ tree -I 'node_modules|docs'
-.
-├── LICENSE-MIT
-├── README.md
-├── index.js
-├── package.json
-└── test
-    └── index.js
 
-1 directory, 5 files
-[~/javascript/evalua-module/scapegoat(master)]$ cat package.json 
-{
-  "name": "@ull-esit-dsi-1617/scapegoat",
-  "version": "1.0.4",
-  "description": "A small library providing utility methods to escape and unescape HTML entities",
-  "main": "index.js",
-  "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec",
-    "doc": "documentation build index.js -f html -o docs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:ULL-ESIT-DSI-1617/scapegoat.git"
-  },
-  "keywords": [
-    "escape",
-    "unescape",
-    "html"
-  ],
-  "author": "Casiano Rodriguez <casiano.rodriguez.leon@gmail.com>",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/ULL-ESIT-DSI-1617/scapegoat/blob/master/LICENSE-MIT"
-    }
-  ],
-  "bugs": {
-    "url": "https://github.com/ULL-ESIT-DSI-1617/scapegoat/issues"
-  },
-  "devDependencies": {
-    "mocha": "*",
-    "chai": "*"
-  }
-}
-```
+	```bash
+	[~/javascript/evalua-module/scapegoat(master)]$ pwd -P
+	/Users/casiano/local/src/javascript/evalua-module/scapegoat
+	[~/javascript/evalua-module/scapegoat(master)]$ tree -I 'node_modules|docs'
+	.
+	├── LICENSE-MIT
+	├── README.md
+	├── index.js
+	├── package.json
+	└── test
+			└── index.js
+
+	1 directory, 5 files
+	[~/javascript/evalua-module/scapegoat(master)]$ cat package.json 
+	{
+		"name": "@ull-esit-dsi-1617/scapegoat",
+		"version": "1.0.4",
+		"description": "A small library providing utility methods to escape and unescape HTML entities",
+		"main": "index.js",
+		"scripts": {
+			"test": "./node_modules/.bin/mocha --reporter spec",
+			"doc": "documentation build index.js -f html -o docs"
+		},
+		"repository": {
+			"type": "git",
+			"url": "git@github.com:ULL-ESIT-DSI-1617/scapegoat.git"
+		},
+		"keywords": [
+			"escape",
+			"unescape",
+			"html"
+		],
+		"author": "Casiano Rodriguez <casiano.rodriguez.leon@gmail.com>",
+		"licenses": [
+			{
+				"type": "MIT",
+				"url": "https://github.com/ULL-ESIT-DSI-1617/scapegoat/blob/master/LICENSE-MIT"
+			}
+		],
+		"bugs": {
+			"url": "https://github.com/ULL-ESIT-DSI-1617/scapegoat/issues"
+		},
+		"devDependencies": {
+			"mocha": "*",
+			"chai": "*"
+		}
+	}
+	```
+
 ### Semantic versioning and npm
 
 * [Semantic versioning and npm](https://docs.npmjs.com/getting-started/semantic-versioning)
