@@ -29,7 +29,7 @@ Para comenzar, crearemos una cuenta de usuario en el repositorio de NPM mediante
     $ npm whoami
    ```
 
-Otra forma de hacerlo desde línea de comandos:
+**Otra forma de darse de alta desde línea de comandos:**
 
 * Ejecuta en la terminal estos comandos:
 
@@ -47,8 +47,6 @@ guardará el token en el fichero
 			npm adduser
 	```
 
-
-
 ### Creación de Paquetes y Módulos en NodeJS
 
 * [Creating and Publishing a Node.js Module](https://quickleft.com/blog/creating-and-publishing-a-node-js-module/) por Brent Ertz
@@ -58,18 +56,24 @@ guardará el token en el fichero
   - Véase [documentation.js](http://documentation.js.org/), 
   - [jsdoc](https://www.npmjs.com/package/jsdoc), 
   - [docco](http://jashkenas.github.io/docco/)
-* Notas:
-  -  For example, you can install packages directly from Github, and even specify a tag, sha, or branch if you want.
+
+### Instalación desde GitHub
+
+You can install packages directly from Github, and even specify a tag, sha, or branch if you want.
 
           npm install git://github.com/brentertz/scapegoat.git
           npm install git://github.com/brentertz/scapegoat.git#0.1.0
 
-    must be https or git+ssh. See [How to install an npm package from GitHub directly?](https://stackoverflow.com/questions/17509669/how-to-install-an-npm-package-from-github-directly) in StackOverflow
-  - Publicación con ámbito en una organización:
+must be https or git+ssh. 
+
+See [How to install an npm package from GitHub directly?](https://stackoverflow.com/questions/17509669/how-to-install-an-npm-package-from-github-directly) in StackOverflow
+
+### Publicación con ámbito en una organización:
 
           [/tmp/scapegoat(master)]$ npm publish --access public
           + @ull-esit-dsi-1617/scapegoat@1.0.2
-* Código 
+
+### Ejemplo de package.json
 
 	```bash
 	[~/javascript/evalua-module/scapegoat(master)]$ pwd -P
