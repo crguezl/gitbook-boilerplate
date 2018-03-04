@@ -228,3 +228,6 @@ pero se quiere que
             [Function]
             > z.replace(r, f)
             'a, b, 1,2, d, 3,4, e'
+
+Véase en [codepen](https://codepen.io/crguezl/pen/mXYbVZ)
+
