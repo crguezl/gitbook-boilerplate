@@ -194,9 +194,11 @@ Se quiere poner un espacio en blanco después de la aparición de cada coma:
         > x.replace(/,/g,", ")
         'a, b, c, 1, 2, d,  e, f'
 
-    pero se quiere que la sustitución no tenga lugar si la coma esta
-    incrustada entre dos dígitos. Además se pide que si hay ya un
-    espacio después de la coma, no se duplique.
+pero se quiere que 
+
+1. la sustitución no tenga lugar si la coma esta incrustada entre dos dígitos. 
+2. Además se pide que si hay ya un espacio después de la coma, no se duplique.
+
   -  La siguiente solución logra el segundo objetivo, pero estropea los números:
 
             > x = "a,b,c,1,2,d, e,f"
