@@ -163,6 +163,8 @@
 
 ### Funciones en el Argumento de Reemplazo {#reemplazofunciones}
 
+#####  Fahrenheit a Celsius
+
 El siguiente ejemplo reemplaza los grados Fahrenheit con su equivalente en grados Celsius. 
 Los grados Fahrenheit deberían ser un número acabado en `F`. 
 La función devuelve el número Celsius acabado en `C`. 
@@ -182,9 +184,10 @@ function f2c(x)
 }
 ```
 
-7.  Busque una solución al siguiente ejercicio (véase ’Regex to add
-    space after punctuation sign’ en [PerlMonks](http://www.perlmonks.org/?node_id=319742)) Se quiere poner un espacio en
-    blanco después de la aparición de cada coma:
+##### Poner Blanco después de Coma
+
+Busque una solución al siguiente ejercicio (véase ’Regex to add space after punctuation sign’ en [PerlMonks](http://www.perlmonks.org/?node_id=319742)).
+Se quiere poner un espacio en blanco después de la aparición de cada coma:
 
         > x = "a,b,c,1,2,d, e,f"
         'a,b,c,1,2,d, e,f'
