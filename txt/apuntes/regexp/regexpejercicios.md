@@ -163,6 +163,22 @@
 
 ### Funciones en el Argumento de Reemplazo {#reemplazofunciones}
 
+6. El siguiente ejemplo reemplaza los grados Fahrenheit con su enquivalente en grados Celsius. Los grados Fahrenheit deberían ser un número acabado en F. La función devuelve el número Celsius acabado en C. Por ejemplo, si el número de entrada es `212F`, la función devuelve `100C`. Si el número es `0F`, la función devuelve `-17.77777777777778C`.
+
+
+```js
+function f2c(x)
+{
+  function convert(str, p1, offset, s)
+  {
+    return ((p1-32) * 5/9) + "C";
+  }
+  var s = String(x);
+  var test = /(\d+(?:\.\d*)?)F\b/g;
+  return s.replace(test, convert);
+}
+```
+
 7.  Busque una solución al siguiente ejercicio (véase ’Regex to add
     space after punctuation sign’ en [PerlMonks](http://www.perlmonks.org/?node_id=319742)) Se quiere poner un espacio en
     blanco después de la aparición de cada coma:
