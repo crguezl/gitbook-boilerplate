@@ -3164,35 +3164,41 @@ Se quiere poner un espacio en blanco despu&#xE9;s de la aparici&#xF3;n de cada c
     &apos;a,b,c,1,2,d, e,f&apos;
     &gt; x.replace(/,/g,&quot;, &quot;)
     &apos;a, b, c, 1, 2, d,  e, f&apos;
-</code></pre><p>pero se quiere que la sustituci&#xF3;n no tenga lugar si la coma esta incrustada entre dos d&#xED;gitos. Adem&#xE1;s se pide que si hay ya un espacio despu&#xE9;s de la coma, no se duplique.</p>
+</code></pre><p>pero se quiere que </p>
+<ol>
+<li>la sustituci&#xF3;n no tenga lugar si la coma esta incrustada entre dos d&#xED;gitos. </li>
+<li><p>Adem&#xE1;s se pide que si hay ya un espacio despu&#xE9;s de la coma, no se duplique.</p>
 <ul>
 <li><p>La siguiente soluci&#xF3;n logra el segundo objetivo, pero estropea los n&#xFA;meros:</p>
-<pre><code>   &gt; x = &quot;a,b,c,1,2,d, e,f&quot;
-   &apos;a,b,c,1,2,d, e,f&apos;
-   &gt; x.replace(/,(\S)/g,&quot;, $1&quot;)
-   &apos;a, b, c, 1, 2, d, e, f&apos;
+<pre><code>  &gt; x = &quot;a,b,c,1,2,d, e,f&quot;
+  &apos;a,b,c,1,2,d, e,f&apos;
+  &gt; x.replace(/,(\S)/g,&quot;, $1&quot;)
+  &apos;a, b, c, 1, 2, d, e, f&apos;
 </code></pre></li>
 <li><p>Esta otra funciona bien con los n&#xFA;meros pero no con los espacios ya existentes:</p>
-<pre><code>   &gt; x = &quot;a,b,c,1,2,d, e,f&quot;
-   &apos;a,b,c,1,2,d, e,f&apos;
-   &gt; x.replace(/,(\D)/g,&quot;, $1&quot;)
-   &apos;a, b, c,1,2, d,  e, f&apos;
+<pre><code>  &gt; x = &quot;a,b,c,1,2,d, e,f&quot;
+  &apos;a,b,c,1,2,d, e,f&apos;
+  &gt; x.replace(/,(\D)/g,&quot;, $1&quot;)
+  &apos;a, b, c,1,2, d,  e, f&apos;
 </code></pre></li>
 <li><p>Explique cuando casa esta expresi&#xF3;n regular:</p>
-<pre><code>   &gt; r = /(\d[,.]\d)|(,(?=\S))/g
-   /(\d[,.]\d)|(,(?=\S))/g
+<pre><code>  &gt; r = /(\d[,.]\d)|(,(?=\S))/g
+  /(\d[,.]\d)|(,(?=\S))/g
 </code></pre></li>
 <li><p>Aproveche que el m&#xE9;todo <code>replace</code> puede recibir como segundo
 argumento una funci&#xF3;n (vea
 <a href="https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global~O~bjects/String/replace" target="_blank">replace</a>):</p>
-<pre><code>    &gt; z = &quot;a,b,1,2,d, 3,4,e&quot;
-    &apos;a,b,1,2,d, 3,4,e&apos;
-    &gt; f = function(match, p1, p2, offset, string) { return (p1 || p2 + &quot; &quot;); }
-    [Function]
-    &gt; z.replace(r, f)
-    &apos;a, b, 1,2, d, 3,4, e&apos;
+<pre><code>   &gt; z = &quot;a,b,1,2,d, 3,4,e&quot;
+   &apos;a,b,1,2,d, 3,4,e&apos;
+   &gt; f = function(match, p1, p2, offset, string) { return (p1 || p2 + &quot; &quot;); }
+   [Function]
+   &gt; z.replace(r, f)
+   &apos;a, b, 1,2, d, 3,4, e&apos;
 </code></pre></li>
 </ul>
+</li>
+</ol>
+<p>V&#xE9;ase en <a href="https://codepen.io/crguezl/pen/mXYbVZ" target="_blank">codepen</a></p>
 
                                 
                                 </section>
@@ -3220,7 +3226,7 @@ argumento una funci&#xF3;n (vea
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Ejercicios de Expresiones Regulares","level":"29.3.1","depth":2,"next":{"title":"Parsing: Técnicas de Análisis","level":"29.4","depth":1,"path":"apuntes/parsing/README.md","ref":"apuntes/parsing/README.md","articles":[{"title":"Operator Precedence Analysis","level":"29.4.1","depth":2,"path":"apuntes/parsing/tdop/README.md","ref":"apuntes/parsing/tdop/README.md","articles":[{"title":"Top Down Operator Precedence Analysis","level":"29.4.1.1","depth":3,"path":"apuntes/parsing/tdop/tdop.md","ref":"apuntes/parsing/tdop/tdop.md","articles":[]}]},{"title":"Análisis Recursivo Descendente","level":"29.4.2","depth":2,"path":"apuntes/parsing/recursivodescendente/README.md","ref":"apuntes/parsing/recursivodescendente/README.md","articles":[]}]},"previous":{"title":"Expresiones Regulares","level":"29.3","depth":1,"path":"apuntes/regexp/README.md","ref":"apuntes/regexp/README.md","articles":[{"title":"Ejercicios de Expresiones Regulares","level":"29.3.1","depth":2,"path":"apuntes/regexp/regexpejercicios.md","ref":"apuntes/regexp/regexpejercicios.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["include","katex","include-codeblock","ace","-autocover","-layout","youtube","video","highlight","sectionx","code-highlighter","copy-code-button","page-toc","-toc","-latex-codecogs","-emphasize","collapsible-menu","js-console","codetabs","es6tabs-stage-0","jazer"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"code-highlighter":{},"collapsible-menu":{},"ace":{},"youtube":{},"es6tabs":{"presets":["es2015","stage-0"]},"include":{},"toc":{"addClass":"true","className":"toc"},"search":{"maxIndexSize":1000000},"autocover":{"title":"Apuntes del Curso 2016/2017: Procesadores de Lenguajes, Desarrollo de Sistemas Informáticos y Sistemas y Tecnologías Web","author":"Casiano","pluginsConfig":{"autocover":{"font":{"size":null,"family":"Impact","color":"#FFF"},"size":{"w":1800,"h":2360},"background":{"color":"#09F"}}}},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4"},"layout":{"headerPath":"layouts/header.html","footerPath":"layouts/footer.html"},"codetabs":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"jazer":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"js-console":{},"sectionx":{},"highlight":{},"copy-code-button":{},"es6tabs-stage-0":{"presets":["es2015","react"]},"video":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"chrome","unindent":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"apuntes/regexp/regexpejercicios.md","mtime":"2018-03-04T12:07:26.678Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-04T12:07:32.906Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Ejercicios de Expresiones Regulares","level":"29.3.1","depth":2,"next":{"title":"Parsing: Técnicas de Análisis","level":"29.4","depth":1,"path":"apuntes/parsing/README.md","ref":"apuntes/parsing/README.md","articles":[{"title":"Operator Precedence Analysis","level":"29.4.1","depth":2,"path":"apuntes/parsing/tdop/README.md","ref":"apuntes/parsing/tdop/README.md","articles":[{"title":"Top Down Operator Precedence Analysis","level":"29.4.1.1","depth":3,"path":"apuntes/parsing/tdop/tdop.md","ref":"apuntes/parsing/tdop/tdop.md","articles":[]}]},{"title":"Análisis Recursivo Descendente","level":"29.4.2","depth":2,"path":"apuntes/parsing/recursivodescendente/README.md","ref":"apuntes/parsing/recursivodescendente/README.md","articles":[]}]},"previous":{"title":"Expresiones Regulares","level":"29.3","depth":1,"path":"apuntes/regexp/README.md","ref":"apuntes/regexp/README.md","articles":[{"title":"Ejercicios de Expresiones Regulares","level":"29.3.1","depth":2,"path":"apuntes/regexp/regexpejercicios.md","ref":"apuntes/regexp/regexpejercicios.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["include","katex","include-codeblock","ace","-autocover","-layout","youtube","video","highlight","sectionx","code-highlighter","copy-code-button","page-toc","-toc","-latex-codecogs","-emphasize","collapsible-menu","js-console","codetabs","es6tabs-stage-0","jazer"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"code-highlighter":{},"collapsible-menu":{},"ace":{},"youtube":{},"es6tabs":{"presets":["es2015","stage-0"]},"include":{},"toc":{"addClass":"true","className":"toc"},"search":{"maxIndexSize":1000000},"autocover":{"title":"Apuntes del Curso 2016/2017: Procesadores de Lenguajes, Desarrollo de Sistemas Informáticos y Sistemas y Tecnologías Web","author":"Casiano","pluginsConfig":{"autocover":{"font":{"size":null,"family":"Impact","color":"#FFF"},"size":{"w":1800,"h":2360},"background":{"color":"#09F"}}}},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4"},"layout":{"headerPath":"layouts/header.html","footerPath":"layouts/footer.html"},"codetabs":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"jazer":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"js-console":{},"sectionx":{},"highlight":{},"copy-code-button":{},"es6tabs-stage-0":{"presets":["es2015","react"]},"video":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"chrome","unindent":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"apuntes/regexp/regexpejercicios.md","mtime":"2018-03-04T12:26:28.034Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-04T12:26:37.795Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
