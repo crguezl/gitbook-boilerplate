@@ -166,9 +166,14 @@ Ejecución:
   - [XRegExp.union](http://xregexp.com/api/#union)
   - [XRegExp.version](http://xregexp.com/api/#version)
 
-######XRegExp instance properties
-  - [<regexp>.xregexp.source](http://xregexp.com/api/#dot-source)
-  - [<regexp>.xregexp.flags](http://xregexp.com/api/#dot-flags)
+###### XRegExp instance properties
+
+- [<regexp>.xregexp.source](http://xregexp.com/api/#dot-source) (The original pattern provided to the XRegExp constructor)
+- [<regexp>.xregexp.flags](http://xregexp.com/api/#dot-flags) (The original flags provided to the XRegExp constructor)
+
+###### XRegExp. Unicode
+
+*  [XRegExp Plugins](http://xregexp.com/plugins/)
 
 ##### Extensiones a las Expresiones Regulares en ECMA6
 

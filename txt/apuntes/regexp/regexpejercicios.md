@@ -169,7 +169,8 @@ El siguiente ejemplo reemplaza los grados Fahrenheit con su equivalente en grado
 Los grados Fahrenheit deberían ser un número acabado en `F`. 
 La función devuelve el número Celsius acabado en `C`. 
 Por ejemplo, si el número de entrada es `212F`, la función devuelve `100C`. Si el número es `0F`, la función devuelve `-17.77777777777778C`.
-Véase en [codepen](https://codepen.io/crguezl/pen/xYevMY).
+
+Véase solución en [codepen](https://codepen.io/crguezl/pen/xYevMY).
 
 ```js
 function f2c(x)
