@@ -201,6 +201,8 @@ De [EloquentJS](http://eloquentjavascript.net/09_regexp.html):
 `\s` casa con el carácter unicode Mongolian Vowel
 
 * [Repo con Ejemplos de Unicode en JS](https://github.com/ULL-ESIT-PL/unicode-js)
+* [Ejemplo unicode.js usando XRegExp](https://github.com/ULL-ESIT-GRADOII-PL/xregexp-example/blob/gh-pages/unicode.js)
+* Read [JavaScript has a Unicode problem](https://mathiasbynens.be/notes/javascript-unicode) 2013
 
 ### Ejercicios
 
