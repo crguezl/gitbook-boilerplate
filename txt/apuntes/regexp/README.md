@@ -180,6 +180,8 @@ Ejecución:
 
 * [New regular expression features in ECMAScript 6](http://www.2ality.com/2015/07/regexp-es6.html)
 
+##### Unicode 
+
 ```javascript
 > console.log("\u03A0")
 Π
@@ -196,7 +198,9 @@ De [EloquentJS](http://eloquentjavascript.net/09_regexp.html):
 > considers whitespace, including things like the nonbreaking space
 > and the Mongolian vowel separator:
 
-![`\s` casa con el carácter unicode Mongolian Vowel](mongolianvowel.png)
+`\s` casa con el carácter unicode Mongolian Vowel
+
+* [Repo con Ejemplos de Unicode en JS](https://github.com/ULL-ESIT-PL/unicode-js)
 
 ### Ejercicios
 
