@@ -174,6 +174,7 @@ Ejecución:
 ###### XRegExp. Unicode
 
 *  [XRegExp Plugins](http://xregexp.com/plugins/)
+*  [Regular Expressions.info: Unicode Regular Expressions](https://www.regular-expressions.info/unicode.html)
 
 ##### Extensiones a las Expresiones Regulares en ECMA6
 
