@@ -18,9 +18,10 @@ Vamos a trabajar a partir de este repo de Douglas Crockford:
 -   [tokens.js](https://github.com/douglascrockford/TDOP/blob/master/tokens.js) produces an array of token objects from a string. 
 
 Douglas Crockford escribió su analizador léxico sin usar expresiones
-regulares. Eso hace que sea extenso (268 líneas). Su analizador es un
+regulares. Crockford prescindió de las regexp porque 
+el analizador sintáctico corresponde a un
 subconjunto de JS que no tiene - entre otras cosas - expresiones
-regulares ya que uno de sus objetivos era que el analizador se analizara
+regulares y  el autor quería que el analizador se pudiera analizar
 a si mismo.
 
 
@@ -35,7 +36,7 @@ regulares. Reescriba el analizador léxico en [tokens.js](https://github.com/dou
     - [https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js](https://github.com/crguezl/ull-etsii-grado-pl-minijavascript/blob/gh-pages/tokens.js)
 3. Modifique la solución de Crockford usado regexps en [tokens.js](https://github.com/douglascrockford/TDOP/blob/master/tokens.js)
 4.  Añada un server y haga el despliegue de su aplicación en la máquina virtual del iaas o en [Heroku](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/recursos/heroku.html)
-6. **Opcional**: Use `sessions`para controlar quien accede a la aplicación. Puede ver un ejemplo de como hacerlo en los ficheros:
+6. **Opcional**: Use `sessions` para controlar quien accede a la aplicación. Puede ver un ejemplo de como hacerlo en los ficheros:
   - [ULL-ESIT-PL-1617/evaluar-manejo-de-cookies-y-sessions-en-expressjs](https://github.com/ULL-ESIT-PL-1617/evaluar-manejo-de-cookies-y-sessions-en-expressjs-alu0100825510)
 7. Cuando haga la entrega indique los enlaces a los repos (apuntes y analizador) así como a los despliegues
 
