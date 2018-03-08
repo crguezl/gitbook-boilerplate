@@ -29,7 +29,6 @@ a si mismo.
 
 1. Douglas Crockford escribió su analizador léxico sin usar expresiones
 regulares. Reescriba el analizador léxico en [tokens.js](https://github.com/douglascrockford/TDOP/blob/master/tokens.js) usando expresiones regulares.
-  - No se limite a copiar el fichero `tokens.js`: estúdielo, entiéndalo y vaya modificando el `tokens.js` original de Crockford hasta obtener una solución basada en expresiones regulares
 2.  Evite que se hagan copias de la cadena siendo procesada. Muévase
     dentro de la misma cadena usando `lastIndex`. Quizá usar la opción sticky le ayude.
     Tiene una solución dada por el profesor en 
