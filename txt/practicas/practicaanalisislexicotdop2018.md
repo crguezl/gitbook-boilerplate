@@ -18,7 +18,7 @@ Vamos a trabajar a partir de este repo de Douglas Crockford:
 -   The file [`parse.js`](https://github.com/douglascrockford/TDOP/blob/master/parse.js) contains the Simplified JavaScript parser.
 -   [tokens.js](https://github.com/douglascrockford/TDOP/blob/master/tokens.js) produces an array of token objects from a string. 
 
-Douglas Crockford escribió su analizador léxico sin usar expresiones
+Douglas Crockford escribió [este analizador léxico](https://github.com/douglascrockford/TDOP/blob/master/tokens.js) sin usar expresiones
 regulares. Crockford prescindió de las regexp porque 
 el analizador sintáctico corresponde a un
 subconjunto de JS que no tiene - entre otras cosas - expresiones
@@ -28,7 +28,7 @@ a si mismo.
 
 ### Requisitos
 
-1. Douglas Crockford escribió su analizador léxico sin usar expresiones
+1. Douglas Crockford escribió este analizador léxico sin usar expresiones
 regulares. Reescriba el analizador léxico en [tokens.js](https://github.com/douglascrockford/TDOP/blob/master/tokens.js) usando expresiones regulares.
 2.  Evite que se hagan copias de la cadena siendo procesada. Muévase
     dentro de la misma cadena usando `lastIndex`. Quizá usar la opción sticky le ayude.
