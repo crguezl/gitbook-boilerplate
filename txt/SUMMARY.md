@@ -250,6 +250,7 @@
 * [Práctica: Analizador Léxico para Un Subconjunto de JavaScript](practicas/practicaanalisislexicotdop.md)
 * [Práctica: Analizador Descendente Predictivo Recursivo](practicas/practicarecdescparser.md)
 * [Práctica: Analizador Usando PEG.js](practicas/practicapegparser.md)
+* [Práctica: El lenguaje egg](practicas/practica-egg.md)
 
 
 #### Repasos PL
