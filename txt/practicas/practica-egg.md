@@ -1,9 +1,9 @@
 
-### Hitos
+### Requisitos
 
 1. Use el repo de GitHub dado por la asignación de esta tarea 
 2. Use [XRegExp](http://xregexp.com/) para sangrar y comentar las expresiones regulares
-3. Guarde en el token el `offset` de comienzo, la línea de comienzo, etc
+3. Guarde en el objeto token el `offset` de comienzo, la línea de comienzo, etc
 4. Mejore los mensajes de error
 5. Añada índices negativos (a la Ruby) para los arrays
 6. Añada mapas/hashes al lenguaje
