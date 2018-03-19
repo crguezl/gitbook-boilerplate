@@ -2,6 +2,9 @@
 ### Hitos
 
 1. Use el repo de GitHub dado por la asignación de esta tarea 
+2. Use XRegExp para mejorar las expresiones regulares
+3. Guarde en el token el `offset` de comienzo y la línea de comienzo
+4. Mejore los mensajes de error
 2. Haga que el ejecutable `egg` funcione como un bucle REPL cuando no se le proporciona un fichero de entrada
   ```lisp
   [~/ull-pl1718-campus-virtual/tema3-analisis-sintactico/egg/crguezl-egg(develo)]$ bin/egg.js
