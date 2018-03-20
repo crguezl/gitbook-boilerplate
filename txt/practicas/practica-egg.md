@@ -17,6 +17,7 @@
   [ 3, 4 ]                        # Pulsamos CTRL-D
   > goodbye!
   ```
+8. Parta de este [repo](https://github.com/ULL-ESIT-PL-1617/egg)
 
 ### Recursos
 
