@@ -4,10 +4,8 @@
 1. Use el repo de GitHub dado por la asignación de esta tarea 
 2. Use [XRegExp](http://xregexp.com/) para sangrar y comentar las expresiones regulares
 3. Guarde en el objeto token el `offset` de comienzo, la línea de comienzo, etc
-4. Mejore los mensajes de error
-5. El analizador léxico actual destruye la cadena conteniendo el programa conforme la analiza. 
-Es posible  escribir una analizador léxico que recorra la cadena conteniendo el programa sin destruirla
-usando la opción `sticky`. Estudie esta mejora
+4. Mejore los mensajes de error usando esta información
+5. El analizador léxico actual destruye la cadena conteniendo el programa conforme la analiza.  Es posible  escribir una analizador léxico que recorra la cadena conteniendo el programa sin destruirla usando la opción `sticky`. Estudie esta mejora
 5. Añada índices negativos (a la Ruby) para los arrays
 6. Añada mapas/hashes al lenguaje
 7. Haga que el ejecutable `egg` funcione como un bucle REPL cuando no se le proporciona un fichero de entrada
