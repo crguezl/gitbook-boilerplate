@@ -23,6 +23,6 @@
 * [Eloquent JS: Chapter 11. Project: A Programming Language](http://eloquentjavascript.net/11_language.html)
 * [El lenguaje egg: repo en GitHub](https://github.com/ULL-ESIT-PL-1617/egg)
 * [Repo interpreter-egg](https://github.com/ULL-ESIT-PL-1617/interpreter-egg)
-* [NodeJS Readline gist](https://gist.github.com/DTrejo/901104)
+* [NodeJS Readline gist](https://gist.github.com/crguezl/430642e29a2b9293317320d0d1759387)
 * En el repo [ULL-ESIT-PL-1617/interpreter-egg](https://github.com/ULL-ESIT-PL-1617/interpreter-egg) se muestra como hacer un bucle REPL
 * [XRegExp](http://xregexp.com/)
