@@ -6,9 +6,10 @@
 3. Guarde en el objeto token el `offset` de comienzo, la línea de comienzo, etc
 4. Mejore los mensajes de error usando esta información
 5. El analizador léxico actual destruye la cadena conteniendo el programa conforme la analiza.  Es posible  escribir una analizador léxico que recorra la cadena conteniendo el programa sin destruirla usando la opción `sticky`. Estudie esta mejora
-5. Añada índices negativos (a la Ruby) para los arrays
-6. Añada mapas/hashes al lenguaje
-7. Haga que el ejecutable `egg` funcione como un bucle REPL cuando no se le proporciona un fichero de entrada
+6. Mejore las pruebas, especialmente con programas que contienen errores
+6. Añada índices negativos (a la Ruby) para los arrays
+7. Añada mapas/hashes al lenguaje
+8. Haga que el ejecutable `egg` funcione como un bucle REPL cuando no se le proporciona un fichero de entrada
   ```lisp
   [~/ull-pl1718-campus-virtual/tema3-analisis-sintactico/egg/crguezl-egg(develo)]$ bin/egg.js
   > def(x, array(1,2,array(3,4))) # x = [1,2,[3,4]]
@@ -17,7 +18,7 @@
   [ 3, 4 ]                        # Pulsamos CTRL-D
   > goodbye!
   ```
-8. Parta de este [repo](https://github.com/ULL-ESIT-PL-1617/egg)
+9. Parta de este [repo](https://github.com/ULL-ESIT-PL-1617/egg)
 
 ### Recursos
 
