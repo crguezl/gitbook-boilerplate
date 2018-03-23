@@ -1,0 +1,3474 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>SSL y HTTPS · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-page-toc/page-toc.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-codetabs/codetabs.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-jazer/regexp/regexp_website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-jazer/questionjs/questionjs_website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-jazer/question/question_website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-jazer/fontawesome/css/font-awesome.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../react/" />
+    
+    
+    <link rel="prev" href="../authentication/" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Instrucciones</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../instrucciones/">
+            
+                <a href="../../instrucciones/">
+            
+                    
+                    Instrucciones Generales
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../instrucciones/classroom.html">
+            
+                <a href="../../instrucciones/classroom.html">
+            
+                    
+                    Instrucciones para GitHub ClassRoom
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../instrucciones/instruccionesparaelenvio.html">
+            
+                <a href="../../instrucciones/instruccionesparaelenvio.html">
+            
+                    
+                    Instrucciones para los envíos de tareas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../../instrucciones/instruccionesparalaevaluacion.html">
+            
+                <a href="../../instrucciones/instruccionesparalaevaluacion.html">
+            
+                    
+                    Instrucciones para la evaluación
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../../instrucciones/instruccionesparalaspresentaciones.html">
+            
+                <a href="../../instrucciones/instruccionesparalaspresentaciones.html">
+            
+                    
+                    Instrucciones para las Presentaciones
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../../instrucciones/impresion-ull.html">
+            
+                <a href="../../instrucciones/impresion-ull.html">
+            
+                    
+                    Instrucciones para el servicio de impresión
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Apuntes</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Apuntes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../programmingforchildren/">
+            
+                <a href="../programmingforchildren/">
+            
+                    
+                    Programación para no programadores
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" >
+            
+                <a target="_blank" href="https://casianorodriguezleon.gitbooks.io/presentaciones-de-sytw-2016-2017/content/">
+            
+                    
+                    Presentaciones de SYTW 16/17
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.1" >
+            
+                <a target="_blank" href="https://casianorodriguezleon.gitbooks.io/presentaciones-de-sytw-2016-2017/content/">
+            
+                    
+                    Presentaciones de SYTW en GitBook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.2" >
+            
+                <a target="_blank" href="https://ull-esit-sytw-1617.github.io/presentaciones-todos/">
+            
+                    
+                    Presentaciones de SYTW en GitHub (gh-pages)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2.3" >
+            
+                <a target="_blank" href="https://github.com/ULL-ESIT-SYTW-1617/presentaciones-todos">
+            
+                    
+                    Repo con las presentaciones de SYTW 
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Tools / Herramientas</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../tools/">
+            
+                <a href="../tools/">
+            
+                    
+                    Atom
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" >
+            
+                <a target="_blank" href="https://www.youtube.com/user/LevelUpTuts/search?query=atom">
+            
+                    
+                    AtomEditor Tutorials en YouTube
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../tools/fzf.html">
+            
+                <a href="../tools/fzf.html">
+            
+                    
+                    fzf
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../tools/linuxbrew.html">
+            
+                <a href="../tools/linuxbrew.html">
+            
+                    
+                    linuxbrew
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">GitHub</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../github/">
+            
+                <a href="../github/">
+            
+                    
+                    GitHub
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="../github/poets/">
+            
+                <a href="../github/poets/">
+            
+                    
+                    GitHub for Poets
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="../github/projects/">
+            
+                <a href="../github/projects/">
+            
+                    
+                    GitHub Projects
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../colaboracion/">
+            
+                <a href="../colaboracion/">
+            
+                    
+                    Colaboración
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../../repasos/github.html">
+            
+                <a href="../../repasos/github.html">
+            
+                    
+                    Repaso: Preguntas de github
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">GitHub Education</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../../recursos/">
+            
+                <a href="../../recursos/#github-education">
+            
+                    
+                    GitHub Education
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">GitBook</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../gitbooknotes/">
+            
+                <a href="../gitbooknotes/">
+            
+                    
+                    Sobre GitBook
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos de GitBook</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../../repasos/markdown.html">
+            
+                <a href="../../repasos/markdown.html">
+            
+                    
+                    Preguntas de MarkDown
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="../../repasos/gitbook.html">
+            
+                <a href="../../repasos/gitbook.html">
+            
+                    
+                    Preguntas de GitBook
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Gulp</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="../gulp/">
+            
+                <a href="../gulp/">
+            
+                    
+                    Gulp
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.1.1" data-path="../gulp/API.html">
+            
+                <a href="../gulp/API.html">
+            
+                    
+                    API Documentation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.2" data-path="../gulp/recipes/">
+            
+                <a href="../gulp/recipes/">
+            
+                    
+                    Recipes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.3" >
+            
+                <a target="_blank" href="http://gulpjs.com/plugins/">
+            
+                    
+                    Plugins
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.4" data-path="../gulp/gulpghpages.html">
+            
+                <a href="../gulp/gulpghpages.html">
+            
+                    
+                    gulp gh pages
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.5" data-path="../gulp/gulpshell.html">
+            
+                <a href="../gulp/gulpshell.html">
+            
+                    
+                    gulp-shell
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.1.6" data-path="../gulp/gulplinting.html">
+            
+                <a href="../gulp/gulplinting.html">
+            
+                    
+                    gulp-linting
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos: Gulp</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" data-path="../../repasos/gulp.html">
+            
+                <a href="../../repasos/gulp.html">
+            
+                    
+                    Repasos: Preguntas de gulp
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">NodeJS</li>
+        
+        
+    
+        <li class="chapter " data-level="10.1" data-path="../nodejs/">
+            
+                <a href="../nodejs/">
+            
+                    
+                    Debugging NodeJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.2" data-path="../npm/nodejspackages.html">
+            
+                <a href="../npm/nodejspackages.html">
+            
+                    
+                    Creación de Paquetes y Módulos en NodeJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.3" data-path="../fs.html">
+            
+                <a href="../fs.html">
+            
+                    
+                    Sistema de Archivos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.4" data-path="../argumentos/">
+            
+                <a href="../argumentos/">
+            
+                    
+                    Procesamiento de la línea de comandos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.5" data-path="../processes/">
+            
+                <a href="../processes/">
+            
+                    
+                    Procesos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.6" data-path="../../repasos/npm.html">
+            
+                <a href="../../repasos/npm.html">
+            
+                    
+                    Repaso: Preguntas de npm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.7" data-path="../../repasos/jsdoc.html">
+            
+                <a href="../../repasos/jsdoc.html">
+            
+                    
+                    Repaso: Preguntas de JSDoc
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Prácticas Iniciales: NodeJS, GitHub, GitBook</li>
+        
+        
+    
+        <li class="chapter " data-level="11.1" data-path="../../practicas/practicatareasiniciales.html">
+            
+                <a href="../../practicas/practicatareasiniciales.html">
+            
+                    
+                    Práctica: Tareas Iniciales
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.2" data-path="../../practicas/practicatareasiniciales2.html">
+            
+                <a href="../../practicas/practicatareasiniciales2.html">
+            
+                    
+                    Práctica: Primeros Pasos en NodeJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.3" data-path="../../practicas/practicagitbook.html">
+            
+                <a href="../../practicas/practicagitbook.html">
+            
+                    
+                    Práctica: Tareas Iniciales Avanzadas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.4" data-path="../../practicas/practicanm.html">
+            
+                <a href="../../practicas/practicanm.html">
+            
+                    
+                    Práctica: Creación de un Paquete NPM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Document Object Model</li>
+        
+        
+    
+        <li class="chapter " data-level="12.1" data-path="../dom/">
+            
+                <a href="../dom/">
+            
+                    
+                    DOM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Programación: Buenas Prácticas</li>
+        
+        
+    
+        <li class="chapter " data-level="13.1" data-path="../functional/">
+            
+                <a href="../functional/">
+            
+                    
+                    Programación Funcional en JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.2" data-path="../oop/">
+            
+                <a href="../oop/">
+            
+                    
+                    Programación Orientada a Objetos/Object Oriented Programming
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.3" data-path="../async/">
+            
+                <a href="../async/">
+            
+                    
+                    Asincronía y Sincronía
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.4" data-path="../games/">
+            
+                <a href="../games/">
+            
+                    
+                    Juegos
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.5" data-path="../patterns/codesmell.html">
+            
+                <a href="../patterns/codesmell.html">
+            
+                    
+                    Code Smells
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.6" data-path="../patterns/designprinciples.html">
+            
+                <a href="../patterns/designprinciples.html">
+            
+                    
+                    Principios de Diseño
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.7" data-path="../patterns/">
+            
+                <a href="../patterns/">
+            
+                    
+                    Patrones de Diseño
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="13.7.1" data-path="../patterns/iife.html">
+            
+                <a href="../patterns/iife.html">
+            
+                    
+                    Immediately Invoked Function Expression
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.7.2" data-path="../patterns/strategypattern.html">
+            
+                <a href="../patterns/strategypattern.html">
+            
+                    
+                    Strategy Pattern
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.7.3" data-path="../patterns/dependencyinjectionpattern.html">
+            
+                <a href="../patterns/dependencyinjectionpattern.html">
+            
+                    
+                    Dependency Injection Pattern
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.7.4" data-path="../patterns/inversionofcontrolpattern.html">
+            
+                <a href="../patterns/inversionofcontrolpattern.html">
+            
+                    
+                    Inversion of Control Pattern
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="13.8" data-path="../../practicas/practicaoop.html">
+            
+                <a href="../../practicas/practicaoop.html">
+            
+                    
+                    Práctica: OOP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.9" data-path="../../practicas/practicanoswitchsmell.html">
+            
+                <a href="../../practicas/practicanoswitchsmell.html">
+            
+                    
+                    Práctica: Eliminando Switch Smell
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.10" data-path="../../practicas/practicaevaluastrategypattern.html">
+            
+                <a href="../../practicas/practicaevaluastrategypattern.html">
+            
+                    
+                    Práctica: Evaluar Strategy Pattern
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="13.11" data-path="../../practicas/practicamodulestrategypattern.html">
+            
+                <a href="../../practicas/practicamodulestrategypattern.html">
+            
+                    
+                    Práctica: Creación de Paquetes NPM y Strategy Pattern
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos Buenas Prácticas</li>
+        
+        
+    
+        <li class="chapter " data-level="14.1" data-path="../../repasos/oop.html">
+            
+                <a href="../../repasos/oop.html">
+            
+                    
+                    Repasos: Preguntas de OOP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="14.2" data-path="../../repasos/codesmelling.html">
+            
+                <a href="../../repasos/codesmelling.html">
+            
+                    
+                    Repasos: Code Smelling
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="14.3" data-path="../../repasos/strategy-pattern.html">
+            
+                <a href="../../repasos/strategy-pattern.html">
+            
+                    
+                    Repasos: Code Smelling
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Pruebas</li>
+        
+        
+    
+        <li class="chapter " data-level="15.1" data-path="../pruebas/">
+            
+                <a href="../pruebas/">
+            
+                    
+                    Pruebas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.2" data-path="../pruebas/mocha.html">
+            
+                <a href="../pruebas/mocha.html">
+            
+                    
+                    Mocha
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.3" data-path="../pruebas/mocha.html">
+            
+                <a href="../pruebas/mocha.html#should">
+            
+                    
+                    Should
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.4" data-path="../pruebas/travis.html">
+            
+                <a href="../pruebas/travis.html">
+            
+                    
+                    Travis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.5" data-path="../pruebas/chai.html">
+            
+                <a href="../pruebas/chai.html">
+            
+                    
+                    Chai
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.6" data-path="../pruebas/sinon.html">
+            
+                <a href="../pruebas/sinon.html">
+            
+                    
+                    Sinon
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.7" data-path="../pruebas/karma.html">
+            
+                <a href="../pruebas/karma.html">
+            
+                    
+                    Karma
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.8" data-path="../pruebas/covering.html">
+            
+                <a href="../pruebas/covering.html">
+            
+                    
+                    Covering
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.9" data-path="../pruebas/blanket.html">
+            
+                <a href="../pruebas/blanket.html">
+            
+                    
+                    Blanket
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.10" data-path="../pruebas/istanbul.html">
+            
+                <a href="../pruebas/istanbul.html">
+            
+                    
+                    Istanbul
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="15.11" data-path="../pruebas/browsersync.html">
+            
+                <a href="../pruebas/browsersync.html">
+            
+                    
+                    BrowserSync
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Prácticas de Pruebas</li>
+        
+        
+    
+        <li class="chapter " data-level="16.1" data-path="../../practicas/practicaevaluakarma.html">
+            
+                <a href="../../practicas/practicaevaluakarma.html">
+            
+                    
+                    Práctica: Evaluar Karma
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos Pruebas</li>
+        
+        
+    
+        <li class="chapter " data-level="17.1" data-path="../../repasos/mochachai.html">
+            
+                <a href="../../repasos/mochachai.html">
+            
+                    
+                    Repasos: Preguntas de Mocha y Chai
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Programación Web</li>
+        
+        
+    
+        <li class="chapter " data-level="18.1" data-path="../express/">
+            
+                <a href="../express/">
+            
+                    
+                    Express
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="18.1.1" data-path="../express/expressroutes.html">
+            
+                <a href="../express/expressroutes.html">
+            
+                    
+                    Rutas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="18.1.2" data-path="../express/expressgenerator.html">
+            
+                <a href="../express/expressgenerator.html">
+            
+                    
+                    Express Generator
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="18.2" data-path="../rest/">
+            
+                <a href="../rest/">
+            
+                    
+                    Arquitectura REST, REST APIs y GraphQL
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="18.2.1" data-path="../rest/githubapitutorial.html">
+            
+                <a href="../rest/githubapitutorial.html">
+            
+                    
+                    Getting Started with the GitHub API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="18.3" data-path="../cookies/">
+            
+                <a href="../cookies/">
+            
+                    
+                    Cookies y Sessions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="18.4" data-path="../authentication/">
+            
+                <a href="../authentication/">
+            
+                    
+                    Authentication con OAuth
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="18.5" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    SSL y HTTPS
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">React</li>
+        
+        
+    
+        <li class="chapter " data-level="19.1" data-path="../react/">
+            
+                <a href="../react/">
+            
+                    
+                    React
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Meteor</li>
+        
+        
+    
+        <li class="chapter " data-level="20.1" data-path="../meteor/">
+            
+                <a href="../meteor/">
+            
+                    
+                    Meteor
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="20.1.1" data-path="../meteor/introduccion.html">
+            
+                <a href="../meteor/introduccion.html">
+            
+                    
+                    Meteor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.2" data-path="../meteor/instalando.html">
+            
+                <a href="../meteor/instalando.html">
+            
+                    
+                    Instalando Meteor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.3" data-path="../meteor/consolas.html">
+            
+                <a href="../meteor/consolas.html">
+            
+                    
+                    Consolas de Meteor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.4" data-path="../meteor/plantillas.html">
+            
+                <a href="../meteor/plantillas.html">
+            
+                    
+                    Plantillas en Meteor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.5" data-path="../meteor/collections.html">
+            
+                <a href="../meteor/collections.html">
+            
+                    
+                    Colecciones en Meteor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.6" data-path="../meteor/primera_app.html">
+            
+                <a href="../meteor/primera_app.html">
+            
+                    
+                    Construyendo una app
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.7" data-path="../meteor/rutas.html">
+            
+                <a href="../meteor/rutas.html">
+            
+                    
+                    Rutas en Meteor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.8" data-path="../meteor/guia_comandos.html">
+            
+                <a href="../meteor/guia_comandos.html">
+            
+                    
+                    Guía de comandos Meteor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="20.1.9" data-path="../meteor/enlaces.html">
+            
+                <a href="../meteor/enlaces.html">
+            
+                    
+                    Enlaces y recursos de interés
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Chrome Apps</li>
+        
+        
+    
+        <li class="chapter " data-level="21.1" data-path="../chromeapps/">
+            
+                <a href="../chromeapps/">
+            
+                    
+                    Chrome Apps
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Prácticas de Programación Web</li>
+        
+        
+    
+        <li class="chapter " data-level="22.1" data-path="../../practicas/practicaconversordetemperaturas.html">
+            
+                <a href="../../practicas/practicaconversordetemperaturas.html">
+            
+                    
+                    Práctica: JavaScript en el Cliente
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.2" data-path="../../practicas/practicalearningrouting.html">
+            
+                <a href="../../practicas/practicalearningrouting.html">
+            
+                    
+                    Práctica: Estudiar las Rutas en ExpressJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.3" data-path="../../practicas/practicalearningcookies.html">
+            
+                <a href="../../practicas/practicalearningcookies.html">
+            
+                    
+                    Práctica: Estudiar las Cookies y las Sessions en ExpressJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.4" data-path="../../practicas/practicasessions.html">
+            
+                <a href="../../practicas/practicasessions.html">
+            
+                    
+                    Práctica: Autenticación usando sessions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.5" data-path="../../practicas/practicaiaas.html">
+            
+                <a href="../../practicas/practicaiaas.html">
+            
+                    
+                    Práctica: Despliegues en iaas y heroku
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.6" data-path="../../practicas/practicaplugin.html">
+            
+                <a href="../../practicas/practicaplugin.html">
+            
+                    
+                    Práctica: Añadiendo plugins para los despliegues. iaas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.7" data-path="../../practicas/practicaplugin2.html">
+            
+                <a href="../../practicas/practicaplugin2.html">
+            
+                    
+                    Práctica: gitbook-start. Plugin para heroku
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.8" data-path="../../practicas/practicagithubapi.html">
+            
+                <a href="../../practicas/practicagithubapi.html">
+            
+                    
+                    Práctica: GitHub API, Heroku API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.9" data-path="../../practicas/practicapassport.html">
+            
+                <a href="../../practicas/practicapassport.html">
+            
+                    
+                    Práctica: Autenticación OAuth con Passport
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.10" data-path="../../practicas/practicapassportlocal.html">
+            
+                <a href="../../practicas/practicapassportlocal.html">
+            
+                    
+                    Práctica: Passport y LocalStrategy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.11" data-path="../../practicas/practicapassportlocalsequelize.html">
+            
+                <a href="../../practicas/practicapassportlocalsequelize.html">
+            
+                    
+                    Práctica: LocalStrategy y Base de Datos: LocalStrategy
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="22.12" data-path="../../practicas/practicassl.html">
+            
+                <a href="../../practicas/practicassl.html">
+            
+                    
+                    Práctica: Añadir HTTPS al servidor del libro
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos de Programación Web</li>
+        
+        
+    
+        <li class="chapter " data-level="23.1" data-path="../../repasos/html.html">
+            
+                <a href="../../repasos/html.html">
+            
+                    
+                    Preguntas de HTML
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.2" data-path="../../repasos/css.html">
+            
+                <a href="../../repasos/css.html">
+            
+                    
+                    Preguntas de CSS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.3" data-path="../../repasos/ejs.html">
+            
+                <a href="../../repasos/ejs.html">
+            
+                    
+                    Preguntas de ejs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.4" data-path="../../repasos/expressroutes.html">
+            
+                <a href="../../repasos/expressroutes.html">
+            
+                    
+                    Preguntas de Rutas en ExpressJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.5" data-path="../../repasos/jquery.html">
+            
+                <a href="../../repasos/jquery.html">
+            
+                    
+                    Preguntas de jquery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.6" data-path="../../repasos/underscore.html">
+            
+                <a href="../../repasos/underscore.html">
+            
+                    
+                    Preguntas de underscore
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.7" data-path="../../repasos/localstorage.html">
+            
+                <a href="../../repasos/localstorage.html">
+            
+                    
+                    Preguntas de localstorage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.8" data-path="../../repasos/pug.html">
+            
+                <a href="../../repasos/pug.html">
+            
+                    
+                    Preguntas de pug
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.9" data-path="../../repasos/sass.html">
+            
+                <a href="../../repasos/sass.html">
+            
+                    
+                    Preguntas de sass
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.10" data-path="../../repasos/https.html">
+            
+                <a href="../../repasos/https.html">
+            
+                    
+                    Preguntas de HTTPS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.11" data-path="../../repasos/ajax.html">
+            
+                <a href="../../repasos/ajax.html">
+            
+                    
+                    Preguntas de AJAX
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.12" data-path="../../repasos/passport.html">
+            
+                <a href="../../repasos/passport.html">
+            
+                    
+                    Preguntas de Passport
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.13" data-path="../../repasos/cookies.html">
+            
+                <a href="../../repasos/cookies.html">
+            
+                    
+                    Preguntas de Cookies
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.14" data-path="../../repasos/rest.html">
+            
+                <a href="../../repasos/rest.html">
+            
+                    
+                    Preguntas de REST
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="23.15" data-path="../../repasos/githubapi.html">
+            
+                <a href="../../repasos/githubapi.html">
+            
+                    
+                    Preguntas de GtiHub API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Bases de Datos</li>
+        
+        
+    
+        <li class="chapter " data-level="24.1" data-path="../db/">
+            
+                <a href="../db/">
+            
+                    
+                    Bases de Datos/DataBases
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="24.1.1" data-path="../db/sqlite/">
+            
+                <a href="../db/sqlite/">
+            
+                    
+                    Sqlite
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="24.1.2" data-path="../db/sequelize/">
+            
+                <a href="../db/sequelize/">
+            
+                    
+                    Sequelize
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="24.1.3" data-path="../db/mongo/">
+            
+                <a href="../db/mongo/">
+            
+                    
+                    Mongo
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="24.1.3.1" data-path="../db/mongo/mongodb.html">
+            
+                <a href="../db/mongo/mongodb.html">
+            
+                    
+                    MongoDB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="24.1.3.2" data-path="../db/mongo/mongoose.html">
+            
+                <a href="../db/mongo/mongoose.html">
+            
+                    
+                    Mongoose
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos de Bases de Datos</li>
+        
+        
+    
+        <li class="chapter " data-level="25.1" data-path="../../repasos/mongo.html">
+            
+                <a href="../../repasos/mongo.html">
+            
+                    
+                    Preguntas de Mongo
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos Bases de Datos</li>
+        
+        
+    
+        <li class="chapter " data-level="26.1" data-path="../../repasos/mongo.html">
+            
+                <a href="../../repasos/mongo.html">
+            
+                    
+                    Repasos: Preguntas de mongo
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">ECMA 6</li>
+        
+        
+    
+        <li class="chapter " data-level="27.1" >
+            
+                <a target="_blank" href="http://exploringjs.com/es6/">
+            
+                    
+                    Libro: Exploring Ecma 6
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2" data-path="../babel/">
+            
+                <a href="../babel/">
+            
+                    
+                    Babel ES6, ES7 y ES8
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="27.2.1" data-path="../babel/proceso-de-introduccion-de-nuevas-caracteristicas.html">
+            
+                <a href="../babel/proceso-de-introduccion-de-nuevas-caracteristicas.html">
+            
+                    
+                    Proceso de Introducción de Nuevas Características
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.2" data-path="../babel/babel.html">
+            
+                <a href="../babel/babel.html">
+            
+                    
+                    Babel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.3" data-path="../babel/funciones-flecha.html">
+            
+                <a href="../babel/funciones-flecha.html">
+            
+                    
+                    Funciones Flecha
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.4" data-path="../babel/deconstrucciones.html">
+            
+                <a href="../babel/deconstrucciones.html">
+            
+                    
+                    Deconstrucciones
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.5" data-path="../babel/operador-de-dispersion.html">
+            
+                <a href="../babel/operador-de-dispersion.html">
+            
+                    
+                    Operador de Dispersión
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.6" data-path="../babel/iteradores.html">
+            
+                <a href="../babel/iteradores.html">
+            
+                    
+                    Iteradores
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.7" data-path="../babel/nueva-sintaxis-en-bucles-for.html">
+            
+                <a href="../babel/nueva-sintaxis-en-bucles-for.html">
+            
+                    
+                    Nueva sintaxis en bucles for
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.8" data-path="../babel/operador-bind.html">
+            
+                <a href="../babel/operador-bind.html">
+            
+                    
+                    Operador bind
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.9" data-path="../babel/import.html">
+            
+                <a href="../babel/import.html">
+            
+                    
+                    Import
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.10" data-path="../babel/export.html">
+            
+                <a href="../babel/export.html">
+            
+                    
+                    Export
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.11" data-path="../babel/async-y-await.html">
+            
+                <a href="../babel/async-y-await.html">
+            
+                    
+                    Async y Await
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.12" data-path="../babel/integracion-de-babel-con-gulp.html">
+            
+                <a href="../babel/integracion-de-babel-con-gulp.html">
+            
+                    
+                    Integración de Babel con Gulp
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="27.2.13" data-path="../babel/integracion-con-express.html">
+            
+                <a href="../babel/integracion-con-express.html">
+            
+                    
+                    Integración con Express
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos: ECMA6</li>
+        
+        
+    
+        <li class="chapter " data-level="28.1" data-path="../../repasos/ecma6.html">
+            
+                <a href="../../repasos/ecma6.html">
+            
+                    
+                    Repaso: Preguntas de ecma6
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Procesamiento de Lenguajes</li>
+        
+        
+    
+        <li class="chapter " data-level="29.1" >
+            
+                <a target="_blank" href="http://cs448h.stanford.edu/little-languages.pdf">
+            
+                    
+                    Little Languages. Programing Pearls. Jon Bentley
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.2" >
+            
+                <a target="_blank" href="http://cs448h.stanford.edu/DSEL-Little.pdf">
+            
+                    
+                    P Hudak. Domain Specific Languages
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.3" data-path="../regexp/">
+            
+                <a href="../regexp/">
+            
+                    
+                    Expresiones Regulares
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="29.3.1" data-path="../regexp/regexpejercicios.html">
+            
+                <a href="../regexp/regexpejercicios.html">
+            
+                    
+                    Ejercicios de Expresiones Regulares
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="29.4" data-path="../parsing/">
+            
+                <a href="../parsing/">
+            
+                    
+                    Parsing: Técnicas de Análisis
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="29.4.1" data-path="../parsing/tdop/">
+            
+                <a href="../parsing/tdop/">
+            
+                    
+                    Operator Precedence Analysis
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="29.4.1.1" data-path="../parsing/tdop/tdop.html">
+            
+                <a href="../parsing/tdop/tdop.html">
+            
+                    
+                    Top Down Operator Precedence Analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="29.4.2" data-path="../parsing/recursivodescendente/">
+            
+                <a href="../parsing/recursivodescendente/">
+            
+                    
+                    Análisis Recursivo Descendente
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="29.5" data-path="../parsing/eloquentjs/">
+            
+                <a href="../parsing/eloquentjs/">
+            
+                    
+                    Eloquent JS: Chapter 11. Project: A Programming Language
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.6" data-path="../parsing/pltutlisperator/">
+            
+                <a href="../parsing/pltutlisperator/">
+            
+                    
+                    How to implement a programming language in JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.7" data-path="../parsing/grammars/">
+            
+                <a href="../parsing/grammars/">
+            
+                    
+                    Grammars / Gramáticas
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.8" data-path="../pegjs/PEGS.html">
+            
+                <a href="../pegjs/PEGS.html">
+            
+                    
+                    PEGs
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="29.8.1" data-path="../pegjs/esprima.html">
+            
+                <a href="../pegjs/esprima.html">
+            
+                    
+                    Esprima
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.8.2" data-path="../pegjs/pegjs.html">
+            
+                <a href="../pegjs/pegjs.html">
+            
+                    
+                    borrador
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.8.3" data-path="../../repasos/pegjs.html">
+            
+                <a href="../../repasos/pegjs.html">
+            
+                    
+                    Repasos: PEG.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="29.9" data-path="../parsing/gll/">
+            
+                <a href="../parsing/gll/">
+            
+                    
+                    GLL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.10" data-path="../../practicas/practicaanalisislexicotdop2018.html">
+            
+                <a href="../../practicas/practicaanalisislexicotdop2018.html">
+            
+                    
+                    Práctica: Analizador Léxico para Un Subconjunto de JavaScript 2018
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.11" data-path="../../practicas/practicaanalisislexicotdop.html">
+            
+                <a href="../../practicas/practicaanalisislexicotdop.html">
+            
+                    
+                    Práctica: Analizador Léxico para Un Subconjunto de JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.12" data-path="../../practicas/practicarecdescparser.html">
+            
+                <a href="../../practicas/practicarecdescparser.html">
+            
+                    
+                    Práctica: Analizador Descendente Predictivo Recursivo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.13" data-path="../../practicas/practicapegparser.html">
+            
+                <a href="../../practicas/practicapegparser.html">
+            
+                    
+                    Práctica: Analizador Usando PEG.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.14" data-path="../../practicas/practica-egg.html">
+            
+                <a href="../../practicas/practica-egg.html">
+            
+                    
+                    Práctica: El lenguaje egg
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="29.15" data-path="../../practicas/practica-egg-2.html">
+            
+                <a href="../../practicas/practica-egg-2.html">
+            
+                    
+                    Práctica: El lenguaje egg: continuación
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos PL</li>
+        
+        
+    
+        <li class="chapter " data-level="30.1" data-path="../../repasos/regexp.html">
+            
+                <a href="../../repasos/regexp.html">
+            
+                    
+                    Repasos: Preguntas de Expresiones Regulares
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="30.2" data-path="../../repasos/lexicalanalyzer.html">
+            
+                <a href="../../repasos/lexicalanalyzer.html">
+            
+                    
+                    Repasos: Preguntas de Analizador Léxico
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="30.3" data-path="../../repasos/pegjs.html">
+            
+                <a href="../../repasos/pegjs.html">
+            
+                    
+                    Repasos: PEG.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Repasos</li>
+        
+        
+    
+        <li class="chapter " data-level="31.1" data-path="../../repasos/">
+            
+                <a href="../../repasos/">
+            
+                    
+                    Repasos
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Recursos</li>
+        
+        
+    
+        <li class="chapter " data-level="32.1" data-path="../../recursos/">
+            
+                <a href="../../recursos/">
+            
+                    
+                    Recursos
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Servicios en la Nube</li>
+        
+        
+    
+        <li class="chapter " data-level="33.1" data-path="../../recursos/iaas.html">
+            
+                <a href="../../recursos/iaas.html">
+            
+                    
+                    iaas.ull.es
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="33.1.1" data-path="../../repasos/ssh.html">
+            
+                <a href="../../repasos/ssh.html">
+            
+                    
+                    Repaso: Preguntas de SSH
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="33.1.2" data-path="../../repasos/iaas.html">
+            
+                <a href="../../repasos/iaas.html">
+            
+                    
+                    Repasos: Preguntas sobre Plataformas de Despliegue
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="33.2" data-path="../../recursos/heroku.html">
+            
+                <a href="../../recursos/heroku.html">
+            
+                    
+                    Heroku
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="33.2.1" data-path="../../repasos/heroku.html">
+            
+                <a href="../../repasos/heroku.html">
+            
+                    
+                    Repaso: Preguntas de heroku
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="33.3" data-path="../../recursos/yellow.html">
+            
+                <a href="../../recursos/yellow.html">
+            
+                    
+                    Yellow Circle
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="33.4" data-path="../../recursos/azure.html">
+            
+                <a href="../../recursos/azure.html">
+            
+                    
+                    Azure in education
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="33.5" data-path="../../recursos/c9.html">
+            
+                <a href="../../recursos/c9.html">
+            
+                    
+                    c9
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Prácticas</li>
+        
+        
+    
+        <li class="chapter " data-level="34.1" data-path="../../practicas/">
+            
+                <a href="../../practicas/">
+            
+                    
+                    Prácticas
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Presentaciones</li>
+        
+        
+    
+        <li class="chapter " data-level="35.1" data-path="../../presentaciones/temasSYTW.html">
+            
+                <a href="../../presentaciones/temasSYTW.html">
+            
+                    
+                    Temas Sugeridos para SYTW
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="35.2" >
+            
+                <a target="_blank" href="https://casianorodriguezleon.gitbooks.io/presentaciones-de-sytw-2016-2017/content/">
+            
+                    
+                    Presentaciones de SYTW 16/17
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Proyectos</li>
+        
+        
+    
+        <li class="chapter " data-level="36.1" data-path="../../proyectos/">
+            
+                <a href="../../proyectos/">
+            
+                    
+                    Proyectos
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="36.1.1" data-path="../../proyectos/sytw/">
+            
+                <a href="../../proyectos/sytw/">
+            
+                    
+                    Proyecto de SYTW
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="36.1.2" data-path="../../proyectos/pl/">
+            
+                <a href="../../proyectos/pl/">
+            
+                    
+                    Proyecto de PL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="36.1.3" data-path="../../proyectos/dsi/">
+            
+                <a href="../../proyectos/dsi/">
+            
+                    
+                    Proyecto de DSI
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">DEFINICIONES DE TÉRMINOS</li>
+        
+        
+    
+        <li class="chapter " data-level="37.1" data-path="../../GLOSSARY.html">
+            
+                <a href="../../GLOSSARY.html">
+            
+                    
+                    GLOSARIO
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >SSL y HTTPS</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="ssl">SSL</h2>
+<h3 id="express-4-ssl-example">Express 4 SSL Example</h3>
+<ul>
+<li><a href="http://blog.ayanray.com/2015/06/adding-https-ssl-to-express-4-x-applications/" target="_blank">http://blog.ayanray.com/2015/06/adding-https-ssl-to-express-4-x-applications/</a></li>
+<li><a href="https://github.com/ULL-ESIT-MII-CA-1718/express4_SSL_example" target="_blank">Forked Repo</a> <code>ULL-ESIT-MII-CA-1718/express4_SSL_example</code></li>
+</ul>
+<h1 id="starting-the-server">Starting the Server</h1>
+<pre><code>node app.js
+</code></pre><h3 id="how-does-https-actually-work">How does HTTPS actually work?</h3>
+<p>Esta secci&#xF3;n es copia de:</p>
+<ul>
+<li><a href="http://robertheaton.com/2014/03/27/how-does-https-actually-work/" target="_blank">How does HTTPS actually work?</a> por Rob Heaton</li>
+<li>Algunas de las im&#xE1;genes son del tutorial <a href="http://www.inmotionhosting.com/support/website/ssl/what-is-ssl-and-why-is-it-important" target="_blank">What is SSL and why is it important?</a></li>
+</ul>
+<h4 id="the-ssl-layer-has-2-main-purposes">The SSL layer has 2 main purposes:</h4>
+<ul>
+<li>Verifying that you are talking directly to the server that you think you are talking to</li>
+<li>Ensuring that only the server can read what you send it and only you can read what it sends back</li>
+</ul>
+<p>The really, really clever part is that 
+<strong>anyone can intercept every single one of the messages you exchange with a server, including the ones where you are agreeing on the key and encryption strategy to use, and still not be able to read any of the actual data you send.</strong></p>
+<p><img src="http://cdn.inmotionhosting.com/support/images/stories/edu/ssl/secure-ssl-connection.png" alt="SSL: the key point"></p>
+<h4 id="how-an-ssl-connection-is-established">How an SSL connection is established</h4>
+<p>An SSL connection between a client and server is set up by a <a href="http://www.dictionary.com/browse/handshake" target="_blank">handshake</a>, the goals of which are:</p>
+<ul>
+<li>To satisfy the client that it is talking to the right server (and optionally visa versa)</li>
+<li>For the parties to have agreed on a <em><a href="https://en.wikipedia.org/wiki/Cipher_suite" target="_blank">cipher suite</a></em>, which includes which encryption algorithm they will use to exchange data</li>
+<li>For the parties to have agreed on any necessary keys for this algorithm</li>
+</ul>
+<p>Once the connection is established, both parties can use the agreed algorithm and keys to securely send messages to each other. 
+We will break the <a href="http://www.dictionary.com/browse/handshake" target="_blank">handshake</a> up into 3 main phases 
+ <em>Hello, Certificate Exchange and Key Exchange</em></p>
+<p><img src="http://cdn.inmotionhosting.com/support/images/stories/edu/ssl/secure-connection-illustration.png" alt="SSL handshake">| </p>
+<ol>
+<li><strong>Hello</strong> <ul>
+<li>The <a href="http://www.dictionary.com/browse/handshake" target="_blank">handshake</a> begins with the client sending a <code>ClientHello</code> message. </li>
+<li>This contains all the information the server needs in order to connect to the client via SSL, including <ul>
+<li>the various cipher suites </li>
+<li>and maximum SSL version that it supports. </li>
+</ul>
+</li>
+<li>The server responds with a <code>ServerHello</code>, which contains similar information required by the client, including <ul>
+<li>a decision based on the client&#x2019;s preferences about which cipher suite and version of SSL will be used.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Certificate Exchange</strong> </p>
+<ul>
+<li>Now that contact has been established, the server has to prove its identity to the client. </li>
+<li>This is achieved using its SSL certificate, which is a very tiny bit like its passport. </li>
+<li>An SSL certificate contains various pieces of data, including the <ul>
+<li>name of the owner,</li>
+<li>the property (eg. domain) it is attached to, </li>
+<li>the certificate&#x2019;s public key, </li>
+<li>the <a href="https://en.wikipedia.org/wiki/Digital_signature" target="_blank">digital signature</a> and </li>
+<li>information about the certificate&#x2019;s validity dates. </li>
+</ul>
+</li>
+<li>The client checks that it either <ul>
+<li>implicitly trusts the certificate, </li>
+<li>or that it is verified and trusted by one of several Certificate Authorities (CAs) that it also implicitly trusts. </li>
+</ul>
+</li>
+<li>Note that the server is also allowed to require a certificate to prove the client&#x2019;s identity, but this typically only happens in very sensitive applications.</li>
+</ul>
+</li>
+<li><p><strong>Key Exchange</strong> </p>
+<ul>
+<li>The encryption of the actual message data exchanged by the client and server will be done using a symmetric algorithm, the exact nature of which was already agreed during the <strong>Hello phase</strong>. </li>
+<li>A <strong>symmetric algorithm</strong> uses a single key for both encryption and decryption, in contrast to asymmetric algorithms that require a public/private key pair. </li>
+<li>Both parties need to agree on this single, symmetric key, a process that is accomplished securely using asymmetric encryption and the server&#x2019;s public/private keys.</li>
+<li>The client generates a random key to be used for the main, symmetric algorithm. <ul>
+<li>It encrypts it using an algorithm also agreed upon during the Hello phase, and the server&#x2019;s public key (found on its SSL certificate). </li>
+<li>It sends this encrypted key to the server, where it is decrypted using the server&#x2019;s private key, and the interesting parts of the <a href="http://www.dictionary.com/browse/handshake" target="_blank">handshake</a> are complete. </li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>The parties are sufficiently happy that they are talking to the right person, and have secretly agreed on a key to symmetrically encrypt the data that they are about to send each other. </p>
+</li>
+<li>HTTP requests and responses can now be sent by forming a plaintext message and then encrypting and sending it. </li>
+<li>The other party is the only one who knows how to decrypt this message, and so <strong>Man In The Middle Attackers</strong> 
+are unable to read or modify any requests that they may intercept.</li>
+</ol>
+<h4 id="certificates">Certificates</h4>
+<h5 id="trust">Trust</h5>
+<ul>
+<li>At its most basic level, an SSL certificate is simply a text file, and anyone with a text editor can create one. <ul>
+<li>You can in fact trivially create a certificate claiming that you are Google Inc. and that you control the domain gmail.com. </li>
+<li>If this were the whole story then SSL would be a joke; identity verification would essentially be <ul>
+<li>the client asking the server <em>&quot;are you Google?&quot;</em>, </li>
+<li>the server replying <em>&quot;er, yeah totally, here&#x2019;s a piece of paper with &#x2018;I am Google&#x2019; written on it&quot;</em> </li>
+<li>and the client saying <em>&quot;OK great, here&#x2019;s all my data.&quot;</em> </li>
+</ul>
+</li>
+<li>The magic that prevents this farce is in the <strong><a href="https://en.wikipedia.org/wiki/Digital_signature" target="_blank">digital signature</a></strong>, which allows a party to verify that another party&#x2019;s piece of paper really is <a href="https://www.google.es/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=define%20legit" target="_blank">legit</a>.</li>
+</ul>
+</li>
+<li><p>There are 2 sensible reasons why you might trust a certificate:</p>
+<ul>
+<li>If it&#x2019;s on a list of certificates that you trust implicitly</li>
+<li><p>If it&#x2019;s able to prove that it is trusted by the controller of one of the certificates on the above list</p>
+<ul>
+<li>The first criteria is easy to check. Your browser has a pre-installed list of trusted SSL certificates from Certificate Authorities (CAs) that you can view, add and remove from. </li>
+<li><p>These certificates are controlled by a centralised group of (in theory, and generally in practice) extremely secure, reliable and trustworthy organisations like </p>
+<ul>
+<li><a href="https://letsencrypt.org/" target="_blank">Let&apos;s Encrypt</a> (Let&#x2019;s Encrypt is a free, automated, and open Certificate Authority),</li>
+<li><a href="http://www.cacert.org/" target="_blank">CAcert.org es una autoridad certificadora dirigida por la comunidad que emite certificados gratuitos al p&#xFA;blico</a></li>
+<li>Symantec, </li>
+<li>Comodo and </li>
+<li>GoDaddy. </li>
+</ul>
+<p>If a server presents a certificate from that list then you know you can trust them.</p>
+</li>
+<li>The second criteria is much harder. <ul>
+<li>It&#x2019;s easy for a server to say <em>&quot;er yeah, my name is er, Microsoft, you trust Symantec and er, they totally trust me, so it&#x2019;s all cool.&quot;</em> </li>
+<li>A somewhat smart client might then go and ask Symantec <em>&quot;I&#x2019;ve got a Microsoft here who say that you trust them, is this true?&quot;</em> </li>
+<li>But even if Symantec say <em>&quot;yep, we know them, Microsoft are legit&quot;</em>, you still don&#x2019;t know whether the server claiming to be Microsoft actually is Microsoft or something much worse. 
+This is where <strong>digital signatures</strong> come in.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h5 id="digital-signatures">Digital signatures</h5>
+<ul>
+<li>As already noted, SSL certificates have an associated public/private key pair<ul>
+<li>The public key is distributed as part of the certificate, and the private key is kept incredibly safely guarded</li>
+<li>This pair of asymmetric keys is used in the SSL <a href="http://www.dictionary.com/browse/handshake" target="_blank">handshake</a> to exchange a further key for both parties to symmetrically encrypt and decrypt data</li>
+<li><strong>The client uses the server&#x2019;s public key to encrypt the symmetric key and send it securely to the server, and the server uses its private key to decrypt it</strong><ul>
+<li><img src="https://raviranjankr.files.wordpress.com/2012/08/asymmetric-encryption.gif" alt="digital signature"></li>
+</ul>
+</li>
+<li>Anyone can encrypt using the public key, but only the server can decrypt using the private key</li>
+</ul>
+</li>
+<li><p>The opposite is true for a digital signature. </p>
+<ul>
+<li><p>A certificate can be <em>&quot;signed&quot;</em> by another authority, <a href="https://www.google.es/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=define%20whereby" target="_blank">whereby</a> the authority effectively goes on record as saying</p>
+<p><em>&quot;We have verified that the controller of this certificate also controls the property (domain) listed on the certificate&quot;</em>. </p>
+</li>
+<li>In this case the authority uses their private key to (broadly speaking) encrypt the contents of the certificate, and this cipher text is attached to the certificate as its digital signature. </li>
+<li>Anyone can decrypt this signature using the authority&#x2019;s public key, and verify that it results in the expected decrypted value. </li>
+<li>But only the authority can encrypt content using the private key, and so only the authority can actually create a valid signature in the first place.</li>
+</ul>
+</li>
+<li>So if a server comes along claiming to have a certificate for Microsoft.com that is signed by Symantec (or some other CA), your browser doesn&#x2019;t have to take its word for it. <ul>
+<li>If it is legit, Symantec will have used their (ultra-secret) private key to generate the server&#x2019;s SSL certificate&#x2019;s digital signature, and so your browser use can use their (ultra-public) public key to check that this signature is valid. </li>
+<li>Symantec will have taken steps to ensure the organisation they are signing for really does own Microsoft.com, and so given that your client trusts Symantec, it can be sure that it really is talking to Microsoft Inc.
+<img src="http://www.hill2dot0.com/wiki/images/f/ff/Digital_Signature.jpg" alt="digital signature"></li>
+</ul>
+</li>
+</ul>
+<h5 id="what-are-you-trusting">What are you trusting?</h5>
+<ul>
+<li>It&#x2019;s interesting to note that your client is technically not trying to verify whether or not it should trust the party that sent it a certificate, but whether it should trust the public key contained in the certificate.<ul>
+<li>SSL certificates are completely open and public, so any attacker could grab Microsoft&#x2019;s certificate, intercept a client&#x2019;s request to Microsoft.com and present the legitimate certificate to it. </li>
+<li>The client would accept this and happily begin the <a href="http://www.dictionary.com/browse/handshake" target="_blank">handshake</a>. </li>
+<li>However, when the client encrypts the key that will be used for actual data encryption, it will do so using the real Microsoft&#x2019;s public key from this real certificate. </li>
+<li>Since the attacker doesn&#x2019;t have Microsoft&#x2019;s private key in order to decrypt it, they are now stuck. </li>
+<li>Even if the <a href="http://www.dictionary.com/browse/handshake" target="_blank">handshake</a> is completed, they will still not be able to decrypt the key, and so will not be able to decrypt any of the data that the client sends to them. </li>
+<li><strong>Order is maintained as long as the attacker doesn&#x2019;t control a trusted certificate&#x2019;s private key</strong>. <ul>
+<li>If the client is somehow tricked into trusting a certificate and public key whose private key is controlled by an attacker, trouble begins.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h5 id="self-signing">Self-signing</h5>
+<ul>
+<li>Note that all root CA certificates are <em>&quot;self-signed&quot;</em>, meaning that the digital signature is generated using the certificate&#x2019;s own private key. <ul>
+<li>There&#x2019;s nothing intrinsically special about a root CA&#x2019;s certificate - you can generate your own self-signed certificate and use this to sign other certificates if you want. </li>
+<li>But since your random certificate is not pre-loaded as a CA into any browsers anywhere, none of them will trust you to sign either your own or other certificates. </li>
+<li>You are effectively saying <em>&quot;er yeah, I&#x2019;m totally Microsoft, here&#x2019;s an official certificate of identity issued and signed by myself,&quot;</em> and all properly functioning browsers will throw up a very scary error message in response to your <a href="https://www.google.es/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=define+dodgy" target="_blank">dodgy</a> credentials.</li>
+</ul>
+</li>
+<li>This puts an enormous burden on all browser and OS publishers to trust only squeaky clean root CAs, as these are the organisations that their users end up trusting to <a href="https://www.google.es/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=define+vet" target="_blank">vet</a> websites and keep certificates safe. <ul>
+<li><a href="http://security.stackexchange.com/questions/11464/getting-a-root-ca-accepted-in-systems-and-browsers" target="_blank">This is not an easy task.</a></li>
+</ul>
+</li>
+</ul>
+<h5 id="really-really-fun-facts">Really really fun facts</h5>
+<h5 id="can-a-coffee-shop-monitor-my-https-traffic-over-their-network">Can a coffee shop monitor my HTTPS traffic over their network?</h5>
+<ul>
+<li>Nope. <ul>
+<li>The magic of public-key cryptography means that an attacker can watch every single byte of data exchanged between your client and the server and still have no idea what you are saying to each other beyond roughly how much data you are exchanging. </li>
+<li>However, your normal HTTP traffic is still very vulnerable on an insecure wi-fi network, and a flimsy website can fall victim to any number of workarounds that somehow trick you into sending HTTPS traffic either over plain HTTP or just to the wrong place completely. </li>
+<li>For example, even if a login form submits a username/password combo over HTTPS, if the form itself is loaded insecurely over HTTP then an attacker could intercept the form&#x2019;s HTML on its way to your machine and modify it to send the login details to their own endpoint.</li>
+</ul>
+</li>
+</ul>
+<h5 id="can-my-company-monitor-my-https-traffic-over-their-network">Can my company monitor my HTTPS traffic over their network?</h5>
+<ul>
+<li>If you are also using a machine controlled by your company, then yes. <ul>
+<li>Remember that at the root of every chain of trust lies an implicitly trusted CA, and that a list of these authorities is stored in your browser. </li>
+<li>Your company could use their access to your machine to <strong>add their own self-signed certificate to this list of CAs</strong>. </li>
+<li>They could then intercept all of your HTTPS requests, presenting certificates claiming to represent the appropriate website, signed by their fake-CA and therefore unquestioningly trusted by your browser. </li>
+<li>Since you would be encrypting all of your HTTPS requests using their dodgy certificate&#x2019;s public key, they could use the corresponding private key to decrypt and inspect (even modify) your request, and then send it onto it&#x2019;s intended location. </li>
+<li>They probably don&#x2019;t. But they could.</li>
+</ul>
+</li>
+<li>Incidentally, this is also how you use a proxy to inspect and modify the otherwise inaccessible <a href="http://nickfishman.com/post/50557873036/reverse-engineering-native-apps-by-intercepting-network" target="_blank">HTTPS requests made by an iPhone app</a>.</li>
+</ul>
+<h5 id="so-what-happened-with-lavabit-and-the-fbi">So what happened with <a href="https://lavabit.com/" target="_blank">Lavabit</a> and the FBI?</h5>
+<ul>
+<li><a href="https://lavabit.com/" target="_blank">Lavabit</a> was Edward Snowden&#x2019;s super-secure email provider during the NSA leaks insanity of 2013. <ul>
+<li>As we&#x2019;ve seen, no amount of standard hackery could allow the FBI to see any data on its way between <a href="https://lavabit.com/" target="_blank">Lavabit</a> and its customers</li>
+<li>Without the private key for the <a href="https://lavabit.com/" target="_blank">Lavabit</a> SSL certificate, the agency was screwed</li>
+<li>However, a helpful US judge told the <a href="https://lavabit.com/" target="_blank">Lavabit</a> founder, Ladar Levison, that he had to hand over this key, effectively giving the FBI free reign to snoop traffic to its heart&#x2019;s content</li>
+<li><em>Levison made a valiant attempt to stall by handing over the 2,560 character key in 11 hard copy pages of 4-point type</em>, but was slammed with an order requiring him to hand over the key in a useful format or face a $5,000/day fine until he did</li>
+</ul>
+</li>
+<li>Once he complied, GoDaddy, the <a href="https://lavabit.com/" target="_blank">Lavabit</a> CA, revoked the certificate, having (correctly) deemed it compromised<ul>
+<li>This added the <a href="https://lavabit.com/" target="_blank">Lavabit</a> certificate to a Certificate Revocation List (CRL), a list of discredited certificates that clients should no longer trust to provide a secure connection</li>
+<li>Compromised, self-signed or otherwise untrustworthy certificates cause browsers to display a big red error message and to either discourage or outright prohibit further actions by the user</li>
+<li>Unfortunately, browsers will continue to trust a broken certificate until they pull the newest updates to the CRL, a process which is apparently <a href="https://news.netcraft.com/archives/2013/05/13/how-certificate-revocation-doesnt-work-in-practice.html" target="_blank">imperfect in practice</a>.</li>
+</ul>
+</li>
+</ul>
+<h5 id="conclusion-be-happy-that-its-got-your-back-but-stay-vigilant">Conclusion: Be happy that <a href="http://www.urbandictionary.com/define.php?term=GOT%20YOUR%20BACK" target="_blank">it&#x2019;s got your back</a>, but stay vigilant</h5>
+<ul>
+<li>HTTPS is not unbreakable, and the SSL protocol has to evolve constantly as new attacks against it are discovered and squashed<ul>
+<li>But it is still an impressively robust way of transmitting secret data without caring who sees your messages</li>
+<li>There are of course many implementation details not mentioned here, such as <ul>
+<li>the exact format and order of the <a href="http://www.dictionary.com/browse/handshake" target="_blank">handshake</a> messages, </li>
+<li>abbreviated <a href="http://www.dictionary.com/browse/handshake" target="_blank">handshake</a>s to pick up recent sessions without having to renegotiate keys and cipher suites, </li>
+<li>and the numerous different encryption options available at each stage</li>
+</ul>
+</li>
+<li>The key thing to remember is that whilst HTTPS keeps data safe on the wire to its destination, it in no way protects you (as a user or a developer) against <ul>
+<li>XSS (Cross-site scripting or XSS is used to bypass access controls such as the same-origin policy) </li>
+<li>or <a href="http://www.bcs.org/content/ConWebDoc/8852" target="_blank">database leaks</a> </li>
+<li>or any of the other <a href="https://en.wikipedia.org/wiki/Things_That_Go_Bump_in_the_Night" target="_blank">things-that-go-bump-in-the-night</a></li>
+</ul>
+</li>
+<li>Be happy that <a href="http://www.urbandictionary.com/define.php?term=GOT%20YOUR%20BACK" target="_blank">it&#x2019;s got your back</a>, but stay vigilant</li>
+</ul>
+</li>
+</ul>
+<h3 id="teor&#xED;a">Teor&#xED;a</h3>
+<ul>
+<li><a href="http://robertheaton.com/2014/03/27/how-does-https-actually-work/" target="_blank">How does HTTPS actually work?</a> por Rob Heaton</li>
+<li><p>Introducci&#xF3;n</p>
+<ul>
+<li><div style="position: relative;padding-bottom: 56.25%;padding-top: 25px;height: 0;"><iframe frameborder="0" allowfullscreen style="border: none;position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="//www.youtube.com/embed/JCvPnwpWVUQ"></iframe></div></li>
+</ul>
+</li>
+<li><p><a href="https://youtu.be/S2iBR2ZlZf0" target="_blank">SSL and HTTPS</a> MIT OpenCourseWare</p>
+<ul>
+<li><div style="position: relative;padding-bottom: 56.25%;padding-top: 25px;height: 0;"><iframe frameborder="0" allowfullscreen style="border: none;position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="//www.youtube.com/embed/S2iBR2ZlZf0"></iframe></div></li>
+<li>MIT 6.858 Computer Systems Security, Fall 2014</li>
+<li>View the complete course: <a href="http://ocw.mit.edu/6-858F14" target="_blank">http://ocw.mit.edu/6-858F14</a></li>
+<li>Instructor: <a href="https://www.youtube.com/user/chebureka" target="_blank">Nickolai Zeldovich</a></li>
+</ul>
+</li>
+<li><p><a href="http://www.inmotionhosting.com/support/website/ssl/what-is-ssl-and-why-is-it-important" target="_blank">What is SSL and why is it important?</a></p>
+</li>
+</ul>
+<h3 id="tutoriales-sobre-https-y-ssl-con-nodejs">Tutoriales sobre HTTPS y SSL con NodeJS</h3>
+<ul>
+<li><a href="https://www.sitepoint.com/how-to-use-ssltls-with-node-js/" target="_blank">How to Use SSL/TLS with Node.js</a> By Florian Rappl  September 16, 2015 at SitePoint</li>
+<li><a href="http://blog.ayanray.com/2015/06/adding-https-ssl-to-express-4-x-applications/" target="_blank">Adding HTTPS (SSL) to Express 4.X Applications</a><ul>
+<li>GitHub repo: <a href="https://github.com/ayanray/express4_SSL_example" target="_blank">ayanray/express4_SSL_example</a></li>
+</ul>
+</li>
+<li><a href="http://blog.mgechev.com/2014/02/19/create-https-tls-ssl-application-with-express-nodejs/" target="_blank">Express over HTTPS</a></li>
+<li><a href="https://youtu.be/r92gqYHJc5c" target="_blank">Walkthrough: How to set up HTTPS / SSL with node.js and name.com / RapidSSL</a><ul>
+<li><a href="https://github.com/coolaj86/nodejs-ssl-example" target="_blank">GitHub repo: coolaj86/nodejs-ssl-e</a></li>
+<li><a href="https://coolaj86.com/articles/how-to-create-a-csr-for-https-tls-ssl-rsa-pems/" target="_blank">Blog: How to create a Certificate Signing Request (CSR) for HTTPS (TLS/SSL) RSA PEMs</a></li>
+</ul>
+</li>
+<li><a href="https://youtu.be/kR06NoSzAXY" target="_blank">Tutorial: How to Deploy a Node.js App to DigitalOcean with a Free SSL Certificate</a> YouTube</li>
+</ul>
+<h3 id="como-crear-un-certificado">Como crear un Certificado</h3>
+<ul>
+<li><a href="https://youtu.be/1xtBkukWiek" target="_blank">Create Your Own Self Signed X509 Certificate</a> YouTube Video</li>
+<li><a href="http://serverfault.com/questions/9708/what-is-a-pem-file-and-how-does-it-differ-from-other-openssl-generated-key-file" target="_blank">What is a Pem file and how does it differ from other OpenSSL Generated Key File Formats?</a><ul>
+<li>.csr This is a Certificate Signing Request </li>
+<li>.pem Privacy Enhanced Mail </li>
+<li>.key This is a PEM formatted file containing just the private-key of a specific certificate and is merely a conventional name and not a standardized one</li>
+<li>.cert .cer .crt A .pem formatted file with a different extension</li>
+<li><a href="OpenSSLManejoCertificados.pdf">Candelaria Hern&#xE1;ndez Goya y Pino Caballero Gil (ULL): Uso de Certificados Digitales con OpenSSL</a></li>
+<li><a href="GeneracionCertificadosOpenSSL.pdf">Candelaria Hern&#xE1;ndez Goya y Pino Caballero Gil (ULL): Creaci&#xF3;n de una Autoridad Certificadora (CA) con OpenSSL</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="recursos-certificados-y-firma-digital">Recursos: Certificados y Firma Digital</h3>
+<ul>
+<li><a href="https://docs.google.com/document/d/1noIAcAEzX1PuxxSLWuiTKzkLurAm9fL6vUmZN-A-kpE/edit#heading=h.32nscii6jiop" target="_blank">Certificados SSL para m&#xE1;quinas IaaS de PAS/PDI</a></li>
+<li><a href="https://letsencrypt.org/docs/" target="_blank">Let&apos;s Encrypt</a>: Let&#x2019;s Encrypt is a Certificate Authority (CA).<ul>
+<li><a href="https://youtu.be/l3glAcoW5OM" target="_blank">Secure Your Website with free SSL cert from Let&apos;s Encrypt!</a></li>
+</ul>
+</li>
+<li><a href="http://www.cacert.org/" target="_blank">CAcert.org es una autoridad certificadora dirigida por la comunidad que emite certificados gratuitos al p&#xFA;blico</a></li>
+<li><a href="https://linux.die.net/man/1/openssl" target="_blank">Linux man openssl command</a><ul>
+<li><a href="https://linux.die.net/man/1/genrsa" target="_blank">genrsa</a> generate an RSA private key</li>
+<li><a href="https://linux.die.net/man/1/req" target="_blank">req</a>  certificate request and certificate generating utility.</li>
+<li><a href="https://linux.die.net/man/1/x509" target="_blank">x509 - Certificate display and signing utility</a></li>
+</ul>
+</li>
+<li><a href="sede.ull.es">sede.ull.es</a><ul>
+<li>Crea una solicitud y solicita la firma de los implicados y la tuya propia. </li>
+<li>Dirige la solicitud a OTROS y en la caja pon tu nombre</li>
+<li>Aseg&#xFA;rate de ser el &#xFA;ltimo en firmar, as&#xED; podr&#xE1;s tener acceso al bot&#xF3;n de descargar documento</li>
+</ul>
+</li>
+<li><a href="https://sede.ull.es/ecivilis-signature-inbox-application/inbox.html" target="_blank">portafirmas digital</a><ul>
+<li>El bot&#xF3;n enviar permite enviar el documento a otra persona la cual deber&#xE1; a su vez enviar el documento a un segundo firmante, etc. </li>
+<li>bot&#xF3;n <code>enviar</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="m&#xF3;dulos-nodejs-para-https">M&#xF3;dulos NodeJS para HTTPS</h3>
+<ul>
+<li><a href="https://www.npmjs.com/package/pem" target="_blank">pem</a>:  A nodeJS module to create private keys and certificates with node.js and io.js</li>
+<li><a href="https://www.npmjs.com/package/express-sslify" target="_blank">express-sslify: Enforces SSL for node.js express projects. This simple module enforces HTTPS connections on any incoming GET and HEAD requests.</a></li>
+<li><a href="https://www.npmjs.com/package/express-ssl" target="_blank">express-ssl: Enforce SSL for Express apps</a></li>
+</ul>
+<h3 id="chrome-y-ssl">Chrome y SSL</h3>
+<ul>
+<li><a href="https://support.google.com/chrome/answer/99020?co=GENIE.Platform%3DDesktop&amp;hl=en" target="_blank">Chrome help: Manage warnings about unsafe sites</a></li>
+<li><a href="https://productforums.google.com/forum/#!topic/chrome/XFAA9JIK3wM" target="_blank"> How to manage certificates in chrome</a></li>
+</ul>
+
+                                
+                                </section>
+                            
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../authentication/" class="navigation navigation-prev " aria-label="Previous page: Authentication con OAuth">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../react/" class="navigation navigation-next " aria-label="Next page: React">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"SSL y HTTPS","level":"18.5","depth":1,"next":{"title":"React","level":"19.1","depth":1,"path":"apuntes/react/README.md","ref":"apuntes/react/README.md","articles":[]},"previous":{"title":"Authentication con OAuth","level":"18.4","depth":1,"path":"apuntes/authentication/README.md","ref":"apuntes/authentication/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["include","katex","include-codeblock","ace","-autocover","-layout","youtube","video","highlight","sectionx","code-highlighter","copy-code-button","page-toc","-toc","-latex-codecogs","-emphasize","collapsible-menu","js-console","codetabs","es6tabs-stage-0","jazer"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"code-highlighter":{},"collapsible-menu":{},"ace":{},"youtube":{},"es6tabs":{"presets":["es2015","stage-0"]},"include":{},"toc":{"addClass":"true","className":"toc"},"search":{"maxIndexSize":1000000},"autocover":{"title":"Apuntes del Curso 2016/2017: Procesadores de Lenguajes, Desarrollo de Sistemas Informáticos y Sistemas y Tecnologías Web","author":"Casiano","pluginsConfig":{"autocover":{"font":{"size":null,"family":"Impact","color":"#FFF"},"size":{"w":1800,"h":2360},"background":{"color":"#09F"}}}},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4"},"layout":{"headerPath":"layouts/header.html","footerPath":"layouts/footer.html"},"codetabs":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"jazer":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"js-console":{},"sectionx":{},"highlight":{},"copy-code-button":{},"es6tabs-stage-0":{"presets":["es2015","react"]},"video":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"chrome","unindent":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"apuntes/ssl/README.md","mtime":"2018-02-20T08:19:56.232Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-23T14:09:37.081Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-ace/ace.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-page-toc/anchor-3.1.1.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-page-toc/page-toc.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-collapsible-menu/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-js-console/console-ui.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-codetabs/codetabs.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-jazer/questionjs/questionjs.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-jazer/question/question.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-jazer/regexp/regexp.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-jazer/xregexp/xregexp.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-jazer/ace/ace.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-jazer/ace/theme-dreamweaver.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/buttons.js"></script>
+        
+    
+
+    </body>
+</html>
+
