@@ -84,7 +84,7 @@
   Si quiere saber mas sobre stubbing estudie la librería [sinon](http://sinonjs.org/)
 6. Añada índices negativos (a la Ruby) para los arrays
 7. Añada mapas/hashes al lenguaje
-9. Modifique el AST para dar una solución OOP con clases: una clase `Value, una clase `Word`, una clase `Apply`, ...
+9. Modifique el AST para dar una solución OOP con clases: una clase `Value`, una clase `Word`, una clase `Apply`, ...
 de manera que cada clase de objeto dispone de un método `evaluate`. 
 El `evaluate` con el `switch` desaparece en esta versión
 9. Parta de este [repo](https://github.com/ULL-ESIT-PL-1617/egg)
