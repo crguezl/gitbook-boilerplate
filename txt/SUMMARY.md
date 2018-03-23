@@ -251,6 +251,8 @@
 * [Práctica: Analizador Descendente Predictivo Recursivo](practicas/practicarecdescparser.md)
 * [Práctica: Analizador Usando PEG.js](practicas/practicapegparser.md)
 * [Práctica: El lenguaje egg](practicas/practica-egg.md)
+* [Práctica: El lenguaje egg: continuación](practicas/practica-egg-2.md)
+
 
 
 #### Repasos PL
