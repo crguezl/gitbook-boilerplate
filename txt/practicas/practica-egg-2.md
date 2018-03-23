@@ -1,10 +1,7 @@
 
 ### Requisitos
 
-1. Use el repo de GitHub dado por la asignación de esta tarea partiendo de la práctica anterior
-6. Mejore las pruebas, especialmente con programas que contienen errores
-6. Añada índices negativos (a la Ruby) para los arrays
-7. Añada mapas/hashes al lenguaje
+1. Use el repo de GitHub dado por la asignación de esta tarea partiendo de la [práctica anterior](https://crguezl.github.io/ull-esit-1617/_book/practicas/practica-egg.html)
 8. Haga que el ejecutable `egg` funcione como un bucle REPL cuando no se le proporciona un fichero de entrada
   ```lisp
   [~/ull-pl1718-campus-virtual/tema3-analisis-sintactico/egg/crguezl-egg(develo)]$ bin/egg.js
@@ -85,9 +82,11 @@
     }
   ```
   Si quiere saber mas sobre stubbing estudie la librería [sinon](http://sinonjs.org/)
+6. Añada índices negativos (a la Ruby) para los arrays
+7. Añada mapas/hashes al lenguaje
 9. Modifique el AST para dar una solución OOP con clases: una clase `Value, una clase `Word`, una clase `Apply`, ...
 de manera que cada clase de objeto dispone de un método `evaluate`. 
-El `evaluate` con el `switch`desaparece en esta versión
+El `evaluate` con el `switch` desaparece en esta versión
 9. Parta de este [repo](https://github.com/ULL-ESIT-PL-1617/egg)
 
 ### Recursos
