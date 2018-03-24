@@ -90,66 +90,66 @@
 9. Modifique el AST para dar una solución OOP con clases: una clase `Value`, una clase `Word`, una clase `Apply`, ...
 de manera que cada clase de objeto dispone de un método `evaluate`. 
 
-```
-[~/ull-pl1718-campus-virtual/tema3-analisis-sintactico/src/egg/crguezl-egg(private)]$ cat lib/ast.js 
-// The AST classes
-const {specialForms} = require("./registry.js");
+  ```
+  [~/ull-pl1718-campus-virtual/tema3-analisis-sintactico/src/egg/crguezl-egg(private)]$ cat lib/ast.js 
+  // The AST classes
+  const {specialForms} = require("./registry.js");
 
-class  Value {
-  constructor(token) {
-    ...
+  class  Value {
+    constructor(token) {
+      ...
+    }
+    evaluate() {
+      ...
+    }
   }
-  evaluate() {
-    ...
-  }
-}
 
-class  Word {
-  constructor(token) {
-    ...
+  class  Word {
+    constructor(token) {
+      ...
+    }
+    evaluate(env) {
+      ...
+    }
   }
-  evaluate(env) {
-    ...
+
+  class  Apply {
+    constructor(tree) {
+      ...
+    }
+    evaluate(env) {
+      ...
+    }
   }
-}
 
-class  Apply {
-  constructor(tree) {
-    ...
-  }
-  evaluate(env) {
-    ...
-  }
-}
+  module.exports = {Value, Word, Apply};
+  ```
 
-module.exports = {Value, Word, Apply};
-```
+  Aisle estas clases en un fichero `lib/ast.js`:
+  ```
+  [~/ull-pl1718-campus-virtual/tema3-analisis-sintactico/src/egg/crguezl-egg(private)]$ tree -I 'node_modules|examples|egg-*'
+  .
+  ├── README.md
+  ├── bin
+  │   ├── egg.js
+  │   ├── eggc.js
+  │   └── evm.js
+  ├── gulpfile.js
+  ├── lib
+  │   ├── ast.js            # Clases para los nodos del AST
+  │   ├── eggvm.js
+  │   ├── environment.js    # specialForms and topEnv initialization
+  │   ├── parse.js
+  │   └── registry.js       # specialForms and topEnv maps
+  ├── package-lock.json
+  ├── package.json
+  └── test
+      └── test.js
 
-Aisle estas clases en un fichero `lib/ast.js`:
-```
-[~/ull-pl1718-campus-virtual/tema3-analisis-sintactico/src/egg/crguezl-egg(private)]$ tree -I 'node_modules|examples|egg-*'
-.
-├── README.md
-├── bin
-│   ├── egg.js
-│   ├── eggc.js
-│   └── evm.js
-├── gulpfile.js
-├── lib
-│   ├── ast.js            # Clases para los nodos del AST
-│   ├── eggvm.js
-│   ├── environment.js    # specialForms and topEnv initialization
-│   ├── parse.js
-│   └── registry.js       # specialForms and topEnv maps
-├── package-lock.json
-├── package.json
-└── test
-    └── test.js
-
-3 directories, 14 files
-```
-La función `evaluate` con el `switch` que estaba en `lib/eggvm.js` desaparece en esta versión
-9. Parta de este [repo](https://github.com/ULL-ESIT-PL-1617/egg)
+  3 directories, 14 files
+  ```
+  La función `evaluate` con el `switch` que estaba en `lib/eggvm.js` desaparece en esta versión
+10. Parta de este [repo](https://github.com/ULL-ESIT-PL-1617/egg)
 
 ### Recursos
 
