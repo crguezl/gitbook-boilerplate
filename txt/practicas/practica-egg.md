@@ -11,15 +11,15 @@
 7. Añada mapas/hashes al lenguaje
 8. Haga que el ejecutable `egg` funcione como un bucle REPL cuando no se le proporciona un fichero de entrada
   ```lisp
-[~/ull-pl1718-campus-virtual/tema3-analisis-sintactico/src/egg/crguezl-egg(private)]$ bin/egg.js
-> def(x, array(1,2,array(3,4))) # x = [1,2,[3,4]]
-[ 1, 2, [ 3, 4 ] ]
-> <-(x,2) # 3d element
-[ 3, 4 ]
-> <-(x,0) # 1st element
-1
-> # Pulsamos CTRL-D
-> goodbye!
+  [~/ull-pl1718-campus-virtual/tema3-analisis-sintactico/src/egg/crguezl-egg(private)]$ bin/egg.js
+  > def(x, array(1,2,array(3,4))) # x = [1,2,[3,4]]
+  [ 1, 2, [ 3, 4 ] ]
+  > <-(x,2) # 3d element
+  [ 3, 4 ]
+  > <-(x,0) # 1st element
+  1
+  > # Pulsamos CTRL-D
+  > goodbye!
   ```
 9. Parta de este [repo](https://github.com/ULL-ESIT-PL-1617/egg)
 

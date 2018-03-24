@@ -2,13 +2,16 @@
 ### Requisitos
 
 1. Use el repo de GitHub dado por la asignación de esta tarea partiendo de la [práctica anterior](https://crguezl.github.io/ull-esit-1617/_book/practicas/practica-egg.html)
-8. Haga que el ejecutable `egg` funcione como un bucle REPL cuando no se le proporciona un fichero de entrada
+2. Haga que el ejecutable `egg` funcione como un bucle REPL cuando no se le proporciona un fichero de entrada
   ```lisp
-  [~/ull-pl1718-campus-virtual/tema3-analisis-sintactico/egg/crguezl-egg(develo)]$ bin/egg.js
+  [~/ull-pl1718-campus-virtual/tema3-analisis-sintactico/src/egg/crguezl-egg(private)]$ bin/egg.js
   > def(x, array(1,2,array(3,4))) # x = [1,2,[3,4]]
   [ 1, 2, [ 3, 4 ] ]
-  > [](x,2)                       # x[2]
-  [ 3, 4 ]                        # Pulsamos CTRL-D
+  > <-(x,2) # 3d element
+  [ 3, 4 ]
+  > <-(x,0) # 1st element
+  1
+  > # Pulsamos CTRL-D
   > goodbye!
   ```
 9. Modifique la versión actual del lenguaje egg para que acepte como entrada este programa en [`examples/reto.egg`](https://github.com/ULL-ESIT-PL-1617/egg/blob/reto/examples/reto.egg) en la rama `reto` del repo:
