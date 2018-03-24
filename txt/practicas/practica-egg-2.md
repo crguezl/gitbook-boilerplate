@@ -82,7 +82,7 @@
     it("testing one.egg with mocking of console.log", function() {
       ...
     }
-    }
+  }
   ```
   Si quiere saber mas sobre stubbing estudie la librería [sinon](http://sinonjs.org/)
 6. Añada índices negativos (a la Ruby) para los arrays

@@ -3021,11 +3021,14 @@
                                 <h3 id="requisitos">Requisitos</h3>
 <ol>
 <li>Use el repo de GitHub dado por la asignaci&#xF3;n de esta tarea partiendo de la <a href="https://crguezl.github.io/ull-esit-1617/_book/practicas/practica-egg.html" target="_blank">pr&#xE1;ctica anterior</a></li>
-<li>Haga que el ejecutable <code>egg</code> funcione como un bucle REPL cuando no se le proporciona un fichero de entrada<pre><code class="lang-lisp">[~/ull-pl1718-campus-virtual/tema3-analisis-sintactico/egg/crguezl-egg(develo)]$ bin/egg.js
+<li>Haga que el ejecutable <code>egg</code> funcione como un bucle REPL cuando no se le proporciona un fichero de entrada<pre><code class="lang-lisp">[~/ull-pl1718-campus-virtual/tema3-analisis-sintactico/src/egg/crguezl-egg(private)]$ bin/egg.js
 &gt; def(x, array(1,2,array(3,4))) # x = [1,2,[3,4]]
 [ 1, 2, [ 3, 4 ] ]
-&gt; [](x,2)                       # x[2]
-[ 3, 4 ]                        # Pulsamos CTRL-D
+&gt; &lt;-(x,2) # 3d element
+[ 3, 4 ]
+&gt; &lt;-(x,0) # 1st element
+1
+&gt; # Pulsamos CTRL-D
 &gt; goodbye!
 </code></pre>
 </li>
@@ -3075,8 +3078,8 @@ Estudie <a href="https://shouldjs.github.io/#should-throws" target="_blank">la A
 </code></pre>
 <p>produce una salida en <code>stdout</code> de 50. </p>
 <ul>
-<li>Utilice la t&#xE9;cnica de stubbing (test stubs are software components that simulate the behaviors of other software components (or modules) that a module undergoing tests depends on). Haga stubbing sobre <code>console.log</code></li>
-<li>Algo como esto le puede ayudar:</li>
+<li>Utilice la t&#xE9;cnica de <em>stubbing</em>. Test stubs are software components that simulate the behaviors of other software components that a module undergoing tests depends on. Haga <em>stubbing</em> sobre <code>console.log</code></li>
+<li>Algo como esto le puede ayudar con el stubbing:</li>
 </ul>
 <pre><code class="lang-js">describe(<span class="hljs-string">&quot;run&quot;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
  <span class="hljs-keyword">let</span> originalLog;
@@ -3093,7 +3096,7 @@ Estudie <a href="https://shouldjs.github.io/#should-throws" target="_blank">la A
  it(<span class="hljs-string">&quot;testing one.egg with mocking of console.log&quot;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
    ...
  }
- }
+}
 </code></pre>
 <p>Si quiere saber mas sobre stubbing estudie la librer&#xED;a <a href="http://sinonjs.org/" target="_blank">sinon</a></p>
 </li>
@@ -3101,7 +3104,7 @@ Estudie <a href="https://shouldjs.github.io/#should-throws" target="_blank">la A
 <li>A&#xF1;ada mapas/hashes al lenguaje</li>
 <li>Modifique el AST para dar una soluci&#xF3;n OOP con clases: una clase <code>Value</code>, una clase <code>Word</code>, una clase <code>Apply</code>, ...
 de manera que cada clase de objeto dispone de un m&#xE9;todo <code>evaluate</code>. 
-El <code>evaluate</code> con el <code>switch</code> desaparece en esta versi&#xF3;n</li>
+La funci&#xF3;n <code>evaluate</code> con el <code>switch</code> desaparece en esta versi&#xF3;n</li>
 <li>Parta de este <a href="https://github.com/ULL-ESIT-PL-1617/egg" target="_blank">repo</a></li>
 </ol>
 <h3 id="recursos">Recursos</h3>
@@ -3140,7 +3143,7 @@ El <code>evaluate</code> con el <code>switch</code> desaparece en esta versi&#xF
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Práctica: El lenguaje egg: continuación","level":"29.15","depth":1,"next":{"title":"Repasos: Preguntas de Expresiones Regulares","level":"30.1","depth":1,"path":"repasos/regexp.md","ref":"repasos/regexp.md","articles":[]},"previous":{"title":"Práctica: El lenguaje egg","level":"29.14","depth":1,"path":"practicas/practica-egg.md","ref":"practicas/practica-egg.md","articles":[]},"dir":"ltr"},"config":{"plugins":["include","katex","include-codeblock","ace","-autocover","-layout","youtube","video","highlight","sectionx","code-highlighter","copy-code-button","page-toc","-toc","-latex-codecogs","-emphasize","collapsible-menu","js-console","codetabs","es6tabs-stage-0","jazer"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"code-highlighter":{},"collapsible-menu":{},"ace":{},"youtube":{},"es6tabs":{"presets":["es2015","stage-0"]},"include":{},"toc":{"addClass":"true","className":"toc"},"search":{"maxIndexSize":1000000},"autocover":{"title":"Apuntes del Curso 2016/2017: Procesadores de Lenguajes, Desarrollo de Sistemas Informáticos y Sistemas y Tecnologías Web","author":"Casiano","pluginsConfig":{"autocover":{"font":{"size":null,"family":"Impact","color":"#FFF"},"size":{"w":1800,"h":2360},"background":{"color":"#09F"}}}},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4"},"layout":{"headerPath":"layouts/header.html","footerPath":"layouts/footer.html"},"codetabs":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"jazer":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"js-console":{},"sectionx":{},"highlight":{},"copy-code-button":{},"es6tabs-stage-0":{"presets":["es2015","react"]},"video":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"chrome","unindent":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"practicas/practica-egg-2.md","mtime":"2018-03-23T15:55:24.660Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-23T15:55:30.377Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Práctica: El lenguaje egg: continuación","level":"29.15","depth":1,"next":{"title":"Repasos: Preguntas de Expresiones Regulares","level":"30.1","depth":1,"path":"repasos/regexp.md","ref":"repasos/regexp.md","articles":[]},"previous":{"title":"Práctica: El lenguaje egg","level":"29.14","depth":1,"path":"practicas/practica-egg.md","ref":"practicas/practica-egg.md","articles":[]},"dir":"ltr"},"config":{"plugins":["include","katex","include-codeblock","ace","-autocover","-layout","youtube","video","highlight","sectionx","code-highlighter","copy-code-button","page-toc","-toc","-latex-codecogs","-emphasize","collapsible-menu","js-console","codetabs","es6tabs-stage-0","jazer"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"code-highlighter":{},"collapsible-menu":{},"ace":{},"youtube":{},"es6tabs":{"presets":["es2015","stage-0"]},"include":{},"toc":{"addClass":"true","className":"toc"},"search":{"maxIndexSize":1000000},"autocover":{"title":"Apuntes del Curso 2016/2017: Procesadores de Lenguajes, Desarrollo de Sistemas Informáticos y Sistemas y Tecnologías Web","author":"Casiano","pluginsConfig":{"autocover":{"font":{"size":null,"family":"Impact","color":"#FFF"},"size":{"w":1800,"h":2360},"background":{"color":"#09F"}}}},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4"},"layout":{"headerPath":"layouts/header.html","footerPath":"layouts/footer.html"},"codetabs":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"jazer":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"js-console":{},"sectionx":{},"highlight":{},"copy-code-button":{},"es6tabs-stage-0":{"presets":["es2015","react"]},"video":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"chrome","unindent":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"practicas/practica-egg-2.md","mtime":"2018-03-24T09:00:41.811Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-03-24T09:01:22.594Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
