@@ -63,8 +63,8 @@
   )
   ```
   produce una salida en `stdout` de 50. 
-  * Utilice la técnica de stubbing (test stubs are software components that simulate the behaviors of other software components (or modules) that a module undergoing tests depends on). Haga stubbing sobre `console.log`
-  * Algo como esto le puede ayudar:
+  * Utilice la técnica de *stubbing*. Test stubs are software components that simulate the behaviors of other software components that a module undergoing tests depends on. Haga *stubbing* sobre `console.log`
+  * Algo como esto le puede ayudar con el stubbing:
 
   ```js
   describe("run", function() {
@@ -89,7 +89,7 @@
 7. Añada mapas/hashes al lenguaje
 9. Modifique el AST para dar una solución OOP con clases: una clase `Value`, una clase `Word`, una clase `Apply`, ...
 de manera que cada clase de objeto dispone de un método `evaluate`. 
-El `evaluate` con el `switch` desaparece en esta versión
+La función `evaluate` con el `switch` desaparece en esta versión
 9. Parta de este [repo](https://github.com/ULL-ESIT-PL-1617/egg)
 
 ### Recursos
