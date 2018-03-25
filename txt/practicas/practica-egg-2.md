@@ -14,6 +14,7 @@
   > # Pulsamos CTRL-D
   > goodbye!
   ```
+  * En este [Vídeo *Programando un bucle REPL para el lenguaje Egg*](https://youtu.be/5gIlt6r29lw) explicamos como hacerlo
 9. Modifique la versión actual del lenguaje egg para que acepte como entrada este programa en [`examples/reto.egg`](https://github.com/ULL-ESIT-PL-1617/egg/blob/reto/examples/reto.egg) en la rama `reto` del repo:
   ```lisp
   do {
