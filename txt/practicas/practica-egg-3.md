@@ -16,7 +16,7 @@
   ```lisp
   +(4,5,2,1) # 12
   ```
-10.  Modifique las operaciones de menor, mayor, etc. para que en vez de dos operandos puedan recibir un número  arbitrario:
+10.  Modifique las operaciones de menor, mayor, `<=`, `>=`, `==`, etc. para que en vez de dos operandos puedan recibir un número  arbitrario:
   ```lisp
   <(2,a,5) # true if 2 < a and a < 5 same as 2 < a < 5
   ```
