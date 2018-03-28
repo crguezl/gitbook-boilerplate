@@ -12,7 +12,7 @@
   )
   ```
 3. Modifique el `<-` o `element` para que pueda acceder a un array multidimensional como en el ejemplo anterior
-9. Modifique las operaciones de adición, multiplicación, división y restas para que en vez de dos operandos puedan recibir un número  arbitrario:
+9. Modifique las operaciones de adición, and (`&&`), or (`||`) multiplicación, división y restas para que en vez de dos operandos puedan recibir un número  arbitrario:
   ```lisp
   +(4,5,2,1) # 12
   ```
