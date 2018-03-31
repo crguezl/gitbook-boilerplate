@@ -20,7 +20,7 @@
   ```lisp
   <(2,a,5) # true if 2 < a and a < 5 same as 2 < a < 5
   ```
-6. Modifique la evaluación para que el punto permita acceder a los campos y un programa coo este funcione
+6. Modifique la evaluación para que el punto permita acceder a los campos y un programa como este funcione
   ```
   $ cat examples/mapmap.egg 
   do {
@@ -31,6 +31,15 @@
     print(m.a.x.1),  # 100
     print(m.b.1),  # 3
   }
+  ```
+  Cuando se ejecuta debería producir:
+  ```
+  $ bin/egg.js examples/mapmap.egg 
+  { a: { x: [ 70, 100 ] }, b: [ 2, 3 ] }
+  { x: [ 70, 100 ] }
+  [ 2, 3 ]
+  100
+  3
   ```
 
 ### Recursos
