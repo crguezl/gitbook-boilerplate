@@ -12,13 +12,25 @@
   )
   ```
 3. Modifique el `<-` o `element` para que pueda acceder a un array multidimensional como en el ejemplo anterior
-9. Modifique las operaciones de adición, and (`&&`), or (`||`) multiplicación, división y restas para que en vez de dos operandos puedan recibir un número  arbitrario:
+4. Modifique las operaciones de adición, and (`&&`), or (`||`) multiplicación, división y restas para que en vez de dos operandos puedan recibir un número  arbitrario:
   ```lisp
   +(4,5,2,1) # 12
   ```
-10.  Modifique las operaciones de menor, mayor, `<=`, `>=`, `==`, etc. para que en vez de dos operandos puedan recibir un número  arbitrario:
+5.  Modifique las operaciones de menor, mayor, `<=`, `>=`, `==`, etc. para que en vez de dos operandos puedan recibir un número  arbitrario:
   ```lisp
   <(2,a,5) # true if 2 < a and a < 5 same as 2 < a < 5
+  ```
+6. Modifique la evaluación para que el punto permita acceder a los campos y un programa coo este funcione
+  ```
+  $ cat examples/mapmap.egg 
+  do {
+    :=(m, map("a": map("x": array[70, 100]), "b": array[2,3])),
+    print( m), # { a: { x: [ 70, 100 ] }, b: [ 2, 3 ] }
+    print(m.a),  #  { x: [ 70, 100 ] }
+    print(m.b),  # [ 2, 3 ]
+    print(m.a.x.1),  # 100
+    print(m.b.1),  # 3
+  }
   ```
 
 ### Recursos
