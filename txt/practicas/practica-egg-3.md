@@ -20,7 +20,7 @@
   ```lisp
   <(2,a,5) # true if 2 < a and a < 5 same as 2 < a < 5
   ```
-6. Modifique la evaluación para que el punto permita acceder a los campos y un programa como este funcione
+6. Modifique el traductor y la evaluación para que el punto (`m.a`) permita acceder a los campos y un programa como este funcione
   ```
   $ cat examples/mapmap.egg 
   do {
