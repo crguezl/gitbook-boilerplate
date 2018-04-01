@@ -51,7 +51,8 @@
 * [NodeJS Readline gist](https://gist.github.com/crguezl/430642e29a2b9293317320d0d1759387)
 * En el repo [ULL-ESIT-PL-1617/interpreter-egg](https://github.com/ULL-ESIT-PL-1617/interpreter-egg) se muestra como hacer un bucle REPL
 * [XRegExp](http://xregexp.com/)
-* [Sinon API](http://sinonjs.org/releases/v1.17.7/)
-* [Side effects of stubbing console in tests](https://gyandeeps.com/console-stubbing/)
+* Tests. Mocking and Stubbing
+    * [Sinon API](http://sinonjs.org/releases/v1.17.7/)
+    * [Side effects of stubbing console in tests](https://gyandeeps.com/console-stubbing/)
 
 
