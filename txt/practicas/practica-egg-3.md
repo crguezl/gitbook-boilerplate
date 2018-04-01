@@ -41,7 +41,7 @@
   100
   3
   ```
-7. Añada pruebas, integre con Travis,publique el módulo
+7. Añada pruebas, integre con [circleci](https://circleci.com/), publique el módulo npm
 
 ### Recursos
 
