@@ -77,7 +77,7 @@
   m =  { a: 1, b: 2, c: 3 }
   ```
 
-7. Añada pruebas, integre con [circleci](https://circleci.com/), publique el módulo npm
+8. Añada pruebas, integre con [circleci](https://circleci.com/), publique el módulo npm
 
 ### Recursos
 
