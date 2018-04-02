@@ -95,7 +95,7 @@
     print(m.year) # 2015
   }
   ```
-  Estudie como sepodría hacer
+  Estudie como hacerlo. Este es un objetivo a mas largo plazo
 8. Añada pruebas, integre con [circleci](https://circleci.com/), publique el módulo npm
 
 ### Recursos
