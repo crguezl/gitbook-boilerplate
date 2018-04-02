@@ -41,6 +41,42 @@
   100
   3
   ```
+7. Modifique el intérprete para que se pueda acceder a los elementos de un array o map usando la notación corchete: 
+  ```
+  $ cat examples/array-3.egg 
+  do(
+    def(x, array[array[1,4], fun(x,y, +(x,y)),7]),
+    print(x[1](5,9)),  # 14
+    print(x[0, 1]),  # 4
+    print(x[0][1])  # 4
+  )
+  $ bin/egg.js examples/array-3.egg 
+  14
+  4
+  4
+  ```
+  Debería funcionar también con hashes:
+  ```
+  $ cat examples/map-bracket.egg 
+  # Implemented. Accesing an element of a map
+  do {
+    :=(m, map["a":1,"b":2]),
+    print("m = ", m),
+    print("m[a] = ",m["a"]),  # 1
+    print("m[b] = ",m["b"]),  # 2
+    =(m, 'c', 3), # Future syntax? =(m[c], 3)
+    print("m[c] = ",m["c"]),  # 3
+    print("m = ", m),
+  }
+
+  $ bin/egg.js examples/map-bracket.egg 
+  m =  { a: 1, b: 2 }
+  m[a] =  1
+  m[b] =  2
+  m[c] =  3
+  m =  { a: 1, b: 2, c: 3 }
+  ```
+
 7. Añada pruebas, integre con [circleci](https://circleci.com/), publique el módulo npm
 
 ### Recursos
@@ -54,5 +90,6 @@
 * Tests. Mocking and Stubbing
     * [Sinon API](http://sinonjs.org/releases/v1.17.7/)
     * [Side effects of stubbing console in tests](https://gyandeeps.com/console-stubbing/)
+    * [test-console](https://github.com/jamesshore/test-console) npm
 
 
