@@ -80,7 +80,7 @@
   m =  { a: 1, b: 2, c: 3 }
   ```
 8. Añada objetos al lenguaje
-8. Proyecto: Modifique el lenguaje para que incorpore expresiones regulares extendidas como en este ejemplo:
+9. Proyecto: Modifique el lenguaje para que incorpore expresiones regulares extendidas como en este ejemplo:
   ```
   $ cat examples/regexp.egg
   /* Not implemented: regexp example */
@@ -90,8 +90,8 @@
            (?<month> \d{2} ) -?  # month 
            (?<day>   \d{2} )     # day
           /x),
-    print(d.test("1987-07-14")),  # true
-    :=(m, d.exec("1987-07-14")),  /*  [ '2015-02-22', '2015', '02', '22', 
+    print(d.test("2015-02-22")),  # true
+    :=(m, d.exec("2015-02-22")),  /*  [ '2015-02-22', '2015', '02', '22', 
                                         index: 0, input: '2015-02-22', 
                                         year: '2015', month: '02', day: '22' ] 
                                   */
@@ -99,7 +99,7 @@
   }
   ```
   Estudie como hacerlo. Este es un objetivo a mas largo plazo
-8. Añada pruebas, integre con [circleci](https://circleci.com/), publique el módulo npm
+10. Añada pruebas, integre con [circleci](https://circleci.com/), publique el módulo npm
 
 ### Recursos
 
