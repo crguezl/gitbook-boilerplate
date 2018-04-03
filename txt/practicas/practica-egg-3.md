@@ -84,7 +84,6 @@
   ```
   $ cat examples/regexp.egg
   /* Not implemented: regexp example */
-  /* Not implemented: assuming dot as selector for maps and objects */
   do {
     :=(d, /
            (?<year>  \d{4} ) -?  # year 
