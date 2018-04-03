@@ -76,6 +76,7 @@
   m[c] =  3
   m =  { a: 1, b: 2, c: 3 }
   ```
+8. Añada objetos al lenguaje
 8. Proyecto: Modifique el lenguaje para que incorpore expresiones regulares extendidas como en este ejemplo:
   ```
   $ cat examples/regexp.egg
