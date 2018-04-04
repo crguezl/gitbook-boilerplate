@@ -3165,15 +3165,37 @@ do {
         (?&lt;month&gt; \d{2} ) -?  # month 
         (?&lt;day&gt;   \d{2} )     # day
        /x),
- print(d.test(&quot;1987-07-14&quot;)),  # true
- :=(m, d.exec(&quot;1987-07-14&quot;)),  /*  [ &apos;2015-02-22&apos;, &apos;2015&apos;, &apos;02&apos;, &apos;22&apos;, 
+ print(d.test(&quot;2015-02-22&quot;)),  # true
+ :=(m, d.exec(&quot;2015-02-22&quot;)),  /*  [ &apos;2015-02-22&apos;, &apos;2015&apos;, &apos;02&apos;, &apos;22&apos;, 
                                      index: 0, input: &apos;2015-02-22&apos;, 
                                      year: &apos;2015&apos;, month: &apos;02&apos;, day: &apos;22&apos; ] 
                                */
  print(m.year) # 2015
 }
 </code></pre>Estudie como hacerlo. Este es un objetivo a mas largo plazo</li>
-<li>A&#xF1;ada pruebas, integre con <a href="https://circleci.com/" target="_blank">circleci</a>, publique el m&#xF3;dulo npm</li>
+<li><p>Expanda el lenguaje para que permita el uso de librer&#xED;as como en el ejemplo que sigue. Este es un ejemplo de cliente:</p>
+<pre><code>$ cat examples/require/client.egg 
+/* Not implemented. example of modules */
+do {
+:=(z, require(&quot;module&quot;)),
+print(z.inc(4))
+}
+</code></pre><p>y este ser&#xED;a el c&#xF3;digo en el m&#xF3;dulo:</p>
+<pre><code>$ cat examples/require/module.egg 
+# module. Exports z
+do {
+:=(z, map(&quot;inc&quot;: -&gt;(x, 
+                      +(x,1)
+                    ) # end fun
+         ) # end map
+), # end of :=
+z  # el &#xFA;ltimo valor ser&#xE1; exportado
+}
+</code></pre><p>Repase el v&#xED;deo <a href="https://www.youtube.com/watch?v=qffmnSCRR3c&amp;feature=youtu.be" target="_blank">Como implementar la funcionalidad de &quot;require&quot;</a>.
+Aqu&#xED; tiene un enlace al <a href="https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter10-modules/tree/master/require" target="_blank">Repo correspondiente al v&#xED;deo</a></p>
+</li>
+<li><p>A&#xF1;ada pruebas, integre con <a href="https://circleci.com/" target="_blank">circleci</a>, publique el m&#xF3;dulo npm</p>
+</li>
 </ol>
 <h3 id="recursos">Recursos</h3>
 <ul>
@@ -3189,6 +3211,8 @@ do {
 <li><a href="https://github.com/jamesshore/test-console" target="_blank">test-console</a> npm</li>
 </ul>
 </li>
+<li>Repase el v&#xED;deo <a href="https://www.youtube.com/watch?v=qffmnSCRR3c&amp;feature=youtu.be" target="_blank">Como implementar la funcionalidad de &quot;require&quot;</a></li>
+<li><a href="https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter10-modules/tree/master/require" target="_blank">Repo correspondiente al v&#xED;deo</a></li>
 </ul>
 
                                 
@@ -3217,7 +3241,7 @@ do {
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Práctica: El lenguaje egg: (3)","level":"29.17","depth":1,"next":{"title":"Repasos: Preguntas de Expresiones Regulares","level":"30.1","depth":1,"path":"repasos/regexp.md","ref":"repasos/regexp.md","articles":[]},"previous":{"title":"Práctica: El lenguaje egg: continuación","level":"29.16","depth":1,"path":"practicas/practica-egg-2.md","ref":"practicas/practica-egg-2.md","articles":[]},"dir":"ltr"},"config":{"plugins":["include","katex","include-codeblock","ace","-autocover","-layout","youtube","video","highlight","sectionx","code-highlighter","copy-code-button","page-toc","-toc","-latex-codecogs","-emphasize","collapsible-menu","js-console","codetabs","es6tabs-stage-0","jazer"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"code-highlighter":{},"collapsible-menu":{},"ace":{},"youtube":{},"es6tabs":{"presets":["es2015","stage-0"]},"include":{},"toc":{"addClass":"true","className":"toc"},"search":{"maxIndexSize":1000000},"autocover":{"title":"Apuntes del Curso 2016/2017: Procesadores de Lenguajes, Desarrollo de Sistemas Informáticos y Sistemas y Tecnologías Web","author":"Casiano","pluginsConfig":{"autocover":{"font":{"size":null,"family":"Impact","color":"#FFF"},"size":{"w":1800,"h":2360},"background":{"color":"#09F"}}}},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4"},"layout":{"headerPath":"layouts/header.html","footerPath":"layouts/footer.html"},"codetabs":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"jazer":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"js-console":{},"sectionx":{},"highlight":{},"copy-code-button":{},"es6tabs-stage-0":{"presets":["es2015","react"]},"video":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"chrome","unindent":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"practicas/practica-egg-3.md","mtime":"2018-04-03T09:47:14.911Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-04-03T09:47:59.055Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Práctica: El lenguaje egg: (3)","level":"29.17","depth":1,"next":{"title":"Repasos: Preguntas de Expresiones Regulares","level":"30.1","depth":1,"path":"repasos/regexp.md","ref":"repasos/regexp.md","articles":[]},"previous":{"title":"Práctica: El lenguaje egg: continuación","level":"29.16","depth":1,"path":"practicas/practica-egg-2.md","ref":"practicas/practica-egg-2.md","articles":[]},"dir":"ltr"},"config":{"plugins":["include","katex","include-codeblock","ace","-autocover","-layout","youtube","video","highlight","sectionx","code-highlighter","copy-code-button","page-toc","-toc","-latex-codecogs","-emphasize","collapsible-menu","js-console","codetabs","es6tabs-stage-0","jazer"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"code-highlighter":{},"collapsible-menu":{},"ace":{},"youtube":{},"es6tabs":{"presets":["es2015","stage-0"]},"include":{},"toc":{"addClass":"true","className":"toc"},"search":{"maxIndexSize":1000000},"autocover":{"title":"Apuntes del Curso 2016/2017: Procesadores de Lenguajes, Desarrollo de Sistemas Informáticos y Sistemas y Tecnologías Web","author":"Casiano","pluginsConfig":{"autocover":{"font":{"size":null,"family":"Impact","color":"#FFF"},"size":{"w":1800,"h":2360},"background":{"color":"#09F"}}}},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4","showByDefault":true},"layout":{"headerPath":"layouts/header.html","footerPath":"layouts/footer.html"},"codetabs":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"jazer":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"js-console":{},"sectionx":{},"highlight":{},"copy-code-button":{},"es6tabs-stage-0":{"presets":["es2015","react"]},"video":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"chrome","unindent":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"practicas/practica-egg-3.md","mtime":"2018-04-04T12:03:08.755Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-04-04T12:05:54.775Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
