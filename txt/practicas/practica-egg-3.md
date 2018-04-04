@@ -98,15 +98,14 @@
     print(m.year) # 2015
   }
   ```
-  Estudie como hacerlo. Este es un objetivo a mas largo plazo
-10. Proyecto. Expanda el lenguaje para que permita el uso de librerías como en el ejemplo que sigue. Este es un ejemplo de cliente:
+10. Expanda el lenguaje para que permita el uso de librerías como en el ejemplo que sigue. Este es un ejemplo de cliente:
   ```
   $ cat examples/require/client.egg 
-  /* Not implemented. Example of modules */
   do {
-    :=(z, require("module")),
+    :=(z, require("examples/require/module.egg")),
     print(z.inc(4))
   }
+
   ```
   y este sería el código en el módulo:
   ```
@@ -123,7 +122,7 @@
   ```
   Repase el vídeo [Como implementar la funcionalidad de "require"](https://www.youtube.com/watch?v=qffmnSCRR3c&feature=youtu.be).
   Aquí tiene un enlace al [Repo correspondiente al vídeo](https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter10-modules/tree/master/require).
-  Memoize las librerías
+  Memoize las librerías para que no se carguen dos veces
 
 11. Añada pruebas, integre con [circleci](https://circleci.com/), publique el módulo npm
 
