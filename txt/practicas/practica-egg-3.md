@@ -99,10 +99,10 @@
   }
   ```
   Estudie como hacerlo. Este es un objetivo a mas largo plazo
-10. Expanda el lenguaje para que permita el uso de librerías como en el ejemplo que sigue. Este es un ejemplo de cliente:
+10. Proyecto. Expanda el lenguaje para que permita el uso de librerías como en el ejemplo que sigue. Este es un ejemplo de cliente:
   ```
   $ cat examples/require/client.egg 
-  /* Not implemented. example of modules */
+  /* Not implemented. Example of modules */
   do {
     :=(z, require("module")),
     print(z.inc(4))
