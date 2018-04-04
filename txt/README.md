@@ -17,6 +17,8 @@
 ## Procesadores de Lenguajes
 
 * [Procesadores de Lenguajes](https://campusvirtual.ull.es/1617/course/view.php?id=1148)
+  * [Organización GitHub https://github.com/ULL-ESIT-PL-1718](https://github.com/ULL-ESIT-PL-1718)
+  * [Classroom para este curso ULL-ESIT-PL-1718](https://classroom.github.com/classrooms/30231254-ull-esit-pl-1718)
   * [Organización GitHub https://github.com/ULL-ESIT-PL-1617](https://github.com/ULL-ESIT-PL-1617)
   * [Classroom para este curso ULL-ESIT-PL-1617](https://classroom.github.com/classrooms/19915186-ull-esit-pl-1617)
 
