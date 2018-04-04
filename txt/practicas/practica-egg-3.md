@@ -99,7 +99,32 @@
   }
   ```
   Estudie como hacerlo. Este es un objetivo a mas largo plazo
-10. Añada pruebas, integre con [circleci](https://circleci.com/), publique el módulo npm
+10. Expanda el lenguaje para que permita el uso de librerías como en el ejemplo que sigue. Este es un ejemplo de cliente:
+  ```
+  $ cat examples/require/client.egg 
+  /* Not implemented. example of modules */
+  do {
+    :=(z, require("module")),
+    print(z.inc(4))
+  }
+  ```
+  y este sería el código en el módulo:
+  ```
+  $ cat examples/require/module.egg 
+  # module. Exports z
+  do {
+    :=(z, map("inc": ->(x, 
+                          +(x,1)
+                        ) # end fun
+             ) # end map
+    ), # end of :=
+    z  # el último valor será exportado
+  }
+  ```
+  Repase el vídeo [Como implementar la funcionalidad de "require"](https://www.youtube.com/watch?v=qffmnSCRR3c&feature=youtu.be).
+  Aquí tiene un enlace al [Repo correspondiente al vídeo](https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter10-modules/tree/master/require)
+
+11. Añada pruebas, integre con [circleci](https://circleci.com/), publique el módulo npm
 
 ### Recursos
 
@@ -113,5 +138,6 @@
     * [Sinon API](http://sinonjs.org/releases/v1.17.7/)
     * [Side effects of stubbing console in tests](https://gyandeeps.com/console-stubbing/)
     * [test-console](https://github.com/jamesshore/test-console) npm
-
+* Repase el vídeo [Como implementar la funcionalidad de "require"](https://www.youtube.com/watch?v=qffmnSCRR3c&feature=youtu.be)
+* [Repo correspondiente al vídeo](https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter10-modules/tree/master/require)
 
