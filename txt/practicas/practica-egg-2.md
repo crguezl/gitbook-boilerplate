@@ -86,7 +86,7 @@
   }
   ```
   Si quiere saber mas sobre stubbing estudie la librería [sinon](http://sinonjs.org/)
-6. Añada índices negativos (a la Ruby) para los arrays
+6. Añada índices negativos (a la Ruby) para los arrays (Véase el blog [Negative Array Index in Javascript](http://h3manth.com/new/blog/2013/negative-array-index-in-javascript/)
 7. Añada mapas/hashes al lenguaje
 9. Modifique el AST para dar una solución OOP con clases: una clase `Value`, una clase `Word`, una clase `Apply`, ...
 de manera que cada clase de objeto dispone de un método `evaluate`. 
