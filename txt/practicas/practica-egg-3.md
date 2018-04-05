@@ -102,18 +102,22 @@
   De nuevo intente que cuando el elemento indexado sea un objeto JavaScript sus métodos puedan ser llamados al menos con la 
   sintáxis JS de corchetes como se ilustra en este ejemplo con el uso de `push`:
   ```
-  $ cat examples/array-push-2.egg 
+  $ cat examples/array-push-3.egg 
   do(
     :=(z, array[1, 4, "a"]),
-    print(z["push"](5)), # But we can make this to work with no much effort!
+    # Not implemented. The grammar must be changed
+    # print(array[1, 4, "a"].push(5)),
+    print(z.push(9)), # But this works!
+    print(z["push"](5)), # But this works!
     print(z),
   )
   ```
   Cuando lo ejecutamos obtenemos:
   ```
-  $ bin/egg.js examples/array-push-2.egg 
+  $ bin/egg.js examples/array-push-3.egg 
   4
-  [ 1, 4, 'a', 5 ]
+  5
+  [ 1, 4, 'a', 9, 5 ]
   ```
 8. Añada objetos al lenguaje
 9. Proyecto: Modifique el lenguaje para que incorpore expresiones regulares extendidas como en este ejemplo:
