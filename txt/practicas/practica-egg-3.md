@@ -44,7 +44,8 @@
   100
   3
   ```
-  Un problema que complica la traducción del operador punto es la existencia de métodos. 
+  Un problema que complica la traducción del operador punto es dar soporte a los métodos ya existentes 
+  en JavaScript. 
   Sería bueno que un programa como este funcionara:
   ```
   $ cat examples/array-push.egg 
