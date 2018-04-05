@@ -59,7 +59,7 @@
   ```
   Cuando se ejecuta debería producir:
   ```
-  [~/ull-pl1718-campus-virtual/tema3-analisis-sintactico/src/egg/crguezl-egg(develop)]$ bin/egg.js  examples/array-push.egg 
+  $ bin/egg.js  examples/array-push.egg 
   [ [ 1, 4 ], 5, 7, 4 ]
   [ 1, 4 ]
   [ 5, 7, 4 ]
