@@ -51,16 +51,18 @@
   $ cat examples/array-push.egg 
   do(
     def(x, array[array[1,4],5,7]),
-    x.push(4),  # Usamos el método push de los arrays que ya tiene JS
+    x.push(4), 
     print(x),
-    print(x.shift()) # Usamos el método shift de los arrays que ya tiene JS
+    print(x.shift()),
+    print(x),
   )
   ```
   Cuando se ejecuta debería producir:
   ```
-  $ bin/egg.js  examples/array-push.egg 
+  [~/ull-pl1718-campus-virtual/tema3-analisis-sintactico/src/egg/crguezl-egg(develop)]$ bin/egg.js  examples/array-push.egg 
   [ [ 1, 4 ], 5, 7, 4 ]
   [ 1, 4 ]
+  [ 5, 7, 4 ]
   ```
 7. Modifique el intérprete para que se pueda acceder a los elementos de un array o map usando la notación corchete: 
   ```
