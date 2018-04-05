@@ -105,8 +105,6 @@
   $ cat examples/array-push-2.egg 
   do(
     :=(z, array[1, 4, "a"]),
-    # Not implemented. The grammar must be changed
-    # print(z.push(5)),
     print(z["push"](5)), # But we can make this to work with no much effort!
     print(z),
   )
