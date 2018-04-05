@@ -44,14 +44,15 @@
   100
   3
   ```
-  Un problema que complica la traducción del operador punto es la existencia de métodos. sería bueno que un programa como este funcionara:
+  Un problema que complica la traducción del operador punto es la existencia de métodos. 
+  Sería bueno que un programa como este funcionara:
   ```
   $ cat examples/array-push.egg 
   do(
     def(x, array[array[1,4],5,7]),
-    x.push(4), 
+    x.push(4),  # Usamos el método push de los arrays que ya tiene JS
     print(x),
-    print(x.shift())
+    print(x.shift()) # Usamos el método shift de los arrays que ya tiene JS
   )
   ```
   Cuando se ejecuta debería producir:
