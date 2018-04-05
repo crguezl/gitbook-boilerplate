@@ -90,11 +90,11 @@
            (?<month> \d{2} ) -?  # month 
            (?<day>   \d{2} )     # day
           /x),
-    print(d.test("2015-02-22")),  # true
-    :=(m, d.exec("2015-02-22")),  /*  [ '2015-02-22', '2015', '02', '22', 
+    print(test(d, "2015-02-22")),  # true
+    :=(m, exec(d, "2015-02-22")),  /*  [ '2015-02-22', '2015', '02', '22', 
                                         index: 0, input: '2015-02-22', 
                                         year: '2015', month: '02', day: '22' ] 
-                                  */
+                                   */
     print(m.year) # 2015
   }
   ```
@@ -122,7 +122,8 @@
   ```
   Repase el vídeo [Como implementar la funcionalidad de "require"](https://www.youtube.com/watch?v=qffmnSCRR3c&feature=youtu.be).
   Aquí tiene un enlace al [Repo correspondiente al vídeo](https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter10-modules/tree/master/require).
-  Memoize las librerías para que no se carguen dos veces
+  * Memoize las librerías para que no se carguen dos veces
+  * Procure añadir esta funcionalidad sin tocar el código principal usando el strategy pattern + registry pattern
 
 11. Añada pruebas, integre con [circleci](https://circleci.com/), publique el módulo npm
 
