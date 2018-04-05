@@ -44,6 +44,22 @@
   100
   3
   ```
+  Un problema que complica la traducción del operador punto es la existencia de métodos. sería bueno que un programa como este funcionara:
+  ```
+  $ cat examples/array-push.egg 
+  do(
+    def(x, array[array[1,4],5,7]),
+    x.push(4), 
+    print(x),
+    print(x.shift())
+  )
+  ```
+  Cuando se ejecuta debería producir:
+  ```
+  $ bin/egg.js  examples/array-push.egg 
+  [ [ 1, 4 ], 5, 7, 4 ]
+  [ 1, 4 ]
+  ```
 7. Modifique el intérprete para que se pueda acceder a los elementos de un array o map usando la notación corchete: 
   ```
   $ cat examples/array-3.egg 
