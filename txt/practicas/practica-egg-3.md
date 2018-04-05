@@ -99,6 +99,24 @@
   m[c] =  3
   m =  { a: 1, b: 2, c: 3 }
   ```
+  De nuevo intente que cuando el elemento indexado sea un objeto JavaScript sus métodos puedan ser llamados al menos con la 
+  sintáxis JS de corchetes como se ilustra en este ejemplo con el uso de `push`:
+  ```
+  $ cat examples/array-push-2.egg 
+  do(
+    :=(z, array[1, 4, "a"]),
+    # Not implemented. The grammar must be changed
+    # print(z.push(5)),
+    print(z["push"](5)), # But we can make this to work with no much effort!
+    print(z),
+  )
+  ```
+  Cuando lo ejecutamos obtenemos:
+  ```
+  $ bin/egg.js examples/array-push-2.egg 
+  4
+  [ 1, 4, 'a', 5 ]
+  ```
 8. Añada objetos al lenguaje
 9. Proyecto: Modifique el lenguaje para que incorpore expresiones regulares extendidas como en este ejemplo:
   ```
