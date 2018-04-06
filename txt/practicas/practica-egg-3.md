@@ -119,7 +119,7 @@
   5
   [ 1, 4, 'a', 9, 5 ]
   ```
-8. Añada objetos al lenguaje. Ejemplo:
+8. Añada objetos al lenguaje. Ejemplo de creación de un objeto con dos métodos:
   ```
   $ cat examples/objects.egg 
   do {
