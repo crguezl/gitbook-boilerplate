@@ -139,7 +139,7 @@
   como primer argumento una referencia al objeto 
   referenciado por `this`
 
-  Una posible traducción de `gc` a JSi sería algo así:
+  Una posible traducción de `gc` a JavaScript sería algo así:
 
   ```
      function gcTranslation(self) {
