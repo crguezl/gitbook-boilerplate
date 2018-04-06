@@ -119,7 +119,44 @@
   5
   [ 1, 4, 'a', 9, 5 ]
   ```
-8. Añada objetos al lenguaje
+8. Añada objetos al lenguaje. Ejemplo:
+  ```
+  $ cat examples/objects.egg 
+  do {
+    :=(x, Object { 
+      "c": 0,
+      "gc": ->(this.c),
+      "sc": ->(value, 
+                 =(this.c, value)
+              )
+    }),
+    print(x.gc()),
+    x.sc(4),
+    print(x.gc()),
+  }
+  ```
+  la funcion js que implementa `gc` debe recibir 
+  como primer argumento una referencia al objeto 
+  referenciado por `this`
+
+  Una posible traducción de `gc` a JSi sería algo así:
+
+  ```
+     function gcTranslation(self) {
+       return self.c;
+     }
+  ```
+
+  La llamada a un método como en:
+
+  ```
+     x.gc()  
+  ```
+
+  se traduce como
+  ```
+   gcTranslation(x)
+  ```
 9. Proyecto: Modifique el lenguaje para que incorpore expresiones regulares extendidas como en este ejemplo:
   ```
   $ cat examples/regexp.egg
