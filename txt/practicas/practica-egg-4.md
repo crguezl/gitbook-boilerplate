@@ -195,9 +195,18 @@ Añadimos aquí algunos objetivos de las prácticas anteriores por si no les ha 
   Aquí tiene un enlace al [Repo correspondiente al vídeo](https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter10-modules/tree/master/require).
   * Memoize las librerías para que no se carguen dos veces
   * Procure añadir esta funcionalidad sin tocar el código principal usando el strategy pattern + registry pattern
-11. que se admita `Object{a:4, b: ->(x, x+this.a)}` sin que tener que poner dobles comillas en la cadena
-12. Variable number of arguments in function calls: operator ...arg
-13. for loops (several variants)
+11. Actualmente tenemos que poner el nombre de un atributo o campo entre comillas. Así debemos escribir 
+`map {"a": 4}` 
+y no podemos escribir 
+`map {a: 4}` 
+que sería *mas bonito*.
+Modifique el traductor de manera que que se pueda hacer esto y así podamos escribir 
+`Object{a:4, b: ->(x, x+this.a)}` 
+`Object{"a":4, "b": ->(x, x+this.a)}` 
+sin que tener que poner dobles comillas en la cadena
+12. Expanda el traductor con un operador `...` que funcione como el equivalente de JavaScript y permita un número variable de argumentos en las llamadas a función
+13. Extienda el lenguaje con un bucle `for(counter, stop-expresion, increment-expresion, body)`
+13. Extienda el lenguaje con un bucle `map(element, array, body)`
 11. Añada pruebas, integre con [circleci](https://circleci.com/), publique el módulo npm
 
 ### Recursos
