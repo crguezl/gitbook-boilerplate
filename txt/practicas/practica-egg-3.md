@@ -119,59 +119,6 @@
   5
   [ 1, 4, 'a', 9, 5 ]
   ```
-8. Añada objetos al lenguaje. Ejemplo de creación de un objeto con dos métodos:
-  ```
-  $ cat examples/objects.egg 
-  do {
-    :=(x, Object { 
-      "c": 0,
-      "gc": ->(this.c),
-      "sc": ->(value, 
-                 =(this.c, value)
-              )
-    }),
-    print(x.gc()),
-    x.sc(4),
-    print(x.gc()),
-  }
-  ```
-  **Ideas**: la funcion js que implementa `gc` debe recibir 
-  como primer argumento una referencia al objeto 
-  referenciado por `this`
-
-  Una posible traducción de `gc` a JavaScript sería algo así:
-
-  ```
-     function gcTranslation(self) {
-       return self.c;
-     }
-  ```
-
-  La llamada a un método como en:
-
-  ```
-     x.gc()  
-  ```
-
-  se traduce como
-  ```
-   gcTranslation(x)
-  ```
-  La traducción de `sc` debería ser algo como esto:
-  ```
-     function scTranslation(self, value) {
-       return self.c = value;
-     }
-  ```
-  La llamada en Egg:
-  ```
-    x.sc(4),
-  ```
-  Se traduce por:
-  ```
-    sc(x, 4)
-  ```
-
 9. Proyecto: Modifique el lenguaje para que incorpore expresiones regulares extendidas como en este ejemplo:
   ```
   $ cat examples/regexp.egg

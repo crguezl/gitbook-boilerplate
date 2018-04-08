@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Práctica: OOP · GitBook</title>
+        <title>Práctica: El lenguaje egg: (4) · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -97,10 +97,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="practicanoswitchsmell.html" />
+    <link rel="next" href="../repasos/regexp.html" />
     
     
-    <link rel="prev" href="../apuntes/patterns/inversionofcontrolpattern.html" />
+    <link rel="prev" href="practica-egg-3.html" />
     
 
     </head>
@@ -988,7 +988,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="13.8" data-path="practicaoop.html">
+        <li class="chapter " data-level="13.8" data-path="practicaoop.html">
             
                 <a href="practicaoop.html">
             
@@ -2700,7 +2700,7 @@
             
         </li>
     
-        <li class="chapter " data-level="29.18" data-path="practica-egg-4.html">
+        <li class="chapter active" data-level="29.18" data-path="practica-egg-4.html">
             
                 <a href="practica-egg-4.html">
             
@@ -3090,7 +3090,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Práctica: OOP</a>
+        <a href=".." >Práctica: El lenguaje egg: (4)</a>
     </h1>
 </div>
 
@@ -3102,34 +3102,184 @@
                             
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="pr&#xE1;ctica-programaci&#xF3;n-orientada-a-objetos-y-herencia-en-javascript">Pr&#xE1;ctica: Programaci&#xF3;n Orientada a Objetos y Herencia en JavaScript</h2>
+                                <h3 id="requisitos">Requisitos</h3>
+<ol>
+<li>Use el repo de GitHub dado por la asignaci&#xF3;n de esta tarea partiendo de la <a href="https://crguezl.github.io/ull-esit-1617/_book/practicas/practica-egg-3.html" target="_blank">pr&#xE1;ctica anterior</a>.
+A&#xF1;adimos aqu&#xED; algunos objetivos de las pr&#xE1;cticas anteriores por si no les ha dado tiempo de terminarlos o porque les a&#xF1;adimos alg&#xFA;n requisito <em>adicional</em></li>
+<li>Modifique el traductor y la evaluaci&#xF3;n para que el punto (<code>m.a</code>) permita acceder a los campos y un programa como este funcione<pre><code>$ cat examples/mapmap.egg 
+do {
+ :=(m, map(&quot;a&quot;: map(&quot;x&quot;: array[70, 100]), &quot;b&quot;: array[2,3])),
+ print( m), # { a: { x: [ 70, 100 ] }, b: [ 2, 3 ] }
+ print(m.a),  #  { x: [ 70, 100 ] }
+ print(m.b),  # [ 2, 3 ]
+ print(m.a.x.1),  # 100
+ print(m.b.1),  # 3
+}
+</code></pre>Cuando se ejecuta deber&#xED;a producir:<pre><code>$ bin/egg.js examples/mapmap.egg 
+{ a: { x: [ 70, 100 ] }, b: [ 2, 3 ] }
+{ x: [ 70, 100 ] }
+[ 2, 3 ]
+100
+3
+</code></pre>Un problema que complica la traducci&#xF3;n del operador punto es dar soporte a los m&#xE9;todos ya existentes 
+en JavaScript. 
+Ser&#xED;a bueno que un programa como este funcionara:<pre><code>$ cat examples/array-push.egg 
+do(
+ def(x, array[array[1,4],5,7]),
+ x.push(4), 
+ print(x),
+ print(x.shift()),
+ print(x),
+)
+</code></pre>Cuando se ejecuta deber&#xED;a producir:<pre><code>$ bin/egg.js  examples/array-push.egg 
+[ [ 1, 4 ], 5, 7, 4 ]
+[ 1, 4 ]
+[ 5, 7, 4 ]
+</code></pre></li>
+<li><p>Modifique el int&#xE9;rprete para que se pueda acceder a los elementos de un array o map usando la notaci&#xF3;n corchete: </p>
+<pre><code>$ cat examples/array-3.egg 
+do(
+ def(x, array[array[1,4], fun(x,y, +(x,y)),7]),
+ print(x[1](5,9)),  # 14
+ print(x[0, 1]),  # 4
+ print(x[0][1])  # 4
+)
+$ bin/egg.js examples/array-3.egg 
+14
+4
+4
+</code></pre><p>Deber&#xED;a funcionar tambi&#xE9;n con hashes:</p>
+<pre><code>$ cat examples/map-bracket.egg 
+# Implemented. Accesing an element of a map
+do {
+ :=(m, map[&quot;a&quot;:1,&quot;b&quot;:2]),
+ print(&quot;m = &quot;, m),
+ print(&quot;m[a] = &quot;,m[&quot;a&quot;]),  # 1
+ print(&quot;m[b] = &quot;,m[&quot;b&quot;]),  # 2
+ =(m, &apos;c&apos;, 3), # Future syntax? =(m[c], 3)
+ print(&quot;m[c] = &quot;,m[&quot;c&quot;]),  # 3
+ print(&quot;m = &quot;, m),
+}
+
+$ bin/egg.js examples/map-bracket.egg 
+m =  { a: 1, b: 2 }
+m[a] =  1
+m[b] =  2
+m[c] =  3
+m =  { a: 1, b: 2, c: 3 }
+</code></pre><p>De nuevo intente que cuando el elemento indexado sea un objeto JavaScript sus m&#xE9;todos puedan ser llamados al menos con la 
+sint&#xE1;xis JS de corchetes como se ilustra en este ejemplo con el uso de <code>push</code>:</p>
+<pre><code>$ cat examples/array-push-3.egg 
+do(
+ :=(z, array[1, 4, &quot;a&quot;]),
+ # Not implemented. The grammar must be changed
+ # print(array[1, 4, &quot;a&quot;].push(5)),
+ print(z.push(9)), # But this works!
+ print(z[&quot;push&quot;](5)), # But this works!
+ print(z),
+)
+</code></pre><p>Cuando lo ejecutamos obtenemos:</p>
+<pre><code>$ bin/egg.js examples/array-push-3.egg 
+4
+5
+[ 1, 4, &apos;a&apos;, 9, 5 ]
+</code></pre></li>
+<li><p>A&#xF1;ada objetos al lenguaje. Ejemplo de creaci&#xF3;n de un objeto con dos m&#xE9;todos:</p>
+<pre><code>$ cat examples/objects.egg 
+do {
+ :=(x, Object { 
+   &quot;c&quot;: 0,
+   &quot;gc&quot;: -&gt;(this.c),
+   &quot;sc&quot;: -&gt;(value, 
+              =(this.c, value)
+           )
+ }),
+ print(x.gc()),
+ x.sc(4),
+ print(x.gc()),
+}
+</code></pre><p><strong>Ideas</strong>: la funcion js que implementa <code>gc</code> debe recibir 
+como primer argumento una referencia al objeto 
+referenciado por <code>this</code></p>
+<p>Una posible traducci&#xF3;n de <code>gc</code> a JavaScript ser&#xED;a algo as&#xED;:</p>
+<pre><code>  function gcTranslation(self) {
+    return self.c;
+  }
+</code></pre><p>La llamada a un m&#xE9;todo como en:</p>
+<pre><code>  x.gc()
+</code></pre><p>se traduce como</p>
+<pre><code>gcTranslation(x)
+</code></pre><p>La traducci&#xF3;n de <code>sc</code> deber&#xED;a ser algo como esto:</p>
+<pre><code>  function scTranslation(self, value) {
+    return self.c = value;
+  }
+</code></pre><p>La llamada en Egg:</p>
+<pre><code> x.sc(4),
+</code></pre><p>Se traduce por:</p>
+<pre><code> sc(x, 4)
+</code></pre></li>
+<li><p>Proyecto: Modifique el lenguaje para que incorpore expresiones regulares extendidas como en este ejemplo:</p>
+<pre><code>$ cat examples/regexp.egg
+/* Not implemented: regexp example */
+do {
+ :=(d, /
+        (?&lt;year&gt;  \d{4} ) -?  # year 
+        (?&lt;month&gt; \d{2} ) -?  # month 
+        (?&lt;day&gt;   \d{2} )     # day
+       /x),
+ print(d.test(&quot;2015-02-22&quot;)),  # true
+ :=(m, d.exec(&quot;2015-02-22&quot;)),  /*  [ &apos;2015-02-22&apos;, &apos;2015&apos;, &apos;02&apos;, &apos;22&apos;, 
+                                     index: 0, input: &apos;2015-02-22&apos;, 
+                                     year: &apos;2015&apos;, month: &apos;02&apos;, day: &apos;22&apos; ] 
+                                */
+ print(m.year) # 2015
+}
+</code></pre></li>
+<li><p>Expanda el lenguaje para que permita el uso de librer&#xED;as como en el ejemplo que sigue. Este es un ejemplo de cliente:</p>
+<pre><code>$ cat examples/require/client.egg 
+do {
+:=(z, require(&quot;examples/require/module.egg&quot;)),
+print(z.inc(4))
+}
+</code></pre><p>y este ser&#xED;a el c&#xF3;digo en el m&#xF3;dulo:</p>
+<pre><code>$ cat examples/require/module.egg 
+# module. Exports z
+do {
+:=(z, map(&quot;inc&quot;: -&gt;(x, 
+                      +(x,1)
+                    ) # end fun
+         ) # end map
+), # end of :=
+z  # el &#xFA;ltimo valor ser&#xE1; exportado
+}
+</code></pre><p>Repase el v&#xED;deo <a href="https://www.youtube.com/watch?v=qffmnSCRR3c&amp;feature=youtu.be" target="_blank">Como implementar la funcionalidad de &quot;require&quot;</a>.
+Aqu&#xED; tiene un enlace al <a href="https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter10-modules/tree/master/require" target="_blank">Repo correspondiente al v&#xED;deo</a>.</p>
 <ul>
-<li><p>Modifique el <a href="http://crguezl.github.io/pl-html/node9.html" target="_blank">conversor de Temperaturas</a> en este <a href="https://github.com/crguezl/ull-etsii-grado-pl-1213-temperature-converter/tree/master" target="_blank">repo</a> para que use objetos y herencia.</p>
-</li>
-<li><p>Defina una clase <code>Medida</code> cuyos objetos tienen un <code>valor</code> num&#xE9;rico (p.  ej. <code>4.5e2</code>) y un tipo dado por una cadena (p. ej &quot;<code>Km</code>&quot; por Kil&#xF3;metros o &quot;<code>m3</code>&quot; por metros c&#xFA;bicos o &quot;<code>F</code>&quot; por grados Fahrenheit).</p>
-</li>
-<li><p>Las clase <code>Temperatura</code> hereda de <code>Medida</code>.</p>
-</li>
-<li>Las clases <code>Celsius</code>, <code>Fahrenheit</code>, <code>Kelvin</code>, etc. heredan de <code>Temperatura</code></li>
-<li>En la entrada se deber&#xE1;n admitir grados <code>Kelvin</code> adem&#xE1;s de los de la pr&#xE1;ctica anterior</li>
-<li>En la entrada se podr&#xE1;n escribir entradas como <code>32C to K</code> para convertir de Celsius a Kelvin o bien <code>-1.43e2f to C</code> para convertir de Fahrenheit a Celsius.</li>
-<li>La palabra <code>to</code>es opcional pudiendo omitirse. As&#xED; se aceptar&#xE1;n entradas como 
-<code>32C K</code> o bien <code>-1.43e2f  C</code></li>
-<li>S&#xF3;lo se muestra como resultado el solicitado. Si no se especifica el resultado se deber&#xE1; emitir un mensaje de error<!--* Use expresiones regulares extendidas --></li>
-<li>Procure que el c&#xF3;digo quede bien encapsulado</li>
-<li>Reescriba el c&#xF3;digo para que use las clases.</li>
-<li>Opcionalmente, si se desea se puede hacer que permita otras conversiones (por ejemplo, <code>metros</code> a <code>pulgadas</code>)</li>
-<li>En esta tarea no se pide que use pruebas, ni cubrimiento, ni  Karma ni Travis.</li>
-<li>Despliegue su conversor en GitHub pages</li>
-<li>Elabore sus apuntes del curso con lo aprendido de OOP. Despli&#xE9;guelo en Heroku.
-Los apuntes deber&#xE1;n estar protegidos con usuario <code>dsi1617</code> y clave <code>dsi1617password</code></li>
+<li>Memoize las librer&#xED;as para que no se carguen dos veces</li>
+<li>Procure a&#xF1;adir esta funcionalidad sin tocar el c&#xF3;digo principal usando el strategy pattern + registry pattern</li>
 </ul>
+</li>
+<li>que se admita <code>Object{a:4, b: -&gt;(x, x+this.a)}</code> sin que tener que poner dobles comillas en la cadena</li>
+<li>Variable number of arguments in function calls: operator ...arg</li>
+<li>for loops (several variants)</li>
+<li>A&#xF1;ada pruebas, integre con <a href="https://circleci.com/" target="_blank">circleci</a>, publique el m&#xF3;dulo npm</li>
+</ol>
 <h3 id="recursos">Recursos</h3>
 <ul>
-<li><a href="../apuntes/oop/">Apuntes: OOP en JavaScript</a></li>
-<li><a href="http://crguezl.github.io/pl-html/node9.html" target="_blank">Apuntes del Conversor de Temperaturas (http://crguezl.github.io/pl-html)</a></li>
-<li><a href="https://github.com/crguezl/ull-etsii-grado-pl-1213-temperature-converter" target="_blank">Conversor de Temperaturas: Repo en GitHub</a></li>
-<li><a href="http://crguezl.github.io/ull-etsii-grado-pl-1213-temperature-converter/" target="_blank">Conversor de Temperatura: despliegue en gh-pages</a></li>
+<li><a href="http://eloquentjavascript.net/11_language.html" target="_blank">Eloquent JS: Chapter 11. Project: A Programming Language</a></li>
+<li><a href="https://github.com/ULL-ESIT-PL-1617/egg" target="_blank">El lenguaje egg: repo en GitHub</a></li>
+<li><a href="https://github.com/ULL-ESIT-PL-1617/interpreter-egg" target="_blank">Repo interpreter-egg</a></li>
+<li><a href="https://gist.github.com/crguezl/430642e29a2b9293317320d0d1759387" target="_blank">NodeJS Readline gist</a></li>
+<li>En el repo <a href="https://github.com/ULL-ESIT-PL-1617/interpreter-egg" target="_blank">ULL-ESIT-PL-1617/interpreter-egg</a> se muestra como hacer un bucle REPL</li>
+<li><a href="http://xregexp.com/" target="_blank">XRegExp</a></li>
+<li>Tests. Mocking and Stubbing<ul>
+<li><a href="http://sinonjs.org/releases/v1.17.7/" target="_blank">Sinon API</a></li>
+<li><a href="https://gyandeeps.com/console-stubbing/" target="_blank">Side effects of stubbing console in tests</a></li>
+<li><a href="https://github.com/jamesshore/test-console" target="_blank">test-console</a> npm</li>
+</ul>
+</li>
+<li>Repase el v&#xED;deo <a href="https://www.youtube.com/watch?v=qffmnSCRR3c&amp;feature=youtu.be" target="_blank">Como implementar la funcionalidad de &quot;require&quot;</a></li>
+<li><a href="https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter10-modules/tree/master/require" target="_blank">Repo correspondiente al v&#xED;deo</a></li>
 </ul>
 
                                 
@@ -3142,12 +3292,12 @@ Los apuntes deber&#xE1;n estar protegidos con usuario <code>dsi1617</code> y cla
 
             
                 
-                <a href="../apuntes/patterns/inversionofcontrolpattern.html" class="navigation navigation-prev " aria-label="Previous page: Inversion of Control Pattern">
+                <a href="practica-egg-3.html" class="navigation navigation-prev " aria-label="Previous page: Práctica: El lenguaje egg: (3)">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="practicanoswitchsmell.html" class="navigation navigation-next " aria-label="Next page: Práctica: Eliminando Switch Smell">
+                <a href="../repasos/regexp.html" class="navigation navigation-next " aria-label="Next page: Repasos: Preguntas de Expresiones Regulares">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -3158,7 +3308,7 @@ Los apuntes deber&#xE1;n estar protegidos con usuario <code>dsi1617</code> y cla
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Práctica: OOP","level":"13.8","depth":1,"next":{"title":"Práctica: Eliminando Switch Smell","level":"13.9","depth":1,"path":"practicas/practicanoswitchsmell.md","ref":"practicas/practicanoswitchsmell.md","articles":[]},"previous":{"title":"Inversion of Control Pattern","level":"13.7.4","depth":2,"path":"apuntes/patterns/inversionofcontrolpattern.md","ref":"apuntes/patterns/inversionofcontrolpattern.md","articles":[]},"dir":"ltr"},"config":{"plugins":["include","katex","include-codeblock","ace","-autocover","-layout","youtube","video","highlight","sectionx","code-highlighter","copy-code-button","page-toc","-toc","-latex-codecogs","-emphasize","collapsible-menu","js-console","codetabs","es6tabs-stage-0","jazer"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"code-highlighter":{},"collapsible-menu":{},"ace":{},"youtube":{},"es6tabs":{"presets":["es2015","stage-0"]},"include":{},"toc":{"addClass":"true","className":"toc"},"search":{"maxIndexSize":1000000},"autocover":{"title":"Apuntes del Curso 2016/2017: Procesadores de Lenguajes, Desarrollo de Sistemas Informáticos y Sistemas y Tecnologías Web","author":"Casiano","pluginsConfig":{"autocover":{"font":{"size":null,"family":"Impact","color":"#FFF"},"size":{"w":1800,"h":2360},"background":{"color":"#09F"}}}},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4","showByDefault":true},"layout":{"headerPath":"layouts/header.html","footerPath":"layouts/footer.html"},"codetabs":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"jazer":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"js-console":{},"sectionx":{},"highlight":{},"copy-code-button":{},"es6tabs-stage-0":{"presets":["es2015","react"]},"video":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"chrome","unindent":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"practicas/practicaoop.md","mtime":"2018-01-11T15:21:56.522Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-04-08T09:18:04.926Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Práctica: El lenguaje egg: (4)","level":"29.18","depth":1,"next":{"title":"Repasos: Preguntas de Expresiones Regulares","level":"30.1","depth":1,"path":"repasos/regexp.md","ref":"repasos/regexp.md","articles":[]},"previous":{"title":"Práctica: El lenguaje egg: (3)","level":"29.17","depth":1,"path":"practicas/practica-egg-3.md","ref":"practicas/practica-egg-3.md","articles":[]},"dir":"ltr"},"config":{"plugins":["include","katex","include-codeblock","ace","-autocover","-layout","youtube","video","highlight","sectionx","code-highlighter","copy-code-button","page-toc","-toc","-latex-codecogs","-emphasize","collapsible-menu","js-console","codetabs","es6tabs-stage-0","jazer"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"code-highlighter":{},"collapsible-menu":{},"ace":{},"youtube":{},"es6tabs":{"presets":["es2015","stage-0"]},"include":{},"toc":{"addClass":"true","className":"toc"},"search":{"maxIndexSize":1000000},"autocover":{"title":"Apuntes del Curso 2016/2017: Procesadores de Lenguajes, Desarrollo de Sistemas Informáticos y Sistemas y Tecnologías Web","author":"Casiano","pluginsConfig":{"autocover":{"font":{"size":null,"family":"Impact","color":"#FFF"},"size":{"w":1800,"h":2360},"background":{"color":"#09F"}}}},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4","showByDefault":true},"layout":{"headerPath":"layouts/header.html","footerPath":"layouts/footer.html"},"codetabs":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"jazer":{},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"js-console":{},"sectionx":{},"highlight":{},"copy-code-button":{},"es6tabs-stage-0":{"presets":["es2015","react"]},"video":{},"include-codeblock":{"check":false,"edit":false,"fixlang":false,"lang":"","template":"default","theme":"chrome","unindent":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"practicas/practica-egg-4.md","mtime":"2018-04-08T09:16:26.165Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-04-08T09:18:04.926Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
