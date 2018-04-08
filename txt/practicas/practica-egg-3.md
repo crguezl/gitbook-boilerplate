@@ -44,26 +44,6 @@
   100
   3
   ```
-  Un problema que complica la traducción del operador punto es dar soporte a los métodos ya existentes 
-  en JavaScript. 
-  Sería bueno que un programa como este funcionara:
-  ```
-  $ cat examples/array-push.egg 
-  do(
-    def(x, array[array[1,4],5,7]),
-    x.push(4), 
-    print(x),
-    print(x.shift()),
-    print(x),
-  )
-  ```
-  Cuando se ejecuta debería producir:
-  ```
-  $ bin/egg.js  examples/array-push.egg 
-  [ [ 1, 4 ], 5, 7, 4 ]
-  [ 1, 4 ]
-  [ 5, 7, 4 ]
-  ```
 7. Modifique el intérprete para que se pueda acceder a los elementos de un array o map usando la notación corchete: 
   ```
   $ cat examples/array-3.egg 
@@ -98,26 +78,6 @@
   m[b] =  2
   m[c] =  3
   m =  { a: 1, b: 2, c: 3 }
-  ```
-  De nuevo intente que cuando el elemento indexado sea un objeto JavaScript sus métodos puedan ser llamados al menos con la 
-  sintáxis JS de corchetes como se ilustra en este ejemplo con el uso de `push`:
-  ```
-  $ cat examples/array-push-3.egg 
-  do(
-    :=(z, array[1, 4, "a"]),
-    # Not implemented. The grammar must be changed
-    # print(array[1, 4, "a"].push(5)),
-    print(z.push(9)), # But this works!
-    print(z["push"](5)), # But this works!
-    print(z),
-  )
-  ```
-  Cuando lo ejecutamos obtenemos:
-  ```
-  $ bin/egg.js examples/array-push-3.egg 
-  4
-  5
-  [ 1, 4, 'a', 9, 5 ]
   ```
 9. Proyecto: Modifique el lenguaje para que incorpore expresiones regulares extendidas como en este ejemplo:
   ```
