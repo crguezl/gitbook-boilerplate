@@ -257,6 +257,7 @@
 * [Práctica: El lenguaje egg](practicas/practica-egg.md)
 * [Práctica: El lenguaje egg: continuación](practicas/practica-egg-2.md)
 * [Práctica: El lenguaje egg: (3)](practicas/practica-egg-3.md)
+* [Práctica: El lenguaje egg: (4)](practicas/practica-egg-4.md)
 
 
 

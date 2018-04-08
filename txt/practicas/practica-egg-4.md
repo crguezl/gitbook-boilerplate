@@ -1,28 +1,7 @@
-
 ### Requisitos
 
-1. Use el repo de GitHub dado por la asignación de esta tarea partiendo de la [práctica anterior](https://crguezl.github.io/ull-esit-1617/_book/practicas/practica-egg-2.html)
-2. Modifique `set` para que podamos modificar un elemento de un array:
-  ```lisp
-  $ cat examples/set-arr-arr-3.egg 
-  do(
-    :=(x, arr[4, 3, arr[2, arr[9, 3],1]]),
-    =(x, 2, 1, 1, 5), # x[2][1][1] = 5
-    print(<-(x,2,1,1)) # x[2][1][1] is 5
-  )
-  ```
-3. Modifique el `<-` o `element` para que pueda acceder a un array multidimensional como en el ejemplo anterior
-  ```
-    print(<-(x,2,1,1)) # x[2][1][1] is 5
-  ```
-4. Modifique las operaciones de adición, and (`&&`), or (`||`) multiplicación, división y restas para que en vez de dos operandos puedan recibir un número  arbitrario:
-  ```lisp
-  +(4,5,2,1) # 12
-  ```
-5.  Modifique las operaciones de menor, mayor, `<=`, `>=`, `==`, etc. para que en vez de dos operandos puedan recibir un número  arbitrario:
-  ```lisp
-  <(2,a,5) # true if 2 < a and a < 5 same as 2 < a < 5
-  ```
+1. Use el repo de GitHub dado por la asignación de esta tarea partiendo de la [práctica anterior](https://crguezl.github.io/ull-esit-1617/_book/practicas/practica-egg-3.html).
+Añadimos aquí algunos objetivos de las prácticas anteriores por si no les ha dado tiempo de terminarlos o porque les añadimos algún requisito *adicional*
 6. Modifique el traductor y la evaluación para que el punto (`m.a`) permita acceder a los campos y un programa como este funcione
   ```
   $ cat examples/mapmap.egg 
@@ -216,7 +195,9 @@
   Aquí tiene un enlace al [Repo correspondiente al vídeo](https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter10-modules/tree/master/require).
   * Memoize las librerías para que no se carguen dos veces
   * Procure añadir esta funcionalidad sin tocar el código principal usando el strategy pattern + registry pattern
-
+11. que se admita `Object{a:4, b: ->(x, x+this.a)}` sin que tener que poner dobles comillas en la cadena
+12. Variable number of arguments in function calls: operator ...arg
+13. for loops (several variants)
 11. Añada pruebas, integre con [circleci](https://circleci.com/), publique el módulo npm
 
 ### Recursos
@@ -233,4 +214,5 @@
     * [test-console](https://github.com/jamesshore/test-console) npm
 * Repase el vídeo [Como implementar la funcionalidad de "require"](https://www.youtube.com/watch?v=qffmnSCRR3c&feature=youtu.be)
 * [Repo correspondiente al vídeo](https://github.com/ULL-ESIT-MII-CA-1718/ejs-chapter10-modules/tree/master/require)
+
 
