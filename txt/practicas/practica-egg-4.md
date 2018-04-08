@@ -85,7 +85,9 @@ Añadimos aquí algunos objetivos de las prácticas anteriores por si no les ha 
   do(
     :=(z, array[1, 4, "a"]),
     # Not implemented. The grammar must be changed
-    # print(array[1, 4, "a"].push(5)),
+    #          print(array[1, 4, "a"].push(5)),
+    # Or may be to make the dot equivalent to a call a.b ≡ a(b)
+    # This way it conforms to the current grammar
     print(z.push(9)), # But this works!
     print(z["push"](5)), # But this works!
     print(z),
