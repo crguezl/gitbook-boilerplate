@@ -202,6 +202,7 @@ y no podemos escribir
 que sería *mas bonito*.
 Modifique el traductor de manera que que se pueda hacer esto y así podamos escribir 
 `Object{a:4, b: ->(x, x+this.a)}` 
+en vez de 
 `Object{"a":4, "b": ->(x, x+this.a)}` 
 sin que tener que poner dobles comillas en la cadena
 12. Expanda el traductor con un operador `...` que funcione como el equivalente de JavaScript y permita un número variable de argumentos en las llamadas a función
