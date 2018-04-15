@@ -26,6 +26,7 @@ Diseñe un lenguaje de programación sencillo (Sintáxis convencional *a la C/BA
   - etc.
 4. La gramática deberá disponerse de forma que sea analizable por un PDR
 5. Escriba pruebas  para el código desarrollado
+6. Use integración en la nube (Travis/ CircleCI)
 
 ### Recursos
 
