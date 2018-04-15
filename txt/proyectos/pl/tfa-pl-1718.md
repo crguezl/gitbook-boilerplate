@@ -3,7 +3,7 @@
 
 ### Objetivo
 
-La idea general es extender el lenguaje [Egg](https://github.com/ULL-ESIT-PL-1617/egg).
+La idea general es extender el lenguaje [Egg](https://github.com/ULL-ESIT-PL-1617/egg)
 o el lenguaje [Calc](https://crguezl.github.io/ull-esit-1617/_book/practicas/practica-calc-egg.html)
 
 * Especial interés puede ser en extenderlo  como DSL con funcionalidades para 
