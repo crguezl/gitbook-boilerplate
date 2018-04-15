@@ -51,8 +51,9 @@
 * [Getting Started with the GitHub API](githubapitutorial.md) en estos apuntes
 * [Getting Started with the GitHub API](https://developer.github.com/guides/getting-started/) en GitHub
 * The [github v3 api](https://developer.github.com/)
-* [Integrating with the GitHub API - GitHub Universe 2015
-](https://youtu.be/x2fd8HHk5xM) (Vídeo en Youtube)
+* [Integrating with the GitHub API - GitHub Universe 2015](https://youtu.be/x2fd8HHk5xM) (Vídeo en Youtube)
+* [Improving Your Workflow With GitHub's API - GitHub Universe 2017](https://youtu.be/ZtylGDR6_Y0) YouTube vídeo
+* [GitHub API overview. Course Task](https://youtu.be/wL6h9jrDCeQ) YouTube vídeo
 
 ### Octonode
 
