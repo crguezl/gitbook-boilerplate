@@ -300,7 +300,8 @@
 
 * [Proyectos](proyectos/README.md)
    * [Proyecto de SYTW](proyectos/sytw/README.md)
-   * [Proyecto de PL](proyectos/pl/README.md)
+   * [Proyecto de PL 16/17](proyectos/pl/README.md)
+   * [Proyecto de PL 17/18](proyectos/pl/tfa-pl-1718.md)
    * [Proyecto de DSI](proyectos/dsi/README.md)
 
 ## DEFINICIONES DE TÉRMINOS
