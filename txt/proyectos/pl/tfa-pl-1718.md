@@ -9,6 +9,7 @@ o el lenguaje [Calc](https://crguezl.github.io/ull-esit-1617/_book/practicas/pra
 * Especial interés puede ser en extenderlo  como DSL con funcionalidades para 
 facilitar la resolución de problemas de un contexto específico que sea del interés del alumno
 * En cada caso busque en npm librerías que le den apoyo para que la tarea resulte mas fácil
+* Estas extensiones debería estar en módulos separados que extienden Egg usando el patrón register-strategy
 
 
 #### Ejemplo: Egg para facilitar el manejo de GitHub
@@ -49,4 +50,5 @@ tasks {
   task(default: "compile")
 }
 ```
+
 
