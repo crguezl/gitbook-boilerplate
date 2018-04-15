@@ -40,11 +40,10 @@ do {
 
 #### Ejemplo: Egg para Describir Tareas
 
-La idea general es extender el lenguaje [Egg](https://github.com/ULL-ESIT-PL-1718/egg) con funcionalidades para la descripción de tareas,
-algo así como un `gulpfile.egg`:
+La idea general es extender el lenguaje [Egg](https://github.com/ULL-ESIT-PL-1718/egg) con funcionalidades para la descripción de tareas. Este código sería el contenido de un fichero `gulpfile.egg`:
 
 ```
-do {
+tasks {
   task(compile: sh("gcc hello.c"), depends: "mylib"),
   task(mylib: sh("gcc -c -o mylib.o mylib.c")),
   task(default: "compile")
