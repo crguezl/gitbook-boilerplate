@@ -1,4 +1,4 @@
-## Práctica: Analizador Descendente Predictivo Recursivo
+## Práctica: Analizador Descendente Predictivo Recursivo. Desde Lenguajes de Infijo a EGG Virtual Machine
 
 ### Descripción
 
