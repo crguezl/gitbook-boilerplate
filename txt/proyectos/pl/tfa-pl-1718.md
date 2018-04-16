@@ -72,10 +72,10 @@ do {
     map { name: 'verbose', alias: 'v', type: Boolean },
     map { name: 'src', type: String, multiple: true, defaultOption: true },
     map { name: 'timeout', alias: 't', type: Number },
-    map { name: 'help', alias: 'h', type: String },
+    map { name: 'help', alias: 'h', type: Boolean },
   ]),
   :=(options, parseArgs(optionDefinitions)),
-  print(options), 
+  print(options)
     /* options es un map como este:
         {
           src: [
