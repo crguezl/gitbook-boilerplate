@@ -10,6 +10,8 @@ Diseñe un lenguaje de programación sencillo (Sintáxis convencional *a la C/BA
 * [Tiny Basic](https://en.wikipedia.org/wiki/Tiny_BASIC)
 * [Let's write a recursive-descent parser in C (Part 1)](https://youtu.be/N55XNj8KjC4) YouTube
 * [Let's write a recursive-descent parser in C (Part 2)](https://youtu.be/NdW_ApiaivU) YouTube
+* [The C Proggaming Language](https://cs.indstate.edu/~cbasavaraj/cs559/the_c_programming_language_2.pdf) léase la descripción de la gramática de C
+* [Gramática de JS en PEGjs](https://github.com/pegjs/pegjs/blob/master/examples/javascript.pegjs)
 
 ##### Requisitos
 
