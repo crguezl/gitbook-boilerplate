@@ -63,7 +63,7 @@ Por ejemplo para una ejecución como esta:
 $ example.egg -vt 1000 one.js two.js
 ```
 
-Tendríamos un programa como este:
+Tendríamos que escribir `example-egg` siguiendo un patrón como este:
 
 ```
 do {
