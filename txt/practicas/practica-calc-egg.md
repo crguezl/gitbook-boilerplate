@@ -16,6 +16,7 @@ Diseñe un lenguaje de programación sencillo (Sintáxis convencional *a la C/BA
 * [Gramática de JS en PEGjs](https://github.com/pegjs/pegjs/blob/master/examples/javascript.pegjs)
 * [Python Grammar](https://docs.python.org/3/reference/grammar.html)
 * [Ruby Grammar](https://www.cse.buffalo.edu/~regan/cse305/RubyBNF.pdf)
+* [Java Grammar](https://docs.oracle.com/javase/specs/jls/se7/html/jls-18.html)
 
 ##### Requisitos
 
