@@ -54,4 +54,39 @@ tasks {
 }
 ```
 
+#### Ejemplo: Command line processing 
+
+La idea general es extender el lenguaje [Egg](https://github.com/ULL-ESIT-PL-1718/egg) con funcionalidades para procesar los argumentos dados en línea de comandos:
+
+Por ejemplo para una ejecución como esta:
+```
+$ example.egg -vt 1000 one.js two.js
+```
+
+Tendríamos un programa como este:
+
+```
+do {
+  use('command-line'),
+  :=(optionDefinition, arr [
+    map { name: 'verbose', alias: 'v', type: Boolean },
+    map { name: 'src', type: String, multiple: true, defaultOption: true },
+    map { name: 'timeout', alias: 't', type: Number },
+    map { name: 'help', alias: 'h', type: String },
+  ]),
+  :=(options, parseArgs(optionDefinitions)),
+  print(options), 
+    /* options es un map como este:
+        {
+          src: [
+            'one.js',
+            'two.js'
+          ],
+          verbose: true,
+          timeout: 1000
+        }
+    */
+}
+
+```
 
