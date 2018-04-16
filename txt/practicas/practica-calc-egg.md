@@ -6,6 +6,7 @@ Diseñe un lenguaje de programación sencillo (Sintáxis convencional *a la C/BA
 
 ##### Posibles puntos de partida
 
+* [Syntax of Mini-Pascal](https://www.cs.helsinki.fi/u/vihavain/k06/okk/items/minipascalsyntax.html)
 * [Niklaus Wirth's PL/0](https://en.wikipedia.org/wiki/Recursive_descent_parser) in the Wikipedia. 
 * [Tiny Basic](https://en.wikipedia.org/wiki/Tiny_BASIC)
 * [Let's write a recursive-descent parser in C (Part 1)](https://youtu.be/N55XNj8KjC4) YouTube
