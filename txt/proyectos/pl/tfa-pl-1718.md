@@ -19,6 +19,7 @@ manipulación de GitHub
 
 ```
 do {
+  use('github'),
   :=(pl, org("ULL-ESIT-PL-1718")), # Object describing the org
   :=(peoplePL, people(pl)), # Array of objects with the people in the org
   :=(alus, /alu\d+/.match(peoplePL.names())), # Array of strings 
@@ -32,6 +33,7 @@ La idea general es extender el lenguaje [Egg](https://github.com/ULL-ESIT-PL-171
 
 ```
 do {
+  use('science'),
   :=(v1, arr(4, 5, 9)),
   :=(v2, arr(3, 2, 7)), 
   :=(s, +(v1, v2)),
@@ -45,6 +47,7 @@ La idea general es extender el lenguaje [Egg](https://github.com/ULL-ESIT-PL-171
 
 ```
 tasks {
+  use('tasks'),
   task(compile: sh("gcc hello.c"), depends: "mylib"),
   task(mylib: sh("gcc -c -o mylib.o mylib.c")),
   task(default: "compile")
