@@ -15,6 +15,7 @@ Diseñe un lenguaje de programación sencillo (Sintáxis convencional *a la C/BA
 * [The C Proggaming Language](https://cs.indstate.edu/~cbasavaraj/cs559/the_c_programming_language_2.pdf) léase la descripción de la gramática de C
 * [Gramática de JS en PEGjs](https://github.com/pegjs/pegjs/blob/master/examples/javascript.pegjs)
 * [Python Grammar](https://docs.python.org/3/reference/grammar.html)
+* [Ruby Grammar](https://www.cse.buffalo.edu/~regan/cse305/RubyBNF.pdf)
 
 ##### Requisitos
 
