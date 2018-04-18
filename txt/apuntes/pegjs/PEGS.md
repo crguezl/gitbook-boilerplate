@@ -6,11 +6,11 @@
 * [Documentación del Módulo PEG.js](https://pegjs.org/documentation)
 * [Introducción a los PEGs](http://crguezl.github.io/pl-html/node31.html)
   - 0.10.0 `s/buildParser/generate/`
-  - 0.10.0 Se necesita poner `--format`: `pegjs --format globals -e pl0 -o public/pl0.js -e pl0 lib/pl0.pegjs`
+  - 0.10.0 Para la versión web: Se necesita poner `--format`: `pegjs --format globals -e pl0 -o public/pl0.js -e pl0 lib/pl0.pegjs`
 * [PEGJS](http://crguezl.github.io/pl-html/node32.html)
-* [La Calculadora Simple](http://crguezl.github.io/pl-html/node33.html)
-* [Eliminación de la Recursividad por la Izquierda en PEGs](http://crguezl.github.io/pl-html/node37.html#SECTION04472000000000000000)
-* [Dangling else: Asociando un else con su if mas cercano](http://crguezl.github.io/pl-html/node38.html#SECTION04482000000000000000)
+* [La Calculadora Simple](http://crguezl.github.io/pl-html/node33.html) (Viejos apuntes)
+* [Eliminación de la Recursividad por la Izquierda en PEGs](http://crguezl.github.io/pl-html/node37.html#SECTION04472000000000000000) (Viejos apuntes)
+* [Dangling else: Asociando un else con su if mas cercano](http://crguezl.github.io/pl-html/node38.html#SECTION04482000000000000000) (Viejos apuntes)
 
 
 ###  Repositorios
@@ -32,6 +32,11 @@
 
 !INCLUDE "pegjsbacktracking.md"
 
+###  Una Calculadora. Left recursion removed. Como Hacer Análisis Léxico en PEGs.
+
+* [simple_reduce.pegjs](https://github.com/ULL-ESIT-PL-1617/pegjs-examples/blob/master/simple_reduce.pegjs)
+* [use_simple.js](https://github.com/ULL-ESIT-PL-1617/pegjs-examples/blob/master/use_simple.js)
+* [Compiling simple_reduce.pegjs](https://github.com/ULL-ESIT-PL-1617/pegjs-examples/blob/master/Rakefile#L24-L27): `pegjs -o simple.js simple_reduce.pegjs`
 
 ### Ejemplos
 
