@@ -11,7 +11,11 @@ facilitar la resolución de problemas de un contexto específico que sea del int
 * En cada caso busque en npm librerías que le den apoyo para que la tarea resulte mas fácil
 * Estas extensiones debería estar en módulos separados que extienden Egg usando el patrón register-strategy
 * Otra idea es implementar el operador punto (dot) para los atributos `x.b.length` como un `apply`y no como parte de la `word`.
-Esta aproximación creo que resuelve algunas limitaciones en el lenguaje.
+  Esta aproximación creo que resuelve algunas limitaciones en el lenguaje. Por ejemplo, podríamos escribir:
+  ```
+    print(array[1, 4, "a"].push(5)),
+  ```
+
 
 #### Ejemplo: Egg para facilitar el manejo de GitHub
 
