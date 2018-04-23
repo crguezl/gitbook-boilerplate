@@ -15,6 +15,19 @@ facilitar la resolución de problemas de un contexto específico que sea del int
   ```
     print(array[1, 4, "a"].push(5)),
   ```
+* Lograr que un programa como este funcione:
+  ```
+  # Not implemented
+  # We have to change the way an Egg func is translated (in environment.js)
+  do(
+    :=(x, arr[1,2,3,4]),
+    :=(z, 
+        x.map(->{ element, *(element, element) })
+      ),
+    print(z),# [ 1, 4, 9, 16 ]
+  )
+  ```
+
 
 
 #### Ejemplo: Egg para facilitar el manejo de GitHub
