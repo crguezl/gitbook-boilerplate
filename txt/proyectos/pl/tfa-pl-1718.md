@@ -1,7 +1,7 @@
 <!-- toc -->
 ## Trabajo Fin de Asignatura PL 17/18
 
-### Objetivo
+### Introducción
 
 La idea general es extender el lenguaje [Egg](https://github.com/ULL-ESIT-PL-1617/egg)
 o el lenguaje [Calc](https://crguezl.github.io/ull-esit-1617/_book/practicas/practica-calc-egg.html)
@@ -10,11 +10,17 @@ o el lenguaje [Calc](https://crguezl.github.io/ull-esit-1617/_book/practicas/pra
 facilitar la resolución de problemas de un contexto específico que sea del interés del alumno
 * En cada caso busque en npm librerías que le den apoyo para que la tarea resulte mas fácil
 * Estas extensiones debería estar en módulos separados que extienden Egg usando el patrón register-strategy
+
+#### Ejemplo: El punto como Apply
+
 * Otra idea es implementar el operador punto (dot) para los atributos `x.b.length` como un `apply`y no como parte de la `word`.
   Esta aproximación creo que resuelve algunas limitaciones en el lenguaje. Por ejemplo, podríamos escribir:
   ```
     print(array[1, 4, "a"].push(5)),
   ```
+
+#### Ejemplo: atributos de objetos JS y funciones
+
 * Lograr que un programa como este funcione:
   ```
   # Not implemented
@@ -27,8 +33,6 @@ facilitar la resolución de problemas de un contexto específico que sea del int
     print(z),# [ 1, 4, 9, 16 ]
   )
   ```
-
-
 
 #### Ejemplo: Egg para facilitar el manejo de GitHub
 
