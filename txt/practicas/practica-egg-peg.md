@@ -3,10 +3,11 @@
 ### Descripción
 
 
-Re-escriba la fase de anráalisis sintáctico [del lenguaje Egg](https://github.com/ULL-ESIT-PL-1617/egg/blob/master/README.md) usando PEG.js
+Re-escriba la fase de análisis sintáctico [del lenguaje Egg](https://github.com/ULL-ESIT-PL-1617/egg/blob/master/README.md) usando PEG.js
 
 ### Recursos
 
+* [PEGs](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/pegjs/PEGS.html)
 * [El lenguaje egg: repo en GitHub](https://github.com/ULL-ESIT-PL-1617/egg)
 * [Eloquent JS: Chapter 11. Project: A Programming Language](http://eloquentjavascript.net/11_language.html)
 * [Repo interpreter-egg](https://github.com/ULL-ESIT-PL-1617/interpreter-egg)
