@@ -15,12 +15,12 @@ Diseñe un lenguaje de programación sencillo (Sintáxis convencional *a la C/BA
       - Un intérprete para la VM
   * [Syntax of Mini-Pascal](https://www.cs.helsinki.fi/u/vihavain/k06/okk/items/minipascalsyntax.html)
 * Sencillos
-  * [Niklaus Wirth's PL/0](https://en.wikipedia.org/wiki/Recursive_descent_parser) in the Wikipedia.  Muy sencillo
-  * [Tiny Basic](https://en.wikipedia.org/wiki/Tiny_BASIC). Muy simplón
-  * Dos vídeos en YouTube implementando una sencilla calculadora en C usando la técnica PDR. Introductorio:
+  * Dos vídeos en YouTube implementando una sencilla calculadora en C usando la técnica PDR. Si estas empezando
     * [Let's write a recursive-descent parser in C (Part 1)](https://youtu.be/N55XNj8KjC4) YouTube
     * [Let's write a recursive-descent parser in C (Part 2)](https://youtu.be/NdW_ApiaivU) YouTube
-* Complicado pero posible
+  * [Tiny Basic](https://en.wikipedia.org/wiki/Tiny_BASIC). Muy sencillo
+  * [Niklaus Wirth's PL/0](https://en.wikipedia.org/wiki/Recursive_descent_parser) in the Wikipedia.  Sencillo
+* Complicados pero posibles
   * [The C Proggaming Language](https://cs.indstate.edu/~cbasavaraj/cs559/the_c_programming_language_2.pdf) léase la descripción de la gramática de C. Páginas 234 a la 239
   * [Irie Pascal Grammar](http://www.irietools.com/iriepascal/progref534.html)
 * Mucho trabajo. Complicados:
