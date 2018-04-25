@@ -29,7 +29,7 @@ Diseñe un lenguaje de programación sencillo (Sintáxis convencional *a la C/BA
   * [Ruby Grammar](https://www.cse.buffalo.edu/~regan/cse305/RubyBNF.pdf)
   * [Java Grammar](https://docs.oracle.com/javase/specs/jls/se7/html/jls-18.html)
 
-Posiblemente las mas recomendables para empezar son Tiny-C y Mini-Pascal. Después puede usar als otras para respondeer a la pregunta ¿como amplío el lenguaje con ...?
+Posiblemente las mas recomendables para empezar son Tiny-C y Mini-Pascal. Después puede usar las otras para respondeer a la pregunta ¿como amplío el lenguaje con ...?
 
 ##### Requisitos
 
