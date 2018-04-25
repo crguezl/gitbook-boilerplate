@@ -6,24 +6,28 @@ Diseñe un lenguaje de programación sencillo (Sintáxis convencional *a la C/BA
 
 ##### Posibles puntos de partida
 
-* [Tiny-C](https://github.com/ULL-ESIT-PL-1718/tiny-c) 
-    - Un subconjunto hiper-minimal de C con un compilador y una VM  escritas en C. 
-    - Contiene un lexer
-    - Un parser PDR que construye un AST
-    - Un generador de código para una VM
-    - Un intérprete para la VM
-* [Syntax of Mini-Pascal](https://www.cs.helsinki.fi/u/vihavain/k06/okk/items/minipascalsyntax.html)
-* [Irie Pascal Grammar](http://www.irietools.com/iriepascal/progref534.html)
-* [Niklaus Wirth's PL/0](https://en.wikipedia.org/wiki/Recursive_descent_parser) in the Wikipedia.  Muy sencillo
-* [Tiny Basic](https://en.wikipedia.org/wiki/Tiny_BASIC). Muy simplón
-* Dos vídeos en YouTube implementando una sencilla calculadora en C usando la técnica PDR. Introductorio:
-  * [Let's write a recursive-descent parser in C (Part 1)](https://youtu.be/N55XNj8KjC4) YouTube
-  * [Let's write a recursive-descent parser in C (Part 2)](https://youtu.be/NdW_ApiaivU) YouTube
-* [The C Proggaming Language](https://cs.indstate.edu/~cbasavaraj/cs559/the_c_programming_language_2.pdf) léase la descripción de la gramática de C. Páginas 234 a la 239
-* [Gramática de JS en PEGjs](https://github.com/pegjs/pegjs/blob/master/examples/javascript.pegjs)
-* [Python Grammar](https://docs.python.org/3/reference/grammar.html)
-* [Ruby Grammar](https://www.cse.buffalo.edu/~regan/cse305/RubyBNF.pdf)
-* [Java Grammar](https://docs.oracle.com/javase/specs/jls/se7/html/jls-18.html)
+* Buenos puntos de partida
+  * [Tiny-C](https://github.com/ULL-ESIT-PL-1718/tiny-c) 
+      - Un subconjunto hiper-minimal de C con un compilador y una VM  escritas en C. 
+      - Contiene un lexer
+      - Un parser PDR que construye un AST
+      - Un generador de código para una VM
+      - Un intérprete para la VM
+  * [Syntax of Mini-Pascal](https://www.cs.helsinki.fi/u/vihavain/k06/okk/items/minipascalsyntax.html)
+* Sencillos
+  * [Niklaus Wirth's PL/0](https://en.wikipedia.org/wiki/Recursive_descent_parser) in the Wikipedia.  Muy sencillo
+  * [Tiny Basic](https://en.wikipedia.org/wiki/Tiny_BASIC). Muy simplón
+  * Dos vídeos en YouTube implementando una sencilla calculadora en C usando la técnica PDR. Introductorio:
+    * [Let's write a recursive-descent parser in C (Part 1)](https://youtu.be/N55XNj8KjC4) YouTube
+    * [Let's write a recursive-descent parser in C (Part 2)](https://youtu.be/NdW_ApiaivU) YouTube
+* Complicado pero posible
+  * [The C Proggaming Language](https://cs.indstate.edu/~cbasavaraj/cs559/the_c_programming_language_2.pdf) léase la descripción de la gramática de C. Páginas 234 a la 239
+  * [Irie Pascal Grammar](http://www.irietools.com/iriepascal/progref534.html)
+* Mucho trabajo. Complicados:
+  * [Gramática de JS en PEGjs](https://github.com/pegjs/pegjs/blob/master/examples/javascript.pegjs)
+  * [Python Grammar](https://docs.python.org/3/reference/grammar.html)
+  * [Ruby Grammar](https://www.cse.buffalo.edu/~regan/cse305/RubyBNF.pdf)
+  * [Java Grammar](https://docs.oracle.com/javase/specs/jls/se7/html/jls-18.html)
 
 Posiblemente las mas recomendables para empezar son Tiny-C y Mini-Pascal. Después puede usar als otras para respondeer a la pregunta ¿como amplío el lenguaje con ...?
 
