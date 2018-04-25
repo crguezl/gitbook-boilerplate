@@ -10,9 +10,10 @@ Diseñe un lenguaje de programación sencillo (Sintáxis convencional *a la C/BA
 * [Irie Pascal Grammar](http://www.irietools.com/iriepascal/progref534.html)
 * [Niklaus Wirth's PL/0](https://en.wikipedia.org/wiki/Recursive_descent_parser) in the Wikipedia. 
 * [Tiny Basic](https://en.wikipedia.org/wiki/Tiny_BASIC)
-* [Let's write a recursive-descent parser in C (Part 1)](https://youtu.be/N55XNj8KjC4) YouTube
-* [Let's write a recursive-descent parser in C (Part 2)](https://youtu.be/NdW_ApiaivU) YouTube
-* [The C Proggaming Language](https://cs.indstate.edu/~cbasavaraj/cs559/the_c_programming_language_2.pdf) léase la descripción de la gramática de C. Página 234
+* Dos vídeos implementando una sencilla calculadora en C usando la técnica PDR:
+  * [Let's write a recursive-descent parser in C (Part 1)](https://youtu.be/N55XNj8KjC4) YouTube
+  * [Let's write a recursive-descent parser in C (Part 2)](https://youtu.be/NdW_ApiaivU) YouTube
+* [The C Proggaming Language](https://cs.indstate.edu/~cbasavaraj/cs559/the_c_programming_language_2.pdf) léase la descripción de la gramática de C. Páginas 234 a la 239
 * [Gramática de JS en PEGjs](https://github.com/pegjs/pegjs/blob/master/examples/javascript.pegjs)
 * [Python Grammar](https://docs.python.org/3/reference/grammar.html)
 * [Ruby Grammar](https://www.cse.buffalo.edu/~regan/cse305/RubyBNF.pdf)
