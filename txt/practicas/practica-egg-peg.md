@@ -7,7 +7,8 @@ Re-escriba la fase de análisis sintáctico [del lenguaje Egg](https://github.co
 
 ### Recursos
 
-* [PEGs](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/pegjs/PEGS.html)
+* [PEGs](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/apuntes/pegjs/PEGS.html) Viejos apuntes del profesor
+* [PEG.js](https://pegjs.org/documentation) PEG.js Documentation
 * [El lenguaje egg: repo en GitHub](https://github.com/ULL-ESIT-PL-1617/egg)
 * [Eloquent JS: Chapter 11. Project: A Programming Language](http://eloquentjavascript.net/11_language.html)
 * [Repo interpreter-egg](https://github.com/ULL-ESIT-PL-1617/interpreter-egg)
