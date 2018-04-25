@@ -6,6 +6,7 @@ Diseñe un lenguaje de programación sencillo (Sintáxis convencional *a la C/BA
 
 ##### Posibles puntos de partida
 
+* [Tiny-C](https://github.com/ULL-ESIT-PL-1718/tiny-c) Un subconjunto hiper-minimal de C. PDR en C
 * [Syntax of Mini-Pascal](https://www.cs.helsinki.fi/u/vihavain/k06/okk/items/minipascalsyntax.html)
 * [Irie Pascal Grammar](http://www.irietools.com/iriepascal/progref534.html)
 * [Niklaus Wirth's PL/0](https://en.wikipedia.org/wiki/Recursive_descent_parser) in the Wikipedia. 
@@ -18,6 +19,8 @@ Diseñe un lenguaje de programación sencillo (Sintáxis convencional *a la C/BA
 * [Python Grammar](https://docs.python.org/3/reference/grammar.html)
 * [Ruby Grammar](https://www.cse.buffalo.edu/~regan/cse305/RubyBNF.pdf)
 * [Java Grammar](https://docs.oracle.com/javase/specs/jls/se7/html/jls-18.html)
+
+Posiblemente la mas sencillita de esta lista que no sea trivial, es la gramática de Mini-Pascal.
 
 ##### Requisitos
 
