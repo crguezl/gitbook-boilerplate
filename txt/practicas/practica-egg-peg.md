@@ -5,7 +5,12 @@
 
 Re-escriba la fase de análisis sintáctico [del lenguaje Egg](https://github.com/ULL-ESIT-PL-1617/egg/blob/master/README.md) usando PEG.js. Básicamente el único fichero que cambia es `parse.js` que será generado a partir de `parse.peg`.
 
-En `parse.peg` irá el análisis del léxico+sintáctico del lenguaje (este es un buen momento para meditar su diseño del lenguaje e introducir modificaciones) con las acciones de construcción del AST (medite también sobre si quiere rediseñar algo en su AST).
+En `parse.peg` irá 
+  * El análisis del léxico+sintáctico del lenguaje. 
+  * Recuerde dividir el fichero en dos secciones con la parte de tokens en un lado y la gramática en el otro
+  * Este es un buen momento para meditar su diseño del lenguaje Egg e introducir modificaciones
+  * Las acciones semánticas son las de construcción del AST 
+  * Medite también sobre si quiere rediseñar algo en su AST
 
 
 ### Recursos
