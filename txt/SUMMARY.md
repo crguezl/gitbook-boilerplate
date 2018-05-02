@@ -260,6 +260,7 @@
 * [Práctica: El lenguaje egg: (4)](practicas/practica-egg-4.md)
 * [Práctica: Un lenguaje mas convencional](practicas/practica-calc-egg.md)
 * [Práctica: Egg en PEG.js](practicas/practica-egg-peg.md)
+* [Práctica: Traductos en Jison de Lenguaje Infijo a EVM](practicas/practica-jison-calc-egg.md)
 
 
 
