@@ -19,6 +19,43 @@ facilitar la resolución de problemas de un contexto específico que sea del int
     print(array[1, 4, "a"].push(5)),
   ```
 
+La gramática nueva sería así:
+
+
+```Yacc
+
+expression: STRING
+          | NUMBER
+          | WORD apply 
+
+apply: /* vacio */
+     | '(' (expression ',')* expression? ')' apply
+     | '.' word
+
+
+WHITES = /^(\s|[#;].*|\/\*(.|\n)*?\*\/)*/;
+STRING = /^"((?:[^"\\]|\\.)*)"/;
+NUMBER = /^([-+]?\d*\.?\d+([eE][-+]?\d+)?)/;
+WORD   = /^([^.\s(),"]+)/;  /* ahora no tiene al punto */
+```
+y el parser debería reflejar esa gramática. El [parseApply](https://github.com/ULL-ESIT-PL-1718/egg-3-alu0100969535/blob/master/lib/parse.js#L139-L177) actual no refleja bien esto.
+
+Fíjate que una frase como:
+
+```
+a.b
+```
+
+debe ser  interpretada como
+
+```
+a["b"]
+```
+
+Con la adición de que:
+ 
+* Si `t = a.b` es una función deberás llamar a `t.bind(a)`  para que ponga el `this` de `t` a `a` . 
+
 #### Ejemplo: atributos de objetos JS y funciones
 
 * Lograr que un programa como este funcione:
