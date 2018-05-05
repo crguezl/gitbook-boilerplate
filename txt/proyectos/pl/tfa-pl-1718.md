@@ -56,21 +56,6 @@ Con la adición de que:
  
 * Si `t = a.b` es una función deberás llamar a `t.bind(a)`  para que ponga el `this` de `t` a `a` . 
 
-#### Ejemplo: atributos de objetos JS y funciones
-
-* Lograr que un programa como este funcione:
-  ```
-  # Not implemented
-  # We have to change the way an Egg func is translated (in environment.js)
-  do(
-    :=(x, arr[1,2,3,4]),
-    :=(z, 
-        x.map(->{ element, *(element, element) })
-      ),
-    print(z),# [ 1, 4, 9, 16 ]
-  )
-  ```
-
 #### Ejemplo: Egg para facilitar el manejo de GitHub
 
 La idea general es extender el lenguaje [Egg](https://github.com/ULL-ESIT-PL-1718/egg) con funcionalidades para la 
