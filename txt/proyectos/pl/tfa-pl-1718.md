@@ -56,6 +56,12 @@ Con la adición de que:
  
 * Si `t = a.b` es una función deberás llamar a `t.bind(a)`  para que ponga el `this` de `t` a `a` . 
 
+##### NOTA:
+
+Quizá no sea necesario cambiar la gramática: Si el analizador léxico interpreta un dot como poner la word que le sigue entre paréntesis *engañando* al analizador sintáctico:
+
+La frase `x.y.z` es interpretada como `x(y)(z)` y el dot se convertiría automáticamente en un `apply`
+
 #### Ejemplo: Egg para facilitar el manejo de GitHub
 
 La idea general es extender el lenguaje [Egg](https://github.com/ULL-ESIT-PL-1718/egg) con funcionalidades para la 
