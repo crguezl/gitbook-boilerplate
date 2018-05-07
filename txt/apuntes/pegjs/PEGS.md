@@ -93,12 +93,6 @@ presented in the second half of the talk.
 to do static analysis on JavaScript code.
   * [idgrep.js](https://github.com/pdubroy/jsconfeu-talk/blob/master/idgrep.js)
 
-### Tree Transformations
-
-* [TreeHugger](https://github.com/ajaxorg/treehugger)
-* [recast](https://github.com/benjamn/recast)
-
-
 ### Borrador
 
 * [borrador](pegjs.md) (work in progress. Don't look here)
