@@ -11,10 +11,14 @@ to do static analysis on JavaScript code.
 
 ### Tree Transformations
 
-* [TreeHugger](https://github.com/ajaxorg/treehugger)
-* [TreeHugger demo](http://ajaxorg.github.io/treehugger/test.html)
-* [Acorn](https://github.com/acornjs/acorn) A small, fast, JavaScript-based JavaScript parser
-* [by Marijn Haverbeke. Acorn: yet another JavaScript parser](http://marijnhaverbeke.nl/blog/acorn.html)
+* [Master the Art of the AST & Take Control of Your JS](https://youtu.be/Xt7PFzOBTPk) YouTube. On 28/06/16, Yonatan Mevorach gave a lecture about Abstract Syntax Tree during a JavaScript Israel Meetup.
+* [http://astexplorer.net/](http://astexplorer.net/)
+* TreeHugger
+  * [TreeHugger](https://github.com/ajaxorg/treehugger)
+  * [TreeHugger demo](http://ajaxorg.github.io/treehugger/test.html)
+* Acorn
+  * [Acorn](https://github.com/acornjs/acorn) A small, fast, JavaScript-based JavaScript parser
+  * [by Marijn Haverbeke. Acorn: yet another JavaScript parser](http://marijnhaverbeke.nl/blog/acorn.html)
 * [Harnessing The Power of Abstract Syntax Trees by Jamund Ferguson](https://youtu.be/8uOXIM4giH8) YouTube
 * [recast](https://github.com/benjamn/recast)
 
