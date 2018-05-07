@@ -14,6 +14,8 @@ to do static analysis on JavaScript code.
 * [TreeHugger](https://github.com/ajaxorg/treehugger)
 * [TreeHugger demo](http://ajaxorg.github.io/treehugger/test.html)
 * [Acorn](https://github.com/acornjs/acorn) A small, fast, JavaScript-based JavaScript parser
+* [by Marijn Haverbeke. Acorn: yet another JavaScript parser](http://marijnhaverbeke.nl/blog/acorn.html)
+* [Harnessing The Power of Abstract Syntax Trees by Jamund Ferguson](https://youtu.be/8uOXIM4giH8) YouTube
 * [recast](https://github.com/benjamn/recast)
 
 
