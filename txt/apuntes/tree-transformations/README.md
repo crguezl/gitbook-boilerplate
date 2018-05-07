@@ -11,7 +11,8 @@ to do static analysis on JavaScript code.
 
 ### Tree Transformations
 
-* [Master the Art of the AST & Take Control of Your JS](https://youtu.be/Xt7PFzOBTPk) YouTube. On 28/06/16, Yonatan Mevorach gave a lecture about Abstract Syntax Tree during a JavaScript Israel Meetup.
+* [Master the Art of the AST & Take Control of Your JS](https://youtu.be/Xt7PFzOBTPk) YouTube. On 28/06/16, Yonatan Mevorach gave a lecture about Abstract Syntax Tree during a JavaScript Israel Meetup. Yonatan Mevorach
+* [](https://speakerdeck.com/cowchimp/master-the-art-of-the-ast-codemotion-2017)
 * [http://astexplorer.net/](http://astexplorer.net/)
 * TreeHugger
   * [TreeHugger](https://github.com/ajaxorg/treehugger)
