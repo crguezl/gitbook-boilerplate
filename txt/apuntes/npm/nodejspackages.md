@@ -61,6 +61,10 @@ Para escribir documentación para una API
 - [jsdoc](https://www.npmjs.com/package/jsdoc), 
 - [docco](http://jashkenas.github.io/docco/)
 
+#### Man pages
+
+* [Creating Man Pages in Markdown with Ronn](https://spin.atomicobject.com/2015/05/06/man-pages-in-markdown-ronn/)
+
 ### Instalación desde GitHub
 
 You can install packages directly from Github, and even specify a tag, sha, or branch if you want.
