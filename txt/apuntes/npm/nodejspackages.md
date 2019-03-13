@@ -64,6 +64,8 @@ Para escribir documentación para una API
 #### Man pages
 
 * [Creating Man Pages in Markdown with Ronn](https://spin.atomicobject.com/2015/05/06/man-pages-in-markdown-ronn/)
+* [rtomayko/ronn](https://github.com/rtomayko/ronn)
+* [How to add man pages to your npm package](https://docs.npmjs.com/files/package.json#man)
 
 ### Instalación desde GitHub
 
